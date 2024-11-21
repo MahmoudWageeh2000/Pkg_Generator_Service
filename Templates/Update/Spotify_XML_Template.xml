@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product-update id="{{ album.album_ubc }}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spotify.com/ns/delivery/9.0" xsi:schemaLocation="http://www.spotify.com/ns/delivery/9.0 spotify.xsd">
+	
+	<id type="upc">{{ album.album_ubc }}</id>
+	
+	<type>{{ album.release_type}}</type>
+	
+	<title>{{ album.album_name }}</title>
+  <title lang="ar">{{ album.album_name_a }}</title>
+
+  <genre>{{ album.release_year}}</genre>
+
+	<original-release-date>{{ album.release_year}}</original-release-date>
+	
+	<copyright type="p">{{ album.release_year}} {{album.label_name}}</copyright>
+	<copyright type="c">{{ album.release_year}} {{album.label_name}}</copyright>
+	
+	<label>{{album.label_name}}</label>
+	<licensor>
+		<id>f0b35870-775d-4715-b302-926e4407b43b</id>
+		<description>Mazzika Group</description>
+	</licensor>
+
+	<coverart>
+		<filename>{{ album.album_ubc }}.jpg</filename>
+		<checksum type="md5">@[HASH_SUM_IMAGE]@</checksum>
+	</coverart>
+
+	<artist>
+		<name>{{album.album_artist}}</name>
+	</artist>
+
+	<disc number="{{album.disc_num}">
+
+		{{~ for asset in album.asset_list ~}}
+		<track number="{{ asset.track_num }}">
+			<id type="isrc">{{ asset.asset_isrc }}</id>
+			<title>{{ asset.track_name }}</title>
+      <title lang="ar">{{ asset.track_name_a }}</title>
+      <copyright type="p">{{ asset.release_year}} {{asset.label_name}}</copyright>
+      <parental-warning>not-explicit</parental-warning>
+
+      <artist>
+				<name>{{ asset.track_artist }}</name>
+				<role>main artist</role>
+			</artist>
+
+			{{~ for track_featured_artist in asset.track_featured_artist_list_string ~}}
+			<artist>
+        <name>{{ track_featured_artist.name }}</name>
+        <role>featured artist</role>
+      </artist>
+
+			{{~ end ~}}
+			<restriction>
+				{{~ for country_code in album.country_iso_code_list_string ~}}
+				<exception country="{{ country_code }}" start="{{asset.start_date}}"/>
+				{{~ end ~}}
+			</restriction>
+
+		</track>
+			{{~ end ~}}
+	</disc>
+</product-update>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ern:NewReleaseMessage MessageSchemaVersionId="ern/382" LanguageAndScriptCode="en" 
+					   xs:schemaLocation="http://ddex.net/xml/ern/382 http://ddex.net/xml/ern/382/release-notification.xsd" 
+					   xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:ern="http://ddex.net/xml/ern/382">
+	<MessageHeader>
+    <MessageThreadId>{{ album.album_ubc }}{{ album.creation_date }}</MessageThreadId>
+    <MessageId>{{ album.album_ubc }}</MessageId>
+		<MessageSender>
+			<PartyId>PADPIDA20131118019</PartyId>
+			<PartyName>
+				<FullName>Mazzika Group</FullName>
+			</PartyName>
+		</MessageSender>
+		<SentOnBehalfOf>
+			<PartyId>PADPIDA20131118019</PartyId>
+			<PartyName>
+				<FullName>Mazzika Group</FullName>
+			</PartyName>
+		</SentOnBehalfOf>
+		<MessageRecipient>
+			<PartyId>PADPIDA2018010804X</PartyId>
+			<PartyName>
+				<FullName>Facebook_AAP</FullName>
+			</PartyName>
+		</MessageRecipient>
+		<MessageRecipient>
+			<PartyId>PADPIDA2013071501L</PartyId>
+			<PartyName>
+				<FullName>Facebook_SRP</FullName>
+			</PartyName>
+		</MessageRecipient>
+    <MessageCreatedDateTime>{{ album.date_time }}</MessageCreatedDateTime>
+		<MessageControlType>LiveMessage</MessageControlType>
+	</MessageHeader>
+	<UpdateIndicator xmlns="">UpdateMessage</UpdateIndicator>
+	<ResourceList>
+    {{~ for asset in album.asset_list ~}}
+    <SoundRecording>
+			<SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+			<SoundRecordingId>
+				<ISRC>{{ asset.asset_isrc }}</ISRC>
+				<CatalogNumber Namespace="DPID:">{{ asset.asset_isrc }}</CatalogNumber>
+				<ProprietaryId Namespace="DPID:">ID:{{ asset.asset_isrc }}</ProprietaryId>
+			</SoundRecordingId>
+      <ResourceReference>A{{ asset.track_num }}</ResourceReference>
+			<ReferenceTitle>
+				<TitleText>{{ asset.track_name }}</TitleText>
+			</ReferenceTitle>
+      <Duration>{{ asset.fp_track_duration }}</Duration>
+			<SoundRecordingDetailsByTerritory>
+        {{~ for country_code in asset.country_iso_code_list_string ~}}
+        <TerritoryCode>{{ country_code }}</TerritoryCode>
+        {{~ end ~}}
+        <Title TitleType="DisplayTitle">
+					<TitleText>{{ asset.track_name }}</TitleText>
+				</Title>
+				<DisplayArtist>
+					<PartyName>
+						<FullName>{{ asset.track_artist }}</FullName>
+					</PartyName>
+					<ArtistRole>MainArtist</ArtistRole>
+				</DisplayArtist>
+        {{ for track_featured_artist in asset.track_featured_artist_list_string }}
+        <DisplayArtist>
+					<PartyName>
+						<FullName>{{ track_featured_artist.name  }}</FullName>
+					</PartyName>
+					<ArtistRole>FeaturedArtist</ArtistRole>
+				</DisplayArtist>
+        {{~ end ~}}
+        <LabelName>{{ asset.label_name }}</LabelName>
+				<RightsController>
+					<PartyName>
+						<FullName>Mazzika Group</FullName>
+					</PartyName>
+					<PartyId>PADPIDA20131118019</PartyId>
+					<RightsControllerRole>RightsController</RightsControllerRole>
+					<RightSharePercentage>0.00</RightSharePercentage>
+				</RightsController>
+				<OriginalResourceReleaseDate>{{ asset.release_date}}</OriginalResourceReleaseDate>
+				<PLine>
+          <Year>{{ asset.release_year}}</Year>
+          <PLineText>{{ asset.label_name }}</PLineText>
+        </PLine>
+        <Genre>
+          <GenreText>{{ asset.track_genre }}</GenreText>
+					<SubGenre/>
+				</Genre>
+				<ParentalWarningType>NotExplicit</ParentalWarningType>
+			</SoundRecordingDetailsByTerritory>
+		</SoundRecording>
+    {{~ end ~}}
+    <Image>
+			<ImageType>FrontCoverImage</ImageType>
+			<ImageId>
+				<ProprietaryId Namespace="DPID:">GGL_UIM_ID:{{ album.album_ubc }}</ProprietaryId>
+			</ImageId>
+			<ResourceReference>A{{ album.image_num }}</ResourceReference>
+			<ImageDetailsByTerritory>
+        {{~ for country_code in album.country_iso_code_list_string ~}}
+        <TerritoryCode>{{ country_code }}</TerritoryCode>
+        {{~ end ~}}
+      </ImageDetailsByTerritory>
+		</Image>
+	</ResourceList>
+	<ReleaseList>
+		<Release>
+			<ReleaseId>
+				<ICPN IsEan="true">{{ album.album_ubc }}</ICPN>
+				<CatalogNumber Namespace="DPID:">{{ album.album_ubc }}</CatalogNumber>
+				<ProprietaryId Namespace="DPID:">ID:{{ album.album_ubc }}</ProprietaryId>
+			</ReleaseId>
+			<ReleaseReference>R0</ReleaseReference>
+			<ReferenceTitle>
+				<TitleText>{{ album.album_name }}</TitleText>
+			</ReferenceTitle>
+			<ReleaseResourceReferenceList>
+        {{~ for asset in album.asset_list ~}}
+        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A{{asset.track_num}}</ReleaseResourceReference>
+        {{~ end ~}}
+        <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A{{album.image_num}}</ReleaseResourceReference>
+			</ReleaseResourceReferenceList>
+			<ReleaseType>{{album.release_type}}</ReleaseType>
+			<ReleaseDetailsByTerritory>
+        {{~ for country_code in album.country_iso_code_list_string ~}}
+        <TerritoryCode>{{ country_code }}</TerritoryCode>
+        {{~ end ~}}
+        <DisplayArtistName>{{album.album_artist}}</DisplayArtistName>
+        <LabelName>{{album.label_name}}</LabelName>
+				<Title TitleType="FormalTitle">
+					<TitleText>{{ album.album_name }}</TitleText>
+				</Title>
+				<Title TitleType="DisplayTitle">
+					<TitleText>{{ album.album_name }}</TitleText>
+				</Title>
+				<DisplayArtist>
+					<PartyName>
+						<FullName>{{album.album_artist}}</FullName>
+					</PartyName>
+					<ArtistRole>MainArtist</ArtistRole>
+				</DisplayArtist>
+        {{ for track_featured_artist in album.track_featured_artist_list_string }}
+        <DisplayArtist>
+					<PartyName>
+						<FullName>{{ track_featured_artist.name  }}</FullName>
+					</PartyName>
+					<ArtistRole>FeaturedArtist</ArtistRole>
+				</DisplayArtist>
+        {{~ end ~}}
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+				<ResourceGroup>
+					<ResourceGroup>
+						<Title TitleType="GroupingTitle">
+							<TitleText>Disc {{album.disc_num}}</TitleText>
+						</Title>
+						<SequenceNumber>1</SequenceNumber>
+            {{~ for asset in album.asset_list ~}}
+            <ResourceGroupContentItem>
+							<SequenceNumber>{{asset.track_num}}</SequenceNumber>
+							<ResourceType>SoundRecording</ResourceType>
+							<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A{{asset.track_num}}</ReleaseResourceReference>
+						</ResourceGroupContentItem>
+            {{~ end ~}}
+          </ResourceGroup>
+					<ResourceGroupContentItem>
+						<ResourceType>Image</ResourceType>
+						<ReleaseResourceReference ReleaseResourceType="SecondaryResource">A{{ album.image_num }}</ReleaseResourceReference>
+					</ResourceGroupContentItem>
+				</ResourceGroup>
+				<Genre>
+          <GenreText>{{ album.track_genre }}</GenreText>
+          <SubGenre/>
+				</Genre>
+        <OriginalReleaseDate>{{ album.release_date }}</OriginalReleaseDate>
+			</ReleaseDetailsByTerritory>
+			<PLine>
+        <Year>{{ album.release_year }}</Year>
+        <PLineText>{{ album.label_name }}</PLineText>
+      </PLine>
+      <CLine>
+        <Year>{{ album.release_year }}</Year>
+        <CLineText>{{ album.label_name }}</CLineText>
+			</CLine>
+		</Release>
+    {{~ for asset in album.asset_list ~}}
+    <Release>
+			<ReleaseId>
+        <ISRC>{{ asset.asset_isrc }}</ISRC>
+				<CatalogNumber Namespace="DPID:">{{ asset.asset_isrc }}</CatalogNumber>
+			</ReleaseId>
+			<ReleaseReference>R{{asset.track_num}}</ReleaseReference>
+			<ReferenceTitle>
+				<TitleText>{{ asset.track_name }}</TitleText>
+			</ReferenceTitle>
+			<ReleaseResourceReferenceList>
+				<ReleaseResourceReference>A{{asset.track_num}}</ReleaseResourceReference>
+			</ReleaseResourceReferenceList>
+			<ReleaseType>TrackRelease</ReleaseType>
+			<ReleaseDetailsByTerritory>
+        {{~ for country_code in asset.country_iso_code_list_string ~}}
+        <TerritoryCode>{{ country_code }}</TerritoryCode>
+        {{~ end ~}}
+        <DisplayArtistName>{{ asset.track_artist }}</DisplayArtistName>
+				<LabelName>{{ asset.label_name }}</LabelName>
+				<Title TitleType="FormalTitle">
+					<TitleText>{{ asset.track_name }}</TitleText>
+				</Title>
+				<Title TitleType="DisplayTitle">
+					<TitleText>{{ asset.track_name }}</TitleText>
+				</Title>
+				<DisplayArtist>
+					<PartyName>
+            <FullName>{{ asset.track_artist }}</FullName>
+					</PartyName>
+					<ArtistRole>MainArtist</ArtistRole>
+				</DisplayArtist>
+        {{ for track_featured_artist in asset.track_featured_artist_list_string }}
+        <DisplayArtist>
+					<PartyName>
+						<FullName>{{ track_featured_artist.name  }}</FullName>
+					</PartyName>
+					<ArtistRole>FeaturedArtist</ArtistRole>
+				</DisplayArtist>
+        {{~ end ~}}
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+				<ResourceGroup>
+					<SequenceNumber>1</SequenceNumber>
+					<ResourceGroupContentItem>
+						<SequenceNumber>{{asset.track_num}}</SequenceNumber>
+						<ResourceType>SoundRecording</ResourceType>
+						<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A{{asset.track_num}}</ReleaseResourceReference>
+					</ResourceGroupContentItem>
+				</ResourceGroup>
+				<Genre>
+					<GenreText>{{asset.track_genre}}</GenreText>
+					<SubGenre/>
+				</Genre>
+				<OriginalReleaseDate>{{ asset.release_date}}</OriginalReleaseDate>
+			</ReleaseDetailsByTerritory>
+			<PLine>
+        <Year>{{ asset.release_year}}</Year>
+				<PLineText>{{ asset.label_name }}</PLineText>
+			</PLine>
+			<CLine>
+        <Year>{{ asset.release_year}}</Year>
+				<CLineText>{{ asset.label_name }}</CLineText>
+			</CLine>
+		</Release>
+    {{~ end ~}}
+  </ReleaseList>
+	<DealList>
+		<ReleaseDeal>
+			<DealReleaseReference>R0</DealReleaseReference>
+			<Deal>
+				<DealReference>D1</DealReference>
+				<DealTerms>
+					<CommercialModelType>AsPerContract</CommercialModelType>
+					<Usage>
+						<UseType>UserMakeAvailableLabelProvided</UseType>
+					</Usage>
+          {{~ for country_code in album.country_iso_code_list_string ~}}
+          <TerritoryCode>{{ country_code }}</TerritoryCode>
+          {{~ end ~}}
+          <ValidityPeriod>
+						<EndDate>{{album.takedown_date}}</EndDate>
+					</ValidityPeriod>
+				</DealTerms>
+			</Deal>
+		</ReleaseDeal>
+		<ReleaseDeal>
+      {{~ for asset in album.asset_list ~}}
+      <DealReleaseReference>R{{asset.track_num}}</DealReleaseReference>
+      {{~ end ~}}
+      <Deal>
+				<DealReference>D2</DealReference>
+				<DealTerms>
+					<CommercialModelType>RightsClaimModel</CommercialModelType>
+					<Usage>
+						<UseType>UserMakeAvailableUserProvided</UseType>
+					</Usage>
+          {{~ for country_code in album.country_iso_code_list_string ~}}
+          <TerritoryCode>{{ country_code }}</TerritoryCode>
+          {{~ end ~}}
+          <ValidityPeriod>
+						<EndDate>{{asset.takedown_date}}</EndDate>
+					</ValidityPeriod>
+					<RightsClaimPolicy>
+						<RightsClaimPolicyType>Monetize</RightsClaimPolicyType>
+					</RightsClaimPolicy>
+				</DealTerms>
+			</Deal>
+		</ReleaseDeal>
+	</DealList>
+</ern:NewReleaseMessage>

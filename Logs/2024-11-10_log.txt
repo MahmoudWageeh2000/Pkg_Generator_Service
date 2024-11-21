@@ -1,0 +1,1286 @@
+11/10/2024 1:32:31 PM: Starting XML generation for package ID: 84, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+11/10/2024 1:32:31 PM: Success: fetched package info for ID: 84
+11/10/2024 1:32:31 PM: Processing group with Album UPC: 6221117026934
+11/10/2024 1:32:31 PM: Starting GetFolderPaths...
+11/10/2024 1:32:31 PM: Fetching package folder for company: Spotify
+11/10/2024 1:32:31 PM: Sucsses: PackageFolder set to: 20241110133231218
+11/10/2024 1:32:31 PM: Sucsses: Fetching resources folder for company: Spotify
+11/10/2024 1:32:31 PM: Sucsses: ResourcesFolder set to: 20241110133231218\6221117026934\resources
+11/10/2024 1:32:31 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/10/2024 1:32:31 PM: Sucsses: MetadataFile path set to: 20241110133231218\6221117026934\6221117026934.xml
+11/10/2024 1:32:31 PM: Sucsses: Final PackageFolder path: 84\20241110133231218
+11/10/2024 1:32:31 PM: Sucsses: Final ResourcesFolder path: 84\20241110133231218\6221117026934\resources
+11/10/2024 1:32:31 PM: Sucsses: Retrieved folder paths for package: 84
+11/10/2024 1:32:31 PM: Starting GetCover...
+11/10/2024 1:32:32 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117026934.jpg
+11/10/2024 1:32:32 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117026934.jpg
+11/10/2024 1:32:32 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\84\20241110133231218\6221117026934\resources
+11/10/2024 1:32:32 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117026934.jpg
+11/10/2024 1:32:32 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\84\20241110133231218\6221117026934\resources\6221117026934.jpg
+11/10/2024 1:32:32 PM: Start Getting Media For package info: 84
+11/10/2024 1:32:36 PM: Media data generated successfully.
+11/10/2024 1:32:36 PM: Success: generated XML for package ID: 84
+11/10/2024 1:32:36 PM: Starting XML generation for package ID: 85, Filename: TikTok_DDEX_XML_Template.xml, Company: TikTok
+11/10/2024 1:32:36 PM: Success: fetched package info for ID: 85
+11/10/2024 1:32:36 PM: Processing group with Album UPC: 6221117165909
+11/10/2024 1:32:36 PM: Starting GetFolderPaths...
+11/10/2024 1:32:36 PM: Sucsses: PackageFolder trimmed to: 20241110133231218
+11/10/2024 1:32:36 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:32:36 PM: Sucsses: ResourcesFolder set to: 20241110133231218\6221117165909\resources
+11/10/2024 1:32:36 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:32:36 PM: Sucsses: MetadataFile path set to: 20241110133231218\6221117165909\6221117165909.xml
+11/10/2024 1:32:36 PM: Sucsses: Final PackageFolder path: 85\20241110133231218
+11/10/2024 1:32:36 PM: Sucsses: Final ResourcesFolder path: 85\20241110133231218\6221117165909\resources
+11/10/2024 1:32:36 PM: Sucsses: Retrieved folder paths for package: 85
+11/10/2024 1:32:36 PM: Starting GetCover...
+11/10/2024 1:32:37 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/10/2024 1:32:37 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/10/2024 1:32:37 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\85\20241110133231218\6221117165909\resources
+11/10/2024 1:32:37 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/10/2024 1:32:37 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\85\20241110133231218\6221117165909\resources\6221117165909.jpg
+11/10/2024 1:32:37 PM: Start Getting Media For package info: 85
+11/10/2024 1:32:38 PM: Media data generated successfully.
+11/10/2024 1:32:38 PM: Success: generated XML for package ID: 85
+11/10/2024 1:32:38 PM: Processing group with Album UPC: 6221117178930
+11/10/2024 1:32:38 PM: Starting GetFolderPaths...
+11/10/2024 1:32:38 PM: Sucsses: PackageFolder trimmed to: 20241110133231218
+11/10/2024 1:32:38 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:32:38 PM: Sucsses: ResourcesFolder set to: 20241110133231218\6221117178930\resources
+11/10/2024 1:32:38 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:32:38 PM: Sucsses: MetadataFile path set to: 20241110133231218\6221117178930\6221117178930.xml
+11/10/2024 1:32:38 PM: Sucsses: Final PackageFolder path: 85\20241110133231218
+11/10/2024 1:32:38 PM: Sucsses: Final ResourcesFolder path: 85\20241110133231218\6221117178930\resources
+11/10/2024 1:32:38 PM: Sucsses: Retrieved folder paths for package: 85
+11/10/2024 1:32:38 PM: Starting GetCover...
+11/10/2024 1:32:39 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/10/2024 1:32:39 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/10/2024 1:32:39 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\85\20241110133231218\6221117178930\resources
+11/10/2024 1:32:39 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/10/2024 1:32:39 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\85\20241110133231218\6221117178930\resources\6221117178930.jpg
+11/10/2024 1:32:39 PM: Start Getting Media For package info: 85
+11/10/2024 1:32:41 PM: Media data generated successfully.
+11/10/2024 1:32:41 PM: Success: generated XML for package ID: 85
+11/10/2024 1:32:41 PM: Processing group with Album UPC: 6221117180292
+11/10/2024 1:32:41 PM: Starting GetFolderPaths...
+11/10/2024 1:32:41 PM: Sucsses: PackageFolder trimmed to: 20241110133231218
+11/10/2024 1:32:41 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:32:41 PM: Sucsses: ResourcesFolder set to: 20241110133231218\6221117180292\resources
+11/10/2024 1:32:41 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:32:41 PM: Sucsses: MetadataFile path set to: 20241110133231218\6221117180292\6221117180292.xml
+11/10/2024 1:32:41 PM: Sucsses: Final PackageFolder path: 85\20241110133231218
+11/10/2024 1:32:41 PM: Sucsses: Final ResourcesFolder path: 85\20241110133231218\6221117180292\resources
+11/10/2024 1:32:41 PM: Sucsses: Retrieved folder paths for package: 85
+11/10/2024 1:32:41 PM: Starting GetCover...
+11/10/2024 1:32:42 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/10/2024 1:32:42 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/10/2024 1:32:42 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\85\20241110133231218\6221117180292\resources
+11/10/2024 1:32:42 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/10/2024 1:32:42 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\85\20241110133231218\6221117180292\resources\6221117180292.jpg
+11/10/2024 1:32:42 PM: Start Getting Media For package info: 85
+11/10/2024 1:32:44 PM: Media data generated successfully.
+11/10/2024 1:32:44 PM: Success: generated XML for package ID: 85
+11/10/2024 1:32:44 PM: Processing group with Album UPC: 6221117180544
+11/10/2024 1:32:44 PM: Starting GetFolderPaths...
+11/10/2024 1:32:44 PM: Sucsses: PackageFolder trimmed to: 20241110133231218
+11/10/2024 1:32:44 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:32:44 PM: Sucsses: ResourcesFolder set to: 20241110133231218\6221117180544\resources
+11/10/2024 1:32:44 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:32:44 PM: Sucsses: MetadataFile path set to: 20241110133231218\6221117180544\6221117180544.xml
+11/10/2024 1:32:44 PM: Sucsses: Final PackageFolder path: 85\20241110133231218
+11/10/2024 1:32:44 PM: Sucsses: Final ResourcesFolder path: 85\20241110133231218\6221117180544\resources
+11/10/2024 1:32:44 PM: Sucsses: Retrieved folder paths for package: 85
+11/10/2024 1:32:44 PM: Starting GetCover...
+11/10/2024 1:32:45 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/10/2024 1:32:45 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/10/2024 1:32:45 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\85\20241110133231218\6221117180544\resources
+11/10/2024 1:32:45 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/10/2024 1:32:45 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\85\20241110133231218\6221117180544\resources\6221117180544.jpg
+11/10/2024 1:32:45 PM: Start Getting Media For package info: 85
+11/10/2024 1:32:46 PM: Media data generated successfully.
+11/10/2024 1:32:46 PM: Success: generated XML for package ID: 85
+11/10/2024 1:32:46 PM: Processing group with Album UPC: 6221117180872
+11/10/2024 1:32:46 PM: Starting GetFolderPaths...
+11/10/2024 1:32:46 PM: Sucsses: PackageFolder trimmed to: 20241110133231218
+11/10/2024 1:32:46 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:32:46 PM: Sucsses: ResourcesFolder set to: 20241110133231218\6221117180872\resources
+11/10/2024 1:32:46 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:32:46 PM: Sucsses: MetadataFile path set to: 20241110133231218\6221117180872\6221117180872.xml
+11/10/2024 1:32:46 PM: Sucsses: Final PackageFolder path: 85\20241110133231218
+11/10/2024 1:32:46 PM: Sucsses: Final ResourcesFolder path: 85\20241110133231218\6221117180872\resources
+11/10/2024 1:32:46 PM: Sucsses: Retrieved folder paths for package: 85
+11/10/2024 1:32:46 PM: Starting GetCover...
+11/10/2024 1:32:47 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/10/2024 1:32:47 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/10/2024 1:32:47 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\85\20241110133231218\6221117180872\resources
+11/10/2024 1:32:47 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/10/2024 1:32:47 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\85\20241110133231218\6221117180872\resources\6221117180872.jpg
+11/10/2024 1:32:47 PM: Start Getting Media For package info: 85
+11/10/2024 1:32:49 PM: Media data generated successfully.
+11/10/2024 1:32:49 PM: Success: generated XML for package ID: 85
+11/10/2024 1:32:49 PM: Processing group with Album UPC: 6221117181398
+11/10/2024 1:32:49 PM: Starting GetFolderPaths...
+11/10/2024 1:32:49 PM: Sucsses: PackageFolder trimmed to: 20241110133231218
+11/10/2024 1:32:49 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:32:49 PM: Sucsses: ResourcesFolder set to: 20241110133231218\6221117181398\resources
+11/10/2024 1:32:49 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:32:49 PM: Sucsses: MetadataFile path set to: 20241110133231218\6221117181398\6221117181398.xml
+11/10/2024 1:32:49 PM: Sucsses: Final PackageFolder path: 85\20241110133231218
+11/10/2024 1:32:49 PM: Sucsses: Final ResourcesFolder path: 85\20241110133231218\6221117181398\resources
+11/10/2024 1:32:49 PM: Sucsses: Retrieved folder paths for package: 85
+11/10/2024 1:32:49 PM: Starting GetCover...
+11/10/2024 1:32:49 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/10/2024 1:32:49 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/10/2024 1:32:49 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\85\20241110133231218\6221117181398\resources
+11/10/2024 1:32:49 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/10/2024 1:32:49 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\85\20241110133231218\6221117181398\resources\6221117181398.jpg
+11/10/2024 1:32:49 PM: Start Getting Media For package info: 85
+11/10/2024 1:32:51 PM: Media data generated successfully.
+11/10/2024 1:32:51 PM: Success: generated XML for package ID: 85
+11/10/2024 1:32:51 PM: Processing group with Album UPC: 6221117181428
+11/10/2024 1:32:51 PM: Starting GetFolderPaths...
+11/10/2024 1:32:51 PM: Sucsses: PackageFolder trimmed to: 20241110133231218
+11/10/2024 1:32:51 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:32:51 PM: Sucsses: ResourcesFolder set to: 20241110133231218\6221117181428\resources
+11/10/2024 1:32:51 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:32:51 PM: Sucsses: MetadataFile path set to: 20241110133231218\6221117181428\6221117181428.xml
+11/10/2024 1:32:51 PM: Sucsses: Final PackageFolder path: 85\20241110133231218
+11/10/2024 1:32:51 PM: Sucsses: Final ResourcesFolder path: 85\20241110133231218\6221117181428\resources
+11/10/2024 1:32:51 PM: Sucsses: Retrieved folder paths for package: 85
+11/10/2024 1:32:51 PM: Starting GetCover...
+11/10/2024 1:32:52 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/10/2024 1:32:52 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/10/2024 1:32:52 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\85\20241110133231218\6221117181428\resources
+11/10/2024 1:32:52 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/10/2024 1:32:52 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\85\20241110133231218\6221117181428\resources\6221117181428.jpg
+11/10/2024 1:32:52 PM: Start Getting Media For package info: 85
+11/10/2024 1:32:53 PM: Media data generated successfully.
+11/10/2024 1:32:53 PM: Success: generated XML for package ID: 85
+11/10/2024 1:32:53 PM: Processing group with Album UPC: 6221117181442
+11/10/2024 1:32:53 PM: Starting GetFolderPaths...
+11/10/2024 1:32:53 PM: Sucsses: PackageFolder trimmed to: 20241110133231218
+11/10/2024 1:32:53 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:32:53 PM: Sucsses: ResourcesFolder set to: 20241110133231218\6221117181442\resources
+11/10/2024 1:32:53 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:32:53 PM: Sucsses: MetadataFile path set to: 20241110133231218\6221117181442\6221117181442.xml
+11/10/2024 1:32:53 PM: Sucsses: Final PackageFolder path: 85\20241110133231218
+11/10/2024 1:32:53 PM: Sucsses: Final ResourcesFolder path: 85\20241110133231218\6221117181442\resources
+11/10/2024 1:32:53 PM: Sucsses: Retrieved folder paths for package: 85
+11/10/2024 1:32:53 PM: Starting GetCover...
+11/10/2024 1:32:54 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/10/2024 1:32:54 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/10/2024 1:32:54 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\85\20241110133231218\6221117181442\resources
+11/10/2024 1:32:54 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/10/2024 1:32:54 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\85\20241110133231218\6221117181442\resources\6221117181442.jpg
+11/10/2024 1:32:54 PM: Start Getting Media For package info: 85
+11/10/2024 1:32:56 PM: Media data generated successfully.
+11/10/2024 1:32:56 PM: Success: generated XML for package ID: 85
+11/10/2024 1:32:56 PM: Starting XML generation for package ID: 86, Filename: TikTok_DDEX_XML_Template.xml, Company: TikTok
+11/10/2024 1:32:56 PM: Success: fetched package info for ID: 86
+11/10/2024 1:32:56 PM: Processing group with Album UPC: 6221117165909
+11/10/2024 1:32:56 PM: Starting GetFolderPaths...
+11/10/2024 1:32:56 PM: Sucsses: PackageFolder trimmed to: 20241110133231218
+11/10/2024 1:32:56 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:32:56 PM: Sucsses: ResourcesFolder set to: 20241110133231218\6221117165909\resources
+11/10/2024 1:32:56 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:32:56 PM: Sucsses: MetadataFile path set to: 20241110133231218\6221117165909\6221117165909.xml
+11/10/2024 1:32:56 PM: Sucsses: Final PackageFolder path: 86\20241110133231218
+11/10/2024 1:32:56 PM: Sucsses: Final ResourcesFolder path: 86\20241110133231218\6221117165909\resources
+11/10/2024 1:32:56 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 1:32:56 PM: Starting GetCover...
+11/10/2024 1:32:56 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/10/2024 1:32:56 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/10/2024 1:32:56 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\20241110133231218\6221117165909\resources
+11/10/2024 1:32:56 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/10/2024 1:32:56 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\20241110133231218\6221117165909\resources\6221117165909.jpg
+11/10/2024 1:32:56 PM: Start Getting Media For package info: 86
+11/10/2024 1:32:58 PM: Media data generated successfully.
+11/10/2024 1:32:58 PM: Success: generated XML for package ID: 86
+11/10/2024 1:32:58 PM: Processing group with Album UPC: 6221117178930
+11/10/2024 1:32:58 PM: Starting GetFolderPaths...
+11/10/2024 1:32:58 PM: Sucsses: PackageFolder trimmed to: 20241110133231218
+11/10/2024 1:32:58 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:32:58 PM: Sucsses: ResourcesFolder set to: 20241110133231218\6221117178930\resources
+11/10/2024 1:32:58 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:32:58 PM: Sucsses: MetadataFile path set to: 20241110133231218\6221117178930\6221117178930.xml
+11/10/2024 1:32:58 PM: Sucsses: Final PackageFolder path: 86\20241110133231218
+11/10/2024 1:32:58 PM: Sucsses: Final ResourcesFolder path: 86\20241110133231218\6221117178930\resources
+11/10/2024 1:32:58 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 1:32:58 PM: Starting GetCover...
+11/10/2024 1:32:58 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/10/2024 1:32:58 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/10/2024 1:32:58 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\20241110133231218\6221117178930\resources
+11/10/2024 1:32:58 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/10/2024 1:32:58 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\20241110133231218\6221117178930\resources\6221117178930.jpg
+11/10/2024 1:32:58 PM: Start Getting Media For package info: 86
+11/10/2024 1:33:00 PM: Media data generated successfully.
+11/10/2024 1:33:00 PM: Success: generated XML for package ID: 86
+11/10/2024 1:33:00 PM: Processing group with Album UPC: 6221117180292
+11/10/2024 1:33:00 PM: Starting GetFolderPaths...
+11/10/2024 1:33:00 PM: Sucsses: PackageFolder trimmed to: 20241110133231218
+11/10/2024 1:33:00 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:33:00 PM: Sucsses: ResourcesFolder set to: 20241110133231218\6221117180292\resources
+11/10/2024 1:33:00 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:33:00 PM: Sucsses: MetadataFile path set to: 20241110133231218\6221117180292\6221117180292.xml
+11/10/2024 1:33:00 PM: Sucsses: Final PackageFolder path: 86\20241110133231218
+11/10/2024 1:33:00 PM: Sucsses: Final ResourcesFolder path: 86\20241110133231218\6221117180292\resources
+11/10/2024 1:33:00 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 1:33:00 PM: Starting GetCover...
+11/10/2024 1:33:01 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/10/2024 1:33:01 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/10/2024 1:33:01 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\20241110133231218\6221117180292\resources
+11/10/2024 1:33:01 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/10/2024 1:33:01 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\20241110133231218\6221117180292\resources\6221117180292.jpg
+11/10/2024 1:33:01 PM: Start Getting Media For package info: 86
+11/10/2024 1:33:03 PM: Media data generated successfully.
+11/10/2024 1:33:03 PM: Success: generated XML for package ID: 86
+11/10/2024 1:33:03 PM: Processing group with Album UPC: 6221117180544
+11/10/2024 1:33:03 PM: Starting GetFolderPaths...
+11/10/2024 1:33:03 PM: Sucsses: PackageFolder trimmed to: 20241110133231218
+11/10/2024 1:33:03 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:33:03 PM: Sucsses: ResourcesFolder set to: 20241110133231218\6221117180544\resources
+11/10/2024 1:33:03 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:33:03 PM: Sucsses: MetadataFile path set to: 20241110133231218\6221117180544\6221117180544.xml
+11/10/2024 1:33:03 PM: Sucsses: Final PackageFolder path: 86\20241110133231218
+11/10/2024 1:33:03 PM: Sucsses: Final ResourcesFolder path: 86\20241110133231218\6221117180544\resources
+11/10/2024 1:33:03 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 1:33:03 PM: Starting GetCover...
+11/10/2024 1:33:03 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/10/2024 1:33:03 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/10/2024 1:33:03 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\20241110133231218\6221117180544\resources
+11/10/2024 1:33:03 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/10/2024 1:33:03 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\20241110133231218\6221117180544\resources\6221117180544.jpg
+11/10/2024 1:33:03 PM: Start Getting Media For package info: 86
+11/10/2024 1:33:05 PM: Media data generated successfully.
+11/10/2024 1:33:05 PM: Success: generated XML for package ID: 86
+11/10/2024 1:33:05 PM: Processing group with Album UPC: 6221117180872
+11/10/2024 1:33:05 PM: Starting GetFolderPaths...
+11/10/2024 1:33:05 PM: Sucsses: PackageFolder trimmed to: 20241110133231218
+11/10/2024 1:33:05 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:33:05 PM: Sucsses: ResourcesFolder set to: 20241110133231218\6221117180872\resources
+11/10/2024 1:33:05 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:33:05 PM: Sucsses: MetadataFile path set to: 20241110133231218\6221117180872\6221117180872.xml
+11/10/2024 1:33:05 PM: Sucsses: Final PackageFolder path: 86\20241110133231218
+11/10/2024 1:33:05 PM: Sucsses: Final ResourcesFolder path: 86\20241110133231218\6221117180872\resources
+11/10/2024 1:33:05 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 1:33:05 PM: Starting GetCover...
+11/10/2024 1:33:05 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/10/2024 1:33:05 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/10/2024 1:33:05 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\20241110133231218\6221117180872\resources
+11/10/2024 1:33:05 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/10/2024 1:33:05 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\20241110133231218\6221117180872\resources\6221117180872.jpg
+11/10/2024 1:33:05 PM: Start Getting Media For package info: 86
+11/10/2024 1:33:07 PM: Media data generated successfully.
+11/10/2024 1:33:07 PM: Success: generated XML for package ID: 86
+11/10/2024 1:33:07 PM: Processing group with Album UPC: 6221117181398
+11/10/2024 1:33:07 PM: Starting GetFolderPaths...
+11/10/2024 1:33:07 PM: Sucsses: PackageFolder trimmed to: 20241110133231218
+11/10/2024 1:33:07 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:33:07 PM: Sucsses: ResourcesFolder set to: 20241110133231218\6221117181398\resources
+11/10/2024 1:33:07 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:33:07 PM: Sucsses: MetadataFile path set to: 20241110133231218\6221117181398\6221117181398.xml
+11/10/2024 1:33:07 PM: Sucsses: Final PackageFolder path: 86\20241110133231218
+11/10/2024 1:33:07 PM: Sucsses: Final ResourcesFolder path: 86\20241110133231218\6221117181398\resources
+11/10/2024 1:33:07 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 1:33:07 PM: Starting GetCover...
+11/10/2024 1:33:08 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/10/2024 1:33:08 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/10/2024 1:33:08 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\20241110133231218\6221117181398\resources
+11/10/2024 1:33:08 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/10/2024 1:33:08 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\20241110133231218\6221117181398\resources\6221117181398.jpg
+11/10/2024 1:33:08 PM: Start Getting Media For package info: 86
+11/10/2024 1:33:09 PM: Media data generated successfully.
+11/10/2024 1:33:09 PM: Success: generated XML for package ID: 86
+11/10/2024 1:33:09 PM: Processing group with Album UPC: 6221117181428
+11/10/2024 1:33:09 PM: Starting GetFolderPaths...
+11/10/2024 1:33:09 PM: Sucsses: PackageFolder trimmed to: 20241110133231218
+11/10/2024 1:33:09 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:33:09 PM: Sucsses: ResourcesFolder set to: 20241110133231218\6221117181428\resources
+11/10/2024 1:33:09 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:33:09 PM: Sucsses: MetadataFile path set to: 20241110133231218\6221117181428\6221117181428.xml
+11/10/2024 1:33:09 PM: Sucsses: Final PackageFolder path: 86\20241110133231218
+11/10/2024 1:33:09 PM: Sucsses: Final ResourcesFolder path: 86\20241110133231218\6221117181428\resources
+11/10/2024 1:33:09 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 1:33:09 PM: Starting GetCover...
+11/10/2024 1:33:10 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/10/2024 1:33:10 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/10/2024 1:33:10 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\20241110133231218\6221117181428\resources
+11/10/2024 1:33:10 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/10/2024 1:33:10 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\20241110133231218\6221117181428\resources\6221117181428.jpg
+11/10/2024 1:33:10 PM: Start Getting Media For package info: 86
+11/10/2024 1:33:11 PM: Media data generated successfully.
+11/10/2024 1:33:11 PM: Success: generated XML for package ID: 86
+11/10/2024 1:33:11 PM: Processing group with Album UPC: 6221117181442
+11/10/2024 1:33:11 PM: Starting GetFolderPaths...
+11/10/2024 1:33:11 PM: Sucsses: PackageFolder trimmed to: 20241110133231218
+11/10/2024 1:33:11 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:33:11 PM: Sucsses: ResourcesFolder set to: 20241110133231218\6221117181442\resources
+11/10/2024 1:33:11 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:33:11 PM: Sucsses: MetadataFile path set to: 20241110133231218\6221117181442\6221117181442.xml
+11/10/2024 1:33:11 PM: Sucsses: Final PackageFolder path: 86\20241110133231218
+11/10/2024 1:33:11 PM: Sucsses: Final ResourcesFolder path: 86\20241110133231218\6221117181442\resources
+11/10/2024 1:33:11 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 1:33:11 PM: Starting GetCover...
+11/10/2024 1:33:12 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/10/2024 1:33:12 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/10/2024 1:33:12 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\20241110133231218\6221117181442\resources
+11/10/2024 1:33:12 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/10/2024 1:33:12 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\20241110133231218\6221117181442\resources\6221117181442.jpg
+11/10/2024 1:33:12 PM: Start Getting Media For package info: 86
+11/10/2024 1:33:14 PM: Media data generated successfully.
+11/10/2024 1:33:14 PM: Success: generated XML for package ID: 86
+11/10/2024 1:42:13 PM: Starting XML generation for package ID: 86, Filename: TikTok_DDEX_XML_Template.xml, Company: TikTok
+11/10/2024 1:42:13 PM: Success: fetched package info for ID: 86
+11/10/2024 1:42:13 PM: Processing group with Album UPC: 6221117165909
+11/10/2024 1:42:13 PM: Starting GetFolderPaths...
+11/10/2024 1:42:13 PM: Fetching package folder for company: TikTok
+11/10/2024 1:42:13 PM: Sucsses: PackageFolder set to: batch_20241110134213
+11/10/2024 1:42:13 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:42:13 PM: Sucsses: ResourcesFolder set to: batch_20241110134213\6221117165909\resources
+11/10/2024 1:42:13 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:42:13 PM: Sucsses: MetadataFile path set to: batch_20241110134213\6221117165909\6221117165909.xml
+11/10/2024 1:42:13 PM: Sucsses: Final PackageFolder path: 86\batch_20241110134213
+11/10/2024 1:42:13 PM: Sucsses: Final ResourcesFolder path: 86\batch_20241110134213\6221117165909\resources
+11/10/2024 1:42:13 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 1:42:13 PM: Starting GetCover...
+11/10/2024 1:42:14 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/10/2024 1:42:14 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/10/2024 1:42:14 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\batch_20241110134213\6221117165909\resources
+11/10/2024 1:42:14 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/10/2024 1:42:14 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\batch_20241110134213\6221117165909\resources\6221117165909.jpg
+11/10/2024 1:42:14 PM: Start Getting Media For package info: 86
+11/10/2024 1:44:21 PM: Starting XML generation for package ID: 86, Filename: TikTok_DDEX_XML_Template.xml, Company: TikTok
+11/10/2024 1:44:21 PM: Success: fetched package info for ID: 86
+11/10/2024 1:44:21 PM: Processing group with Album UPC: 6221117165909
+11/10/2024 1:44:21 PM: Starting GetFolderPaths...
+11/10/2024 1:44:21 PM: Fetching package folder for company: TikTok
+11/10/2024 1:44:21 PM: Sucsses: PackageFolder set to: batch_20241110134421
+11/10/2024 1:44:21 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:44:21 PM: Sucsses: ResourcesFolder set to: batch_20241110134421\6221117165909\resources
+11/10/2024 1:44:21 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:44:21 PM: Sucsses: MetadataFile path set to: batch_20241110134421\6221117165909\6221117165909.xml
+11/10/2024 1:44:21 PM: Sucsses: Final PackageFolder path: 86\batch_20241110134421
+11/10/2024 1:44:21 PM: Sucsses: Final ResourcesFolder path: 86\batch_20241110134421\6221117165909\resources
+11/10/2024 1:44:21 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 1:44:21 PM: Starting GetCover...
+11/10/2024 1:44:22 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/10/2024 1:44:22 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/10/2024 1:44:22 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\batch_20241110134421\6221117165909\resources
+11/10/2024 1:44:22 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/10/2024 1:44:22 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\batch_20241110134421\6221117165909\resources\6221117165909.jpg
+11/10/2024 1:44:22 PM: Start Getting Media For package info: 86
+11/10/2024 1:44:31 PM: Media data generated successfully.
+11/10/2024 1:44:31 PM: Success: generated XML for package ID: 86
+11/10/2024 1:44:31 PM: Processing group with Album UPC: 6221117178930
+11/10/2024 1:44:31 PM: Starting GetFolderPaths...
+11/10/2024 1:44:31 PM: Sucsses: PackageFolder trimmed to: batch_20241110134421
+11/10/2024 1:44:31 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:44:31 PM: Sucsses: ResourcesFolder set to: batch_20241110134421\6221117178930\resources
+11/10/2024 1:44:31 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:44:31 PM: Sucsses: MetadataFile path set to: batch_20241110134421\6221117178930\6221117178930.xml
+11/10/2024 1:44:31 PM: Sucsses: Final PackageFolder path: 86\batch_20241110134421
+11/10/2024 1:44:31 PM: Sucsses: Final ResourcesFolder path: 86\batch_20241110134421\6221117178930\resources
+11/10/2024 1:44:31 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 1:44:31 PM: Starting GetCover...
+11/10/2024 1:44:32 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/10/2024 1:44:32 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/10/2024 1:44:32 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\batch_20241110134421\6221117178930\resources
+11/10/2024 1:44:32 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/10/2024 1:44:32 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\batch_20241110134421\6221117178930\resources\6221117178930.jpg
+11/10/2024 1:44:32 PM: Start Getting Media For package info: 86
+11/10/2024 1:44:34 PM: Media data generated successfully.
+11/10/2024 1:44:34 PM: Success: generated XML for package ID: 86
+11/10/2024 1:44:34 PM: Processing group with Album UPC: 6221117180292
+11/10/2024 1:44:34 PM: Starting GetFolderPaths...
+11/10/2024 1:44:34 PM: Sucsses: PackageFolder trimmed to: batch_20241110134421
+11/10/2024 1:44:34 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:44:34 PM: Sucsses: ResourcesFolder set to: batch_20241110134421\6221117180292\resources
+11/10/2024 1:44:34 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:44:34 PM: Sucsses: MetadataFile path set to: batch_20241110134421\6221117180292\6221117180292.xml
+11/10/2024 1:44:34 PM: Sucsses: Final PackageFolder path: 86\batch_20241110134421
+11/10/2024 1:44:34 PM: Sucsses: Final ResourcesFolder path: 86\batch_20241110134421\6221117180292\resources
+11/10/2024 1:44:34 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 1:44:34 PM: Starting GetCover...
+11/10/2024 1:44:35 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/10/2024 1:44:35 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/10/2024 1:44:35 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\batch_20241110134421\6221117180292\resources
+11/10/2024 1:44:35 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/10/2024 1:44:35 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\batch_20241110134421\6221117180292\resources\6221117180292.jpg
+11/10/2024 1:44:35 PM: Start Getting Media For package info: 86
+11/10/2024 1:44:37 PM: Media data generated successfully.
+11/10/2024 1:44:37 PM: Success: generated XML for package ID: 86
+11/10/2024 1:44:37 PM: Processing group with Album UPC: 6221117180544
+11/10/2024 1:44:37 PM: Starting GetFolderPaths...
+11/10/2024 1:44:37 PM: Sucsses: PackageFolder trimmed to: batch_20241110134421
+11/10/2024 1:44:37 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:44:37 PM: Sucsses: ResourcesFolder set to: batch_20241110134421\6221117180544\resources
+11/10/2024 1:44:37 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:44:37 PM: Sucsses: MetadataFile path set to: batch_20241110134421\6221117180544\6221117180544.xml
+11/10/2024 1:44:37 PM: Sucsses: Final PackageFolder path: 86\batch_20241110134421
+11/10/2024 1:44:37 PM: Sucsses: Final ResourcesFolder path: 86\batch_20241110134421\6221117180544\resources
+11/10/2024 1:44:37 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 1:44:37 PM: Starting GetCover...
+11/10/2024 1:44:38 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/10/2024 1:44:38 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/10/2024 1:44:38 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\batch_20241110134421\6221117180544\resources
+11/10/2024 1:44:38 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/10/2024 1:44:38 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\batch_20241110134421\6221117180544\resources\6221117180544.jpg
+11/10/2024 1:44:38 PM: Start Getting Media For package info: 86
+11/10/2024 1:44:39 PM: Media data generated successfully.
+11/10/2024 1:44:40 PM: Success: generated XML for package ID: 86
+11/10/2024 1:44:40 PM: Processing group with Album UPC: 6221117180872
+11/10/2024 1:44:40 PM: Starting GetFolderPaths...
+11/10/2024 1:44:40 PM: Sucsses: PackageFolder trimmed to: batch_20241110134421
+11/10/2024 1:44:40 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:44:40 PM: Sucsses: ResourcesFolder set to: batch_20241110134421\6221117180872\resources
+11/10/2024 1:44:40 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:44:40 PM: Sucsses: MetadataFile path set to: batch_20241110134421\6221117180872\6221117180872.xml
+11/10/2024 1:44:40 PM: Sucsses: Final PackageFolder path: 86\batch_20241110134421
+11/10/2024 1:44:40 PM: Sucsses: Final ResourcesFolder path: 86\batch_20241110134421\6221117180872\resources
+11/10/2024 1:44:40 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 1:44:40 PM: Starting GetCover...
+11/10/2024 1:44:40 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/10/2024 1:44:40 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/10/2024 1:44:40 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\batch_20241110134421\6221117180872\resources
+11/10/2024 1:44:40 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/10/2024 1:44:40 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\batch_20241110134421\6221117180872\resources\6221117180872.jpg
+11/10/2024 1:44:40 PM: Start Getting Media For package info: 86
+11/10/2024 1:44:42 PM: Media data generated successfully.
+11/10/2024 1:44:42 PM: Success: generated XML for package ID: 86
+11/10/2024 1:44:42 PM: Processing group with Album UPC: 6221117181398
+11/10/2024 1:44:42 PM: Starting GetFolderPaths...
+11/10/2024 1:44:42 PM: Sucsses: PackageFolder trimmed to: batch_20241110134421
+11/10/2024 1:44:42 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:44:42 PM: Sucsses: ResourcesFolder set to: batch_20241110134421\6221117181398\resources
+11/10/2024 1:44:42 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:44:42 PM: Sucsses: MetadataFile path set to: batch_20241110134421\6221117181398\6221117181398.xml
+11/10/2024 1:44:42 PM: Sucsses: Final PackageFolder path: 86\batch_20241110134421
+11/10/2024 1:44:42 PM: Sucsses: Final ResourcesFolder path: 86\batch_20241110134421\6221117181398\resources
+11/10/2024 1:44:42 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 1:44:42 PM: Starting GetCover...
+11/10/2024 1:44:43 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/10/2024 1:44:43 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/10/2024 1:44:43 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\batch_20241110134421\6221117181398\resources
+11/10/2024 1:44:43 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/10/2024 1:44:43 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\batch_20241110134421\6221117181398\resources\6221117181398.jpg
+11/10/2024 1:44:43 PM: Start Getting Media For package info: 86
+11/10/2024 1:44:45 PM: Media data generated successfully.
+11/10/2024 1:44:45 PM: Success: generated XML for package ID: 86
+11/10/2024 1:44:45 PM: Processing group with Album UPC: 6221117181428
+11/10/2024 1:44:45 PM: Starting GetFolderPaths...
+11/10/2024 1:44:45 PM: Sucsses: PackageFolder trimmed to: batch_20241110134421
+11/10/2024 1:44:45 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:44:45 PM: Sucsses: ResourcesFolder set to: batch_20241110134421\6221117181428\resources
+11/10/2024 1:44:45 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:44:45 PM: Sucsses: MetadataFile path set to: batch_20241110134421\6221117181428\6221117181428.xml
+11/10/2024 1:44:45 PM: Sucsses: Final PackageFolder path: 86\batch_20241110134421
+11/10/2024 1:44:45 PM: Sucsses: Final ResourcesFolder path: 86\batch_20241110134421\6221117181428\resources
+11/10/2024 1:44:45 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 1:44:45 PM: Starting GetCover...
+11/10/2024 1:44:46 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/10/2024 1:44:46 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/10/2024 1:44:46 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\batch_20241110134421\6221117181428\resources
+11/10/2024 1:44:46 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/10/2024 1:44:46 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\batch_20241110134421\6221117181428\resources\6221117181428.jpg
+11/10/2024 1:44:46 PM: Start Getting Media For package info: 86
+11/10/2024 1:44:48 PM: Media data generated successfully.
+11/10/2024 1:44:48 PM: Success: generated XML for package ID: 86
+11/10/2024 1:44:48 PM: Processing group with Album UPC: 6221117181442
+11/10/2024 1:44:48 PM: Starting GetFolderPaths...
+11/10/2024 1:44:48 PM: Sucsses: PackageFolder trimmed to: batch_20241110134421
+11/10/2024 1:44:48 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:44:48 PM: Sucsses: ResourcesFolder set to: batch_20241110134421\6221117181442\resources
+11/10/2024 1:44:48 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:44:48 PM: Sucsses: MetadataFile path set to: batch_20241110134421\6221117181442\6221117181442.xml
+11/10/2024 1:44:48 PM: Sucsses: Final PackageFolder path: 86\batch_20241110134421
+11/10/2024 1:44:48 PM: Sucsses: Final ResourcesFolder path: 86\batch_20241110134421\6221117181442\resources
+11/10/2024 1:44:48 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 1:44:48 PM: Starting GetCover...
+11/10/2024 1:44:48 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/10/2024 1:44:48 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/10/2024 1:44:48 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\batch_20241110134421\6221117181442\resources
+11/10/2024 1:44:48 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/10/2024 1:44:48 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\batch_20241110134421\6221117181442\resources\6221117181442.jpg
+11/10/2024 1:44:48 PM: Start Getting Media For package info: 86
+11/10/2024 1:44:51 PM: Media data generated successfully.
+11/10/2024 1:44:51 PM: Success: generated XML for package ID: 86
+11/10/2024 1:46:21 PM: Starting XML generation for package ID: 86, Filename: TikTok_DDEX_XML_Template.xml, Company: TikTok
+11/10/2024 1:46:21 PM: Success: fetched package info for ID: 86
+11/10/2024 1:46:21 PM: Processing group with Album UPC: 6221117165909
+11/10/2024 1:46:21 PM: Starting GetFolderPaths...
+11/10/2024 1:46:21 PM: Fetching package folder for company: TikTok
+11/10/2024 1:46:21 PM: Sucsses: PackageFolder set to: batch_20241110134621
+11/10/2024 1:46:21 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:46:21 PM: Sucsses: ResourcesFolder set to: batch_20241110134621\6221117165909\resources
+11/10/2024 1:46:21 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:46:21 PM: Sucsses: MetadataFile path set to: batch_20241110134621\6221117165909\6221117165909.xml
+11/10/2024 1:46:21 PM: Sucsses: Final PackageFolder path: 86\batch_20241110134621
+11/10/2024 1:46:21 PM: Sucsses: Final ResourcesFolder path: 86\batch_20241110134621\6221117165909\resources
+11/10/2024 1:46:21 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 1:46:21 PM: Starting GetCover...
+11/10/2024 1:46:22 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/10/2024 1:46:22 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/10/2024 1:46:22 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\batch_20241110134621\6221117165909\resources
+11/10/2024 1:46:22 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/10/2024 1:46:22 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\batch_20241110134621\6221117165909\resources\6221117165909.jpg
+11/10/2024 1:46:22 PM: Start Getting Media For package info: 86
+11/10/2024 1:46:23 PM: Media data generated successfully.
+11/10/2024 1:46:23 PM: Success: generated XML for package ID: 86
+11/10/2024 1:46:23 PM: Processing group with Album UPC: 6221117178930
+11/10/2024 1:46:23 PM: Starting GetFolderPaths...
+11/10/2024 1:46:23 PM: Sucsses: PackageFolder trimmed to: batch_20241110134621
+11/10/2024 1:46:23 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:46:23 PM: Sucsses: ResourcesFolder set to: batch_20241110134621\6221117178930\resources
+11/10/2024 1:46:23 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:46:23 PM: Sucsses: MetadataFile path set to: batch_20241110134621\6221117178930\6221117178930.xml
+11/10/2024 1:46:23 PM: Sucsses: Final PackageFolder path: 86\batch_20241110134621
+11/10/2024 1:46:23 PM: Sucsses: Final ResourcesFolder path: 86\batch_20241110134621\6221117178930\resources
+11/10/2024 1:46:23 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 1:46:23 PM: Starting GetCover...
+11/10/2024 1:46:24 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/10/2024 1:46:24 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/10/2024 1:46:24 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\batch_20241110134621\6221117178930\resources
+11/10/2024 1:46:24 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/10/2024 1:46:24 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\batch_20241110134621\6221117178930\resources\6221117178930.jpg
+11/10/2024 1:46:24 PM: Start Getting Media For package info: 86
+11/10/2024 1:46:25 PM: Media data generated successfully.
+11/10/2024 1:46:25 PM: Success: generated XML for package ID: 86
+11/10/2024 1:46:25 PM: Processing group with Album UPC: 6221117180292
+11/10/2024 1:46:25 PM: Starting GetFolderPaths...
+11/10/2024 1:46:25 PM: Sucsses: PackageFolder trimmed to: batch_20241110134621
+11/10/2024 1:46:25 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:46:25 PM: Sucsses: ResourcesFolder set to: batch_20241110134621\6221117180292\resources
+11/10/2024 1:46:25 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:46:25 PM: Sucsses: MetadataFile path set to: batch_20241110134621\6221117180292\6221117180292.xml
+11/10/2024 1:46:25 PM: Sucsses: Final PackageFolder path: 86\batch_20241110134621
+11/10/2024 1:46:25 PM: Sucsses: Final ResourcesFolder path: 86\batch_20241110134621\6221117180292\resources
+11/10/2024 1:46:25 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 1:46:25 PM: Starting GetCover...
+11/10/2024 1:46:26 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/10/2024 1:46:26 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/10/2024 1:46:26 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\batch_20241110134621\6221117180292\resources
+11/10/2024 1:46:26 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/10/2024 1:46:26 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\batch_20241110134621\6221117180292\resources\6221117180292.jpg
+11/10/2024 1:46:26 PM: Start Getting Media For package info: 86
+11/10/2024 1:46:28 PM: Media data generated successfully.
+11/10/2024 1:46:28 PM: Success: generated XML for package ID: 86
+11/10/2024 1:46:28 PM: Processing group with Album UPC: 6221117180544
+11/10/2024 1:46:28 PM: Starting GetFolderPaths...
+11/10/2024 1:46:28 PM: Sucsses: PackageFolder trimmed to: batch_20241110134621
+11/10/2024 1:46:28 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:46:28 PM: Sucsses: ResourcesFolder set to: batch_20241110134621\6221117180544\resources
+11/10/2024 1:46:28 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:46:28 PM: Sucsses: MetadataFile path set to: batch_20241110134621\6221117180544\6221117180544.xml
+11/10/2024 1:46:28 PM: Sucsses: Final PackageFolder path: 86\batch_20241110134621
+11/10/2024 1:46:28 PM: Sucsses: Final ResourcesFolder path: 86\batch_20241110134621\6221117180544\resources
+11/10/2024 1:46:28 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 1:46:28 PM: Starting GetCover...
+11/10/2024 1:46:28 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/10/2024 1:46:28 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/10/2024 1:46:28 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\batch_20241110134621\6221117180544\resources
+11/10/2024 1:46:28 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/10/2024 1:46:28 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\batch_20241110134621\6221117180544\resources\6221117180544.jpg
+11/10/2024 1:46:28 PM: Start Getting Media For package info: 86
+11/10/2024 1:46:29 PM: Media data generated successfully.
+11/10/2024 1:46:29 PM: Success: generated XML for package ID: 86
+11/10/2024 1:46:29 PM: Processing group with Album UPC: 6221117180872
+11/10/2024 1:46:29 PM: Starting GetFolderPaths...
+11/10/2024 1:46:29 PM: Sucsses: PackageFolder trimmed to: batch_20241110134621
+11/10/2024 1:46:29 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:46:29 PM: Sucsses: ResourcesFolder set to: batch_20241110134621\6221117180872\resources
+11/10/2024 1:46:29 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:46:29 PM: Sucsses: MetadataFile path set to: batch_20241110134621\6221117180872\6221117180872.xml
+11/10/2024 1:46:29 PM: Sucsses: Final PackageFolder path: 86\batch_20241110134621
+11/10/2024 1:46:29 PM: Sucsses: Final ResourcesFolder path: 86\batch_20241110134621\6221117180872\resources
+11/10/2024 1:46:29 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 1:46:29 PM: Starting GetCover...
+11/10/2024 1:46:30 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/10/2024 1:46:30 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/10/2024 1:46:30 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\batch_20241110134621\6221117180872\resources
+11/10/2024 1:46:30 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/10/2024 1:46:30 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\batch_20241110134621\6221117180872\resources\6221117180872.jpg
+11/10/2024 1:46:30 PM: Start Getting Media For package info: 86
+11/10/2024 1:46:32 PM: Media data generated successfully.
+11/10/2024 1:46:32 PM: Success: generated XML for package ID: 86
+11/10/2024 1:46:32 PM: Processing group with Album UPC: 6221117181398
+11/10/2024 1:46:32 PM: Starting GetFolderPaths...
+11/10/2024 1:46:32 PM: Sucsses: PackageFolder trimmed to: batch_20241110134621
+11/10/2024 1:46:32 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:46:32 PM: Sucsses: ResourcesFolder set to: batch_20241110134621\6221117181398\resources
+11/10/2024 1:46:32 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:46:32 PM: Sucsses: MetadataFile path set to: batch_20241110134621\6221117181398\6221117181398.xml
+11/10/2024 1:46:32 PM: Sucsses: Final PackageFolder path: 86\batch_20241110134621
+11/10/2024 1:46:32 PM: Sucsses: Final ResourcesFolder path: 86\batch_20241110134621\6221117181398\resources
+11/10/2024 1:46:32 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 1:46:32 PM: Starting GetCover...
+11/10/2024 1:46:32 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/10/2024 1:46:32 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/10/2024 1:46:32 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\batch_20241110134621\6221117181398\resources
+11/10/2024 1:46:32 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/10/2024 1:46:32 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\batch_20241110134621\6221117181398\resources\6221117181398.jpg
+11/10/2024 1:46:32 PM: Start Getting Media For package info: 86
+11/10/2024 1:46:34 PM: Media data generated successfully.
+11/10/2024 1:46:34 PM: Success: generated XML for package ID: 86
+11/10/2024 1:46:34 PM: Processing group with Album UPC: 6221117181428
+11/10/2024 1:46:34 PM: Starting GetFolderPaths...
+11/10/2024 1:46:34 PM: Sucsses: PackageFolder trimmed to: batch_20241110134621
+11/10/2024 1:46:34 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:46:34 PM: Sucsses: ResourcesFolder set to: batch_20241110134621\6221117181428\resources
+11/10/2024 1:46:34 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:46:34 PM: Sucsses: MetadataFile path set to: batch_20241110134621\6221117181428\6221117181428.xml
+11/10/2024 1:46:34 PM: Sucsses: Final PackageFolder path: 86\batch_20241110134621
+11/10/2024 1:46:34 PM: Sucsses: Final ResourcesFolder path: 86\batch_20241110134621\6221117181428\resources
+11/10/2024 1:46:34 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 1:46:34 PM: Starting GetCover...
+11/10/2024 1:46:34 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/10/2024 1:46:34 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/10/2024 1:46:34 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\batch_20241110134621\6221117181428\resources
+11/10/2024 1:46:34 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/10/2024 1:46:34 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\batch_20241110134621\6221117181428\resources\6221117181428.jpg
+11/10/2024 1:46:34 PM: Start Getting Media For package info: 86
+11/10/2024 1:46:36 PM: Media data generated successfully.
+11/10/2024 1:46:36 PM: Success: generated XML for package ID: 86
+11/10/2024 1:46:36 PM: Processing group with Album UPC: 6221117181442
+11/10/2024 1:46:36 PM: Starting GetFolderPaths...
+11/10/2024 1:46:36 PM: Sucsses: PackageFolder trimmed to: batch_20241110134621
+11/10/2024 1:46:36 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:46:36 PM: Sucsses: ResourcesFolder set to: batch_20241110134621\6221117181442\resources
+11/10/2024 1:46:36 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:46:36 PM: Sucsses: MetadataFile path set to: batch_20241110134621\6221117181442\6221117181442.xml
+11/10/2024 1:46:36 PM: Sucsses: Final PackageFolder path: 86\batch_20241110134621
+11/10/2024 1:46:36 PM: Sucsses: Final ResourcesFolder path: 86\batch_20241110134621\6221117181442\resources
+11/10/2024 1:46:36 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 1:46:36 PM: Starting GetCover...
+11/10/2024 1:46:36 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/10/2024 1:46:36 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/10/2024 1:46:36 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\batch_20241110134621\6221117181442\resources
+11/10/2024 1:46:36 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/10/2024 1:46:36 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\batch_20241110134621\6221117181442\resources\6221117181442.jpg
+11/10/2024 1:46:36 PM: Start Getting Media For package info: 86
+11/10/2024 1:46:38 PM: Media data generated successfully.
+11/10/2024 1:46:38 PM: Success: generated XML for package ID: 86
+11/10/2024 1:50:47 PM: Starting XML generation for package ID: 86, Filename: TikTok_DDEX_XML_Template.xml, Company: TikTok
+11/10/2024 1:50:47 PM: Success: fetched package info for ID: 86
+11/10/2024 1:50:47 PM: Processing group with Album UPC: 6221117165909
+11/10/2024 1:50:47 PM: Starting GetFolderPaths...
+11/10/2024 1:50:47 PM: Fetching package folder for company: TikTok
+11/10/2024 1:50:47 PM: Sucsses: PackageFolder set to: batch_20241110135047
+11/10/2024 1:50:47 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 1:50:47 PM: Sucsses: ResourcesFolder set to: batch_20241110135047\6221117165909\resources
+11/10/2024 1:50:47 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 1:50:47 PM: Sucsses: MetadataFile path set to: batch_20241110135047\6221117165909\6221117165909.xml
+11/10/2024 1:50:47 PM: Sucsses: Final PackageFolder path: 86\batch_20241110135047
+11/10/2024 1:50:47 PM: Sucsses: Final ResourcesFolder path: 86\batch_20241110135047\6221117165909\resources
+11/10/2024 1:50:47 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 1:50:47 PM: Starting GetCover...
+11/10/2024 1:50:48 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/10/2024 1:50:48 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/10/2024 1:50:48 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/10/2024 1:50:48 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\batch_20241110135047\6221117165909\resources\6221117165909.jpg
+11/10/2024 1:50:48 PM: Start Getting Media For package info: 86
+11/10/2024 1:50:49 PM: Media data generated successfully.
+11/10/2024 1:50:49 PM: Error: generating XML for package: Could not find a part of the path C:\Pkg_Output\TikTok\86\batch_20241110135047\6221117165909\6221117165909.xml.
+11/10/2024 2:03:48 PM: Starting XML generation for package ID: 86, Filename: TikTok_DDEX_XML_Template.xml, Company: TikTok
+11/10/2024 2:03:48 PM: Success: fetched package info for ID: 86
+11/10/2024 2:03:48 PM: Processing group with Album UPC: 6221117165909
+11/10/2024 2:03:48 PM: Starting GetFolderPaths...
+11/10/2024 2:03:48 PM: Fetching package folder for company: TikTok
+11/10/2024 2:03:48 PM: Sucsses: PackageFolder set to: batch_20241110140348
+11/10/2024 2:03:48 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 2:03:48 PM: Sucsses: ResourcesFolder set to: batch_20241110140348\6221117165909\resources
+11/10/2024 2:03:48 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 2:03:48 PM: Sucsses: MetadataFile path set to: batch_20241110140348\6221117165909\6221117165909.xml
+11/10/2024 2:03:48 PM: Sucsses: Final PackageFolder path: 86\batch_20241110140348
+11/10/2024 2:03:48 PM: Sucsses: Final ResourcesFolder path: 86\batch_20241110140348\6221117165909\resources
+11/10/2024 2:03:48 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 2:03:48 PM: Starting GetCover...
+11/10/2024 2:03:49 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/10/2024 2:03:49 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/10/2024 2:03:49 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\batch_20241110140348\6221117165909\resources
+11/10/2024 2:03:49 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/10/2024 2:03:49 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\batch_20241110140348\6221117165909\resources\6221117165909.jpg
+11/10/2024 2:03:49 PM: Start Getting Media For package info: 86
+11/10/2024 2:03:50 PM: Media data generated successfully.
+11/10/2024 2:03:50 PM: Success: generated XML for package ID: 86
+11/10/2024 2:03:50 PM: Processing group with Album UPC: 6221117178930
+11/10/2024 2:03:50 PM: Starting GetFolderPaths...
+11/10/2024 2:03:50 PM: Sucsses: PackageFolder trimmed to: batch_20241110140348
+11/10/2024 2:03:50 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 2:03:50 PM: Sucsses: ResourcesFolder set to: batch_20241110140348\6221117178930\resources
+11/10/2024 2:03:50 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 2:03:50 PM: Sucsses: MetadataFile path set to: batch_20241110140348\6221117178930\6221117178930.xml
+11/10/2024 2:03:50 PM: Sucsses: Final PackageFolder path: 86\batch_20241110140348
+11/10/2024 2:03:50 PM: Sucsses: Final ResourcesFolder path: 86\batch_20241110140348\6221117178930\resources
+11/10/2024 2:03:50 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 2:03:50 PM: Starting GetCover...
+11/10/2024 2:03:51 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/10/2024 2:03:51 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/10/2024 2:03:51 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\batch_20241110140348\6221117178930\resources
+11/10/2024 2:03:51 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/10/2024 2:03:51 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\batch_20241110140348\6221117178930\resources\6221117178930.jpg
+11/10/2024 2:03:51 PM: Start Getting Media For package info: 86
+11/10/2024 2:03:53 PM: Media data generated successfully.
+11/10/2024 2:03:53 PM: Success: generated XML for package ID: 86
+11/10/2024 2:03:53 PM: Processing group with Album UPC: 6221117180292
+11/10/2024 2:03:53 PM: Starting GetFolderPaths...
+11/10/2024 2:03:53 PM: Sucsses: PackageFolder trimmed to: batch_20241110140348
+11/10/2024 2:03:53 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 2:03:53 PM: Sucsses: ResourcesFolder set to: batch_20241110140348\6221117180292\resources
+11/10/2024 2:03:53 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 2:03:53 PM: Sucsses: MetadataFile path set to: batch_20241110140348\6221117180292\6221117180292.xml
+11/10/2024 2:03:53 PM: Sucsses: Final PackageFolder path: 86\batch_20241110140348
+11/10/2024 2:03:53 PM: Sucsses: Final ResourcesFolder path: 86\batch_20241110140348\6221117180292\resources
+11/10/2024 2:03:53 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 2:03:53 PM: Starting GetCover...
+11/10/2024 2:03:53 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/10/2024 2:03:53 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/10/2024 2:03:53 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\batch_20241110140348\6221117180292\resources
+11/10/2024 2:03:53 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/10/2024 2:03:53 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\batch_20241110140348\6221117180292\resources\6221117180292.jpg
+11/10/2024 2:03:53 PM: Start Getting Media For package info: 86
+11/10/2024 2:03:55 PM: Media data generated successfully.
+11/10/2024 2:03:55 PM: Success: generated XML for package ID: 86
+11/10/2024 2:03:55 PM: Processing group with Album UPC: 6221117180544
+11/10/2024 2:03:55 PM: Starting GetFolderPaths...
+11/10/2024 2:03:55 PM: Sucsses: PackageFolder trimmed to: batch_20241110140348
+11/10/2024 2:03:55 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 2:03:55 PM: Sucsses: ResourcesFolder set to: batch_20241110140348\6221117180544\resources
+11/10/2024 2:03:55 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 2:03:55 PM: Sucsses: MetadataFile path set to: batch_20241110140348\6221117180544\6221117180544.xml
+11/10/2024 2:03:55 PM: Sucsses: Final PackageFolder path: 86\batch_20241110140348
+11/10/2024 2:03:55 PM: Sucsses: Final ResourcesFolder path: 86\batch_20241110140348\6221117180544\resources
+11/10/2024 2:03:55 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 2:03:55 PM: Starting GetCover...
+11/10/2024 2:03:56 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/10/2024 2:03:56 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/10/2024 2:03:56 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\batch_20241110140348\6221117180544\resources
+11/10/2024 2:03:56 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/10/2024 2:03:56 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\batch_20241110140348\6221117180544\resources\6221117180544.jpg
+11/10/2024 2:03:56 PM: Start Getting Media For package info: 86
+11/10/2024 2:03:57 PM: Media data generated successfully.
+11/10/2024 2:03:57 PM: Success: generated XML for package ID: 86
+11/10/2024 2:03:57 PM: Processing group with Album UPC: 6221117180872
+11/10/2024 2:03:57 PM: Starting GetFolderPaths...
+11/10/2024 2:03:57 PM: Sucsses: PackageFolder trimmed to: batch_20241110140348
+11/10/2024 2:03:57 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 2:03:57 PM: Sucsses: ResourcesFolder set to: batch_20241110140348\6221117180872\resources
+11/10/2024 2:03:57 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 2:03:57 PM: Sucsses: MetadataFile path set to: batch_20241110140348\6221117180872\6221117180872.xml
+11/10/2024 2:03:57 PM: Sucsses: Final PackageFolder path: 86\batch_20241110140348
+11/10/2024 2:03:57 PM: Sucsses: Final ResourcesFolder path: 86\batch_20241110140348\6221117180872\resources
+11/10/2024 2:03:57 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 2:03:57 PM: Starting GetCover...
+11/10/2024 2:03:58 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/10/2024 2:03:58 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/10/2024 2:03:58 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\batch_20241110140348\6221117180872\resources
+11/10/2024 2:03:58 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/10/2024 2:03:58 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\batch_20241110140348\6221117180872\resources\6221117180872.jpg
+11/10/2024 2:03:58 PM: Start Getting Media For package info: 86
+11/10/2024 2:03:59 PM: Media data generated successfully.
+11/10/2024 2:03:59 PM: Success: generated XML for package ID: 86
+11/10/2024 2:03:59 PM: Processing group with Album UPC: 6221117181398
+11/10/2024 2:03:59 PM: Starting GetFolderPaths...
+11/10/2024 2:03:59 PM: Sucsses: PackageFolder trimmed to: batch_20241110140348
+11/10/2024 2:03:59 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 2:03:59 PM: Sucsses: ResourcesFolder set to: batch_20241110140348\6221117181398\resources
+11/10/2024 2:03:59 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 2:03:59 PM: Sucsses: MetadataFile path set to: batch_20241110140348\6221117181398\6221117181398.xml
+11/10/2024 2:03:59 PM: Sucsses: Final PackageFolder path: 86\batch_20241110140348
+11/10/2024 2:03:59 PM: Sucsses: Final ResourcesFolder path: 86\batch_20241110140348\6221117181398\resources
+11/10/2024 2:03:59 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 2:03:59 PM: Starting GetCover...
+11/10/2024 2:04:00 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/10/2024 2:04:00 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/10/2024 2:04:00 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\batch_20241110140348\6221117181398\resources
+11/10/2024 2:04:00 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/10/2024 2:04:00 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\batch_20241110140348\6221117181398\resources\6221117181398.jpg
+11/10/2024 2:04:00 PM: Start Getting Media For package info: 86
+11/10/2024 2:04:01 PM: Media data generated successfully.
+11/10/2024 2:04:01 PM: Success: generated XML for package ID: 86
+11/10/2024 2:04:01 PM: Processing group with Album UPC: 6221117181428
+11/10/2024 2:04:01 PM: Starting GetFolderPaths...
+11/10/2024 2:04:01 PM: Sucsses: PackageFolder trimmed to: batch_20241110140348
+11/10/2024 2:04:01 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 2:04:01 PM: Sucsses: ResourcesFolder set to: batch_20241110140348\6221117181428\resources
+11/10/2024 2:04:01 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 2:04:01 PM: Sucsses: MetadataFile path set to: batch_20241110140348\6221117181428\6221117181428.xml
+11/10/2024 2:04:01 PM: Sucsses: Final PackageFolder path: 86\batch_20241110140348
+11/10/2024 2:04:01 PM: Sucsses: Final ResourcesFolder path: 86\batch_20241110140348\6221117181428\resources
+11/10/2024 2:04:01 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 2:04:01 PM: Starting GetCover...
+11/10/2024 2:04:02 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/10/2024 2:04:02 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/10/2024 2:04:02 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\batch_20241110140348\6221117181428\resources
+11/10/2024 2:04:02 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/10/2024 2:04:02 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\batch_20241110140348\6221117181428\resources\6221117181428.jpg
+11/10/2024 2:04:02 PM: Start Getting Media For package info: 86
+11/10/2024 2:04:03 PM: Media data generated successfully.
+11/10/2024 2:04:03 PM: Success: generated XML for package ID: 86
+11/10/2024 2:04:03 PM: Processing group with Album UPC: 6221117181442
+11/10/2024 2:04:03 PM: Starting GetFolderPaths...
+11/10/2024 2:04:03 PM: Sucsses: PackageFolder trimmed to: batch_20241110140348
+11/10/2024 2:04:03 PM: Sucsses: Fetching resources folder for company: TikTok
+11/10/2024 2:04:03 PM: Sucsses: ResourcesFolder set to: batch_20241110140348\6221117181442\resources
+11/10/2024 2:04:03 PM: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2024 2:04:03 PM: Sucsses: MetadataFile path set to: batch_20241110140348\6221117181442\6221117181442.xml
+11/10/2024 2:04:03 PM: Sucsses: Final PackageFolder path: 86\batch_20241110140348
+11/10/2024 2:04:03 PM: Sucsses: Final ResourcesFolder path: 86\batch_20241110140348\6221117181442\resources
+11/10/2024 2:04:03 PM: Sucsses: Retrieved folder paths for package: 86
+11/10/2024 2:04:03 PM: Starting GetCover...
+11/10/2024 2:04:04 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/10/2024 2:04:04 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/10/2024 2:04:04 PM: Sucsses: Created directory: C:\Pkg_Output\tiktok\86\batch_20241110140348\6221117181442\resources
+11/10/2024 2:04:04 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/10/2024 2:04:04 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\86\batch_20241110140348\6221117181442\resources\6221117181442.jpg
+11/10/2024 2:04:04 PM: Start Getting Media For package info: 86
+11/10/2024 2:04:05 PM: Media data generated successfully.
+11/10/2024 2:04:05 PM: Success: generated XML for package ID: 86
+11/10/2024 2:04:05 PM: Starting XML generation for package ID: 87, Filename: TikTok_DDEX_XML_Template.xml, Company: TikTok
+11/10/2024 2:04:05 PM: Success: fetched package info for ID: 87
+11/10/2024 2:04:05 PM: Critical error: No rows returned from the query.
+11/10/2024 2:23:26 PM: Starting XML generation for package ID: 88, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+11/10/2024 2:23:26 PM: Success: fetched package info for ID: 88
+11/10/2024 2:23:26 PM: Processing group with Album UPC: 6221117187239
+11/10/2024 2:23:26 PM: Starting GetFolderPaths...
+11/10/2024 2:23:26 PM: Fetching package folder for company: Spotify
+11/10/2024 2:23:26 PM: Sucsses: PackageFolder set to: 20241110142326441
+11/10/2024 2:23:26 PM: Sucsses: Fetching resources folder for company: Spotify
+11/10/2024 2:23:26 PM: Sucsses: ResourcesFolder set to: 20241110142326441\6221117187239\resources
+11/10/2024 2:23:26 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/10/2024 2:23:26 PM: Sucsses: MetadataFile path set to: 20241110142326441\6221117187239\6221117187239.xml
+11/10/2024 2:23:26 PM: Sucsses: Final PackageFolder path: 88\20241110142326441
+11/10/2024 2:23:26 PM: Sucsses: Final ResourcesFolder path: 88\20241110142326441\6221117187239\resources
+11/10/2024 2:23:26 PM: Sucsses: Retrieved folder paths for package: 88
+11/10/2024 2:23:26 PM: Starting GetCover...
+11/10/2024 2:23:27 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 2:23:27 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 2:23:27 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\88\20241110142326441\6221117187239\resources
+11/10/2024 2:23:27 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 2:23:27 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\88\20241110142326441\6221117187239\resources\6221117187239.jpg
+11/10/2024 2:23:27 PM: Start Getting Media For package info: 88
+11/10/2024 2:23:28 PM: Media data generated successfully.
+11/10/2024 2:23:28 PM: Success: generated XML for package ID: 88
+11/10/2024 2:23:28 PM: Processing group with Album UPC: 6221117187246
+11/10/2024 2:23:28 PM: Starting GetFolderPaths...
+11/10/2024 2:23:28 PM: Sucsses: PackageFolder trimmed to: 20241110142326441
+11/10/2024 2:23:28 PM: Sucsses: Fetching resources folder for company: Spotify
+11/10/2024 2:23:28 PM: Sucsses: ResourcesFolder set to: 20241110142326441\6221117187246\resources
+11/10/2024 2:23:28 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/10/2024 2:23:28 PM: Sucsses: MetadataFile path set to: 20241110142326441\6221117187246\6221117187246.xml
+11/10/2024 2:23:28 PM: Sucsses: Final PackageFolder path: 88\20241110142326441
+11/10/2024 2:23:28 PM: Sucsses: Final ResourcesFolder path: 88\20241110142326441\6221117187246\resources
+11/10/2024 2:23:28 PM: Sucsses: Retrieved folder paths for package: 88
+11/10/2024 2:23:28 PM: Starting GetCover...
+11/10/2024 2:23:29 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 2:23:29 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 2:23:29 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\88\20241110142326441\6221117187246\resources
+11/10/2024 2:23:29 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 2:23:29 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\88\20241110142326441\6221117187246\resources\6221117187246.jpg
+11/10/2024 2:23:29 PM: Start Getting Media For package info: 88
+11/10/2024 2:23:31 PM: Media data generated successfully.
+11/10/2024 2:23:31 PM: Success: generated XML for package ID: 88
+11/10/2024 3:23:45 PM: Starting XML generation for package ID: 89, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+11/10/2024 3:23:45 PM: Success: fetched package info for ID: 89
+11/10/2024 3:23:45 PM: Processing group with Album UPC: 6221117187239
+11/10/2024 3:23:45 PM: Starting GetFolderPaths...
+11/10/2024 3:23:45 PM: Fetching package folder for company: Spotify
+11/10/2024 3:23:45 PM: Sucsses: PackageFolder set to: 20241110152345400
+11/10/2024 3:23:45 PM: Sucsses: Fetching resources folder for company: Spotify
+11/10/2024 3:23:45 PM: Sucsses: ResourcesFolder set to: 20241110152345400\6221117187239\resources
+11/10/2024 3:23:45 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/10/2024 3:23:45 PM: Sucsses: MetadataFile path set to: 20241110152345400\6221117187239\6221117187239.xml
+11/10/2024 3:23:45 PM: Sucsses: Final PackageFolder path: 89\20241110152345400
+11/10/2024 3:23:45 PM: Sucsses: Final ResourcesFolder path: 89\20241110152345400\6221117187239\resources
+11/10/2024 3:23:45 PM: Sucsses: Retrieved folder paths for package: 89
+11/10/2024 3:23:45 PM: Starting GetCover...
+11/10/2024 3:23:46 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 3:23:46 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 3:23:46 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\89\20241110152345400\6221117187239\resources
+11/10/2024 3:23:46 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 3:23:46 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\89\20241110152345400\6221117187239\resources\6221117187239.jpg
+11/10/2024 3:23:46 PM: Start Getting Media For package info: 89
+11/10/2024 3:23:47 PM: Media data generated successfully.
+11/10/2024 3:23:47 PM: Success: generated XML for package ID: 89
+11/10/2024 3:23:47 PM: Processing group with Album UPC: 6221117187246
+11/10/2024 3:23:47 PM: Starting GetFolderPaths...
+11/10/2024 3:23:47 PM: Sucsses: PackageFolder trimmed to: 20241110152345400
+11/10/2024 3:23:47 PM: Sucsses: Fetching resources folder for company: Spotify
+11/10/2024 3:23:47 PM: Sucsses: ResourcesFolder set to: 20241110152345400\6221117187246\resources
+11/10/2024 3:23:47 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/10/2024 3:23:47 PM: Sucsses: MetadataFile path set to: 20241110152345400\6221117187246\6221117187246.xml
+11/10/2024 3:23:47 PM: Sucsses: Final PackageFolder path: 89\20241110152345400
+11/10/2024 3:23:47 PM: Sucsses: Final ResourcesFolder path: 89\20241110152345400\6221117187246\resources
+11/10/2024 3:23:47 PM: Sucsses: Retrieved folder paths for package: 89
+11/10/2024 3:23:47 PM: Starting GetCover...
+11/10/2024 3:23:48 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 3:23:48 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 3:23:48 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\89\20241110152345400\6221117187246\resources
+11/10/2024 3:23:48 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 3:23:48 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\89\20241110152345400\6221117187246\resources\6221117187246.jpg
+11/10/2024 3:23:48 PM: Start Getting Media For package info: 89
+11/10/2024 3:23:49 PM: Media data generated successfully.
+11/10/2024 3:23:49 PM: Success: generated XML for package ID: 89
+11/10/2024 3:28:09 PM: Starting XML generation for package ID: 89, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+11/10/2024 3:28:09 PM: Success: fetched package info for ID: 89
+11/10/2024 3:28:09 PM: Processing group with Album UPC: 6221117187239
+11/10/2024 3:28:09 PM: Starting GetFolderPaths...
+11/10/2024 3:28:09 PM: Fetching package folder for company: Spotify
+11/10/2024 3:28:09 PM: Sucsses: PackageFolder set to: 20241110152809978
+11/10/2024 3:28:09 PM: Sucsses: Fetching resources folder for company: Spotify
+11/10/2024 3:28:09 PM: Sucsses: ResourcesFolder set to: 20241110152809978\6221117187239\resources
+11/10/2024 3:28:09 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/10/2024 3:28:09 PM: Sucsses: MetadataFile path set to: 20241110152809978\6221117187239\6221117187239.xml
+11/10/2024 3:28:09 PM: Sucsses: Final PackageFolder path: 89\20241110152809978
+11/10/2024 3:28:09 PM: Sucsses: Final ResourcesFolder path: 89\20241110152809978\6221117187239\resources
+11/10/2024 3:28:09 PM: Sucsses: Retrieved folder paths for package: 89
+11/10/2024 3:28:09 PM: Starting GetCover...
+11/10/2024 3:28:10 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 3:28:10 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 3:28:10 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\89\20241110152809978\6221117187239\resources
+11/10/2024 3:28:10 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 3:28:10 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\89\20241110152809978\6221117187239\resources\6221117187239.jpg
+11/10/2024 3:28:10 PM: Start Getting Media For package info: 89
+11/10/2024 3:28:12 PM: Media data generated successfully.
+11/10/2024 3:28:12 PM: Success: generated XML for package ID: 89
+11/10/2024 3:28:12 PM: Processing group with Album UPC: 6221117187246
+11/10/2024 3:28:12 PM: Starting GetFolderPaths...
+11/10/2024 3:28:12 PM: Sucsses: PackageFolder trimmed to: 20241110152809978
+11/10/2024 3:28:12 PM: Sucsses: Fetching resources folder for company: Spotify
+11/10/2024 3:28:12 PM: Sucsses: ResourcesFolder set to: 20241110152809978\6221117187246\resources
+11/10/2024 3:28:12 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/10/2024 3:28:12 PM: Sucsses: MetadataFile path set to: 20241110152809978\6221117187246\6221117187246.xml
+11/10/2024 3:28:12 PM: Sucsses: Final PackageFolder path: 89\20241110152809978
+11/10/2024 3:28:12 PM: Sucsses: Final ResourcesFolder path: 89\20241110152809978\6221117187246\resources
+11/10/2024 3:28:12 PM: Sucsses: Retrieved folder paths for package: 89
+11/10/2024 3:28:12 PM: Starting GetCover...
+11/10/2024 3:28:13 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 3:28:13 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 3:28:13 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\89\20241110152809978\6221117187246\resources
+11/10/2024 3:28:13 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 3:28:13 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\89\20241110152809978\6221117187246\resources\6221117187246.jpg
+11/10/2024 3:28:13 PM: Start Getting Media For package info: 89
+11/10/2024 3:28:14 PM: Media data generated successfully.
+11/10/2024 3:28:14 PM: Success: generated XML for package ID: 89
+11/10/2024 3:38:14 PM: Starting XML generation for package ID: 89, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+11/10/2024 3:38:14 PM: Success: fetched package info for ID: 89
+11/10/2024 3:38:14 PM: Processing group with Album UPC: 6221117187239
+11/10/2024 3:38:14 PM: Starting GetFolderPaths...
+11/10/2024 3:38:14 PM: Fetching package folder for company: Spotify
+11/10/2024 3:38:14 PM: Sucsses: PackageFolder set to: 20241110153814148
+11/10/2024 3:38:14 PM: Sucsses: Fetching resources folder for company: Spotify
+11/10/2024 3:38:14 PM: Sucsses: ResourcesFolder set to: 20241110153814148\6221117187239\resources
+11/10/2024 3:38:14 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/10/2024 3:38:14 PM: Sucsses: MetadataFile path set to: 20241110153814148\6221117187239\6221117187239.xml
+11/10/2024 3:38:14 PM: Sucsses: Final PackageFolder path: 89\20241110153814148
+11/10/2024 3:38:14 PM: Sucsses: Final ResourcesFolder path: 89\20241110153814148\6221117187239\resources
+11/10/2024 3:38:14 PM: Sucsses: Retrieved folder paths for package: 89
+11/10/2024 3:38:14 PM: Starting GetCover...
+11/10/2024 3:38:14 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 3:38:14 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 3:38:14 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\89\20241110153814148\6221117187239\resources
+11/10/2024 3:38:14 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 3:38:14 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\89\20241110153814148\6221117187239\resources\6221117187239.jpg
+11/10/2024 3:38:14 PM: Start Getting Media For package info: 89
+11/10/2024 3:38:16 PM: Media data generated successfully.
+11/10/2024 3:38:16 PM: Success: generated XML for package ID: 89
+11/10/2024 3:38:16 PM: Processing group with Album UPC: 6221117187246
+11/10/2024 3:38:16 PM: Starting GetFolderPaths...
+11/10/2024 3:38:16 PM: Sucsses: PackageFolder trimmed to: 20241110153814148
+11/10/2024 3:38:16 PM: Sucsses: Fetching resources folder for company: Spotify
+11/10/2024 3:38:16 PM: Sucsses: ResourcesFolder set to: 20241110153814148\6221117187246\resources
+11/10/2024 3:38:16 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/10/2024 3:38:16 PM: Sucsses: MetadataFile path set to: 20241110153814148\6221117187246\6221117187246.xml
+11/10/2024 3:38:16 PM: Sucsses: Final PackageFolder path: 89\20241110153814148
+11/10/2024 3:38:16 PM: Sucsses: Final ResourcesFolder path: 89\20241110153814148\6221117187246\resources
+11/10/2024 3:38:16 PM: Sucsses: Retrieved folder paths for package: 89
+11/10/2024 3:38:16 PM: Starting GetCover...
+11/10/2024 3:38:17 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 3:38:17 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 3:38:17 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\89\20241110153814148\6221117187246\resources
+11/10/2024 3:38:17 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 3:38:17 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\89\20241110153814148\6221117187246\resources\6221117187246.jpg
+11/10/2024 3:38:17 PM: Start Getting Media For package info: 89
+11/10/2024 3:38:18 PM: Media data generated successfully.
+11/10/2024 3:38:18 PM: Success: generated XML for package ID: 89
+11/10/2024 4:01:03 PM: Starting XML generation for package ID: 89, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+11/10/2024 4:01:05 PM: Success: fetched package info for ID: 89
+11/10/2024 4:01:16 PM: Processing group with Album UPC: 6221117187239
+11/10/2024 4:01:19 PM: Starting GetFolderPaths...
+11/10/2024 4:01:19 PM: Fetching package folder for company: Spotify
+11/10/2024 4:01:19 PM: Sucsses: PackageFolder set to: 20241110160119017
+11/10/2024 4:01:19 PM: Sucsses: Fetching resources folder for company: Spotify
+11/10/2024 4:01:19 PM: Sucsses: ResourcesFolder set to: 20241110160119017\6221117187239\resources
+11/10/2024 4:01:19 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/10/2024 4:01:19 PM: Sucsses: MetadataFile path set to: 20241110160119017\6221117187239\6221117187239.xml
+11/10/2024 4:01:19 PM: Sucsses: Final PackageFolder path: 89\20241110160119017
+11/10/2024 4:01:19 PM: Sucsses: Final ResourcesFolder path: 89\20241110160119017\6221117187239\resources
+11/10/2024 4:01:22 PM: Sucsses: Retrieved folder paths for package: 89
+11/10/2024 4:01:25 PM: Starting GetCover...
+11/10/2024 4:01:26 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 4:01:26 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 4:01:26 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\89\20241110160119017\6221117187239\resources
+11/10/2024 4:01:26 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 4:01:26 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\89\20241110160119017\6221117187239\resources\6221117187239.jpg
+11/10/2024 4:01:26 PM: Start Getting Media For package info: 89
+11/10/2024 4:01:31 PM: Media data generated successfully.
+11/10/2024 4:01:43 PM: Success: generated XML for package ID: 89
+11/10/2024 4:01:50 PM: Processing group with Album UPC: 6221117187246
+11/10/2024 4:01:58 PM: Starting GetFolderPaths...
+11/10/2024 4:01:58 PM: Sucsses: PackageFolder trimmed to: 20241110160119017
+11/10/2024 4:01:58 PM: Sucsses: Fetching resources folder for company: Spotify
+11/10/2024 4:01:58 PM: Sucsses: ResourcesFolder set to: 20241110160119017\6221117187246\resources
+11/10/2024 4:01:58 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/10/2024 4:01:58 PM: Sucsses: MetadataFile path set to: 20241110160119017\6221117187246\6221117187246.xml
+11/10/2024 4:01:58 PM: Sucsses: Final PackageFolder path: 89\20241110160119017
+11/10/2024 4:01:58 PM: Sucsses: Final ResourcesFolder path: 89\20241110160119017\6221117187246\resources
+11/10/2024 4:02:19 PM: Sucsses: Retrieved folder paths for package: 89
+11/10/2024 4:02:23 PM: Starting GetCover...
+11/10/2024 4:02:24 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 4:02:24 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 4:02:24 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\89\20241110160119017\6221117187246\resources
+11/10/2024 4:02:24 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 4:02:24 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\89\20241110160119017\6221117187246\resources\6221117187246.jpg
+11/10/2024 4:02:24 PM: Start Getting Media For package info: 89
+11/10/2024 4:02:29 PM: Media data generated successfully.
+11/10/2024 4:02:37 PM: Success: generated XML for package ID: 89
+11/10/2024 4:04:30 PM: Starting XML generation for package ID: 89, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+11/10/2024 4:04:30 PM: Success: fetched package info for ID: 89
+11/10/2024 4:04:30 PM: Processing group with Album UPC: 6221117187239
+11/10/2024 4:04:38 PM: Starting GetFolderPaths...
+11/10/2024 4:04:41 PM: Fetching package folder for company: Spotify
+11/10/2024 4:04:48 PM: Sucsses: PackageFolder set to: 20241110160431667
+11/10/2024 4:04:49 PM: Sucsses: Fetching resources folder for company: Spotify
+11/10/2024 4:04:55 PM: Sucsses: ResourcesFolder set to: 20241110160431667\6221117187239\resources
+11/10/2024 4:04:56 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/10/2024 4:05:02 PM: Sucsses: MetadataFile path set to: 20241110160431667\6221117187239\6221117187239.xml
+11/10/2024 4:05:17 PM: Sucsses: Final PackageFolder path: 89\20241110160431667
+11/10/2024 4:05:17 PM: Sucsses: Final ResourcesFolder path: 89\20241110160431667\6221117187239\resources
+11/10/2024 4:06:28 PM: Starting XML generation for package ID: 89, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+11/10/2024 4:06:28 PM: Success: fetched package info for ID: 89
+11/10/2024 4:06:28 PM: Processing group with Album UPC: 6221117187239
+11/10/2024 4:06:29 PM: Starting GetFolderPaths...
+11/10/2024 4:06:29 PM: Fetching package folder for company: Spotify
+11/10/2024 4:06:29 PM: Sucsses: PackageFolder set to: 20241110160629158
+11/10/2024 4:06:29 PM: Sucsses: Fetching resources folder for company: Spotify
+11/10/2024 4:06:29 PM: Sucsses: ResourcesFolder set to: 20241110160629158\6221117187239\resources
+11/10/2024 4:06:29 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/10/2024 4:06:29 PM: Sucsses: MetadataFile path set to: 20241110160629158\6221117187239\6221117187239.xml
+11/10/2024 4:06:29 PM: Sucsses: Final PackageFolder path: 89\20241110160629158
+11/10/2024 4:06:29 PM: Sucsses: Final ResourcesFolder path: 89\20241110160629158\6221117187239\resources
+11/10/2024 4:06:29 PM: Sucsses: Retrieved folder paths for package: 89
+11/10/2024 4:06:29 PM: Starting GetCover...
+11/10/2024 4:06:29 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 4:06:29 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 4:06:29 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\89\20241110160629158\6221117187239\resources
+11/10/2024 4:06:29 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 4:06:29 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\89\20241110160629158\6221117187239\resources\6221117187239.jpg
+11/10/2024 4:06:29 PM: Start Getting Media For package info: 89
+11/10/2024 4:06:31 PM: Media data generated successfully.
+11/10/2024 4:06:31 PM: Success: generated XML for package ID: 89
+11/10/2024 4:06:31 PM: Processing group with Album UPC: 6221117187246
+11/10/2024 4:06:32 PM: Starting GetFolderPaths...
+11/10/2024 4:06:32 PM: Sucsses: PackageFolder trimmed to: 20241110160629158
+11/10/2024 4:06:32 PM: Sucsses: Fetching resources folder for company: Spotify
+11/10/2024 4:06:32 PM: Sucsses: ResourcesFolder set to: 20241110160629158\6221117187246\resources
+11/10/2024 4:06:32 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/10/2024 4:06:32 PM: Sucsses: MetadataFile path set to: 20241110160629158\6221117187246\6221117187246.xml
+11/10/2024 4:06:32 PM: Sucsses: Final PackageFolder path: 89\20241110160629158
+11/10/2024 4:06:32 PM: Sucsses: Final ResourcesFolder path: 89\20241110160629158\6221117187246\resources
+11/10/2024 4:06:32 PM: Sucsses: Retrieved folder paths for package: 89
+11/10/2024 4:06:32 PM: Starting GetCover...
+11/10/2024 4:06:32 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 4:06:32 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 4:06:32 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\89\20241110160629158\6221117187246\resources
+11/10/2024 4:06:32 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 4:06:32 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\89\20241110160629158\6221117187246\resources\6221117187246.jpg
+11/10/2024 4:06:32 PM: Start Getting Media For package info: 89
+11/10/2024 4:06:34 PM: Media data generated successfully.
+11/10/2024 4:06:34 PM: Success: generated XML for package ID: 89
+11/10/2024 4:07:39 PM: Starting XML generation for package ID: 89, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+11/10/2024 4:07:39 PM: Success: fetched package info for ID: 89
+11/10/2024 4:07:39 PM: Processing group with Album UPC: 6221117187239
+11/10/2024 4:07:43 PM: Starting GetFolderPaths...
+11/10/2024 4:07:43 PM: Fetching package folder for company: Spotify
+11/10/2024 4:07:43 PM: Sucsses: PackageFolder set to: 20241110160743288
+11/10/2024 4:07:43 PM: Sucsses: Fetching resources folder for company: Spotify
+11/10/2024 4:07:43 PM: Sucsses: ResourcesFolder set to: 20241110160743288\6221117187239\resources
+11/10/2024 4:07:43 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/10/2024 4:07:43 PM: Sucsses: MetadataFile path set to: 20241110160743288\6221117187239\6221117187239.xml
+11/10/2024 4:07:43 PM: Sucsses: Final PackageFolder path: 89\20241110160743288
+11/10/2024 4:07:43 PM: Sucsses: Final ResourcesFolder path: 89\20241110160743288\6221117187239\resources
+11/10/2024 4:07:43 PM: Sucsses: Retrieved folder paths for package: 89
+11/10/2024 4:07:43 PM: Starting GetCover...
+11/10/2024 4:07:43 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 4:07:43 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 4:07:43 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\89\20241110160743288\6221117187239\resources
+11/10/2024 4:07:43 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 4:07:43 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\89\20241110160743288\6221117187239\resources\6221117187239.jpg
+11/10/2024 4:07:43 PM: Start Getting Media For package info: 89
+11/10/2024 4:07:45 PM: Media data generated successfully.
+11/10/2024 4:07:45 PM: Success: generated XML for package ID: 89
+11/10/2024 4:07:45 PM: Processing group with Album UPC: 6221117187246
+11/10/2024 4:07:47 PM: Starting GetFolderPaths...
+11/10/2024 4:07:51 PM: Sucsses: PackageFolder trimmed to: 20241110160743288
+11/10/2024 4:09:01 PM: Starting XML generation for package ID: 89, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+11/10/2024 4:09:01 PM: Success: fetched package info for ID: 89
+11/10/2024 4:09:01 PM: Processing group with Album UPC: 6221117187239
+11/10/2024 4:09:01 PM: Starting GetFolderPaths...
+11/10/2024 4:09:01 PM: Fetching package folder for company: Spotify
+11/10/2024 4:09:01 PM: Sucsses: PackageFolder set to: 20241110160901825
+11/10/2024 4:09:01 PM: Sucsses: Fetching resources folder for company: Spotify
+11/10/2024 4:09:01 PM: Sucsses: ResourcesFolder set to: 20241110160901825\6221117187239\resources
+11/10/2024 4:09:01 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/10/2024 4:09:01 PM: Sucsses: MetadataFile path set to: 20241110160901825\6221117187239\6221117187239.xml
+11/10/2024 4:09:01 PM: Sucsses: Final PackageFolder path: 89\20241110160901825
+11/10/2024 4:09:01 PM: Sucsses: Final ResourcesFolder path: 89\20241110160901825\6221117187239\resources
+11/10/2024 4:09:01 PM: Sucsses: Retrieved folder paths for package: 89
+11/10/2024 4:09:02 PM: Starting GetCover...
+11/10/2024 4:09:02 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 4:09:02 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 4:09:02 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\89\20241110160901825\6221117187239\resources
+11/10/2024 4:09:02 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 4:09:02 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\89\20241110160901825\6221117187239\resources\6221117187239.jpg
+11/10/2024 4:09:02 PM: Start Getting Media For package info: 89
+11/10/2024 4:09:04 PM: Media data generated successfully.
+11/10/2024 4:09:04 PM: Success: generated XML for package ID: 89
+11/10/2024 4:09:04 PM: Processing group with Album UPC: 6221117187246
+11/10/2024 4:09:04 PM: Starting GetFolderPaths...
+11/10/2024 4:09:04 PM: Sucsses: PackageFolder trimmed to: 20241110160901825
+11/10/2024 4:09:04 PM: Sucsses: Fetching resources folder for company: Spotify
+11/10/2024 4:09:04 PM: Sucsses: ResourcesFolder set to: 20241110160901825\6221117187246\resources
+11/10/2024 4:09:04 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/10/2024 4:09:04 PM: Sucsses: MetadataFile path set to: 20241110160901825\6221117187246\6221117187246.xml
+11/10/2024 4:09:04 PM: Sucsses: Final PackageFolder path: 89\20241110160901825
+11/10/2024 4:09:04 PM: Sucsses: Final ResourcesFolder path: 89\20241110160901825\6221117187246\resources
+11/10/2024 4:09:04 PM: Sucsses: Retrieved folder paths for package: 89
+11/10/2024 4:09:04 PM: Starting GetCover...
+11/10/2024 4:09:04 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 4:09:04 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 4:09:04 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\89\20241110160901825\6221117187246\resources
+11/10/2024 4:09:04 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 4:09:04 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\89\20241110160901825\6221117187246\resources\6221117187246.jpg
+11/10/2024 4:09:04 PM: Start Getting Media For package info: 89
+11/10/2024 4:09:06 PM: Media data generated successfully.
+11/10/2024 4:09:06 PM: Success: generated XML for package ID: 89
+11/10/2024 4:17:41 PM: Starting XML generation for package ID: 89, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+11/10/2024 4:17:41 PM: Success: fetched package info for ID: 89
+11/10/2024 4:17:41 PM: Processing group with Album UPC: 6221117187239
+11/10/2024 4:17:41 PM: Starting GetFolderPaths...
+11/10/2024 4:17:41 PM: Fetching package folder for company: Spotify
+11/10/2024 4:17:41 PM: Sucsses: PackageFolder set to: 20241110161741821
+11/10/2024 4:17:41 PM: Sucsses: Fetching resources folder for company: Spotify
+11/10/2024 4:17:41 PM: Sucsses: ResourcesFolder set to: 20241110161741821\6221117187239\resources
+11/10/2024 4:17:41 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/10/2024 4:17:41 PM: Sucsses: MetadataFile path set to: 20241110161741821\6221117187239\6221117187239.xml
+11/10/2024 4:17:41 PM: Sucsses: Final PackageFolder path: 89\20241110161741821
+11/10/2024 4:17:41 PM: Sucsses: Final ResourcesFolder path: 89\20241110161741821\6221117187239\resources
+11/10/2024 4:17:41 PM: Sucsses: Retrieved folder paths for package: 89
+11/10/2024 4:17:42 PM: Starting GetCover...
+11/10/2024 4:17:42 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 4:17:42 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 4:17:42 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\89\20241110161741821\6221117187239\resources
+11/10/2024 4:17:42 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 4:17:42 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\89\20241110161741821\6221117187239\resources\6221117187239.jpg
+11/10/2024 4:17:42 PM: Start Getting Media For package info: 89
+11/10/2024 4:17:44 PM: Media data generated successfully.
+11/10/2024 4:17:44 PM: Success: generated XML for package ID: 89
+11/10/2024 4:17:44 PM: Processing group with Album UPC: 6221117187246
+11/10/2024 4:17:44 PM: Starting GetFolderPaths...
+11/10/2024 4:17:44 PM: Sucsses: PackageFolder trimmed to: 20241110161741821
+11/10/2024 4:17:44 PM: Sucsses: Fetching resources folder for company: Spotify
+11/10/2024 4:17:44 PM: Sucsses: ResourcesFolder set to: 20241110161741821\6221117187246\resources
+11/10/2024 4:17:44 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/10/2024 4:17:44 PM: Sucsses: MetadataFile path set to: 20241110161741821\6221117187246\6221117187246.xml
+11/10/2024 4:17:44 PM: Sucsses: Final PackageFolder path: 89\20241110161741821
+11/10/2024 4:17:44 PM: Sucsses: Final ResourcesFolder path: 89\20241110161741821\6221117187246\resources
+11/10/2024 4:17:44 PM: Sucsses: Retrieved folder paths for package: 89
+11/10/2024 4:17:44 PM: Starting GetCover...
+11/10/2024 4:17:45 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 4:17:45 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 4:17:45 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\89\20241110161741821\6221117187246\resources
+11/10/2024 4:17:45 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 4:17:45 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\89\20241110161741821\6221117187246\resources\6221117187246.jpg
+11/10/2024 4:17:45 PM: Start Getting Media For package info: 89
+11/10/2024 4:17:46 PM: Media data generated successfully.
+11/10/2024 4:17:46 PM: Success: generated XML for package ID: 89
+11/10/2024 4:18:56 PM: Starting XML generation for package ID: 89, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+11/10/2024 4:18:56 PM: Success: fetched package info for ID: 89
+11/10/2024 4:18:56 PM: Processing group with Album UPC: 6221117187239
+11/10/2024 4:18:56 PM: Starting GetFolderPaths...
+11/10/2024 4:18:56 PM: Fetching package folder for company: Spotify
+11/10/2024 4:18:56 PM: Sucsses: PackageFolder set to: 20241110161854245
+11/10/2024 4:18:56 PM: Sucsses: Fetching resources folder for company: Spotify
+11/10/2024 4:18:56 PM: Sucsses: ResourcesFolder set to: 20241110161854245\6221117187239\resources
+11/10/2024 4:18:56 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/10/2024 4:18:56 PM: Sucsses: MetadataFile path set to: 20241110161854245\6221117187239\6221117187239.xml
+11/10/2024 4:18:56 PM: Sucsses: Final PackageFolder path: 89\20241110161854245
+11/10/2024 4:18:56 PM: Sucsses: Final ResourcesFolder path: 89\20241110161854245\6221117187239\resources
+11/10/2024 4:18:56 PM: Sucsses: Retrieved folder paths for package: 89
+11/10/2024 4:18:56 PM: Starting GetCover...
+11/10/2024 4:18:56 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 4:18:56 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 4:18:56 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\89\20241110161854245\6221117187239\resources
+11/10/2024 4:18:56 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 4:18:56 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\89\20241110161854245\6221117187239\resources\6221117187239.jpg
+11/10/2024 4:18:56 PM: Start Getting Media For package info: 89
+11/10/2024 4:18:58 PM: Media data generated successfully.
+11/10/2024 4:18:58 PM: Success: generated XML for package ID: 89
+11/10/2024 4:18:58 PM: Processing group with Album UPC: 6221117187246
+11/10/2024 4:18:58 PM: Starting GetFolderPaths...
+11/10/2024 4:18:58 PM: Sucsses: PackageFolder trimmed to: 20241110161854245
+11/10/2024 4:18:58 PM: Sucsses: Fetching resources folder for company: Spotify
+11/10/2024 4:18:58 PM: Sucsses: ResourcesFolder set to: 20241110161854245\6221117187246\resources
+11/10/2024 4:18:58 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/10/2024 4:18:58 PM: Sucsses: MetadataFile path set to: 20241110161854245\6221117187246\6221117187246.xml
+11/10/2024 4:18:58 PM: Sucsses: Final PackageFolder path: 89\20241110161854245
+11/10/2024 4:18:58 PM: Sucsses: Final ResourcesFolder path: 89\20241110161854245\6221117187246\resources
+11/10/2024 4:18:58 PM: Sucsses: Retrieved folder paths for package: 89
+11/10/2024 4:18:58 PM: Starting GetCover...
+11/10/2024 4:18:59 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 4:18:59 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 4:18:59 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\89\20241110161854245\6221117187246\resources
+11/10/2024 4:18:59 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 4:18:59 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\89\20241110161854245\6221117187246\resources\6221117187246.jpg
+11/10/2024 4:18:59 PM: Start Getting Media For package info: 89
+11/10/2024 4:19:00 PM: Media data generated successfully.
+11/10/2024 4:19:00 PM: Success: generated XML for package ID: 89
+11/10/2024 4:31:37 PM: Starting XML generation for package ID: 89, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+11/10/2024 4:31:37 PM: Success: fetched package info for ID: 89
+11/10/2024 4:31:37 PM: Processing group with Album UPC: 6221117187239
+11/10/2024 4:31:37 PM: Starting GetFolderPaths...
+11/10/2024 4:31:37 PM: Fetching package folder for company: Spotify
+11/10/2024 4:31:37 PM: Sucsses: PackageFolder set to: 20241110163137609
+11/10/2024 4:31:37 PM: Sucsses: Fetching resources folder for company: Spotify
+11/10/2024 4:31:37 PM: Sucsses: ResourcesFolder set to: 20241110163137609\6221117187239\resources
+11/10/2024 4:31:37 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/10/2024 4:31:37 PM: Sucsses: MetadataFile path set to: 20241110163137609\6221117187239\6221117187239.xml
+11/10/2024 4:31:37 PM: Sucsses: Final PackageFolder path: 89\20241110163137609
+11/10/2024 4:31:37 PM: Sucsses: Final ResourcesFolder path: 89\20241110163137609\6221117187239\resources
+11/10/2024 4:31:37 PM: Sucsses: Retrieved folder paths for package: 89
+11/10/2024 4:31:37 PM: Starting GetCover...
+11/10/2024 4:31:38 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 4:31:38 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 4:31:38 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\89\20241110163137609\6221117187239\resources
+11/10/2024 4:31:38 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187239.jpg
+11/10/2024 4:31:38 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\89\20241110163137609\6221117187239\resources\6221117187239.jpg
+11/10/2024 4:31:38 PM: Start Getting Media For package info: 89
+11/10/2024 4:31:40 PM: Media data generated successfully.
+11/10/2024 4:31:40 PM: Success: generated XML for package ID: 89
+11/10/2024 4:31:40 PM: Processing group with Album UPC: 6221117187246
+11/10/2024 4:31:40 PM: Starting GetFolderPaths...
+11/10/2024 4:31:40 PM: Sucsses: PackageFolder trimmed to: 20241110163137609
+11/10/2024 4:31:40 PM: Sucsses: Fetching resources folder for company: Spotify
+11/10/2024 4:31:40 PM: Sucsses: ResourcesFolder set to: 20241110163137609\6221117187246\resources
+11/10/2024 4:31:40 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/10/2024 4:31:40 PM: Sucsses: MetadataFile path set to: 20241110163137609\6221117187246\6221117187246.xml
+11/10/2024 4:31:40 PM: Sucsses: Final PackageFolder path: 89\20241110163137609
+11/10/2024 4:31:40 PM: Sucsses: Final ResourcesFolder path: 89\20241110163137609\6221117187246\resources
+11/10/2024 4:31:40 PM: Sucsses: Retrieved folder paths for package: 89
+11/10/2024 4:31:40 PM: Starting GetCover...
+11/10/2024 4:31:40 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 4:31:40 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 4:31:40 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\89\20241110163137609\6221117187246\resources
+11/10/2024 4:31:40 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187246.jpg
+11/10/2024 4:31:40 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\89\20241110163137609\6221117187246\resources\6221117187246.jpg
+11/10/2024 4:31:40 PM: Start Getting Media For package info: 89
+11/10/2024 4:31:42 PM: Media data generated successfully.
+11/10/2024 4:31:42 PM: Success: generated XML for package ID: 89

@@ -1,0 +1,299 @@
+11/17/2024 4:48:14 PM: Starting XML generation for package ID: 90, Filename: Apple_Music_XML_Template.xml, Company: Apple Music
+11/17/2024 4:48:14 PM: Success: fetched package info for ID: 90
+11/17/2024 4:48:14 PM: Processing group with Album UPC: 6221117187253
+11/17/2024 4:48:14 PM: Starting GetFolderPaths...
+11/17/2024 4:48:14 PM: Fetching package folder for company: Apple Music
+11/17/2024 4:48:14 PM: Sucsses: PackageFolder set to: 20241117164814040
+11/17/2024 4:48:14 PM: Sucsses: Fetching resources folder for company: Apple Music
+11/17/2024 4:48:14 PM: Sucsses: ResourcesFolder set to: 20241117164814040\6221117187253.itmsp
+11/17/2024 4:48:14 PM: Sucsses: Fetching metadata file path for company: Apple Music
+11/17/2024 4:48:14 PM: Sucsses: MetadataFile path set to: 20241117164814040\6221117187253.itmsp\metadata.xml
+11/17/2024 4:48:14 PM: Sucsses: Final PackageFolder path: 90\20241117164814040
+11/17/2024 4:48:14 PM: Sucsses: Final ResourcesFolder path: 90\20241117164814040\6221117187253.itmsp
+11/17/2024 4:48:14 PM: Sucsses: Retrieved folder paths for package: 90
+11/17/2024 4:48:14 PM: Starting GetCover...
+11/17/2024 4:48:16 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/17/2024 4:48:16 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/17/2024 4:48:16 PM: Sucsses: Created directory: C:\Pkg_Output\apple music\90\20241117164814040\6221117187253.itmsp
+11/17/2024 4:48:16 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/17/2024 4:48:16 PM: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\90\20241117164814040\6221117187253.itmsp\6221117187253.jpg
+11/17/2024 4:48:16 PM: Start Getting Media For package info: 90
+11/17/2024 4:48:18 PM: Media data generated successfully.
+11/17/2024 4:48:18 PM: Success: generated XML for package ID: 90
+11/17/2024 4:48:18 PM: Starting XML generation for package ID: 91, Filename: YouTube_SndRec_DS_Track_XML_Template.xml, Company: YouTube-Sound Rec (Track)-DS
+11/17/2024 4:48:18 PM: Success: fetched package info for ID: 91
+11/17/2024 4:48:18 PM: Processing group with Album UPC: 6221117008893
+11/17/2024 4:48:18 PM: Starting GetFolderPaths...
+11/17/2024 4:48:18 PM: Sucsses: PackageFolder trimmed to: 20241117164814040
+11/17/2024 4:48:18 PM: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 4:48:18 PM: Sucsses: ResourcesFolder set to: 20241117164814040\@[ISRC]@\resources
+11/17/2024 4:48:18 PM: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 4:48:18 PM: Sucsses: MetadataFile path set to: 20241117164814040\EGA020501375\EGA020501375.xml
+11/17/2024 4:48:18 PM: Sucsses: Final PackageFolder path: 91\20241117164814040
+11/17/2024 4:48:18 PM: Sucsses: Final ResourcesFolder path: 91\20241117164814040\@[ISRC]@\resources
+11/17/2024 4:48:18 PM: Sucsses: Retrieved folder paths for package: 91
+11/17/2024 4:48:18 PM: Starting GetCover...
+11/17/2024 4:48:18 PM: Error: Provided path is empty. Exiting GetCover.
+11/17/2024 4:48:18 PM: Start Getting Media For package info: 91
+11/17/2024 4:48:25 PM: Media data generated successfully.
+11/17/2024 4:48:25 PM: Starting GetFolderPaths...
+11/17/2024 4:48:25 PM: Fetching package folder for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 4:48:25 PM: Sucsses: PackageFolder set to: 20241117164814040
+11/17/2024 4:48:25 PM: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 4:48:25 PM: Sucsses: ResourcesFolder set to: 20241117164814040\@[ISRC]@\resources
+11/17/2024 4:48:25 PM: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 4:48:25 PM: Sucsses: MetadataFile path set to: 20241117164814040\EGA020501375\EGA020501375.xml
+11/17/2024 4:48:25 PM: Sucsses: Final PackageFolder path: 91\20241117164814040
+11/17/2024 4:48:25 PM: Sucsses: Final ResourcesFolder path: 91\20241117164814040\@[ISRC]@\resources
+11/17/2024 4:48:25 PM: Starting XML generation for package ID: 92, Filename: Deezer_XML_Template.xml, Company: Deezer
+11/17/2024 4:48:25 PM: Success: fetched package info for ID: 92
+11/17/2024 4:48:25 PM: Processing group with Album UPC: 6221117008893
+11/17/2024 4:48:25 PM: Starting GetFolderPaths...
+11/17/2024 4:48:25 PM: Sucsses: PackageFolder trimmed to: 20241117164814040
+11/17/2024 4:48:25 PM: Sucsses: Fetching resources folder for company: Deezer
+11/17/2024 4:48:25 PM: Sucsses: ResourcesFolder set to: 20241117164814040\6221117008893
+11/17/2024 4:48:25 PM: Sucsses: Fetching metadata file path for company: Deezer
+11/17/2024 4:48:25 PM: Sucsses: MetadataFile path set to: 20241117164814040\6221117008893\6221117008893.xml
+11/17/2024 4:48:25 PM: Sucsses: Final PackageFolder path: 92\20241117164814040
+11/17/2024 4:48:25 PM: Sucsses: Final ResourcesFolder path: 92\20241117164814040\6221117008893
+11/17/2024 4:48:25 PM: Sucsses: Retrieved folder paths for package: 92
+11/17/2024 4:48:25 PM: Starting GetCover...
+11/17/2024 4:48:25 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117008893.jpg
+11/17/2024 4:48:25 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117008893.jpg
+11/17/2024 4:48:25 PM: Sucsses: Created directory: C:\Pkg_Output\deezer\92\20241117164814040\6221117008893
+11/17/2024 4:48:25 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117008893.jpg
+11/17/2024 4:48:25 PM: Sucsses: Copied cover file to: C:\Pkg_Output\deezer\92\20241117164814040\6221117008893\6221117008893.jpg
+11/17/2024 4:48:25 PM: Start Getting Media For package info: 92
+11/17/2024 4:48:32 PM: Starting GetCover...
+11/17/2024 4:48:33 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117008893.jpg
+11/17/2024 4:48:33 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117008893.jpg
+11/17/2024 4:48:33 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117008893.jpg
+11/17/2024 4:48:33 PM: Sucsses: Copied cover file to: C:\Pkg_Output\deezer\92\20241117164814040\6221117008893\6221117008893.jpg
+11/17/2024 4:48:33 PM: Start Getting Media For package info: 92
+11/17/2024 4:48:36 PM: Media data generated successfully.
+11/17/2024 4:48:36 PM: Success: generated XML for package ID: 92
+11/17/2024 4:48:36 PM: Processing group with Album UPC: 6221117008985
+11/17/2024 4:48:36 PM: Starting GetFolderPaths...
+11/17/2024 4:48:36 PM: Sucsses: PackageFolder trimmed to: 20241117164814040
+11/17/2024 4:48:36 PM: Sucsses: Fetching resources folder for company: Deezer
+11/17/2024 4:48:36 PM: Sucsses: ResourcesFolder set to: 20241117164814040\6221117008985
+11/17/2024 4:48:36 PM: Sucsses: Fetching metadata file path for company: Deezer
+11/17/2024 4:48:36 PM: Sucsses: MetadataFile path set to: 20241117164814040\6221117008985\6221117008985.xml
+11/17/2024 4:48:36 PM: Sucsses: Final PackageFolder path: 92\20241117164814040
+11/17/2024 4:48:36 PM: Sucsses: Final ResourcesFolder path: 92\20241117164814040\6221117008985
+11/17/2024 4:48:36 PM: Sucsses: Retrieved folder paths for package: 92
+11/17/2024 4:48:36 PM: Starting GetCover...
+11/17/2024 4:48:37 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117008985.jpg
+11/17/2024 4:48:37 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117008985.jpg
+11/17/2024 4:48:37 PM: Sucsses: Created directory: C:\Pkg_Output\deezer\92\20241117164814040\6221117008985
+11/17/2024 4:48:37 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117008985.jpg
+11/17/2024 4:48:37 PM: Sucsses: Copied cover file to: C:\Pkg_Output\deezer\92\20241117164814040\6221117008985\6221117008985.jpg
+11/17/2024 4:48:37 PM: Start Getting Media For package info: 92
+11/17/2024 4:57:07 PM: Starting XML generation for package ID: 91, Filename: YouTube_SndRec_DS_Track_XML_Template.xml, Company: YouTube-Sound Rec (Track)-DS
+11/17/2024 4:57:07 PM: Success: fetched package info for ID: 91
+11/17/2024 4:57:07 PM: Processing group with Album UPC: 6221117008893
+11/17/2024 4:57:07 PM: Starting GetFolderPaths...
+11/17/2024 4:57:07 PM: Fetching package folder for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 4:57:07 PM: Sucsses: PackageFolder set to: 20241117165707269
+11/17/2024 4:57:07 PM: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 4:57:07 PM: Sucsses: ResourcesFolder set to: 20241117165707269\@[ISRC]@\resources
+11/17/2024 4:57:07 PM: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 4:57:07 PM: Sucsses: MetadataFile path set to: 20241117165707269\EGA020501375\EGA020501375.xml
+11/17/2024 4:57:07 PM: Sucsses: Final PackageFolder path: 91\20241117165707269
+11/17/2024 4:57:07 PM: Sucsses: Final ResourcesFolder path: 91\20241117165707269\@[ISRC]@\resources
+11/17/2024 4:57:07 PM: Sucsses: Retrieved folder paths for package: 91
+11/17/2024 4:57:07 PM: Starting GetCover...
+11/17/2024 4:57:07 PM: Error: Provided path is empty. Exiting GetCover.
+11/17/2024 4:57:07 PM: Start Getting Media For package info: 91
+11/17/2024 4:57:25 PM: Starting XML generation for package ID: 91, Filename: YouTube_SndRec_DS_Track_XML_Template.xml, Company: YouTube-Sound Rec (Track)-DS
+11/17/2024 4:57:25 PM: Success: fetched package info for ID: 91
+11/17/2024 4:57:25 PM: Processing group with Album UPC: 6221117008893
+11/17/2024 4:57:25 PM: Starting GetFolderPaths...
+11/17/2024 4:57:25 PM: Fetching package folder for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 4:57:25 PM: Sucsses: PackageFolder set to: 20241117165724929
+11/17/2024 4:57:25 PM: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 4:57:25 PM: Sucsses: ResourcesFolder set to: 20241117165724929\@[ISRC]@\resources
+11/17/2024 4:57:25 PM: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 4:57:25 PM: Sucsses: MetadataFile path set to: 20241117165724929\EGA020501375\EGA020501375.xml
+11/17/2024 4:57:25 PM: Sucsses: Final PackageFolder path: 91\20241117165724929
+11/17/2024 4:57:25 PM: Sucsses: Final ResourcesFolder path: 91\20241117165724929\@[ISRC]@\resources
+11/17/2024 4:57:25 PM: Sucsses: Retrieved folder paths for package: 91
+11/17/2024 4:57:25 PM: Starting GetCover...
+11/17/2024 4:57:25 PM: Error: Provided path is empty. Exiting GetCover.
+11/17/2024 4:57:25 PM: Start Getting Media For package info: 91
+11/17/2024 4:57:31 PM: Media data generated successfully.
+11/17/2024 4:57:31 PM: Starting GetFolderPaths...
+11/17/2024 4:57:31 PM: Fetching package folder for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 4:57:31 PM: Sucsses: PackageFolder set to: 20241117165724929
+11/17/2024 4:57:31 PM: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 4:57:31 PM: Sucsses: ResourcesFolder set to: 20241117165724929\@[ISRC]@\resources
+11/17/2024 4:57:31 PM: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 4:57:31 PM: Sucsses: MetadataFile path set to: 20241117165724929\EGA020501375\EGA020501375.xml
+11/17/2024 4:57:31 PM: Sucsses: Final PackageFolder path: 91\20241117165724929
+11/17/2024 4:57:31 PM: Sucsses: Final ResourcesFolder path: 91\20241117165724929\@[ISRC]@\resources
+11/17/2024 5:07:43 PM: Starting XML generation for package ID: 91, Filename: YouTube_SndRec_DS_Track_XML_Template.xml, Company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:07:43 PM: Success: fetched package info for ID: 91
+11/17/2024 5:07:43 PM: Processing group with Album UPC: 6221117008893
+11/17/2024 5:07:43 PM: Starting GetFolderPaths...
+11/17/2024 5:07:43 PM: Fetching package folder for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:07:43 PM: Sucsses: PackageFolder set to: 20241117170742896
+11/17/2024 5:07:43 PM: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:07:43 PM: Sucsses: ResourcesFolder set to: 20241117170742896\@[ISRC]@\resources
+11/17/2024 5:07:43 PM: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:07:43 PM: Sucsses: MetadataFile path set to: 20241117170742896\EGA020501375\EGA020501375.xml
+11/17/2024 5:07:43 PM: Sucsses: Final PackageFolder path: 91\20241117170742896
+11/17/2024 5:07:43 PM: Sucsses: Final ResourcesFolder path: 91\20241117170742896\@[ISRC]@\resources
+11/17/2024 5:07:43 PM: Sucsses: Retrieved folder paths for package: 91
+11/17/2024 5:07:43 PM: Starting GetCover...
+11/17/2024 5:07:43 PM: Error: Provided path is empty. Exiting GetCover.
+11/17/2024 5:07:43 PM: Start Getting Media For package info: 91
+11/17/2024 5:07:49 PM: Media data generated successfully.
+11/17/2024 5:07:49 PM: Starting GetFolderPaths...
+11/17/2024 5:07:49 PM: Fetching package folder for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:07:49 PM: Sucsses: PackageFolder set to: 20241117170742896
+11/17/2024 5:07:49 PM: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:07:49 PM: Sucsses: ResourcesFolder set to: 20241117170742896\@[ISRC]@\resources
+11/17/2024 5:07:49 PM: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:07:49 PM: Sucsses: MetadataFile path set to: 20241117170742896\EGA020501375\EGA020501375.xml
+11/17/2024 5:07:49 PM: Sucsses: Final PackageFolder path: 91\20241117170742896
+11/17/2024 5:07:49 PM: Sucsses: Final ResourcesFolder path: 91\20241117170742896\@[ISRC]@\resources
+11/17/2024 5:15:23 PM: Starting XML generation for package ID: 91, Filename: YouTube_SndRec_DS_Track_XML_Template.xml, Company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:15:23 PM: Success: fetched package info for ID: 91
+11/17/2024 5:15:23 PM: Processing group with Album UPC: 6221117008893
+11/17/2024 5:15:23 PM: Starting GetFolderPaths...
+11/17/2024 5:15:23 PM: Fetching package folder for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:15:23 PM: Sucsses: PackageFolder set to: 20241117171523116
+11/17/2024 5:15:23 PM: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:15:23 PM: Sucsses: ResourcesFolder set to: 20241117171523116\@[ISRC]@\resources
+11/17/2024 5:15:23 PM: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:15:23 PM: Sucsses: MetadataFile path set to: 20241117171523116\EGA020501375\EGA020501375.xml
+11/17/2024 5:15:23 PM: Sucsses: Final PackageFolder path: 91\20241117171523116
+11/17/2024 5:15:23 PM: Sucsses: Final ResourcesFolder path: 91\20241117171523116\@[ISRC]@\resources
+11/17/2024 5:15:23 PM: Sucsses: Retrieved folder paths for package: 91
+11/17/2024 5:15:23 PM: Starting GetCover...
+11/17/2024 5:15:23 PM: Error: Provided path is empty. Exiting GetCover.
+11/17/2024 5:15:23 PM: Start Getting Media For package info: 91
+11/17/2024 5:27:17 PM: Starting XML generation for package ID: 91, Filename: YouTube_SndRec_DS_Track_XML_Template.xml, Company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:27:17 PM: Success: fetched package info for ID: 91
+11/17/2024 5:27:17 PM: Processing group with Album UPC: 6221117008893
+11/17/2024 5:27:17 PM: Starting GetFolderPaths...
+11/17/2024 5:27:17 PM: Fetching package folder for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:27:17 PM: Sucsses: PackageFolder set to: 20241117172717578
+11/17/2024 5:27:17 PM: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:27:17 PM: Sucsses: ResourcesFolder set to: 20241117172717578\@[ISRC]@\resources
+11/17/2024 5:27:17 PM: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:27:17 PM: Sucsses: MetadataFile path set to: 20241117172717578\EGA020501375\EGA020501375.xml
+11/17/2024 5:27:17 PM: Sucsses: Final PackageFolder path: 91\20241117172717578
+11/17/2024 5:27:17 PM: Sucsses: Final ResourcesFolder path: 91\20241117172717578\@[ISRC]@\resources
+11/17/2024 5:27:17 PM: Sucsses: Retrieved folder paths for package: 91
+11/17/2024 5:27:17 PM: Starting GetCover...
+11/17/2024 5:27:17 PM: Error: Provided path is empty. Exiting GetCover.
+11/17/2024 5:27:17 PM: Start Getting Media For package info: 91
+11/17/2024 5:29:47 PM: Starting XML generation for package ID: 91, Filename: YouTube_SndRec_DS_Track_XML_Template.xml, Company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:29:47 PM: Success: fetched package info for ID: 91
+11/17/2024 5:29:47 PM: Processing group with Album UPC: 6221117008893
+11/17/2024 5:29:47 PM: Starting GetFolderPaths...
+11/17/2024 5:29:47 PM: Fetching package folder for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:29:47 PM: Sucsses: PackageFolder set to: 20241117172947028
+11/17/2024 5:29:47 PM: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:29:47 PM: Sucsses: ResourcesFolder set to: 20241117172947028\@[ISRC]@\resources
+11/17/2024 5:29:47 PM: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:29:47 PM: Sucsses: MetadataFile path set to: 20241117172947028\EGA020501375\EGA020501375.xml
+11/17/2024 5:29:47 PM: Sucsses: Final PackageFolder path: 91\20241117172947028
+11/17/2024 5:29:47 PM: Sucsses: Final ResourcesFolder path: 91\20241117172947028\@[ISRC]@\resources
+11/17/2024 5:29:47 PM: Sucsses: Retrieved folder paths for package: 91
+11/17/2024 5:29:47 PM: Starting GetCover...
+11/17/2024 5:29:47 PM: Error: Provided path is empty. Exiting GetCover.
+11/17/2024 5:29:47 PM: Start Getting Media For package info: 91
+11/17/2024 5:29:53 PM: Media data generated successfully.
+11/17/2024 5:29:53 PM: Starting GetFolderPaths...
+11/17/2024 5:29:53 PM: Fetching package folder for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:29:53 PM: Sucsses: PackageFolder set to: 20241117172947028
+11/17/2024 5:29:53 PM: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:29:53 PM: Sucsses: ResourcesFolder set to: 20241117172947028\@[ISRC]@\resources
+11/17/2024 5:29:53 PM: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:29:53 PM: Sucsses: MetadataFile path set to: 20241117172947028\EGA020501375\EGA020501375.xml
+11/17/2024 5:29:53 PM: Sucsses: Final PackageFolder path: 91\20241117172947028
+11/17/2024 5:29:53 PM: Sucsses: Final ResourcesFolder path: 91\20241117172947028\@[ISRC]@\resources
+11/17/2024 5:30:32 PM: Starting XML generation for package ID: 90, Filename: Apple_Music_XML_Template.xml, Company: Apple Music
+11/17/2024 5:30:32 PM: Success: fetched package info for ID: 90
+11/17/2024 5:30:32 PM: Processing group with Album UPC: 6221117187253
+11/17/2024 5:30:32 PM: Starting GetFolderPaths...
+11/17/2024 5:30:32 PM: Fetching package folder for company: Apple Music
+11/17/2024 5:30:32 PM: Sucsses: PackageFolder set to: 20241117173029347
+11/17/2024 5:30:32 PM: Sucsses: Fetching resources folder for company: Apple Music
+11/17/2024 5:30:32 PM: Sucsses: ResourcesFolder set to: 20241117173029347\6221117187253.itmsp
+11/17/2024 5:30:32 PM: Sucsses: Fetching metadata file path for company: Apple Music
+11/17/2024 5:30:32 PM: Sucsses: MetadataFile path set to: 20241117173029347\6221117187253.itmsp\metadata.xml
+11/17/2024 5:30:32 PM: Sucsses: Final PackageFolder path: 90\20241117173029347
+11/17/2024 5:30:32 PM: Sucsses: Final ResourcesFolder path: 90\20241117173029347\6221117187253.itmsp
+11/17/2024 5:30:32 PM: Sucsses: Retrieved folder paths for package: 90
+11/17/2024 5:30:32 PM: Starting GetCover...
+11/17/2024 5:30:32 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/17/2024 5:30:32 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/17/2024 5:30:32 PM: Sucsses: Created directory: C:\Pkg_Output\apple music\90\20241117173029347\6221117187253.itmsp
+11/17/2024 5:30:32 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/17/2024 5:30:32 PM: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\90\20241117173029347\6221117187253.itmsp\6221117187253.jpg
+11/17/2024 5:30:32 PM: Start Getting Media For package info: 90
+11/17/2024 5:30:34 PM: Media data generated successfully.
+11/17/2024 5:30:51 PM: Success: generated XML for package ID: 90
+11/17/2024 5:30:51 PM: Starting XML generation for package ID: 91, Filename: YouTube_SndRec_DS_Track_XML_Template.xml, Company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:30:51 PM: Success: fetched package info for ID: 91
+11/17/2024 5:30:51 PM: Processing group with Album UPC: 6221117008893
+11/17/2024 5:30:51 PM: Starting GetFolderPaths...
+11/17/2024 5:30:51 PM: Sucsses: PackageFolder trimmed to: 20241117173029347
+11/17/2024 5:30:51 PM: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:30:51 PM: Sucsses: ResourcesFolder set to: 20241117173029347\@[ISRC]@\resources
+11/17/2024 5:30:51 PM: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:30:51 PM: Sucsses: MetadataFile path set to: 20241117173029347\EGA020501375\EGA020501375.xml
+11/17/2024 5:30:51 PM: Sucsses: Final PackageFolder path: 91\20241117173029347
+11/17/2024 5:30:51 PM: Sucsses: Final ResourcesFolder path: 91\20241117173029347\@[ISRC]@\resources
+11/17/2024 5:30:51 PM: Sucsses: Retrieved folder paths for package: 91
+11/17/2024 5:30:51 PM: Starting GetCover...
+11/17/2024 5:30:51 PM: Error: Provided path is empty. Exiting GetCover.
+11/17/2024 5:30:51 PM: Start Getting Media For package info: 91
+11/17/2024 5:31:08 PM: Starting XML generation for package ID: 91, Filename: YouTube_SndRec_DS_Track_XML_Template.xml, Company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:31:08 PM: Success: fetched package info for ID: 91
+11/17/2024 5:31:08 PM: Processing group with Album UPC: 6221117008893
+11/17/2024 5:31:08 PM: Starting GetFolderPaths...
+11/17/2024 5:31:08 PM: Fetching package folder for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:31:08 PM: Sucsses: PackageFolder set to: 20241117173108571
+11/17/2024 5:31:08 PM: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:31:08 PM: Sucsses: ResourcesFolder set to: 20241117173108571\@[ISRC]@\resources
+11/17/2024 5:31:08 PM: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:31:08 PM: Sucsses: MetadataFile path set to: 20241117173108571\EGA020501375\EGA020501375.xml
+11/17/2024 5:31:08 PM: Sucsses: Final PackageFolder path: 91\20241117173108571
+11/17/2024 5:31:08 PM: Sucsses: Final ResourcesFolder path: 91\20241117173108571\@[ISRC]@\resources
+11/17/2024 5:31:08 PM: Sucsses: Retrieved folder paths for package: 91
+11/17/2024 5:31:08 PM: Starting GetCover...
+11/17/2024 5:31:08 PM: Error: Provided path is empty. Exiting GetCover.
+11/17/2024 5:31:08 PM: Start Getting Media For package info: 91
+11/17/2024 5:31:15 PM: Media data generated successfully.
+11/17/2024 5:31:15 PM: Starting GetFolderPaths...
+11/17/2024 5:31:15 PM: Fetching package folder for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:31:15 PM: Sucsses: PackageFolder set to: 20241117173108571
+11/17/2024 5:31:15 PM: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:31:15 PM: Sucsses: ResourcesFolder set to: 20241117173108571\@[ISRC]@\resources
+11/17/2024 5:31:15 PM: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-DS
+11/17/2024 5:31:15 PM: Sucsses: MetadataFile path set to: 20241117173108571\EGA020501375\EGA020501375.xml
+11/17/2024 5:31:15 PM: Sucsses: Final PackageFolder path: 91\20241117173108571
+11/17/2024 5:31:15 PM: Sucsses: Final ResourcesFolder path: 91\20241117173108571\@[ISRC]@\resources
+11/17/2024 5:31:15 PM: Starting XML generation for package ID: 92, Filename: Deezer_XML_Template.xml, Company: Deezer
+11/17/2024 5:31:15 PM: Success: fetched package info for ID: 92
+11/17/2024 5:31:15 PM: Processing group with Album UPC: 6221117008893
+11/17/2024 5:31:15 PM: Starting GetFolderPaths...
+11/17/2024 5:31:15 PM: Sucsses: PackageFolder trimmed to: 20241117173108571
+11/17/2024 5:31:15 PM: Sucsses: Fetching resources folder for company: Deezer
+11/17/2024 5:31:15 PM: Sucsses: ResourcesFolder set to: 20241117173108571\6221117008893
+11/17/2024 5:31:15 PM: Sucsses: Fetching metadata file path for company: Deezer
+11/17/2024 5:31:15 PM: Sucsses: MetadataFile path set to: 20241117173108571\6221117008893\6221117008893.xml
+11/17/2024 5:31:15 PM: Sucsses: Final PackageFolder path: 92\20241117173108571
+11/17/2024 5:31:15 PM: Sucsses: Final ResourcesFolder path: 92\20241117173108571\6221117008893
+11/17/2024 5:31:15 PM: Sucsses: Retrieved folder paths for package: 92
+11/17/2024 5:31:15 PM: Starting GetCover...
+11/17/2024 5:31:15 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117008893.jpg
+11/17/2024 5:31:15 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117008893.jpg
+11/17/2024 5:31:15 PM: Sucsses: Created directory: C:\Pkg_Output\deezer\92\20241117173108571\6221117008893
+11/17/2024 5:31:15 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117008893.jpg
+11/17/2024 5:31:15 PM: Sucsses: Copied cover file to: C:\Pkg_Output\deezer\92\20241117173108571\6221117008893\6221117008893.jpg
+11/17/2024 5:31:15 PM: Start Getting Media For package info: 92

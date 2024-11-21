@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <database>
+    <connectionString>Data Source=10.1.1.27;Initial Catalog=DPackaging;User ID=cms;Password=D@cms2015;Encrypt=True;TrustServerCertificate=True;</connectionString>
+  </database>
+  <network>
+	  <department_num>0</department_num>
+  </network> 
+</configuration>

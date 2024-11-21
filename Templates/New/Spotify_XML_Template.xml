@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product-insert id="@[ALBUM_UPC]@" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spotify.com/ns/delivery/9.0" xsi:schemaLocation="http://www.spotify.com/ns/delivery/9.0 spotify.xsd">
+	
+	<id type="upc">@[ALBUM_UPC]@</id>
+	
+	<type>@[RELEASE_TYPE]@</type>
+	
+	<title>@[ALBUM_TITLE]@</title>
+  <title lang="ar">@[ALBUM_TITLE_ARB]@</title>
+
+  <genre>@[TRACK_GENRE]@</genre>
+	
+	<original-release-date>@[RELEASE_DATE]@</original-release-date>
+	
+	<copyright type="p">@[RELEASE_YEAR]@ @[LABEL_NAME]@</copyright>
+	<copyright type="c">@[RELEASE_YEAR]@ @[LABEL_NAME]@</copyright>
+	
+	<label>@[LABEL_NAME]@</label>
+	<licensor>
+		<id>f0b35870-775d-4715-b302-926e4407b43b</id>
+		<description>Mazzika Group</description>
+	</licensor>
+	
+	<coverart>
+		<filename>@[ALBUM_UPC]@.jpg</filename>
+		<checksum type="md5">@[HASH_SUM_IMAGE]@</checksum>
+	</coverart>
+	
+	<artist>
+		<name>@[ALBUM_ARTIST]@</name>
+	</artist>
+
+	<disc number="@[DISK_NO]@">
+
+		#LOOP_TRACK#
+		<track number="@[TRACK_NO]@">
+			<id type="isrc">@[ISRC]@</id>
+			<title>@[TRACK_TITLE]@</title>
+			<title lang="ar">@[TRACK_TITLE_ARB]@</title>
+			<copyright type="p">@[RELEASE_YEAR]@ @[LABEL_NAME]@</copyright>
+      <parental-warning>not-explicit</parental-warning>
+
+      <artist>
+				<name>@[TRACK_ARTIST]@</name>
+				<role>main artist</role>
+			</artist>
+
+      #LOOP_TRACK_FEATURED_ARTIST#
+      <artist>
+        <name>@[TRACK_FEATURED_ARTIST]@</name>
+        <role>featured artist</role>
+      </artist>
+      
+      #END_LOOP_TRACK_FEATURED_ARTIST#
+      <restriction>
+				<exception country="@[COUNTRY_ISO_CODE]@" start="@[START_DATE]@"/>
+			</restriction>
+			
+			<duration>@[TRACK_TOTAL_DURATION]@</duration>
+			
+			<audio>
+				<filename>@[ALBUM_UPC]@_@[DISK_NUM]@_@[TRACK_NO]@.flac</filename>
+				<checksum type="md5">@[HASH_SUM]@</checksum>
+			</audio>
+			
+		</track>
+		#END_LOOP_TRACK#
+	</disc>
+</product-insert>

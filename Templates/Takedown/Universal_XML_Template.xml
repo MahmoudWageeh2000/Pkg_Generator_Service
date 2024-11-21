@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ernm:NewReleaseMessage MessageSchemaVersionId="ern/382" LanguageAndScriptCode="en" xs:schemaLocation="http://ddex.net/xml/ern/341 http://ddex.net/xml/ern/341/release-notification.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:ernm="http://ddex.net/xml/ern/341">
+	<MessageHeader>
+		<MessageThreadId>@[ALBUM_UPC]@@[CREATION_DATE]@</MessageThreadId>
+		<MessageId>@[ALBUM_UPC]@</MessageId>
+		<MessageSender>
+			<PartyId>PADPIDA20131118019</PartyId>
+			<PartyName>
+				<FullName>Mazzika Group</FullName>
+			</PartyName>
+		</MessageSender>
+		<MessageRecipient>
+			<PartyId>PADPIDA2011021601H</PartyId>
+			<PartyName>
+				<FullName>7digital</FullName>
+			</PartyName>
+		</MessageRecipient>
+		<MessageCreatedDateTime>@[DATE_TIME]@Z</MessageCreatedDateTime>
+		<MessageControlType>LiveMessage</MessageControlType>
+	</MessageHeader>
+	<ResourceList>
+		#LOOP_SOUND_RECORDING#
+		<SoundRecording>
+			<SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+			<SoundRecordingId>
+				<ISRC>@[ISRC]@</ISRC>
+			</SoundRecordingId>
+			<ResourceReference>A@[TRACK_NO]@</ResourceReference>
+			<ReferenceTitle>
+				<TitleText>@[TRACK_TITLE]@</TitleText>
+				<SubTitle/>
+			</ReferenceTitle>
+			<Duration>@[TRACK_DURATION_TAKEDOWN]@</Duration>
+			<SoundRecordingDetailsByTerritory>
+				<TerritoryCode>Worldwide</TerritoryCode>
+				<Title TitleType="FormalTitle">
+					<TitleText>@[TRACK_TITLE]@</TitleText>
+					<SubTitle SubTitleType="Version">Original Cut</SubTitle>
+				</Title>
+				<Title TitleType="DisplayTitle">
+					<TitleText>@[TRACK_TITLE]@ (Original Cut)</TitleText>
+				</Title>
+				<DisplayArtist>
+					<PartyName>
+						<FullName>@[TRACK_ARTIST]@</FullName>
+					</PartyName>
+					<ArtistRole>MainArtist</ArtistRole>
+				</DisplayArtist>
+				<LabelName>@[LABEL_NAME]@</LabelName>
+				<LabelName LabelNameType="MajorLabel">@[LABEL_NAME]@</LabelName>
+				<PLine>
+					<Year>@[RELEASE_YEAR]@</Year>
+					<PLineText>@[LABEL_NAME]@</PLineText>
+				</PLine>
+				<Genre>
+					<GenreText>@[TRACK_GENRE]@</GenreText>
+				</Genre>
+				<ParentalWarningType>NoAdviceAvailable</ParentalWarningType>
+			</SoundRecordingDetailsByTerritory>
+		</SoundRecording>
+		#END_LOOP_SOUND_RECORDING#
+	</ResourceList>
+	<ReleaseList>
+		<Release>
+			<ReleaseId>
+				<GRid/>
+				<ICPN IsEan="false">@[ALBUM_UPC]@</ICPN>
+			</ReleaseId>
+			<ReleaseReference>R0</ReleaseReference>
+			<ReferenceTitle>
+				<TitleText>@[ALBUM_TITLE]@</TitleText>
+				<SubTitle></SubTitle>
+			</ReferenceTitle>
+			<ReleaseResourceReferenceList>
+				#LOOP_RELEASE_RESOURCE_REFERENCE_LIST#
+				<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A@[TRACK_NO]@</ReleaseResourceReference>
+				#END_LOOP_RELEASE_RESOURCE_REFERENCE_LIST#
+				<ReleaseResourceReference ReleaseResourceType="SecondaryResource">A@[IMAGE_NO]@</ReleaseResourceReference>
+			</ReleaseResourceReferenceList>
+			<ReleaseType>@[RELEASE_TYPE]@</ReleaseType>
+			<ReleaseDetailsByTerritory>
+				<TerritoryCode>Worldwide</TerritoryCode>
+				<DisplayArtistName>@[ALBUM_ARTIST]@</DisplayArtistName>
+				<LabelName>@[LABEL_NAME]@</LabelName>
+				<LabelName LabelNameType="MajorLabel">@[LABEL_NAME]@</LabelName>
+				<Title TitleType="FormalTitle">
+					<TitleText>@[ALBUM_TITLE]@</TitleText>
+					<SubTitle SubTitleType="Version"></SubTitle>
+				</Title>
+				<Title TitleType="DisplayTitle">
+					<TitleText>@[ALBUM_TITLE]@</TitleText>
+				</Title>
+				<DisplayArtist>
+					<PartyName>
+						<FullName>@[ALBUM_ARTIST]@</FullName>
+					</PartyName>
+					<ArtistRole>MainArtist</ArtistRole>
+				</DisplayArtist>
+				<ParentalWarningType>NoAdviceAvailable</ParentalWarningType>
+				<ResourceGroup>
+					<ResourceGroup>
+						<SequenceNumber>@[DISK_NO]@</SequenceNumber>
+						#LOOP_RESOURCE_GROUP_CONTENT_ITEM#
+						<ResourceGroupContentItem>
+							<SequenceNumber>@[TRACK_NO]@</SequenceNumber>
+							<ResourceType>SoundRecording</ResourceType>
+							<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A@[TRACK_NO]@</ReleaseResourceReference>
+						</ResourceGroupContentItem>
+						#END_LOOP_RESOURCE_GROUP_CONTENT_ITEM#
+					</ResourceGroup>
+					<ResourceGroupContentItem>
+						<ResourceType>Image</ResourceType>
+						<ReleaseResourceReference ReleaseResourceType="SecondaryResource">A@[IMAGE_NO]@</ReleaseResourceReference>
+					</ResourceGroupContentItem>
+				</ResourceGroup>
+				<Genre>
+					<GenreText>@[TRACK_GENRE]@</GenreText>
+				</Genre>
+				<OriginalReleaseDate>@[RELEASE_DATE]@</OriginalReleaseDate>
+			</ReleaseDetailsByTerritory>
+			<PLine>
+				<Year>@[RELEASE_YEAR]@</Year>
+				<PLineText>@[LABEL_NAME]@</PLineText>
+			</PLine>
+			<CLine>
+				<Year>@[RELEASE_YEAR]@</Year>
+				<CLineText>@[LABEL_NAME]@</CLineText>
+			</CLine>
+		</Release>
+		#LOOP_RELEASE#
+		<Release>
+			<ReleaseId>
+				<GRid/>
+				<ISRC>@[ISRC]@</ISRC>
+			</ReleaseId>
+			<ReleaseReference>R@[TRACK_NO]@</ReleaseReference>
+			<ReferenceTitle>
+				<TitleText>@[TRACK_TITLE]@</TitleText>
+				<SubTitle/>
+			</ReferenceTitle>
+			<ReleaseResourceReferenceList>
+				<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A@[TRACK_NO]@</ReleaseResourceReference>
+			</ReleaseResourceReferenceList>
+			<ReleaseType>TrackRelease</ReleaseType>
+			<ReleaseDetailsByTerritory>
+				<TerritoryCode>Worldwide</TerritoryCode>
+				<DisplayArtistName>@[TRACK_ARTIST]@</DisplayArtistName>
+				<LabelName>@[LABEL_NAME]@</LabelName>
+				<LabelName LabelNameType="MajorLabel">@[LABEL_NAME]@</LabelName>
+				<Title TitleType="FormalTitle">
+					<TitleText>@[TRACK_TITLE]@</TitleText>
+					<SubTitle SubTitleType="Version">Original Cut</SubTitle>
+				</Title>
+				<Title TitleType="DisplayTitle">
+					<TitleText>@[TRACK_TITLE]@ (Original Cut)</TitleText>
+				</Title>
+				<DisplayArtist>
+					<PartyName>
+						<FullName>@[TRACK_ARTIST]@</FullName>
+					</PartyName>
+					<ArtistRole>MainArtist</ArtistRole>
+				</DisplayArtist>
+				<ParentalWarningType>NoAdviceAvailable</ParentalWarningType>
+				<ResourceGroup>
+					<ResourceGroupContentItem>
+						<SequenceNumber>@[TRACK_NO]@</SequenceNumber>
+						<ResourceType>SoundRecording</ResourceType>
+						<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A@[TRACK_NO]@</ReleaseResourceReference>
+					</ResourceGroupContentItem>
+				</ResourceGroup>
+				<Genre>
+					<GenreText>@[TRACK_GENRE]@</GenreText>
+				</Genre>
+			</ReleaseDetailsByTerritory>
+			<PLine>
+				<Year>@[RELEASE_YEAR]@</Year>
+				<PLineText>@[LABEL_NAME]@</PLineText>
+			</PLine>
+		</Release>
+		#END_LOOP_RELEASE#
+	</ReleaseList>
+	<DealList>
+		<ReleaseDeal>
+			<DealReleaseReference>R0</DealReleaseReference>
+			<Deal>
+				<DealTerms>
+					<IsPreOrderDeal>false</IsPreOrderDeal>
+					<CommercialModelType>PayAsYouGoModel</CommercialModelType>
+					<TerritoryCode>@[COUNTRY_ISO_CODE]@</TerritoryCode>
+					<ValidityPeriod>
+						<EndDate>@[TAKEDOWN_DATE]@</EndDate>
+					</ValidityPeriod>
+				</DealTerms>
+			</Deal>
+		</ReleaseDeal>
+		#LOOP_RELEASE_DEAL#
+		<ReleaseDeal>
+			<DealReleaseReference>R@[TRACK_NO]@</DealReleaseReference>
+			<Deal>
+				<DealTerms>
+					<CommercialModelType>AdvertisementSupportedModel</CommercialModelType>
+					<Usage>
+						<UseType>Stream</UseType>
+					</Usage>
+					<TerritoryCode>@[COUNTRY_ISO_CODE]@</TerritoryCode>
+					<ValidityPeriod>
+						<EndDate>@[TAKEDOWN_DATE]@</EndDate>
+					</ValidityPeriod>
+				</DealTerms>
+			</Deal>
+			<Deal>
+				<DealTerms>
+					<CommercialModelType>SubscriptionModel</CommercialModelType>
+					<Usage>
+						<UseType>Stream</UseType>
+					</Usage>
+					<TerritoryCode>@[COUNTRY_ISO_CODE]@</TerritoryCode>
+					<ValidityPeriod>
+						<EndDate>@[TAKEDOWN_DATE]@</EndDate>
+					</ValidityPeriod>
+				</DealTerms>
+			</Deal>
+		</ReleaseDeal>
+		#END_LOOP_RELEASE_DEAL#
+	</DealList>
+</ernm:NewReleaseMessage>

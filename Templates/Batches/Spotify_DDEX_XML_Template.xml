@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<echo:ManifestMessage MessageVersionId="1.2" xs:schemaLocation="http://ddex.net/xml/2011/echo/12 http://ddex.net/xml/2011/echo/12/echo.xsd" xmlns:ernm="http://ddex.net/xml/ern/341" xmlns:echo="http://ddex.net/xml/2011/echo/12" xmlns:amep="http://ddex.net/xml/2011/amep/12" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+    <MessageHeader>
+        <MessageSender>
+            <PartyId>PADPIDA20131118019</PartyId>
+            <PartyName>
+                <FullName>Mazzika Group</FullName>
+            </PartyName>
+        </MessageSender>
+        <MessageRecipient>
+            <PartyId>PADPIDA2011072101T</PartyId>
+            <PartyName>
+                <FullName>Spotify</FullName>
+            </PartyName>
+        </MessageRecipient>
+        <MessageCreatedDateTime>{{album.full_date_time}}+02:00</MessageCreatedDateTime>
+    </MessageHeader>
+    <IsTestFlag>false</IsTestFlag>
+    <RootDirectory>/{{album.creation_full_date_time}}</RootDirectory>
+    <NumberOfMessages>{{album.album_count}}</NumberOfMessages>    
+	{{~for batch in album.batch_list ~}}
+    <MessageInBatch>
+        <MessageType>NewReleaseMessage</MessageType>
+        <MessageId>{{batch.album_ubc}}</MessageId>
+        <URL>/{{batch.creation_full_date_time}}/{{batch.album_ubc}}/{{batch.album_ubc}}.xml</URL>
+        <IncludedReleaseId>
+					<ICPN IsEAN="true">{{batch.album_ubc}}</ICPN>
+				</IncludedReleaseId>
+        <DeliveryType>NewReleaseDelivery</DeliveryType>
+        <ProductType>AudioProduct</ProductType>
+        <HashSum>
+            <HashSum>{{batch.hash_sum_xml}}</HashSum>
+            <HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+        </HashSum>
+    </MessageInBatch>
+	{{~ end ~}}
+</echo:ManifestMessage>

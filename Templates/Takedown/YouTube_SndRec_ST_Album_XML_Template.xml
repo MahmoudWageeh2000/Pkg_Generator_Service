@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ern:NewReleaseMessage LanguageAndScriptCode="en" MessageSchemaVersionId="ern/382" xmlns:ern="http://ddex.net/xml/ern/382" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:schemaLocation="http://ddex.net/xml/ern/382 file:../XSD/release-notification.xsd">
+    <MessageHeader>
+        <MessageId>{{ album.creation_full_date_time }}</MessageId>
+        <MessageSender>
+            <PartyId>PADPIDA2015051902C</PartyId>
+            <PartyName>
+                <FullName>Stars For Arts</FullName>
+            </PartyName>
+        </MessageSender>
+        <MessageRecipient>
+            <PartyId>PADPIDA2015120100H</PartyId>
+            <PartyName>
+                <FullName>YouTube_ContentID</FullName>
+            </PartyName>
+        </MessageRecipient>
+        <MessageCreatedDateTime>{{ album.full_date_time }}+02:00</MessageCreatedDateTime>
+        <MessageControlType>LiveMessage</MessageControlType>
+    </MessageHeader>
+    <UpdateIndicator>UpdateMessage</UpdateIndicator>
+    <ResourceList>
+      {{~ for asset in album.asset_list ~}}
+      <SoundRecording>
+            <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+            <SoundRecordingId>
+                <ISRC>QZ6RS1700001</ISRC>
+              <ProprietaryId Namespace="YOUTUBE:SR_ASSET_LABEL">{{ asset.sr_asset_label}}</ProprietaryId>
+              <ProprietaryId Namespace="YOUTUBE:SR_CUSTOM_ID">{{ asset.asset_isrc }}</ProprietaryId>
+            </SoundRecordingId>
+        <ResourceReference>A{{ asset.track_num }}</ResourceReference>
+        <ReferenceTitle LanguageAndScriptCode="en">
+          <TitleText>{{ asset.track_name }}</TitleText>
+        </ReferenceTitle>
+        <Duration>PT{{ asset.track_duration }}</Duration>
+        <SoundRecordingDetailsByTerritory>
+          {{~ for country_code in asset.country_iso_code_list_string ~}}
+          <TerritoryCode>{{ country_code }}</TerritoryCode>
+          {{~ end ~}}
+          <Title LanguageAndScriptCode="en" TitleType="FormalTitle">
+            <TitleText>{{ asset.track_name }}</TitleText>
+          </Title>
+          <Title LanguageAndScriptCode="en" TitleType="DisplayTitle">
+            <TitleText>{{ asset.track_name }}</TitleText>
+          </Title>
+          {{~ seq = 1  ~}}
+          {{~ for track_main_artist in asset.track_artist_list_string ~}}
+          <DisplayArtist SequenceNumber="{{seq}}">
+            <PartyName>
+              <FullName>{{ track_main_artist.name }}</FullName>
+            </PartyName>
+            <ArtistRole>MainArtist</ArtistRole>
+          </DisplayArtist>
+          {{~ seq = seq + 1 ~}}
+          {{~ end ~}}
+          {{~ for track_featured_artist in asset.track_featured_artist_list_string ~}}
+          <DisplayArtist>
+            <PartyName>
+              <FullName>{{ track_featured_artist.name }}</FullName>
+            </PartyName>
+            <ArtistRole>FeaturedArtist</ArtistRole>
+          </DisplayArtist>
+          {{~ end ~}}
+          <ResourceContributor SequenceNumber="1">
+                    <PartyName>
+                        <FullName>Stars For Arts</FullName>
+                    </PartyName>
+                    <ResourceContributorRole>Producer</ResourceContributorRole>
+                </ResourceContributor>
+          <DisplayArtistName>{{asset.track_artist}}</DisplayArtistName>
+          <LabelName LabelNameType="DisplayLabelName">{{ asset.label_name }}</LabelName>
+          <RightsController>
+                    <PartyName>
+                        <FullName>Stars For Arts</FullName>
+                    </PartyName>
+                    <PartyId>PADPIDA2015051902C</PartyId>
+                    <RightsControllerRole>RightsController</RightsControllerRole>
+                    <RightSharePercentage>0.00</RightSharePercentage>
+                </RightsController>
+                <PLine>
+                  <Year>{{ asset.release_year}}</Year>
+                  <PLineText>(P) {{ asset.release_year}} {{ asset.label_name }}</PLineText>
+                </PLine>
+                <Genre>
+                  <GenreText>{{ asset.track_genre }}</GenreText>
+                </Genre>
+                <ParentalWarningType>NotExplicit</ParentalWarningType>
+            </SoundRecordingDetailsByTerritory>
+        </SoundRecording>
+      {{~ end ~}}
+      <Image>
+            <ImageType>FrontCoverImage</ImageType>
+            <ImageId>
+                <ProprietaryId Namespace="DPID:PADPIDA2015051902C">PADPIDA2015051902C</ProprietaryId>
+            </ImageId>
+            <ResourceReference>A{{ album.image_num }}</ResourceReference>
+            <ImageDetailsByTerritory>
+              {{~ for country_code in album.country_iso_code_list_string ~}}
+              <TerritoryCode>{{ country_code }}</TerritoryCode>
+              {{~ end ~}}
+            </ImageDetailsByTerritory>
+        </Image>
+    </ResourceList>
+    <ReleaseList>
+        <Release IsMainRelease="true">
+            <ReleaseId>
+                <ICPN>{{ album.album_ubc }}</ICPN>
+            </ReleaseId>
+            <ReleaseReference>R0</ReleaseReference>
+            <ReferenceTitle LanguageAndScriptCode="en">
+              <TitleText>{{ album.album_name }}</TitleText>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+              {{~ for asset in album.asset_list ~}}
+              <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A{{ asset.asset_num}}</ReleaseResourceReference>
+              {{~end~}}
+              <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A{{ album.image_num }}</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>Album</ReleaseType>
+            <ReleaseDetailsByTerritory>
+              {{~ for country_code in album.country_iso_code_list_string ~}}
+              <TerritoryCode>{{ country_code }}</TerritoryCode>
+              {{~ end ~}}
+              <DisplayArtistName>{{ album.album_artist }}</DisplayArtistName>
+              <LabelName LabelNameType="DisplayLabelName">{{ album.label_name }}</LabelName>
+              <Title LanguageAndScriptCode="en" TitleType="FormalTitle">
+                <TitleText>{{ album.album_name }}</TitleText>
+              </Title>
+              <Title LanguageAndScriptCode="en" TitleType="DisplayTitle">
+                <TitleText>{{ album.album_name }}</TitleText>
+              </Title>
+              {{~ seq = 1  ~}}
+              {{~ for album_main_artist in album.album_artist_list_string ~}}
+              <DisplayArtist SequenceNumber="{{seq}}">
+                <PartyName>
+                  <FullName>{{ album_main_artist.name }}</FullName>
+                </PartyName>
+                <ArtistRole>MainArtist</ArtistRole>
+              </DisplayArtist>
+              {{~ seq = seq + 1  ~}}
+              {{~ end ~}}
+              {{~ for album_featured_artist in album.album_featured_artist_list_string ~}}
+              <DisplayArtist>
+                <PartyName>
+                  <FullName>{{ album_featured_artist.name }}</FullName>
+                </PartyName>
+                <ArtistRole>FeaturedArtist</ArtistRole>
+              </DisplayArtist>
+              {{~ end ~}}
+              <ParentalWarningType>NotExplicit</ParentalWarningType>
+                <ResourceGroup>
+                    <ResourceGroup>
+                        <Title TitleType="GroupingTitle">
+                            <TitleText>Disc 1</TitleText>
+                        </Title>
+                        <SequenceNumber>1</SequenceNumber>
+                      {{~for resource_group_content_item in album.asset_list ~}}
+                      <ResourceGroupContentItem>
+                        <SequenceNumber>{{resource_group_content_item.track_num}}</SequenceNumber>
+                        <ResourceType>SoundRecording</ResourceType>
+                        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A{{resource_group_content_item.track_num}}</ReleaseResourceReference>
+                      </ResourceGroupContentItem>
+                      {{~ end ~}}
+                    </ResourceGroup>
+                    <ResourceGroupContentItem>
+                        <SequenceNumber>{{ album.image_num }}</SequenceNumber>
+                        <ResourceType>Image</ResourceType>
+                        <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A{{ album.image_num }}</ReleaseResourceReference>
+                    </ResourceGroupContentItem>
+                </ResourceGroup>
+                <Genre>
+                  <GenreText>{{ album.track_genre }}</GenreText>
+                </Genre>
+                <ReleaseDate>{{ album.release_date }}</ReleaseDate>
+              </ReleaseDetailsByTerritory>
+              <Duration>{{ album.album_duration }}</Duration>
+              <PLine>
+                <Year>{{ album.release_year }}</Year>
+                <PLineText>(P) {{ album.release_year }} {{ album.label_name }}</PLineText>
+              </PLine>
+              <GlobalOriginalReleaseDate>{{ album.release_date }}</GlobalOriginalReleaseDate>
+            </Release>
+      {{~for asset in asset_list ~}}
+      <Release>
+            <ReleaseId>
+              <ISRC>{{asset.asset_isrc}}</ISRC>
+            </ReleaseId>
+            <ReleaseReference>R{{asset.tract_num}}</ReleaseReference>
+            <ReferenceTitle LanguageAndScriptCode="en">
+                <TitleText>{{asset.track_name}}</TitleText>
+            </ReferenceTitle>
+            <ReleaseResourceReferenceList>
+                <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A{{asset.tract_num}}</ReleaseResourceReference>
+            </ReleaseResourceReferenceList>
+            <ReleaseType>TrackRelease</ReleaseType>
+            <ReleaseDetailsByTerritory>
+              {{~ for country_code in asset.country_iso_code_list_string ~}}
+              <TerritoryCode>{{ country_code }}</TerritoryCode>
+              {{~ end ~}}
+              <DisplayArtistName>{{asset.track_artist}}</DisplayArtistName>
+              <LabelName LabelNameType="DisplayLabelName">{{asset.label_anme}}</LabelName>
+              <Title LanguageAndScriptCode="en" TitleType="FormalTitle">
+                <TitleText>{{asset.track_name}}</TitleText>
+              </Title>
+              <Title LanguageAndScriptCode="en" TitleType="DisplayTitle">
+                <TitleText>{{asset.track_name}}</TitleText>
+              </Title>
+              {{~ for track_main_artist in asset.track_artist_list_string ~}}
+              <DisplayArtist SequenceNumber="1">
+                <PartyName>
+                  <FullName>{{ track_main_artist.name }}</FullName>
+                </PartyName>
+                <ArtistRole>MainArtist</ArtistRole>
+              </DisplayArtist>
+              {{~ end ~}}
+              {{~ for track_featured_artist in asset.track_featured_artist_list_string ~}}
+              <DisplayArtist>
+                <PartyName>
+                  <FullName>{{ track_featured_artist.name }}</FullName>
+                </PartyName>
+                <ArtistRole>FeaturedArtist</ArtistRole>
+              </DisplayArtist>
+              {{~ end ~}}
+              <ParentalWarningType>NotExplicit</ParentalWarningType>
+              <Genre>
+                <GenreText>{{asset.track_genre}}</GenreText>
+              </Genre>
+            </ReleaseDetailsByTerritory>
+            <Duration>PT{{ asset.track_duration }}</Duration>
+            <PLine>
+              <Year>{{ asset.release_year }}</Year>
+              <PLineText>(P) {{ asset.release_year }} {{ asset.label_name }}</PLineText>
+            </PLine>
+        </Release>
+      {{~end~}}
+    </ReleaseList>
+    <DealList>
+        <ReleaseDeal>
+          {{~ for asset in album.asset_list ~}}
+          <DealReleaseReference>R{{asset.track_num}}</DealReleaseReference>
+          {{~end~}}
+          <Deal>
+                <DealTerms>
+                    <CommercialModelType>RightsClaimModel</CommercialModelType>
+                    <Usage>
+                        <UseType>UserMakeAvailableLabelProvided</UseType>
+                        <UseType>UserMakeAvailableUserProvided</UseType>
+                    </Usage>
+                  {{~ for country_code in album.country_iso_code_list_string ~}}
+                  <TerritoryCode>{{ country_code }}</TerritoryCode>
+                  {{~ end ~}}
+                  <ValidityPeriod>
+                        <EndDate>{{album.takedown_date}}</EndDate>
+                    </ValidityPeriod>
+                    <RightsClaimPolicy>
+                        <RightsClaimPolicyType>Monetize</RightsClaimPolicyType>
+                    </RightsClaimPolicy>
+                </DealTerms>
+            </Deal>
+        </ReleaseDeal>
+    </DealList>
+</ern:NewReleaseMessage>

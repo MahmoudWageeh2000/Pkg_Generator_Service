@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product-delete id="@[ALBUM_UPC]@" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.spotify.com/ns/delivery/9.0" xsi:schemaLocation="http://www.spotify.com/ns/delivery/9.0 spotify.xsd">
+
+	<licensor>
+		<id>f0b35870-775d-4715-b302-926e4407b43b</id>
+		<description>@[LABEL_NAME]@</description>
+	</licensor>
+</product-delete>

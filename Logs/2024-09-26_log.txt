@@ -1,0 +1,747 @@
+9/26/2024 5:54:11 PM: PKG ID IS : 12
+9/26/2024 5:54:11 PM: Using Excel template: D://Wageeh//Content Packages Generator//PkgGen//bin//Debug//Config//Templates//OnMobile.xltx
+9/26/2024 5:54:11 PM: Processing album UPC: 9681001016682
+9/26/2024 5:54:11 PM: Starting GetFolderPaths...
+9/26/2024 5:54:11 PM: Fetching package folder for company: Onmobile
+9/26/2024 5:54:11 PM: PackageFolder set to: 20240926175411
+9/26/2024 5:54:11 PM: Fetching resources folder for company: Onmobile
+9/26/2024 5:54:11 PM: ResourcesFolder set to: 20240926175411\2024-09-26
+9/26/2024 5:54:11 PM: Fetching metadata file path for company: Onmobile
+9/26/2024 5:54:11 PM: MetadataFile path set to: 20240926175411\2024-09-26.xlsx
+9/26/2024 5:54:11 PM: Final PackageFolder path: 12\20240926175411
+9/26/2024 5:54:11 PM: Final ResourcesFolder path: 12\20240926175411\2024-09-26
+9/26/2024 5:54:11 PM: Folder paths generated for album 9681001016682.
+9/26/2024 5:54:11 PM: Media path generated for ISRC: EGA010508358
+9/26/2024 5:54:11 PM: Filled data for column: Label Name
+9/26/2024 5:54:11 PM: Filled data for column: Rights Body
+9/26/2024 5:54:11 PM: Filled data for column: Song Title
+9/26/2024 5:54:11 PM: Filled data for column: Actor
+9/26/2024 5:54:11 PM: Filled data for column: Singer
+9/26/2024 5:54:11 PM: Filled data for column: File Path
+9/26/2024 5:54:11 PM: Filled data for column: Language
+9/26/2024 5:54:11 PM: Filled data for column: Movie/Album
+9/26/2024 5:54:11 PM: Filled data for column: Content Type Name
+9/26/2024 5:54:11 PM: Starting GetCover...
+9/26/2024 5:54:11 PM: Provided path is empty. Exiting GetCover.
+9/26/2024 5:54:12 PM: No MP3 files found for asset ISRC: EGA010508358
+9/26/2024 5:54:12 PM: Starting GetCover...
+9/26/2024 5:54:12 PM: Provided path is empty. Exiting GetCover.
+9/26/2024 5:54:13 PM: No MP3 files found for asset ISRC: EGA010508359
+9/26/2024 5:54:13 PM: Starting GetCover...
+9/26/2024 5:54:13 PM: Provided path is empty. Exiting GetCover.
+9/26/2024 5:54:14 PM: No MP3 files found for asset ISRC: EGA010508361
+9/26/2024 5:54:14 PM: Starting GetCover...
+9/26/2024 5:54:14 PM: Provided path is empty. Exiting GetCover.
+9/26/2024 5:54:15 PM: No MP3 files found for asset ISRC: EGA010508126
+9/26/2024 5:54:15 PM: Starting GetCover...
+9/26/2024 5:54:15 PM: Provided path is empty. Exiting GetCover.
+9/26/2024 5:54:16 PM: No MP3 files found for asset ISRC: EGA010508128
+9/26/2024 5:54:16 PM: Starting GetCover...
+9/26/2024 5:54:16 PM: Provided path is empty. Exiting GetCover.
+9/26/2024 5:54:17 PM: No MP3 files found for asset ISRC: EGA010508129
+9/26/2024 5:54:17 PM: Error processing Excel file: No MP3 files found
+9/26/2024 5:54:17 PM: Starting XML generation for package ID: 13, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+9/26/2024 5:54:17 PM: Successfully fetched package info for ID: 13
+9/26/2024 5:54:17 PM: Processing group with Album UPC: 9681001016682
+9/26/2024 5:54:17 PM: Starting GetFolderPaths...
+9/26/2024 5:54:17 PM: PackageFolder trimmed to: 20240926175411
+9/26/2024 5:54:17 PM: Fetching resources folder for company: Spotify
+9/26/2024 5:54:17 PM: ResourcesFolder set to: 20240926175411\9681001016682\resources
+9/26/2024 5:54:17 PM: Fetching metadata file path for company: Spotify
+9/26/2024 5:54:17 PM: MetadataFile path set to: 20240926175411\9681001016682\9681001016682.xml
+9/26/2024 5:54:17 PM: Final PackageFolder path: 13\20240926175411
+9/26/2024 5:54:17 PM: Final ResourcesFolder path: 13\20240926175411\9681001016682\resources
+9/26/2024 5:54:17 PM: Retrieved folder paths for package: 13
+9/26/2024 5:54:17 PM: Starting GetCover...
+9/26/2024 5:54:17 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016682.jpg
+9/26/2024 5:54:17 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016682.jpg
+9/26/2024 5:54:17 PM: Created directory: C:\Pkg_Output\spotify\13\20240926175411\9681001016682\resources
+9/26/2024 5:54:17 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016682.jpg
+9/26/2024 5:54:17 PM: Copied cover file to: C:\Pkg_Output\spotify\13\20240926175411\9681001016682\resources\9681001016682.jpg
+9/26/2024 5:54:17 PM: Start Getting Media For package info: 13
+9/26/2024 5:54:19 PM: Starting GetCover...
+9/26/2024 5:54:19 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016682.jpg
+9/26/2024 5:54:19 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016682.jpg
+9/26/2024 5:54:19 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016682.jpg
+9/26/2024 5:54:19 PM: Copied cover file to: C:\Pkg_Output\spotify\13\20240926175411\9681001016682\resources\9681001016682.jpg
+9/26/2024 5:54:19 PM: Start Getting Media For package info: 13
+9/26/2024 5:54:21 PM: Starting GetCover...
+9/26/2024 5:54:21 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016682.jpg
+9/26/2024 5:54:21 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016682.jpg
+9/26/2024 5:54:21 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016682.jpg
+9/26/2024 5:54:21 PM: Copied cover file to: C:\Pkg_Output\spotify\13\20240926175411\9681001016682\resources\9681001016682.jpg
+9/26/2024 5:54:21 PM: Start Getting Media For package info: 13
+9/26/2024 5:54:23 PM: Successfully generated XML for package ID: 13
+9/26/2024 5:54:23 PM: Processing group with Album UPC: 9681001016699
+9/26/2024 5:54:23 PM: Starting GetFolderPaths...
+9/26/2024 5:54:23 PM: PackageFolder trimmed to: 20240926175411
+9/26/2024 5:54:23 PM: Fetching resources folder for company: Spotify
+9/26/2024 5:54:23 PM: ResourcesFolder set to: 20240926175411\9681001016699\resources
+9/26/2024 5:54:23 PM: Fetching metadata file path for company: Spotify
+9/26/2024 5:54:23 PM: MetadataFile path set to: 20240926175411\9681001016699\9681001016699.xml
+9/26/2024 5:54:23 PM: Final PackageFolder path: 13\20240926175411
+9/26/2024 5:54:23 PM: Final ResourcesFolder path: 13\20240926175411\9681001016699\resources
+9/26/2024 5:54:23 PM: Retrieved folder paths for package: 13
+9/26/2024 5:54:23 PM: Starting GetCover...
+9/26/2024 5:54:23 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016699.jpg
+9/26/2024 5:54:23 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016699.jpg
+9/26/2024 5:54:23 PM: Created directory: C:\Pkg_Output\spotify\13\20240926175411\9681001016699\resources
+9/26/2024 5:54:23 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016699.jpg
+9/26/2024 5:54:23 PM: Copied cover file to: C:\Pkg_Output\spotify\13\20240926175411\9681001016699\resources\9681001016699.jpg
+9/26/2024 5:54:23 PM: Start Getting Media For package info: 13
+9/26/2024 5:54:24 PM: Starting GetCover...
+9/26/2024 5:54:25 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016699.jpg
+9/26/2024 5:54:25 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016699.jpg
+9/26/2024 5:54:25 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016699.jpg
+9/26/2024 5:54:25 PM: Copied cover file to: C:\Pkg_Output\spotify\13\20240926175411\9681001016699\resources\9681001016699.jpg
+9/26/2024 5:54:25 PM: Start Getting Media For package info: 13
+9/26/2024 5:54:26 PM: Starting GetCover...
+9/26/2024 5:54:27 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016699.jpg
+9/26/2024 5:54:27 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016699.jpg
+9/26/2024 5:54:27 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016699.jpg
+9/26/2024 5:54:27 PM: Copied cover file to: C:\Pkg_Output\spotify\13\20240926175411\9681001016699\resources\9681001016699.jpg
+9/26/2024 5:54:27 PM: Start Getting Media For package info: 13
+9/26/2024 5:54:28 PM: Successfully generated XML for package ID: 13
+9/26/2024 5:54:28 PM: Starting XML generation for package ID: 14, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+9/26/2024 5:54:28 PM: Successfully fetched package info for ID: 14
+9/26/2024 5:54:28 PM: Processing group with Album UPC: 9681001016637
+9/26/2024 5:54:28 PM: Starting GetFolderPaths...
+9/26/2024 5:54:28 PM: PackageFolder trimmed to: 20240926175411
+9/26/2024 5:54:28 PM: Fetching resources folder for company: Spotify
+9/26/2024 5:54:28 PM: ResourcesFolder set to: 20240926175411\9681001016637\resources
+9/26/2024 5:54:28 PM: Fetching metadata file path for company: Spotify
+9/26/2024 5:54:28 PM: MetadataFile path set to: 20240926175411\9681001016637\9681001016637.xml
+9/26/2024 5:54:28 PM: Final PackageFolder path: 14\20240926175411
+9/26/2024 5:54:28 PM: Final ResourcesFolder path: 14\20240926175411\9681001016637\resources
+9/26/2024 5:54:28 PM: Retrieved folder paths for package: 14
+9/26/2024 5:54:28 PM: Starting GetCover...
+9/26/2024 5:54:29 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016637.jpg
+9/26/2024 5:54:29 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016637.jpg
+9/26/2024 5:54:29 PM: Created directory: C:\Pkg_Output\spotify\14\20240926175411\9681001016637\resources
+9/26/2024 5:54:29 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016637.jpg
+9/26/2024 5:54:29 PM: Copied cover file to: C:\Pkg_Output\spotify\14\20240926175411\9681001016637\resources\9681001016637.jpg
+9/26/2024 5:54:29 PM: Start Getting Media For package info: 14
+9/26/2024 5:54:30 PM: Starting GetCover...
+9/26/2024 5:54:31 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016637.jpg
+9/26/2024 5:54:31 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016637.jpg
+9/26/2024 5:54:31 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016637.jpg
+9/26/2024 5:54:31 PM: Copied cover file to: C:\Pkg_Output\spotify\14\20240926175411\9681001016637\resources\9681001016637.jpg
+9/26/2024 5:54:31 PM: Start Getting Media For package info: 14
+9/26/2024 5:54:32 PM: Starting GetCover...
+9/26/2024 5:54:33 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016637.jpg
+9/26/2024 5:54:33 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016637.jpg
+9/26/2024 5:54:33 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016637.jpg
+9/26/2024 5:54:33 PM: Copied cover file to: C:\Pkg_Output\spotify\14\20240926175411\9681001016637\resources\9681001016637.jpg
+9/26/2024 5:54:33 PM: Start Getting Media For package info: 14
+9/26/2024 5:54:34 PM: Successfully generated XML for package ID: 14
+9/26/2024 5:54:34 PM: Processing group with Album UPC: 9681001016682
+9/26/2024 5:54:34 PM: Starting GetFolderPaths...
+9/26/2024 5:54:34 PM: PackageFolder trimmed to: 20240926175411
+9/26/2024 5:54:34 PM: Fetching resources folder for company: Spotify
+9/26/2024 5:54:34 PM: ResourcesFolder set to: 20240926175411\9681001016682\resources
+9/26/2024 5:54:34 PM: Fetching metadata file path for company: Spotify
+9/26/2024 5:54:34 PM: MetadataFile path set to: 20240926175411\9681001016682\9681001016682.xml
+9/26/2024 5:54:34 PM: Final PackageFolder path: 14\20240926175411
+9/26/2024 5:54:34 PM: Final ResourcesFolder path: 14\20240926175411\9681001016682\resources
+9/26/2024 5:54:34 PM: Retrieved folder paths for package: 14
+9/26/2024 5:54:34 PM: Starting GetCover...
+9/26/2024 5:54:35 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016682.jpg
+9/26/2024 5:54:35 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016682.jpg
+9/26/2024 5:54:35 PM: Created directory: C:\Pkg_Output\spotify\14\20240926175411\9681001016682\resources
+9/26/2024 5:54:35 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016682.jpg
+9/26/2024 5:54:35 PM: Copied cover file to: C:\Pkg_Output\spotify\14\20240926175411\9681001016682\resources\9681001016682.jpg
+9/26/2024 5:54:35 PM: Start Getting Media For package info: 14
+9/26/2024 5:54:37 PM: Successfully generated XML for package ID: 14
+9/26/2024 5:54:37 PM: Processing group with Album UPC: 9681001016699
+9/26/2024 5:54:37 PM: Starting GetFolderPaths...
+9/26/2024 5:54:37 PM: PackageFolder trimmed to: 20240926175411
+9/26/2024 5:54:37 PM: Fetching resources folder for company: Spotify
+9/26/2024 5:54:37 PM: ResourcesFolder set to: 20240926175411\9681001016699\resources
+9/26/2024 5:54:37 PM: Fetching metadata file path for company: Spotify
+9/26/2024 5:54:37 PM: MetadataFile path set to: 20240926175411\9681001016699\9681001016699.xml
+9/26/2024 5:54:37 PM: Final PackageFolder path: 14\20240926175411
+9/26/2024 5:54:37 PM: Final ResourcesFolder path: 14\20240926175411\9681001016699\resources
+9/26/2024 5:54:37 PM: Retrieved folder paths for package: 14
+9/26/2024 5:54:37 PM: Starting GetCover...
+9/26/2024 5:54:37 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016699.jpg
+9/26/2024 5:54:37 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016699.jpg
+9/26/2024 5:54:37 PM: Created directory: C:\Pkg_Output\spotify\14\20240926175411\9681001016699\resources
+9/26/2024 5:54:37 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016699.jpg
+9/26/2024 5:54:37 PM: Copied cover file to: C:\Pkg_Output\spotify\14\20240926175411\9681001016699\resources\9681001016699.jpg
+9/26/2024 5:54:37 PM: Start Getting Media For package info: 14
+9/26/2024 5:54:38 PM: Starting GetCover...
+9/26/2024 5:54:39 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016699.jpg
+9/26/2024 5:54:39 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016699.jpg
+9/26/2024 5:54:39 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016699.jpg
+9/26/2024 5:54:39 PM: Copied cover file to: C:\Pkg_Output\spotify\14\20240926175411\9681001016699\resources\9681001016699.jpg
+9/26/2024 5:54:39 PM: Start Getting Media For package info: 14
+9/26/2024 5:54:40 PM: Successfully generated XML for package ID: 14
+9/26/2024 5:54:40 PM: PKG ID IS : 16
+9/26/2024 5:54:40 PM: Using Excel template: D://Wageeh//Content Packages Generator//PkgGen//bin//Debug//Config//Templates//OnMobile.xltx
+9/26/2024 5:54:40 PM: Processing album UPC: 9681001001176
+9/26/2024 5:54:40 PM: Starting GetFolderPaths...
+9/26/2024 5:54:40 PM: Fetching package folder for company: Onmobile
+9/26/2024 5:54:40 PM: PackageFolder set to: 20240926175440
+9/26/2024 5:54:40 PM: Fetching resources folder for company: Onmobile
+9/26/2024 5:54:40 PM: ResourcesFolder set to: 20240926175440\2024-09-26
+9/26/2024 5:54:40 PM: Fetching metadata file path for company: Onmobile
+9/26/2024 5:54:40 PM: MetadataFile path set to: 20240926175440\2024-09-26.xlsx
+9/26/2024 5:54:40 PM: Final PackageFolder path: 16\20240926175440
+9/26/2024 5:54:40 PM: Final ResourcesFolder path: 16\20240926175440\2024-09-26
+9/26/2024 5:54:40 PM: Folder paths generated for album 9681001001176.
+9/26/2024 5:54:40 PM: Media path generated for ISRC: EGA019004040
+9/26/2024 5:54:40 PM: Filled data for column: Label Name
+9/26/2024 5:54:40 PM: Filled data for column: Rights Body
+9/26/2024 5:54:40 PM: Filled data for column: Song Title
+9/26/2024 5:54:40 PM: Filled data for column: Actor
+9/26/2024 5:54:40 PM: Filled data for column: Singer
+9/26/2024 5:54:40 PM: Filled data for column: File Path
+9/26/2024 5:54:40 PM: Filled data for column: Language
+9/26/2024 5:54:40 PM: Filled data for column: Movie/Album
+9/26/2024 5:54:40 PM: Filled data for column: Content Type Name
+9/26/2024 5:54:40 PM: Starting GetCover...
+9/26/2024 5:54:40 PM: Provided path is empty. Exiting GetCover.
+9/26/2024 5:54:41 PM: No MP3 files found for asset ISRC: EGA019004040
+9/26/2024 5:54:41 PM: Starting GetCover...
+9/26/2024 5:54:41 PM: Provided path is empty. Exiting GetCover.
+9/26/2024 5:54:42 PM: No MP3 files found for asset ISRC: AEA141405205
+9/26/2024 5:54:42 PM: Starting GetCover...
+9/26/2024 5:54:42 PM: Provided path is empty. Exiting GetCover.
+9/26/2024 5:54:43 PM: No MP3 files found for asset ISRC: EGA020501162
+9/26/2024 5:54:43 PM: Starting GetCover...
+9/26/2024 5:54:43 PM: Provided path is empty. Exiting GetCover.
+9/26/2024 5:54:44 PM: No MP3 files found for asset ISRC: EGA019004040
+9/26/2024 5:54:44 PM: Error processing Excel file: No MP3 files found
+9/26/2024 5:54:44 PM: Starting XML generation for package ID: 18, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+9/26/2024 5:54:44 PM: Successfully fetched package info for ID: 18
+9/26/2024 5:54:44 PM: Processing group with Album UPC: 9681001016699
+9/26/2024 5:54:44 PM: Starting GetFolderPaths...
+9/26/2024 5:54:44 PM: PackageFolder trimmed to: 20240926175440
+9/26/2024 5:54:44 PM: Fetching resources folder for company: Spotify
+9/26/2024 5:54:44 PM: ResourcesFolder set to: 20240926175440\9681001016699\resources
+9/26/2024 5:54:44 PM: Fetching metadata file path for company: Spotify
+9/26/2024 5:54:44 PM: MetadataFile path set to: 20240926175440\9681001016699\9681001016699.xml
+9/26/2024 5:54:44 PM: Final PackageFolder path: 18\20240926175440
+9/26/2024 5:54:44 PM: Final ResourcesFolder path: 18\20240926175440\9681001016699\resources
+9/26/2024 5:54:44 PM: Retrieved folder paths for package: 18
+9/26/2024 5:54:44 PM: Starting GetCover...
+9/26/2024 5:54:45 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016699.jpg
+9/26/2024 5:54:45 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016699.jpg
+9/26/2024 5:54:45 PM: Created directory: C:\Pkg_Output\spotify\18\20240926175440\9681001016699\resources
+9/26/2024 5:54:45 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016699.jpg
+9/26/2024 5:54:45 PM: Copied cover file to: C:\Pkg_Output\spotify\18\20240926175440\9681001016699\resources\9681001016699.jpg
+9/26/2024 5:54:45 PM: Start Getting Media For package info: 18
+9/26/2024 5:54:46 PM: Starting GetCover...
+9/26/2024 5:54:46 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016699.jpg
+9/26/2024 5:54:46 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016699.jpg
+9/26/2024 5:54:46 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016699.jpg
+9/26/2024 5:54:46 PM: Copied cover file to: C:\Pkg_Output\spotify\18\20240926175440\9681001016699\resources\9681001016699.jpg
+9/26/2024 5:54:46 PM: Start Getting Media For package info: 18
+9/26/2024 5:54:48 PM: Successfully generated XML for package ID: 18
+9/26/2024 5:54:48 PM: Starting XML generation for package ID: 19, Filename: GPM_XML_Template.xml, Company: Google Play Music
+9/26/2024 5:54:48 PM: Successfully fetched package info for ID: 19
+9/26/2024 5:54:48 PM: Processing group with Album UPC: 6221117009562
+9/26/2024 5:54:48 PM: Starting GetFolderPaths...
+9/26/2024 5:54:48 PM: PackageFolder trimmed to: 20240926175440
+9/26/2024 5:54:48 PM: Fetching resources folder for company: Google Play Music
+9/26/2024 5:54:48 PM: ResourcesFolder set to: 20240926175440\6221117009562\resources
+9/26/2024 5:54:48 PM: Fetching metadata file path for company: Google Play Music
+9/26/2024 5:54:48 PM: MetadataFile path set to: 20240926175440\6221117009562\6221117009562.xml
+9/26/2024 5:54:48 PM: Final PackageFolder path: 19\20240926175440
+9/26/2024 5:54:48 PM: Final ResourcesFolder path: 19\20240926175440\6221117009562\resources
+9/26/2024 5:54:48 PM: Retrieved folder paths for package: 19
+9/26/2024 5:54:48 PM: Starting GetCover...
+9/26/2024 5:54:48 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117009562.jpg
+9/26/2024 5:54:48 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117009562.jpg
+9/26/2024 5:54:48 PM: Created directory: C:\Pkg_Output\google play music\19\20240926175440\6221117009562\resources
+9/26/2024 5:54:48 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117009562.jpg
+9/26/2024 5:54:48 PM: Copied cover file to: C:\Pkg_Output\google play music\19\20240926175440\6221117009562\resources\6221117009562.jpg
+9/26/2024 5:54:49 PM: Starting GetCover...
+9/26/2024 5:54:50 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117027375.jpg
+9/26/2024 5:54:50 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117027375.jpg
+9/26/2024 5:54:50 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117027375.jpg
+9/26/2024 5:54:50 PM: Copied cover file to: C:\Pkg_Output\google play music\19\20240926175440\6221117009562\resources\6221117009562.jpg
+9/26/2024 5:54:51 PM: Successfully generated XML for package ID: 19
+9/26/2024 5:54:51 PM: Processing group with Album UPC: 6221117027375
+9/26/2024 5:54:51 PM: Starting GetFolderPaths...
+9/26/2024 5:54:51 PM: PackageFolder trimmed to: 20240926175440
+9/26/2024 5:54:51 PM: Fetching resources folder for company: Google Play Music
+9/26/2024 5:54:51 PM: ResourcesFolder set to: 20240926175440\6221117027375\resources
+9/26/2024 5:54:51 PM: Fetching metadata file path for company: Google Play Music
+9/26/2024 5:54:51 PM: MetadataFile path set to: 20240926175440\6221117027375\6221117027375.xml
+9/26/2024 5:54:51 PM: Final PackageFolder path: 19\20240926175440
+9/26/2024 5:54:51 PM: Final ResourcesFolder path: 19\20240926175440\6221117027375\resources
+9/26/2024 5:54:51 PM: Retrieved folder paths for package: 19
+9/26/2024 5:54:51 PM: Starting GetCover...
+9/26/2024 5:54:51 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117009562.jpg
+9/26/2024 5:54:51 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117009562.jpg
+9/26/2024 5:54:51 PM: Created directory: C:\Pkg_Output\google play music\19\20240926175440\6221117027375\resources
+9/26/2024 5:54:51 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117009562.jpg
+9/26/2024 5:54:51 PM: Copied cover file to: C:\Pkg_Output\google play music\19\20240926175440\6221117027375\resources\6221117009562.jpg
+9/26/2024 5:54:53 PM: Starting GetCover...
+9/26/2024 5:54:53 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117027375.jpg
+9/26/2024 5:54:53 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117027375.jpg
+9/26/2024 5:54:53 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117027375.jpg
+9/26/2024 5:54:53 PM: Copied cover file to: C:\Pkg_Output\google play music\19\20240926175440\6221117027375\resources\6221117009562.jpg
+9/26/2024 5:54:54 PM: Successfully generated XML for package ID: 19
+9/26/2024 5:54:54 PM: Starting XML generation for package ID: 20, Filename: YouTube_Music_DS_XML_Template.xml, Company: YouTube-Music-DS
+9/26/2024 5:54:54 PM: Successfully fetched package info for ID: 20
+9/26/2024 5:54:54 PM: Processing group with Album UPC: 9681001016699
+9/26/2024 5:54:54 PM: Starting GetFolderPaths...
+9/26/2024 5:54:54 PM: PackageFolder trimmed to: 20240926175440
+9/26/2024 5:54:54 PM: Fetching resources folder for company: YouTube-Music-DS
+9/26/2024 5:54:54 PM: ResourcesFolder set to: 20240926175440\9681001016699\resources
+9/26/2024 5:54:54 PM: Fetching metadata file path for company: YouTube-Music-DS
+9/26/2024 5:54:54 PM: MetadataFile path set to: 20240926175440\9681001016699\9681001016699.xml
+9/26/2024 5:54:54 PM: Final PackageFolder path: 20\20240926175440
+9/26/2024 5:54:54 PM: Final ResourcesFolder path: 20\20240926175440\9681001016699\resources
+9/26/2024 5:54:54 PM: Retrieved folder paths for package: 20
+9/26/2024 5:54:54 PM: Starting GetCover...
+9/26/2024 5:54:55 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016699.jpg
+9/26/2024 5:54:55 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016699.jpg
+9/26/2024 5:54:55 PM: Created directory: C:\Pkg_Output\youtube-music-ds\20\20240926175440\9681001016699\resources
+9/26/2024 5:54:55 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016699.jpg
+9/26/2024 5:54:55 PM: Copied cover file to: C:\Pkg_Output\youtube-music-ds\20\20240926175440\9681001016699\resources\9681001016699.jpg
+9/26/2024 5:54:56 PM: Starting GetCover...
+9/26/2024 5:54:56 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016699.jpg
+9/26/2024 5:54:56 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016699.jpg
+9/26/2024 5:54:56 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016699.jpg
+9/26/2024 5:54:56 PM: Copied cover file to: C:\Pkg_Output\youtube-music-ds\20\20240926175440\9681001016699\resources\9681001016699.jpg
+9/26/2024 5:54:57 PM: Successfully generated XML for package ID: 20
+9/26/2024 5:54:57 PM: PKG ID IS : 21
+9/26/2024 5:54:57 PM: Using Excel template: D://Wageeh//Content Packages Generator//PkgGen//bin//Debug//Config//Templates//OnMobile.xltx
+9/26/2024 5:54:57 PM: Processing album UPC: 6221117181961
+9/26/2024 5:54:57 PM: Starting GetFolderPaths...
+9/26/2024 5:54:57 PM: Fetching package folder for company: Onmobile
+9/26/2024 5:54:57 PM: PackageFolder set to: 20240926175457
+9/26/2024 5:54:57 PM: Fetching resources folder for company: Onmobile
+9/26/2024 5:54:57 PM: ResourcesFolder set to: 20240926175457\2024-09-26
+9/26/2024 5:54:57 PM: Fetching metadata file path for company: Onmobile
+9/26/2024 5:54:57 PM: MetadataFile path set to: 20240926175457\2024-09-26.xlsx
+9/26/2024 5:54:57 PM: Final PackageFolder path: 21\20240926175457
+9/26/2024 5:54:57 PM: Final ResourcesFolder path: 21\20240926175457\2024-09-26
+9/26/2024 5:54:57 PM: Folder paths generated for album 6221117181961.
+9/26/2024 5:54:57 PM: Media path generated for ISRC: EGA010563117
+9/26/2024 5:54:57 PM: Filled data for column: Label Name
+9/26/2024 5:54:57 PM: Filled data for column: Rights Body
+9/26/2024 5:54:57 PM: Filled data for column: Song Title
+9/26/2024 5:54:57 PM: Filled data for column: Actor
+9/26/2024 5:54:57 PM: Filled data for column: Singer
+9/26/2024 5:54:57 PM: Filled data for column: File Path
+9/26/2024 5:54:57 PM: Filled data for column: Language
+9/26/2024 5:54:57 PM: Filled data for column: Movie/Album
+9/26/2024 5:54:57 PM: Filled data for column: Content Type Name
+9/26/2024 5:54:57 PM: Starting GetCover...
+9/26/2024 5:54:57 PM: Provided path is empty. Exiting GetCover.
+9/26/2024 5:54:58 PM: Starting GetCover...
+9/26/2024 5:54:58 PM: Provided path is empty. Exiting GetCover.
+9/26/2024 5:54:59 PM: Starting GetCover...
+9/26/2024 5:54:59 PM: Provided path is empty. Exiting GetCover.
+9/26/2024 5:55:00 PM: Starting GetCover...
+9/26/2024 5:55:00 PM: Provided path is empty. Exiting GetCover.
+9/26/2024 5:55:02 PM: Starting GetCover...
+9/26/2024 5:55:02 PM: Provided path is empty. Exiting GetCover.
+9/26/2024 5:55:03 PM: Starting GetCover...
+9/26/2024 5:55:03 PM: Provided path is empty. Exiting GetCover.
+9/26/2024 5:55:04 PM: Media data generated successfully.
+9/26/2024 5:55:04 PM: Excel file saved to: C://Pkg_Output\Onmobile\21\20240926175457\2024-09-26.xlsx
+9/26/2024 5:55:04 PM: GenerateExcel completed for Package ID: 21
+9/26/2024 5:55:04 PM: Filled data for column: Song Title (AR)
+9/26/2024 5:55:04 PM: Filled data for column: Song Title
+9/26/2024 5:55:04 PM: Filled data for column: Language
+9/26/2024 5:55:04 PM: Filled data for column: Movie/Album
+9/26/2024 5:55:04 PM: Excel file saved to: C://Pkg_Output\Onmobile\21\20240926175457\2024-09-26.xlsx
+9/26/2024 5:55:04 PM: GenerateExcel completed for Package ID: 21
+9/26/2024 5:55:04 PM: Starting XML generation for package ID: 22, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+9/26/2024 5:55:04 PM: Successfully fetched package info for ID: 22
+9/26/2024 5:55:04 PM: Processing group with Album UPC: 9681001016286
+9/26/2024 5:55:04 PM: Starting GetFolderPaths...
+9/26/2024 5:55:04 PM: PackageFolder trimmed to: 20240926175457
+9/26/2024 5:55:04 PM: Fetching resources folder for company: Spotify
+9/26/2024 5:55:04 PM: ResourcesFolder set to: 20240926175457\9681001016286\resources
+9/26/2024 5:55:04 PM: Fetching metadata file path for company: Spotify
+9/26/2024 5:55:04 PM: MetadataFile path set to: 20240926175457\9681001016286\9681001016286.xml
+9/26/2024 5:55:04 PM: Final PackageFolder path: 22\20240926175457
+9/26/2024 5:55:04 PM: Final ResourcesFolder path: 22\20240926175457\9681001016286\resources
+9/26/2024 5:55:04 PM: Retrieved folder paths for package: 22
+9/26/2024 5:55:04 PM: Starting GetCover...
+9/26/2024 5:55:04 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016286.jpg
+9/26/2024 5:55:04 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016286.jpg
+9/26/2024 5:55:04 PM: Created directory: C:\Pkg_Output\spotify\22\20240926175457\9681001016286\resources
+9/26/2024 5:55:04 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016286.jpg
+9/26/2024 5:55:04 PM: Copied cover file to: C:\Pkg_Output\spotify\22\20240926175457\9681001016286\resources\9681001016286.jpg
+9/26/2024 5:55:04 PM: Start Getting Media For package info: 22
+9/26/2024 5:55:06 PM: Starting GetCover...
+9/26/2024 5:55:06 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016286.jpg
+9/26/2024 5:55:06 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016286.jpg
+9/26/2024 5:55:06 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016286.jpg
+9/26/2024 5:55:06 PM: Copied cover file to: C:\Pkg_Output\spotify\22\20240926175457\9681001016286\resources\9681001016286.jpg
+9/26/2024 5:55:06 PM: Start Getting Media For package info: 22
+9/26/2024 5:55:07 PM: Starting GetCover...
+9/26/2024 5:55:08 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016286.jpg
+9/26/2024 5:55:08 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016286.jpg
+9/26/2024 5:55:08 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016286.jpg
+9/26/2024 5:55:08 PM: Copied cover file to: C:\Pkg_Output\spotify\22\20240926175457\9681001016286\resources\9681001016286.jpg
+9/26/2024 5:55:08 PM: Start Getting Media For package info: 22
+9/26/2024 5:55:09 PM: Successfully generated XML for package ID: 22
+9/26/2024 5:55:09 PM: Starting XML generation for package ID: 23, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+9/26/2024 5:55:09 PM: Successfully fetched package info for ID: 23
+9/26/2024 5:55:09 PM: Processing group with Album UPC: 
+9/26/2024 5:55:09 PM: Starting GetFolderPaths...
+9/26/2024 5:55:09 PM: PackageFolder trimmed to: 20240926175457
+9/26/2024 5:55:09 PM: Fetching resources folder for company: Spotify
+9/26/2024 5:55:09 PM: ResourcesFolder set to: 20240926175457\\resources
+9/26/2024 5:55:09 PM: Fetching metadata file path for company: Spotify
+9/26/2024 5:55:09 PM: MetadataFile path set to: 20240926175457\\.xml
+9/26/2024 5:55:09 PM: Final PackageFolder path: 23\20240926175457
+9/26/2024 5:55:09 PM: Final ResourcesFolder path: 23\20240926175457\\resources
+9/26/2024 5:55:09 PM: Retrieved folder paths for package: 23
+9/26/2024 5:55:09 PM: Starting GetCover...
+9/26/2024 5:55:10 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\.jpg
+9/26/2024 5:55:10 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\.jpg
+9/26/2024 5:55:10 PM: Created directory: C:\Pkg_Output\spotify\23\20240926175457\resources
+9/26/2024 5:55:10 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\.jpg
+9/26/2024 5:55:10 PM: Copied cover file to: C:\Pkg_Output\spotify\23\20240926175457\resources\.jpg
+9/26/2024 5:55:10 PM: Start Getting Media For package info: 23
+9/26/2024 5:55:11 PM: No MP3 files found for asset ISRC: EGA010529735
+9/26/2024 5:55:11 PM: Error fetching package info: No MP3 files found for asset ISRC: EGA010529735
+9/26/2024 5:55:11 PM: Error generating XML for package: The input string NONE was not in a correct format.
+9/26/2024 5:55:11 PM: Starting XML generation for package ID: 24, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+9/26/2024 5:55:11 PM: Successfully fetched package info for ID: 24
+9/26/2024 5:55:11 PM: Processing group with Album UPC: 9681001015999
+9/26/2024 5:55:11 PM: Starting GetFolderPaths...
+9/26/2024 5:55:11 PM: PackageFolder trimmed to: 20240926175457
+9/26/2024 5:55:11 PM: Fetching resources folder for company: Spotify
+9/26/2024 5:55:11 PM: ResourcesFolder set to: 20240926175457\9681001015999\resources
+9/26/2024 5:55:11 PM: Fetching metadata file path for company: Spotify
+9/26/2024 5:55:11 PM: MetadataFile path set to: 20240926175457\9681001015999\9681001015999.xml
+9/26/2024 5:55:11 PM: Final PackageFolder path: 24\20240926175457
+9/26/2024 5:55:11 PM: Final ResourcesFolder path: 24\20240926175457\9681001015999\resources
+9/26/2024 5:55:11 PM: Retrieved folder paths for package: 24
+9/26/2024 5:55:11 PM: Starting GetCover...
+9/26/2024 5:55:11 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001015999.jpg
+9/26/2024 5:55:11 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001015999.jpg
+9/26/2024 5:55:11 PM: Created directory: C:\Pkg_Output\spotify\24\20240926175457\9681001015999\resources
+9/26/2024 5:55:11 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001015999.jpg
+9/26/2024 5:55:11 PM: Copied cover file to: C:\Pkg_Output\spotify\24\20240926175457\9681001015999\resources\9681001015999.jpg
+9/26/2024 5:55:11 PM: Start Getting Media For package info: 24
+9/26/2024 5:55:13 PM: Starting GetCover...
+9/26/2024 5:55:13 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001015999.jpg
+9/26/2024 5:55:13 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001015999.jpg
+9/26/2024 5:55:13 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001015999.jpg
+9/26/2024 5:55:13 PM: Copied cover file to: C:\Pkg_Output\spotify\24\20240926175457\9681001015999\resources\9681001015999.jpg
+9/26/2024 5:55:13 PM: Start Getting Media For package info: 24
+9/26/2024 5:55:15 PM: Starting GetCover...
+9/26/2024 5:55:16 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001015999.jpg
+9/26/2024 5:55:16 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001015999.jpg
+9/26/2024 5:55:16 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001015999.jpg
+9/26/2024 5:55:16 PM: Copied cover file to: C:\Pkg_Output\spotify\24\20240926175457\9681001015999\resources\9681001015999.jpg
+9/26/2024 5:55:16 PM: Start Getting Media For package info: 24
+9/26/2024 5:55:18 PM: Successfully generated XML for package ID: 24
+9/26/2024 5:55:18 PM: Starting XML generation for package ID: 25, Filename: GPM_XML_Template.xml, Company: Google Play Music
+9/26/2024 5:55:18 PM: Successfully fetched package info for ID: 25
+9/26/2024 5:55:18 PM: Processing group with Album UPC: 
+9/26/2024 5:55:18 PM: Starting GetFolderPaths...
+9/26/2024 5:55:18 PM: PackageFolder trimmed to: 20240926175457
+9/26/2024 5:55:18 PM: Fetching resources folder for company: Google Play Music
+9/26/2024 5:55:18 PM: ResourcesFolder set to: 20240926175457\\resources
+9/26/2024 5:55:18 PM: Fetching metadata file path for company: Google Play Music
+9/26/2024 5:55:18 PM: MetadataFile path set to: 20240926175457\\.xml
+9/26/2024 5:55:18 PM: Final PackageFolder path: 25\20240926175457
+9/26/2024 5:55:18 PM: Final ResourcesFolder path: 25\20240926175457\\resources
+9/26/2024 5:55:18 PM: Retrieved folder paths for package: 25
+9/26/2024 5:55:18 PM: Starting GetCover...
+9/26/2024 5:55:18 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\.jpg
+9/26/2024 5:55:18 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\.jpg
+9/26/2024 5:55:18 PM: Created directory: C:\Pkg_Output\google play music\25\20240926175457\resources
+9/26/2024 5:55:18 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\.jpg
+9/26/2024 5:55:18 PM: Copied cover file to: C:\Pkg_Output\google play music\25\20240926175457\resources\.jpg
+9/26/2024 5:55:19 PM: No MP3 files found for asset ISRC: EGA010531103
+9/26/2024 5:55:19 PM: Error fetching package info: No MP3 files found for asset ISRC: EGA010531103
+9/26/2024 5:55:19 PM: Successfully generated XML for package ID: 25
+9/26/2024 5:55:19 PM: Processing group with Album UPC: 9681001001978
+9/26/2024 5:55:19 PM: Starting GetFolderPaths...
+9/26/2024 5:55:19 PM: PackageFolder trimmed to: 20240926175457
+9/26/2024 5:55:19 PM: Fetching resources folder for company: Google Play Music
+9/26/2024 5:55:19 PM: ResourcesFolder set to: 20240926175457\9681001001978\resources
+9/26/2024 5:55:19 PM: Fetching metadata file path for company: Google Play Music
+9/26/2024 5:55:19 PM: MetadataFile path set to: 20240926175457\9681001001978\9681001001978.xml
+9/26/2024 5:55:19 PM: Final PackageFolder path: 25\20240926175457
+9/26/2024 5:55:19 PM: Final ResourcesFolder path: 25\20240926175457\9681001001978\resources
+9/26/2024 5:55:19 PM: Retrieved folder paths for package: 25
+9/26/2024 5:55:19 PM: Starting GetCover...
+9/26/2024 5:55:19 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\.jpg
+9/26/2024 5:55:19 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\.jpg
+9/26/2024 5:55:19 PM: Created directory: C:\Pkg_Output\google play music\25\20240926175457\9681001001978\resources
+9/26/2024 5:55:19 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\.jpg
+9/26/2024 5:55:19 PM: Copied cover file to: C:\Pkg_Output\google play music\25\20240926175457\9681001001978\resources\.jpg
+9/26/2024 5:55:20 PM: No MP3 files found for asset ISRC: EGA010531103
+9/26/2024 5:55:20 PM: Error fetching package info: No MP3 files found for asset ISRC: EGA010531103
+9/26/2024 5:55:20 PM: Successfully generated XML for package ID: 25
+9/26/2024 5:55:20 PM: PKG ID IS : 26
+9/26/2024 5:55:20 PM: Using Excel template: D://Wageeh//Content Packages Generator//PkgGen//bin//Debug//Config//Templates//Vodafone.xltx
+9/26/2024 5:55:20 PM: Processing album UPC: 9681001015821
+9/26/2024 5:55:20 PM: Starting GetFolderPaths...
+9/26/2024 5:55:20 PM: Fetching package folder for company: Vodafone Egypt
+9/26/2024 5:55:20 PM: PackageFolder set to: 20240926175520
+9/26/2024 5:55:20 PM: Fetching resources folder for company: Vodafone Egypt
+9/26/2024 5:55:20 PM: ResourcesFolder set to: 20240926175520\2024-09-26
+9/26/2024 5:55:20 PM: Fetching metadata file path for company: Vodafone Egypt
+9/26/2024 5:55:20 PM: MetadataFile path set to: 20240926175520\2024-09-26.xlsx
+9/26/2024 5:55:20 PM: Final PackageFolder path: 26\20240926175520
+9/26/2024 5:55:20 PM: Final ResourcesFolder path: 26\20240926175520\2024-09-26
+9/26/2024 5:55:20 PM: Folder paths generated for album 9681001015821.
+9/26/2024 5:55:20 PM: Media path generated for ISRC: EGA019003512
+9/26/2024 5:55:20 PM: Filled data for column: Label Name
+9/26/2024 5:55:20 PM: Filled data for column: Rights Body
+9/26/2024 5:55:20 PM: Filled data for column: Alias Promocode
+9/26/2024 5:55:20 PM: Filled data for column: Song Title
+9/26/2024 5:55:20 PM: Filled data for column: Actor
+9/26/2024 5:55:20 PM: Filled data for column: Singer
+9/26/2024 5:55:20 PM: Filled data for column: File Path
+9/26/2024 5:55:20 PM: Filled data for column: Language
+9/26/2024 5:55:20 PM: Filled data for column: Movie/Album
+9/26/2024 5:55:20 PM: Filled data for column: Content Type Name
+9/26/2024 5:55:20 PM: Starting GetCover...
+9/26/2024 5:55:20 PM: Provided path is empty. Exiting GetCover.
+9/26/2024 5:55:21 PM: No MP3 files found for asset ISRC: EGA019003512
+9/26/2024 5:55:21 PM: Starting GetCover...
+9/26/2024 5:55:21 PM: Provided path is empty. Exiting GetCover.
+9/26/2024 5:55:22 PM: No MP3 files found for asset ISRC: EGA019003513
+9/26/2024 5:55:22 PM: Starting GetCover...
+9/26/2024 5:55:22 PM: Provided path is empty. Exiting GetCover.
+9/26/2024 5:55:23 PM: No MP3 files found for asset ISRC: EGA019003519
+9/26/2024 5:55:23 PM: Error processing Excel file: No MP3 files found
+9/26/2024 5:55:23 PM: Starting XML generation for package ID: 27, Filename: GPM_XML_Template.xml, Company: Google Play Music
+9/26/2024 5:55:23 PM: Successfully fetched package info for ID: 27
+9/26/2024 5:55:23 PM: Processing group with Album UPC: 889502755966
+9/26/2024 5:55:23 PM: Starting GetFolderPaths...
+9/26/2024 5:55:23 PM: PackageFolder trimmed to: 20240926175520
+9/26/2024 5:55:23 PM: Fetching resources folder for company: Google Play Music
+9/26/2024 5:55:23 PM: ResourcesFolder set to: 20240926175520\889502755966\resources
+9/26/2024 5:55:23 PM: Fetching metadata file path for company: Google Play Music
+9/26/2024 5:55:23 PM: MetadataFile path set to: 20240926175520\889502755966\889502755966.xml
+9/26/2024 5:55:23 PM: Final PackageFolder path: 27\20240926175520
+9/26/2024 5:55:23 PM: Final ResourcesFolder path: 27\20240926175520\889502755966\resources
+9/26/2024 5:55:23 PM: Retrieved folder paths for package: 27
+9/26/2024 5:55:23 PM: Starting GetCover...
+9/26/2024 5:55:23 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502755966.jpg
+9/26/2024 5:55:23 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502755966.jpg
+9/26/2024 5:55:23 PM: Created directory: C:\Pkg_Output\google play music\27\20240926175520\889502755966\resources
+9/26/2024 5:55:23 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502755966.jpg
+9/26/2024 5:55:23 PM: Copied cover file to: C:\Pkg_Output\google play music\27\20240926175520\889502755966\resources\889502755966.jpg
+9/26/2024 5:55:25 PM: Starting GetCover...
+9/26/2024 5:55:25 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502751012.jpg
+9/26/2024 5:55:25 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502751012.jpg
+9/26/2024 5:55:25 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502751012.jpg
+9/26/2024 5:55:25 PM: Copied cover file to: C:\Pkg_Output\google play music\27\20240926175520\889502755966\resources\889502755966.jpg
+9/26/2024 5:55:26 PM: Successfully generated XML for package ID: 27
+9/26/2024 5:55:26 PM: Processing group with Album UPC: 889502751012
+9/26/2024 5:55:26 PM: Starting GetFolderPaths...
+9/26/2024 5:55:26 PM: PackageFolder trimmed to: 20240926175520
+9/26/2024 5:55:26 PM: Fetching resources folder for company: Google Play Music
+9/26/2024 5:55:26 PM: ResourcesFolder set to: 20240926175520\889502751012\resources
+9/26/2024 5:55:26 PM: Fetching metadata file path for company: Google Play Music
+9/26/2024 5:55:26 PM: MetadataFile path set to: 20240926175520\889502751012\889502751012.xml
+9/26/2024 5:55:26 PM: Final PackageFolder path: 27\20240926175520
+9/26/2024 5:55:26 PM: Final ResourcesFolder path: 27\20240926175520\889502751012\resources
+9/26/2024 5:55:26 PM: Retrieved folder paths for package: 27
+9/26/2024 5:55:26 PM: Starting GetCover...
+9/26/2024 5:55:27 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502755966.jpg
+9/26/2024 5:55:27 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502755966.jpg
+9/26/2024 5:55:27 PM: Created directory: C:\Pkg_Output\google play music\27\20240926175520\889502751012\resources
+9/26/2024 5:55:27 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502755966.jpg
+9/26/2024 5:55:27 PM: Copied cover file to: C:\Pkg_Output\google play music\27\20240926175520\889502751012\resources\889502755966.jpg
+9/26/2024 5:55:28 PM: Starting GetCover...
+9/26/2024 5:55:28 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502751012.jpg
+9/26/2024 5:55:28 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502751012.jpg
+9/26/2024 5:55:28 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502751012.jpg
+9/26/2024 5:55:28 PM: Copied cover file to: C:\Pkg_Output\google play music\27\20240926175520\889502751012\resources\889502755966.jpg
+9/26/2024 5:55:29 PM: Successfully generated XML for package ID: 27
+9/26/2024 5:55:29 PM: Starting XML generation for package ID: 28, Filename: YouTube_Music_ST_XML_Template.xml, Company: YouTube-Music-ST
+9/26/2024 5:55:29 PM: Successfully fetched package info for ID: 28
+9/26/2024 5:55:29 PM: Processing group with Album UPC: 9681001006706
+9/26/2024 5:55:29 PM: Starting GetFolderPaths...
+9/26/2024 5:55:29 PM: PackageFolder trimmed to: 20240926175520
+9/26/2024 5:55:29 PM: Fetching resources folder for company: YouTube-Music-ST
+9/26/2024 5:55:29 PM: ResourcesFolder set to: 20240926175520\9681001006706\resources
+9/26/2024 5:55:29 PM: Fetching metadata file path for company: YouTube-Music-ST
+9/26/2024 5:55:29 PM: MetadataFile path set to: 20240926175520\9681001006706\9681001006706.xml
+9/26/2024 5:55:29 PM: Final PackageFolder path: 28\20240926175520
+9/26/2024 5:55:29 PM: Final ResourcesFolder path: 28\20240926175520\9681001006706\resources
+9/26/2024 5:55:29 PM: Retrieved folder paths for package: 28
+9/26/2024 5:55:29 PM: Starting GetCover...
+9/26/2024 5:55:30 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001006706.jpg
+9/26/2024 5:55:30 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001006706.jpg
+9/26/2024 5:55:30 PM: Created directory: C:\Pkg_Output\youtube-music-st\28\20240926175520\9681001006706\resources
+9/26/2024 5:55:30 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001006706.jpg
+9/26/2024 5:55:30 PM: Copied cover file to: C:\Pkg_Output\youtube-music-st\28\20240926175520\9681001006706\resources\9681001006706.jpg
+9/26/2024 5:55:31 PM: Starting GetCover...
+9/26/2024 5:55:32 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001006706.jpg
+9/26/2024 5:55:32 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001006706.jpg
+9/26/2024 5:55:32 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001006706.jpg
+9/26/2024 5:55:32 PM: Copied cover file to: C:\Pkg_Output\youtube-music-st\28\20240926175520\9681001006706\resources\9681001006706.jpg
+9/26/2024 5:55:33 PM: Starting GetCover...
+9/26/2024 5:55:33 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001006706.jpg
+9/26/2024 5:55:33 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001006706.jpg
+9/26/2024 5:55:33 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001006706.jpg
+9/26/2024 5:55:33 PM: Copied cover file to: C:\Pkg_Output\youtube-music-st\28\20240926175520\9681001006706\resources\9681001006706.jpg
+9/26/2024 5:55:34 PM: Starting GetCover...
+9/26/2024 5:55:35 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001006706.jpg
+9/26/2024 5:55:35 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001006706.jpg
+9/26/2024 5:55:35 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001006706.jpg
+9/26/2024 5:55:35 PM: Copied cover file to: C:\Pkg_Output\youtube-music-st\28\20240926175520\9681001006706\resources\9681001006706.jpg
+9/26/2024 5:55:36 PM: Starting GetCover...
+9/26/2024 5:55:37 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001006706.jpg
+9/26/2024 5:55:37 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001006706.jpg
+9/26/2024 5:55:37 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001006706.jpg
+9/26/2024 5:55:37 PM: Copied cover file to: C:\Pkg_Output\youtube-music-st\28\20240926175520\9681001006706\resources\9681001006706.jpg
+9/26/2024 5:55:38 PM: Successfully generated XML for package ID: 28
+9/26/2024 5:55:38 PM: Starting XML generation for package ID: 29, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+9/26/2024 5:55:38 PM: Successfully fetched package info for ID: 29
+9/26/2024 5:55:38 PM: Processing group with Album UPC: 6221117033963
+9/26/2024 5:55:38 PM: Starting GetFolderPaths...
+9/26/2024 5:55:38 PM: PackageFolder trimmed to: 20240926175520
+9/26/2024 5:55:38 PM: Fetching resources folder for company: Spotify
+9/26/2024 5:55:38 PM: ResourcesFolder set to: 20240926175520\6221117033963\resources
+9/26/2024 5:55:38 PM: Fetching metadata file path for company: Spotify
+9/26/2024 5:55:38 PM: MetadataFile path set to: 20240926175520\6221117033963\6221117033963.xml
+9/26/2024 5:55:38 PM: Final PackageFolder path: 29\20240926175520
+9/26/2024 5:55:38 PM: Final ResourcesFolder path: 29\20240926175520\6221117033963\resources
+9/26/2024 5:55:38 PM: Retrieved folder paths for package: 29
+9/26/2024 5:55:38 PM: Starting GetCover...
+9/26/2024 5:55:38 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117033963.jpg
+9/26/2024 5:55:38 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117033963.jpg
+9/26/2024 5:55:38 PM: Created directory: C:\Pkg_Output\spotify\29\20240926175520\6221117033963\resources
+9/26/2024 5:55:38 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117033963.jpg
+9/26/2024 5:55:38 PM: Copied cover file to: C:\Pkg_Output\spotify\29\20240926175520\6221117033963\resources\6221117033963.jpg
+9/26/2024 5:55:38 PM: Start Getting Media For package info: 29
+9/26/2024 5:55:40 PM: Error generating XML for package: The input string Sing was not in a correct format.
+9/26/2024 6:02:39 PM: Starting XML generation for package ID: 25, Filename: GPM_XML_Template.xml, Company: Google Play Music
+9/26/2024 6:02:39 PM: Successfully fetched package info for ID: 25
+9/26/2024 6:02:39 PM: Processing group with Album UPC: 
+9/26/2024 6:02:39 PM: Starting GetFolderPaths...
+9/26/2024 6:02:39 PM: Fetching package folder for company: Google Play Music
+9/26/2024 6:02:39 PM: PackageFolder set to: 20240926180239590
+9/26/2024 6:02:39 PM: Fetching resources folder for company: Google Play Music
+9/26/2024 6:02:39 PM: ResourcesFolder set to: 20240926180239590\\resources
+9/26/2024 6:02:39 PM: Fetching metadata file path for company: Google Play Music
+9/26/2024 6:02:39 PM: MetadataFile path set to: 20240926180239590\\.xml
+9/26/2024 6:02:39 PM: Final PackageFolder path: 25\20240926180239590
+9/26/2024 6:02:39 PM: Final ResourcesFolder path: 25\20240926180239590\\resources
+9/26/2024 6:02:39 PM: Retrieved folder paths for package: 25
+9/26/2024 6:02:39 PM: Starting GetCover...
+9/26/2024 6:02:40 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\.jpg
+9/26/2024 6:02:40 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\.jpg
+9/26/2024 6:02:40 PM: Created directory: C:\Pkg_Output\google play music\25\20240926180239590\resources
+9/26/2024 6:02:40 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\.jpg
+9/26/2024 6:02:40 PM: Copied cover file to: C:\Pkg_Output\google play music\25\20240926180239590\resources\.jpg
+9/26/2024 6:02:41 PM: No MP3 files found for asset ISRC: EGA010531103
+9/26/2024 6:02:41 PM: Error fetching package info: No MP3 files found for asset ISRC: EGA010531103
+9/26/2024 6:02:41 PM: Error processing Excel file: No MP3 files found
+9/26/2024 6:02:41 PM: Processing group with Album UPC: 9681001001978
+9/26/2024 6:02:41 PM: Starting GetFolderPaths...
+9/26/2024 6:02:41 PM: PackageFolder trimmed to: 20240926180239590
+9/26/2024 6:02:41 PM: Fetching resources folder for company: Google Play Music
+9/26/2024 6:02:41 PM: ResourcesFolder set to: 20240926180239590\9681001001978\resources
+9/26/2024 6:02:41 PM: Fetching metadata file path for company: Google Play Music
+9/26/2024 6:02:41 PM: MetadataFile path set to: 20240926180239590\9681001001978\9681001001978.xml
+9/26/2024 6:02:41 PM: Final PackageFolder path: 25\20240926180239590
+9/26/2024 6:02:41 PM: Final ResourcesFolder path: 25\20240926180239590\9681001001978\resources
+9/26/2024 6:02:41 PM: Retrieved folder paths for package: 25
+9/26/2024 6:02:41 PM: Starting GetCover...
+9/26/2024 6:02:42 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\.jpg
+9/26/2024 6:02:42 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\.jpg
+9/26/2024 6:02:42 PM: Created directory: C:\Pkg_Output\google play music\25\20240926180239590\9681001001978\resources
+9/26/2024 6:02:42 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\.jpg
+9/26/2024 6:02:42 PM: Copied cover file to: C:\Pkg_Output\google play music\25\20240926180239590\9681001001978\resources\.jpg
+9/26/2024 6:02:43 PM: No MP3 files found for asset ISRC: EGA010531103
+9/26/2024 6:02:43 PM: Error fetching package info: No MP3 files found for asset ISRC: EGA010531103
+9/26/2024 6:02:43 PM: Error processing Excel file: No MP3 files found
+9/26/2024 6:03:26 PM: Starting XML generation for package ID: 25, Filename: GPM_XML_Template.xml, Company: Google Play Music
+9/26/2024 6:03:26 PM: Successfully fetched package info for ID: 25
+9/26/2024 6:03:26 PM: Processing group with Album UPC: 
+9/26/2024 6:03:26 PM: Starting GetFolderPaths...
+9/26/2024 6:03:26 PM: Fetching package folder for company: Google Play Music
+9/26/2024 6:03:26 PM: PackageFolder set to: 20240926180326313
+9/26/2024 6:03:26 PM: Fetching resources folder for company: Google Play Music
+9/26/2024 6:03:26 PM: ResourcesFolder set to: 20240926180326313\\resources
+9/26/2024 6:03:26 PM: Fetching metadata file path for company: Google Play Music
+9/26/2024 6:03:26 PM: MetadataFile path set to: 20240926180326313\\.xml
+9/26/2024 6:03:26 PM: Final PackageFolder path: 25\20240926180326313
+9/26/2024 6:03:26 PM: Final ResourcesFolder path: 25\20240926180326313\\resources
+9/26/2024 6:03:26 PM: Retrieved folder paths for package: 25
+9/26/2024 6:03:26 PM: Starting GetCover...
+9/26/2024 6:03:26 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\.jpg
+9/26/2024 6:03:26 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\.jpg
+9/26/2024 6:03:26 PM: Created directory: C:\Pkg_Output\google play music\25\20240926180326313\resources
+9/26/2024 6:03:26 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\.jpg
+9/26/2024 6:03:26 PM: Copied cover file to: C:\Pkg_Output\google play music\25\20240926180326313\resources\.jpg
+9/26/2024 6:03:27 PM: No MP3 files found for asset ISRC: EGA010531103
+9/26/2024 6:03:27 PM: Error fetching package info: No MP3 files found for asset ISRC: EGA010531103
+9/26/2024 6:03:27 PM: Error processing Excel file: No MP3 files found
+9/26/2024 6:03:27 PM: Processing group with Album UPC: 9681001001978
+9/26/2024 6:03:27 PM: Starting GetFolderPaths...
+9/26/2024 6:03:27 PM: PackageFolder trimmed to: 20240926180326313
+9/26/2024 6:03:27 PM: Fetching resources folder for company: Google Play Music
+9/26/2024 6:03:27 PM: ResourcesFolder set to: 20240926180326313\9681001001978\resources
+9/26/2024 6:03:27 PM: Fetching metadata file path for company: Google Play Music
+9/26/2024 6:03:27 PM: MetadataFile path set to: 20240926180326313\9681001001978\9681001001978.xml
+9/26/2024 6:03:27 PM: Final PackageFolder path: 25\20240926180326313
+9/26/2024 6:03:27 PM: Final ResourcesFolder path: 25\20240926180326313\9681001001978\resources
+9/26/2024 6:03:27 PM: Retrieved folder paths for package: 25
+9/26/2024 6:03:27 PM: Starting GetCover...
+9/26/2024 6:03:28 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\.jpg
+9/26/2024 6:03:28 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\.jpg
+9/26/2024 6:03:28 PM: Created directory: C:\Pkg_Output\google play music\25\20240926180326313\9681001001978\resources
+9/26/2024 6:03:28 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\.jpg
+9/26/2024 6:03:28 PM: Copied cover file to: C:\Pkg_Output\google play music\25\20240926180326313\9681001001978\resources\.jpg
+9/26/2024 6:03:29 PM: No MP3 files found for asset ISRC: EGA010531103
+9/26/2024 6:03:29 PM: Error fetching package info: No MP3 files found for asset ISRC: EGA010531103
+9/26/2024 6:03:29 PM: Error processing Excel file: No MP3 files found
+9/26/2024 6:03:29 PM: Starting XML generation for package ID: 27, Filename: GPM_XML_Template.xml, Company: Google Play Music
+9/26/2024 6:03:29 PM: Successfully fetched package info for ID: 27
+9/26/2024 6:03:29 PM: Processing group with Album UPC: 889502755966
+9/26/2024 6:03:29 PM: Starting GetFolderPaths...
+9/26/2024 6:03:29 PM: PackageFolder trimmed to: 20240926180326313
+9/26/2024 6:03:29 PM: Fetching resources folder for company: Google Play Music
+9/26/2024 6:03:29 PM: ResourcesFolder set to: 20240926180326313\889502755966\resources
+9/26/2024 6:03:29 PM: Fetching metadata file path for company: Google Play Music
+9/26/2024 6:03:29 PM: MetadataFile path set to: 20240926180326313\889502755966\889502755966.xml
+9/26/2024 6:03:29 PM: Final PackageFolder path: 27\20240926180326313
+9/26/2024 6:03:29 PM: Final ResourcesFolder path: 27\20240926180326313\889502755966\resources
+9/26/2024 6:03:29 PM: Retrieved folder paths for package: 27
+9/26/2024 6:03:29 PM: Starting GetCover...
+9/26/2024 6:03:29 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502755966.jpg
+9/26/2024 6:03:29 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502755966.jpg
+9/26/2024 6:03:29 PM: Created directory: C:\Pkg_Output\google play music\27\20240926180326313\889502755966\resources
+9/26/2024 6:03:29 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502755966.jpg
+9/26/2024 6:03:29 PM: Copied cover file to: C:\Pkg_Output\google play music\27\20240926180326313\889502755966\resources\889502755966.jpg
+9/26/2024 6:03:30 PM: Starting GetCover...
+9/26/2024 6:03:31 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502751012.jpg
+9/26/2024 6:03:31 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502751012.jpg
+9/26/2024 6:03:31 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502751012.jpg
+9/26/2024 6:03:31 PM: Copied cover file to: C:\Pkg_Output\google play music\27\20240926180326313\889502755966\resources\889502755966.jpg
+9/26/2024 6:03:32 PM: Error processing Excel file: No MP3 files found
+9/26/2024 6:03:32 PM: Processing group with Album UPC: 889502751012
+9/26/2024 6:03:32 PM: Starting GetFolderPaths...
+9/26/2024 6:03:32 PM: PackageFolder trimmed to: 20240926180326313
+9/26/2024 6:03:32 PM: Fetching resources folder for company: Google Play Music
+9/26/2024 6:03:32 PM: ResourcesFolder set to: 20240926180326313\889502751012\resources
+9/26/2024 6:03:32 PM: Fetching metadata file path for company: Google Play Music
+9/26/2024 6:03:32 PM: MetadataFile path set to: 20240926180326313\889502751012\889502751012.xml
+9/26/2024 6:03:32 PM: Final PackageFolder path: 27\20240926180326313
+9/26/2024 6:03:32 PM: Final ResourcesFolder path: 27\20240926180326313\889502751012\resources
+9/26/2024 6:03:32 PM: Retrieved folder paths for package: 27
+9/26/2024 6:03:32 PM: Starting GetCover...
+9/26/2024 6:03:32 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502755966.jpg
+9/26/2024 6:03:32 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502755966.jpg
+9/26/2024 6:03:32 PM: Created directory: C:\Pkg_Output\google play music\27\20240926180326313\889502751012\resources
+9/26/2024 6:03:32 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502755966.jpg
+9/26/2024 6:03:32 PM: Copied cover file to: C:\Pkg_Output\google play music\27\20240926180326313\889502751012\resources\889502755966.jpg
+9/26/2024 6:03:33 PM: Starting GetCover...
+9/26/2024 6:03:34 PM: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502751012.jpg
+9/26/2024 6:03:34 PM: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502751012.jpg
+9/26/2024 6:03:34 PM: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502751012.jpg
+9/26/2024 6:03:34 PM: Copied cover file to: C:\Pkg_Output\google play music\27\20240926180326313\889502751012\resources\889502755966.jpg
+9/26/2024 6:03:35 PM: Error processing Excel file: No MP3 files found

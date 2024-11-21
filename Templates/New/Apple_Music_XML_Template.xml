@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://apple.com/itunes/importer" version="music5.3">
+    <language>en</language>
+    <provider>StarsforArt</provider>
+    <album>
+        <vendor_id>{{ album.album_ubc }}</vendor_id>
+        <genres>
+            <genre code="MIDDLE-EAST-00"></genre>
+        </genres>
+        <artists>
+			{{~ for album_artist in album.album_artist_list_string ~}}
+			<artist>
+                <artist_name>{{album_artist.name}}</artist_name>
+                <apple_id>{{album_artist.apple_id}}</apple_id>
+                <roles>
+                    <role>Performer</role>
+                </roles>
+                <locales>
+                    <locale name="ar">
+                        <artist_name>{{album_artist.name_ar}}</artist_name>
+                    </locale>
+                </locales>
+                <primary>true</primary>
+            </artist>
+			{{~ end ~}}
+			{{~ for album_featured_artist in album.album_featured_artist_list_string ~}}
+			<artist>
+				<artist_name>{{album_featured_artist.name}}</artist_name>
+				<apple_id>{{album_featured_artist.apple_id}}</apple_id>
+				<roles>
+					<role>Featuring</role>
+				</roles>
+				<locales>
+					<locale name="ar">
+						<artist_name>{{album_featured_artist.name_ar}}</artist_name>
+					</locale>
+				</locales>
+				<primary>false</primary>
+			</artist>
+			{{~ end ~}}
+		</artists>
+        <copyright_pline>{{ album.release_year}} {{ album.label_name }}</copyright_pline>
+        <copyright_cline>{{ album.release_year}} {{ album.label_name }}</copyright_cline>
+        <label_name>{{ album.label_name }}</label_name>
+        <title>{{ album.album_name }}</title>
+		<locales>
+			<locale name="ar">
+				<title>{{ album.album_name_a }}</title>
+			</locale>
+		</locales>
+		<upc>{{ album.album_ubc }}</upc>
+        <original_release_date>{{ album.release_date }}</original_release_date>
+        <artwork_files>
+            <file>
+                <file_name>{{ album.album_ubc }}.jpg</file_name>
+                <size>{{album.image_size}}</size>
+                <checksum type="md5">{{album.hash_sum_image}}</checksum>
+            </file>
+        </artwork_files>
+        <preorder_previews>false</preorder_previews>
+        <track_count>{{album.track_count}}</track_count>
+        <products>
+			{{~ for country_code in album.country_iso_code_list_string ~}}
+			<product>
+                <territory>{{country_code}}</territory>
+                <wholesale_price_tier>3</wholesale_price_tier>
+                <default_track_wholesale_price_tier>100</default_track_wholesale_price_tier>
+                <sales_start_date>{{album.start_date}}</sales_start_date>
+                <cleared_for_sale>true</cleared_for_sale>
+				<cleared_for_stream>true</cleared_for_stream>
+				<stream_start_date>{{album.start_date}}</stream_start_date>
+			</product>
+			{{~ end ~}}
+		</products>
+        <tracks>
+			{{~ for asset in album.asset_list ~}}
+			<track>
+                <genres>
+                    <genre code="MIDDLE-EAST-00"></genre>
+                </genres>
+                <artists>
+					{{~ for album_artist in asset.album_artist_list_string ~}}
+					<artist>
+						<artist_name>{{album_artist.name}}</artist_name>
+						<apple_id>{{album_artist.apple_id}}</apple_id>
+						<roles>
+							<role>Performer</role>
+						</roles>
+						<locales>
+							<locale name="ar">
+								<artist_name>{{album_artist.name_ar}}</artist_name>
+							</locale>
+						</locales>
+						<primary>true</primary>
+					</artist>
+					{{~ end ~}}
+					{{~ for album_featured_artist in asset.album_featured_artist_list_string ~}}
+					<artist>
+						<artist_name>{{album_featured_artist.name}}</artist_name>
+						<apple_id>{{album_featured_artist.apple_id}}</apple_id>
+						<roles>
+							<role>Featuring</role>
+						</roles>
+						<locales>
+							<locale name="ar">
+								<artist_name>{{album_featured_artist.name_ar}}</artist_name>
+							</locale>
+						</locales>
+						<primary>false</primary>
+					</artist>
+					{{~ end ~}}
+				</artists>
+				<copyright_pline>{{ asset.release_year}} {{ asset.label_name }}</copyright_pline>
+                <label_name>{{ asset.label_name }}</label_name>
+                <title>{{ asset.track_name }}</title>
+				<locales>
+					<locale name="ar">
+						<title>{{ asset.track_name_a }}</title>
+					</locale>
+				</locales>
+				<isrc>{{ asset.asset_isrc }}</isrc>
+				<products>
+					{{~ for country_code in asset.country_iso_code_list_string ~}}
+					<product>
+                        <territory>{{country_code}}</territory>
+                        <wholesale_price_tier>100</wholesale_price_tier>
+                        <cleared_for_sale>true</cleared_for_sale>
+						<cleared_for_stream>true</cleared_for_stream>
+						<stream_start_date>{{asset.start_date}}</stream_start_date>
+					</product>
+					{{~ end ~}}
+				</products>
+				<lyrics>{{asset.asset_lyrics}}</lyrics>
+				<volume_number>{{asset.disc_num}}</volume_number>
+                <track_number>{{asset.track_num}}</track_number>
+                <audio_file>
+                    <file_name>{{asset.asset_isrc}}.m4a</file_name>
+                    <size>{{asset.track_file_size}}</size>
+                    <checksum type="md5">{{ asset.HASH_SUM }}</checksum>
+                </audio_file>
+                <audio_language>ar</audio_language>
+            </track>
+			{{~ end ~}}
+		</tracks>
+    </album>
+</package>

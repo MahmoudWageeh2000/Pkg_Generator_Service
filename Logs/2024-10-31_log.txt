@@ -1,0 +1,832 @@
+10/31/2024 12:15:04 PM: Starting XML generation for package ID: 70, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+10/31/2024 12:15:04 PM: Success: fetched package info for ID: 70
+10/31/2024 12:15:04 PM: Processing group with Album UPC: 6221117157119
+10/31/2024 12:15:04 PM: Starting GetFolderPaths...
+10/31/2024 12:15:04 PM: Fetching package folder for company: Facebook-Audio
+10/31/2024 12:15:04 PM: Sucsses: PackageFolder set to: 20241031121504561
+10/31/2024 12:15:04 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 12:15:04 PM: Sucsses: ResourcesFolder set to: 20241031121504561\6221117157119\resources
+10/31/2024 12:15:04 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 12:15:04 PM: Sucsses: MetadataFile path set to: 20241031121504561\6221117157119\6221117157119.xml
+10/31/2024 12:15:04 PM: Sucsses: Final PackageFolder path: 70\20241031121504561
+10/31/2024 12:15:04 PM: Sucsses: Final ResourcesFolder path: 70\20241031121504561\6221117157119\resources
+10/31/2024 12:15:04 PM: Sucsses: Retrieved folder paths for package: 70
+10/31/2024 12:15:04 PM: Starting GetCover...
+10/31/2024 12:15:10 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117157119.jpg
+10/31/2024 12:15:10 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117157119.jpg
+10/31/2024 12:15:10 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\70\20241031121504561\6221117157119\resources
+10/31/2024 12:15:10 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117157119.jpg
+10/31/2024 12:15:10 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\70\20241031121504561\6221117157119\resources\6221117157119.jpg
+10/31/2024 12:15:10 PM: Start Getting Media For package info: 70
+10/31/2024 12:15:16 PM: Media data generated successfully.
+10/31/2024 12:15:19 PM: Success: generated XML for package ID: 70
+10/31/2024 12:15:19 PM: Processing group with Album UPC: 6221117163806
+10/31/2024 12:15:19 PM: Starting GetFolderPaths...
+10/31/2024 12:15:19 PM: Sucsses: PackageFolder trimmed to: 20241031121504561
+10/31/2024 12:15:19 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 12:15:19 PM: Sucsses: ResourcesFolder set to: 20241031121504561\6221117163806\resources
+10/31/2024 12:15:19 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 12:15:19 PM: Sucsses: MetadataFile path set to: 20241031121504561\6221117163806\6221117163806.xml
+10/31/2024 12:15:19 PM: Sucsses: Final PackageFolder path: 70\20241031121504561
+10/31/2024 12:15:19 PM: Sucsses: Final ResourcesFolder path: 70\20241031121504561\6221117163806\resources
+10/31/2024 12:15:19 PM: Sucsses: Retrieved folder paths for package: 70
+10/31/2024 12:15:19 PM: Starting GetCover...
+10/31/2024 12:15:20 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117163806.jpg
+10/31/2024 12:15:20 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117163806.jpg
+10/31/2024 12:15:20 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\70\20241031121504561\6221117163806\resources
+10/31/2024 12:15:20 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117163806.jpg
+10/31/2024 12:15:20 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\70\20241031121504561\6221117163806\resources\6221117163806.jpg
+10/31/2024 12:15:20 PM: Start Getting Media For package info: 70
+10/31/2024 12:15:22 PM: Media data generated successfully.
+10/31/2024 12:15:41 PM: Starting XML generation for package ID: 69, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+10/31/2024 12:15:41 PM: Success: fetched package info for ID: 69
+10/31/2024 12:15:41 PM: Processing group with Album UPC: 6221117109309
+10/31/2024 12:15:41 PM: Starting GetFolderPaths...
+10/31/2024 12:15:41 PM: Fetching package folder for company: Facebook-Audio
+10/31/2024 12:15:41 PM: Sucsses: PackageFolder set to: 20241031121541693
+10/31/2024 12:15:41 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 12:15:41 PM: Sucsses: ResourcesFolder set to: 20241031121541693\6221117109309\resources
+10/31/2024 12:15:41 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 12:15:41 PM: Sucsses: MetadataFile path set to: 20241031121541693\6221117109309\6221117109309.xml
+10/31/2024 12:15:41 PM: Sucsses: Final PackageFolder path: 69\20241031121541693
+10/31/2024 12:15:41 PM: Sucsses: Final ResourcesFolder path: 69\20241031121541693\6221117109309\resources
+10/31/2024 12:15:41 PM: Sucsses: Retrieved folder paths for package: 69
+10/31/2024 12:15:41 PM: Starting GetCover...
+10/31/2024 12:15:42 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117109309.jpg
+10/31/2024 12:15:42 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117109309.jpg
+10/31/2024 12:15:42 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\69\20241031121541693\6221117109309\resources
+10/31/2024 12:15:42 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117109309.jpg
+10/31/2024 12:15:42 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\69\20241031121541693\6221117109309\resources\6221117109309.jpg
+10/31/2024 12:15:42 PM: Start Getting Media For package info: 69
+10/31/2024 12:15:43 PM: Media data generated successfully.
+10/31/2024 12:15:43 PM: Success: generated XML for package ID: 69
+10/31/2024 12:16:17 PM: Starting XML generation for package ID: 69, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+10/31/2024 12:16:17 PM: Success: fetched package info for ID: 69
+10/31/2024 12:16:17 PM: Processing group with Album UPC: 6221117109309
+10/31/2024 12:16:17 PM: Starting GetFolderPaths...
+10/31/2024 12:16:17 PM: Fetching package folder for company: Facebook-Audio
+10/31/2024 12:16:17 PM: Sucsses: PackageFolder set to: 20241031121617360
+10/31/2024 12:16:17 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 12:16:17 PM: Sucsses: ResourcesFolder set to: 20241031121617360\6221117109309\resources
+10/31/2024 12:16:17 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 12:16:17 PM: Sucsses: MetadataFile path set to: 20241031121617360\6221117109309\6221117109309.xml
+10/31/2024 12:16:17 PM: Sucsses: Final PackageFolder path: 69\20241031121617360
+10/31/2024 12:16:17 PM: Sucsses: Final ResourcesFolder path: 69\20241031121617360\6221117109309\resources
+10/31/2024 12:16:17 PM: Sucsses: Retrieved folder paths for package: 69
+10/31/2024 12:16:17 PM: Starting GetCover...
+10/31/2024 12:16:17 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117109309.jpg
+10/31/2024 12:16:17 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117109309.jpg
+10/31/2024 12:16:17 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\69\20241031121617360\6221117109309\resources
+10/31/2024 12:16:17 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117109309.jpg
+10/31/2024 12:16:17 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\69\20241031121617360\6221117109309\resources\6221117109309.jpg
+10/31/2024 12:16:17 PM: Start Getting Media For package info: 69
+10/31/2024 12:16:19 PM: Media data generated successfully.
+10/31/2024 12:16:19 PM: Success: generated XML for package ID: 69
+10/31/2024 12:17:31 PM: Starting XML generation for package ID: 69, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+10/31/2024 12:17:31 PM: Success: fetched package info for ID: 69
+10/31/2024 12:17:31 PM: Processing group with Album UPC: 6221117109309
+10/31/2024 12:17:31 PM: Starting GetFolderPaths...
+10/31/2024 12:17:31 PM: Fetching package folder for company: Facebook-Audio
+10/31/2024 12:17:31 PM: Sucsses: PackageFolder set to: 20241031121731218
+10/31/2024 12:17:31 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 12:17:31 PM: Sucsses: ResourcesFolder set to: 20241031121731218\6221117109309\resources
+10/31/2024 12:17:31 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 12:17:31 PM: Sucsses: MetadataFile path set to: 20241031121731218\6221117109309\6221117109309.xml
+10/31/2024 12:17:31 PM: Sucsses: Final PackageFolder path: 69\20241031121731218
+10/31/2024 12:17:31 PM: Sucsses: Final ResourcesFolder path: 69\20241031121731218\6221117109309\resources
+10/31/2024 12:17:31 PM: Sucsses: Retrieved folder paths for package: 69
+10/31/2024 12:17:31 PM: Starting GetCover...
+10/31/2024 12:17:32 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117109309.jpg
+10/31/2024 12:17:32 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117109309.jpg
+10/31/2024 12:17:32 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\69\20241031121731218\6221117109309\resources
+10/31/2024 12:17:32 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117109309.jpg
+10/31/2024 12:17:32 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\69\20241031121731218\6221117109309\resources\6221117109309.jpg
+10/31/2024 12:17:32 PM: Start Getting Media For package info: 69
+10/31/2024 12:17:33 PM: Media data generated successfully.
+10/31/2024 12:19:20 PM: Starting XML generation for package ID: 69, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+10/31/2024 12:19:20 PM: Success: fetched package info for ID: 69
+10/31/2024 12:19:20 PM: Processing group with Album UPC: 6221117109309
+10/31/2024 12:19:20 PM: Starting GetFolderPaths...
+10/31/2024 12:19:20 PM: Fetching package folder for company: Facebook-Audio
+10/31/2024 12:19:20 PM: Sucsses: PackageFolder set to: 20241031121920203
+10/31/2024 12:19:20 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 12:19:20 PM: Sucsses: ResourcesFolder set to: 20241031121920203\6221117109309\resources
+10/31/2024 12:19:20 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 12:19:20 PM: Sucsses: MetadataFile path set to: 20241031121920203\6221117109309\6221117109309.xml
+10/31/2024 12:19:20 PM: Sucsses: Final PackageFolder path: 69\20241031121920203
+10/31/2024 12:19:20 PM: Sucsses: Final ResourcesFolder path: 69\20241031121920203\6221117109309\resources
+10/31/2024 12:19:20 PM: Sucsses: Retrieved folder paths for package: 69
+10/31/2024 12:19:20 PM: Starting GetCover...
+10/31/2024 12:19:21 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117109309.jpg
+10/31/2024 12:19:21 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117109309.jpg
+10/31/2024 12:19:21 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\69\20241031121920203\6221117109309\resources
+10/31/2024 12:19:21 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117109309.jpg
+10/31/2024 12:19:21 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\69\20241031121920203\6221117109309\resources\6221117109309.jpg
+10/31/2024 12:19:21 PM: Start Getting Media For package info: 69
+10/31/2024 12:19:23 PM: Media data generated successfully.
+10/31/2024 12:19:23 PM: Success: generated XML for package ID: 69
+10/31/2024 1:16:40 PM: Starting XML generation for package ID: 61, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+10/31/2024 1:16:40 PM: Success: fetched package info for ID: 61
+10/31/2024 1:16:40 PM: Processing group with Album UPC: 9681001010413
+10/31/2024 1:16:40 PM: Starting GetFolderPaths...
+10/31/2024 1:16:40 PM: Fetching package folder for company: Facebook-Audio
+10/31/2024 1:16:40 PM: Sucsses: PackageFolder set to: 20241031131640944
+10/31/2024 1:16:40 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:16:40 PM: Sucsses: ResourcesFolder set to: 20241031131640944\9681001010413\resources
+10/31/2024 1:16:40 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:16:40 PM: Sucsses: MetadataFile path set to: 20241031131640944\9681001010413\9681001010413.xml
+10/31/2024 1:16:40 PM: Sucsses: Final PackageFolder path: 61\20241031131640944
+10/31/2024 1:16:40 PM: Sucsses: Final ResourcesFolder path: 61\20241031131640944\9681001010413\resources
+10/31/2024 1:16:40 PM: Sucsses: Retrieved folder paths for package: 61
+10/31/2024 1:16:40 PM: Starting GetCover...
+10/31/2024 1:16:41 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001010413.jpg
+10/31/2024 1:16:41 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001010413.jpg
+10/31/2024 1:16:41 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\61\20241031131640944\9681001010413\resources
+10/31/2024 1:16:42 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001010413.jpg
+10/31/2024 1:16:42 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\61\20241031131640944\9681001010413\resources\9681001010413.jpg
+10/31/2024 1:16:42 PM: Start Getting Media For package info: 61
+10/31/2024 1:16:44 PM: Media data generated successfully.
+10/31/2024 1:16:44 PM: Success: generated XML for package ID: 61
+10/31/2024 1:16:44 PM: Processing group with Album UPC: 6221117067395
+10/31/2024 1:16:44 PM: Starting GetFolderPaths...
+10/31/2024 1:16:44 PM: Sucsses: PackageFolder trimmed to: 20241031131640944
+10/31/2024 1:16:44 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:16:44 PM: Sucsses: ResourcesFolder set to: 20241031131640944\6221117067395\resources
+10/31/2024 1:16:44 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:16:44 PM: Sucsses: MetadataFile path set to: 20241031131640944\6221117067395\6221117067395.xml
+10/31/2024 1:16:44 PM: Sucsses: Final PackageFolder path: 61\20241031131640944
+10/31/2024 1:16:44 PM: Sucsses: Final ResourcesFolder path: 61\20241031131640944\6221117067395\resources
+10/31/2024 1:16:44 PM: Sucsses: Retrieved folder paths for package: 61
+10/31/2024 1:16:44 PM: Starting GetCover...
+10/31/2024 1:16:44 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117067395.jpg
+10/31/2024 1:16:44 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117067395.jpg
+10/31/2024 1:16:44 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\61\20241031131640944\6221117067395\resources
+10/31/2024 1:16:45 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117067395.jpg
+10/31/2024 1:16:45 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\61\20241031131640944\6221117067395\resources\6221117067395.jpg
+10/31/2024 1:16:45 PM: Start Getting Media For package info: 61
+10/31/2024 1:16:47 PM: Media data generated successfully.
+10/31/2024 1:16:47 PM: Success: generated XML for package ID: 61
+10/31/2024 1:17:02 PM: Starting XML generation for package ID: 69, Filename: Yandex_DDEX_XML_Template.xml, Company: Yandex-Audio
+10/31/2024 1:17:02 PM: Success: fetched package info for ID: 69
+10/31/2024 1:17:02 PM: Processing group with Album UPC: 6221117109309
+10/31/2024 1:17:02 PM: Starting GetFolderPaths...
+10/31/2024 1:17:02 PM: Fetching package folder for company: Yandex-Audio
+10/31/2024 1:17:02 PM: Sucsses: PackageFolder set to: 20241031131702428
+10/31/2024 1:17:02 PM: Sucsses: Fetching resources folder for company: Yandex-Audio
+10/31/2024 1:17:02 PM: Sucsses: ResourcesFolder set to: 20241031131702428\6221117109309\resources
+10/31/2024 1:17:02 PM: Sucsses: Fetching metadata file path for company: Yandex-Audio
+10/31/2024 1:17:02 PM: Sucsses: MetadataFile path set to: 20241031131702428\6221117109309\6221117109309.xml
+10/31/2024 1:17:02 PM: Sucsses: Final PackageFolder path: 69\20241031131702428
+10/31/2024 1:17:02 PM: Sucsses: Final ResourcesFolder path: 69\20241031131702428\6221117109309\resources
+10/31/2024 1:17:02 PM: Sucsses: Retrieved folder paths for package: 69
+10/31/2024 1:17:02 PM: Starting GetCover...
+10/31/2024 1:17:03 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117109309.jpg
+10/31/2024 1:17:03 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117109309.jpg
+10/31/2024 1:17:03 PM: Sucsses: Created directory: C:\Pkg_Output\yandex-audio\69\20241031131702428\6221117109309\resources
+10/31/2024 1:17:03 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117109309.jpg
+10/31/2024 1:17:03 PM: Sucsses: Copied cover file to: C:\Pkg_Output\yandex-audio\69\20241031131702428\6221117109309\resources\6221117109309.jpg
+10/31/2024 1:17:03 PM: Start Getting Media For package info: 69
+10/31/2024 1:17:04 PM: Media data generated successfully.
+10/31/2024 1:17:04 PM: Success: generated XML for package ID: 69
+10/31/2024 1:54:54 PM: Starting XML generation for package ID: 71, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+10/31/2024 1:54:54 PM: Success: fetched package info for ID: 71
+10/31/2024 1:54:54 PM: Processing group with Album UPC: 9681001016125
+10/31/2024 1:54:54 PM: Starting GetFolderPaths...
+10/31/2024 1:54:54 PM: Fetching package folder for company: Facebook-Audio
+10/31/2024 1:54:54 PM: Sucsses: PackageFolder set to: 20241031135454104
+10/31/2024 1:54:54 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:54:54 PM: Sucsses: ResourcesFolder set to: 20241031135454104\9681001016125\resources
+10/31/2024 1:54:54 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:54:54 PM: Sucsses: MetadataFile path set to: 20241031135454104\9681001016125\9681001016125.xml
+10/31/2024 1:54:54 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:54:54 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\9681001016125\resources
+10/31/2024 1:54:54 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:54:54 PM: Starting GetCover...
+10/31/2024 1:54:55 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016125.jpg
+10/31/2024 1:54:55 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016125.jpg
+10/31/2024 1:54:55 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\9681001016125\resources
+10/31/2024 1:54:55 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016125.jpg
+10/31/2024 1:54:55 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\9681001016125\resources\9681001016125.jpg
+10/31/2024 1:54:55 PM: Start Getting Media For package info: 71
+10/31/2024 1:54:57 PM: Media data generated successfully.
+10/31/2024 1:54:57 PM: Success: generated XML for package ID: 71
+10/31/2024 1:54:57 PM: Processing group with Album UPC: 6221117141323
+10/31/2024 1:54:57 PM: Starting GetFolderPaths...
+10/31/2024 1:54:57 PM: Sucsses: PackageFolder trimmed to: 20241031135454104
+10/31/2024 1:54:57 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:54:57 PM: Sucsses: ResourcesFolder set to: 20241031135454104\6221117141323\resources
+10/31/2024 1:54:57 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:54:57 PM: Sucsses: MetadataFile path set to: 20241031135454104\6221117141323\6221117141323.xml
+10/31/2024 1:54:57 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:54:57 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\6221117141323\resources
+10/31/2024 1:54:57 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:54:57 PM: Starting GetCover...
+10/31/2024 1:54:58 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141323.jpg
+10/31/2024 1:54:58 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141323.jpg
+10/31/2024 1:54:58 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117141323\resources
+10/31/2024 1:54:58 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141323.jpg
+10/31/2024 1:54:58 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117141323\resources\6221117141323.jpg
+10/31/2024 1:54:58 PM: Start Getting Media For package info: 71
+10/31/2024 1:55:00 PM: Media data generated successfully.
+10/31/2024 1:55:00 PM: Success: generated XML for package ID: 71
+10/31/2024 1:55:00 PM: Processing group with Album UPC: 6221117185518
+10/31/2024 1:55:00 PM: Starting GetFolderPaths...
+10/31/2024 1:55:00 PM: Sucsses: PackageFolder trimmed to: 20241031135454104
+10/31/2024 1:55:00 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:55:00 PM: Sucsses: ResourcesFolder set to: 20241031135454104\6221117185518\resources
+10/31/2024 1:55:00 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:55:00 PM: Sucsses: MetadataFile path set to: 20241031135454104\6221117185518\6221117185518.xml
+10/31/2024 1:55:00 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:55:00 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\6221117185518\resources
+10/31/2024 1:55:00 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:55:00 PM: Starting GetCover...
+10/31/2024 1:55:00 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185518.jpg
+10/31/2024 1:55:00 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185518.jpg
+10/31/2024 1:55:00 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117185518\resources
+10/31/2024 1:55:01 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185518.jpg
+10/31/2024 1:55:01 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117185518\resources\6221117185518.jpg
+10/31/2024 1:55:01 PM: Start Getting Media For package info: 71
+10/31/2024 1:55:03 PM: Media data generated successfully.
+10/31/2024 1:55:03 PM: Success: generated XML for package ID: 71
+10/31/2024 1:55:03 PM: Processing group with Album UPC: 6221117185525
+10/31/2024 1:55:03 PM: Starting GetFolderPaths...
+10/31/2024 1:55:03 PM: Sucsses: PackageFolder trimmed to: 20241031135454104
+10/31/2024 1:55:03 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:55:03 PM: Sucsses: ResourcesFolder set to: 20241031135454104\6221117185525\resources
+10/31/2024 1:55:03 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:55:03 PM: Sucsses: MetadataFile path set to: 20241031135454104\6221117185525\6221117185525.xml
+10/31/2024 1:55:03 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:55:03 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\6221117185525\resources
+10/31/2024 1:55:03 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:55:03 PM: Starting GetCover...
+10/31/2024 1:55:03 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185525.jpg
+10/31/2024 1:55:03 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185525.jpg
+10/31/2024 1:55:03 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117185525\resources
+10/31/2024 1:55:03 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185525.jpg
+10/31/2024 1:55:03 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117185525\resources\6221117185525.jpg
+10/31/2024 1:55:03 PM: Start Getting Media For package info: 71
+10/31/2024 1:55:05 PM: Media data generated successfully.
+10/31/2024 1:55:05 PM: Success: generated XML for package ID: 71
+10/31/2024 1:55:05 PM: Processing group with Album UPC: 6221117185532
+10/31/2024 1:55:05 PM: Starting GetFolderPaths...
+10/31/2024 1:55:05 PM: Sucsses: PackageFolder trimmed to: 20241031135454104
+10/31/2024 1:55:05 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:55:05 PM: Sucsses: ResourcesFolder set to: 20241031135454104\6221117185532\resources
+10/31/2024 1:55:05 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:55:05 PM: Sucsses: MetadataFile path set to: 20241031135454104\6221117185532\6221117185532.xml
+10/31/2024 1:55:05 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:55:05 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\6221117185532\resources
+10/31/2024 1:55:05 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:55:05 PM: Starting GetCover...
+10/31/2024 1:55:06 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185532.jpg
+10/31/2024 1:55:06 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185532.jpg
+10/31/2024 1:55:06 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117185532\resources
+10/31/2024 1:55:06 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185532.jpg
+10/31/2024 1:55:06 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117185532\resources\6221117185532.jpg
+10/31/2024 1:55:06 PM: Start Getting Media For package info: 71
+10/31/2024 1:55:08 PM: Media data generated successfully.
+10/31/2024 1:55:08 PM: Success: generated XML for package ID: 71
+10/31/2024 1:55:08 PM: Processing group with Album UPC: 6221117185549
+10/31/2024 1:55:08 PM: Starting GetFolderPaths...
+10/31/2024 1:55:08 PM: Sucsses: PackageFolder trimmed to: 20241031135454104
+10/31/2024 1:55:08 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:55:08 PM: Sucsses: ResourcesFolder set to: 20241031135454104\6221117185549\resources
+10/31/2024 1:55:08 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:55:08 PM: Sucsses: MetadataFile path set to: 20241031135454104\6221117185549\6221117185549.xml
+10/31/2024 1:55:08 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:55:08 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\6221117185549\resources
+10/31/2024 1:55:08 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:55:08 PM: Starting GetCover...
+10/31/2024 1:55:09 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185549.jpg
+10/31/2024 1:55:09 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185549.jpg
+10/31/2024 1:55:09 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117185549\resources
+10/31/2024 1:55:09 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185549.jpg
+10/31/2024 1:55:09 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117185549\resources\6221117185549.jpg
+10/31/2024 1:55:09 PM: Start Getting Media For package info: 71
+10/31/2024 1:55:11 PM: Media data generated successfully.
+10/31/2024 1:55:11 PM: Success: generated XML for package ID: 71
+10/31/2024 1:55:11 PM: Processing group with Album UPC: 6221117185556
+10/31/2024 1:55:11 PM: Starting GetFolderPaths...
+10/31/2024 1:55:11 PM: Sucsses: PackageFolder trimmed to: 20241031135454104
+10/31/2024 1:55:11 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:55:11 PM: Sucsses: ResourcesFolder set to: 20241031135454104\6221117185556\resources
+10/31/2024 1:55:11 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:55:11 PM: Sucsses: MetadataFile path set to: 20241031135454104\6221117185556\6221117185556.xml
+10/31/2024 1:55:11 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:55:11 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\6221117185556\resources
+10/31/2024 1:55:11 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:55:11 PM: Starting GetCover...
+10/31/2024 1:55:12 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185556.jpg
+10/31/2024 1:55:12 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185556.jpg
+10/31/2024 1:55:12 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117185556\resources
+10/31/2024 1:55:12 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185556.jpg
+10/31/2024 1:55:12 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117185556\resources\6221117185556.jpg
+10/31/2024 1:55:12 PM: Start Getting Media For package info: 71
+10/31/2024 1:55:15 PM: Media data generated successfully.
+10/31/2024 1:55:15 PM: Success: generated XML for package ID: 71
+10/31/2024 1:55:15 PM: Processing group with Album UPC: 6221117185563
+10/31/2024 1:55:15 PM: Starting GetFolderPaths...
+10/31/2024 1:55:15 PM: Sucsses: PackageFolder trimmed to: 20241031135454104
+10/31/2024 1:55:15 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:55:15 PM: Sucsses: ResourcesFolder set to: 20241031135454104\6221117185563\resources
+10/31/2024 1:55:15 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:55:15 PM: Sucsses: MetadataFile path set to: 20241031135454104\6221117185563\6221117185563.xml
+10/31/2024 1:55:15 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:55:15 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\6221117185563\resources
+10/31/2024 1:55:15 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:55:15 PM: Starting GetCover...
+10/31/2024 1:55:15 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185563.jpg
+10/31/2024 1:55:15 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185563.jpg
+10/31/2024 1:55:15 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117185563\resources
+10/31/2024 1:55:16 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185563.jpg
+10/31/2024 1:55:16 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117185563\resources\6221117185563.jpg
+10/31/2024 1:55:16 PM: Start Getting Media For package info: 71
+10/31/2024 1:55:17 PM: Media data generated successfully.
+10/31/2024 1:55:17 PM: Success: generated XML for package ID: 71
+10/31/2024 1:55:17 PM: Processing group with Album UPC: 6221117185570
+10/31/2024 1:55:17 PM: Starting GetFolderPaths...
+10/31/2024 1:55:17 PM: Sucsses: PackageFolder trimmed to: 20241031135454104
+10/31/2024 1:55:17 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:55:17 PM: Sucsses: ResourcesFolder set to: 20241031135454104\6221117185570\resources
+10/31/2024 1:55:17 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:55:17 PM: Sucsses: MetadataFile path set to: 20241031135454104\6221117185570\6221117185570.xml
+10/31/2024 1:55:17 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:55:17 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\6221117185570\resources
+10/31/2024 1:55:17 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:55:17 PM: Starting GetCover...
+10/31/2024 1:55:18 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185570.jpg
+10/31/2024 1:55:18 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185570.jpg
+10/31/2024 1:55:18 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117185570\resources
+10/31/2024 1:55:18 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185570.jpg
+10/31/2024 1:55:18 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117185570\resources\6221117185570.jpg
+10/31/2024 1:55:18 PM: Start Getting Media For package info: 71
+10/31/2024 1:55:20 PM: Media data generated successfully.
+10/31/2024 1:55:20 PM: Success: generated XML for package ID: 71
+10/31/2024 1:55:20 PM: Processing group with Album UPC: 6221117185587
+10/31/2024 1:55:20 PM: Starting GetFolderPaths...
+10/31/2024 1:55:20 PM: Sucsses: PackageFolder trimmed to: 20241031135454104
+10/31/2024 1:55:20 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:55:20 PM: Sucsses: ResourcesFolder set to: 20241031135454104\6221117185587\resources
+10/31/2024 1:55:20 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:55:20 PM: Sucsses: MetadataFile path set to: 20241031135454104\6221117185587\6221117185587.xml
+10/31/2024 1:55:20 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:55:20 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\6221117185587\resources
+10/31/2024 1:55:20 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:55:20 PM: Starting GetCover...
+10/31/2024 1:55:20 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185587.jpg
+10/31/2024 1:55:20 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185587.jpg
+10/31/2024 1:55:20 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117185587\resources
+10/31/2024 1:55:20 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185587.jpg
+10/31/2024 1:55:20 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117185587\resources\6221117185587.jpg
+10/31/2024 1:55:20 PM: Start Getting Media For package info: 71
+10/31/2024 1:55:23 PM: Media data generated successfully.
+10/31/2024 1:55:23 PM: Success: generated XML for package ID: 71
+10/31/2024 1:55:23 PM: Processing group with Album UPC: 6221117185594
+10/31/2024 1:55:23 PM: Starting GetFolderPaths...
+10/31/2024 1:55:23 PM: Sucsses: PackageFolder trimmed to: 20241031135454104
+10/31/2024 1:55:23 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:55:23 PM: Sucsses: ResourcesFolder set to: 20241031135454104\6221117185594\resources
+10/31/2024 1:55:23 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:55:23 PM: Sucsses: MetadataFile path set to: 20241031135454104\6221117185594\6221117185594.xml
+10/31/2024 1:55:23 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:55:23 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\6221117185594\resources
+10/31/2024 1:55:23 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:55:23 PM: Starting GetCover...
+10/31/2024 1:55:23 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185594.jpg
+10/31/2024 1:55:23 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185594.jpg
+10/31/2024 1:55:23 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117185594\resources
+10/31/2024 1:55:23 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185594.jpg
+10/31/2024 1:55:23 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117185594\resources\6221117185594.jpg
+10/31/2024 1:55:23 PM: Start Getting Media For package info: 71
+10/31/2024 1:55:26 PM: Media data generated successfully.
+10/31/2024 1:55:26 PM: Success: generated XML for package ID: 71
+10/31/2024 1:55:26 PM: Processing group with Album UPC: 6221117185600
+10/31/2024 1:55:26 PM: Starting GetFolderPaths...
+10/31/2024 1:55:26 PM: Sucsses: PackageFolder trimmed to: 20241031135454104
+10/31/2024 1:55:26 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:55:26 PM: Sucsses: ResourcesFolder set to: 20241031135454104\6221117185600\resources
+10/31/2024 1:55:26 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:55:26 PM: Sucsses: MetadataFile path set to: 20241031135454104\6221117185600\6221117185600.xml
+10/31/2024 1:55:26 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:55:26 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\6221117185600\resources
+10/31/2024 1:55:26 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:55:26 PM: Starting GetCover...
+10/31/2024 1:55:26 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185600.jpg
+10/31/2024 1:55:26 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185600.jpg
+10/31/2024 1:55:26 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117185600\resources
+10/31/2024 1:55:26 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185600.jpg
+10/31/2024 1:55:26 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117185600\resources\6221117185600.jpg
+10/31/2024 1:55:26 PM: Start Getting Media For package info: 71
+10/31/2024 1:55:28 PM: Media data generated successfully.
+10/31/2024 1:55:28 PM: Success: generated XML for package ID: 71
+10/31/2024 1:55:28 PM: Processing group with Album UPC: 6221117185624
+10/31/2024 1:55:28 PM: Starting GetFolderPaths...
+10/31/2024 1:55:28 PM: Sucsses: PackageFolder trimmed to: 20241031135454104
+10/31/2024 1:55:28 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:55:28 PM: Sucsses: ResourcesFolder set to: 20241031135454104\6221117185624\resources
+10/31/2024 1:55:28 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:55:28 PM: Sucsses: MetadataFile path set to: 20241031135454104\6221117185624\6221117185624.xml
+10/31/2024 1:55:28 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:55:28 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\6221117185624\resources
+10/31/2024 1:55:28 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:55:28 PM: Starting GetCover...
+10/31/2024 1:55:29 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185624.jpg
+10/31/2024 1:55:29 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185624.jpg
+10/31/2024 1:55:29 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117185624\resources
+10/31/2024 1:55:29 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185624.jpg
+10/31/2024 1:55:29 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117185624\resources\6221117185624.jpg
+10/31/2024 1:55:29 PM: Start Getting Media For package info: 71
+10/31/2024 1:55:36 PM: Media data generated successfully.
+10/31/2024 1:55:36 PM: Success: generated XML for package ID: 71
+10/31/2024 1:55:36 PM: Processing group with Album UPC: 6221117185945
+10/31/2024 1:55:36 PM: Starting GetFolderPaths...
+10/31/2024 1:55:36 PM: Sucsses: PackageFolder trimmed to: 20241031135454104
+10/31/2024 1:55:36 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:55:36 PM: Sucsses: ResourcesFolder set to: 20241031135454104\6221117185945\resources
+10/31/2024 1:55:36 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:55:36 PM: Sucsses: MetadataFile path set to: 20241031135454104\6221117185945\6221117185945.xml
+10/31/2024 1:55:36 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:55:36 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\6221117185945\resources
+10/31/2024 1:55:36 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:55:36 PM: Starting GetCover...
+10/31/2024 1:55:37 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185945.jpg
+10/31/2024 1:55:37 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185945.jpg
+10/31/2024 1:55:37 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117185945\resources
+10/31/2024 1:55:37 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117185945.jpg
+10/31/2024 1:55:37 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117185945\resources\6221117185945.jpg
+10/31/2024 1:55:37 PM: Start Getting Media For package info: 71
+10/31/2024 1:55:41 PM: Media data generated successfully.
+10/31/2024 1:55:41 PM: Success: generated XML for package ID: 71
+10/31/2024 1:55:41 PM: Processing group with Album UPC: 6221117186034
+10/31/2024 1:55:41 PM: Starting GetFolderPaths...
+10/31/2024 1:55:41 PM: Sucsses: PackageFolder trimmed to: 20241031135454104
+10/31/2024 1:55:41 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:55:41 PM: Sucsses: ResourcesFolder set to: 20241031135454104\6221117186034\resources
+10/31/2024 1:55:41 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:55:41 PM: Sucsses: MetadataFile path set to: 20241031135454104\6221117186034\6221117186034.xml
+10/31/2024 1:55:41 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:55:41 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\6221117186034\resources
+10/31/2024 1:55:41 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:55:41 PM: Starting GetCover...
+10/31/2024 1:55:42 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186034.jpg
+10/31/2024 1:55:42 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186034.jpg
+10/31/2024 1:55:42 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186034\resources
+10/31/2024 1:55:42 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186034.jpg
+10/31/2024 1:55:42 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186034\resources\6221117186034.jpg
+10/31/2024 1:55:42 PM: Start Getting Media For package info: 71
+10/31/2024 1:55:44 PM: Media data generated successfully.
+10/31/2024 1:55:44 PM: Success: generated XML for package ID: 71
+10/31/2024 1:55:44 PM: Processing group with Album UPC: 6221117186775
+10/31/2024 1:55:44 PM: Starting GetFolderPaths...
+10/31/2024 1:55:44 PM: Sucsses: PackageFolder trimmed to: 20241031135454104
+10/31/2024 1:55:44 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:55:44 PM: Sucsses: ResourcesFolder set to: 20241031135454104\6221117186775\resources
+10/31/2024 1:55:44 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:55:44 PM: Sucsses: MetadataFile path set to: 20241031135454104\6221117186775\6221117186775.xml
+10/31/2024 1:55:44 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:55:44 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\6221117186775\resources
+10/31/2024 1:55:44 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:55:44 PM: Starting GetCover...
+10/31/2024 1:55:44 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186775.jpg
+10/31/2024 1:55:44 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186775.jpg
+10/31/2024 1:55:44 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186775\resources
+10/31/2024 1:55:44 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186775.jpg
+10/31/2024 1:55:44 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186775\resources\6221117186775.jpg
+10/31/2024 1:55:44 PM: Start Getting Media For package info: 71
+10/31/2024 1:55:46 PM: Media data generated successfully.
+10/31/2024 1:55:46 PM: Success: generated XML for package ID: 71
+10/31/2024 1:55:46 PM: Processing group with Album UPC: 6221117186782
+10/31/2024 1:55:46 PM: Starting GetFolderPaths...
+10/31/2024 1:55:46 PM: Sucsses: PackageFolder trimmed to: 20241031135454104
+10/31/2024 1:55:46 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:55:46 PM: Sucsses: ResourcesFolder set to: 20241031135454104\6221117186782\resources
+10/31/2024 1:55:46 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:55:46 PM: Sucsses: MetadataFile path set to: 20241031135454104\6221117186782\6221117186782.xml
+10/31/2024 1:55:46 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:55:46 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\6221117186782\resources
+10/31/2024 1:55:46 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:55:46 PM: Starting GetCover...
+10/31/2024 1:55:47 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186782.jpg
+10/31/2024 1:55:47 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186782.jpg
+10/31/2024 1:55:47 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186782\resources
+10/31/2024 1:55:47 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186782.jpg
+10/31/2024 1:55:47 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186782\resources\6221117186782.jpg
+10/31/2024 1:55:47 PM: Start Getting Media For package info: 71
+10/31/2024 1:55:49 PM: Media data generated successfully.
+10/31/2024 1:55:49 PM: Success: generated XML for package ID: 71
+10/31/2024 1:55:49 PM: Processing group with Album UPC: 6221117186799
+10/31/2024 1:55:49 PM: Starting GetFolderPaths...
+10/31/2024 1:55:49 PM: Sucsses: PackageFolder trimmed to: 20241031135454104
+10/31/2024 1:55:49 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:55:49 PM: Sucsses: ResourcesFolder set to: 20241031135454104\6221117186799\resources
+10/31/2024 1:55:49 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:55:49 PM: Sucsses: MetadataFile path set to: 20241031135454104\6221117186799\6221117186799.xml
+10/31/2024 1:55:49 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:55:49 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\6221117186799\resources
+10/31/2024 1:55:49 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:55:49 PM: Starting GetCover...
+10/31/2024 1:55:50 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186799.jpg
+10/31/2024 1:55:50 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186799.jpg
+10/31/2024 1:55:50 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186799\resources
+10/31/2024 1:55:50 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186799.jpg
+10/31/2024 1:55:50 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186799\resources\6221117186799.jpg
+10/31/2024 1:55:50 PM: Start Getting Media For package info: 71
+10/31/2024 1:55:52 PM: Media data generated successfully.
+10/31/2024 1:55:52 PM: Success: generated XML for package ID: 71
+10/31/2024 1:55:52 PM: Processing group with Album UPC: 6221117186805
+10/31/2024 1:55:52 PM: Starting GetFolderPaths...
+10/31/2024 1:55:52 PM: Sucsses: PackageFolder trimmed to: 20241031135454104
+10/31/2024 1:55:52 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:55:52 PM: Sucsses: ResourcesFolder set to: 20241031135454104\6221117186805\resources
+10/31/2024 1:55:52 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:55:52 PM: Sucsses: MetadataFile path set to: 20241031135454104\6221117186805\6221117186805.xml
+10/31/2024 1:55:52 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:55:52 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\6221117186805\resources
+10/31/2024 1:55:52 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:55:52 PM: Starting GetCover...
+10/31/2024 1:55:53 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186805.jpg
+10/31/2024 1:55:53 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186805.jpg
+10/31/2024 1:55:53 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186805\resources
+10/31/2024 1:55:53 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186805.jpg
+10/31/2024 1:55:53 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186805\resources\6221117186805.jpg
+10/31/2024 1:55:53 PM: Start Getting Media For package info: 71
+10/31/2024 1:55:55 PM: Media data generated successfully.
+10/31/2024 1:55:55 PM: Success: generated XML for package ID: 71
+10/31/2024 1:55:55 PM: Processing group with Album UPC: 6221117186812
+10/31/2024 1:55:55 PM: Starting GetFolderPaths...
+10/31/2024 1:55:55 PM: Sucsses: PackageFolder trimmed to: 20241031135454104
+10/31/2024 1:55:55 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:55:55 PM: Sucsses: ResourcesFolder set to: 20241031135454104\6221117186812\resources
+10/31/2024 1:55:55 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:55:55 PM: Sucsses: MetadataFile path set to: 20241031135454104\6221117186812\6221117186812.xml
+10/31/2024 1:55:55 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:55:55 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\6221117186812\resources
+10/31/2024 1:55:55 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:55:55 PM: Starting GetCover...
+10/31/2024 1:55:56 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186812.jpg
+10/31/2024 1:55:56 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186812.jpg
+10/31/2024 1:55:56 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186812\resources
+10/31/2024 1:55:56 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186812.jpg
+10/31/2024 1:55:56 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186812\resources\6221117186812.jpg
+10/31/2024 1:55:56 PM: Start Getting Media For package info: 71
+10/31/2024 1:55:59 PM: Media data generated successfully.
+10/31/2024 1:55:59 PM: Success: generated XML for package ID: 71
+10/31/2024 1:55:59 PM: Processing group with Album UPC: 6221117186829
+10/31/2024 1:55:59 PM: Starting GetFolderPaths...
+10/31/2024 1:55:59 PM: Sucsses: PackageFolder trimmed to: 20241031135454104
+10/31/2024 1:55:59 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:55:59 PM: Sucsses: ResourcesFolder set to: 20241031135454104\6221117186829\resources
+10/31/2024 1:55:59 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:55:59 PM: Sucsses: MetadataFile path set to: 20241031135454104\6221117186829\6221117186829.xml
+10/31/2024 1:55:59 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:55:59 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\6221117186829\resources
+10/31/2024 1:55:59 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:55:59 PM: Starting GetCover...
+10/31/2024 1:56:00 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186829.jpg
+10/31/2024 1:56:00 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186829.jpg
+10/31/2024 1:56:00 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186829\resources
+10/31/2024 1:56:00 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186829.jpg
+10/31/2024 1:56:00 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186829\resources\6221117186829.jpg
+10/31/2024 1:56:00 PM: Start Getting Media For package info: 71
+10/31/2024 1:56:02 PM: Media data generated successfully.
+10/31/2024 1:56:02 PM: Success: generated XML for package ID: 71
+10/31/2024 1:56:02 PM: Processing group with Album UPC: 6221117186836
+10/31/2024 1:56:02 PM: Starting GetFolderPaths...
+10/31/2024 1:56:02 PM: Sucsses: PackageFolder trimmed to: 20241031135454104
+10/31/2024 1:56:02 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:56:02 PM: Sucsses: ResourcesFolder set to: 20241031135454104\6221117186836\resources
+10/31/2024 1:56:02 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:56:02 PM: Sucsses: MetadataFile path set to: 20241031135454104\6221117186836\6221117186836.xml
+10/31/2024 1:56:02 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:56:02 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\6221117186836\resources
+10/31/2024 1:56:02 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:56:02 PM: Starting GetCover...
+10/31/2024 1:56:03 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186836.jpg
+10/31/2024 1:56:03 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186836.jpg
+10/31/2024 1:56:03 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186836\resources
+10/31/2024 1:56:03 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186836.jpg
+10/31/2024 1:56:03 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186836\resources\6221117186836.jpg
+10/31/2024 1:56:03 PM: Start Getting Media For package info: 71
+10/31/2024 1:56:07 PM: Media data generated successfully.
+10/31/2024 1:56:07 PM: Success: generated XML for package ID: 71
+10/31/2024 1:56:07 PM: Processing group with Album UPC: 6221117186843
+10/31/2024 1:56:07 PM: Starting GetFolderPaths...
+10/31/2024 1:56:07 PM: Sucsses: PackageFolder trimmed to: 20241031135454104
+10/31/2024 1:56:07 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:56:07 PM: Sucsses: ResourcesFolder set to: 20241031135454104\6221117186843\resources
+10/31/2024 1:56:07 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:56:07 PM: Sucsses: MetadataFile path set to: 20241031135454104\6221117186843\6221117186843.xml
+10/31/2024 1:56:07 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:56:07 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\6221117186843\resources
+10/31/2024 1:56:07 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:56:07 PM: Starting GetCover...
+10/31/2024 1:56:08 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186843.jpg
+10/31/2024 1:56:08 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186843.jpg
+10/31/2024 1:56:08 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186843\resources
+10/31/2024 1:56:08 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186843.jpg
+10/31/2024 1:56:08 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186843\resources\6221117186843.jpg
+10/31/2024 1:56:08 PM: Start Getting Media For package info: 71
+10/31/2024 1:56:09 PM: Media data generated successfully.
+10/31/2024 1:56:09 PM: Success: generated XML for package ID: 71
+10/31/2024 1:56:09 PM: Processing group with Album UPC: 6221117186850
+10/31/2024 1:56:09 PM: Starting GetFolderPaths...
+10/31/2024 1:56:09 PM: Sucsses: PackageFolder trimmed to: 20241031135454104
+10/31/2024 1:56:09 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:56:09 PM: Sucsses: ResourcesFolder set to: 20241031135454104\6221117186850\resources
+10/31/2024 1:56:09 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:56:09 PM: Sucsses: MetadataFile path set to: 20241031135454104\6221117186850\6221117186850.xml
+10/31/2024 1:56:09 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:56:09 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\6221117186850\resources
+10/31/2024 1:56:09 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:56:09 PM: Starting GetCover...
+10/31/2024 1:56:10 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186850.jpg
+10/31/2024 1:56:10 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186850.jpg
+10/31/2024 1:56:10 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186850\resources
+10/31/2024 1:56:10 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186850.jpg
+10/31/2024 1:56:10 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186850\resources\6221117186850.jpg
+10/31/2024 1:56:10 PM: Start Getting Media For package info: 71
+10/31/2024 1:56:14 PM: Media data generated successfully.
+10/31/2024 1:56:14 PM: Success: generated XML for package ID: 71
+10/31/2024 1:56:14 PM: Processing group with Album UPC: 6221117186867
+10/31/2024 1:56:14 PM: Starting GetFolderPaths...
+10/31/2024 1:56:14 PM: Sucsses: PackageFolder trimmed to: 20241031135454104
+10/31/2024 1:56:14 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:56:14 PM: Sucsses: ResourcesFolder set to: 20241031135454104\6221117186867\resources
+10/31/2024 1:56:14 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:56:14 PM: Sucsses: MetadataFile path set to: 20241031135454104\6221117186867\6221117186867.xml
+10/31/2024 1:56:14 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:56:14 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\6221117186867\resources
+10/31/2024 1:56:14 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:56:14 PM: Starting GetCover...
+10/31/2024 1:56:18 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186867.jpg
+10/31/2024 1:56:18 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186867.jpg
+10/31/2024 1:56:18 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186867\resources
+10/31/2024 1:56:18 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186867.jpg
+10/31/2024 1:56:18 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186867\resources\6221117186867.jpg
+10/31/2024 1:56:18 PM: Start Getting Media For package info: 71
+10/31/2024 1:56:21 PM: Media data generated successfully.
+10/31/2024 1:56:21 PM: Success: generated XML for package ID: 71
+10/31/2024 1:56:21 PM: Processing group with Album UPC: 6221117186874
+10/31/2024 1:56:21 PM: Starting GetFolderPaths...
+10/31/2024 1:56:21 PM: Sucsses: PackageFolder trimmed to: 20241031135454104
+10/31/2024 1:56:21 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:56:21 PM: Sucsses: ResourcesFolder set to: 20241031135454104\6221117186874\resources
+10/31/2024 1:56:21 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:56:21 PM: Sucsses: MetadataFile path set to: 20241031135454104\6221117186874\6221117186874.xml
+10/31/2024 1:56:21 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:56:21 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\6221117186874\resources
+10/31/2024 1:56:21 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:56:21 PM: Starting GetCover...
+10/31/2024 1:56:22 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186874.jpg
+10/31/2024 1:56:22 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186874.jpg
+10/31/2024 1:56:22 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186874\resources
+10/31/2024 1:56:22 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186874.jpg
+10/31/2024 1:56:22 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186874\resources\6221117186874.jpg
+10/31/2024 1:56:22 PM: Start Getting Media For package info: 71
+10/31/2024 1:56:26 PM: Media data generated successfully.
+10/31/2024 1:56:26 PM: Success: generated XML for package ID: 71
+10/31/2024 1:56:26 PM: Processing group with Album UPC: 6221117186881
+10/31/2024 1:56:26 PM: Starting GetFolderPaths...
+10/31/2024 1:56:26 PM: Sucsses: PackageFolder trimmed to: 20241031135454104
+10/31/2024 1:56:26 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:56:26 PM: Sucsses: ResourcesFolder set to: 20241031135454104\6221117186881\resources
+10/31/2024 1:56:26 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:56:26 PM: Sucsses: MetadataFile path set to: 20241031135454104\6221117186881\6221117186881.xml
+10/31/2024 1:56:26 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:56:26 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\6221117186881\resources
+10/31/2024 1:56:26 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:56:26 PM: Starting GetCover...
+10/31/2024 1:56:27 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186881.jpg
+10/31/2024 1:56:27 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186881.jpg
+10/31/2024 1:56:27 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186881\resources
+10/31/2024 1:56:27 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186881.jpg
+10/31/2024 1:56:27 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186881\resources\6221117186881.jpg
+10/31/2024 1:56:27 PM: Start Getting Media For package info: 71
+10/31/2024 1:56:30 PM: Media data generated successfully.
+10/31/2024 1:56:30 PM: Success: generated XML for package ID: 71
+10/31/2024 1:56:30 PM: Processing group with Album UPC: 6221117186898
+10/31/2024 1:56:30 PM: Starting GetFolderPaths...
+10/31/2024 1:56:30 PM: Sucsses: PackageFolder trimmed to: 20241031135454104
+10/31/2024 1:56:30 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:56:30 PM: Sucsses: ResourcesFolder set to: 20241031135454104\6221117186898\resources
+10/31/2024 1:56:30 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:56:30 PM: Sucsses: MetadataFile path set to: 20241031135454104\6221117186898\6221117186898.xml
+10/31/2024 1:56:30 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:56:30 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\6221117186898\resources
+10/31/2024 1:56:30 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:56:30 PM: Starting GetCover...
+10/31/2024 1:56:30 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186898.jpg
+10/31/2024 1:56:30 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186898.jpg
+10/31/2024 1:56:30 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186898\resources
+10/31/2024 1:56:30 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186898.jpg
+10/31/2024 1:56:30 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186898\resources\6221117186898.jpg
+10/31/2024 1:56:30 PM: Start Getting Media For package info: 71
+10/31/2024 1:56:32 PM: Media data generated successfully.
+10/31/2024 1:56:32 PM: Success: generated XML for package ID: 71
+10/31/2024 1:56:32 PM: Processing group with Album UPC: 6221117186904
+10/31/2024 1:56:32 PM: Starting GetFolderPaths...
+10/31/2024 1:56:32 PM: Sucsses: PackageFolder trimmed to: 20241031135454104
+10/31/2024 1:56:32 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 1:56:32 PM: Sucsses: ResourcesFolder set to: 20241031135454104\6221117186904\resources
+10/31/2024 1:56:32 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 1:56:32 PM: Sucsses: MetadataFile path set to: 20241031135454104\6221117186904\6221117186904.xml
+10/31/2024 1:56:32 PM: Sucsses: Final PackageFolder path: 71\20241031135454104
+10/31/2024 1:56:32 PM: Sucsses: Final ResourcesFolder path: 71\20241031135454104\6221117186904\resources
+10/31/2024 1:56:32 PM: Sucsses: Retrieved folder paths for package: 71
+10/31/2024 1:56:32 PM: Starting GetCover...
+10/31/2024 1:56:33 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186904.jpg
+10/31/2024 1:56:33 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186904.jpg
+10/31/2024 1:56:33 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186904\resources
+10/31/2024 1:56:33 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117186904.jpg
+10/31/2024 1:56:33 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\71\20241031135454104\6221117186904\resources\6221117186904.jpg
+10/31/2024 1:56:33 PM: Start Getting Media For package info: 71
+10/31/2024 1:56:36 PM: Media data generated successfully.
+10/31/2024 1:56:36 PM: Success: generated XML for package ID: 71
+10/31/2024 2:44:47 PM: Starting XML generation for package ID: 72, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+10/31/2024 2:44:47 PM: Success: fetched package info for ID: 72
+10/31/2024 2:44:47 PM: Processing group with Album UPC: 9681001016125
+10/31/2024 2:44:47 PM: Starting GetFolderPaths...
+10/31/2024 2:44:47 PM: Fetching package folder for company: Facebook-Audio
+10/31/2024 2:44:47 PM: Sucsses: PackageFolder set to: 20241031144447990
+10/31/2024 2:44:47 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 2:44:47 PM: Sucsses: ResourcesFolder set to: 20241031144447990\9681001016125\resources
+10/31/2024 2:44:47 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 2:44:47 PM: Sucsses: MetadataFile path set to: 20241031144447990\9681001016125\9681001016125.xml
+10/31/2024 2:44:47 PM: Sucsses: Final PackageFolder path: 72\20241031144447990
+10/31/2024 2:44:47 PM: Sucsses: Final ResourcesFolder path: 72\20241031144447990\9681001016125\resources
+10/31/2024 2:44:47 PM: Sucsses: Retrieved folder paths for package: 72
+10/31/2024 2:44:48 PM: Starting GetCover...
+10/31/2024 2:44:48 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016125.jpg
+10/31/2024 2:44:48 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016125.jpg
+10/31/2024 2:44:48 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\72\20241031144447990\9681001016125\resources
+10/31/2024 2:44:48 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016125.jpg
+10/31/2024 2:44:48 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\72\20241031144447990\9681001016125\resources\9681001016125.jpg
+10/31/2024 2:44:48 PM: Start Getting Media For package info: 72
+10/31/2024 2:44:51 PM: Media data generated successfully.
+10/31/2024 2:44:51 PM: Success: generated XML for package ID: 72
+10/31/2024 2:54:16 PM: Starting XML generation for package ID: 73, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+10/31/2024 2:54:16 PM: Success: fetched package info for ID: 73
+10/31/2024 2:54:16 PM: Processing group with Album UPC: 6221117141323
+10/31/2024 2:54:16 PM: Starting GetFolderPaths...
+10/31/2024 2:54:16 PM: Fetching package folder for company: Facebook-Audio
+10/31/2024 2:54:16 PM: Sucsses: PackageFolder set to: 20241031145416979
+10/31/2024 2:54:16 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 2:54:16 PM: Sucsses: ResourcesFolder set to: 20241031145416979\6221117141323\resources
+10/31/2024 2:54:16 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 2:54:16 PM: Sucsses: MetadataFile path set to: 20241031145416979\6221117141323\6221117141323.xml
+10/31/2024 2:54:16 PM: Sucsses: Final PackageFolder path: 73\20241031145416979
+10/31/2024 2:54:16 PM: Sucsses: Final ResourcesFolder path: 73\20241031145416979\6221117141323\resources
+10/31/2024 2:54:16 PM: Sucsses: Retrieved folder paths for package: 73
+10/31/2024 2:54:16 PM: Starting GetCover...
+10/31/2024 2:54:17 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141323.jpg
+10/31/2024 2:54:17 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141323.jpg
+10/31/2024 2:54:17 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\73\20241031145416979\6221117141323\resources
+10/31/2024 2:54:17 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141323.jpg
+10/31/2024 2:54:17 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\73\20241031145416979\6221117141323\resources\6221117141323.jpg
+10/31/2024 2:54:17 PM: Start Getting Media For package info: 73
+10/31/2024 2:54:19 PM: Media data generated successfully.
+10/31/2024 2:54:20 PM: Success: generated XML for package ID: 73
+10/31/2024 3:03:51 PM: Starting XML generation for package ID: 73, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+10/31/2024 3:03:51 PM: Success: fetched package info for ID: 73
+10/31/2024 3:03:51 PM: Processing group with Album UPC: 6221117141323
+10/31/2024 3:03:51 PM: Starting GetFolderPaths...
+10/31/2024 3:03:51 PM: Fetching package folder for company: Facebook-Audio
+10/31/2024 3:03:51 PM: Sucsses: PackageFolder set to: 20241031150351903
+10/31/2024 3:03:51 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 3:03:51 PM: Sucsses: ResourcesFolder set to: 20241031150351903\6221117141323\resources
+10/31/2024 3:03:51 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 3:03:51 PM: Sucsses: MetadataFile path set to: 20241031150351903\6221117141323\6221117141323.xml
+10/31/2024 3:03:51 PM: Sucsses: Final PackageFolder path: 73\20241031150351903
+10/31/2024 3:03:51 PM: Sucsses: Final ResourcesFolder path: 73\20241031150351903\6221117141323\resources
+10/31/2024 3:03:51 PM: Sucsses: Retrieved folder paths for package: 73
+10/31/2024 3:03:51 PM: Starting GetCover...
+10/31/2024 3:03:52 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141323.jpg
+10/31/2024 3:03:52 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141323.jpg
+10/31/2024 3:03:52 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\73\20241031150351903\6221117141323\resources
+10/31/2024 3:03:52 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141323.jpg
+10/31/2024 3:03:52 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\73\20241031150351903\6221117141323\resources\6221117141323.jpg
+10/31/2024 3:03:52 PM: Start Getting Media For package info: 73
+10/31/2024 3:03:54 PM: Media data generated successfully.
+10/31/2024 3:03:54 PM: Success: generated XML for package ID: 73
+10/31/2024 3:10:02 PM: Starting XML generation for package ID: 73, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+10/31/2024 3:10:02 PM: Success: fetched package info for ID: 73
+10/31/2024 3:10:02 PM: Processing group with Album UPC: 6221117141323
+10/31/2024 3:10:02 PM: Starting GetFolderPaths...
+10/31/2024 3:10:02 PM: Fetching package folder for company: Facebook-Audio
+10/31/2024 3:10:02 PM: Sucsses: PackageFolder set to: 20241031151002790
+10/31/2024 3:10:02 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/31/2024 3:10:02 PM: Sucsses: ResourcesFolder set to: 20241031151002790\6221117141323\resources
+10/31/2024 3:10:02 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/31/2024 3:10:02 PM: Sucsses: MetadataFile path set to: 20241031151002790\6221117141323\6221117141323.xml
+10/31/2024 3:10:02 PM: Sucsses: Final PackageFolder path: 73\20241031151002790
+10/31/2024 3:10:02 PM: Sucsses: Final ResourcesFolder path: 73\20241031151002790\6221117141323\resources
+10/31/2024 3:10:02 PM: Sucsses: Retrieved folder paths for package: 73
+10/31/2024 3:10:02 PM: Starting GetCover...
+10/31/2024 3:10:03 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141323.jpg
+10/31/2024 3:10:03 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141323.jpg
+10/31/2024 3:10:03 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\73\20241031151002790\6221117141323\resources
+10/31/2024 3:10:03 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141323.jpg
+10/31/2024 3:10:03 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\73\20241031151002790\6221117141323\resources\6221117141323.jpg
+10/31/2024 3:10:03 PM: Start Getting Media For package info: 73
+10/31/2024 3:10:05 PM: Media data generated successfully.
+10/31/2024 3:10:05 PM: Success: generated XML for package ID: 73

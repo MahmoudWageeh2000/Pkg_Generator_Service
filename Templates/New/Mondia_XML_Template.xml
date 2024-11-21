@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><contentimport xmlns="http://arvato-mobile.com/transfer" xmlns:schemaLocation="http://arvato-mobile.com/transfer http://i.mondiamedia.com/fundb/xsd/arvato_transfer_1_6_3.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" date="@[DATE]@" supplierid="335">
+    <articlecollection articletypeid="17">
+        <idbag>
+            <externalid>@[ALBUM_UPC]@</externalid>
+            <upc>@[ALBUM_UPC]@</upc>
+        </idbag>
+        <artist role="MainArtist">
+            <name>@[ALBUM_ARTIST]@</name>
+        </artist>
+        <title loc="ww">@[ALBUM_TITLE]@</title>
+        <title loc="ar">@[ALBUM_TITLE_ARB]@</title>
+        <licensor>Mazzika</licensor>
+        <keyword>@[KEYWORDS]@</keyword>
+        <contentgrading>0</contentgrading>
+        <duration>@[MONDIA_TRACK_DURATION]@</duration>
+        <articlebinary filesize="@[IMAGE_FILE_SIZE]@" md5sum="@[HASH_SUM_IMAGE]@" type="coversource">@[ALBUM_UPC]@.jpg</articlebinary>
+        <territory>
+            <c>EG</c>
+            <businessmodel>DTO</businessmodel>
+            <dRelDate>@[RELEASE_DATE]@</dRelDate>
+            <dCancDate>2039-12-31</dCancDate>
+            <relDate>@[RELEASE_DATE]@</relDate>
+            <priceinfo>
+                <effectivedate>@[EFFECTIVE_DATE]@</effectivedate>
+                <pricecode>25</pricecode>
+            </priceinfo>
+        </territory>
+        <usage type="STREAM">Y</usage>
+        <usage type="DTO">Y</usage>
+        <usage type="ADFUNDED">Y</usage>
+        <usage type="SUBSCRIPTION">Y</usage>
+        <collectionkind>2</collectionkind>
+        <numberofentries>@[TRACK_COUNT]@</numberofentries>
+        #LOOP_ARTICLE_COLLECTION#
+        <article articletypeid="17">
+            <idbag>
+                <externalid>@[ISRC]@</externalid>
+                <isrc>@[ISRC]@</isrc>
+            </idbag>
+            <artist role="MainArtist">
+                <name>@[TRACK_ARTIST]@</name>
+            </artist>
+            <artist role="Composer">
+                <name>@[TRACK_ARTIST]@</name>
+            </artist>
+            <title loc="ww">@[TRACK_TITLE]@</title>
+            <title loc="ar">@[TRACK_TITLE_ARB]@</title>
+            <licensor>Mazzika</licensor>
+						<keyword>@[KEYWORDS]@</keyword>
+            <contentgrading>0</contentgrading>
+            <genre name="Arabic"/>
+            <attribute key="General Reporting Code" value="@[ISRC]@"/>
+            <attribute key="ISRC" value="@[ISRC]@"/>
+            <attribute key="Publisher" value="Mazzika"/>
+            <attribute key="CopyrightInfo" value="Mazzika"/>
+            <attribute key="ProductionInfo" value="Mazzika"/>
+            <attribute key="LabelInfo" value="Mazzika"/>
+            #CHECK_RBT_CODE#
+            <attribute key="RBTCode" value="@[RBT_CODE]@"/>
+            #END_CHECK_RBT_CODE#
+            <territory>
+                <c>EG</c>
+                <dRelDate>@[RELEASE_DATE]@</dRelDate>
+                <relDate>@[RELEASE_DATE]@</relDate>
+                <priceinfo>
+                    <effectivedate>@[EFFECTIVE_DATE]@</effectivedate>
+                    <pricecode>25</pricecode>
+                </priceinfo>
+            </territory>
+            <usage type="STREAM">Y</usage>
+            <usage type="DTO">Y</usage>
+            <usage type="ADFUNDED">Y</usage>
+            <usage type="SUBSCRIPTION">Y</usage>
+            <item itemtypeid="1090">
+                <binary filesize="@[TRACK_FILE_SIZE]@" kind="BINARY" md5sum="@[HASH_SUM]@">@[TRACK_NUM]@ - @[TRACK_TITLE]@.mp3</binary>
+            </item>
+            <bundleonly>false</bundleonly>
+            <volumenumber>1</volumenumber>
+            <tracknumber>@[TRACK_NO]@</tracknumber>
+        </article>
+        #END_LOOP_ARTICLE_COLLECTION#
+    </articlecollection>
+</contentimport>

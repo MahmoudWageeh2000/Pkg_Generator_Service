@@ -1,0 +1,88 @@
+10/20/2024 2:37:32 PM: Starting XML generation for package ID: 65, Filename: Yandex_DDEX_XML_Template.xml, Company: Yandex-Audio
+10/20/2024 2:37:32 PM: Success: fetched package info for ID: 65
+10/20/2024 2:37:32 PM: Processing group with Album UPC: 6221117127129
+10/20/2024 2:37:32 PM: Starting GetFolderPaths...
+10/20/2024 2:37:32 PM: Fetching package folder for company: Yandex-Audio
+10/20/2024 2:37:32 PM: Sucsses: PackageFolder set to: 20241020143732407
+10/20/2024 2:37:32 PM: Sucsses: Fetching resources folder for company: Yandex-Audio
+10/20/2024 2:37:32 PM: Sucsses: ResourcesFolder set to: 20241020143732407\6221117127129\resources
+10/20/2024 2:37:32 PM: Sucsses: Fetching metadata file path for company: Yandex-Audio
+10/20/2024 2:37:32 PM: Sucsses: MetadataFile path set to: 20241020143732407\6221117127129\6221117127129.xml
+10/20/2024 2:37:32 PM: Sucsses: Final PackageFolder path: 65\20241020143732407
+10/20/2024 2:37:32 PM: Sucsses: Final ResourcesFolder path: 65\20241020143732407\6221117127129\resources
+10/20/2024 2:37:32 PM: Sucsses: Retrieved folder paths for package: 65
+10/20/2024 2:37:32 PM: Starting GetCover...
+10/20/2024 2:37:34 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117127129.jpg
+10/20/2024 2:37:34 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117127129.jpg
+10/20/2024 2:37:34 PM: Sucsses: Created directory: C:\Pkg_Output\yandex-audio\65\20241020143732407\6221117127129\resources
+10/20/2024 2:37:34 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117127129.jpg
+10/20/2024 2:37:34 PM: Sucsses: Copied cover file to: C:\Pkg_Output\yandex-audio\65\20241020143732407\6221117127129\resources\6221117127129.jpg
+10/20/2024 2:37:34 PM: Start Getting Media For package info: 65
+10/20/2024 2:37:38 PM: Media data generated successfully.
+10/20/2024 2:37:39 PM: Error: generating XML for package: <input>(204,44) : error : Cannot get the member asset.track_featured_artist_list_string for a null object.
+10/20/2024 2:38:33 PM: Starting XML generation for package ID: 65, Filename: Yandex_DDEX_XML_Template.xml, Company: Yandex-Audio
+10/20/2024 2:38:33 PM: Success: fetched package info for ID: 65
+10/20/2024 2:38:33 PM: Processing group with Album UPC: 6221117127129
+10/20/2024 2:38:33 PM: Starting GetFolderPaths...
+10/20/2024 2:38:33 PM: Fetching package folder for company: Yandex-Audio
+10/20/2024 2:38:33 PM: Sucsses: PackageFolder set to: 20241020143833483
+10/20/2024 2:38:33 PM: Sucsses: Fetching resources folder for company: Yandex-Audio
+10/20/2024 2:38:33 PM: Sucsses: ResourcesFolder set to: 20241020143833483\6221117127129\resources
+10/20/2024 2:38:33 PM: Sucsses: Fetching metadata file path for company: Yandex-Audio
+10/20/2024 2:38:33 PM: Sucsses: MetadataFile path set to: 20241020143833483\6221117127129\6221117127129.xml
+10/20/2024 2:38:33 PM: Sucsses: Final PackageFolder path: 65\20241020143833483
+10/20/2024 2:38:33 PM: Sucsses: Final ResourcesFolder path: 65\20241020143833483\6221117127129\resources
+10/20/2024 2:38:33 PM: Sucsses: Retrieved folder paths for package: 65
+10/20/2024 2:38:33 PM: Starting GetCover...
+10/20/2024 2:38:34 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117127129.jpg
+10/20/2024 2:38:34 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117127129.jpg
+10/20/2024 2:38:34 PM: Sucsses: Created directory: C:\Pkg_Output\yandex-audio\65\20241020143833483\6221117127129\resources
+10/20/2024 2:38:34 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117127129.jpg
+10/20/2024 2:38:34 PM: Sucsses: Copied cover file to: C:\Pkg_Output\yandex-audio\65\20241020143833483\6221117127129\resources\6221117127129.jpg
+10/20/2024 2:38:34 PM: Start Getting Media For package info: 65
+10/20/2024 2:38:36 PM: Media data generated successfully.
+10/20/2024 2:38:36 PM: Error: generating XML for package: <input>(346,33) : error : Cannot get the member asset.country_iso_code_list_string for a null object.
+10/20/2024 2:39:14 PM: Starting XML generation for package ID: 65, Filename: Yandex_DDEX_XML_Template.xml, Company: Yandex-Audio
+10/20/2024 2:39:14 PM: Success: fetched package info for ID: 65
+10/20/2024 2:39:14 PM: Processing group with Album UPC: 6221117127129
+10/20/2024 2:39:14 PM: Starting GetFolderPaths...
+10/20/2024 2:39:14 PM: Fetching package folder for company: Yandex-Audio
+10/20/2024 2:39:14 PM: Sucsses: PackageFolder set to: 20241020143914920
+10/20/2024 2:39:14 PM: Sucsses: Fetching resources folder for company: Yandex-Audio
+10/20/2024 2:39:14 PM: Sucsses: ResourcesFolder set to: 20241020143914920\6221117127129\resources
+10/20/2024 2:39:14 PM: Sucsses: Fetching metadata file path for company: Yandex-Audio
+10/20/2024 2:39:14 PM: Sucsses: MetadataFile path set to: 20241020143914920\6221117127129\6221117127129.xml
+10/20/2024 2:39:14 PM: Sucsses: Final PackageFolder path: 65\20241020143914920
+10/20/2024 2:39:14 PM: Sucsses: Final ResourcesFolder path: 65\20241020143914920\6221117127129\resources
+10/20/2024 2:39:14 PM: Sucsses: Retrieved folder paths for package: 65
+10/20/2024 2:39:14 PM: Starting GetCover...
+10/20/2024 2:39:15 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117127129.jpg
+10/20/2024 2:39:15 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117127129.jpg
+10/20/2024 2:39:15 PM: Sucsses: Created directory: C:\Pkg_Output\yandex-audio\65\20241020143914920\6221117127129\resources
+10/20/2024 2:39:15 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117127129.jpg
+10/20/2024 2:39:15 PM: Sucsses: Copied cover file to: C:\Pkg_Output\yandex-audio\65\20241020143914920\6221117127129\resources\6221117127129.jpg
+10/20/2024 2:39:15 PM: Start Getting Media For package info: 65
+10/20/2024 2:39:17 PM: Media data generated successfully.
+10/20/2024 2:39:17 PM: Success: generated XML for package ID: 65
+10/20/2024 2:42:05 PM: Starting XML generation for package ID: 65, Filename: Yandex_DDEX_XML_Template.xml, Company: Yandex-Audio
+10/20/2024 2:42:05 PM: Success: fetched package info for ID: 65
+10/20/2024 2:42:05 PM: Processing group with Album UPC: 6221117127129
+10/20/2024 2:42:05 PM: Starting GetFolderPaths...
+10/20/2024 2:42:05 PM: Fetching package folder for company: Yandex-Audio
+10/20/2024 2:42:05 PM: Sucsses: PackageFolder set to: 20241020144205340
+10/20/2024 2:42:05 PM: Sucsses: Fetching resources folder for company: Yandex-Audio
+10/20/2024 2:42:05 PM: Sucsses: ResourcesFolder set to: 20241020144205340\6221117127129\resources
+10/20/2024 2:42:05 PM: Sucsses: Fetching metadata file path for company: Yandex-Audio
+10/20/2024 2:42:05 PM: Sucsses: MetadataFile path set to: 20241020144205340\6221117127129\6221117127129.xml
+10/20/2024 2:42:05 PM: Sucsses: Final PackageFolder path: 65\20241020144205340
+10/20/2024 2:42:05 PM: Sucsses: Final ResourcesFolder path: 65\20241020144205340\6221117127129\resources
+10/20/2024 2:42:05 PM: Sucsses: Retrieved folder paths for package: 65
+10/20/2024 2:42:05 PM: Starting GetCover...
+10/20/2024 2:42:06 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117127129.jpg
+10/20/2024 2:42:06 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117127129.jpg
+10/20/2024 2:42:06 PM: Sucsses: Created directory: C:\Pkg_Output\yandex-audio\65\20241020144205340\6221117127129\resources
+10/20/2024 2:42:06 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117127129.jpg
+10/20/2024 2:42:06 PM: Sucsses: Copied cover file to: C:\Pkg_Output\yandex-audio\65\20241020144205340\6221117127129\resources\6221117127129.jpg
+10/20/2024 2:42:06 PM: Start Getting Media For package info: 65
+10/20/2024 2:42:07 PM: Media data generated successfully.
+10/20/2024 2:42:08 PM: Success: generated XML for package ID: 65

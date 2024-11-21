@@ -1,0 +1,2169 @@
+11/13/2024 1:00:49 PM: Starting XML generation for package ID: 90, Filename: Tidal_XML_Template.xml, Company: Tidal
+11/13/2024 1:00:49 PM: Success: fetched package info for ID: 90
+11/13/2024 1:00:49 PM: Processing group with Album UPC: 6221117187253
+11/13/2024 1:00:49 PM: Starting GetFolderPaths...
+11/13/2024 1:00:49 PM: Fetching package folder for company: Tidal
+11/13/2024 1:00:49 PM: Sucsses: PackageFolder set to: 20241113130048817
+11/13/2024 1:00:49 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:00:49 PM: Sucsses: ResourcesFolder set to: 20241113130048817\6221117187253\resources
+11/13/2024 1:00:49 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:00:49 PM: Sucsses: MetadataFile path set to: 20241113130048817\6221117187253\6221117187253.xml
+11/13/2024 1:00:49 PM: Sucsses: Final PackageFolder path: 90\20241113130048817
+11/13/2024 1:00:49 PM: Sucsses: Final ResourcesFolder path: 90\20241113130048817\6221117187253\resources
+11/13/2024 1:00:49 PM: Sucsses: Retrieved folder paths for package: 90
+11/13/2024 1:00:49 PM: Starting GetCover...
+11/13/2024 1:00:50 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 1:00:50 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 1:00:50 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\90\20241113130048817\6221117187253\resources
+11/13/2024 1:00:50 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 1:00:50 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\90\20241113130048817\6221117187253\resources\6221117187253_T2.jpg
+11/13/2024 1:00:50 PM: Start Getting Media For package info: 90
+11/13/2024 1:00:53 PM: Media data generated successfully.
+11/13/2024 1:00:53 PM: Success: generated XML for package ID: 90
+11/13/2024 1:30:44 PM: Starting XML generation for package ID: 90, Filename: Tidal_XML_Template.xml, Company: Tidal
+11/13/2024 1:30:44 PM: Success: fetched package info for ID: 90
+11/13/2024 1:30:44 PM: Processing group with Album UPC: 6221117187253
+11/13/2024 1:30:44 PM: Starting GetFolderPaths...
+11/13/2024 1:30:44 PM: Fetching package folder for company: Tidal
+11/13/2024 1:30:44 PM: Sucsses: PackageFolder set to: 20241113133044079
+11/13/2024 1:30:44 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:30:44 PM: Sucsses: ResourcesFolder set to: 20241113133044079\6221117187253\resources
+11/13/2024 1:30:44 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:30:44 PM: Sucsses: MetadataFile path set to: 20241113133044079\6221117187253\6221117187253.xml
+11/13/2024 1:30:44 PM: Sucsses: Final PackageFolder path: 90\20241113133044079
+11/13/2024 1:30:44 PM: Sucsses: Final ResourcesFolder path: 90\20241113133044079\6221117187253\resources
+11/13/2024 1:30:44 PM: Sucsses: Retrieved folder paths for package: 90
+11/13/2024 1:30:44 PM: Starting GetCover...
+11/13/2024 1:30:44 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 1:30:44 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 1:30:44 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\90\20241113133044079\6221117187253\resources
+11/13/2024 1:30:44 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 1:30:44 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\90\20241113133044079\6221117187253\resources\6221117187253_T2.jpg
+11/13/2024 1:30:44 PM: Start Getting Media For package info: 90
+11/13/2024 1:30:47 PM: Media data generated successfully.
+11/13/2024 1:30:47 PM: Success: generated XML for package ID: 90
+11/13/2024 1:31:14 PM: Starting XML generation for package ID: 90, Filename: Tidal_XML_Template.xml, Company: Tidal
+11/13/2024 1:31:14 PM: Success: fetched package info for ID: 90
+11/13/2024 1:31:14 PM: Processing group with Album UPC: 6221117187253
+11/13/2024 1:31:14 PM: Starting GetFolderPaths...
+11/13/2024 1:31:14 PM: Sucsses: PackageFolder trimmed to: 20241113133044079
+11/13/2024 1:31:14 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:31:14 PM: Sucsses: ResourcesFolder set to: 20241113133044079\6221117187253\resources
+11/13/2024 1:31:14 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:31:14 PM: Sucsses: MetadataFile path set to: 20241113133044079\6221117187253\6221117187253.xml
+11/13/2024 1:31:14 PM: Sucsses: Final PackageFolder path: 90\20241113133044079
+11/13/2024 1:31:14 PM: Sucsses: Final ResourcesFolder path: 90\20241113133044079\6221117187253\resources
+11/13/2024 1:31:14 PM: Sucsses: Retrieved folder paths for package: 90
+11/13/2024 1:31:14 PM: Starting GetCover...
+11/13/2024 1:31:14 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 1:31:14 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 1:31:14 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 1:31:14 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\90\20241113133044079\6221117187253\resources\6221117187253_T2.jpg
+11/13/2024 1:31:14 PM: Start Getting Media For package info: 90
+11/13/2024 1:31:16 PM: Media data generated successfully.
+11/13/2024 1:31:16 PM: Success: generated XML for package ID: 90
+11/13/2024 1:33:48 PM: PKG ID IS : 40
+11/13/2024 1:33:48 PM: Using Excel template: D://Wageeh//Content Packages Generator//PkgGen//bin//Debug//Config//Templates//Vodafone.xltx
+11/13/2024 1:33:48 PM: Processing album UPC: 9681001015944
+11/13/2024 1:33:48 PM: Starting GetFolderPaths...
+11/13/2024 1:33:48 PM: Fetching package folder for company: Vodafone Egypt
+11/13/2024 1:33:48 PM: Sucsses: PackageFolder set to: 20241113133348
+11/13/2024 1:33:48 PM: Sucsses: Fetching resources folder for company: Vodafone Egypt
+11/13/2024 1:33:48 PM: Sucsses: ResourcesFolder set to: 20241113133348\2024-11-13
+11/13/2024 1:33:48 PM: Sucsses: Fetching metadata file path for company: Vodafone Egypt
+11/13/2024 1:33:48 PM: Sucsses: MetadataFile path set to: 20241113133348\2024-11-13.xlsx
+11/13/2024 1:33:48 PM: Sucsses: Final PackageFolder path: 40\20241113133348
+11/13/2024 1:33:48 PM: Sucsses: Final ResourcesFolder path: 40\20241113133348\2024-11-13
+11/13/2024 1:33:48 PM: Sucsses:Folder paths generated for album 9681001015944.
+11/13/2024 1:33:48 PM: Sucsses:Media path generated for ISRC: EGA019003541
+11/13/2024 1:33:49 PM: Sucsses: Filled data for column: Rights Body
+11/13/2024 1:33:49 PM: Sucsses: Filled data for column: Alias Promocode
+11/13/2024 1:33:49 PM: Sucsses: Filled data for column: Song Title
+11/13/2024 1:33:49 PM: Sucsses: Filled data for column: Actor
+11/13/2024 1:33:49 PM: Sucsses: Filled data for column: Singer
+11/13/2024 1:33:49 PM: Sucsses: Filled data for column: File Path
+11/13/2024 1:33:49 PM: Sucsses: Filled data for column: Language
+11/13/2024 1:33:49 PM: Sucsses: Filled data for column: Movie/Album
+11/13/2024 1:33:49 PM: Starting GetCover...
+11/13/2024 1:33:49 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:33:50 PM: Starting GetCover...
+11/13/2024 1:33:50 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:33:52 PM: Starting GetCover...
+11/13/2024 1:33:52 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:33:53 PM: Starting GetCover...
+11/13/2024 1:33:53 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:33:53 PM: PKG ID IS : 40
+11/13/2024 1:33:53 PM: Using Excel template: D://Wageeh//Content Packages Generator//PkgGen//bin//Debug//Config//Templates//Vodafone.xltx
+11/13/2024 1:33:53 PM: Processing album UPC: 9681001015944
+11/13/2024 1:33:53 PM: Starting GetFolderPaths...
+11/13/2024 1:33:53 PM: Fetching package folder for company: Vodafone Egypt
+11/13/2024 1:33:53 PM: Sucsses: PackageFolder set to: 20241113133348
+11/13/2024 1:33:53 PM: Sucsses: Fetching resources folder for company: Vodafone Egypt
+11/13/2024 1:33:53 PM: Sucsses: ResourcesFolder set to: 20241113133348\2024-11-13
+11/13/2024 1:33:53 PM: Sucsses: Fetching metadata file path for company: Vodafone Egypt
+11/13/2024 1:33:53 PM: Sucsses: MetadataFile path set to: 20241113133348\2024-11-13.xlsx
+11/13/2024 1:33:53 PM: Sucsses: Final PackageFolder path: 40\20241113133348
+11/13/2024 1:33:53 PM: Sucsses: Final ResourcesFolder path: 40\20241113133348\2024-11-13
+11/13/2024 1:33:53 PM: Sucsses:Folder paths generated for album 9681001015944.
+11/13/2024 1:33:53 PM: Sucsses:Media path generated for ISRC: EGA019003541
+11/13/2024 1:33:53 PM: Sucsses: Filled data for column: Rights Body
+11/13/2024 1:33:53 PM: Sucsses: Filled data for column: Alias Promocode
+11/13/2024 1:33:53 PM: Sucsses: Filled data for column: Song Title
+11/13/2024 1:33:53 PM: Sucsses: Filled data for column: Actor
+11/13/2024 1:33:53 PM: Sucsses: Filled data for column: Singer
+11/13/2024 1:33:53 PM: Sucsses: Filled data for column: File Path
+11/13/2024 1:33:53 PM: Sucsses: Filled data for column: Language
+11/13/2024 1:33:53 PM: Sucsses: Filled data for column: Movie/Album
+11/13/2024 1:33:53 PM: Starting GetCover...
+11/13/2024 1:33:53 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:33:56 PM: Starting GetCover...
+11/13/2024 1:33:56 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:33:56 PM: Starting GetCover...
+11/13/2024 1:33:56 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:33:58 PM: PKG ID IS : 40
+11/13/2024 1:33:58 PM: Using Excel template: D://Wageeh//Content Packages Generator//PkgGen//bin//Debug//Config//Templates//Vodafone.xltx
+11/13/2024 1:33:58 PM: Processing album UPC: 9681001015944
+11/13/2024 1:33:58 PM: Starting GetFolderPaths...
+11/13/2024 1:33:58 PM: Fetching package folder for company: Vodafone Egypt
+11/13/2024 1:33:58 PM: Sucsses: PackageFolder set to: 20241113133348
+11/13/2024 1:33:58 PM: Sucsses: Fetching resources folder for company: Vodafone Egypt
+11/13/2024 1:33:58 PM: Sucsses: ResourcesFolder set to: 20241113133348\2024-11-13
+11/13/2024 1:33:58 PM: Sucsses: Fetching metadata file path for company: Vodafone Egypt
+11/13/2024 1:33:58 PM: Sucsses: MetadataFile path set to: 20241113133348\2024-11-13.xlsx
+11/13/2024 1:33:58 PM: Sucsses: Final PackageFolder path: 40\20241113133348
+11/13/2024 1:33:58 PM: Sucsses: Final ResourcesFolder path: 40\20241113133348\2024-11-13
+11/13/2024 1:33:58 PM: Sucsses:Folder paths generated for album 9681001015944.
+11/13/2024 1:33:58 PM: Sucsses:Media path generated for ISRC: EGA019003541
+11/13/2024 1:33:58 PM: Sucsses: Filled data for column: Rights Body
+11/13/2024 1:33:58 PM: Sucsses: Filled data for column: Alias Promocode
+11/13/2024 1:33:58 PM: Sucsses: Filled data for column: Song Title
+11/13/2024 1:33:58 PM: Sucsses: Filled data for column: Actor
+11/13/2024 1:33:58 PM: Sucsses: Filled data for column: Singer
+11/13/2024 1:33:58 PM: Sucsses: Filled data for column: File Path
+11/13/2024 1:33:58 PM: Sucsses: Filled data for column: Language
+11/13/2024 1:33:58 PM: Sucsses: Filled data for column: Movie/Album
+11/13/2024 1:33:58 PM: Starting GetCover...
+11/13/2024 1:33:58 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:33:59 PM: Starting GetCover...
+11/13/2024 1:33:59 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:34:00 PM: Starting GetCover...
+11/13/2024 1:34:00 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:34:03 PM: Starting GetCover...
+11/13/2024 1:34:03 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:34:03 PM: PKG ID IS : 40
+11/13/2024 1:34:03 PM: Using Excel template: D://Wageeh//Content Packages Generator//PkgGen//bin//Debug//Config//Templates//Vodafone.xltx
+11/13/2024 1:34:03 PM: Processing album UPC: 9681001015944
+11/13/2024 1:34:03 PM: Starting GetFolderPaths...
+11/13/2024 1:34:03 PM: Fetching package folder for company: Vodafone Egypt
+11/13/2024 1:34:03 PM: Sucsses: PackageFolder set to: 20241113133348
+11/13/2024 1:34:03 PM: Sucsses: Fetching resources folder for company: Vodafone Egypt
+11/13/2024 1:34:03 PM: Sucsses: ResourcesFolder set to: 20241113133348\2024-11-13
+11/13/2024 1:34:03 PM: Sucsses: Fetching metadata file path for company: Vodafone Egypt
+11/13/2024 1:34:03 PM: Sucsses: MetadataFile path set to: 20241113133348\2024-11-13.xlsx
+11/13/2024 1:34:03 PM: Sucsses: Final PackageFolder path: 40\20241113133348
+11/13/2024 1:34:03 PM: Sucsses: Final ResourcesFolder path: 40\20241113133348\2024-11-13
+11/13/2024 1:34:03 PM: Sucsses:Folder paths generated for album 9681001015944.
+11/13/2024 1:34:03 PM: Sucsses:Media path generated for ISRC: EGA019003541
+11/13/2024 1:34:03 PM: Sucsses: Filled data for column: Rights Body
+11/13/2024 1:34:03 PM: Sucsses: Filled data for column: Alias Promocode
+11/13/2024 1:34:03 PM: Sucsses: Filled data for column: Song Title
+11/13/2024 1:34:03 PM: Sucsses: Filled data for column: Actor
+11/13/2024 1:34:03 PM: Sucsses: Filled data for column: Singer
+11/13/2024 1:34:03 PM: Sucsses: Filled data for column: File Path
+11/13/2024 1:34:03 PM: Sucsses: Filled data for column: Language
+11/13/2024 1:34:03 PM: Sucsses: Filled data for column: Movie/Album
+11/13/2024 1:34:03 PM: Starting GetCover...
+11/13/2024 1:34:03 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:34:04 PM: Starting GetCover...
+11/13/2024 1:34:04 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:34:05 PM: Starting GetCover...
+11/13/2024 1:34:05 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:34:08 PM: PKG ID IS : 40
+11/13/2024 1:34:08 PM: Using Excel template: D://Wageeh//Content Packages Generator//PkgGen//bin//Debug//Config//Templates//Vodafone.xltx
+11/13/2024 1:34:08 PM: Processing album UPC: 9681001015944
+11/13/2024 1:34:08 PM: Starting GetFolderPaths...
+11/13/2024 1:34:08 PM: Fetching package folder for company: Vodafone Egypt
+11/13/2024 1:34:08 PM: Sucsses: PackageFolder set to: 20241113133348
+11/13/2024 1:34:08 PM: Sucsses: Fetching resources folder for company: Vodafone Egypt
+11/13/2024 1:34:08 PM: Sucsses: ResourcesFolder set to: 20241113133348\2024-11-13
+11/13/2024 1:34:08 PM: Sucsses: Fetching metadata file path for company: Vodafone Egypt
+11/13/2024 1:34:08 PM: Sucsses: MetadataFile path set to: 20241113133348\2024-11-13.xlsx
+11/13/2024 1:34:08 PM: Sucsses: Final PackageFolder path: 40\20241113133348
+11/13/2024 1:34:08 PM: Sucsses: Final ResourcesFolder path: 40\20241113133348\2024-11-13
+11/13/2024 1:34:08 PM: Sucsses:Folder paths generated for album 9681001015944.
+11/13/2024 1:34:08 PM: Sucsses:Media path generated for ISRC: EGA019003541
+11/13/2024 1:34:08 PM: Sucsses: Filled data for column: Rights Body
+11/13/2024 1:34:08 PM: Sucsses: Filled data for column: Alias Promocode
+11/13/2024 1:34:08 PM: Sucsses: Filled data for column: Song Title
+11/13/2024 1:34:08 PM: Sucsses: Filled data for column: Actor
+11/13/2024 1:34:08 PM: Sucsses: Filled data for column: Singer
+11/13/2024 1:34:08 PM: Sucsses: Filled data for column: File Path
+11/13/2024 1:34:08 PM: Sucsses: Filled data for column: Language
+11/13/2024 1:34:08 PM: Sucsses: Filled data for column: Movie/Album
+11/13/2024 1:34:08 PM: Starting GetCover...
+11/13/2024 1:34:08 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:34:08 PM: Starting GetCover...
+11/13/2024 1:34:08 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:34:10 PM: Starting GetCover...
+11/13/2024 1:34:10 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:34:10 PM: Starting GetCover...
+11/13/2024 1:34:10 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:34:12 PM: Starting GetCover...
+11/13/2024 1:34:12 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:34:13 PM: PKG ID IS : 40
+11/13/2024 1:34:13 PM: Using Excel template: D://Wageeh//Content Packages Generator//PkgGen//bin//Debug//Config//Templates//Vodafone.xltx
+11/13/2024 1:34:13 PM: Processing album UPC: 9681001015944
+11/13/2024 1:34:13 PM: Starting GetFolderPaths...
+11/13/2024 1:34:13 PM: Fetching package folder for company: Vodafone Egypt
+11/13/2024 1:34:13 PM: Sucsses: PackageFolder set to: 20241113133348
+11/13/2024 1:34:13 PM: Sucsses: Fetching resources folder for company: Vodafone Egypt
+11/13/2024 1:34:13 PM: Sucsses: ResourcesFolder set to: 20241113133348\2024-11-13
+11/13/2024 1:34:13 PM: Sucsses: Fetching metadata file path for company: Vodafone Egypt
+11/13/2024 1:34:13 PM: Sucsses: MetadataFile path set to: 20241113133348\2024-11-13.xlsx
+11/13/2024 1:34:13 PM: Sucsses: Final PackageFolder path: 40\20241113133348
+11/13/2024 1:34:13 PM: Sucsses: Final ResourcesFolder path: 40\20241113133348\2024-11-13
+11/13/2024 1:34:13 PM: Sucsses:Folder paths generated for album 9681001015944.
+11/13/2024 1:34:13 PM: Sucsses:Media path generated for ISRC: EGA019003541
+11/13/2024 1:34:13 PM: Sucsses: Filled data for column: Rights Body
+11/13/2024 1:34:13 PM: Sucsses: Filled data for column: Alias Promocode
+11/13/2024 1:34:13 PM: Sucsses: Filled data for column: Song Title
+11/13/2024 1:34:13 PM: Sucsses: Filled data for column: Actor
+11/13/2024 1:34:13 PM: Sucsses: Filled data for column: Singer
+11/13/2024 1:34:13 PM: Sucsses: Filled data for column: File Path
+11/13/2024 1:34:13 PM: Sucsses: Filled data for column: Language
+11/13/2024 1:34:13 PM: Sucsses: Filled data for column: Movie/Album
+11/13/2024 1:34:13 PM: Starting GetCover...
+11/13/2024 1:34:13 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:34:17 PM: Starting GetCover...
+11/13/2024 1:34:17 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:34:17 PM: Starting GetCover...
+11/13/2024 1:34:17 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:34:18 PM: PKG ID IS : 40
+11/13/2024 1:34:18 PM: Using Excel template: D://Wageeh//Content Packages Generator//PkgGen//bin//Debug//Config//Templates//Vodafone.xltx
+11/13/2024 1:34:18 PM: Processing album UPC: 9681001015944
+11/13/2024 1:34:18 PM: Starting GetFolderPaths...
+11/13/2024 1:34:18 PM: Fetching package folder for company: Vodafone Egypt
+11/13/2024 1:34:18 PM: Sucsses: PackageFolder set to: 20241113133348
+11/13/2024 1:34:18 PM: Sucsses: Fetching resources folder for company: Vodafone Egypt
+11/13/2024 1:34:18 PM: Sucsses: ResourcesFolder set to: 20241113133348\2024-11-13
+11/13/2024 1:34:18 PM: Sucsses: Fetching metadata file path for company: Vodafone Egypt
+11/13/2024 1:34:18 PM: Sucsses: MetadataFile path set to: 20241113133348\2024-11-13.xlsx
+11/13/2024 1:34:18 PM: Sucsses: Final PackageFolder path: 40\20241113133348
+11/13/2024 1:34:18 PM: Sucsses: Final ResourcesFolder path: 40\20241113133348\2024-11-13
+11/13/2024 1:34:18 PM: Sucsses:Folder paths generated for album 9681001015944.
+11/13/2024 1:34:18 PM: Starting GetCover...
+11/13/2024 1:34:18 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:34:18 PM: Sucsses:Media path generated for ISRC: EGA019003541
+11/13/2024 1:34:18 PM: Sucsses: Filled data for column: Rights Body
+11/13/2024 1:34:18 PM: Sucsses: Filled data for column: Alias Promocode
+11/13/2024 1:34:18 PM: Sucsses: Filled data for column: Song Title
+11/13/2024 1:34:18 PM: Sucsses: Filled data for column: Actor
+11/13/2024 1:34:18 PM: Sucsses: Filled data for column: Singer
+11/13/2024 1:34:18 PM: Sucsses: Filled data for column: File Path
+11/13/2024 1:34:18 PM: Sucsses: Filled data for column: Language
+11/13/2024 1:34:18 PM: Sucsses: Filled data for column: Movie/Album
+11/13/2024 1:34:18 PM: Starting GetCover...
+11/13/2024 1:34:18 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:34:19 PM: Starting GetCover...
+11/13/2024 1:34:19 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:34:21 PM: Starting GetCover...
+11/13/2024 1:34:21 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:34:23 PM: Starting GetCover...
+11/13/2024 1:34:23 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:34:23 PM: PKG ID IS : 40
+11/13/2024 1:34:23 PM: Using Excel template: D://Wageeh//Content Packages Generator//PkgGen//bin//Debug//Config//Templates//Vodafone.xltx
+11/13/2024 1:34:23 PM: Processing album UPC: 9681001015944
+11/13/2024 1:34:23 PM: Starting GetFolderPaths...
+11/13/2024 1:34:23 PM: Fetching package folder for company: Vodafone Egypt
+11/13/2024 1:34:23 PM: Sucsses: PackageFolder set to: 20241113133348
+11/13/2024 1:34:23 PM: Sucsses: Fetching resources folder for company: Vodafone Egypt
+11/13/2024 1:34:23 PM: Sucsses: ResourcesFolder set to: 20241113133348\2024-11-13
+11/13/2024 1:34:23 PM: Sucsses: Fetching metadata file path for company: Vodafone Egypt
+11/13/2024 1:34:23 PM: Sucsses: MetadataFile path set to: 20241113133348\2024-11-13.xlsx
+11/13/2024 1:34:23 PM: Sucsses: Final PackageFolder path: 40\20241113133348
+11/13/2024 1:34:23 PM: Sucsses: Final ResourcesFolder path: 40\20241113133348\2024-11-13
+11/13/2024 1:34:23 PM: Sucsses:Folder paths generated for album 9681001015944.
+11/13/2024 1:34:23 PM: Sucsses:Media path generated for ISRC: EGA019003541
+11/13/2024 1:34:23 PM: Sucsses: Filled data for column: Rights Body
+11/13/2024 1:34:23 PM: Sucsses: Filled data for column: Alias Promocode
+11/13/2024 1:34:23 PM: Sucsses: Filled data for column: Song Title
+11/13/2024 1:34:23 PM: Sucsses: Filled data for column: Actor
+11/13/2024 1:34:23 PM: Sucsses: Filled data for column: Singer
+11/13/2024 1:34:23 PM: Sucsses: Filled data for column: File Path
+11/13/2024 1:34:23 PM: Sucsses: Filled data for column: Language
+11/13/2024 1:34:23 PM: Sucsses: Filled data for column: Movie/Album
+11/13/2024 1:34:23 PM: Starting GetCover...
+11/13/2024 1:34:23 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:34:27 PM: Starting GetCover...
+11/13/2024 1:34:27 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:34:28 PM: Starting GetCover...
+11/13/2024 1:34:28 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:34:28 PM: PKG ID IS : 40
+11/13/2024 1:34:28 PM: Using Excel template: D://Wageeh//Content Packages Generator//PkgGen//bin//Debug//Config//Templates//Vodafone.xltx
+11/13/2024 1:34:28 PM: Processing album UPC: 9681001015944
+11/13/2024 1:34:28 PM: Starting GetFolderPaths...
+11/13/2024 1:34:28 PM: Fetching package folder for company: Vodafone Egypt
+11/13/2024 1:34:28 PM: Sucsses: PackageFolder set to: 20241113133348
+11/13/2024 1:34:28 PM: Sucsses: Fetching resources folder for company: Vodafone Egypt
+11/13/2024 1:34:28 PM: Sucsses: ResourcesFolder set to: 20241113133348\2024-11-13
+11/13/2024 1:34:28 PM: Sucsses: Fetching metadata file path for company: Vodafone Egypt
+11/13/2024 1:34:28 PM: Sucsses: MetadataFile path set to: 20241113133348\2024-11-13.xlsx
+11/13/2024 1:34:28 PM: Sucsses: Final PackageFolder path: 40\20241113133348
+11/13/2024 1:34:28 PM: Sucsses: Final ResourcesFolder path: 40\20241113133348\2024-11-13
+11/13/2024 1:34:28 PM: Sucsses:Folder paths generated for album 9681001015944.
+11/13/2024 1:34:28 PM: Sucsses:Media path generated for ISRC: EGA019003541
+11/13/2024 1:34:28 PM: Sucsses: Filled data for column: Rights Body
+11/13/2024 1:34:28 PM: Sucsses: Filled data for column: Alias Promocode
+11/13/2024 1:34:28 PM: Sucsses: Filled data for column: Song Title
+11/13/2024 1:34:28 PM: Sucsses: Filled data for column: Actor
+11/13/2024 1:34:28 PM: Sucsses: Filled data for column: Singer
+11/13/2024 1:34:28 PM: Sucsses: Filled data for column: File Path
+11/13/2024 1:34:28 PM: Sucsses: Filled data for column: Language
+11/13/2024 1:34:28 PM: Sucsses: Filled data for column: Movie/Album
+11/13/2024 1:34:28 PM: Starting GetCover...
+11/13/2024 1:34:28 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:34:29 PM: Starting GetCover...
+11/13/2024 1:34:29 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:34:30 PM: Starting GetCover...
+11/13/2024 1:34:30 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:34:30 PM: Sucsses: Media data generated successfully.
+11/13/2024 1:34:30 PM: Sucsses: Excel file saved to: C://Pkg_Output\Vodafone Egypt\40\20241113133348\2024-11-13.xlsx
+11/13/2024 1:34:30 PM: Sucsses: GenerateExcel completed for Package ID: 40
+11/13/2024 1:34:30 PM: Sucsses: Filled data for column: Song Title (AR)
+11/13/2024 1:34:30 PM: Sucsses: Filled data for column: Song Title
+11/13/2024 1:34:30 PM: Sucsses: Filled data for column: Language
+11/13/2024 1:34:30 PM: Sucsses: Filled data for column: Movie/Album
+11/13/2024 1:34:30 PM: Sucsses: Excel file saved to: C://Pkg_Output\Vodafone Egypt\40\20241113133348\2024-11-13.xlsx
+11/13/2024 1:34:30 PM: Sucsses: GenerateExcel completed for Package ID: 40
+11/13/2024 1:34:30 PM: Starting XML generation for package ID: 52, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+11/13/2024 1:34:30 PM: Success: fetched package info for ID: 52
+11/13/2024 1:34:30 PM: Processing group with Album UPC: 6221117002648
+11/13/2024 1:34:30 PM: Starting GetFolderPaths...
+11/13/2024 1:34:30 PM: Sucsses: PackageFolder trimmed to: 20241113133348
+11/13/2024 1:34:30 PM: Sucsses: Fetching resources folder for company: Spotify
+11/13/2024 1:34:30 PM: Sucsses: ResourcesFolder set to: 20241113133348\6221117002648\resources
+11/13/2024 1:34:30 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/13/2024 1:34:30 PM: Sucsses: MetadataFile path set to: 20241113133348\6221117002648\6221117002648.xml
+11/13/2024 1:34:30 PM: Sucsses: Final PackageFolder path: 52\20241113133348
+11/13/2024 1:34:30 PM: Sucsses: Final ResourcesFolder path: 52\20241113133348\6221117002648\resources
+11/13/2024 1:34:30 PM: Sucsses: Retrieved folder paths for package: 52
+11/13/2024 1:34:30 PM: Starting GetCover...
+11/13/2024 1:34:32 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117002648.jpg
+11/13/2024 1:34:32 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117002648.jpg
+11/13/2024 1:34:32 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\52\20241113133348\6221117002648\resources
+11/13/2024 1:34:32 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117002648.jpg
+11/13/2024 1:34:32 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\52\20241113133348\6221117002648\resources\6221117002648.jpg
+11/13/2024 1:34:32 PM: Start Getting Media For package info: 52
+11/13/2024 1:34:33 PM: Starting XML generation for package ID: 52, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+11/13/2024 1:34:33 PM: Success: fetched package info for ID: 52
+11/13/2024 1:34:33 PM: Processing group with Album UPC: 6221117002648
+11/13/2024 1:34:33 PM: Starting GetFolderPaths...
+11/13/2024 1:34:33 PM: Sucsses: PackageFolder trimmed to: 20241113133348
+11/13/2024 1:34:33 PM: Sucsses: Fetching resources folder for company: Spotify
+11/13/2024 1:34:33 PM: Sucsses: ResourcesFolder set to: 20241113133348\6221117002648\resources
+11/13/2024 1:34:33 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/13/2024 1:34:33 PM: Sucsses: MetadataFile path set to: 20241113133348\6221117002648\6221117002648.xml
+11/13/2024 1:34:33 PM: Sucsses: Final PackageFolder path: 52\20241113133348
+11/13/2024 1:34:33 PM: Sucsses: Final ResourcesFolder path: 52\20241113133348\6221117002648\resources
+11/13/2024 1:34:33 PM: Sucsses: Retrieved folder paths for package: 52
+11/13/2024 1:34:33 PM: Starting GetCover...
+11/13/2024 1:34:35 PM: Media data generated successfully.
+11/13/2024 1:34:35 PM: Success: generated XML for package ID: 52
+11/13/2024 1:34:35 PM: Processing group with Album UPC: 6221117005168
+11/13/2024 1:34:35 PM: Starting GetFolderPaths...
+11/13/2024 1:34:35 PM: Sucsses: PackageFolder trimmed to: 20241113133348
+11/13/2024 1:34:35 PM: Sucsses: Fetching resources folder for company: Spotify
+11/13/2024 1:34:35 PM: Sucsses: ResourcesFolder set to: 20241113133348\6221117005168\resources
+11/13/2024 1:34:35 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/13/2024 1:34:35 PM: Sucsses: MetadataFile path set to: 20241113133348\6221117005168\6221117005168.xml
+11/13/2024 1:34:35 PM: Sucsses: Final PackageFolder path: 52\20241113133348
+11/13/2024 1:34:35 PM: Sucsses: Final ResourcesFolder path: 52\20241113133348\6221117005168\resources
+11/13/2024 1:34:35 PM: Sucsses: Retrieved folder paths for package: 52
+11/13/2024 1:34:35 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117002648.jpg
+11/13/2024 1:34:35 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117002648.jpg
+11/13/2024 1:34:35 PM: Starting GetCover...
+11/13/2024 1:34:35 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117002648.jpg
+11/13/2024 1:34:35 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\52\20241113133348\6221117002648\resources\6221117002648.jpg
+11/13/2024 1:34:35 PM: Start Getting Media For package info: 52
+11/13/2024 1:34:36 PM: Starting GetCover...
+11/13/2024 1:34:36 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:34:37 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117005168.jpg
+11/13/2024 1:34:37 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117005168.jpg
+11/13/2024 1:34:37 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\52\20241113133348\6221117005168\resources
+11/13/2024 1:34:37 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117005168.jpg
+11/13/2024 1:34:37 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\52\20241113133348\6221117005168\resources\6221117005168.jpg
+11/13/2024 1:34:37 PM: Start Getting Media For package info: 52
+11/13/2024 1:34:38 PM: Starting XML generation for package ID: 69, Filename: Yandex_DDEX_XML_Template.xml, Company: Yandex-Audio
+11/13/2024 1:34:38 PM: Success: fetched package info for ID: 69
+11/13/2024 1:34:38 PM: Processing group with Album UPC: 6221117109309
+11/13/2024 1:34:38 PM: Starting GetFolderPaths...
+11/13/2024 1:34:38 PM: Sucsses: PackageFolder trimmed to: 20241113133348
+11/13/2024 1:34:38 PM: Sucsses: Fetching resources folder for company: Yandex-Audio
+11/13/2024 1:34:38 PM: Sucsses: ResourcesFolder set to: 20241113133348\6221117109309\resources
+11/13/2024 1:34:38 PM: Sucsses: Fetching metadata file path for company: Yandex-Audio
+11/13/2024 1:34:38 PM: Sucsses: MetadataFile path set to: 20241113133348\6221117109309\6221117109309.xml
+11/13/2024 1:34:38 PM: Sucsses: Final PackageFolder path: 69\20241113133348
+11/13/2024 1:34:38 PM: Sucsses: Final ResourcesFolder path: 69\20241113133348\6221117109309\resources
+11/13/2024 1:34:38 PM: Sucsses: Retrieved folder paths for package: 69
+11/13/2024 1:34:38 PM: Starting GetCover...
+11/13/2024 1:34:39 PM: Starting GetCover...
+11/13/2024 1:34:39 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:34:40 PM: Starting GetCover...
+11/13/2024 1:34:40 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:34:40 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117109309.jpg
+11/13/2024 1:34:40 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117109309.jpg
+11/13/2024 1:34:40 PM: Sucsses: Created directory: C:\Pkg_Output\yandex-audio\@[ResourcesFolder]@
+11/13/2024 1:34:40 PM: Media data generated successfully.
+11/13/2024 1:34:40 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117109309.jpg
+11/13/2024 1:34:40 PM: Error: generating XML for package: Could not find a part of the path C:\Pkg_Output\Spotify\52\20241113133348\6221117109309\6221117109309.xml.
+11/13/2024 1:34:41 PM: Sucsses: Copied cover file to: C:\Pkg_Output\yandex-audio\@[ResourcesFolder]@\@[ALBUM_UPC]@.jpg
+11/13/2024 1:34:41 PM: Start Getting Media For package info: 69
+11/13/2024 1:34:41 PM: Critical error: Object reference not set to an instance of an object.
+11/13/2024 1:37:01 PM: Starting XML generation for package ID: 69, Filename: Yandex_DDEX_XML_Template.xml, Company: Yandex-Audio
+11/13/2024 1:37:01 PM: Success: fetched package info for ID: 69
+11/13/2024 1:37:01 PM: Processing group with Album UPC: 6221117109309
+11/13/2024 1:37:01 PM: Starting GetFolderPaths...
+11/13/2024 1:37:01 PM: Fetching package folder for company: Yandex-Audio
+11/13/2024 1:37:01 PM: Sucsses: PackageFolder set to: 20241113133701186
+11/13/2024 1:37:01 PM: Sucsses: Fetching resources folder for company: Yandex-Audio
+11/13/2024 1:37:01 PM: Sucsses: ResourcesFolder set to: 20241113133701186\6221117109309\resources
+11/13/2024 1:37:01 PM: Sucsses: Fetching metadata file path for company: Yandex-Audio
+11/13/2024 1:37:01 PM: Sucsses: MetadataFile path set to: 20241113133701186\6221117109309\6221117109309.xml
+11/13/2024 1:37:01 PM: Sucsses: Final PackageFolder path: 69\20241113133701186
+11/13/2024 1:37:01 PM: Sucsses: Final ResourcesFolder path: 69\20241113133701186\6221117109309\resources
+11/13/2024 1:37:01 PM: Sucsses: Retrieved folder paths for package: 69
+11/13/2024 1:37:01 PM: Starting GetCover...
+11/13/2024 1:37:02 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117109309.jpg
+11/13/2024 1:37:02 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117109309.jpg
+11/13/2024 1:37:02 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117109309.jpg
+11/13/2024 1:37:02 PM: Sucsses: Copied cover file to: C:\Pkg_Output\yandex-audio\@[ResourcesFolder]@\@[ALBUM_UPC]@.jpg
+11/13/2024 1:37:02 PM: Start Getting Media For package info: 69
+11/13/2024 1:37:03 PM: Media data generated successfully.
+11/13/2024 1:37:03 PM: Error: generating XML for package: Could not find a part of the path C:\Pkg_Output\Yandex-Audio\69\20241113133701186\6221117109309\6221117109309.xml.
+11/13/2024 1:37:03 PM: Critical error: Could not find a part of the path C:\Pkg_Output\Yandex-Audio\69\20241113133701186\BatchComplete_20241113133701186.xml.
+11/13/2024 1:37:17 PM: PKG ID IS : 40
+11/13/2024 1:37:17 PM: Using Excel template: D://Wageeh//Content Packages Generator//PkgGen//bin//Debug//Config//Templates//Vodafone.xltx
+11/13/2024 1:37:17 PM: Processing album UPC: 9681001015944
+11/13/2024 1:37:17 PM: Starting GetFolderPaths...
+11/13/2024 1:37:17 PM: Fetching package folder for company: Vodafone Egypt
+11/13/2024 1:37:17 PM: Sucsses: PackageFolder set to: 20241113133717
+11/13/2024 1:37:17 PM: Sucsses: Fetching resources folder for company: Vodafone Egypt
+11/13/2024 1:37:17 PM: Sucsses: ResourcesFolder set to: 20241113133717\2024-11-13
+11/13/2024 1:37:17 PM: Sucsses: Fetching metadata file path for company: Vodafone Egypt
+11/13/2024 1:37:17 PM: Sucsses: MetadataFile path set to: 20241113133717\2024-11-13.xlsx
+11/13/2024 1:37:17 PM: Sucsses: Final PackageFolder path: 40\20241113133717
+11/13/2024 1:37:17 PM: Sucsses: Final ResourcesFolder path: 40\20241113133717\2024-11-13
+11/13/2024 1:37:17 PM: Sucsses:Folder paths generated for album 9681001015944.
+11/13/2024 1:37:17 PM: Sucsses:Media path generated for ISRC: EGA019003541
+11/13/2024 1:37:17 PM: Sucsses: Filled data for column: Rights Body
+11/13/2024 1:37:17 PM: Sucsses: Filled data for column: Alias Promocode
+11/13/2024 1:37:17 PM: Sucsses: Filled data for column: Song Title
+11/13/2024 1:37:17 PM: Sucsses: Filled data for column: Actor
+11/13/2024 1:37:17 PM: Sucsses: Filled data for column: Singer
+11/13/2024 1:37:17 PM: Sucsses: Filled data for column: File Path
+11/13/2024 1:37:17 PM: Sucsses: Filled data for column: Language
+11/13/2024 1:37:17 PM: Sucsses: Filled data for column: Movie/Album
+11/13/2024 1:37:17 PM: Starting GetCover...
+11/13/2024 1:37:17 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:37:18 PM: Starting GetCover...
+11/13/2024 1:37:18 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:37:19 PM: Starting GetCover...
+11/13/2024 1:37:19 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:37:20 PM: Starting GetCover...
+11/13/2024 1:37:20 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:37:21 PM: Starting GetCover...
+11/13/2024 1:37:21 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:37:22 PM: Starting GetCover...
+11/13/2024 1:37:22 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:37:23 PM: Starting GetCover...
+11/13/2024 1:37:23 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:37:24 PM: Starting GetCover...
+11/13/2024 1:37:24 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:37:25 PM: Starting GetCover...
+11/13/2024 1:37:25 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:37:27 PM: Sucsses: Media data generated successfully.
+11/13/2024 1:37:27 PM: Sucsses: Excel file saved to: C://Pkg_Output\Vodafone Egypt\40\20241113133717\2024-11-13.xlsx
+11/13/2024 1:37:27 PM: Sucsses: GenerateExcel completed for Package ID: 40
+11/13/2024 1:37:27 PM: Sucsses: Filled data for column: Song Title (AR)
+11/13/2024 1:37:27 PM: Sucsses: Filled data for column: Song Title
+11/13/2024 1:37:27 PM: Sucsses: Filled data for column: Language
+11/13/2024 1:37:27 PM: Sucsses: Filled data for column: Movie/Album
+11/13/2024 1:37:27 PM: Sucsses: Excel file saved to: C://Pkg_Output\Vodafone Egypt\40\20241113133717\2024-11-13.xlsx
+11/13/2024 1:37:27 PM: Sucsses: GenerateExcel completed for Package ID: 40
+11/13/2024 1:37:27 PM: Starting XML generation for package ID: 52, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+11/13/2024 1:37:27 PM: Success: fetched package info for ID: 52
+11/13/2024 1:37:27 PM: Processing group with Album UPC: 6221117002648
+11/13/2024 1:37:27 PM: Starting GetFolderPaths...
+11/13/2024 1:37:27 PM: Sucsses: PackageFolder trimmed to: 20241113133717
+11/13/2024 1:37:27 PM: Sucsses: Fetching resources folder for company: Spotify
+11/13/2024 1:37:27 PM: Sucsses: ResourcesFolder set to: 20241113133717\6221117002648\resources
+11/13/2024 1:37:27 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/13/2024 1:37:27 PM: Sucsses: MetadataFile path set to: 20241113133717\6221117002648\6221117002648.xml
+11/13/2024 1:37:27 PM: Sucsses: Final PackageFolder path: 52\20241113133717
+11/13/2024 1:37:27 PM: Sucsses: Final ResourcesFolder path: 52\20241113133717\6221117002648\resources
+11/13/2024 1:37:27 PM: Sucsses: Retrieved folder paths for package: 52
+11/13/2024 1:37:27 PM: Starting GetCover...
+11/13/2024 1:37:27 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117002648.jpg
+11/13/2024 1:37:27 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117002648.jpg
+11/13/2024 1:37:27 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\52\20241113133717\6221117002648\resources
+11/13/2024 1:37:27 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117002648.jpg
+11/13/2024 1:37:27 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\52\20241113133717\6221117002648\resources\6221117002648.jpg
+11/13/2024 1:37:27 PM: Start Getting Media For package info: 52
+11/13/2024 1:37:29 PM: Media data generated successfully.
+11/13/2024 1:37:29 PM: Success: generated XML for package ID: 52
+11/13/2024 1:37:29 PM: Processing group with Album UPC: 6221117005168
+11/13/2024 1:37:29 PM: Starting GetFolderPaths...
+11/13/2024 1:37:29 PM: Sucsses: PackageFolder trimmed to: 20241113133717
+11/13/2024 1:37:29 PM: Sucsses: Fetching resources folder for company: Spotify
+11/13/2024 1:37:29 PM: Sucsses: ResourcesFolder set to: 20241113133717\6221117005168\resources
+11/13/2024 1:37:29 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/13/2024 1:37:29 PM: Sucsses: MetadataFile path set to: 20241113133717\6221117005168\6221117005168.xml
+11/13/2024 1:37:29 PM: Sucsses: Final PackageFolder path: 52\20241113133717
+11/13/2024 1:37:29 PM: Sucsses: Final ResourcesFolder path: 52\20241113133717\6221117005168\resources
+11/13/2024 1:37:29 PM: Sucsses: Retrieved folder paths for package: 52
+11/13/2024 1:37:29 PM: Starting GetCover...
+11/13/2024 1:37:29 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117005168.jpg
+11/13/2024 1:37:29 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117005168.jpg
+11/13/2024 1:37:29 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\52\20241113133717\6221117005168\resources
+11/13/2024 1:37:29 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117005168.jpg
+11/13/2024 1:37:29 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\52\20241113133717\6221117005168\resources\6221117005168.jpg
+11/13/2024 1:37:29 PM: Start Getting Media For package info: 52
+11/13/2024 1:37:31 PM: Media data generated successfully.
+11/13/2024 1:37:31 PM: Success: generated XML for package ID: 52
+11/13/2024 1:37:31 PM: Starting XML generation for package ID: 69, Filename: Yandex_DDEX_XML_Template.xml, Company: Yandex-Audio
+11/13/2024 1:37:31 PM: Success: fetched package info for ID: 69
+11/13/2024 1:37:31 PM: Processing group with Album UPC: 6221117109309
+11/13/2024 1:37:31 PM: Starting GetFolderPaths...
+11/13/2024 1:37:31 PM: Sucsses: PackageFolder trimmed to: 20241113133717
+11/13/2024 1:37:31 PM: Sucsses: Fetching resources folder for company: Yandex-Audio
+11/13/2024 1:37:31 PM: Sucsses: ResourcesFolder set to: 20241113133717\6221117109309\resources
+11/13/2024 1:37:31 PM: Sucsses: Fetching metadata file path for company: Yandex-Audio
+11/13/2024 1:37:31 PM: Sucsses: MetadataFile path set to: 20241113133717\6221117109309\6221117109309.xml
+11/13/2024 1:37:31 PM: Sucsses: Final PackageFolder path: 69\20241113133717
+11/13/2024 1:37:31 PM: Sucsses: Final ResourcesFolder path: 69\20241113133717\6221117109309\resources
+11/13/2024 1:37:31 PM: Sucsses: Retrieved folder paths for package: 69
+11/13/2024 1:37:31 PM: Starting GetCover...
+11/13/2024 1:37:32 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117109309.jpg
+11/13/2024 1:37:32 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117109309.jpg
+11/13/2024 1:37:32 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117109309.jpg
+11/13/2024 1:37:32 PM: Sucsses: Copied cover file to: C:\Pkg_Output\yandex-audio\@[ResourcesFolder]@\@[ALBUM_UPC]@.jpg
+11/13/2024 1:37:32 PM: Start Getting Media For package info: 69
+11/13/2024 1:37:33 PM: Media data generated successfully.
+11/13/2024 1:37:33 PM: Error: generating XML for package: Could not find a part of the path C:\Pkg_Output\Yandex-Audio\69\20241113133717\6221117109309\6221117109309.xml.
+11/13/2024 1:37:33 PM: Critical error: Could not find a part of the path C:\Pkg_Output\Yandex-Audio\69\20241113133717\BatchComplete_20241113133717322.xml.
+11/13/2024 1:37:56 PM: Starting XML generation for package ID: 72, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+11/13/2024 1:37:56 PM: Success: fetched package info for ID: 72
+11/13/2024 1:37:56 PM: Processing group with Album UPC: 9681001016125
+11/13/2024 1:37:56 PM: Starting GetFolderPaths...
+11/13/2024 1:37:56 PM: Fetching package folder for company: Facebook-Audio
+11/13/2024 1:37:56 PM: Sucsses: PackageFolder set to: 20241113133756200
+11/13/2024 1:37:56 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+11/13/2024 1:37:56 PM: Sucsses: ResourcesFolder set to: 20241113133756200\9681001016125\resources
+11/13/2024 1:37:56 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+11/13/2024 1:37:56 PM: Sucsses: MetadataFile path set to: 20241113133756200\9681001016125\9681001016125.xml
+11/13/2024 1:37:56 PM: Sucsses: Final PackageFolder path: 72\20241113133756200
+11/13/2024 1:37:56 PM: Sucsses: Final ResourcesFolder path: 72\20241113133756200\9681001016125\resources
+11/13/2024 1:37:56 PM: Sucsses: Retrieved folder paths for package: 72
+11/13/2024 1:37:56 PM: Starting GetCover...
+11/13/2024 1:37:56 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016125.jpg
+11/13/2024 1:37:56 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016125.jpg
+11/13/2024 1:37:56 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\72\20241113133756200\9681001016125\resources
+11/13/2024 1:37:57 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016125.jpg
+11/13/2024 1:37:57 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\72\20241113133756200\9681001016125\resources\9681001016125.jpg
+11/13/2024 1:37:57 PM: Start Getting Media For package info: 72
+11/13/2024 1:37:58 PM: Media data generated successfully.
+11/13/2024 1:37:58 PM: Success: generated XML for package ID: 72
+11/13/2024 1:37:58 PM: Starting XML generation for package ID: 74, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+11/13/2024 1:37:58 PM: Success: fetched package info for ID: 74
+11/13/2024 1:37:58 PM: Processing group with Album UPC: 9681001001978
+11/13/2024 1:37:58 PM: Starting GetFolderPaths...
+11/13/2024 1:37:58 PM: Sucsses: PackageFolder trimmed to: 20241113133756200
+11/13/2024 1:37:58 PM: Sucsses: Fetching resources folder for company: Spotify
+11/13/2024 1:37:58 PM: Sucsses: ResourcesFolder set to: 20241113133756200\9681001001978\resources
+11/13/2024 1:37:58 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/13/2024 1:37:58 PM: Sucsses: MetadataFile path set to: 20241113133756200\9681001001978\9681001001978.xml
+11/13/2024 1:37:58 PM: Sucsses: Final PackageFolder path: 74\20241113133756200
+11/13/2024 1:37:58 PM: Sucsses: Final ResourcesFolder path: 74\20241113133756200\9681001001978\resources
+11/13/2024 1:37:58 PM: Sucsses: Retrieved folder paths for package: 74
+11/13/2024 1:37:58 PM: Starting GetCover...
+11/13/2024 1:37:59 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001001978.jpg
+11/13/2024 1:37:59 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001001978.jpg
+11/13/2024 1:37:59 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\74\20241113133756200\9681001001978\resources
+11/13/2024 1:37:59 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001001978.jpg
+11/13/2024 1:37:59 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\74\20241113133756200\9681001001978\resources\9681001001978.jpg
+11/13/2024 1:37:59 PM: Start Getting Media For package info: 74
+11/13/2024 1:38:00 PM: Media data generated successfully.
+11/13/2024 1:38:00 PM: Success: generated XML for package ID: 74
+11/13/2024 1:38:00 PM: Starting XML generation for package ID: 75, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+11/13/2024 1:38:00 PM: Success: fetched package info for ID: 75
+11/13/2024 1:38:00 PM: Processing group with Album UPC: 9681001016293
+11/13/2024 1:38:00 PM: Starting GetFolderPaths...
+11/13/2024 1:38:00 PM: Sucsses: PackageFolder trimmed to: 20241113133756200
+11/13/2024 1:38:00 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+11/13/2024 1:38:00 PM: Sucsses: ResourcesFolder set to: 20241113133756200\9681001016293\resources
+11/13/2024 1:38:00 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+11/13/2024 1:38:00 PM: Sucsses: MetadataFile path set to: 20241113133756200\9681001016293\9681001016293.xml
+11/13/2024 1:38:00 PM: Sucsses: Final PackageFolder path: 75\20241113133756200
+11/13/2024 1:38:00 PM: Sucsses: Final ResourcesFolder path: 75\20241113133756200\9681001016293\resources
+11/13/2024 1:38:00 PM: Sucsses: Retrieved folder paths for package: 75
+11/13/2024 1:38:00 PM: Starting GetCover...
+11/13/2024 1:38:01 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016293.jpg
+11/13/2024 1:38:01 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016293.jpg
+11/13/2024 1:38:01 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\75\20241113133756200\9681001016293\resources
+11/13/2024 1:38:01 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016293.jpg
+11/13/2024 1:38:01 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\75\20241113133756200\9681001016293\resources\9681001016293.jpg
+11/13/2024 1:38:01 PM: Start Getting Media For package info: 75
+11/13/2024 1:38:02 PM: Media data generated successfully.
+11/13/2024 1:38:02 PM: Success: generated XML for package ID: 75
+11/13/2024 1:38:02 PM: Starting XML generation for package ID: 76, Filename: Deezer_XML_Template.xml, Company: Deezer
+11/13/2024 1:38:02 PM: Success: fetched package info for ID: 76
+11/13/2024 1:38:02 PM: Processing group with Album UPC: 9681001016293
+11/13/2024 1:38:02 PM: Starting GetFolderPaths...
+11/13/2024 1:38:02 PM: Sucsses: PackageFolder trimmed to: 20241113133756200
+11/13/2024 1:38:02 PM: Sucsses: Fetching resources folder for company: Deezer
+11/13/2024 1:38:02 PM: Sucsses: ResourcesFolder set to: 20241113133756200\9681001016293
+11/13/2024 1:38:02 PM: Sucsses: Fetching metadata file path for company: Deezer
+11/13/2024 1:38:02 PM: Sucsses: MetadataFile path set to: 20241113133756200\9681001016293\9681001016293.xml
+11/13/2024 1:38:02 PM: Sucsses: Final PackageFolder path: 76\20241113133756200
+11/13/2024 1:38:02 PM: Sucsses: Final ResourcesFolder path: 76\20241113133756200\9681001016293
+11/13/2024 1:38:02 PM: Sucsses: Retrieved folder paths for package: 76
+11/13/2024 1:38:02 PM: Starting GetCover...
+11/13/2024 1:38:02 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016293.jpg
+11/13/2024 1:38:02 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016293.jpg
+11/13/2024 1:38:02 PM: Sucsses: Created directory: C:\Pkg_Output\deezer\@[PackageFolder]@\@[ALBUM_UPC]@
+11/13/2024 1:38:02 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016293.jpg
+11/13/2024 1:38:02 PM: Sucsses: Copied cover file to: C:\Pkg_Output\deezer\@[PackageFolder]@\@[ALBUM_UPC]@\@[ALBUM_UPC]@.jpg
+11/13/2024 1:38:02 PM: Start Getting Media For package info: 76
+11/13/2024 1:38:04 PM: Media data generated successfully.
+11/13/2024 1:38:04 PM: Error: generating XML for package: <input>(152,44) : error : Cannot get the member asset.track_featured_artist_list_string for a null object.
+11/13/2024 1:38:04 PM: Starting XML generation for package ID: 84, Filename: Tidal_XML_Template.xml, Company: Tidal
+11/13/2024 1:38:04 PM: Success: fetched package info for ID: 84
+11/13/2024 1:38:04 PM: Processing group with Album UPC: 6221117026934
+11/13/2024 1:38:04 PM: Starting GetFolderPaths...
+11/13/2024 1:38:04 PM: Sucsses: PackageFolder trimmed to: 20241113133756200
+11/13/2024 1:38:04 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:38:04 PM: Sucsses: ResourcesFolder set to: 20241113133756200\6221117026934\resources
+11/13/2024 1:38:04 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:38:04 PM: Sucsses: MetadataFile path set to: 20241113133756200\6221117026934\6221117026934.xml
+11/13/2024 1:38:04 PM: Sucsses: Final PackageFolder path: 84\20241113133756200
+11/13/2024 1:38:04 PM: Sucsses: Final ResourcesFolder path: 84\20241113133756200\6221117026934\resources
+11/13/2024 1:38:04 PM: Sucsses: Retrieved folder paths for package: 84
+11/13/2024 1:38:04 PM: Starting GetCover...
+11/13/2024 1:38:04 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117026934.jpg
+11/13/2024 1:38:04 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117026934.jpg
+11/13/2024 1:38:04 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\84\20241113133756200\6221117026934\resources
+11/13/2024 1:38:04 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117026934.jpg
+11/13/2024 1:38:04 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\84\20241113133756200\6221117026934\resources\6221117026934_T2.jpg
+11/13/2024 1:38:04 PM: Start Getting Media For package info: 84
+11/13/2024 1:38:06 PM: Media data generated successfully.
+11/13/2024 1:38:06 PM: Success: generated XML for package ID: 84
+11/13/2024 1:38:06 PM: Starting XML generation for package ID: 85, Filename: Tidal_XML_Template.xml, Company: Tidal
+11/13/2024 1:38:06 PM: Success: fetched package info for ID: 85
+11/13/2024 1:38:06 PM: Processing group with Album UPC: 6221117165909
+11/13/2024 1:38:06 PM: Starting GetFolderPaths...
+11/13/2024 1:38:06 PM: Sucsses: PackageFolder trimmed to: 20241113133756200
+11/13/2024 1:38:06 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:38:06 PM: Sucsses: ResourcesFolder set to: 20241113133756200\6221117165909\resources
+11/13/2024 1:38:06 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:38:06 PM: Sucsses: MetadataFile path set to: 20241113133756200\6221117165909\6221117165909.xml
+11/13/2024 1:38:06 PM: Sucsses: Final PackageFolder path: 85\20241113133756200
+11/13/2024 1:38:06 PM: Sucsses: Final ResourcesFolder path: 85\20241113133756200\6221117165909\resources
+11/13/2024 1:38:06 PM: Sucsses: Retrieved folder paths for package: 85
+11/13/2024 1:38:06 PM: Starting GetCover...
+11/13/2024 1:38:06 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/13/2024 1:38:06 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/13/2024 1:38:06 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\85\20241113133756200\6221117165909\resources
+11/13/2024 1:38:06 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/13/2024 1:38:06 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\85\20241113133756200\6221117165909\resources\6221117165909_T2.jpg
+11/13/2024 1:38:06 PM: Start Getting Media For package info: 85
+11/13/2024 1:38:07 PM: Media data generated successfully.
+11/13/2024 1:38:07 PM: Success: generated XML for package ID: 85
+11/13/2024 1:38:07 PM: Processing group with Album UPC: 6221117178930
+11/13/2024 1:38:07 PM: Starting GetFolderPaths...
+11/13/2024 1:38:07 PM: Sucsses: PackageFolder trimmed to: 20241113133756200
+11/13/2024 1:38:07 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:38:07 PM: Sucsses: ResourcesFolder set to: 20241113133756200\6221117178930\resources
+11/13/2024 1:38:07 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:38:07 PM: Sucsses: MetadataFile path set to: 20241113133756200\6221117178930\6221117178930.xml
+11/13/2024 1:38:07 PM: Sucsses: Final PackageFolder path: 85\20241113133756200
+11/13/2024 1:38:07 PM: Sucsses: Final ResourcesFolder path: 85\20241113133756200\6221117178930\resources
+11/13/2024 1:38:07 PM: Sucsses: Retrieved folder paths for package: 85
+11/13/2024 1:38:07 PM: Starting GetCover...
+11/13/2024 1:38:08 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/13/2024 1:38:08 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/13/2024 1:38:08 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\85\20241113133756200\6221117178930\resources
+11/13/2024 1:38:08 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/13/2024 1:38:08 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\85\20241113133756200\6221117178930\resources\6221117178930_T2.jpg
+11/13/2024 1:38:08 PM: Start Getting Media For package info: 85
+11/13/2024 1:38:09 PM: Media data generated successfully.
+11/13/2024 1:38:09 PM: Success: generated XML for package ID: 85
+11/13/2024 1:38:09 PM: Processing group with Album UPC: 6221117180292
+11/13/2024 1:38:09 PM: Starting GetFolderPaths...
+11/13/2024 1:38:09 PM: Sucsses: PackageFolder trimmed to: 20241113133756200
+11/13/2024 1:38:09 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:38:09 PM: Sucsses: ResourcesFolder set to: 20241113133756200\6221117180292\resources
+11/13/2024 1:38:09 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:38:09 PM: Sucsses: MetadataFile path set to: 20241113133756200\6221117180292\6221117180292.xml
+11/13/2024 1:38:09 PM: Sucsses: Final PackageFolder path: 85\20241113133756200
+11/13/2024 1:38:09 PM: Sucsses: Final ResourcesFolder path: 85\20241113133756200\6221117180292\resources
+11/13/2024 1:38:09 PM: Sucsses: Retrieved folder paths for package: 85
+11/13/2024 1:38:09 PM: Starting GetCover...
+11/13/2024 1:38:10 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/13/2024 1:38:10 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/13/2024 1:38:10 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\85\20241113133756200\6221117180292\resources
+11/13/2024 1:38:10 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/13/2024 1:38:10 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\85\20241113133756200\6221117180292\resources\6221117180292_T2.jpg
+11/13/2024 1:38:10 PM: Start Getting Media For package info: 85
+11/13/2024 1:38:11 PM: Media data generated successfully.
+11/13/2024 1:38:11 PM: Success: generated XML for package ID: 85
+11/13/2024 1:38:11 PM: Processing group with Album UPC: 6221117180544
+11/13/2024 1:38:11 PM: Starting GetFolderPaths...
+11/13/2024 1:38:11 PM: Sucsses: PackageFolder trimmed to: 20241113133756200
+11/13/2024 1:38:11 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:38:11 PM: Sucsses: ResourcesFolder set to: 20241113133756200\6221117180544\resources
+11/13/2024 1:38:11 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:38:11 PM: Sucsses: MetadataFile path set to: 20241113133756200\6221117180544\6221117180544.xml
+11/13/2024 1:38:11 PM: Sucsses: Final PackageFolder path: 85\20241113133756200
+11/13/2024 1:38:11 PM: Sucsses: Final ResourcesFolder path: 85\20241113133756200\6221117180544\resources
+11/13/2024 1:38:11 PM: Sucsses: Retrieved folder paths for package: 85
+11/13/2024 1:38:11 PM: Starting GetCover...
+11/13/2024 1:38:12 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/13/2024 1:38:12 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/13/2024 1:38:12 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\85\20241113133756200\6221117180544\resources
+11/13/2024 1:38:12 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/13/2024 1:38:12 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\85\20241113133756200\6221117180544\resources\6221117180544_T2.jpg
+11/13/2024 1:38:12 PM: Start Getting Media For package info: 85
+11/13/2024 1:38:13 PM: Media data generated successfully.
+11/13/2024 1:38:13 PM: Success: generated XML for package ID: 85
+11/13/2024 1:38:13 PM: Processing group with Album UPC: 6221117180872
+11/13/2024 1:38:13 PM: Starting GetFolderPaths...
+11/13/2024 1:38:13 PM: Sucsses: PackageFolder trimmed to: 20241113133756200
+11/13/2024 1:38:13 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:38:13 PM: Sucsses: ResourcesFolder set to: 20241113133756200\6221117180872\resources
+11/13/2024 1:38:13 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:38:13 PM: Sucsses: MetadataFile path set to: 20241113133756200\6221117180872\6221117180872.xml
+11/13/2024 1:38:13 PM: Sucsses: Final PackageFolder path: 85\20241113133756200
+11/13/2024 1:38:13 PM: Sucsses: Final ResourcesFolder path: 85\20241113133756200\6221117180872\resources
+11/13/2024 1:38:13 PM: Sucsses: Retrieved folder paths for package: 85
+11/13/2024 1:38:13 PM: Starting GetCover...
+11/13/2024 1:38:13 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/13/2024 1:38:13 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/13/2024 1:38:13 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\85\20241113133756200\6221117180872\resources
+11/13/2024 1:38:13 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/13/2024 1:38:13 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\85\20241113133756200\6221117180872\resources\6221117180872_T2.jpg
+11/13/2024 1:38:13 PM: Start Getting Media For package info: 85
+11/13/2024 1:38:15 PM: Media data generated successfully.
+11/13/2024 1:38:15 PM: Success: generated XML for package ID: 85
+11/13/2024 1:38:15 PM: Processing group with Album UPC: 6221117181398
+11/13/2024 1:38:15 PM: Starting GetFolderPaths...
+11/13/2024 1:38:15 PM: Sucsses: PackageFolder trimmed to: 20241113133756200
+11/13/2024 1:38:15 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:38:15 PM: Sucsses: ResourcesFolder set to: 20241113133756200\6221117181398\resources
+11/13/2024 1:38:15 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:38:15 PM: Sucsses: MetadataFile path set to: 20241113133756200\6221117181398\6221117181398.xml
+11/13/2024 1:38:15 PM: Sucsses: Final PackageFolder path: 85\20241113133756200
+11/13/2024 1:38:15 PM: Sucsses: Final ResourcesFolder path: 85\20241113133756200\6221117181398\resources
+11/13/2024 1:38:15 PM: Sucsses: Retrieved folder paths for package: 85
+11/13/2024 1:38:15 PM: Starting GetCover...
+11/13/2024 1:38:15 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/13/2024 1:38:15 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/13/2024 1:38:15 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\85\20241113133756200\6221117181398\resources
+11/13/2024 1:38:15 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/13/2024 1:38:15 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\85\20241113133756200\6221117181398\resources\6221117181398_T2.jpg
+11/13/2024 1:38:15 PM: Start Getting Media For package info: 85
+11/13/2024 1:38:16 PM: Media data generated successfully.
+11/13/2024 1:38:16 PM: Success: generated XML for package ID: 85
+11/13/2024 1:38:16 PM: Processing group with Album UPC: 6221117181428
+11/13/2024 1:38:16 PM: Starting GetFolderPaths...
+11/13/2024 1:38:16 PM: Sucsses: PackageFolder trimmed to: 20241113133756200
+11/13/2024 1:38:16 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:38:16 PM: Sucsses: ResourcesFolder set to: 20241113133756200\6221117181428\resources
+11/13/2024 1:38:16 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:38:16 PM: Sucsses: MetadataFile path set to: 20241113133756200\6221117181428\6221117181428.xml
+11/13/2024 1:38:16 PM: Sucsses: Final PackageFolder path: 85\20241113133756200
+11/13/2024 1:38:16 PM: Sucsses: Final ResourcesFolder path: 85\20241113133756200\6221117181428\resources
+11/13/2024 1:38:16 PM: Sucsses: Retrieved folder paths for package: 85
+11/13/2024 1:38:16 PM: Starting GetCover...
+11/13/2024 1:38:17 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/13/2024 1:38:17 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/13/2024 1:38:17 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\85\20241113133756200\6221117181428\resources
+11/13/2024 1:38:17 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/13/2024 1:38:17 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\85\20241113133756200\6221117181428\resources\6221117181428_T2.jpg
+11/13/2024 1:38:17 PM: Start Getting Media For package info: 85
+11/13/2024 1:38:18 PM: Media data generated successfully.
+11/13/2024 1:38:18 PM: Success: generated XML for package ID: 85
+11/13/2024 1:38:18 PM: Processing group with Album UPC: 6221117181442
+11/13/2024 1:38:18 PM: Starting GetFolderPaths...
+11/13/2024 1:38:18 PM: Sucsses: PackageFolder trimmed to: 20241113133756200
+11/13/2024 1:38:18 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:38:18 PM: Sucsses: ResourcesFolder set to: 20241113133756200\6221117181442\resources
+11/13/2024 1:38:18 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:38:18 PM: Sucsses: MetadataFile path set to: 20241113133756200\6221117181442\6221117181442.xml
+11/13/2024 1:38:18 PM: Sucsses: Final PackageFolder path: 85\20241113133756200
+11/13/2024 1:38:18 PM: Sucsses: Final ResourcesFolder path: 85\20241113133756200\6221117181442\resources
+11/13/2024 1:38:18 PM: Sucsses: Retrieved folder paths for package: 85
+11/13/2024 1:38:18 PM: Starting GetCover...
+11/13/2024 1:38:18 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/13/2024 1:38:18 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/13/2024 1:38:18 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\85\20241113133756200\6221117181442\resources
+11/13/2024 1:38:19 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/13/2024 1:38:19 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\85\20241113133756200\6221117181442\resources\6221117181442_T2.jpg
+11/13/2024 1:38:19 PM: Start Getting Media For package info: 85
+11/13/2024 1:38:20 PM: Media data generated successfully.
+11/13/2024 1:38:20 PM: Success: generated XML for package ID: 85
+11/13/2024 1:38:20 PM: Starting XML generation for package ID: 86, Filename: Tidal_XML_Template.xml, Company: Tidal
+11/13/2024 1:38:20 PM: Success: fetched package info for ID: 86
+11/13/2024 1:38:20 PM: Processing group with Album UPC: 6221117165909
+11/13/2024 1:38:20 PM: Starting GetFolderPaths...
+11/13/2024 1:38:20 PM: Sucsses: PackageFolder trimmed to: 20241113133756200
+11/13/2024 1:38:20 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:38:20 PM: Sucsses: ResourcesFolder set to: 20241113133756200\6221117165909\resources
+11/13/2024 1:38:20 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:38:20 PM: Sucsses: MetadataFile path set to: 20241113133756200\6221117165909\6221117165909.xml
+11/13/2024 1:38:20 PM: Sucsses: Final PackageFolder path: 86\20241113133756200
+11/13/2024 1:38:20 PM: Sucsses: Final ResourcesFolder path: 86\20241113133756200\6221117165909\resources
+11/13/2024 1:38:20 PM: Sucsses: Retrieved folder paths for package: 86
+11/13/2024 1:38:20 PM: Starting GetCover...
+11/13/2024 1:38:20 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/13/2024 1:38:20 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/13/2024 1:38:20 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\86\20241113133756200\6221117165909\resources
+11/13/2024 1:38:20 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/13/2024 1:38:20 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\86\20241113133756200\6221117165909\resources\6221117165909_T2.jpg
+11/13/2024 1:38:20 PM: Start Getting Media For package info: 86
+11/13/2024 1:38:21 PM: Media data generated successfully.
+11/13/2024 1:38:21 PM: Success: generated XML for package ID: 86
+11/13/2024 1:38:21 PM: Processing group with Album UPC: 6221117178930
+11/13/2024 1:38:21 PM: Starting GetFolderPaths...
+11/13/2024 1:38:21 PM: Sucsses: PackageFolder trimmed to: 20241113133756200
+11/13/2024 1:38:21 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:38:21 PM: Sucsses: ResourcesFolder set to: 20241113133756200\6221117178930\resources
+11/13/2024 1:38:21 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:38:21 PM: Sucsses: MetadataFile path set to: 20241113133756200\6221117178930\6221117178930.xml
+11/13/2024 1:38:21 PM: Sucsses: Final PackageFolder path: 86\20241113133756200
+11/13/2024 1:38:21 PM: Sucsses: Final ResourcesFolder path: 86\20241113133756200\6221117178930\resources
+11/13/2024 1:38:21 PM: Sucsses: Retrieved folder paths for package: 86
+11/13/2024 1:38:21 PM: Starting GetCover...
+11/13/2024 1:38:22 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/13/2024 1:38:22 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/13/2024 1:38:22 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\86\20241113133756200\6221117178930\resources
+11/13/2024 1:38:22 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/13/2024 1:38:22 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\86\20241113133756200\6221117178930\resources\6221117178930_T2.jpg
+11/13/2024 1:38:22 PM: Start Getting Media For package info: 86
+11/13/2024 1:38:23 PM: Media data generated successfully.
+11/13/2024 1:38:23 PM: Success: generated XML for package ID: 86
+11/13/2024 1:38:23 PM: Processing group with Album UPC: 6221117180292
+11/13/2024 1:38:23 PM: Starting GetFolderPaths...
+11/13/2024 1:38:23 PM: Sucsses: PackageFolder trimmed to: 20241113133756200
+11/13/2024 1:38:23 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:38:23 PM: Sucsses: ResourcesFolder set to: 20241113133756200\6221117180292\resources
+11/13/2024 1:38:23 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:38:23 PM: Sucsses: MetadataFile path set to: 20241113133756200\6221117180292\6221117180292.xml
+11/13/2024 1:38:23 PM: Sucsses: Final PackageFolder path: 86\20241113133756200
+11/13/2024 1:38:23 PM: Sucsses: Final ResourcesFolder path: 86\20241113133756200\6221117180292\resources
+11/13/2024 1:38:23 PM: Sucsses: Retrieved folder paths for package: 86
+11/13/2024 1:38:23 PM: Starting GetCover...
+11/13/2024 1:38:24 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/13/2024 1:38:24 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/13/2024 1:38:24 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\86\20241113133756200\6221117180292\resources
+11/13/2024 1:38:24 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/13/2024 1:38:24 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\86\20241113133756200\6221117180292\resources\6221117180292_T2.jpg
+11/13/2024 1:38:24 PM: Start Getting Media For package info: 86
+11/13/2024 1:38:25 PM: Media data generated successfully.
+11/13/2024 1:38:25 PM: Success: generated XML for package ID: 86
+11/13/2024 1:38:25 PM: Processing group with Album UPC: 6221117180544
+11/13/2024 1:38:25 PM: Starting GetFolderPaths...
+11/13/2024 1:38:25 PM: Sucsses: PackageFolder trimmed to: 20241113133756200
+11/13/2024 1:38:25 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:38:25 PM: Sucsses: ResourcesFolder set to: 20241113133756200\6221117180544\resources
+11/13/2024 1:38:25 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:38:25 PM: Sucsses: MetadataFile path set to: 20241113133756200\6221117180544\6221117180544.xml
+11/13/2024 1:38:25 PM: Sucsses: Final PackageFolder path: 86\20241113133756200
+11/13/2024 1:38:25 PM: Sucsses: Final ResourcesFolder path: 86\20241113133756200\6221117180544\resources
+11/13/2024 1:38:25 PM: Sucsses: Retrieved folder paths for package: 86
+11/13/2024 1:38:25 PM: Starting GetCover...
+11/13/2024 1:38:25 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/13/2024 1:38:25 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/13/2024 1:38:25 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\86\20241113133756200\6221117180544\resources
+11/13/2024 1:38:25 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/13/2024 1:38:25 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\86\20241113133756200\6221117180544\resources\6221117180544_T2.jpg
+11/13/2024 1:38:25 PM: Start Getting Media For package info: 86
+11/13/2024 1:38:26 PM: Media data generated successfully.
+11/13/2024 1:38:26 PM: Success: generated XML for package ID: 86
+11/13/2024 1:38:26 PM: Processing group with Album UPC: 6221117180872
+11/13/2024 1:38:26 PM: Starting GetFolderPaths...
+11/13/2024 1:38:26 PM: Sucsses: PackageFolder trimmed to: 20241113133756200
+11/13/2024 1:38:26 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:38:26 PM: Sucsses: ResourcesFolder set to: 20241113133756200\6221117180872\resources
+11/13/2024 1:38:26 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:38:26 PM: Sucsses: MetadataFile path set to: 20241113133756200\6221117180872\6221117180872.xml
+11/13/2024 1:38:26 PM: Sucsses: Final PackageFolder path: 86\20241113133756200
+11/13/2024 1:38:26 PM: Sucsses: Final ResourcesFolder path: 86\20241113133756200\6221117180872\resources
+11/13/2024 1:38:26 PM: Sucsses: Retrieved folder paths for package: 86
+11/13/2024 1:38:26 PM: Starting GetCover...
+11/13/2024 1:38:27 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/13/2024 1:38:27 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/13/2024 1:38:27 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\86\20241113133756200\6221117180872\resources
+11/13/2024 1:38:27 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/13/2024 1:38:27 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\86\20241113133756200\6221117180872\resources\6221117180872_T2.jpg
+11/13/2024 1:38:27 PM: Start Getting Media For package info: 86
+11/13/2024 1:38:28 PM: Media data generated successfully.
+11/13/2024 1:38:28 PM: Success: generated XML for package ID: 86
+11/13/2024 1:38:28 PM: Processing group with Album UPC: 6221117181398
+11/13/2024 1:38:28 PM: Starting GetFolderPaths...
+11/13/2024 1:38:28 PM: Sucsses: PackageFolder trimmed to: 20241113133756200
+11/13/2024 1:38:28 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:38:28 PM: Sucsses: ResourcesFolder set to: 20241113133756200\6221117181398\resources
+11/13/2024 1:38:28 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:38:28 PM: Sucsses: MetadataFile path set to: 20241113133756200\6221117181398\6221117181398.xml
+11/13/2024 1:38:28 PM: Sucsses: Final PackageFolder path: 86\20241113133756200
+11/13/2024 1:38:28 PM: Sucsses: Final ResourcesFolder path: 86\20241113133756200\6221117181398\resources
+11/13/2024 1:38:28 PM: Sucsses: Retrieved folder paths for package: 86
+11/13/2024 1:38:28 PM: Starting GetCover...
+11/13/2024 1:38:28 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/13/2024 1:38:28 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/13/2024 1:38:28 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\86\20241113133756200\6221117181398\resources
+11/13/2024 1:38:28 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/13/2024 1:38:28 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\86\20241113133756200\6221117181398\resources\6221117181398_T2.jpg
+11/13/2024 1:38:28 PM: Start Getting Media For package info: 86
+11/13/2024 1:38:29 PM: Media data generated successfully.
+11/13/2024 1:38:29 PM: Success: generated XML for package ID: 86
+11/13/2024 1:38:29 PM: Processing group with Album UPC: 6221117181428
+11/13/2024 1:38:29 PM: Starting GetFolderPaths...
+11/13/2024 1:38:29 PM: Sucsses: PackageFolder trimmed to: 20241113133756200
+11/13/2024 1:38:29 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:38:29 PM: Sucsses: ResourcesFolder set to: 20241113133756200\6221117181428\resources
+11/13/2024 1:38:29 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:38:29 PM: Sucsses: MetadataFile path set to: 20241113133756200\6221117181428\6221117181428.xml
+11/13/2024 1:38:29 PM: Sucsses: Final PackageFolder path: 86\20241113133756200
+11/13/2024 1:38:29 PM: Sucsses: Final ResourcesFolder path: 86\20241113133756200\6221117181428\resources
+11/13/2024 1:38:29 PM: Sucsses: Retrieved folder paths for package: 86
+11/13/2024 1:38:29 PM: Starting GetCover...
+11/13/2024 1:38:30 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/13/2024 1:38:30 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/13/2024 1:38:30 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\86\20241113133756200\6221117181428\resources
+11/13/2024 1:38:30 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/13/2024 1:38:30 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\86\20241113133756200\6221117181428\resources\6221117181428_T2.jpg
+11/13/2024 1:38:30 PM: Start Getting Media For package info: 86
+11/13/2024 1:38:31 PM: Media data generated successfully.
+11/13/2024 1:38:31 PM: Success: generated XML for package ID: 86
+11/13/2024 1:38:31 PM: Processing group with Album UPC: 6221117181442
+11/13/2024 1:38:31 PM: Starting GetFolderPaths...
+11/13/2024 1:38:31 PM: Sucsses: PackageFolder trimmed to: 20241113133756200
+11/13/2024 1:38:31 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:38:31 PM: Sucsses: ResourcesFolder set to: 20241113133756200\6221117181442\resources
+11/13/2024 1:38:31 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:38:31 PM: Sucsses: MetadataFile path set to: 20241113133756200\6221117181442\6221117181442.xml
+11/13/2024 1:38:31 PM: Sucsses: Final PackageFolder path: 86\20241113133756200
+11/13/2024 1:38:31 PM: Sucsses: Final ResourcesFolder path: 86\20241113133756200\6221117181442\resources
+11/13/2024 1:38:31 PM: Sucsses: Retrieved folder paths for package: 86
+11/13/2024 1:38:31 PM: Starting GetCover...
+11/13/2024 1:38:31 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/13/2024 1:38:31 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/13/2024 1:38:31 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\86\20241113133756200\6221117181442\resources
+11/13/2024 1:38:31 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/13/2024 1:38:31 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\86\20241113133756200\6221117181442\resources\6221117181442_T2.jpg
+11/13/2024 1:38:31 PM: Start Getting Media For package info: 86
+11/13/2024 1:38:32 PM: Media data generated successfully.
+11/13/2024 1:38:33 PM: Success: generated XML for package ID: 86
+11/13/2024 1:38:36 PM: Starting XML generation for package ID: 84, Filename: Tidal_XML_Template.xml, Company: Tidal
+11/13/2024 1:38:36 PM: Success: fetched package info for ID: 84
+11/13/2024 1:38:36 PM: Processing group with Album UPC: 6221117026934
+11/13/2024 1:38:36 PM: Starting GetFolderPaths...
+11/13/2024 1:38:36 PM: Sucsses: PackageFolder trimmed to: 20241113133756200
+11/13/2024 1:38:36 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:38:36 PM: Sucsses: ResourcesFolder set to: 20241113133756200\6221117026934\resources
+11/13/2024 1:38:36 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:38:36 PM: Sucsses: MetadataFile path set to: 20241113133756200\6221117026934\6221117026934.xml
+11/13/2024 1:38:36 PM: Sucsses: Final PackageFolder path: 84\20241113133756200
+11/13/2024 1:38:36 PM: Sucsses: Final ResourcesFolder path: 84\20241113133756200\6221117026934\resources
+11/13/2024 1:38:36 PM: Sucsses: Retrieved folder paths for package: 84
+11/13/2024 1:38:36 PM: Starting GetCover...
+11/13/2024 1:38:36 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117026934.jpg
+11/13/2024 1:38:36 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117026934.jpg
+11/13/2024 1:38:36 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117026934.jpg
+11/13/2024 1:38:36 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\84\20241113133756200\6221117026934\resources\6221117026934_T2.jpg
+11/13/2024 1:38:36 PM: Start Getting Media For package info: 84
+11/13/2024 1:38:38 PM: Media data generated successfully.
+11/13/2024 1:38:38 PM: Success: generated XML for package ID: 84
+11/13/2024 1:39:01 PM: PKG ID IS : 40
+11/13/2024 1:39:01 PM: Using Excel template: D://Wageeh//Content Packages Generator//PkgGen//bin//Debug//Config//Templates//Vodafone.xltx
+11/13/2024 1:39:01 PM: Processing album UPC: 9681001015944
+11/13/2024 1:39:01 PM: Starting GetFolderPaths...
+11/13/2024 1:39:01 PM: Fetching package folder for company: Vodafone Egypt
+11/13/2024 1:39:01 PM: Sucsses: PackageFolder set to: 20241113133756
+11/13/2024 1:39:01 PM: Sucsses: Fetching resources folder for company: Vodafone Egypt
+11/13/2024 1:39:01 PM: Sucsses: ResourcesFolder set to: 20241113133756\2024-11-13
+11/13/2024 1:39:01 PM: Sucsses: Fetching metadata file path for company: Vodafone Egypt
+11/13/2024 1:39:01 PM: Sucsses: MetadataFile path set to: 20241113133756\2024-11-13.xlsx
+11/13/2024 1:39:01 PM: Sucsses: Final PackageFolder path: 40\20241113133756
+11/13/2024 1:39:01 PM: Sucsses: Final ResourcesFolder path: 40\20241113133756\2024-11-13
+11/13/2024 1:39:01 PM: Sucsses:Folder paths generated for album 9681001015944.
+11/13/2024 1:39:01 PM: Sucsses:Media path generated for ISRC: EGA019003541
+11/13/2024 1:39:01 PM: Sucsses: Filled data for column: Rights Body
+11/13/2024 1:39:01 PM: Sucsses: Filled data for column: Alias Promocode
+11/13/2024 1:39:01 PM: Sucsses: Filled data for column: Song Title
+11/13/2024 1:39:01 PM: Sucsses: Filled data for column: Actor
+11/13/2024 1:39:01 PM: Sucsses: Filled data for column: Singer
+11/13/2024 1:39:01 PM: Sucsses: Filled data for column: File Path
+11/13/2024 1:39:01 PM: Sucsses: Filled data for column: Language
+11/13/2024 1:39:01 PM: Sucsses: Filled data for column: Movie/Album
+11/13/2024 1:39:01 PM: Starting GetCover...
+11/13/2024 1:39:01 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:39:02 PM: Starting GetCover...
+11/13/2024 1:39:02 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:39:03 PM: Starting GetCover...
+11/13/2024 1:39:03 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:39:04 PM: Starting GetCover...
+11/13/2024 1:39:04 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:39:05 PM: Starting GetCover...
+11/13/2024 1:39:05 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:39:07 PM: Starting GetCover...
+11/13/2024 1:39:07 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:39:08 PM: Starting GetCover...
+11/13/2024 1:39:08 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:39:09 PM: Starting GetCover...
+11/13/2024 1:39:09 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:39:10 PM: Starting GetCover...
+11/13/2024 1:39:10 PM: Error: Provided path is empty. Exiting GetCover.
+11/13/2024 1:39:11 PM: Sucsses: Media data generated successfully.
+11/13/2024 1:39:11 PM: Sucsses: Excel file saved to: C://Pkg_Output\Vodafone Egypt\40\20241113133756\2024-11-13.xlsx
+11/13/2024 1:39:11 PM: Sucsses: GenerateExcel completed for Package ID: 40
+11/13/2024 1:39:11 PM: Sucsses: Filled data for column: Song Title (AR)
+11/13/2024 1:39:11 PM: Sucsses: Filled data for column: Song Title
+11/13/2024 1:39:11 PM: Sucsses: Filled data for column: Language
+11/13/2024 1:39:11 PM: Sucsses: Filled data for column: Movie/Album
+11/13/2024 1:39:11 PM: Sucsses: Excel file saved to: C://Pkg_Output\Vodafone Egypt\40\20241113133756\2024-11-13.xlsx
+11/13/2024 1:39:11 PM: Sucsses: GenerateExcel completed for Package ID: 40
+11/13/2024 1:39:11 PM: Starting XML generation for package ID: 52, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+11/13/2024 1:39:11 PM: Success: fetched package info for ID: 52
+11/13/2024 1:39:11 PM: Processing group with Album UPC: 6221117002648
+11/13/2024 1:39:11 PM: Starting GetFolderPaths...
+11/13/2024 1:39:11 PM: Sucsses: PackageFolder trimmed to: 20241113133756
+11/13/2024 1:39:11 PM: Sucsses: Fetching resources folder for company: Spotify
+11/13/2024 1:39:11 PM: Sucsses: ResourcesFolder set to: 20241113133756\6221117002648\resources
+11/13/2024 1:39:11 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/13/2024 1:39:11 PM: Sucsses: MetadataFile path set to: 20241113133756\6221117002648\6221117002648.xml
+11/13/2024 1:39:11 PM: Sucsses: Final PackageFolder path: 52\20241113133756
+11/13/2024 1:39:11 PM: Sucsses: Final ResourcesFolder path: 52\20241113133756\6221117002648\resources
+11/13/2024 1:39:11 PM: Sucsses: Retrieved folder paths for package: 52
+11/13/2024 1:39:11 PM: Starting GetCover...
+11/13/2024 1:39:12 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117002648.jpg
+11/13/2024 1:39:12 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117002648.jpg
+11/13/2024 1:39:12 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\52\20241113133756\6221117002648\resources
+11/13/2024 1:39:12 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117002648.jpg
+11/13/2024 1:39:12 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\52\20241113133756\6221117002648\resources\6221117002648.jpg
+11/13/2024 1:39:12 PM: Start Getting Media For package info: 52
+11/13/2024 1:39:13 PM: Media data generated successfully.
+11/13/2024 1:39:13 PM: Success: generated XML for package ID: 52
+11/13/2024 1:39:13 PM: Processing group with Album UPC: 6221117005168
+11/13/2024 1:39:13 PM: Starting GetFolderPaths...
+11/13/2024 1:39:13 PM: Sucsses: PackageFolder trimmed to: 20241113133756
+11/13/2024 1:39:13 PM: Sucsses: Fetching resources folder for company: Spotify
+11/13/2024 1:39:13 PM: Sucsses: ResourcesFolder set to: 20241113133756\6221117005168\resources
+11/13/2024 1:39:13 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/13/2024 1:39:13 PM: Sucsses: MetadataFile path set to: 20241113133756\6221117005168\6221117005168.xml
+11/13/2024 1:39:13 PM: Sucsses: Final PackageFolder path: 52\20241113133756
+11/13/2024 1:39:13 PM: Sucsses: Final ResourcesFolder path: 52\20241113133756\6221117005168\resources
+11/13/2024 1:39:13 PM: Sucsses: Retrieved folder paths for package: 52
+11/13/2024 1:39:13 PM: Starting GetCover...
+11/13/2024 1:39:14 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117005168.jpg
+11/13/2024 1:39:14 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117005168.jpg
+11/13/2024 1:39:14 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\52\20241113133756\6221117005168\resources
+11/13/2024 1:39:14 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117005168.jpg
+11/13/2024 1:39:14 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\52\20241113133756\6221117005168\resources\6221117005168.jpg
+11/13/2024 1:39:14 PM: Start Getting Media For package info: 52
+11/13/2024 1:39:16 PM: Media data generated successfully.
+11/13/2024 1:39:16 PM: Success: generated XML for package ID: 52
+11/13/2024 1:39:16 PM: Starting XML generation for package ID: 72, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+11/13/2024 1:39:16 PM: Success: fetched package info for ID: 72
+11/13/2024 1:39:16 PM: Processing group with Album UPC: 9681001016125
+11/13/2024 1:39:16 PM: Starting GetFolderPaths...
+11/13/2024 1:39:16 PM: Sucsses: PackageFolder trimmed to: 20241113133756
+11/13/2024 1:39:16 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+11/13/2024 1:39:16 PM: Sucsses: ResourcesFolder set to: 20241113133756\9681001016125\resources
+11/13/2024 1:39:16 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+11/13/2024 1:39:16 PM: Sucsses: MetadataFile path set to: 20241113133756\9681001016125\9681001016125.xml
+11/13/2024 1:39:16 PM: Sucsses: Final PackageFolder path: 72\20241113133756
+11/13/2024 1:39:16 PM: Sucsses: Final ResourcesFolder path: 72\20241113133756\9681001016125\resources
+11/13/2024 1:39:16 PM: Sucsses: Retrieved folder paths for package: 72
+11/13/2024 1:39:16 PM: Starting GetCover...
+11/13/2024 1:39:16 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016125.jpg
+11/13/2024 1:39:16 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016125.jpg
+11/13/2024 1:39:16 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\72\20241113133756\9681001016125\resources
+11/13/2024 1:39:16 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016125.jpg
+11/13/2024 1:39:16 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\72\20241113133756\9681001016125\resources\9681001016125.jpg
+11/13/2024 1:39:16 PM: Start Getting Media For package info: 72
+11/13/2024 1:39:18 PM: Media data generated successfully.
+11/13/2024 1:39:18 PM: Success: generated XML for package ID: 72
+11/13/2024 1:39:18 PM: Starting XML generation for package ID: 74, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+11/13/2024 1:39:18 PM: Success: fetched package info for ID: 74
+11/13/2024 1:39:18 PM: Processing group with Album UPC: 9681001001978
+11/13/2024 1:39:18 PM: Starting GetFolderPaths...
+11/13/2024 1:39:18 PM: Sucsses: PackageFolder trimmed to: 20241113133756
+11/13/2024 1:39:18 PM: Sucsses: Fetching resources folder for company: Spotify
+11/13/2024 1:39:18 PM: Sucsses: ResourcesFolder set to: 20241113133756\9681001001978\resources
+11/13/2024 1:39:18 PM: Sucsses: Fetching metadata file path for company: Spotify
+11/13/2024 1:39:18 PM: Sucsses: MetadataFile path set to: 20241113133756\9681001001978\9681001001978.xml
+11/13/2024 1:39:18 PM: Sucsses: Final PackageFolder path: 74\20241113133756
+11/13/2024 1:39:18 PM: Sucsses: Final ResourcesFolder path: 74\20241113133756\9681001001978\resources
+11/13/2024 1:39:18 PM: Sucsses: Retrieved folder paths for package: 74
+11/13/2024 1:39:18 PM: Starting GetCover...
+11/13/2024 1:39:18 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001001978.jpg
+11/13/2024 1:39:18 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001001978.jpg
+11/13/2024 1:39:18 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\74\20241113133756\9681001001978\resources
+11/13/2024 1:39:18 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001001978.jpg
+11/13/2024 1:39:18 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\74\20241113133756\9681001001978\resources\9681001001978.jpg
+11/13/2024 1:39:18 PM: Start Getting Media For package info: 74
+11/13/2024 1:39:20 PM: Media data generated successfully.
+11/13/2024 1:39:20 PM: Success: generated XML for package ID: 74
+11/13/2024 1:39:20 PM: Starting XML generation for package ID: 75, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+11/13/2024 1:39:20 PM: Success: fetched package info for ID: 75
+11/13/2024 1:39:20 PM: Processing group with Album UPC: 9681001016293
+11/13/2024 1:39:20 PM: Starting GetFolderPaths...
+11/13/2024 1:39:20 PM: Sucsses: PackageFolder trimmed to: 20241113133756
+11/13/2024 1:39:20 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+11/13/2024 1:39:20 PM: Sucsses: ResourcesFolder set to: 20241113133756\9681001016293\resources
+11/13/2024 1:39:20 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+11/13/2024 1:39:20 PM: Sucsses: MetadataFile path set to: 20241113133756\9681001016293\9681001016293.xml
+11/13/2024 1:39:20 PM: Sucsses: Final PackageFolder path: 75\20241113133756
+11/13/2024 1:39:20 PM: Sucsses: Final ResourcesFolder path: 75\20241113133756\9681001016293\resources
+11/13/2024 1:39:20 PM: Sucsses: Retrieved folder paths for package: 75
+11/13/2024 1:39:20 PM: Starting GetCover...
+11/13/2024 1:39:20 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016293.jpg
+11/13/2024 1:39:20 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016293.jpg
+11/13/2024 1:39:20 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\75\20241113133756\9681001016293\resources
+11/13/2024 1:39:20 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016293.jpg
+11/13/2024 1:39:20 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\75\20241113133756\9681001016293\resources\9681001016293.jpg
+11/13/2024 1:39:20 PM: Start Getting Media For package info: 75
+11/13/2024 1:39:22 PM: Media data generated successfully.
+11/13/2024 1:39:22 PM: Success: generated XML for package ID: 75
+11/13/2024 1:39:22 PM: Starting XML generation for package ID: 76, Filename: Deezer_XML_Template.xml, Company: Deezer
+11/13/2024 1:39:22 PM: Success: fetched package info for ID: 76
+11/13/2024 1:39:22 PM: Processing group with Album UPC: 9681001016293
+11/13/2024 1:39:22 PM: Starting GetFolderPaths...
+11/13/2024 1:39:22 PM: Sucsses: PackageFolder trimmed to: 20241113133756
+11/13/2024 1:39:22 PM: Sucsses: Fetching resources folder for company: Deezer
+11/13/2024 1:39:22 PM: Sucsses: ResourcesFolder set to: 20241113133756\9681001016293
+11/13/2024 1:39:22 PM: Sucsses: Fetching metadata file path for company: Deezer
+11/13/2024 1:39:22 PM: Sucsses: MetadataFile path set to: 20241113133756\9681001016293\9681001016293.xml
+11/13/2024 1:39:22 PM: Sucsses: Final PackageFolder path: 76\20241113133756
+11/13/2024 1:39:22 PM: Sucsses: Final ResourcesFolder path: 76\20241113133756\9681001016293
+11/13/2024 1:39:22 PM: Sucsses: Retrieved folder paths for package: 76
+11/13/2024 1:39:22 PM: Starting GetCover...
+11/13/2024 1:39:22 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016293.jpg
+11/13/2024 1:39:22 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016293.jpg
+11/13/2024 1:39:22 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016293.jpg
+11/13/2024 1:39:22 PM: Sucsses: Copied cover file to: C:\Pkg_Output\deezer\@[PackageFolder]@\@[ALBUM_UPC]@\@[ALBUM_UPC]@.jpg
+11/13/2024 1:39:22 PM: Start Getting Media For package info: 76
+11/13/2024 1:39:23 PM: Media data generated successfully.
+11/13/2024 1:39:23 PM: Error: generating XML for package: <input>(152,44) : error : Cannot get the member asset.track_featured_artist_list_string for a null object.
+11/13/2024 1:39:26 PM: Starting XML generation for package ID: 84, Filename: Tidal_XML_Template.xml, Company: Tidal
+11/13/2024 1:39:26 PM: Success: fetched package info for ID: 84
+11/13/2024 1:39:26 PM: Processing group with Album UPC: 6221117026934
+11/13/2024 1:39:26 PM: Starting GetFolderPaths...
+11/13/2024 1:39:26 PM: Sucsses: PackageFolder trimmed to: 20241113133756
+11/13/2024 1:39:26 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:39:26 PM: Sucsses: ResourcesFolder set to: 20241113133756\6221117026934\resources
+11/13/2024 1:39:26 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:39:26 PM: Sucsses: MetadataFile path set to: 20241113133756\6221117026934\6221117026934.xml
+11/13/2024 1:39:26 PM: Sucsses: Final PackageFolder path: 84\20241113133756
+11/13/2024 1:39:26 PM: Sucsses: Final ResourcesFolder path: 84\20241113133756\6221117026934\resources
+11/13/2024 1:39:26 PM: Sucsses: Retrieved folder paths for package: 84
+11/13/2024 1:39:26 PM: Starting GetCover...
+11/13/2024 1:39:26 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117026934.jpg
+11/13/2024 1:39:26 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117026934.jpg
+11/13/2024 1:39:26 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\84\20241113133756\6221117026934\resources
+11/13/2024 1:39:26 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117026934.jpg
+11/13/2024 1:39:26 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\84\20241113133756\6221117026934\resources\6221117026934_T2.jpg
+11/13/2024 1:39:26 PM: Start Getting Media For package info: 84
+11/13/2024 1:39:28 PM: Media data generated successfully.
+11/13/2024 1:39:28 PM: Success: generated XML for package ID: 84
+11/13/2024 1:39:28 PM: Starting XML generation for package ID: 85, Filename: Tidal_XML_Template.xml, Company: Tidal
+11/13/2024 1:39:28 PM: Success: fetched package info for ID: 85
+11/13/2024 1:39:28 PM: Processing group with Album UPC: 6221117165909
+11/13/2024 1:39:28 PM: Starting GetFolderPaths...
+11/13/2024 1:39:28 PM: Sucsses: PackageFolder trimmed to: 20241113133756
+11/13/2024 1:39:28 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:39:28 PM: Sucsses: ResourcesFolder set to: 20241113133756\6221117165909\resources
+11/13/2024 1:39:28 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:39:28 PM: Sucsses: MetadataFile path set to: 20241113133756\6221117165909\6221117165909.xml
+11/13/2024 1:39:28 PM: Sucsses: Final PackageFolder path: 85\20241113133756
+11/13/2024 1:39:28 PM: Sucsses: Final ResourcesFolder path: 85\20241113133756\6221117165909\resources
+11/13/2024 1:39:28 PM: Sucsses: Retrieved folder paths for package: 85
+11/13/2024 1:39:28 PM: Starting GetCover...
+11/13/2024 1:39:28 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/13/2024 1:39:28 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/13/2024 1:39:28 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\85\20241113133756\6221117165909\resources
+11/13/2024 1:39:28 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/13/2024 1:39:28 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\85\20241113133756\6221117165909\resources\6221117165909_T2.jpg
+11/13/2024 1:39:28 PM: Start Getting Media For package info: 85
+11/13/2024 1:39:29 PM: Media data generated successfully.
+11/13/2024 1:39:29 PM: Success: generated XML for package ID: 85
+11/13/2024 1:39:29 PM: Processing group with Album UPC: 6221117178930
+11/13/2024 1:39:29 PM: Starting GetFolderPaths...
+11/13/2024 1:39:29 PM: Sucsses: PackageFolder trimmed to: 20241113133756
+11/13/2024 1:39:29 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:39:29 PM: Sucsses: ResourcesFolder set to: 20241113133756\6221117178930\resources
+11/13/2024 1:39:29 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:39:29 PM: Sucsses: MetadataFile path set to: 20241113133756\6221117178930\6221117178930.xml
+11/13/2024 1:39:29 PM: Sucsses: Final PackageFolder path: 85\20241113133756
+11/13/2024 1:39:29 PM: Sucsses: Final ResourcesFolder path: 85\20241113133756\6221117178930\resources
+11/13/2024 1:39:29 PM: Sucsses: Retrieved folder paths for package: 85
+11/13/2024 1:39:29 PM: Starting GetCover...
+11/13/2024 1:39:30 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/13/2024 1:39:30 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/13/2024 1:39:30 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\85\20241113133756\6221117178930\resources
+11/13/2024 1:39:30 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/13/2024 1:39:30 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\85\20241113133756\6221117178930\resources\6221117178930_T2.jpg
+11/13/2024 1:39:30 PM: Start Getting Media For package info: 85
+11/13/2024 1:39:31 PM: Media data generated successfully.
+11/13/2024 1:39:31 PM: Success: generated XML for package ID: 85
+11/13/2024 1:39:31 PM: Processing group with Album UPC: 6221117180292
+11/13/2024 1:39:31 PM: Starting GetFolderPaths...
+11/13/2024 1:39:31 PM: Sucsses: PackageFolder trimmed to: 20241113133756
+11/13/2024 1:39:31 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:39:31 PM: Sucsses: ResourcesFolder set to: 20241113133756\6221117180292\resources
+11/13/2024 1:39:31 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:39:31 PM: Sucsses: MetadataFile path set to: 20241113133756\6221117180292\6221117180292.xml
+11/13/2024 1:39:31 PM: Sucsses: Final PackageFolder path: 85\20241113133756
+11/13/2024 1:39:31 PM: Sucsses: Final ResourcesFolder path: 85\20241113133756\6221117180292\resources
+11/13/2024 1:39:31 PM: Sucsses: Retrieved folder paths for package: 85
+11/13/2024 1:39:31 PM: Starting GetCover...
+11/13/2024 1:39:32 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/13/2024 1:39:32 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/13/2024 1:39:32 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\85\20241113133756\6221117180292\resources
+11/13/2024 1:39:32 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/13/2024 1:39:32 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\85\20241113133756\6221117180292\resources\6221117180292_T2.jpg
+11/13/2024 1:39:32 PM: Start Getting Media For package info: 85
+11/13/2024 1:39:33 PM: Media data generated successfully.
+11/13/2024 1:39:33 PM: Success: generated XML for package ID: 85
+11/13/2024 1:39:33 PM: Processing group with Album UPC: 6221117180544
+11/13/2024 1:39:33 PM: Starting GetFolderPaths...
+11/13/2024 1:39:33 PM: Sucsses: PackageFolder trimmed to: 20241113133756
+11/13/2024 1:39:33 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:39:33 PM: Sucsses: ResourcesFolder set to: 20241113133756\6221117180544\resources
+11/13/2024 1:39:33 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:39:33 PM: Sucsses: MetadataFile path set to: 20241113133756\6221117180544\6221117180544.xml
+11/13/2024 1:39:33 PM: Sucsses: Final PackageFolder path: 85\20241113133756
+11/13/2024 1:39:33 PM: Sucsses: Final ResourcesFolder path: 85\20241113133756\6221117180544\resources
+11/13/2024 1:39:33 PM: Sucsses: Retrieved folder paths for package: 85
+11/13/2024 1:39:33 PM: Starting GetCover...
+11/13/2024 1:39:33 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/13/2024 1:39:33 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/13/2024 1:39:33 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\85\20241113133756\6221117180544\resources
+11/13/2024 1:39:33 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/13/2024 1:39:33 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\85\20241113133756\6221117180544\resources\6221117180544_T2.jpg
+11/13/2024 1:39:33 PM: Start Getting Media For package info: 85
+11/13/2024 1:39:34 PM: Media data generated successfully.
+11/13/2024 1:39:34 PM: Success: generated XML for package ID: 85
+11/13/2024 1:39:34 PM: Processing group with Album UPC: 6221117180872
+11/13/2024 1:39:34 PM: Starting GetFolderPaths...
+11/13/2024 1:39:34 PM: Sucsses: PackageFolder trimmed to: 20241113133756
+11/13/2024 1:39:34 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:39:34 PM: Sucsses: ResourcesFolder set to: 20241113133756\6221117180872\resources
+11/13/2024 1:39:34 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:39:34 PM: Sucsses: MetadataFile path set to: 20241113133756\6221117180872\6221117180872.xml
+11/13/2024 1:39:34 PM: Sucsses: Final PackageFolder path: 85\20241113133756
+11/13/2024 1:39:34 PM: Sucsses: Final ResourcesFolder path: 85\20241113133756\6221117180872\resources
+11/13/2024 1:39:34 PM: Sucsses: Retrieved folder paths for package: 85
+11/13/2024 1:39:34 PM: Starting GetCover...
+11/13/2024 1:39:35 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/13/2024 1:39:35 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/13/2024 1:39:35 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\85\20241113133756\6221117180872\resources
+11/13/2024 1:39:35 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/13/2024 1:39:35 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\85\20241113133756\6221117180872\resources\6221117180872_T2.jpg
+11/13/2024 1:39:35 PM: Start Getting Media For package info: 85
+11/13/2024 1:39:36 PM: Media data generated successfully.
+11/13/2024 1:39:36 PM: Success: generated XML for package ID: 85
+11/13/2024 1:39:36 PM: Processing group with Album UPC: 6221117181398
+11/13/2024 1:39:36 PM: Starting GetFolderPaths...
+11/13/2024 1:39:36 PM: Sucsses: PackageFolder trimmed to: 20241113133756
+11/13/2024 1:39:36 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:39:36 PM: Sucsses: ResourcesFolder set to: 20241113133756\6221117181398\resources
+11/13/2024 1:39:36 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:39:36 PM: Sucsses: MetadataFile path set to: 20241113133756\6221117181398\6221117181398.xml
+11/13/2024 1:39:36 PM: Sucsses: Final PackageFolder path: 85\20241113133756
+11/13/2024 1:39:36 PM: Sucsses: Final ResourcesFolder path: 85\20241113133756\6221117181398\resources
+11/13/2024 1:39:36 PM: Sucsses: Retrieved folder paths for package: 85
+11/13/2024 1:39:36 PM: Starting GetCover...
+11/13/2024 1:39:36 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/13/2024 1:39:36 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/13/2024 1:39:36 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\85\20241113133756\6221117181398\resources
+11/13/2024 1:39:37 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/13/2024 1:39:37 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\85\20241113133756\6221117181398\resources\6221117181398_T2.jpg
+11/13/2024 1:39:37 PM: Start Getting Media For package info: 85
+11/13/2024 1:39:38 PM: Media data generated successfully.
+11/13/2024 1:39:38 PM: Success: generated XML for package ID: 85
+11/13/2024 1:39:38 PM: Processing group with Album UPC: 6221117181428
+11/13/2024 1:39:38 PM: Starting GetFolderPaths...
+11/13/2024 1:39:38 PM: Sucsses: PackageFolder trimmed to: 20241113133756
+11/13/2024 1:39:38 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:39:38 PM: Sucsses: ResourcesFolder set to: 20241113133756\6221117181428\resources
+11/13/2024 1:39:38 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:39:38 PM: Sucsses: MetadataFile path set to: 20241113133756\6221117181428\6221117181428.xml
+11/13/2024 1:39:38 PM: Sucsses: Final PackageFolder path: 85\20241113133756
+11/13/2024 1:39:38 PM: Sucsses: Final ResourcesFolder path: 85\20241113133756\6221117181428\resources
+11/13/2024 1:39:38 PM: Sucsses: Retrieved folder paths for package: 85
+11/13/2024 1:39:38 PM: Starting GetCover...
+11/13/2024 1:39:38 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/13/2024 1:39:38 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/13/2024 1:39:38 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\85\20241113133756\6221117181428\resources
+11/13/2024 1:39:38 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/13/2024 1:39:38 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\85\20241113133756\6221117181428\resources\6221117181428_T2.jpg
+11/13/2024 1:39:38 PM: Start Getting Media For package info: 85
+11/13/2024 1:39:39 PM: Media data generated successfully.
+11/13/2024 1:39:39 PM: Success: generated XML for package ID: 85
+11/13/2024 1:39:39 PM: Processing group with Album UPC: 6221117181442
+11/13/2024 1:39:39 PM: Starting GetFolderPaths...
+11/13/2024 1:39:39 PM: Sucsses: PackageFolder trimmed to: 20241113133756
+11/13/2024 1:39:39 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:39:39 PM: Sucsses: ResourcesFolder set to: 20241113133756\6221117181442\resources
+11/13/2024 1:39:39 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:39:39 PM: Sucsses: MetadataFile path set to: 20241113133756\6221117181442\6221117181442.xml
+11/13/2024 1:39:39 PM: Sucsses: Final PackageFolder path: 85\20241113133756
+11/13/2024 1:39:39 PM: Sucsses: Final ResourcesFolder path: 85\20241113133756\6221117181442\resources
+11/13/2024 1:39:39 PM: Sucsses: Retrieved folder paths for package: 85
+11/13/2024 1:39:39 PM: Starting GetCover...
+11/13/2024 1:39:40 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/13/2024 1:39:40 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/13/2024 1:39:40 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\85\20241113133756\6221117181442\resources
+11/13/2024 1:39:40 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/13/2024 1:39:40 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\85\20241113133756\6221117181442\resources\6221117181442_T2.jpg
+11/13/2024 1:39:40 PM: Start Getting Media For package info: 85
+11/13/2024 1:39:41 PM: Media data generated successfully.
+11/13/2024 1:39:41 PM: Success: generated XML for package ID: 85
+11/13/2024 1:39:41 PM: Starting XML generation for package ID: 86, Filename: Tidal_XML_Template.xml, Company: Tidal
+11/13/2024 1:39:41 PM: Success: fetched package info for ID: 86
+11/13/2024 1:39:41 PM: Processing group with Album UPC: 6221117165909
+11/13/2024 1:39:41 PM: Starting GetFolderPaths...
+11/13/2024 1:39:41 PM: Sucsses: PackageFolder trimmed to: 20241113133756
+11/13/2024 1:39:41 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:39:41 PM: Sucsses: ResourcesFolder set to: 20241113133756\6221117165909\resources
+11/13/2024 1:39:41 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:39:41 PM: Sucsses: MetadataFile path set to: 20241113133756\6221117165909\6221117165909.xml
+11/13/2024 1:39:41 PM: Sucsses: Final PackageFolder path: 86\20241113133756
+11/13/2024 1:39:41 PM: Sucsses: Final ResourcesFolder path: 86\20241113133756\6221117165909\resources
+11/13/2024 1:39:41 PM: Sucsses: Retrieved folder paths for package: 86
+11/13/2024 1:39:41 PM: Starting GetCover...
+11/13/2024 1:39:41 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/13/2024 1:39:41 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/13/2024 1:39:41 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\86\20241113133756\6221117165909\resources
+11/13/2024 1:39:41 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/13/2024 1:39:41 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\86\20241113133756\6221117165909\resources\6221117165909_T2.jpg
+11/13/2024 1:39:41 PM: Start Getting Media For package info: 86
+11/13/2024 1:39:42 PM: Media data generated successfully.
+11/13/2024 1:39:42 PM: Success: generated XML for package ID: 86
+11/13/2024 1:39:42 PM: Processing group with Album UPC: 6221117178930
+11/13/2024 1:39:42 PM: Starting GetFolderPaths...
+11/13/2024 1:39:42 PM: Sucsses: PackageFolder trimmed to: 20241113133756
+11/13/2024 1:39:42 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:39:42 PM: Sucsses: ResourcesFolder set to: 20241113133756\6221117178930\resources
+11/13/2024 1:39:42 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:39:42 PM: Sucsses: MetadataFile path set to: 20241113133756\6221117178930\6221117178930.xml
+11/13/2024 1:39:42 PM: Sucsses: Final PackageFolder path: 86\20241113133756
+11/13/2024 1:39:42 PM: Sucsses: Final ResourcesFolder path: 86\20241113133756\6221117178930\resources
+11/13/2024 1:39:42 PM: Sucsses: Retrieved folder paths for package: 86
+11/13/2024 1:39:43 PM: Starting GetCover...
+11/13/2024 1:39:43 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/13/2024 1:39:43 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/13/2024 1:39:43 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\86\20241113133756\6221117178930\resources
+11/13/2024 1:39:43 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/13/2024 1:39:43 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\86\20241113133756\6221117178930\resources\6221117178930_T2.jpg
+11/13/2024 1:39:43 PM: Start Getting Media For package info: 86
+11/13/2024 1:39:44 PM: Media data generated successfully.
+11/13/2024 1:39:44 PM: Success: generated XML for package ID: 86
+11/13/2024 1:39:44 PM: Processing group with Album UPC: 6221117180292
+11/13/2024 1:39:44 PM: Starting GetFolderPaths...
+11/13/2024 1:39:44 PM: Sucsses: PackageFolder trimmed to: 20241113133756
+11/13/2024 1:39:44 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:39:44 PM: Sucsses: ResourcesFolder set to: 20241113133756\6221117180292\resources
+11/13/2024 1:39:44 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:39:44 PM: Sucsses: MetadataFile path set to: 20241113133756\6221117180292\6221117180292.xml
+11/13/2024 1:39:44 PM: Sucsses: Final PackageFolder path: 86\20241113133756
+11/13/2024 1:39:44 PM: Sucsses: Final ResourcesFolder path: 86\20241113133756\6221117180292\resources
+11/13/2024 1:39:44 PM: Sucsses: Retrieved folder paths for package: 86
+11/13/2024 1:39:44 PM: Starting GetCover...
+11/13/2024 1:39:45 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/13/2024 1:39:45 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/13/2024 1:39:45 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\86\20241113133756\6221117180292\resources
+11/13/2024 1:39:45 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/13/2024 1:39:45 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\86\20241113133756\6221117180292\resources\6221117180292_T2.jpg
+11/13/2024 1:39:45 PM: Start Getting Media For package info: 86
+11/13/2024 1:39:46 PM: Media data generated successfully.
+11/13/2024 1:39:46 PM: Success: generated XML for package ID: 86
+11/13/2024 1:39:46 PM: Processing group with Album UPC: 6221117180544
+11/13/2024 1:39:46 PM: Starting GetFolderPaths...
+11/13/2024 1:39:46 PM: Sucsses: PackageFolder trimmed to: 20241113133756
+11/13/2024 1:39:46 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:39:46 PM: Sucsses: ResourcesFolder set to: 20241113133756\6221117180544\resources
+11/13/2024 1:39:46 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:39:46 PM: Sucsses: MetadataFile path set to: 20241113133756\6221117180544\6221117180544.xml
+11/13/2024 1:39:46 PM: Sucsses: Final PackageFolder path: 86\20241113133756
+11/13/2024 1:39:46 PM: Sucsses: Final ResourcesFolder path: 86\20241113133756\6221117180544\resources
+11/13/2024 1:39:46 PM: Sucsses: Retrieved folder paths for package: 86
+11/13/2024 1:39:46 PM: Starting GetCover...
+11/13/2024 1:39:46 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/13/2024 1:39:46 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/13/2024 1:39:46 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\86\20241113133756\6221117180544\resources
+11/13/2024 1:39:46 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/13/2024 1:39:46 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\86\20241113133756\6221117180544\resources\6221117180544_T2.jpg
+11/13/2024 1:39:46 PM: Start Getting Media For package info: 86
+11/13/2024 1:39:47 PM: Media data generated successfully.
+11/13/2024 1:39:47 PM: Success: generated XML for package ID: 86
+11/13/2024 1:39:47 PM: Processing group with Album UPC: 6221117180872
+11/13/2024 1:39:47 PM: Starting GetFolderPaths...
+11/13/2024 1:39:47 PM: Sucsses: PackageFolder trimmed to: 20241113133756
+11/13/2024 1:39:47 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:39:47 PM: Sucsses: ResourcesFolder set to: 20241113133756\6221117180872\resources
+11/13/2024 1:39:47 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:39:47 PM: Sucsses: MetadataFile path set to: 20241113133756\6221117180872\6221117180872.xml
+11/13/2024 1:39:47 PM: Sucsses: Final PackageFolder path: 86\20241113133756
+11/13/2024 1:39:47 PM: Sucsses: Final ResourcesFolder path: 86\20241113133756\6221117180872\resources
+11/13/2024 1:39:47 PM: Sucsses: Retrieved folder paths for package: 86
+11/13/2024 1:39:47 PM: Starting GetCover...
+11/13/2024 1:39:48 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/13/2024 1:39:48 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/13/2024 1:39:48 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\86\20241113133756\6221117180872\resources
+11/13/2024 1:39:48 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/13/2024 1:39:48 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\86\20241113133756\6221117180872\resources\6221117180872_T2.jpg
+11/13/2024 1:39:48 PM: Start Getting Media For package info: 86
+11/13/2024 1:39:49 PM: Media data generated successfully.
+11/13/2024 1:39:49 PM: Success: generated XML for package ID: 86
+11/13/2024 1:39:49 PM: Processing group with Album UPC: 6221117181398
+11/13/2024 1:39:49 PM: Starting GetFolderPaths...
+11/13/2024 1:39:49 PM: Sucsses: PackageFolder trimmed to: 20241113133756
+11/13/2024 1:39:49 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:39:49 PM: Sucsses: ResourcesFolder set to: 20241113133756\6221117181398\resources
+11/13/2024 1:39:49 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:39:49 PM: Sucsses: MetadataFile path set to: 20241113133756\6221117181398\6221117181398.xml
+11/13/2024 1:39:49 PM: Sucsses: Final PackageFolder path: 86\20241113133756
+11/13/2024 1:39:49 PM: Sucsses: Final ResourcesFolder path: 86\20241113133756\6221117181398\resources
+11/13/2024 1:39:49 PM: Sucsses: Retrieved folder paths for package: 86
+11/13/2024 1:39:49 PM: Starting GetCover...
+11/13/2024 1:39:49 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/13/2024 1:39:49 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/13/2024 1:39:49 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\86\20241113133756\6221117181398\resources
+11/13/2024 1:39:49 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/13/2024 1:39:49 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\86\20241113133756\6221117181398\resources\6221117181398_T2.jpg
+11/13/2024 1:39:49 PM: Start Getting Media For package info: 86
+11/13/2024 1:39:50 PM: Media data generated successfully.
+11/13/2024 1:39:50 PM: Success: generated XML for package ID: 86
+11/13/2024 1:39:50 PM: Processing group with Album UPC: 6221117181428
+11/13/2024 1:39:50 PM: Starting GetFolderPaths...
+11/13/2024 1:39:50 PM: Sucsses: PackageFolder trimmed to: 20241113133756
+11/13/2024 1:39:50 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:39:50 PM: Sucsses: ResourcesFolder set to: 20241113133756\6221117181428\resources
+11/13/2024 1:39:50 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:39:50 PM: Sucsses: MetadataFile path set to: 20241113133756\6221117181428\6221117181428.xml
+11/13/2024 1:39:50 PM: Sucsses: Final PackageFolder path: 86\20241113133756
+11/13/2024 1:39:50 PM: Sucsses: Final ResourcesFolder path: 86\20241113133756\6221117181428\resources
+11/13/2024 1:39:50 PM: Sucsses: Retrieved folder paths for package: 86
+11/13/2024 1:39:50 PM: Starting GetCover...
+11/13/2024 1:39:51 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/13/2024 1:39:51 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/13/2024 1:39:51 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\86\20241113133756\6221117181428\resources
+11/13/2024 1:39:51 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/13/2024 1:39:51 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\86\20241113133756\6221117181428\resources\6221117181428_T2.jpg
+11/13/2024 1:39:51 PM: Start Getting Media For package info: 86
+11/13/2024 1:39:52 PM: Media data generated successfully.
+11/13/2024 1:39:52 PM: Success: generated XML for package ID: 86
+11/13/2024 1:39:52 PM: Processing group with Album UPC: 6221117181442
+11/13/2024 1:39:52 PM: Starting GetFolderPaths...
+11/13/2024 1:39:52 PM: Sucsses: PackageFolder trimmed to: 20241113133756
+11/13/2024 1:39:52 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:39:52 PM: Sucsses: ResourcesFolder set to: 20241113133756\6221117181442\resources
+11/13/2024 1:39:52 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:39:52 PM: Sucsses: MetadataFile path set to: 20241113133756\6221117181442\6221117181442.xml
+11/13/2024 1:39:52 PM: Sucsses: Final PackageFolder path: 86\20241113133756
+11/13/2024 1:39:52 PM: Sucsses: Final ResourcesFolder path: 86\20241113133756\6221117181442\resources
+11/13/2024 1:39:52 PM: Sucsses: Retrieved folder paths for package: 86
+11/13/2024 1:39:52 PM: Starting GetCover...
+11/13/2024 1:39:53 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/13/2024 1:39:53 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/13/2024 1:39:53 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\86\20241113133756\6221117181442\resources
+11/13/2024 1:39:53 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/13/2024 1:39:53 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\86\20241113133756\6221117181442\resources\6221117181442_T2.jpg
+11/13/2024 1:39:53 PM: Start Getting Media For package info: 86
+11/13/2024 1:39:54 PM: Media data generated successfully.
+11/13/2024 1:39:54 PM: Success: generated XML for package ID: 86
+11/13/2024 1:46:01 PM: Starting XML generation for package ID: 84, Filename: Tidal_XML_Template.xml, Company: Tidal
+11/13/2024 1:46:01 PM: Success: fetched package info for ID: 84
+11/13/2024 1:46:01 PM: Processing group with Album UPC: 6221117026934
+11/13/2024 1:46:01 PM: Starting GetFolderPaths...
+11/13/2024 1:46:01 PM: Fetching package folder for company: Tidal
+11/13/2024 1:46:01 PM: Sucsses: PackageFolder set to: 20241113134601303
+11/13/2024 1:46:01 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:46:01 PM: Sucsses: ResourcesFolder set to: 20241113134601303\6221117026934\resources
+11/13/2024 1:46:01 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:46:01 PM: Sucsses: MetadataFile path set to: 20241113134601303\6221117026934\6221117026934.xml
+11/13/2024 1:46:01 PM: Sucsses: Final PackageFolder path: 84\20241113134601303
+11/13/2024 1:46:01 PM: Sucsses: Final ResourcesFolder path: 84\20241113134601303\6221117026934\resources
+11/13/2024 1:46:01 PM: Sucsses: Retrieved folder paths for package: 84
+11/13/2024 1:46:01 PM: Starting GetCover...
+11/13/2024 1:46:02 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117026934.jpg
+11/13/2024 1:46:02 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117026934.jpg
+11/13/2024 1:46:02 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\84\20241113134601303\6221117026934\resources
+11/13/2024 1:46:02 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117026934.jpg
+11/13/2024 1:46:02 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\84\20241113134601303\6221117026934\resources\6221117026934_T2.jpg
+11/13/2024 1:46:02 PM: Start Getting Media For package info: 84
+11/13/2024 1:46:03 PM: Media data generated successfully.
+11/13/2024 1:46:03 PM: Success: generated XML for package ID: 84
+11/13/2024 1:46:03 PM: Starting XML generation for package ID: 85, Filename: Tidal_XML_Template.xml, Company: Tidal
+11/13/2024 1:46:03 PM: Success: fetched package info for ID: 85
+11/13/2024 1:46:03 PM: Processing group with Album UPC: 6221117165909
+11/13/2024 1:46:03 PM: Starting GetFolderPaths...
+11/13/2024 1:46:03 PM: Sucsses: PackageFolder trimmed to: 20241113134601303
+11/13/2024 1:46:03 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:46:03 PM: Sucsses: ResourcesFolder set to: 20241113134601303\6221117165909\resources
+11/13/2024 1:46:03 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:46:03 PM: Sucsses: MetadataFile path set to: 20241113134601303\6221117165909\6221117165909.xml
+11/13/2024 1:46:03 PM: Sucsses: Final PackageFolder path: 85\20241113134601303
+11/13/2024 1:46:03 PM: Sucsses: Final ResourcesFolder path: 85\20241113134601303\6221117165909\resources
+11/13/2024 1:46:03 PM: Sucsses: Retrieved folder paths for package: 85
+11/13/2024 1:46:03 PM: Starting GetCover...
+11/13/2024 1:46:04 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/13/2024 1:46:04 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/13/2024 1:46:04 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\85\20241113134601303\6221117165909\resources
+11/13/2024 1:46:04 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/13/2024 1:46:04 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\85\20241113134601303\6221117165909\resources\6221117165909_T2.jpg
+11/13/2024 1:46:04 PM: Start Getting Media For package info: 85
+11/13/2024 1:46:05 PM: Media data generated successfully.
+11/13/2024 1:46:05 PM: Success: generated XML for package ID: 85
+11/13/2024 1:46:05 PM: Processing group with Album UPC: 6221117178930
+11/13/2024 1:46:05 PM: Starting GetFolderPaths...
+11/13/2024 1:46:05 PM: Sucsses: PackageFolder trimmed to: 20241113134601303
+11/13/2024 1:46:05 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:46:05 PM: Sucsses: ResourcesFolder set to: 20241113134601303\6221117178930\resources
+11/13/2024 1:46:05 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:46:05 PM: Sucsses: MetadataFile path set to: 20241113134601303\6221117178930\6221117178930.xml
+11/13/2024 1:46:05 PM: Sucsses: Final PackageFolder path: 85\20241113134601303
+11/13/2024 1:46:05 PM: Sucsses: Final ResourcesFolder path: 85\20241113134601303\6221117178930\resources
+11/13/2024 1:46:05 PM: Sucsses: Retrieved folder paths for package: 85
+11/13/2024 1:46:05 PM: Starting GetCover...
+11/13/2024 1:46:06 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/13/2024 1:46:06 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/13/2024 1:46:06 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\85\20241113134601303\6221117178930\resources
+11/13/2024 1:46:06 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/13/2024 1:46:06 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\85\20241113134601303\6221117178930\resources\6221117178930_T2.jpg
+11/13/2024 1:46:06 PM: Start Getting Media For package info: 85
+11/13/2024 1:46:07 PM: Media data generated successfully.
+11/13/2024 1:46:07 PM: Success: generated XML for package ID: 85
+11/13/2024 1:46:07 PM: Processing group with Album UPC: 6221117180292
+11/13/2024 1:46:07 PM: Starting GetFolderPaths...
+11/13/2024 1:46:07 PM: Sucsses: PackageFolder trimmed to: 20241113134601303
+11/13/2024 1:46:07 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:46:07 PM: Sucsses: ResourcesFolder set to: 20241113134601303\6221117180292\resources
+11/13/2024 1:46:07 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:46:07 PM: Sucsses: MetadataFile path set to: 20241113134601303\6221117180292\6221117180292.xml
+11/13/2024 1:46:07 PM: Sucsses: Final PackageFolder path: 85\20241113134601303
+11/13/2024 1:46:07 PM: Sucsses: Final ResourcesFolder path: 85\20241113134601303\6221117180292\resources
+11/13/2024 1:46:07 PM: Sucsses: Retrieved folder paths for package: 85
+11/13/2024 1:46:07 PM: Starting GetCover...
+11/13/2024 1:46:08 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/13/2024 1:46:08 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/13/2024 1:46:08 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\85\20241113134601303\6221117180292\resources
+11/13/2024 1:46:08 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/13/2024 1:46:08 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\85\20241113134601303\6221117180292\resources\6221117180292_T2.jpg
+11/13/2024 1:46:08 PM: Start Getting Media For package info: 85
+11/13/2024 1:46:10 PM: Media data generated successfully.
+11/13/2024 1:46:10 PM: Success: generated XML for package ID: 85
+11/13/2024 1:46:10 PM: Processing group with Album UPC: 6221117180544
+11/13/2024 1:46:10 PM: Starting GetFolderPaths...
+11/13/2024 1:46:10 PM: Sucsses: PackageFolder trimmed to: 20241113134601303
+11/13/2024 1:46:10 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:46:10 PM: Sucsses: ResourcesFolder set to: 20241113134601303\6221117180544\resources
+11/13/2024 1:46:10 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:46:10 PM: Sucsses: MetadataFile path set to: 20241113134601303\6221117180544\6221117180544.xml
+11/13/2024 1:46:10 PM: Sucsses: Final PackageFolder path: 85\20241113134601303
+11/13/2024 1:46:10 PM: Sucsses: Final ResourcesFolder path: 85\20241113134601303\6221117180544\resources
+11/13/2024 1:46:10 PM: Sucsses: Retrieved folder paths for package: 85
+11/13/2024 1:46:10 PM: Starting GetCover...
+11/13/2024 1:46:10 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/13/2024 1:46:10 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/13/2024 1:46:10 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\85\20241113134601303\6221117180544\resources
+11/13/2024 1:46:10 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/13/2024 1:46:10 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\85\20241113134601303\6221117180544\resources\6221117180544_T2.jpg
+11/13/2024 1:46:10 PM: Start Getting Media For package info: 85
+11/13/2024 1:46:12 PM: Media data generated successfully.
+11/13/2024 1:46:12 PM: Success: generated XML for package ID: 85
+11/13/2024 1:46:12 PM: Processing group with Album UPC: 6221117180872
+11/13/2024 1:46:12 PM: Starting GetFolderPaths...
+11/13/2024 1:46:12 PM: Sucsses: PackageFolder trimmed to: 20241113134601303
+11/13/2024 1:46:12 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:46:12 PM: Sucsses: ResourcesFolder set to: 20241113134601303\6221117180872\resources
+11/13/2024 1:46:12 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:46:12 PM: Sucsses: MetadataFile path set to: 20241113134601303\6221117180872\6221117180872.xml
+11/13/2024 1:46:12 PM: Sucsses: Final PackageFolder path: 85\20241113134601303
+11/13/2024 1:46:12 PM: Sucsses: Final ResourcesFolder path: 85\20241113134601303\6221117180872\resources
+11/13/2024 1:46:12 PM: Sucsses: Retrieved folder paths for package: 85
+11/13/2024 1:46:12 PM: Starting GetCover...
+11/13/2024 1:46:12 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/13/2024 1:46:12 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/13/2024 1:46:12 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\85\20241113134601303\6221117180872\resources
+11/13/2024 1:46:12 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/13/2024 1:46:12 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\85\20241113134601303\6221117180872\resources\6221117180872_T2.jpg
+11/13/2024 1:46:12 PM: Start Getting Media For package info: 85
+11/13/2024 1:46:14 PM: Media data generated successfully.
+11/13/2024 1:46:14 PM: Success: generated XML for package ID: 85
+11/13/2024 1:46:14 PM: Processing group with Album UPC: 6221117181398
+11/13/2024 1:46:14 PM: Starting GetFolderPaths...
+11/13/2024 1:46:14 PM: Sucsses: PackageFolder trimmed to: 20241113134601303
+11/13/2024 1:46:14 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:46:14 PM: Sucsses: ResourcesFolder set to: 20241113134601303\6221117181398\resources
+11/13/2024 1:46:14 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:46:14 PM: Sucsses: MetadataFile path set to: 20241113134601303\6221117181398\6221117181398.xml
+11/13/2024 1:46:14 PM: Sucsses: Final PackageFolder path: 85\20241113134601303
+11/13/2024 1:46:14 PM: Sucsses: Final ResourcesFolder path: 85\20241113134601303\6221117181398\resources
+11/13/2024 1:46:14 PM: Sucsses: Retrieved folder paths for package: 85
+11/13/2024 1:46:14 PM: Starting GetCover...
+11/13/2024 1:46:14 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/13/2024 1:46:14 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/13/2024 1:46:14 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\85\20241113134601303\6221117181398\resources
+11/13/2024 1:46:14 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/13/2024 1:46:14 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\85\20241113134601303\6221117181398\resources\6221117181398_T2.jpg
+11/13/2024 1:46:14 PM: Start Getting Media For package info: 85
+11/13/2024 1:46:16 PM: Media data generated successfully.
+11/13/2024 1:46:16 PM: Success: generated XML for package ID: 85
+11/13/2024 1:46:16 PM: Processing group with Album UPC: 6221117181428
+11/13/2024 1:46:16 PM: Starting GetFolderPaths...
+11/13/2024 1:46:16 PM: Sucsses: PackageFolder trimmed to: 20241113134601303
+11/13/2024 1:46:16 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:46:16 PM: Sucsses: ResourcesFolder set to: 20241113134601303\6221117181428\resources
+11/13/2024 1:46:16 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:46:16 PM: Sucsses: MetadataFile path set to: 20241113134601303\6221117181428\6221117181428.xml
+11/13/2024 1:46:16 PM: Sucsses: Final PackageFolder path: 85\20241113134601303
+11/13/2024 1:46:16 PM: Sucsses: Final ResourcesFolder path: 85\20241113134601303\6221117181428\resources
+11/13/2024 1:46:16 PM: Sucsses: Retrieved folder paths for package: 85
+11/13/2024 1:46:16 PM: Starting GetCover...
+11/13/2024 1:46:17 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/13/2024 1:46:17 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/13/2024 1:46:17 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\85\20241113134601303\6221117181428\resources
+11/13/2024 1:46:17 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/13/2024 1:46:17 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\85\20241113134601303\6221117181428\resources\6221117181428_T2.jpg
+11/13/2024 1:46:17 PM: Start Getting Media For package info: 85
+11/13/2024 1:46:18 PM: Media data generated successfully.
+11/13/2024 1:46:18 PM: Success: generated XML for package ID: 85
+11/13/2024 1:46:18 PM: Processing group with Album UPC: 6221117181442
+11/13/2024 1:46:18 PM: Starting GetFolderPaths...
+11/13/2024 1:46:18 PM: Sucsses: PackageFolder trimmed to: 20241113134601303
+11/13/2024 1:46:18 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:46:18 PM: Sucsses: ResourcesFolder set to: 20241113134601303\6221117181442\resources
+11/13/2024 1:46:18 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:46:18 PM: Sucsses: MetadataFile path set to: 20241113134601303\6221117181442\6221117181442.xml
+11/13/2024 1:46:18 PM: Sucsses: Final PackageFolder path: 85\20241113134601303
+11/13/2024 1:46:18 PM: Sucsses: Final ResourcesFolder path: 85\20241113134601303\6221117181442\resources
+11/13/2024 1:46:18 PM: Sucsses: Retrieved folder paths for package: 85
+11/13/2024 1:46:18 PM: Starting GetCover...
+11/13/2024 1:46:19 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/13/2024 1:46:19 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/13/2024 1:46:19 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\85\20241113134601303\6221117181442\resources
+11/13/2024 1:46:19 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/13/2024 1:46:19 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\85\20241113134601303\6221117181442\resources\6221117181442_T2.jpg
+11/13/2024 1:46:19 PM: Start Getting Media For package info: 85
+11/13/2024 1:58:11 PM: Starting XML generation for package ID: 86, Filename: Tidal_XML_Template.xml, Company: Tidal
+11/13/2024 1:58:11 PM: Success: fetched package info for ID: 86
+11/13/2024 1:58:11 PM: Processing group with Album UPC: 6221117165909
+11/13/2024 1:58:11 PM: Starting GetFolderPaths...
+11/13/2024 1:58:11 PM: Fetching package folder for company: Tidal
+11/13/2024 1:58:11 PM: Sucsses: PackageFolder set to: 20241113135800978
+11/13/2024 1:58:11 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:58:11 PM: Sucsses: ResourcesFolder set to: 20241113135800978\6221117165909\resources
+11/13/2024 1:58:11 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:58:11 PM: Sucsses: MetadataFile path set to: 20241113135800978\6221117165909\6221117165909.xml
+11/13/2024 1:58:11 PM: Sucsses: Final PackageFolder path: 86\20241113135800978
+11/13/2024 1:58:11 PM: Sucsses: Final ResourcesFolder path: 86\20241113135800978\6221117165909\resources
+11/13/2024 1:58:11 PM: Sucsses: Retrieved folder paths for package: 86
+11/13/2024 1:58:11 PM: Starting GetCover...
+11/13/2024 1:58:12 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/13/2024 1:58:12 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/13/2024 1:58:12 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\86\20241113135800978\6221117165909\resources
+11/13/2024 1:58:12 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117165909.jpg
+11/13/2024 1:58:12 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\86\20241113135800978\6221117165909\resources\6221117165909_T2.jpg
+11/13/2024 1:58:12 PM: Start Getting Media For package info: 86
+11/13/2024 1:58:13 PM: Media data generated successfully.
+11/13/2024 1:58:13 PM: Success: generated XML for package ID: 86
+11/13/2024 1:58:13 PM: Processing group with Album UPC: 6221117178930
+11/13/2024 1:58:13 PM: Starting GetFolderPaths...
+11/13/2024 1:58:13 PM: Sucsses: PackageFolder trimmed to: 20241113135800978
+11/13/2024 1:58:13 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:58:13 PM: Sucsses: ResourcesFolder set to: 20241113135800978\6221117178930\resources
+11/13/2024 1:58:13 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:58:13 PM: Sucsses: MetadataFile path set to: 20241113135800978\6221117178930\6221117178930.xml
+11/13/2024 1:58:13 PM: Sucsses: Final PackageFolder path: 86\20241113135800978
+11/13/2024 1:58:13 PM: Sucsses: Final ResourcesFolder path: 86\20241113135800978\6221117178930\resources
+11/13/2024 1:58:13 PM: Sucsses: Retrieved folder paths for package: 86
+11/13/2024 1:58:13 PM: Starting GetCover...
+11/13/2024 1:58:14 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/13/2024 1:58:14 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/13/2024 1:58:14 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\86\20241113135800978\6221117178930\resources
+11/13/2024 1:58:14 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117178930.jpg
+11/13/2024 1:58:14 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\86\20241113135800978\6221117178930\resources\6221117178930_T2.jpg
+11/13/2024 1:58:14 PM: Start Getting Media For package info: 86
+11/13/2024 1:58:16 PM: Media data generated successfully.
+11/13/2024 1:58:16 PM: Success: generated XML for package ID: 86
+11/13/2024 1:58:16 PM: Processing group with Album UPC: 6221117180292
+11/13/2024 1:58:16 PM: Starting GetFolderPaths...
+11/13/2024 1:58:16 PM: Sucsses: PackageFolder trimmed to: 20241113135800978
+11/13/2024 1:58:16 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:58:16 PM: Sucsses: ResourcesFolder set to: 20241113135800978\6221117180292\resources
+11/13/2024 1:58:16 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:58:16 PM: Sucsses: MetadataFile path set to: 20241113135800978\6221117180292\6221117180292.xml
+11/13/2024 1:58:16 PM: Sucsses: Final PackageFolder path: 86\20241113135800978
+11/13/2024 1:58:16 PM: Sucsses: Final ResourcesFolder path: 86\20241113135800978\6221117180292\resources
+11/13/2024 1:58:16 PM: Sucsses: Retrieved folder paths for package: 86
+11/13/2024 1:58:16 PM: Starting GetCover...
+11/13/2024 1:58:16 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/13/2024 1:58:16 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/13/2024 1:58:16 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\86\20241113135800978\6221117180292\resources
+11/13/2024 1:58:16 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180292.jpg
+11/13/2024 1:58:16 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\86\20241113135800978\6221117180292\resources\6221117180292_T2.jpg
+11/13/2024 1:58:16 PM: Start Getting Media For package info: 86
+11/13/2024 1:58:18 PM: Media data generated successfully.
+11/13/2024 1:58:18 PM: Success: generated XML for package ID: 86
+11/13/2024 1:58:18 PM: Processing group with Album UPC: 6221117180544
+11/13/2024 1:58:18 PM: Starting GetFolderPaths...
+11/13/2024 1:58:18 PM: Sucsses: PackageFolder trimmed to: 20241113135800978
+11/13/2024 1:58:18 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:58:18 PM: Sucsses: ResourcesFolder set to: 20241113135800978\6221117180544\resources
+11/13/2024 1:58:18 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:58:18 PM: Sucsses: MetadataFile path set to: 20241113135800978\6221117180544\6221117180544.xml
+11/13/2024 1:58:18 PM: Sucsses: Final PackageFolder path: 86\20241113135800978
+11/13/2024 1:58:18 PM: Sucsses: Final ResourcesFolder path: 86\20241113135800978\6221117180544\resources
+11/13/2024 1:58:18 PM: Sucsses: Retrieved folder paths for package: 86
+11/13/2024 1:58:18 PM: Starting GetCover...
+11/13/2024 1:58:19 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/13/2024 1:58:19 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/13/2024 1:58:19 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\86\20241113135800978\6221117180544\resources
+11/13/2024 1:58:19 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180544.jpg
+11/13/2024 1:58:19 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\86\20241113135800978\6221117180544\resources\6221117180544_T2.jpg
+11/13/2024 1:58:19 PM: Start Getting Media For package info: 86
+11/13/2024 1:58:20 PM: Media data generated successfully.
+11/13/2024 1:58:20 PM: Success: generated XML for package ID: 86
+11/13/2024 1:58:20 PM: Processing group with Album UPC: 6221117180872
+11/13/2024 1:58:20 PM: Starting GetFolderPaths...
+11/13/2024 1:58:20 PM: Sucsses: PackageFolder trimmed to: 20241113135800978
+11/13/2024 1:58:20 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:58:20 PM: Sucsses: ResourcesFolder set to: 20241113135800978\6221117180872\resources
+11/13/2024 1:58:20 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:58:20 PM: Sucsses: MetadataFile path set to: 20241113135800978\6221117180872\6221117180872.xml
+11/13/2024 1:58:20 PM: Sucsses: Final PackageFolder path: 86\20241113135800978
+11/13/2024 1:58:20 PM: Sucsses: Final ResourcesFolder path: 86\20241113135800978\6221117180872\resources
+11/13/2024 1:58:20 PM: Sucsses: Retrieved folder paths for package: 86
+11/13/2024 1:58:20 PM: Starting GetCover...
+11/13/2024 1:58:21 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/13/2024 1:58:21 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/13/2024 1:58:21 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\86\20241113135800978\6221117180872\resources
+11/13/2024 1:58:21 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117180872.jpg
+11/13/2024 1:58:21 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\86\20241113135800978\6221117180872\resources\6221117180872_T2.jpg
+11/13/2024 1:58:21 PM: Start Getting Media For package info: 86
+11/13/2024 1:58:22 PM: Media data generated successfully.
+11/13/2024 1:58:22 PM: Success: generated XML for package ID: 86
+11/13/2024 1:58:22 PM: Processing group with Album UPC: 6221117181398
+11/13/2024 1:58:22 PM: Starting GetFolderPaths...
+11/13/2024 1:58:22 PM: Sucsses: PackageFolder trimmed to: 20241113135800978
+11/13/2024 1:58:22 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:58:22 PM: Sucsses: ResourcesFolder set to: 20241113135800978\6221117181398\resources
+11/13/2024 1:58:22 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:58:22 PM: Sucsses: MetadataFile path set to: 20241113135800978\6221117181398\6221117181398.xml
+11/13/2024 1:58:22 PM: Sucsses: Final PackageFolder path: 86\20241113135800978
+11/13/2024 1:58:22 PM: Sucsses: Final ResourcesFolder path: 86\20241113135800978\6221117181398\resources
+11/13/2024 1:58:22 PM: Sucsses: Retrieved folder paths for package: 86
+11/13/2024 1:58:22 PM: Starting GetCover...
+11/13/2024 1:58:23 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/13/2024 1:58:23 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/13/2024 1:58:23 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\86\20241113135800978\6221117181398\resources
+11/13/2024 1:58:23 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181398.jpg
+11/13/2024 1:58:23 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\86\20241113135800978\6221117181398\resources\6221117181398_T2.jpg
+11/13/2024 1:58:23 PM: Start Getting Media For package info: 86
+11/13/2024 1:58:25 PM: Media data generated successfully.
+11/13/2024 1:58:25 PM: Success: generated XML for package ID: 86
+11/13/2024 1:58:25 PM: Processing group with Album UPC: 6221117181428
+11/13/2024 1:58:25 PM: Starting GetFolderPaths...
+11/13/2024 1:58:25 PM: Sucsses: PackageFolder trimmed to: 20241113135800978
+11/13/2024 1:58:25 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:58:25 PM: Sucsses: ResourcesFolder set to: 20241113135800978\6221117181428\resources
+11/13/2024 1:58:25 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:58:25 PM: Sucsses: MetadataFile path set to: 20241113135800978\6221117181428\6221117181428.xml
+11/13/2024 1:58:25 PM: Sucsses: Final PackageFolder path: 86\20241113135800978
+11/13/2024 1:58:25 PM: Sucsses: Final ResourcesFolder path: 86\20241113135800978\6221117181428\resources
+11/13/2024 1:58:25 PM: Sucsses: Retrieved folder paths for package: 86
+11/13/2024 1:58:25 PM: Starting GetCover...
+11/13/2024 1:58:25 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/13/2024 1:58:25 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/13/2024 1:58:25 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\86\20241113135800978\6221117181428\resources
+11/13/2024 1:58:25 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181428.jpg
+11/13/2024 1:58:25 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\86\20241113135800978\6221117181428\resources\6221117181428_T2.jpg
+11/13/2024 1:58:25 PM: Start Getting Media For package info: 86
+11/13/2024 1:58:27 PM: Media data generated successfully.
+11/13/2024 1:58:27 PM: Success: generated XML for package ID: 86
+11/13/2024 1:58:27 PM: Processing group with Album UPC: 6221117181442
+11/13/2024 1:58:27 PM: Starting GetFolderPaths...
+11/13/2024 1:58:27 PM: Sucsses: PackageFolder trimmed to: 20241113135800978
+11/13/2024 1:58:27 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:58:27 PM: Sucsses: ResourcesFolder set to: 20241113135800978\6221117181442\resources
+11/13/2024 1:58:27 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:58:27 PM: Sucsses: MetadataFile path set to: 20241113135800978\6221117181442\6221117181442.xml
+11/13/2024 1:58:27 PM: Sucsses: Final PackageFolder path: 86\20241113135800978
+11/13/2024 1:58:27 PM: Sucsses: Final ResourcesFolder path: 86\20241113135800978\6221117181442\resources
+11/13/2024 1:58:27 PM: Sucsses: Retrieved folder paths for package: 86
+11/13/2024 1:58:27 PM: Starting GetCover...
+11/13/2024 1:58:28 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/13/2024 1:58:28 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/13/2024 1:58:28 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\86\20241113135800978\6221117181442\resources
+11/13/2024 1:58:28 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117181442.jpg
+11/13/2024 1:58:28 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\86\20241113135800978\6221117181442\resources\6221117181442_T2.jpg
+11/13/2024 1:58:28 PM: Start Getting Media For package info: 86
+11/13/2024 1:58:29 PM: Media data generated successfully.
+11/13/2024 1:58:29 PM: Success: generated XML for package ID: 86
+11/13/2024 1:58:29 PM: Starting XML generation for package ID: 90, Filename: Tidal_XML_Template.xml, Company: Tidal
+11/13/2024 1:58:29 PM: Success: fetched package info for ID: 90
+11/13/2024 1:58:29 PM: Processing group with Album UPC: 6221117187253
+11/13/2024 1:58:29 PM: Starting GetFolderPaths...
+11/13/2024 1:58:29 PM: Sucsses: PackageFolder trimmed to: 20241113135800978
+11/13/2024 1:58:29 PM: Sucsses: Fetching resources folder for company: Tidal
+11/13/2024 1:58:29 PM: Sucsses: ResourcesFolder set to: 20241113135800978\6221117187253\resources
+11/13/2024 1:58:29 PM: Sucsses: Fetching metadata file path for company: Tidal
+11/13/2024 1:58:29 PM: Sucsses: MetadataFile path set to: 20241113135800978\6221117187253\6221117187253.xml
+11/13/2024 1:58:29 PM: Sucsses: Final PackageFolder path: 90\20241113135800978
+11/13/2024 1:58:29 PM: Sucsses: Final ResourcesFolder path: 90\20241113135800978\6221117187253\resources
+11/13/2024 1:58:29 PM: Sucsses: Retrieved folder paths for package: 90
+11/13/2024 1:58:29 PM: Starting GetCover...
+11/13/2024 1:58:30 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 1:58:30 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 1:58:30 PM: Sucsses: Created directory: C:\Pkg_Output\tidal\90\20241113135800978\6221117187253\resources
+11/13/2024 1:58:30 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 1:58:30 PM: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\90\20241113135800978\6221117187253\resources\6221117187253_T2.jpg
+11/13/2024 1:58:30 PM: Start Getting Media For package info: 90
+11/13/2024 1:58:32 PM: Media data generated successfully.
+11/13/2024 1:58:32 PM: Success: generated XML for package ID: 90
+11/13/2024 2:22:06 PM: Starting XML generation for package ID: 90, Filename: Apple_Music_XML_Template.xml, Company: Apple Music
+11/13/2024 2:22:06 PM: Success: fetched package info for ID: 90
+11/13/2024 2:22:06 PM: Processing group with Album UPC: 6221117187253
+11/13/2024 2:22:06 PM: Starting GetFolderPaths...
+11/13/2024 2:22:06 PM: Fetching package folder for company: Apple Music
+11/13/2024 2:22:06 PM: Sucsses: PackageFolder set to: 20241113142206089
+11/13/2024 2:22:06 PM: Sucsses: Fetching resources folder for company: Apple Music
+11/13/2024 2:22:06 PM: Sucsses: ResourcesFolder set to: 20241113142206089\6221117187253.itmsp
+11/13/2024 2:22:06 PM: Sucsses: Fetching metadata file path for company: Apple Music
+11/13/2024 2:22:06 PM: Sucsses: MetadataFile path set to: 20241113142206089\6221117187253.itmsp\metadata.xml
+11/13/2024 2:22:06 PM: Sucsses: Final PackageFolder path: 90\20241113142206089
+11/13/2024 2:22:06 PM: Sucsses: Final ResourcesFolder path: 90\20241113142206089\6221117187253.itmsp
+11/13/2024 2:22:06 PM: Sucsses: Retrieved folder paths for package: 90
+11/13/2024 2:22:06 PM: Starting GetCover...
+11/13/2024 2:22:14 PM: Starting XML generation for package ID: 90, Filename: Apple_Music_XML_Template.xml, Company: Apple Music
+11/13/2024 2:22:14 PM: Success: fetched package info for ID: 90
+11/13/2024 2:22:14 PM: Processing group with Album UPC: 6221117187253
+11/13/2024 2:22:14 PM: Starting GetFolderPaths...
+11/13/2024 2:22:14 PM: Fetching package folder for company: Apple Music
+11/13/2024 2:22:14 PM: Sucsses: PackageFolder set to: 20241113142210306
+11/13/2024 2:22:14 PM: Sucsses: Fetching resources folder for company: Apple Music
+11/13/2024 2:22:14 PM: Sucsses: ResourcesFolder set to: 20241113142210306\6221117187253.itmsp
+11/13/2024 2:22:14 PM: Sucsses: Fetching metadata file path for company: Apple Music
+11/13/2024 2:22:14 PM: Sucsses: MetadataFile path set to: 20241113142210306\6221117187253.itmsp\metadata.xml
+11/13/2024 2:22:14 PM: Sucsses: Final PackageFolder path: 90\20241113142210306
+11/13/2024 2:22:14 PM: Sucsses: Final ResourcesFolder path: 90\20241113142210306\6221117187253.itmsp
+11/13/2024 2:22:14 PM: Sucsses: Retrieved folder paths for package: 90
+11/13/2024 2:22:14 PM: Starting GetCover...
+11/13/2024 2:22:14 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 2:22:14 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 2:22:14 PM: Sucsses: Created directory: C:\Pkg_Output\apple music\@[ResourcesFolder]@
+11/13/2024 2:22:14 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 2:22:14 PM: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\@[ResourcesFolder]@\@[ALBUM_UPC]@.jpg
+11/13/2024 2:22:14 PM: Start Getting Media For package info: 90
+11/13/2024 2:22:16 PM: Media data generated successfully.
+11/13/2024 2:23:41 PM: Starting XML generation for package ID: 90, Filename: Apple_Music_XML_Template.xml, Company: Apple Music
+11/13/2024 2:23:41 PM: Success: fetched package info for ID: 90
+11/13/2024 2:23:41 PM: Processing group with Album UPC: 6221117187253
+11/13/2024 2:23:41 PM: Starting GetFolderPaths...
+11/13/2024 2:23:41 PM: Fetching package folder for company: Apple Music
+11/13/2024 2:23:41 PM: Sucsses: PackageFolder set to: 20241113142339132
+11/13/2024 2:23:41 PM: Sucsses: Fetching resources folder for company: Apple Music
+11/13/2024 2:23:41 PM: Sucsses: ResourcesFolder set to: 20241113142339132\6221117187253.itmsp
+11/13/2024 2:23:41 PM: Sucsses: Fetching metadata file path for company: Apple Music
+11/13/2024 2:23:41 PM: Sucsses: MetadataFile path set to: 20241113142339132\6221117187253.itmsp\metadata.xml
+11/13/2024 2:23:41 PM: Sucsses: Final PackageFolder path: 90\20241113142339132
+11/13/2024 2:23:41 PM: Sucsses: Final ResourcesFolder path: 90\20241113142339132\6221117187253.itmsp
+11/13/2024 2:23:41 PM: Sucsses: Retrieved folder paths for package: 90
+11/13/2024 2:23:41 PM: Starting GetCover...
+11/13/2024 2:23:42 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 2:23:42 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 2:23:42 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 2:23:42 PM: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\@[ResourcesFolder]@\@[ALBUM_UPC]@.jpg
+11/13/2024 2:23:42 PM: Start Getting Media For package info: 90
+11/13/2024 2:23:44 PM: Media data generated successfully.
+11/13/2024 2:24:33 PM: Starting XML generation for package ID: 90, Filename: Apple_Music_XML_Template.xml, Company: Apple Music
+11/13/2024 2:24:33 PM: Success: fetched package info for ID: 90
+11/13/2024 2:24:33 PM: Processing group with Album UPC: 6221117187253
+11/13/2024 2:24:33 PM: Starting GetFolderPaths...
+11/13/2024 2:24:33 PM: Fetching package folder for company: Apple Music
+11/13/2024 2:24:33 PM: Sucsses: PackageFolder set to: 20241113142430867
+11/13/2024 2:24:33 PM: Sucsses: Fetching resources folder for company: Apple Music
+11/13/2024 2:24:33 PM: Sucsses: ResourcesFolder set to: 20241113142430867\6221117187253.itmsp
+11/13/2024 2:24:33 PM: Sucsses: Fetching metadata file path for company: Apple Music
+11/13/2024 2:24:33 PM: Sucsses: MetadataFile path set to: 20241113142430867\6221117187253.itmsp\metadata.xml
+11/13/2024 2:24:33 PM: Sucsses: Final PackageFolder path: 90\20241113142430867
+11/13/2024 2:24:33 PM: Sucsses: Final ResourcesFolder path: 90\20241113142430867\6221117187253.itmsp
+11/13/2024 2:24:33 PM: Sucsses: Retrieved folder paths for package: 90
+11/13/2024 2:24:33 PM: Starting GetCover...
+11/13/2024 2:24:34 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 2:24:34 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 2:24:34 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 2:24:34 PM: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\@[ResourcesFolder]@\@[ALBUM_UPC]@.jpg
+11/13/2024 2:24:34 PM: Start Getting Media For package info: 90
+11/13/2024 2:24:36 PM: Media data generated successfully.
+11/13/2024 2:25:06 PM: Starting XML generation for package ID: 90, Filename: Apple_Music_XML_Template.xml, Company: Apple Music
+11/13/2024 2:25:06 PM: Success: fetched package info for ID: 90
+11/13/2024 2:25:06 PM: Processing group with Album UPC: 6221117187253
+11/13/2024 2:25:06 PM: Starting GetFolderPaths...
+11/13/2024 2:25:06 PM: Fetching package folder for company: Apple Music
+11/13/2024 2:25:06 PM: Sucsses: PackageFolder set to: 20241113142505907
+11/13/2024 2:25:06 PM: Sucsses: Fetching resources folder for company: Apple Music
+11/13/2024 2:25:06 PM: Sucsses: ResourcesFolder set to: 20241113142505907\6221117187253.itmsp
+11/13/2024 2:25:06 PM: Sucsses: Fetching metadata file path for company: Apple Music
+11/13/2024 2:25:06 PM: Sucsses: MetadataFile path set to: 20241113142505907\6221117187253.itmsp\metadata.xml
+11/13/2024 2:25:06 PM: Sucsses: Final PackageFolder path: 90\20241113142505907
+11/13/2024 2:25:06 PM: Sucsses: Final ResourcesFolder path: 90\20241113142505907\6221117187253.itmsp
+11/13/2024 2:25:06 PM: Sucsses: Retrieved folder paths for package: 90
+11/13/2024 2:25:06 PM: Starting GetCover...
+11/13/2024 2:25:06 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 2:25:06 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 2:25:06 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 2:25:06 PM: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\@[ResourcesFolder]@\@[ALBUM_UPC]@.jpg
+11/13/2024 2:25:06 PM: Start Getting Media For package info: 90
+11/13/2024 2:25:08 PM: Media data generated successfully.
+11/13/2024 2:25:08 PM: Error: generating XML for package: Could not find a part of the path C:\Pkg_Output\Apple Music\90\20241113142505907\6221117187253.itmsp\metadata.xml.
+11/13/2024 2:25:27 PM: Starting XML generation for package ID: 90, Filename: Apple_Music_XML_Template.xml, Company: Apple Music
+11/13/2024 2:25:27 PM: Success: fetched package info for ID: 90
+11/13/2024 2:25:27 PM: Processing group with Album UPC: 6221117187253
+11/13/2024 2:25:27 PM: Starting GetFolderPaths...
+11/13/2024 2:25:27 PM: Fetching package folder for company: Apple Music
+11/13/2024 2:25:27 PM: Sucsses: PackageFolder set to: 20241113142524331
+11/13/2024 2:25:27 PM: Sucsses: Fetching resources folder for company: Apple Music
+11/13/2024 2:25:27 PM: Sucsses: ResourcesFolder set to: 20241113142524331\6221117187253.itmsp
+11/13/2024 2:25:27 PM: Sucsses: Fetching metadata file path for company: Apple Music
+11/13/2024 2:25:27 PM: Sucsses: MetadataFile path set to: 20241113142524331\6221117187253.itmsp\metadata.xml
+11/13/2024 2:25:27 PM: Sucsses: Final PackageFolder path: 90\20241113142524331
+11/13/2024 2:25:27 PM: Sucsses: Final ResourcesFolder path: 90\20241113142524331\6221117187253.itmsp
+11/13/2024 2:25:27 PM: Sucsses: Retrieved folder paths for package: 90
+11/13/2024 2:25:27 PM: Starting GetCover...
+11/13/2024 2:25:27 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 2:25:27 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 2:25:27 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 2:25:27 PM: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\@[ResourcesFolder]@\@[ALBUM_UPC]@.jpg
+11/13/2024 2:25:27 PM: Start Getting Media For package info: 90
+11/13/2024 2:25:29 PM: Media data generated successfully.
+11/13/2024 2:25:51 PM: Error: generating XML for package: Could not find a part of the path C:\Pkg_Output\Apple Music\90\20241113142524331\6221117187253.itmsp\metadata.xml.
+11/13/2024 2:28:25 PM: Starting XML generation for package ID: 90, Filename: Apple_Music_XML_Template.xml, Company: Apple Music
+11/13/2024 2:28:25 PM: Success: fetched package info for ID: 90
+11/13/2024 2:28:25 PM: Processing group with Album UPC: 6221117187253
+11/13/2024 2:28:25 PM: Starting GetFolderPaths...
+11/13/2024 2:28:25 PM: Fetching package folder for company: Apple Music
+11/13/2024 2:28:25 PM: Sucsses: PackageFolder set to: 20241113142755772
+11/13/2024 2:28:25 PM: Sucsses: Fetching resources folder for company: Apple Music
+11/13/2024 2:28:25 PM: Sucsses: ResourcesFolder set to: 20241113142755772\6221117187253.itmsp
+11/13/2024 2:28:25 PM: Sucsses: Fetching metadata file path for company: Apple Music
+11/13/2024 2:28:25 PM: Sucsses: MetadataFile path set to: 20241113142755772\6221117187253.itmsp\metadata.xml
+11/13/2024 2:28:25 PM: Sucsses: Final PackageFolder path: 90\20241113142755772
+11/13/2024 2:28:25 PM: Sucsses: Final ResourcesFolder path: 90\20241113142755772\6221117187253.itmsp
+11/13/2024 2:28:25 PM: Sucsses: Retrieved folder paths for package: 90
+11/13/2024 2:28:25 PM: Starting GetCover...
+11/13/2024 2:28:26 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 2:28:26 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 2:28:26 PM: Sucsses: Created directory: C:\Pkg_Output\apple music\90\20241113142755772\6221117187253.itmsp
+11/13/2024 2:28:26 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 2:28:26 PM: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\90\20241113142755772\6221117187253.itmsp\6221117187253.jpg
+11/13/2024 2:28:26 PM: Start Getting Media For package info: 90
+11/13/2024 2:28:28 PM: Media data generated successfully.
+11/13/2024 2:28:28 PM: Success: generated XML for package ID: 90
+11/13/2024 2:38:24 PM: Starting XML generation for package ID: 90, Filename: Apple_Music_XML_Template.xml, Company: Apple Music
+11/13/2024 2:38:24 PM: Success: fetched package info for ID: 90
+11/13/2024 2:38:24 PM: Processing group with Album UPC: 6221117187253
+11/13/2024 2:38:24 PM: Starting GetFolderPaths...
+11/13/2024 2:38:24 PM: Fetching package folder for company: Apple Music
+11/13/2024 2:38:24 PM: Sucsses: PackageFolder set to: 20241113143824752
+11/13/2024 2:38:24 PM: Sucsses: Fetching resources folder for company: Apple Music
+11/13/2024 2:38:24 PM: Sucsses: ResourcesFolder set to: 20241113143824752\6221117187253.itmsp
+11/13/2024 2:38:24 PM: Sucsses: Fetching metadata file path for company: Apple Music
+11/13/2024 2:38:24 PM: Sucsses: MetadataFile path set to: 20241113143824752\6221117187253.itmsp\metadata.xml
+11/13/2024 2:38:24 PM: Sucsses: Final PackageFolder path: 90\20241113143824752
+11/13/2024 2:38:24 PM: Sucsses: Final ResourcesFolder path: 90\20241113143824752\6221117187253.itmsp
+11/13/2024 2:38:24 PM: Sucsses: Retrieved folder paths for package: 90
+11/13/2024 2:38:24 PM: Starting GetCover...
+11/13/2024 2:38:25 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 2:38:25 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 2:38:25 PM: Sucsses: Created directory: C:\Pkg_Output\apple music\90\20241113143824752\6221117187253.itmsp
+11/13/2024 2:38:25 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 2:38:25 PM: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\90\20241113143824752\6221117187253.itmsp\6221117187253.jpg
+11/13/2024 2:38:25 PM: Start Getting Media For package info: 90
+11/13/2024 2:38:27 PM: Media data generated successfully.
+11/13/2024 2:38:27 PM: Success: generated XML for package ID: 90
+11/13/2024 2:39:24 PM: Starting XML generation for package ID: 90, Filename: Apple_Music_XML_Template.xml, Company: Apple Music
+11/13/2024 2:39:24 PM: Success: fetched package info for ID: 90
+11/13/2024 2:39:24 PM: Processing group with Album UPC: 6221117187253
+11/13/2024 2:39:24 PM: Starting GetFolderPaths...
+11/13/2024 2:39:24 PM: Sucsses: PackageFolder trimmed to: 20241113143824752
+11/13/2024 2:39:24 PM: Sucsses: Fetching resources folder for company: Apple Music
+11/13/2024 2:39:24 PM: Sucsses: ResourcesFolder set to: 20241113143824752\6221117187253.itmsp
+11/13/2024 2:39:24 PM: Sucsses: Fetching metadata file path for company: Apple Music
+11/13/2024 2:39:24 PM: Sucsses: MetadataFile path set to: 20241113143824752\6221117187253.itmsp\metadata.xml
+11/13/2024 2:39:24 PM: Sucsses: Final PackageFolder path: 90\20241113143824752
+11/13/2024 2:39:24 PM: Sucsses: Final ResourcesFolder path: 90\20241113143824752\6221117187253.itmsp
+11/13/2024 2:39:24 PM: Sucsses: Retrieved folder paths for package: 90
+11/13/2024 2:39:24 PM: Starting GetCover...
+11/13/2024 2:39:25 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 2:39:25 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 2:39:25 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 2:39:25 PM: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\90\20241113143824752\6221117187253.itmsp\6221117187253.jpg
+11/13/2024 2:39:25 PM: Start Getting Media For package info: 90
+11/13/2024 2:39:27 PM: Media data generated successfully.
+11/13/2024 2:39:27 PM: Success: generated XML for package ID: 90
+11/13/2024 2:39:46 PM: Starting XML generation for package ID: 90, Filename: Apple_Music_XML_Template.xml, Company: Apple Music
+11/13/2024 2:39:46 PM: Success: fetched package info for ID: 90
+11/13/2024 2:39:46 PM: Processing group with Album UPC: 6221117187253
+11/13/2024 2:39:46 PM: Starting GetFolderPaths...
+11/13/2024 2:39:46 PM: Fetching package folder for company: Apple Music
+11/13/2024 2:39:46 PM: Sucsses: PackageFolder set to: 20241113143946647
+11/13/2024 2:39:46 PM: Sucsses: Fetching resources folder for company: Apple Music
+11/13/2024 2:39:46 PM: Sucsses: ResourcesFolder set to: 20241113143946647\6221117187253.itmsp
+11/13/2024 2:39:46 PM: Sucsses: Fetching metadata file path for company: Apple Music
+11/13/2024 2:39:46 PM: Sucsses: MetadataFile path set to: 20241113143946647\6221117187253.itmsp\metadata.xml
+11/13/2024 2:39:46 PM: Sucsses: Final PackageFolder path: 90\20241113143946647
+11/13/2024 2:39:46 PM: Sucsses: Final ResourcesFolder path: 90\20241113143946647\6221117187253.itmsp
+11/13/2024 2:39:46 PM: Sucsses: Retrieved folder paths for package: 90
+11/13/2024 2:39:46 PM: Starting GetCover...
+11/13/2024 2:39:47 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 2:39:47 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 2:39:47 PM: Sucsses: Created directory: C:\Pkg_Output\apple music\90\20241113143946647\6221117187253.itmsp
+11/13/2024 2:39:47 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117187253.jpg
+11/13/2024 2:39:47 PM: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\90\20241113143946647\6221117187253.itmsp\6221117187253.jpg
+11/13/2024 2:39:47 PM: Start Getting Media For package info: 90
+11/13/2024 2:39:49 PM: Media data generated successfully.
+11/13/2024 2:39:49 PM: Success: generated XML for package ID: 90
+11/13/2024 4:34:04 PM: Starting XML generation for package ID: 68, Filename: Deezer_XML_Template.xml, Company: Deezer
+11/13/2024 4:34:04 PM: Success: fetched package info for ID: 68
+11/13/2024 4:34:04 PM: Processing group with Album UPC: 6221117074911
+11/13/2024 4:34:04 PM: Starting GetFolderPaths...
+11/13/2024 4:34:04 PM: Fetching package folder for company: Deezer
+11/13/2024 4:34:04 PM: Sucsses: PackageFolder set to: batch_20241113163404
+11/13/2024 4:34:04 PM: Sucsses: Fetching resources folder for company: Deezer
+11/13/2024 4:34:04 PM: Sucsses: ResourcesFolder set to: batch_20241113163404\6221117074911
+11/13/2024 4:34:04 PM: Sucsses: Fetching metadata file path for company: Deezer
+11/13/2024 4:34:04 PM: Sucsses: MetadataFile path set to: batch_20241113163404\6221117074911\6221117074911.xml
+11/13/2024 4:34:04 PM: Sucsses: Final PackageFolder path: 68\batch_20241113163404
+11/13/2024 4:34:04 PM: Sucsses: Final ResourcesFolder path: 68\batch_20241113163404\6221117074911
+11/13/2024 4:34:04 PM: Sucsses: Retrieved folder paths for package: 68
+11/13/2024 4:34:04 PM: Starting GetCover...
+11/13/2024 4:34:05 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117074911.jpg
+11/13/2024 4:34:05 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117074911.jpg
+11/13/2024 4:34:05 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117074911.jpg
+11/13/2024 4:34:05 PM: Sucsses: Copied cover file to: C:\Pkg_Output\deezer\@[PackageFolder]@\@[ALBUM_UPC]@\@[ALBUM_UPC]@.jpg
+11/13/2024 4:34:05 PM: Start Getting Media For package info: 68
+11/13/2024 4:34:07 PM: Media data generated successfully.
+11/13/2024 4:34:07 PM: Error: generating XML for package: <input>(125,45) : error : Cannot get the member asset.track_featured_artist_list_string for a null object.
+11/13/2024 4:35:18 PM: Starting XML generation for package ID: 68, Filename: Deezer_XML_Template.xml, Company: Deezer
+11/13/2024 4:35:18 PM: Success: fetched package info for ID: 68
+11/13/2024 4:35:18 PM: Processing group with Album UPC: 6221117074911
+11/13/2024 4:35:18 PM: Starting GetFolderPaths...
+11/13/2024 4:35:18 PM: Fetching package folder for company: Deezer
+11/13/2024 4:35:18 PM: Sucsses: PackageFolder set to: batch_20241113163518
+11/13/2024 4:35:18 PM: Sucsses: Fetching resources folder for company: Deezer
+11/13/2024 4:35:18 PM: Sucsses: ResourcesFolder set to: batch_20241113163518\6221117074911
+11/13/2024 4:35:18 PM: Sucsses: Fetching metadata file path for company: Deezer
+11/13/2024 4:35:18 PM: Sucsses: MetadataFile path set to: batch_20241113163518\6221117074911\6221117074911.xml
+11/13/2024 4:35:18 PM: Sucsses: Final PackageFolder path: 68\batch_20241113163518
+11/13/2024 4:35:18 PM: Sucsses: Final ResourcesFolder path: 68\batch_20241113163518\6221117074911
+11/13/2024 4:35:18 PM: Sucsses: Retrieved folder paths for package: 68
+11/13/2024 4:35:18 PM: Starting GetCover...
+11/13/2024 4:35:19 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117074911.jpg
+11/13/2024 4:35:19 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117074911.jpg
+11/13/2024 4:35:19 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117074911.jpg
+11/13/2024 4:35:19 PM: Sucsses: Copied cover file to: C:\Pkg_Output\deezer\@[PackageFolder]@\@[ALBUM_UPC]@\@[ALBUM_UPC]@.jpg
+11/13/2024 4:35:19 PM: Start Getting Media For package info: 68
+11/13/2024 4:35:20 PM: Media data generated successfully.
+11/13/2024 4:35:20 PM: Error: generating XML for package: <input>(125,45) : error : Cannot get the member asset.track_featured_artist_list_string for a null object.
+11/13/2024 4:35:43 PM: Starting XML generation for package ID: 68, Filename: Deezer_XML_Template.xml, Company: Deezer
+11/13/2024 4:35:43 PM: Success: fetched package info for ID: 68
+11/13/2024 4:35:43 PM: Processing group with Album UPC: 6221117074911
+11/13/2024 4:35:43 PM: Starting GetFolderPaths...
+11/13/2024 4:35:43 PM: Fetching package folder for company: Deezer
+11/13/2024 4:35:43 PM: Sucsses: PackageFolder set to: batch_20241113163543
+11/13/2024 4:35:43 PM: Sucsses: Fetching resources folder for company: Deezer
+11/13/2024 4:35:43 PM: Sucsses: ResourcesFolder set to: batch_20241113163543\6221117074911
+11/13/2024 4:35:43 PM: Sucsses: Fetching metadata file path for company: Deezer
+11/13/2024 4:35:43 PM: Sucsses: MetadataFile path set to: batch_20241113163543\6221117074911\6221117074911.xml
+11/13/2024 4:35:43 PM: Sucsses: Final PackageFolder path: 68\batch_20241113163543
+11/13/2024 4:35:43 PM: Sucsses: Final ResourcesFolder path: 68\batch_20241113163543\6221117074911
+11/13/2024 4:35:43 PM: Sucsses: Retrieved folder paths for package: 68
+11/13/2024 4:35:43 PM: Starting GetCover...
+11/13/2024 4:35:44 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117074911.jpg
+11/13/2024 4:35:44 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117074911.jpg
+11/13/2024 4:35:44 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117074911.jpg
+11/13/2024 4:35:44 PM: Sucsses: Copied cover file to: C:\Pkg_Output\deezer\@[PackageFolder]@\@[ALBUM_UPC]@\@[ALBUM_UPC]@.jpg
+11/13/2024 4:35:44 PM: Start Getting Media For package info: 68
+11/13/2024 4:35:46 PM: Media data generated successfully.
+11/13/2024 4:35:46 PM: Error: generating XML for package: <input>(125,45) : error : Cannot get the member asset.track_featured_artist_list_string for a null object.
+11/13/2024 4:36:31 PM: Starting XML generation for package ID: 68, Filename: Deezer_XML_Template.xml, Company: Deezer
+11/13/2024 4:36:31 PM: Success: fetched package info for ID: 68
+11/13/2024 4:36:31 PM: Processing group with Album UPC: 6221117074911
+11/13/2024 4:36:31 PM: Starting GetFolderPaths...
+11/13/2024 4:36:31 PM: Fetching package folder for company: Deezer
+11/13/2024 4:36:31 PM: Sucsses: PackageFolder set to: batch_20241113163631
+11/13/2024 4:36:31 PM: Sucsses: Fetching resources folder for company: Deezer
+11/13/2024 4:36:31 PM: Sucsses: ResourcesFolder set to: batch_20241113163631\6221117074911
+11/13/2024 4:36:31 PM: Sucsses: Fetching metadata file path for company: Deezer
+11/13/2024 4:36:31 PM: Sucsses: MetadataFile path set to: batch_20241113163631\6221117074911\6221117074911.xml
+11/13/2024 4:36:31 PM: Sucsses: Final PackageFolder path: 68\batch_20241113163631
+11/13/2024 4:36:31 PM: Sucsses: Final ResourcesFolder path: 68\batch_20241113163631\6221117074911
+11/13/2024 4:36:31 PM: Sucsses: Retrieved folder paths for package: 68
+11/13/2024 4:36:31 PM: Starting GetCover...
+11/13/2024 4:36:32 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117074911.jpg
+11/13/2024 4:36:32 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117074911.jpg
+11/13/2024 4:36:32 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117074911.jpg
+11/13/2024 4:36:32 PM: Sucsses: Copied cover file to: C:\Pkg_Output\deezer\@[PackageFolder]@\@[ALBUM_UPC]@\@[ALBUM_UPC]@.jpg
+11/13/2024 4:36:32 PM: Start Getting Media For package info: 68
+11/13/2024 4:36:33 PM: Media data generated successfully.
+11/13/2024 4:37:59 PM: Error: generating XML for package: <input>(125,45) : error : Cannot get the member asset.track_featured_artist_list_string for a null object.
+11/13/2024 4:40:15 PM: Starting XML generation for package ID: 68, Filename: Deezer_XML_Template.xml, Company: Deezer
+11/13/2024 4:40:15 PM: Success: fetched package info for ID: 68
+11/13/2024 4:40:15 PM: Processing group with Album UPC: 6221117074911
+11/13/2024 4:40:15 PM: Starting GetFolderPaths...
+11/13/2024 4:40:15 PM: Fetching package folder for company: Deezer
+11/13/2024 4:40:15 PM: Sucsses: PackageFolder set to: batch_20241113164014
+11/13/2024 4:40:15 PM: Sucsses: Fetching resources folder for company: Deezer
+11/13/2024 4:40:15 PM: Sucsses: ResourcesFolder set to: batch_20241113164014\6221117074911
+11/13/2024 4:40:15 PM: Sucsses: Fetching metadata file path for company: Deezer
+11/13/2024 4:40:15 PM: Sucsses: MetadataFile path set to: batch_20241113164014\6221117074911\6221117074911.xml
+11/13/2024 4:40:15 PM: Sucsses: Final PackageFolder path: 68\batch_20241113164014
+11/13/2024 4:40:15 PM: Sucsses: Final ResourcesFolder path: 68\batch_20241113164014\6221117074911
+11/13/2024 4:40:15 PM: Sucsses: Retrieved folder paths for package: 68
+11/13/2024 4:40:15 PM: Starting GetCover...
+11/13/2024 4:40:15 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117074911.jpg
+11/13/2024 4:40:15 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117074911.jpg
+11/13/2024 4:40:15 PM: Sucsses: Created directory: C:\Pkg_Output\deezer\68\batch_20241113164014\6221117074911
+11/13/2024 4:40:15 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117074911.jpg
+11/13/2024 4:40:15 PM: Sucsses: Copied cover file to: C:\Pkg_Output\deezer\68\batch_20241113164014\6221117074911\6221117074911.jpg
+11/13/2024 4:40:15 PM: Start Getting Media For package info: 68
+11/13/2024 4:40:17 PM: Media data generated successfully.
+11/13/2024 4:40:17 PM: Error: generating XML for package: <input>(125,45) : error : Cannot get the member asset.track_featured_artist_list_string for a null object.
+11/13/2024 4:41:05 PM: Starting XML generation for package ID: 68, Filename: Deezer_XML_Template.xml, Company: Deezer
+11/13/2024 4:41:05 PM: Success: fetched package info for ID: 68
+11/13/2024 4:41:05 PM: Processing group with Album UPC: 6221117074911
+11/13/2024 4:41:05 PM: Starting GetFolderPaths...
+11/13/2024 4:41:05 PM: Fetching package folder for company: Deezer
+11/13/2024 4:41:05 PM: Sucsses: PackageFolder set to: batch_20241113164105
+11/13/2024 4:41:05 PM: Sucsses: Fetching resources folder for company: Deezer
+11/13/2024 4:41:05 PM: Sucsses: ResourcesFolder set to: batch_20241113164105\6221117074911
+11/13/2024 4:41:05 PM: Sucsses: Fetching metadata file path for company: Deezer
+11/13/2024 4:41:05 PM: Sucsses: MetadataFile path set to: batch_20241113164105\6221117074911\6221117074911.xml
+11/13/2024 4:41:05 PM: Sucsses: Final PackageFolder path: 68\batch_20241113164105
+11/13/2024 4:41:05 PM: Sucsses: Final ResourcesFolder path: 68\batch_20241113164105\6221117074911
+11/13/2024 4:41:05 PM: Sucsses: Retrieved folder paths for package: 68
+11/13/2024 4:41:05 PM: Starting GetCover...
+11/13/2024 4:41:06 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117074911.jpg
+11/13/2024 4:41:06 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117074911.jpg
+11/13/2024 4:41:06 PM: Sucsses: Created directory: C:\Pkg_Output\deezer\68\batch_20241113164105\6221117074911
+11/13/2024 4:41:06 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117074911.jpg
+11/13/2024 4:41:06 PM: Sucsses: Copied cover file to: C:\Pkg_Output\deezer\68\batch_20241113164105\6221117074911\6221117074911.jpg
+11/13/2024 4:41:06 PM: Start Getting Media For package info: 68
+11/13/2024 4:41:07 PM: Media data generated successfully.
+11/13/2024 4:41:07 PM: Success: generated XML for package ID: 68

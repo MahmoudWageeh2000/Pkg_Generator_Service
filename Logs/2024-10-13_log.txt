@@ -1,0 +1,1994 @@
+10/13/2024 1:17:09 PM: Starting XML generation for package ID: 62, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+10/13/2024 1:17:09 PM: Success: fetched package info for ID: 62
+10/13/2024 1:17:09 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 1:17:09 PM: Starting GetFolderPaths...
+10/13/2024 1:17:09 PM: Fetching package folder for company: Spotify
+10/13/2024 1:17:09 PM: Sucsses: PackageFolder set to: 20241013131709629
+10/13/2024 1:17:09 PM: Sucsses: Fetching resources folder for company: Spotify
+10/13/2024 1:17:09 PM: Sucsses: ResourcesFolder set to: 20241013131709629\9681001016552\resources
+10/13/2024 1:17:09 PM: Sucsses: Fetching metadata file path for company: Spotify
+10/13/2024 1:17:09 PM: Sucsses: MetadataFile path set to: 20241013131709629\9681001016552\9681001016552.xml
+10/13/2024 1:17:09 PM: Sucsses: Final PackageFolder path: 62\20241013131709629
+10/13/2024 1:17:09 PM: Sucsses: Final ResourcesFolder path: 62\20241013131709629\9681001016552\resources
+10/13/2024 1:17:09 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 1:17:09 PM: Starting GetCover...
+10/13/2024 1:17:10 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:17:10 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:17:10 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\62\20241013131709629\9681001016552\resources
+10/13/2024 1:17:10 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:17:10 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013131709629\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:17:10 PM: Start Getting Media For package info: 62
+10/13/2024 1:17:12 PM: Starting GetCover...
+10/13/2024 1:17:12 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:17:12 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:17:13 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:17:13 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013131709629\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:17:13 PM: Start Getting Media For package info: 62
+10/13/2024 1:17:14 PM: Starting GetCover...
+10/13/2024 1:17:15 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:17:15 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:17:15 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:17:15 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013131709629\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:17:15 PM: Start Getting Media For package info: 62
+10/13/2024 1:17:17 PM: Starting GetCover...
+10/13/2024 1:17:18 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:17:18 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:17:18 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:17:18 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013131709629\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:17:18 PM: Start Getting Media For package info: 62
+10/13/2024 1:17:20 PM: Starting GetCover...
+10/13/2024 1:17:21 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:17:21 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:17:21 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:17:21 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013131709629\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:17:21 PM: Start Getting Media For package info: 62
+10/13/2024 1:17:22 PM: Starting GetCover...
+10/13/2024 1:17:23 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:17:23 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:17:23 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:17:23 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013131709629\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:17:23 PM: Start Getting Media For package info: 62
+10/13/2024 1:17:25 PM: Media data generated successfully.
+10/13/2024 1:17:25 PM: Error: generating XML for package: Column country_iso_code_ar does not belong to table .
+10/13/2024 1:17:25 PM: Critical error: Object reference not set to an instance of an object.
+10/13/2024 1:20:31 PM: Starting XML generation for package ID: 62, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+10/13/2024 1:20:31 PM: Success: fetched package info for ID: 62
+10/13/2024 1:20:31 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 1:20:31 PM: Starting GetFolderPaths...
+10/13/2024 1:20:31 PM: Fetching package folder for company: Spotify
+10/13/2024 1:20:31 PM: Sucsses: PackageFolder set to: 20241013132031860
+10/13/2024 1:20:31 PM: Sucsses: Fetching resources folder for company: Spotify
+10/13/2024 1:20:31 PM: Sucsses: ResourcesFolder set to: 20241013132031860\9681001016552\resources
+10/13/2024 1:20:31 PM: Sucsses: Fetching metadata file path for company: Spotify
+10/13/2024 1:20:31 PM: Sucsses: MetadataFile path set to: 20241013132031860\9681001016552\9681001016552.xml
+10/13/2024 1:20:31 PM: Sucsses: Final PackageFolder path: 62\20241013132031860
+10/13/2024 1:20:31 PM: Sucsses: Final ResourcesFolder path: 62\20241013132031860\9681001016552\resources
+10/13/2024 1:20:31 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 1:20:31 PM: Starting GetCover...
+10/13/2024 1:20:32 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:20:32 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:20:32 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\62\20241013132031860\9681001016552\resources
+10/13/2024 1:20:32 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:20:32 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013132031860\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:20:32 PM: Start Getting Media For package info: 62
+10/13/2024 1:20:34 PM: Starting GetCover...
+10/13/2024 1:20:35 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:20:35 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:20:35 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:20:35 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013132031860\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:20:35 PM: Start Getting Media For package info: 62
+10/13/2024 1:20:37 PM: Starting GetCover...
+10/13/2024 1:20:37 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:20:37 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:20:37 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:20:37 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013132031860\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:20:37 PM: Start Getting Media For package info: 62
+10/13/2024 1:20:39 PM: Starting GetCover...
+10/13/2024 1:20:40 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:20:40 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:20:40 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:20:40 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013132031860\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:20:40 PM: Start Getting Media For package info: 62
+10/13/2024 1:20:42 PM: Starting GetCover...
+10/13/2024 1:20:43 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:20:43 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:20:43 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:20:43 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013132031860\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:20:43 PM: Start Getting Media For package info: 62
+10/13/2024 1:20:45 PM: Starting GetCover...
+10/13/2024 1:20:46 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:20:46 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:20:46 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:20:46 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013132031860\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:20:46 PM: Start Getting Media For package info: 62
+10/13/2024 1:20:48 PM: Media data generated successfully.
+10/13/2024 1:20:48 PM: Error: generating XML for package: Column track_featured_artist_ar does not belong to table .
+10/13/2024 1:20:48 PM: Critical error: Object reference not set to an instance of an object.
+10/13/2024 1:23:33 PM: Starting XML generation for package ID: 62, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+10/13/2024 1:23:33 PM: Success: fetched package info for ID: 62
+10/13/2024 1:23:33 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 1:23:33 PM: Starting GetFolderPaths...
+10/13/2024 1:23:33 PM: Fetching package folder for company: Spotify
+10/13/2024 1:23:33 PM: Sucsses: PackageFolder set to: 20241013132333183
+10/13/2024 1:23:33 PM: Sucsses: Fetching resources folder for company: Spotify
+10/13/2024 1:23:33 PM: Sucsses: ResourcesFolder set to: 20241013132333183\9681001016552\resources
+10/13/2024 1:23:33 PM: Sucsses: Fetching metadata file path for company: Spotify
+10/13/2024 1:23:33 PM: Sucsses: MetadataFile path set to: 20241013132333183\9681001016552\9681001016552.xml
+10/13/2024 1:23:33 PM: Sucsses: Final PackageFolder path: 62\20241013132333183
+10/13/2024 1:23:33 PM: Sucsses: Final ResourcesFolder path: 62\20241013132333183\9681001016552\resources
+10/13/2024 1:23:33 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 1:23:33 PM: Starting GetCover...
+10/13/2024 1:23:34 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:23:34 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:23:34 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\62\20241013132333183\9681001016552\resources
+10/13/2024 1:23:34 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:23:34 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013132333183\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:23:34 PM: Start Getting Media For package info: 62
+10/13/2024 1:23:36 PM: Starting GetCover...
+10/13/2024 1:23:36 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:23:36 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:23:36 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:23:36 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013132333183\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:23:36 PM: Start Getting Media For package info: 62
+10/13/2024 1:23:39 PM: Starting GetCover...
+10/13/2024 1:23:39 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:23:39 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:23:39 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:23:39 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013132333183\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:23:39 PM: Start Getting Media For package info: 62
+10/13/2024 1:23:41 PM: Starting GetCover...
+10/13/2024 1:23:42 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:23:42 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:23:42 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:23:42 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013132333183\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:23:42 PM: Start Getting Media For package info: 62
+10/13/2024 1:23:44 PM: Starting GetCover...
+10/13/2024 1:23:45 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:23:45 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:23:45 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:23:45 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013132333183\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:23:45 PM: Start Getting Media For package info: 62
+10/13/2024 1:23:47 PM: Starting GetCover...
+10/13/2024 1:23:48 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:23:48 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:23:48 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:23:48 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013132333183\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:23:48 PM: Start Getting Media For package info: 62
+10/13/2024 1:23:50 PM: Media data generated successfully.
+10/13/2024 1:23:50 PM: Error: generating XML for package: Column track_featured_artist_ar does not belong to table .
+10/13/2024 1:26:54 PM: Starting XML generation for package ID: 62, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+10/13/2024 1:26:54 PM: Success: fetched package info for ID: 62
+10/13/2024 1:26:54 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 1:26:54 PM: Starting GetFolderPaths...
+10/13/2024 1:26:54 PM: Fetching package folder for company: Spotify
+10/13/2024 1:26:54 PM: Sucsses: PackageFolder set to: 20241013132654541
+10/13/2024 1:26:54 PM: Sucsses: Fetching resources folder for company: Spotify
+10/13/2024 1:26:54 PM: Sucsses: ResourcesFolder set to: 20241013132654541\9681001016552\resources
+10/13/2024 1:26:54 PM: Sucsses: Fetching metadata file path for company: Spotify
+10/13/2024 1:26:54 PM: Sucsses: MetadataFile path set to: 20241013132654541\9681001016552\9681001016552.xml
+10/13/2024 1:26:54 PM: Sucsses: Final PackageFolder path: 62\20241013132654541
+10/13/2024 1:26:54 PM: Sucsses: Final ResourcesFolder path: 62\20241013132654541\9681001016552\resources
+10/13/2024 1:26:54 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 1:26:54 PM: Starting GetCover...
+10/13/2024 1:26:55 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:26:55 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:26:55 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\62\20241013132654541\9681001016552\resources
+10/13/2024 1:26:55 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:26:55 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013132654541\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:26:55 PM: Start Getting Media For package info: 62
+10/13/2024 1:26:57 PM: Starting GetCover...
+10/13/2024 1:26:57 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:26:57 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:26:58 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:26:58 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013132654541\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:26:58 PM: Start Getting Media For package info: 62
+10/13/2024 1:26:59 PM: Starting GetCover...
+10/13/2024 1:27:00 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:27:00 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:27:00 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:27:00 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013132654541\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:27:00 PM: Start Getting Media For package info: 62
+10/13/2024 1:27:02 PM: Starting GetCover...
+10/13/2024 1:27:03 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:27:03 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:27:03 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:27:03 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013132654541\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:27:03 PM: Start Getting Media For package info: 62
+10/13/2024 1:27:05 PM: Starting GetCover...
+10/13/2024 1:27:06 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:27:06 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:27:06 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:27:06 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013132654541\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:27:06 PM: Start Getting Media For package info: 62
+10/13/2024 1:27:07 PM: Starting GetCover...
+10/13/2024 1:27:08 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:27:08 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:27:08 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:27:08 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013132654541\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:27:08 PM: Start Getting Media For package info: 62
+10/13/2024 1:27:10 PM: Media data generated successfully.
+10/13/2024 1:27:10 PM: Success: generated XML for package ID: 62
+10/13/2024 1:38:51 PM: Starting XML generation for package ID: 62, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+10/13/2024 1:38:51 PM: Success: fetched package info for ID: 62
+10/13/2024 1:38:51 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 1:38:51 PM: Starting GetFolderPaths...
+10/13/2024 1:38:51 PM: Fetching package folder for company: Spotify
+10/13/2024 1:38:51 PM: Sucsses: PackageFolder set to: 20241013133851085
+10/13/2024 1:38:51 PM: Sucsses: Fetching resources folder for company: Spotify
+10/13/2024 1:38:51 PM: Sucsses: ResourcesFolder set to: 20241013133851085\9681001016552\resources
+10/13/2024 1:38:51 PM: Sucsses: Fetching metadata file path for company: Spotify
+10/13/2024 1:38:51 PM: Sucsses: MetadataFile path set to: 20241013133851085\9681001016552\9681001016552.xml
+10/13/2024 1:38:51 PM: Sucsses: Final PackageFolder path: 62\20241013133851085
+10/13/2024 1:38:51 PM: Sucsses: Final ResourcesFolder path: 62\20241013133851085\9681001016552\resources
+10/13/2024 1:38:51 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 1:38:51 PM: Starting GetCover...
+10/13/2024 1:38:53 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:38:53 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:38:53 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\62\20241013133851085\9681001016552\resources
+10/13/2024 1:38:53 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:38:53 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013133851085\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:38:53 PM: Start Getting Media For package info: 62
+10/13/2024 1:39:00 PM: Starting GetCover...
+10/13/2024 1:39:01 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:39:01 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:39:01 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:39:01 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013133851085\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:39:01 PM: Start Getting Media For package info: 62
+10/13/2024 1:39:03 PM: Starting GetCover...
+10/13/2024 1:39:03 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:39:03 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:39:03 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:39:03 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013133851085\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:39:03 PM: Start Getting Media For package info: 62
+10/13/2024 1:39:05 PM: Starting GetCover...
+10/13/2024 1:39:06 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:39:06 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:39:06 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:39:06 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013133851085\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:39:06 PM: Start Getting Media For package info: 62
+10/13/2024 1:39:09 PM: Starting GetCover...
+10/13/2024 1:39:09 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:39:09 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:39:09 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:39:09 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013133851085\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:39:09 PM: Start Getting Media For package info: 62
+10/13/2024 1:39:11 PM: Starting GetCover...
+10/13/2024 1:39:12 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:39:12 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:39:12 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:39:12 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013133851085\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:39:12 PM: Start Getting Media For package info: 62
+10/13/2024 1:39:14 PM: Media data generated successfully.
+10/13/2024 1:41:16 PM: Success: generated XML for package ID: 62
+10/13/2024 1:44:28 PM: Starting XML generation for package ID: 62, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+10/13/2024 1:44:28 PM: Success: fetched package info for ID: 62
+10/13/2024 1:44:28 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 1:44:28 PM: Starting GetFolderPaths...
+10/13/2024 1:44:28 PM: Fetching package folder for company: Spotify
+10/13/2024 1:44:28 PM: Sucsses: PackageFolder set to: 20241013134428166
+10/13/2024 1:44:28 PM: Sucsses: Fetching resources folder for company: Spotify
+10/13/2024 1:44:28 PM: Sucsses: ResourcesFolder set to: 20241013134428166\9681001016552\resources
+10/13/2024 1:44:28 PM: Sucsses: Fetching metadata file path for company: Spotify
+10/13/2024 1:44:28 PM: Sucsses: MetadataFile path set to: 20241013134428166\9681001016552\9681001016552.xml
+10/13/2024 1:44:28 PM: Sucsses: Final PackageFolder path: 62\20241013134428166
+10/13/2024 1:44:28 PM: Sucsses: Final ResourcesFolder path: 62\20241013134428166\9681001016552\resources
+10/13/2024 1:44:28 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 1:44:28 PM: Starting GetCover...
+10/13/2024 1:44:30 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:44:30 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:44:30 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\62\20241013134428166\9681001016552\resources
+10/13/2024 1:44:30 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:44:30 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013134428166\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:44:30 PM: Start Getting Media For package info: 62
+10/13/2024 1:44:34 PM: Starting GetCover...
+10/13/2024 1:44:35 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:44:35 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:44:35 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:44:35 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013134428166\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:44:35 PM: Start Getting Media For package info: 62
+10/13/2024 1:44:37 PM: Starting GetCover...
+10/13/2024 1:44:38 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:44:38 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:44:38 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:44:38 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013134428166\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:44:38 PM: Start Getting Media For package info: 62
+10/13/2024 1:44:40 PM: Starting GetCover...
+10/13/2024 1:44:41 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:44:41 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:44:41 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:44:41 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013134428166\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:44:41 PM: Start Getting Media For package info: 62
+10/13/2024 1:44:44 PM: Starting GetCover...
+10/13/2024 1:44:45 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:44:45 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:44:45 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:44:45 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013134428166\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:44:45 PM: Start Getting Media For package info: 62
+10/13/2024 1:44:47 PM: Starting GetCover...
+10/13/2024 1:44:48 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:44:48 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:44:48 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:44:48 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013134428166\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:44:48 PM: Start Getting Media For package info: 62
+10/13/2024 1:44:51 PM: Media data generated successfully.
+10/13/2024 1:44:51 PM: Success: generated XML for package ID: 62
+10/13/2024 1:46:00 PM: Starting XML generation for package ID: 62, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+10/13/2024 1:46:00 PM: Success: fetched package info for ID: 62
+10/13/2024 1:46:00 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 1:46:00 PM: Starting GetFolderPaths...
+10/13/2024 1:46:00 PM: Fetching package folder for company: Spotify
+10/13/2024 1:46:00 PM: Sucsses: PackageFolder set to: 20241013134600566
+10/13/2024 1:46:00 PM: Sucsses: Fetching resources folder for company: Spotify
+10/13/2024 1:46:00 PM: Sucsses: ResourcesFolder set to: 20241013134600566\9681001016552\resources
+10/13/2024 1:46:00 PM: Sucsses: Fetching metadata file path for company: Spotify
+10/13/2024 1:46:00 PM: Sucsses: MetadataFile path set to: 20241013134600566\9681001016552\9681001016552.xml
+10/13/2024 1:46:00 PM: Sucsses: Final PackageFolder path: 62\20241013134600566
+10/13/2024 1:46:00 PM: Sucsses: Final ResourcesFolder path: 62\20241013134600566\9681001016552\resources
+10/13/2024 1:46:00 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 1:46:00 PM: Starting GetCover...
+10/13/2024 1:46:01 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:46:01 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:46:01 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\62\20241013134600566\9681001016552\resources
+10/13/2024 1:46:01 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:46:01 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013134600566\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:46:01 PM: Start Getting Media For package info: 62
+10/13/2024 1:46:03 PM: Starting GetCover...
+10/13/2024 1:46:04 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:46:04 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:46:04 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:46:04 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013134600566\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:46:04 PM: Start Getting Media For package info: 62
+10/13/2024 1:46:06 PM: Starting GetCover...
+10/13/2024 1:46:06 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:46:06 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:46:06 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:46:06 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013134600566\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:46:06 PM: Start Getting Media For package info: 62
+10/13/2024 1:46:09 PM: Starting GetCover...
+10/13/2024 1:46:09 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:46:09 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:46:09 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:46:09 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013134600566\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:46:09 PM: Start Getting Media For package info: 62
+10/13/2024 1:46:12 PM: Starting GetCover...
+10/13/2024 1:46:12 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:46:12 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:46:12 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:46:12 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013134600566\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:46:12 PM: Start Getting Media For package info: 62
+10/13/2024 1:46:14 PM: Starting GetCover...
+10/13/2024 1:46:15 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:46:15 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:46:15 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:46:15 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013134600566\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:46:15 PM: Start Getting Media For package info: 62
+10/13/2024 1:46:17 PM: Media data generated successfully.
+10/13/2024 1:48:22 PM: Success: generated XML for package ID: 62
+10/13/2024 1:48:32 PM: Starting XML generation for package ID: 62, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+10/13/2024 1:48:32 PM: Success: fetched package info for ID: 62
+10/13/2024 1:48:32 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 1:48:32 PM: Starting GetFolderPaths...
+10/13/2024 1:48:32 PM: Fetching package folder for company: Spotify
+10/13/2024 1:48:32 PM: Sucsses: PackageFolder set to: 20241013134832347
+10/13/2024 1:48:32 PM: Sucsses: Fetching resources folder for company: Spotify
+10/13/2024 1:48:32 PM: Sucsses: ResourcesFolder set to: 20241013134832347\9681001016552\resources
+10/13/2024 1:48:32 PM: Sucsses: Fetching metadata file path for company: Spotify
+10/13/2024 1:48:32 PM: Sucsses: MetadataFile path set to: 20241013134832347\9681001016552\9681001016552.xml
+10/13/2024 1:48:32 PM: Sucsses: Final PackageFolder path: 62\20241013134832347
+10/13/2024 1:48:32 PM: Sucsses: Final ResourcesFolder path: 62\20241013134832347\9681001016552\resources
+10/13/2024 1:48:32 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 1:48:32 PM: Starting GetCover...
+10/13/2024 1:48:33 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:48:33 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:48:33 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\62\20241013134832347\9681001016552\resources
+10/13/2024 1:48:33 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:48:33 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013134832347\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:48:33 PM: Start Getting Media For package info: 62
+10/13/2024 1:48:35 PM: Starting GetCover...
+10/13/2024 1:48:36 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:48:36 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:48:36 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:48:36 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013134832347\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:48:36 PM: Start Getting Media For package info: 62
+10/13/2024 1:48:38 PM: Starting GetCover...
+10/13/2024 1:48:39 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:48:39 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:48:39 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:48:39 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013134832347\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:48:39 PM: Start Getting Media For package info: 62
+10/13/2024 1:48:41 PM: Starting GetCover...
+10/13/2024 1:48:42 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:48:42 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:48:42 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:48:42 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013134832347\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:48:42 PM: Start Getting Media For package info: 62
+10/13/2024 1:48:45 PM: Starting GetCover...
+10/13/2024 1:48:46 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:48:46 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:48:46 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:48:46 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013134832347\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:48:46 PM: Start Getting Media For package info: 62
+10/13/2024 1:48:48 PM: Starting GetCover...
+10/13/2024 1:48:49 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:48:49 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:48:49 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:48:49 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013134832347\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:48:49 PM: Start Getting Media For package info: 62
+10/13/2024 1:48:51 PM: Media data generated successfully.
+10/13/2024 1:49:48 PM: Success: generated XML for package ID: 62
+10/13/2024 1:49:57 PM: Starting XML generation for package ID: 62, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+10/13/2024 1:49:57 PM: Success: fetched package info for ID: 62
+10/13/2024 1:49:57 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 1:49:57 PM: Starting GetFolderPaths...
+10/13/2024 1:49:57 PM: Fetching package folder for company: Spotify
+10/13/2024 1:49:57 PM: Sucsses: PackageFolder set to: 20241013134957037
+10/13/2024 1:49:57 PM: Sucsses: Fetching resources folder for company: Spotify
+10/13/2024 1:49:57 PM: Sucsses: ResourcesFolder set to: 20241013134957037\9681001016552\resources
+10/13/2024 1:49:57 PM: Sucsses: Fetching metadata file path for company: Spotify
+10/13/2024 1:49:57 PM: Sucsses: MetadataFile path set to: 20241013134957037\9681001016552\9681001016552.xml
+10/13/2024 1:49:57 PM: Sucsses: Final PackageFolder path: 62\20241013134957037
+10/13/2024 1:49:57 PM: Sucsses: Final ResourcesFolder path: 62\20241013134957037\9681001016552\resources
+10/13/2024 1:49:57 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 1:49:57 PM: Starting GetCover...
+10/13/2024 1:49:57 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:49:57 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:49:57 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\62\20241013134957037\9681001016552\resources
+10/13/2024 1:49:57 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:49:57 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013134957037\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:49:57 PM: Start Getting Media For package info: 62
+10/13/2024 1:50:00 PM: Starting GetCover...
+10/13/2024 1:50:00 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:50:00 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:50:00 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:50:00 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013134957037\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:50:00 PM: Start Getting Media For package info: 62
+10/13/2024 1:50:02 PM: Starting GetCover...
+10/13/2024 1:50:03 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:50:03 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:50:03 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:50:03 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013134957037\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:50:03 PM: Start Getting Media For package info: 62
+10/13/2024 1:50:05 PM: Starting GetCover...
+10/13/2024 1:50:06 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:50:06 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:50:06 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:50:06 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013134957037\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:50:06 PM: Start Getting Media For package info: 62
+10/13/2024 1:50:09 PM: Starting GetCover...
+10/13/2024 1:50:10 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:50:10 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:50:10 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:50:10 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013134957037\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:50:10 PM: Start Getting Media For package info: 62
+10/13/2024 1:50:12 PM: Starting GetCover...
+10/13/2024 1:50:12 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:50:12 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:50:12 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:50:12 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013134957037\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:50:12 PM: Start Getting Media For package info: 62
+10/13/2024 1:50:15 PM: Media data generated successfully.
+10/13/2024 1:51:39 PM: Starting XML generation for package ID: 62, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+10/13/2024 1:51:39 PM: Success: fetched package info for ID: 62
+10/13/2024 1:51:39 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 1:51:39 PM: Starting GetFolderPaths...
+10/13/2024 1:51:39 PM: Fetching package folder for company: Spotify
+10/13/2024 1:51:39 PM: Sucsses: PackageFolder set to: 20241013135139890
+10/13/2024 1:51:39 PM: Sucsses: Fetching resources folder for company: Spotify
+10/13/2024 1:51:39 PM: Sucsses: ResourcesFolder set to: 20241013135139890\9681001016552\resources
+10/13/2024 1:51:39 PM: Sucsses: Fetching metadata file path for company: Spotify
+10/13/2024 1:51:39 PM: Sucsses: MetadataFile path set to: 20241013135139890\9681001016552\9681001016552.xml
+10/13/2024 1:51:39 PM: Sucsses: Final PackageFolder path: 62\20241013135139890
+10/13/2024 1:51:39 PM: Sucsses: Final ResourcesFolder path: 62\20241013135139890\9681001016552\resources
+10/13/2024 1:51:39 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 1:51:39 PM: Starting GetCover...
+10/13/2024 1:51:40 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:51:40 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:51:40 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\62\20241013135139890\9681001016552\resources
+10/13/2024 1:51:40 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:51:40 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013135139890\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:51:40 PM: Start Getting Media For package info: 62
+10/13/2024 1:51:42 PM: Starting GetCover...
+10/13/2024 1:51:43 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:51:43 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:51:43 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:51:43 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013135139890\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:51:43 PM: Start Getting Media For package info: 62
+10/13/2024 1:51:45 PM: Starting GetCover...
+10/13/2024 1:51:46 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:51:46 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:51:46 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:51:46 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013135139890\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:51:46 PM: Start Getting Media For package info: 62
+10/13/2024 1:51:48 PM: Starting GetCover...
+10/13/2024 1:51:48 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:51:48 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:51:48 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:51:48 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013135139890\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:51:48 PM: Start Getting Media For package info: 62
+10/13/2024 1:51:51 PM: Starting GetCover...
+10/13/2024 1:51:52 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:51:52 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:51:52 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:51:52 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013135139890\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:51:52 PM: Start Getting Media For package info: 62
+10/13/2024 1:51:54 PM: Starting GetCover...
+10/13/2024 1:51:54 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:51:54 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:51:54 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:51:54 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013135139890\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:51:54 PM: Start Getting Media For package info: 62
+10/13/2024 1:51:56 PM: Media data generated successfully.
+10/13/2024 1:55:06 PM: Success: generated XML for package ID: 62
+10/13/2024 1:58:24 PM: Starting XML generation for package ID: 62, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+10/13/2024 1:58:24 PM: Success: fetched package info for ID: 62
+10/13/2024 1:58:24 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 1:58:24 PM: Starting GetFolderPaths...
+10/13/2024 1:58:24 PM: Fetching package folder for company: Spotify
+10/13/2024 1:58:24 PM: Sucsses: PackageFolder set to: 20241013135824641
+10/13/2024 1:58:24 PM: Sucsses: Fetching resources folder for company: Spotify
+10/13/2024 1:58:24 PM: Sucsses: ResourcesFolder set to: 20241013135824641\9681001016552\resources
+10/13/2024 1:58:24 PM: Sucsses: Fetching metadata file path for company: Spotify
+10/13/2024 1:58:24 PM: Sucsses: MetadataFile path set to: 20241013135824641\9681001016552\9681001016552.xml
+10/13/2024 1:58:24 PM: Sucsses: Final PackageFolder path: 62\20241013135824641
+10/13/2024 1:58:24 PM: Sucsses: Final ResourcesFolder path: 62\20241013135824641\9681001016552\resources
+10/13/2024 1:58:24 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 1:58:24 PM: Starting GetCover...
+10/13/2024 1:58:25 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:58:25 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:58:25 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\62\20241013135824641\9681001016552\resources
+10/13/2024 1:58:25 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:58:25 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013135824641\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:58:25 PM: Start Getting Media For package info: 62
+10/13/2024 1:58:27 PM: Starting GetCover...
+10/13/2024 1:58:28 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:58:28 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:58:28 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:58:28 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013135824641\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:58:28 PM: Start Getting Media For package info: 62
+10/13/2024 1:58:29 PM: Starting GetCover...
+10/13/2024 1:58:30 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:58:30 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:58:30 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:58:30 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013135824641\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:58:30 PM: Start Getting Media For package info: 62
+10/13/2024 1:58:32 PM: Starting GetCover...
+10/13/2024 1:58:33 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:58:33 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:58:33 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:58:33 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013135824641\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:58:33 PM: Start Getting Media For package info: 62
+10/13/2024 1:58:35 PM: Starting GetCover...
+10/13/2024 1:58:36 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:58:36 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:58:36 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:58:36 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013135824641\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:58:36 PM: Start Getting Media For package info: 62
+10/13/2024 1:58:38 PM: Starting GetCover...
+10/13/2024 1:58:38 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:58:38 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:58:38 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 1:58:38 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013135824641\9681001016552\resources\9681001016552.jpg
+10/13/2024 1:58:38 PM: Start Getting Media For package info: 62
+10/13/2024 1:58:40 PM: Media data generated successfully.
+10/13/2024 1:58:40 PM: Success: generated XML for package ID: 62
+10/13/2024 2:00:06 PM: Starting XML generation for package ID: 62, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+10/13/2024 2:00:06 PM: Success: fetched package info for ID: 62
+10/13/2024 2:00:06 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 2:00:06 PM: Starting GetFolderPaths...
+10/13/2024 2:00:06 PM: Fetching package folder for company: Spotify
+10/13/2024 2:00:06 PM: Sucsses: PackageFolder set to: 20241013140006680
+10/13/2024 2:00:06 PM: Sucsses: Fetching resources folder for company: Spotify
+10/13/2024 2:00:06 PM: Sucsses: ResourcesFolder set to: 20241013140006680\9681001016552\resources
+10/13/2024 2:00:06 PM: Sucsses: Fetching metadata file path for company: Spotify
+10/13/2024 2:00:06 PM: Sucsses: MetadataFile path set to: 20241013140006680\9681001016552\9681001016552.xml
+10/13/2024 2:00:06 PM: Sucsses: Final PackageFolder path: 62\20241013140006680
+10/13/2024 2:00:06 PM: Sucsses: Final ResourcesFolder path: 62\20241013140006680\9681001016552\resources
+10/13/2024 2:00:06 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 2:00:06 PM: Starting GetCover...
+10/13/2024 2:00:07 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:00:07 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:00:07 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\62\20241013140006680\9681001016552\resources
+10/13/2024 2:00:07 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:00:07 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013140006680\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:00:07 PM: Start Getting Media For package info: 62
+10/13/2024 2:00:09 PM: Starting GetCover...
+10/13/2024 2:00:10 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:00:10 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:00:10 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:00:10 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013140006680\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:00:10 PM: Start Getting Media For package info: 62
+10/13/2024 2:00:12 PM: Starting GetCover...
+10/13/2024 2:00:12 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:00:12 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:00:12 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:00:12 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013140006680\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:00:12 PM: Start Getting Media For package info: 62
+10/13/2024 2:00:14 PM: Starting GetCover...
+10/13/2024 2:00:15 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:00:15 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:00:15 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:00:15 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013140006680\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:00:15 PM: Start Getting Media For package info: 62
+10/13/2024 2:00:18 PM: Starting GetCover...
+10/13/2024 2:00:18 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:00:18 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:00:18 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:00:18 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013140006680\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:00:18 PM: Start Getting Media For package info: 62
+10/13/2024 2:00:20 PM: Starting GetCover...
+10/13/2024 2:00:21 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:00:21 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:00:21 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:00:21 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013140006680\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:00:21 PM: Start Getting Media For package info: 62
+10/13/2024 2:00:23 PM: Media data generated successfully.
+10/13/2024 2:01:57 PM: Success: generated XML for package ID: 62
+10/13/2024 2:02:07 PM: Starting XML generation for package ID: 62, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+10/13/2024 2:02:07 PM: Success: fetched package info for ID: 62
+10/13/2024 2:02:07 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 2:02:07 PM: Starting GetFolderPaths...
+10/13/2024 2:02:07 PM: Fetching package folder for company: Spotify
+10/13/2024 2:02:07 PM: Sucsses: PackageFolder set to: 20241013140207850
+10/13/2024 2:02:07 PM: Sucsses: Fetching resources folder for company: Spotify
+10/13/2024 2:02:07 PM: Sucsses: ResourcesFolder set to: 20241013140207850\9681001016552\resources
+10/13/2024 2:02:07 PM: Sucsses: Fetching metadata file path for company: Spotify
+10/13/2024 2:02:07 PM: Sucsses: MetadataFile path set to: 20241013140207850\9681001016552\9681001016552.xml
+10/13/2024 2:02:07 PM: Sucsses: Final PackageFolder path: 62\20241013140207850
+10/13/2024 2:02:07 PM: Sucsses: Final ResourcesFolder path: 62\20241013140207850\9681001016552\resources
+10/13/2024 2:02:07 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 2:02:07 PM: Starting GetCover...
+10/13/2024 2:02:08 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:02:08 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:02:08 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\62\20241013140207850\9681001016552\resources
+10/13/2024 2:02:08 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:02:08 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013140207850\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:02:08 PM: Start Getting Media For package info: 62
+10/13/2024 2:02:10 PM: Starting GetCover...
+10/13/2024 2:02:11 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:02:11 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:02:11 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:02:11 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013140207850\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:02:11 PM: Start Getting Media For package info: 62
+10/13/2024 2:02:13 PM: Starting GetCover...
+10/13/2024 2:02:14 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:02:14 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:02:14 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:02:14 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013140207850\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:02:14 PM: Start Getting Media For package info: 62
+10/13/2024 2:02:16 PM: Starting GetCover...
+10/13/2024 2:02:16 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:02:16 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:02:16 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:02:16 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013140207850\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:02:16 PM: Start Getting Media For package info: 62
+10/13/2024 2:02:19 PM: Starting GetCover...
+10/13/2024 2:02:19 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:02:19 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:02:19 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:02:19 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013140207850\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:02:19 PM: Start Getting Media For package info: 62
+10/13/2024 2:02:21 PM: Starting GetCover...
+10/13/2024 2:02:22 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:02:22 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:02:22 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:02:22 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013140207850\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:02:22 PM: Start Getting Media For package info: 62
+10/13/2024 2:02:24 PM: Media data generated successfully.
+10/13/2024 2:04:32 PM: Success: generated XML for package ID: 62
+10/13/2024 2:05:45 PM: Starting XML generation for package ID: 62, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+10/13/2024 2:05:45 PM: Success: fetched package info for ID: 62
+10/13/2024 2:05:45 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 2:05:45 PM: Starting GetFolderPaths...
+10/13/2024 2:05:45 PM: Fetching package folder for company: Spotify
+10/13/2024 2:05:45 PM: Sucsses: PackageFolder set to: 20241013140545167
+10/13/2024 2:05:45 PM: Sucsses: Fetching resources folder for company: Spotify
+10/13/2024 2:05:45 PM: Sucsses: ResourcesFolder set to: 20241013140545167\9681001016552\resources
+10/13/2024 2:05:45 PM: Sucsses: Fetching metadata file path for company: Spotify
+10/13/2024 2:05:45 PM: Sucsses: MetadataFile path set to: 20241013140545167\9681001016552\9681001016552.xml
+10/13/2024 2:05:45 PM: Sucsses: Final PackageFolder path: 62\20241013140545167
+10/13/2024 2:05:45 PM: Sucsses: Final ResourcesFolder path: 62\20241013140545167\9681001016552\resources
+10/13/2024 2:05:45 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 2:05:45 PM: Starting GetCover...
+10/13/2024 2:05:45 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:05:45 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:05:45 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\62\20241013140545167\9681001016552\resources
+10/13/2024 2:05:45 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:05:45 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013140545167\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:05:45 PM: Start Getting Media For package info: 62
+10/13/2024 2:05:47 PM: Starting GetCover...
+10/13/2024 2:05:48 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:05:48 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:05:48 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:05:48 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013140545167\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:05:48 PM: Start Getting Media For package info: 62
+10/13/2024 2:05:50 PM: Starting GetCover...
+10/13/2024 2:05:50 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:05:50 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:05:50 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:05:50 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013140545167\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:05:50 PM: Start Getting Media For package info: 62
+10/13/2024 2:05:52 PM: Starting GetCover...
+10/13/2024 2:05:53 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:05:53 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:05:53 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:05:53 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013140545167\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:05:53 PM: Start Getting Media For package info: 62
+10/13/2024 2:05:55 PM: Starting GetCover...
+10/13/2024 2:05:56 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:05:56 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:05:56 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:05:56 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013140545167\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:05:56 PM: Start Getting Media For package info: 62
+10/13/2024 2:05:58 PM: Starting GetCover...
+10/13/2024 2:05:58 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:05:58 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:05:58 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:05:58 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013140545167\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:05:58 PM: Start Getting Media For package info: 62
+10/13/2024 2:06:01 PM: Media data generated successfully.
+10/13/2024 2:06:01 PM: Success: generated XML for package ID: 62
+10/13/2024 2:09:05 PM: Starting XML generation for package ID: 62, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+10/13/2024 2:09:05 PM: Success: fetched package info for ID: 62
+10/13/2024 2:09:05 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 2:09:05 PM: Starting GetFolderPaths...
+10/13/2024 2:09:05 PM: Fetching package folder for company: Spotify
+10/13/2024 2:09:05 PM: Sucsses: PackageFolder set to: 20241013140905444
+10/13/2024 2:09:05 PM: Sucsses: Fetching resources folder for company: Spotify
+10/13/2024 2:09:05 PM: Sucsses: ResourcesFolder set to: 20241013140905444\9681001016552\resources
+10/13/2024 2:09:05 PM: Sucsses: Fetching metadata file path for company: Spotify
+10/13/2024 2:09:05 PM: Sucsses: MetadataFile path set to: 20241013140905444\9681001016552\9681001016552.xml
+10/13/2024 2:09:05 PM: Sucsses: Final PackageFolder path: 62\20241013140905444
+10/13/2024 2:09:05 PM: Sucsses: Final ResourcesFolder path: 62\20241013140905444\9681001016552\resources
+10/13/2024 2:09:05 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 2:09:05 PM: Starting GetCover...
+10/13/2024 2:09:06 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:09:06 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:09:06 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\62\20241013140905444\9681001016552\resources
+10/13/2024 2:09:06 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:09:06 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013140905444\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:09:06 PM: Start Getting Media For package info: 62
+10/13/2024 2:09:08 PM: Starting GetCover...
+10/13/2024 2:09:08 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:09:08 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:09:08 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:09:08 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013140905444\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:09:08 PM: Start Getting Media For package info: 62
+10/13/2024 2:09:10 PM: Starting GetCover...
+10/13/2024 2:09:11 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:09:11 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:09:11 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:09:11 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013140905444\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:09:11 PM: Start Getting Media For package info: 62
+10/13/2024 2:09:13 PM: Starting GetCover...
+10/13/2024 2:09:14 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:09:14 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:09:14 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:09:14 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013140905444\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:09:14 PM: Start Getting Media For package info: 62
+10/13/2024 2:09:16 PM: Starting GetCover...
+10/13/2024 2:09:17 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:09:17 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:09:17 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:09:17 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013140905444\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:09:17 PM: Start Getting Media For package info: 62
+10/13/2024 2:09:19 PM: Starting GetCover...
+10/13/2024 2:09:20 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:09:20 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:09:20 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:09:20 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013140905444\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:09:20 PM: Start Getting Media For package info: 62
+10/13/2024 2:09:22 PM: Media data generated successfully.
+10/13/2024 2:09:22 PM: Success: generated XML for package ID: 62
+10/13/2024 2:13:38 PM: Starting XML generation for package ID: 62, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+10/13/2024 2:13:38 PM: Success: fetched package info for ID: 62
+10/13/2024 2:13:38 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 2:13:38 PM: Starting GetFolderPaths...
+10/13/2024 2:13:38 PM: Fetching package folder for company: Spotify
+10/13/2024 2:13:38 PM: Sucsses: PackageFolder set to: 20241013141338802
+10/13/2024 2:13:38 PM: Sucsses: Fetching resources folder for company: Spotify
+10/13/2024 2:13:38 PM: Sucsses: ResourcesFolder set to: 20241013141338802\9681001016552\resources
+10/13/2024 2:13:38 PM: Sucsses: Fetching metadata file path for company: Spotify
+10/13/2024 2:13:38 PM: Sucsses: MetadataFile path set to: 20241013141338802\9681001016552\9681001016552.xml
+10/13/2024 2:13:38 PM: Sucsses: Final PackageFolder path: 62\20241013141338802
+10/13/2024 2:13:38 PM: Sucsses: Final ResourcesFolder path: 62\20241013141338802\9681001016552\resources
+10/13/2024 2:13:38 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 2:13:38 PM: Starting GetCover...
+10/13/2024 2:13:39 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:13:39 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:13:39 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\62\20241013141338802\9681001016552\resources
+10/13/2024 2:13:39 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:13:39 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013141338802\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:13:39 PM: Start Getting Media For package info: 62
+10/13/2024 2:13:41 PM: Starting GetCover...
+10/13/2024 2:13:42 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:13:42 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:13:42 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:13:42 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013141338802\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:13:42 PM: Start Getting Media For package info: 62
+10/13/2024 2:13:44 PM: Starting GetCover...
+10/13/2024 2:13:44 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:13:44 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:13:44 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:13:44 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013141338802\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:13:44 PM: Start Getting Media For package info: 62
+10/13/2024 2:13:46 PM: Starting GetCover...
+10/13/2024 2:13:47 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:13:47 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:13:47 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:13:47 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013141338802\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:13:47 PM: Start Getting Media For package info: 62
+10/13/2024 2:13:50 PM: Starting GetCover...
+10/13/2024 2:13:50 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:13:50 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:13:51 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:13:51 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013141338802\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:13:51 PM: Start Getting Media For package info: 62
+10/13/2024 2:13:52 PM: Starting GetCover...
+10/13/2024 2:13:53 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:13:53 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:13:53 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:13:53 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013141338802\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:13:53 PM: Start Getting Media For package info: 62
+10/13/2024 2:13:55 PM: Media data generated successfully.
+10/13/2024 2:13:55 PM: Success: generated XML for package ID: 62
+10/13/2024 2:18:52 PM: Starting XML generation for package ID: 62, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+10/13/2024 2:18:52 PM: Success: fetched package info for ID: 62
+10/13/2024 2:18:52 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 2:18:52 PM: Starting GetFolderPaths...
+10/13/2024 2:18:52 PM: Fetching package folder for company: Spotify
+10/13/2024 2:18:52 PM: Sucsses: PackageFolder set to: 20241013141852514
+10/13/2024 2:18:52 PM: Sucsses: Fetching resources folder for company: Spotify
+10/13/2024 2:18:52 PM: Sucsses: ResourcesFolder set to: 20241013141852514\9681001016552\resources
+10/13/2024 2:18:52 PM: Sucsses: Fetching metadata file path for company: Spotify
+10/13/2024 2:18:52 PM: Sucsses: MetadataFile path set to: 20241013141852514\9681001016552\9681001016552.xml
+10/13/2024 2:18:52 PM: Sucsses: Final PackageFolder path: 62\20241013141852514
+10/13/2024 2:18:52 PM: Sucsses: Final ResourcesFolder path: 62\20241013141852514\9681001016552\resources
+10/13/2024 2:18:52 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 2:18:52 PM: Starting GetCover...
+10/13/2024 2:18:53 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:18:53 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:18:53 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\62\20241013141852514\9681001016552\resources
+10/13/2024 2:18:53 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:18:53 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013141852514\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:18:53 PM: Start Getting Media For package info: 62
+10/13/2024 2:18:55 PM: Starting GetCover...
+10/13/2024 2:18:55 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:18:55 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:18:55 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:18:55 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013141852514\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:18:55 PM: Start Getting Media For package info: 62
+10/13/2024 2:18:57 PM: Starting GetCover...
+10/13/2024 2:18:58 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:18:58 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:18:58 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:18:58 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013141852514\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:18:58 PM: Start Getting Media For package info: 62
+10/13/2024 2:19:00 PM: Starting GetCover...
+10/13/2024 2:19:00 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:19:00 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:19:00 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:19:00 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013141852514\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:19:00 PM: Start Getting Media For package info: 62
+10/13/2024 2:19:03 PM: Starting GetCover...
+10/13/2024 2:19:03 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:19:03 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:19:03 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:19:03 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013141852514\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:19:03 PM: Start Getting Media For package info: 62
+10/13/2024 2:19:05 PM: Starting GetCover...
+10/13/2024 2:19:06 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:19:06 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:19:06 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:19:06 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013141852514\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:19:06 PM: Start Getting Media For package info: 62
+10/13/2024 2:19:08 PM: Media data generated successfully.
+10/13/2024 2:20:05 PM: Success: generated XML for package ID: 62
+10/13/2024 2:21:49 PM: Starting XML generation for package ID: 62, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+10/13/2024 2:21:49 PM: Success: fetched package info for ID: 62
+10/13/2024 2:21:49 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 2:21:49 PM: Starting GetFolderPaths...
+10/13/2024 2:21:49 PM: Fetching package folder for company: Spotify
+10/13/2024 2:21:49 PM: Sucsses: PackageFolder set to: 20241013142149861
+10/13/2024 2:21:49 PM: Sucsses: Fetching resources folder for company: Spotify
+10/13/2024 2:21:49 PM: Sucsses: ResourcesFolder set to: 20241013142149861\9681001016552\resources
+10/13/2024 2:21:49 PM: Sucsses: Fetching metadata file path for company: Spotify
+10/13/2024 2:21:49 PM: Sucsses: MetadataFile path set to: 20241013142149861\9681001016552\9681001016552.xml
+10/13/2024 2:21:49 PM: Sucsses: Final PackageFolder path: 62\20241013142149861
+10/13/2024 2:21:49 PM: Sucsses: Final ResourcesFolder path: 62\20241013142149861\9681001016552\resources
+10/13/2024 2:21:49 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 2:21:49 PM: Starting GetCover...
+10/13/2024 2:21:50 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:21:50 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:21:50 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\62\20241013142149861\9681001016552\resources
+10/13/2024 2:21:50 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:21:50 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013142149861\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:21:50 PM: Start Getting Media For package info: 62
+10/13/2024 2:21:52 PM: Starting GetCover...
+10/13/2024 2:21:53 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:21:53 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:21:53 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:21:53 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013142149861\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:21:53 PM: Start Getting Media For package info: 62
+10/13/2024 2:21:54 PM: Starting GetCover...
+10/13/2024 2:21:55 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:21:55 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:21:55 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:21:55 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013142149861\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:21:55 PM: Start Getting Media For package info: 62
+10/13/2024 2:21:57 PM: Starting GetCover...
+10/13/2024 2:21:58 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:21:58 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:21:58 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:21:58 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013142149861\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:21:58 PM: Start Getting Media For package info: 62
+10/13/2024 2:22:00 PM: Starting GetCover...
+10/13/2024 2:22:01 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:22:01 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:22:01 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:22:01 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013142149861\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:22:01 PM: Start Getting Media For package info: 62
+10/13/2024 2:22:02 PM: Starting GetCover...
+10/13/2024 2:22:03 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:22:03 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:22:03 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:22:03 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013142149861\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:22:03 PM: Start Getting Media For package info: 62
+10/13/2024 2:22:05 PM: Media data generated successfully.
+10/13/2024 2:22:06 PM: Success: generated XML for package ID: 62
+10/13/2024 2:24:41 PM: Starting XML generation for package ID: 62, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+10/13/2024 2:24:41 PM: Success: fetched package info for ID: 62
+10/13/2024 2:24:41 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 2:24:41 PM: Starting GetFolderPaths...
+10/13/2024 2:24:41 PM: Fetching package folder for company: Spotify
+10/13/2024 2:24:41 PM: Sucsses: PackageFolder set to: 20241013142441344
+10/13/2024 2:24:41 PM: Sucsses: Fetching resources folder for company: Spotify
+10/13/2024 2:24:41 PM: Sucsses: ResourcesFolder set to: 20241013142441344\9681001016552\resources
+10/13/2024 2:24:41 PM: Sucsses: Fetching metadata file path for company: Spotify
+10/13/2024 2:24:41 PM: Sucsses: MetadataFile path set to: 20241013142441344\9681001016552\9681001016552.xml
+10/13/2024 2:24:41 PM: Sucsses: Final PackageFolder path: 62\20241013142441344
+10/13/2024 2:24:41 PM: Sucsses: Final ResourcesFolder path: 62\20241013142441344\9681001016552\resources
+10/13/2024 2:24:41 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 2:24:41 PM: Starting GetCover...
+10/13/2024 2:24:42 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:24:42 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:24:42 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\62\20241013142441344\9681001016552\resources
+10/13/2024 2:24:42 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:24:42 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013142441344\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:24:42 PM: Start Getting Media For package info: 62
+10/13/2024 2:24:43 PM: Starting GetCover...
+10/13/2024 2:24:44 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:24:44 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:24:44 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:24:44 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013142441344\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:24:44 PM: Start Getting Media For package info: 62
+10/13/2024 2:24:46 PM: Starting GetCover...
+10/13/2024 2:24:47 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:24:47 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:24:47 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:24:47 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013142441344\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:24:47 PM: Start Getting Media For package info: 62
+10/13/2024 2:24:49 PM: Starting GetCover...
+10/13/2024 2:24:49 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:24:49 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:24:49 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:24:49 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013142441344\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:24:49 PM: Start Getting Media For package info: 62
+10/13/2024 2:24:52 PM: Starting GetCover...
+10/13/2024 2:24:52 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:24:52 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:24:53 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:24:53 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013142441344\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:24:53 PM: Start Getting Media For package info: 62
+10/13/2024 2:24:54 PM: Starting GetCover...
+10/13/2024 2:24:55 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:24:55 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:24:55 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:24:55 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013142441344\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:24:55 PM: Start Getting Media For package info: 62
+10/13/2024 2:24:57 PM: Media data generated successfully.
+10/13/2024 2:24:57 PM: Success: generated XML for package ID: 62
+10/13/2024 2:26:52 PM: Starting XML generation for package ID: 62, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+10/13/2024 2:26:52 PM: Success: fetched package info for ID: 62
+10/13/2024 2:26:52 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 2:26:52 PM: Starting GetFolderPaths...
+10/13/2024 2:26:52 PM: Fetching package folder for company: Spotify
+10/13/2024 2:26:52 PM: Sucsses: PackageFolder set to: 20241013142652260
+10/13/2024 2:26:52 PM: Sucsses: Fetching resources folder for company: Spotify
+10/13/2024 2:26:52 PM: Sucsses: ResourcesFolder set to: 20241013142652260\9681001016552\resources
+10/13/2024 2:26:52 PM: Sucsses: Fetching metadata file path for company: Spotify
+10/13/2024 2:26:52 PM: Sucsses: MetadataFile path set to: 20241013142652260\9681001016552\9681001016552.xml
+10/13/2024 2:26:52 PM: Sucsses: Final PackageFolder path: 62\20241013142652260
+10/13/2024 2:26:52 PM: Sucsses: Final ResourcesFolder path: 62\20241013142652260\9681001016552\resources
+10/13/2024 2:26:52 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 2:26:52 PM: Starting GetCover...
+10/13/2024 2:26:53 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:26:53 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:26:53 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\62\20241013142652260\9681001016552\resources
+10/13/2024 2:26:53 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:26:53 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013142652260\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:26:53 PM: Start Getting Media For package info: 62
+10/13/2024 2:26:55 PM: Starting GetCover...
+10/13/2024 2:26:55 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:26:55 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:26:55 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:26:55 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013142652260\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:26:55 PM: Start Getting Media For package info: 62
+10/13/2024 2:26:57 PM: Starting GetCover...
+10/13/2024 2:26:58 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:26:58 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:26:58 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:26:58 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013142652260\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:26:58 PM: Start Getting Media For package info: 62
+10/13/2024 2:27:00 PM: Starting GetCover...
+10/13/2024 2:27:01 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:27:01 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:27:01 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:27:01 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013142652260\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:27:01 PM: Start Getting Media For package info: 62
+10/13/2024 2:27:03 PM: Starting GetCover...
+10/13/2024 2:27:04 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:27:04 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:27:04 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:27:04 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013142652260\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:27:04 PM: Start Getting Media For package info: 62
+10/13/2024 2:27:06 PM: Starting GetCover...
+10/13/2024 2:27:06 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:27:06 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:27:06 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:27:06 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013142652260\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:27:06 PM: Start Getting Media For package info: 62
+10/13/2024 2:27:08 PM: Media data generated successfully.
+10/13/2024 2:27:08 PM: Success: generated XML for package ID: 62
+10/13/2024 2:27:18 PM: Starting XML generation for package ID: 62, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+10/13/2024 2:27:18 PM: Success: fetched package info for ID: 62
+10/13/2024 2:27:18 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 2:27:18 PM: Starting GetFolderPaths...
+10/13/2024 2:27:18 PM: Fetching package folder for company: Spotify
+10/13/2024 2:27:18 PM: Sucsses: PackageFolder set to: 20241013142718943
+10/13/2024 2:27:18 PM: Sucsses: Fetching resources folder for company: Spotify
+10/13/2024 2:27:18 PM: Sucsses: ResourcesFolder set to: 20241013142718943\9681001016552\resources
+10/13/2024 2:27:18 PM: Sucsses: Fetching metadata file path for company: Spotify
+10/13/2024 2:27:18 PM: Sucsses: MetadataFile path set to: 20241013142718943\9681001016552\9681001016552.xml
+10/13/2024 2:27:18 PM: Sucsses: Final PackageFolder path: 62\20241013142718943
+10/13/2024 2:27:18 PM: Sucsses: Final ResourcesFolder path: 62\20241013142718943\9681001016552\resources
+10/13/2024 2:27:18 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 2:27:18 PM: Starting GetCover...
+10/13/2024 2:27:19 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:27:19 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:27:19 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\62\20241013142718943\9681001016552\resources
+10/13/2024 2:27:19 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:27:19 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013142718943\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:27:19 PM: Start Getting Media For package info: 62
+10/13/2024 2:27:21 PM: Starting GetCover...
+10/13/2024 2:27:22 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:27:22 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:27:22 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:27:22 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013142718943\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:27:22 PM: Start Getting Media For package info: 62
+10/13/2024 2:27:24 PM: Starting GetCover...
+10/13/2024 2:27:24 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:27:24 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:27:24 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:27:24 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013142718943\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:27:24 PM: Start Getting Media For package info: 62
+10/13/2024 2:27:26 PM: Starting GetCover...
+10/13/2024 2:27:27 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:27:27 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:27:27 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:27:27 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013142718943\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:27:27 PM: Start Getting Media For package info: 62
+10/13/2024 2:27:30 PM: Starting GetCover...
+10/13/2024 2:27:30 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:27:30 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:27:30 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:27:30 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013142718943\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:27:30 PM: Start Getting Media For package info: 62
+10/13/2024 2:27:32 PM: Starting GetCover...
+10/13/2024 2:27:33 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:27:33 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:27:33 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:27:33 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013142718943\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:27:33 PM: Start Getting Media For package info: 62
+10/13/2024 2:27:35 PM: Media data generated successfully.
+10/13/2024 2:27:35 PM: Success: generated XML for package ID: 62
+10/13/2024 2:43:31 PM: Starting XML generation for package ID: 62, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+10/13/2024 2:43:31 PM: Success: fetched package info for ID: 62
+10/13/2024 2:43:31 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 2:43:31 PM: Starting GetFolderPaths...
+10/13/2024 2:43:31 PM: Fetching package folder for company: Spotify
+10/13/2024 2:43:31 PM: Sucsses: PackageFolder set to: 20241013144331641
+10/13/2024 2:43:31 PM: Sucsses: Fetching resources folder for company: Spotify
+10/13/2024 2:43:31 PM: Sucsses: ResourcesFolder set to: 20241013144331641\9681001016552\resources
+10/13/2024 2:43:31 PM: Sucsses: Fetching metadata file path for company: Spotify
+10/13/2024 2:43:31 PM: Sucsses: MetadataFile path set to: 20241013144331641\9681001016552\9681001016552.xml
+10/13/2024 2:43:31 PM: Sucsses: Final PackageFolder path: 62\20241013144331641
+10/13/2024 2:43:31 PM: Sucsses: Final ResourcesFolder path: 62\20241013144331641\9681001016552\resources
+10/13/2024 2:43:31 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 2:43:31 PM: Starting GetCover...
+10/13/2024 2:43:32 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:43:32 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:43:32 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\62\20241013144331641\9681001016552\resources
+10/13/2024 2:43:32 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:43:32 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013144331641\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:43:32 PM: Start Getting Media For package info: 62
+10/13/2024 2:43:34 PM: Starting GetCover...
+10/13/2024 2:43:34 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:43:34 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:43:34 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:43:34 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013144331641\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:43:34 PM: Start Getting Media For package info: 62
+10/13/2024 2:43:36 PM: Starting GetCover...
+10/13/2024 2:43:37 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:43:37 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:43:37 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:43:37 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013144331641\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:43:37 PM: Start Getting Media For package info: 62
+10/13/2024 2:43:39 PM: Starting GetCover...
+10/13/2024 2:43:40 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:43:40 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:43:40 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:43:40 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013144331641\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:43:40 PM: Start Getting Media For package info: 62
+10/13/2024 2:43:42 PM: Starting GetCover...
+10/13/2024 2:43:43 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:43:43 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:43:43 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:43:43 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013144331641\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:43:43 PM: Start Getting Media For package info: 62
+10/13/2024 2:43:45 PM: Starting GetCover...
+10/13/2024 2:43:45 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:43:45 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:43:45 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:43:45 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013144331641\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:43:45 PM: Start Getting Media For package info: 62
+10/13/2024 2:43:47 PM: Media data generated successfully.
+10/13/2024 2:43:48 PM: Success: generated XML for package ID: 62
+10/13/2024 2:48:42 PM: Starting XML generation for package ID: 62, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+10/13/2024 2:48:42 PM: Success: fetched package info for ID: 62
+10/13/2024 2:48:42 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 2:48:42 PM: Starting GetFolderPaths...
+10/13/2024 2:48:42 PM: Fetching package folder for company: Spotify
+10/13/2024 2:48:42 PM: Sucsses: PackageFolder set to: 20241013144842628
+10/13/2024 2:48:42 PM: Sucsses: Fetching resources folder for company: Spotify
+10/13/2024 2:48:42 PM: Sucsses: ResourcesFolder set to: 20241013144842628\9681001016552\resources
+10/13/2024 2:48:42 PM: Sucsses: Fetching metadata file path for company: Spotify
+10/13/2024 2:48:42 PM: Sucsses: MetadataFile path set to: 20241013144842628\9681001016552\9681001016552.xml
+10/13/2024 2:48:42 PM: Sucsses: Final PackageFolder path: 62\20241013144842628
+10/13/2024 2:48:42 PM: Sucsses: Final ResourcesFolder path: 62\20241013144842628\9681001016552\resources
+10/13/2024 2:48:42 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 2:48:42 PM: Starting GetCover...
+10/13/2024 2:48:43 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:48:43 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:48:43 PM: Sucsses: Created directory: C:\Pkg_Output\spotify\62\20241013144842628\9681001016552\resources
+10/13/2024 2:48:43 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:48:43 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013144842628\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:48:43 PM: Start Getting Media For package info: 62
+10/13/2024 2:48:45 PM: Starting GetCover...
+10/13/2024 2:48:46 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:48:46 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:48:46 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:48:46 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013144842628\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:48:46 PM: Start Getting Media For package info: 62
+10/13/2024 2:48:47 PM: Starting GetCover...
+10/13/2024 2:48:48 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:48:48 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:48:48 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:48:48 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013144842628\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:48:48 PM: Start Getting Media For package info: 62
+10/13/2024 2:48:50 PM: Starting GetCover...
+10/13/2024 2:48:51 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:48:51 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:48:51 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:48:51 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013144842628\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:48:51 PM: Start Getting Media For package info: 62
+10/13/2024 2:48:54 PM: Starting GetCover...
+10/13/2024 2:48:54 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:48:54 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:48:54 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:48:54 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013144842628\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:48:54 PM: Start Getting Media For package info: 62
+10/13/2024 2:48:56 PM: Starting GetCover...
+10/13/2024 2:48:57 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:48:57 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:48:57 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 2:48:57 PM: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\62\20241013144842628\9681001016552\resources\9681001016552.jpg
+10/13/2024 2:48:57 PM: Start Getting Media For package info: 62
+10/13/2024 2:48:59 PM: Media data generated successfully.
+10/13/2024 2:48:59 PM: Success: generated XML for package ID: 62
+10/13/2024 3:43:35 PM: Starting XML generation for package ID: 62, Filename: Gracenote_XML_Template.xml, Company: Gracenote
+10/13/2024 3:43:35 PM: Success: fetched package info for ID: 62
+10/13/2024 3:43:35 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 3:43:35 PM: Starting GetFolderPaths...
+10/13/2024 3:43:35 PM: Fetching package folder for company: Gracenote
+10/13/2024 3:43:35 PM: Sucsses: PackageFolder set to: 20241013154335497
+10/13/2024 3:43:35 PM: Sucsses: Fetching resources folder for company: Gracenote
+10/13/2024 3:43:35 PM: Sucsses: ResourcesFolder set to: 20241013154335497\9681001016552\resources
+10/13/2024 3:43:35 PM: Sucsses: Fetching metadata file path for company: Gracenote
+10/13/2024 3:43:35 PM: Sucsses: MetadataFile path set to: 20241013154335497\9681001016552\9681001016552.xml
+10/13/2024 3:43:35 PM: Sucsses: Final PackageFolder path: 62\20241013154335497
+10/13/2024 3:43:35 PM: Sucsses: Final ResourcesFolder path: 62\20241013154335497\9681001016552\resources
+10/13/2024 3:43:35 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 3:43:35 PM: Starting GetCover...
+10/13/2024 3:43:36 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:43:36 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:43:36 PM: Sucsses: Created directory: C:\Pkg_Output\gracenote\62\20241013154335497\9681001016552\resources
+10/13/2024 3:43:36 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:43:36 PM: Sucsses: Copied cover file to: C:\Pkg_Output\gracenote\62\20241013154335497\9681001016552\resources\9681001016552.jpg
+10/13/2024 3:43:40 PM: Starting GetCover...
+10/13/2024 3:43:41 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:43:41 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:43:41 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:43:41 PM: Sucsses: Copied cover file to: C:\Pkg_Output\gracenote\62\20241013154335497\9681001016552\resources\9681001016552.jpg
+10/13/2024 3:43:43 PM: Starting GetCover...
+10/13/2024 3:43:43 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:43:43 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:43:43 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:43:43 PM: Sucsses: Copied cover file to: C:\Pkg_Output\gracenote\62\20241013154335497\9681001016552\resources\9681001016552.jpg
+10/13/2024 3:43:45 PM: Starting GetCover...
+10/13/2024 3:43:46 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:43:46 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:43:46 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:43:46 PM: Sucsses: Copied cover file to: C:\Pkg_Output\gracenote\62\20241013154335497\9681001016552\resources\9681001016552.jpg
+10/13/2024 3:43:47 PM: Starting GetCover...
+10/13/2024 3:43:48 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:43:48 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:43:48 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:43:48 PM: Sucsses: Copied cover file to: C:\Pkg_Output\gracenote\62\20241013154335497\9681001016552\resources\9681001016552.jpg
+10/13/2024 3:43:50 PM: Starting GetCover...
+10/13/2024 3:43:51 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:43:51 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:43:51 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:43:51 PM: Sucsses: Copied cover file to: C:\Pkg_Output\gracenote\62\20241013154335497\9681001016552\resources\9681001016552.jpg
+10/13/2024 3:43:53 PM: Media data generated successfully.
+10/13/2024 3:43:53 PM: Error: generating XML for package: <input>(85,35) : error : Cannot get the member asset.country_iso_code_list_string for a null object.
+10/13/2024 3:45:09 PM: Starting XML generation for package ID: 62, Filename: Gracenote_XML_Template.xml, Company: Gracenote
+10/13/2024 3:45:09 PM: Success: fetched package info for ID: 62
+10/13/2024 3:45:09 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 3:45:09 PM: Starting GetFolderPaths...
+10/13/2024 3:45:09 PM: Fetching package folder for company: Gracenote
+10/13/2024 3:45:09 PM: Sucsses: PackageFolder set to: 20241013154509602
+10/13/2024 3:45:09 PM: Sucsses: Fetching resources folder for company: Gracenote
+10/13/2024 3:45:09 PM: Sucsses: ResourcesFolder set to: 20241013154509602\9681001016552\resources
+10/13/2024 3:45:09 PM: Sucsses: Fetching metadata file path for company: Gracenote
+10/13/2024 3:45:09 PM: Sucsses: MetadataFile path set to: 20241013154509602\9681001016552\9681001016552.xml
+10/13/2024 3:45:09 PM: Sucsses: Final PackageFolder path: 62\20241013154509602
+10/13/2024 3:45:09 PM: Sucsses: Final ResourcesFolder path: 62\20241013154509602\9681001016552\resources
+10/13/2024 3:45:09 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 3:45:09 PM: Starting GetCover...
+10/13/2024 3:45:10 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:45:10 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:45:10 PM: Sucsses: Created directory: C:\Pkg_Output\gracenote\62\20241013154509602\9681001016552\resources
+10/13/2024 3:45:10 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:45:10 PM: Sucsses: Copied cover file to: C:\Pkg_Output\gracenote\62\20241013154509602\9681001016552\resources\9681001016552.jpg
+10/13/2024 3:45:11 PM: Starting GetCover...
+10/13/2024 3:45:12 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:45:12 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:45:12 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:45:12 PM: Sucsses: Copied cover file to: C:\Pkg_Output\gracenote\62\20241013154509602\9681001016552\resources\9681001016552.jpg
+10/13/2024 3:45:14 PM: Starting GetCover...
+10/13/2024 3:45:14 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:45:14 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:45:14 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:45:14 PM: Sucsses: Copied cover file to: C:\Pkg_Output\gracenote\62\20241013154509602\9681001016552\resources\9681001016552.jpg
+10/13/2024 3:45:16 PM: Starting GetCover...
+10/13/2024 3:45:16 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:45:16 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:45:16 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:45:16 PM: Sucsses: Copied cover file to: C:\Pkg_Output\gracenote\62\20241013154509602\9681001016552\resources\9681001016552.jpg
+10/13/2024 3:45:18 PM: Starting GetCover...
+10/13/2024 3:45:19 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:45:19 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:45:19 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:45:19 PM: Sucsses: Copied cover file to: C:\Pkg_Output\gracenote\62\20241013154509602\9681001016552\resources\9681001016552.jpg
+10/13/2024 3:45:20 PM: Starting GetCover...
+10/13/2024 3:45:21 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:45:21 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:45:21 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:45:21 PM: Sucsses: Copied cover file to: C:\Pkg_Output\gracenote\62\20241013154509602\9681001016552\resources\9681001016552.jpg
+10/13/2024 3:45:23 PM: Media data generated successfully.
+10/13/2024 3:45:23 PM: Error: generating XML for package: <input>(132,43) : error : Cannot get the member asset.track_featured_artist_list_string for a null object.
+10/13/2024 3:46:08 PM: Starting XML generation for package ID: 62, Filename: Gracenote_XML_Template.xml, Company: Gracenote
+10/13/2024 3:46:08 PM: Success: fetched package info for ID: 62
+10/13/2024 3:46:08 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 3:46:08 PM: Starting GetFolderPaths...
+10/13/2024 3:46:08 PM: Fetching package folder for company: Gracenote
+10/13/2024 3:46:08 PM: Sucsses: PackageFolder set to: 20241013154608223
+10/13/2024 3:46:08 PM: Sucsses: Fetching resources folder for company: Gracenote
+10/13/2024 3:46:08 PM: Sucsses: ResourcesFolder set to: 20241013154608223\9681001016552\resources
+10/13/2024 3:46:08 PM: Sucsses: Fetching metadata file path for company: Gracenote
+10/13/2024 3:46:08 PM: Sucsses: MetadataFile path set to: 20241013154608223\9681001016552\9681001016552.xml
+10/13/2024 3:46:08 PM: Sucsses: Final PackageFolder path: 62\20241013154608223
+10/13/2024 3:46:08 PM: Sucsses: Final ResourcesFolder path: 62\20241013154608223\9681001016552\resources
+10/13/2024 3:46:08 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 3:46:08 PM: Starting GetCover...
+10/13/2024 3:46:09 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:46:09 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:46:09 PM: Sucsses: Created directory: C:\Pkg_Output\gracenote\62\20241013154608223\9681001016552\resources
+10/13/2024 3:46:09 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:46:09 PM: Sucsses: Copied cover file to: C:\Pkg_Output\gracenote\62\20241013154608223\9681001016552\resources\9681001016552.jpg
+10/13/2024 3:46:10 PM: Starting GetCover...
+10/13/2024 3:46:11 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:46:11 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:46:11 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:46:11 PM: Sucsses: Copied cover file to: C:\Pkg_Output\gracenote\62\20241013154608223\9681001016552\resources\9681001016552.jpg
+10/13/2024 3:46:13 PM: Starting GetCover...
+10/13/2024 3:46:13 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:46:13 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:46:13 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:46:13 PM: Sucsses: Copied cover file to: C:\Pkg_Output\gracenote\62\20241013154608223\9681001016552\resources\9681001016552.jpg
+10/13/2024 3:46:15 PM: Starting GetCover...
+10/13/2024 3:46:16 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:46:16 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:46:16 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:46:16 PM: Sucsses: Copied cover file to: C:\Pkg_Output\gracenote\62\20241013154608223\9681001016552\resources\9681001016552.jpg
+10/13/2024 3:46:17 PM: Starting GetCover...
+10/13/2024 3:46:18 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:46:18 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:46:18 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:46:18 PM: Sucsses: Copied cover file to: C:\Pkg_Output\gracenote\62\20241013154608223\9681001016552\resources\9681001016552.jpg
+10/13/2024 3:46:20 PM: Starting GetCover...
+10/13/2024 3:46:20 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:46:20 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:46:20 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 3:46:20 PM: Sucsses: Copied cover file to: C:\Pkg_Output\gracenote\62\20241013154608223\9681001016552\resources\9681001016552.jpg
+10/13/2024 3:46:22 PM: Media data generated successfully.
+10/13/2024 3:46:23 PM: Success: generated XML for package ID: 62
+10/13/2024 5:04:30 PM: Starting XML generation for package ID: 62, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+10/13/2024 5:04:30 PM: Success: fetched package info for ID: 62
+10/13/2024 5:04:30 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 5:04:30 PM: Starting GetFolderPaths...
+10/13/2024 5:04:30 PM: Fetching package folder for company: Facebook-Audio
+10/13/2024 5:04:30 PM: Sucsses: PackageFolder set to: 20241013170430735
+10/13/2024 5:04:30 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/13/2024 5:04:30 PM: Sucsses: ResourcesFolder set to: 20241013170430735\9681001016552\resources
+10/13/2024 5:04:30 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/13/2024 5:04:30 PM: Sucsses: MetadataFile path set to: 20241013170430735\9681001016552\9681001016552.xml
+10/13/2024 5:04:30 PM: Sucsses: Final PackageFolder path: 62\20241013170430735
+10/13/2024 5:04:30 PM: Sucsses: Final ResourcesFolder path: 62\20241013170430735\9681001016552\resources
+10/13/2024 5:04:30 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 5:04:30 PM: Starting GetCover...
+10/13/2024 5:04:31 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:04:31 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:04:31 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\62\20241013170430735\9681001016552\resources
+10/13/2024 5:04:31 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:04:31 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170430735\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:04:33 PM: Starting GetCover...
+10/13/2024 5:04:33 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:04:33 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:04:33 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:04:33 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170430735\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:04:35 PM: Starting GetCover...
+10/13/2024 5:04:36 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:04:36 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:04:36 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:04:36 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170430735\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:04:37 PM: Starting GetCover...
+10/13/2024 5:04:38 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:04:38 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:04:38 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:04:38 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170430735\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:04:40 PM: Starting GetCover...
+10/13/2024 5:04:41 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:04:41 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:04:41 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:04:41 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170430735\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:04:42 PM: Starting GetCover...
+10/13/2024 5:04:42 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:04:42 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:04:43 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:04:43 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170430735\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:04:44 PM: Media data generated successfully.
+10/13/2024 5:04:44 PM: Error: generating XML for package: Value cannot be null. (Parameter source)
+10/13/2024 5:05:28 PM: Starting XML generation for package ID: 62, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+10/13/2024 5:05:28 PM: Success: fetched package info for ID: 62
+10/13/2024 5:05:28 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 5:05:28 PM: Starting GetFolderPaths...
+10/13/2024 5:05:28 PM: Fetching package folder for company: Facebook-Audio
+10/13/2024 5:05:28 PM: Sucsses: PackageFolder set to: 20241013170528977
+10/13/2024 5:05:28 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/13/2024 5:05:28 PM: Sucsses: ResourcesFolder set to: 20241013170528977\9681001016552\resources
+10/13/2024 5:05:28 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/13/2024 5:05:28 PM: Sucsses: MetadataFile path set to: 20241013170528977\9681001016552\9681001016552.xml
+10/13/2024 5:05:28 PM: Sucsses: Final PackageFolder path: 62\20241013170528977
+10/13/2024 5:05:28 PM: Sucsses: Final ResourcesFolder path: 62\20241013170528977\9681001016552\resources
+10/13/2024 5:05:28 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 5:05:28 PM: Starting GetCover...
+10/13/2024 5:05:29 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:05:29 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:05:29 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\62\20241013170528977\9681001016552\resources
+10/13/2024 5:05:29 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:05:29 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170528977\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:05:31 PM: Starting GetCover...
+10/13/2024 5:05:31 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:05:31 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:05:31 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:05:31 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170528977\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:05:33 PM: Starting GetCover...
+10/13/2024 5:05:34 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:05:34 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:05:34 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:05:34 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170528977\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:05:35 PM: Starting GetCover...
+10/13/2024 5:05:36 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:05:36 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:05:36 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:05:36 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170528977\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:05:38 PM: Starting GetCover...
+10/13/2024 5:05:38 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:05:38 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:05:38 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:05:38 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170528977\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:05:40 PM: Starting GetCover...
+10/13/2024 5:05:40 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:05:40 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:05:41 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:05:41 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170528977\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:05:42 PM: Media data generated successfully.
+10/13/2024 5:05:42 PM: Error: generating XML for package: Value cannot be null. (Parameter source)
+10/13/2024 5:06:22 PM: Starting XML generation for package ID: 62, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+10/13/2024 5:06:22 PM: Success: fetched package info for ID: 62
+10/13/2024 5:06:22 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 5:06:22 PM: Starting GetFolderPaths...
+10/13/2024 5:06:22 PM: Fetching package folder for company: Facebook-Audio
+10/13/2024 5:06:22 PM: Sucsses: PackageFolder set to: 20241013170622542
+10/13/2024 5:06:22 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/13/2024 5:06:22 PM: Sucsses: ResourcesFolder set to: 20241013170622542\9681001016552\resources
+10/13/2024 5:06:22 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/13/2024 5:06:22 PM: Sucsses: MetadataFile path set to: 20241013170622542\9681001016552\9681001016552.xml
+10/13/2024 5:06:22 PM: Sucsses: Final PackageFolder path: 62\20241013170622542
+10/13/2024 5:06:22 PM: Sucsses: Final ResourcesFolder path: 62\20241013170622542\9681001016552\resources
+10/13/2024 5:06:22 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 5:06:22 PM: Starting GetCover...
+10/13/2024 5:06:23 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:06:23 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:06:23 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\62\20241013170622542\9681001016552\resources
+10/13/2024 5:06:23 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:06:23 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170622542\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:06:24 PM: Starting GetCover...
+10/13/2024 5:06:24 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:06:24 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:06:24 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:06:24 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170622542\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:06:26 PM: Starting GetCover...
+10/13/2024 5:06:26 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:06:26 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:06:26 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:06:26 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170622542\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:06:27 PM: Starting GetCover...
+10/13/2024 5:06:28 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:06:28 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:06:28 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:06:28 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170622542\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:06:29 PM: Starting GetCover...
+10/13/2024 5:06:30 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:06:30 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:06:30 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:06:30 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170622542\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:06:31 PM: Starting GetCover...
+10/13/2024 5:06:31 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:06:31 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:06:31 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:06:31 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170622542\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:06:32 PM: Media data generated successfully.
+10/13/2024 5:06:32 PM: Error: generating XML for package: Value cannot be null. (Parameter source)
+10/13/2024 5:07:36 PM: Starting XML generation for package ID: 62, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+10/13/2024 5:07:36 PM: Success: fetched package info for ID: 62
+10/13/2024 5:07:36 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 5:07:36 PM: Starting GetFolderPaths...
+10/13/2024 5:07:36 PM: Fetching package folder for company: Facebook-Audio
+10/13/2024 5:07:36 PM: Sucsses: PackageFolder set to: 20241013170736971
+10/13/2024 5:07:36 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/13/2024 5:07:36 PM: Sucsses: ResourcesFolder set to: 20241013170736971\9681001016552\resources
+10/13/2024 5:07:36 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/13/2024 5:07:36 PM: Sucsses: MetadataFile path set to: 20241013170736971\9681001016552\9681001016552.xml
+10/13/2024 5:07:36 PM: Sucsses: Final PackageFolder path: 62\20241013170736971
+10/13/2024 5:07:36 PM: Sucsses: Final ResourcesFolder path: 62\20241013170736971\9681001016552\resources
+10/13/2024 5:07:36 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 5:07:36 PM: Starting GetCover...
+10/13/2024 5:07:37 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:07:37 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:07:37 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\62\20241013170736971\9681001016552\resources
+10/13/2024 5:07:37 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:07:37 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170736971\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:07:39 PM: Starting GetCover...
+10/13/2024 5:07:39 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:07:39 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:07:40 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:07:40 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170736971\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:07:41 PM: Starting GetCover...
+10/13/2024 5:07:42 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:07:42 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:07:42 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:07:42 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170736971\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:07:43 PM: Starting GetCover...
+10/13/2024 5:07:44 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:07:44 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:07:44 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:07:44 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170736971\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:07:46 PM: Starting GetCover...
+10/13/2024 5:07:46 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:07:46 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:07:46 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:07:46 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170736971\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:07:48 PM: Starting GetCover...
+10/13/2024 5:07:49 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:07:49 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:07:49 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:07:49 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170736971\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:07:50 PM: Media data generated successfully.
+10/13/2024 5:07:50 PM: Error: generating XML for package: Value cannot be null. (Parameter source)
+10/13/2024 5:08:30 PM: Starting XML generation for package ID: 62, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+10/13/2024 5:08:30 PM: Success: fetched package info for ID: 62
+10/13/2024 5:08:30 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 5:08:30 PM: Starting GetFolderPaths...
+10/13/2024 5:08:30 PM: Fetching package folder for company: Facebook-Audio
+10/13/2024 5:08:30 PM: Sucsses: PackageFolder set to: 20241013170830765
+10/13/2024 5:08:30 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/13/2024 5:08:30 PM: Sucsses: ResourcesFolder set to: 20241013170830765\9681001016552\resources
+10/13/2024 5:08:30 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/13/2024 5:08:30 PM: Sucsses: MetadataFile path set to: 20241013170830765\9681001016552\9681001016552.xml
+10/13/2024 5:08:30 PM: Sucsses: Final PackageFolder path: 62\20241013170830765
+10/13/2024 5:08:30 PM: Sucsses: Final ResourcesFolder path: 62\20241013170830765\9681001016552\resources
+10/13/2024 5:08:30 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 5:08:30 PM: Starting GetCover...
+10/13/2024 5:08:31 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:08:31 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:08:31 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\62\20241013170830765\9681001016552\resources
+10/13/2024 5:08:31 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:08:31 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170830765\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:08:32 PM: Starting GetCover...
+10/13/2024 5:08:32 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:08:32 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:08:32 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:08:32 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170830765\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:08:34 PM: Starting GetCover...
+10/13/2024 5:08:34 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:08:34 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:08:34 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:08:34 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170830765\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:08:35 PM: Starting GetCover...
+10/13/2024 5:08:36 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:08:36 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:08:36 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:08:36 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170830765\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:08:37 PM: Starting GetCover...
+10/13/2024 5:08:38 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:08:38 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:08:38 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:08:38 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170830765\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:08:39 PM: Starting GetCover...
+10/13/2024 5:08:39 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:08:39 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:08:39 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:08:39 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013170830765\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:08:40 PM: Media data generated successfully.
+10/13/2024 5:08:41 PM: Error: generating XML for package: Value cannot be null. (Parameter source)
+10/13/2024 5:10:06 PM: Starting XML generation for package ID: 62, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+10/13/2024 5:10:06 PM: Success: fetched package info for ID: 62
+10/13/2024 5:10:06 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 5:10:06 PM: Starting GetFolderPaths...
+10/13/2024 5:10:06 PM: Fetching package folder for company: Facebook-Audio
+10/13/2024 5:10:06 PM: Sucsses: PackageFolder set to: 20241013171006327
+10/13/2024 5:10:06 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/13/2024 5:10:06 PM: Sucsses: ResourcesFolder set to: 20241013171006327\9681001016552\resources
+10/13/2024 5:10:06 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/13/2024 5:10:06 PM: Sucsses: MetadataFile path set to: 20241013171006327\9681001016552\9681001016552.xml
+10/13/2024 5:10:06 PM: Sucsses: Final PackageFolder path: 62\20241013171006327
+10/13/2024 5:10:06 PM: Sucsses: Final ResourcesFolder path: 62\20241013171006327\9681001016552\resources
+10/13/2024 5:10:06 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 5:10:06 PM: Starting GetCover...
+10/13/2024 5:10:07 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:10:07 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:10:07 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\62\20241013171006327\9681001016552\resources
+10/13/2024 5:10:07 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:10:07 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171006327\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:10:08 PM: Starting GetCover...
+10/13/2024 5:10:09 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:10:09 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:10:09 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:10:09 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171006327\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:10:10 PM: Starting GetCover...
+10/13/2024 5:10:11 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:10:11 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:10:11 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:10:11 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171006327\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:10:13 PM: Starting GetCover...
+10/13/2024 5:10:13 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:10:13 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:10:13 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:10:13 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171006327\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:10:15 PM: Starting GetCover...
+10/13/2024 5:10:16 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:10:16 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:10:16 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:10:16 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171006327\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:10:17 PM: Starting GetCover...
+10/13/2024 5:10:18 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:10:18 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:10:18 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:10:18 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171006327\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:10:20 PM: Media data generated successfully.
+10/13/2024 5:10:20 PM: Error: generating XML for package: Column track_featured_artistid does not belong to table .
+10/13/2024 5:12:26 PM: Starting XML generation for package ID: 62, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+10/13/2024 5:12:26 PM: Success: fetched package info for ID: 62
+10/13/2024 5:12:26 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 5:12:26 PM: Starting GetFolderPaths...
+10/13/2024 5:12:26 PM: Fetching package folder for company: Facebook-Audio
+10/13/2024 5:12:26 PM: Sucsses: PackageFolder set to: 20241013171226540
+10/13/2024 5:12:26 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/13/2024 5:12:26 PM: Sucsses: ResourcesFolder set to: 20241013171226540\9681001016552\resources
+10/13/2024 5:12:26 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/13/2024 5:12:26 PM: Sucsses: MetadataFile path set to: 20241013171226540\9681001016552\9681001016552.xml
+10/13/2024 5:12:26 PM: Sucsses: Final PackageFolder path: 62\20241013171226540
+10/13/2024 5:12:26 PM: Sucsses: Final ResourcesFolder path: 62\20241013171226540\9681001016552\resources
+10/13/2024 5:12:26 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 5:12:26 PM: Starting GetCover...
+10/13/2024 5:12:27 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:12:27 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:12:27 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\62\20241013171226540\9681001016552\resources
+10/13/2024 5:12:27 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:12:27 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171226540\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:12:28 PM: Starting GetCover...
+10/13/2024 5:12:29 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:12:29 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:12:29 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:12:29 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171226540\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:12:30 PM: Starting GetCover...
+10/13/2024 5:12:31 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:12:31 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:12:31 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:12:31 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171226540\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:12:33 PM: Starting GetCover...
+10/13/2024 5:12:33 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:12:33 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:12:33 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:12:33 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171226540\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:12:35 PM: Starting GetCover...
+10/13/2024 5:12:36 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:12:36 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:12:36 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:12:36 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171226540\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:12:37 PM: Starting GetCover...
+10/13/2024 5:12:38 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:12:38 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:12:38 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:12:38 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171226540\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:12:40 PM: Media data generated successfully.
+10/13/2024 5:12:40 PM: Error: generating XML for package: Object reference not set to an instance of an object.
+10/13/2024 5:15:11 PM: Starting XML generation for package ID: 62, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+10/13/2024 5:15:11 PM: Success: fetched package info for ID: 62
+10/13/2024 5:15:11 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 5:15:11 PM: Starting GetFolderPaths...
+10/13/2024 5:15:11 PM: Fetching package folder for company: Facebook-Audio
+10/13/2024 5:15:11 PM: Sucsses: PackageFolder set to: 20241013171511790
+10/13/2024 5:15:11 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/13/2024 5:15:11 PM: Sucsses: ResourcesFolder set to: 20241013171511790\9681001016552\resources
+10/13/2024 5:15:11 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/13/2024 5:15:11 PM: Sucsses: MetadataFile path set to: 20241013171511790\9681001016552\9681001016552.xml
+10/13/2024 5:15:11 PM: Sucsses: Final PackageFolder path: 62\20241013171511790
+10/13/2024 5:15:11 PM: Sucsses: Final ResourcesFolder path: 62\20241013171511790\9681001016552\resources
+10/13/2024 5:15:11 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 5:15:11 PM: Starting GetCover...
+10/13/2024 5:15:12 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:15:12 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:15:12 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\62\20241013171511790\9681001016552\resources
+10/13/2024 5:15:12 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:15:12 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171511790\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:15:14 PM: Starting GetCover...
+10/13/2024 5:15:14 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:15:14 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:15:14 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:15:14 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171511790\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:15:16 PM: Starting GetCover...
+10/13/2024 5:15:16 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:15:16 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:15:16 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:15:16 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171511790\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:15:18 PM: Starting GetCover...
+10/13/2024 5:15:19 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:15:19 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:15:19 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:15:19 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171511790\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:15:20 PM: Starting GetCover...
+10/13/2024 5:15:21 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:15:21 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:15:21 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:15:21 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171511790\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:15:22 PM: Starting GetCover...
+10/13/2024 5:15:23 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:15:23 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:15:23 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:15:23 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171511790\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:15:25 PM: Media data generated successfully.
+10/13/2024 5:17:48 PM: Starting XML generation for package ID: 62, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+10/13/2024 5:17:48 PM: Success: fetched package info for ID: 62
+10/13/2024 5:17:48 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 5:17:48 PM: Starting GetFolderPaths...
+10/13/2024 5:17:48 PM: Fetching package folder for company: Facebook-Audio
+10/13/2024 5:17:48 PM: Sucsses: PackageFolder set to: 20241013171748788
+10/13/2024 5:17:48 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/13/2024 5:17:48 PM: Sucsses: ResourcesFolder set to: 20241013171748788\9681001016552\resources
+10/13/2024 5:17:48 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/13/2024 5:17:48 PM: Sucsses: MetadataFile path set to: 20241013171748788\9681001016552\9681001016552.xml
+10/13/2024 5:17:48 PM: Sucsses: Final PackageFolder path: 62\20241013171748788
+10/13/2024 5:17:48 PM: Sucsses: Final ResourcesFolder path: 62\20241013171748788\9681001016552\resources
+10/13/2024 5:17:48 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 5:17:48 PM: Starting GetCover...
+10/13/2024 5:17:49 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:17:49 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:17:49 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\62\20241013171748788\9681001016552\resources
+10/13/2024 5:17:49 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:17:49 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171748788\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:17:51 PM: Starting GetCover...
+10/13/2024 5:17:51 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:17:51 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:17:51 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:17:51 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171748788\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:17:53 PM: Starting GetCover...
+10/13/2024 5:17:53 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:17:53 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:17:53 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:17:53 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171748788\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:17:55 PM: Starting GetCover...
+10/13/2024 5:17:55 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:17:55 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:17:55 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:17:55 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171748788\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:17:57 PM: Starting GetCover...
+10/13/2024 5:17:58 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:17:58 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:17:58 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:17:58 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171748788\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:17:59 PM: Starting GetCover...
+10/13/2024 5:18:00 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:18:00 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:18:00 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:18:00 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171748788\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:18:02 PM: Media data generated successfully.
+10/13/2024 5:18:02 PM: Error: generating XML for package: Object reference not set to an instance of an object.
+10/13/2024 5:18:41 PM: Starting XML generation for package ID: 62, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+10/13/2024 5:18:41 PM: Success: fetched package info for ID: 62
+10/13/2024 5:18:41 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 5:18:41 PM: Starting GetFolderPaths...
+10/13/2024 5:18:41 PM: Fetching package folder for company: Facebook-Audio
+10/13/2024 5:18:41 PM: Sucsses: PackageFolder set to: 20241013171841868
+10/13/2024 5:18:41 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/13/2024 5:18:41 PM: Sucsses: ResourcesFolder set to: 20241013171841868\9681001016552\resources
+10/13/2024 5:18:41 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/13/2024 5:18:41 PM: Sucsses: MetadataFile path set to: 20241013171841868\9681001016552\9681001016552.xml
+10/13/2024 5:18:41 PM: Sucsses: Final PackageFolder path: 62\20241013171841868
+10/13/2024 5:18:41 PM: Sucsses: Final ResourcesFolder path: 62\20241013171841868\9681001016552\resources
+10/13/2024 5:18:41 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 5:18:41 PM: Starting GetCover...
+10/13/2024 5:18:42 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:18:42 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:18:42 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\62\20241013171841868\9681001016552\resources
+10/13/2024 5:18:42 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:18:42 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171841868\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:18:43 PM: Starting GetCover...
+10/13/2024 5:18:43 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:18:43 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:18:43 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:18:43 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171841868\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:18:45 PM: Starting GetCover...
+10/13/2024 5:18:45 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:18:45 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:18:45 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:18:45 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171841868\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:18:46 PM: Starting GetCover...
+10/13/2024 5:18:46 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:18:47 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:18:47 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:18:47 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171841868\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:18:48 PM: Starting GetCover...
+10/13/2024 5:18:48 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:18:48 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:18:48 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:18:48 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171841868\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:18:50 PM: Starting GetCover...
+10/13/2024 5:18:50 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:18:50 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:18:50 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:18:50 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013171841868\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:18:51 PM: Media data generated successfully.
+10/13/2024 5:20:35 PM: Starting XML generation for package ID: 62, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+10/13/2024 5:20:35 PM: Success: fetched package info for ID: 62
+10/13/2024 5:20:35 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 5:20:35 PM: Starting GetFolderPaths...
+10/13/2024 5:20:35 PM: Fetching package folder for company: Facebook-Audio
+10/13/2024 5:20:35 PM: Sucsses: PackageFolder set to: 20241013172035948
+10/13/2024 5:20:35 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/13/2024 5:20:35 PM: Sucsses: ResourcesFolder set to: 20241013172035948\9681001016552\resources
+10/13/2024 5:20:35 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/13/2024 5:20:35 PM: Sucsses: MetadataFile path set to: 20241013172035948\9681001016552\9681001016552.xml
+10/13/2024 5:20:35 PM: Sucsses: Final PackageFolder path: 62\20241013172035948
+10/13/2024 5:20:35 PM: Sucsses: Final ResourcesFolder path: 62\20241013172035948\9681001016552\resources
+10/13/2024 5:20:35 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 5:20:35 PM: Starting GetCover...
+10/13/2024 5:20:36 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:20:36 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:20:36 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\62\20241013172035948\9681001016552\resources
+10/13/2024 5:20:36 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:20:36 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013172035948\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:20:38 PM: Starting GetCover...
+10/13/2024 5:20:38 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:20:38 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:20:38 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:20:38 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013172035948\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:20:40 PM: Starting GetCover...
+10/13/2024 5:20:40 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:20:40 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:20:40 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:20:40 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013172035948\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:20:42 PM: Starting GetCover...
+10/13/2024 5:20:43 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:20:43 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:20:43 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:20:43 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013172035948\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:20:44 PM: Starting GetCover...
+10/13/2024 5:20:45 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:20:45 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:20:45 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:20:45 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013172035948\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:20:47 PM: Starting GetCover...
+10/13/2024 5:20:47 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:20:47 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:20:47 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:20:47 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013172035948\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:20:49 PM: Media data generated successfully.
+10/13/2024 5:26:24 PM: Starting XML generation for package ID: 62, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+10/13/2024 5:26:24 PM: Success: fetched package info for ID: 62
+10/13/2024 5:26:24 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 5:26:24 PM: Starting GetFolderPaths...
+10/13/2024 5:26:24 PM: Fetching package folder for company: Facebook-Audio
+10/13/2024 5:26:24 PM: Sucsses: PackageFolder set to: 20241013172624587
+10/13/2024 5:26:24 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/13/2024 5:26:24 PM: Sucsses: ResourcesFolder set to: 20241013172624587\9681001016552\resources
+10/13/2024 5:26:24 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/13/2024 5:26:24 PM: Sucsses: MetadataFile path set to: 20241013172624587\9681001016552\9681001016552.xml
+10/13/2024 5:26:24 PM: Sucsses: Final PackageFolder path: 62\20241013172624587
+10/13/2024 5:26:24 PM: Sucsses: Final ResourcesFolder path: 62\20241013172624587\9681001016552\resources
+10/13/2024 5:26:24 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 5:26:24 PM: Starting GetCover...
+10/13/2024 5:26:25 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:26:25 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:26:25 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\62\20241013172624587\9681001016552\resources
+10/13/2024 5:26:25 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:26:25 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013172624587\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:26:25 PM: Start Getting Media For package info: 62
+10/13/2024 5:26:27 PM: Starting GetCover...
+10/13/2024 5:26:27 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:26:27 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:26:27 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:26:27 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013172624587\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:26:27 PM: Start Getting Media For package info: 62
+10/13/2024 5:26:29 PM: Starting GetCover...
+10/13/2024 5:26:30 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:26:30 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:26:30 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:26:30 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013172624587\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:26:30 PM: Start Getting Media For package info: 62
+10/13/2024 5:26:32 PM: Starting GetCover...
+10/13/2024 5:26:32 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:26:32 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:26:32 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:26:32 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013172624587\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:26:32 PM: Start Getting Media For package info: 62
+10/13/2024 5:26:35 PM: Starting GetCover...
+10/13/2024 5:26:35 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:26:35 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:26:35 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:26:35 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013172624587\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:26:35 PM: Start Getting Media For package info: 62
+10/13/2024 5:26:37 PM: Starting GetCover...
+10/13/2024 5:26:38 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:26:38 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:26:38 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:26:38 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013172624587\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:26:38 PM: Start Getting Media For package info: 62
+10/13/2024 5:26:40 PM: Media data generated successfully.
+10/13/2024 5:26:40 PM: Error: generating XML for package: <input>(139,44) : error : Cannot get the member asset.album_name_a for a null object.
+10/13/2024 5:27:26 PM: Starting XML generation for package ID: 62, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+10/13/2024 5:27:26 PM: Success: fetched package info for ID: 62
+10/13/2024 5:27:26 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 5:27:26 PM: Starting GetFolderPaths...
+10/13/2024 5:27:26 PM: Fetching package folder for company: Facebook-Audio
+10/13/2024 5:27:26 PM: Sucsses: PackageFolder set to: 20241013172726623
+10/13/2024 5:27:26 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/13/2024 5:27:26 PM: Sucsses: ResourcesFolder set to: 20241013172726623\9681001016552\resources
+10/13/2024 5:27:26 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/13/2024 5:27:26 PM: Sucsses: MetadataFile path set to: 20241013172726623\9681001016552\9681001016552.xml
+10/13/2024 5:27:26 PM: Sucsses: Final PackageFolder path: 62\20241013172726623
+10/13/2024 5:27:26 PM: Sucsses: Final ResourcesFolder path: 62\20241013172726623\9681001016552\resources
+10/13/2024 5:27:26 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 5:27:26 PM: Starting GetCover...
+10/13/2024 5:27:27 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:27:27 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:27:27 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\62\20241013172726623\9681001016552\resources
+10/13/2024 5:27:27 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:27:27 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013172726623\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:27:27 PM: Start Getting Media For package info: 62
+10/13/2024 5:27:29 PM: Starting GetCover...
+10/13/2024 5:27:29 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:27:29 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:27:29 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:27:29 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013172726623\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:27:29 PM: Start Getting Media For package info: 62
+10/13/2024 5:27:31 PM: Starting GetCover...
+10/13/2024 5:27:32 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:27:32 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:27:32 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:27:32 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013172726623\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:27:32 PM: Start Getting Media For package info: 62
+10/13/2024 5:27:34 PM: Starting GetCover...
+10/13/2024 5:27:34 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:27:34 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:27:34 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:27:34 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013172726623\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:27:34 PM: Start Getting Media For package info: 62
+10/13/2024 5:27:37 PM: Starting GetCover...
+10/13/2024 5:27:38 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:27:38 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:27:38 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:27:38 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013172726623\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:27:38 PM: Start Getting Media For package info: 62
+10/13/2024 5:27:40 PM: Starting GetCover...
+10/13/2024 5:27:40 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:27:40 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:27:40 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:27:40 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013172726623\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:27:40 PM: Start Getting Media For package info: 62
+10/13/2024 5:27:42 PM: Media data generated successfully.
+10/13/2024 5:27:42 PM: Error: generating XML for package: <input>(167,46) : error : Cannot get the member asset.track_featured_artist_list_string for a null object.
+10/13/2024 5:28:29 PM: Starting XML generation for package ID: 62, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+10/13/2024 5:28:29 PM: Success: fetched package info for ID: 62
+10/13/2024 5:28:29 PM: Processing group with Album UPC: 9681001016552
+10/13/2024 5:28:29 PM: Starting GetFolderPaths...
+10/13/2024 5:28:29 PM: Fetching package folder for company: Facebook-Audio
+10/13/2024 5:28:29 PM: Sucsses: PackageFolder set to: 20241013172829511
+10/13/2024 5:28:29 PM: Sucsses: Fetching resources folder for company: Facebook-Audio
+10/13/2024 5:28:29 PM: Sucsses: ResourcesFolder set to: 20241013172829511\9681001016552\resources
+10/13/2024 5:28:29 PM: Sucsses: Fetching metadata file path for company: Facebook-Audio
+10/13/2024 5:28:29 PM: Sucsses: MetadataFile path set to: 20241013172829511\9681001016552\9681001016552.xml
+10/13/2024 5:28:29 PM: Sucsses: Final PackageFolder path: 62\20241013172829511
+10/13/2024 5:28:29 PM: Sucsses: Final ResourcesFolder path: 62\20241013172829511\9681001016552\resources
+10/13/2024 5:28:29 PM: Sucsses: Retrieved folder paths for package: 62
+10/13/2024 5:28:29 PM: Starting GetCover...
+10/13/2024 5:28:30 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:28:30 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:28:30 PM: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\62\20241013172829511\9681001016552\resources
+10/13/2024 5:28:30 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:28:30 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013172829511\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:28:30 PM: Start Getting Media For package info: 62
+10/13/2024 5:28:32 PM: Starting GetCover...
+10/13/2024 5:28:32 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:28:32 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:28:32 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:28:32 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013172829511\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:28:32 PM: Start Getting Media For package info: 62
+10/13/2024 5:28:34 PM: Starting GetCover...
+10/13/2024 5:28:35 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:28:35 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:28:35 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:28:35 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013172829511\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:28:35 PM: Start Getting Media For package info: 62
+10/13/2024 5:28:37 PM: Starting GetCover...
+10/13/2024 5:28:37 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:28:37 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:28:37 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:28:37 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013172829511\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:28:37 PM: Start Getting Media For package info: 62
+10/13/2024 5:28:40 PM: Starting GetCover...
+10/13/2024 5:28:41 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:28:41 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:28:41 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:28:41 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013172829511\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:28:41 PM: Start Getting Media For package info: 62
+10/13/2024 5:28:42 PM: Starting GetCover...
+10/13/2024 5:28:43 PM: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:28:43 PM: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:28:43 PM: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016552.jpg
+10/13/2024 5:28:43 PM: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\62\20241013172829511\9681001016552\resources\9681001016552.jpg
+10/13/2024 5:28:43 PM: Start Getting Media For package info: 62
+10/13/2024 5:28:45 PM: Media data generated successfully.
+10/13/2024 5:28:45 PM: Success: generated XML for package ID: 62

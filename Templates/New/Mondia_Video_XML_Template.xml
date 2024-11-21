@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?><contentimport xmlns="http://arvato-mobile.com/transfer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" date="@[DATE]@" supplierid="335" xsi:schemaLocation="http://arvato-mobile.com/transfer http://images.handy.de/fundb/xsd/arvato_transfer_1_6_3.xsd">
+  <article articletypeid="28">
+    <idbag>
+      <externalid>V@[ISRC]@</externalid>
+    </idbag>
+    <artist role="Main">
+      <name>@[ALBUM_ARTIST]@</name>
+    </artist>
+    <title loc="ww">@[ALBUM_TITLE]@</title>
+    <title loc="ar">@[ALBUM_TITLE_ARB]@</title>
+    <producer>Mazzika</producer>
+    <licensor>Mazzika</licensor>
+    <keyword>@[KEYWORDS]@</keyword>
+    <contentgrading>0</contentgrading>
+    <genre name="Arabic"/>
+    <category>import</category>
+    <duration>@[MONDIA_TRACK_DURATION]@</duration>
+    <attribute key="General Reporting Code" value="V@[ISRC]@"/>
+    <articlebinary filesize="@[IMAGE_FILE_SIZE]@" md5sum="@[HASH_SUM_IMAGE]@" type="FLMV_cover600x600">Files/@[ALBUM_TITLE]@ 600X600.jpg</articlebinary>
+    <articlebinary filesize="@[IMAGE_THUMB_FILE_SIZE]@" md5sum="@[HASH_SUM_IMAGE_THUMB]@" type="FLMV_screen capture source_640x480">Files/@[ALBUM_TITLE]@ 640X480.jpg</articlebinary>
+    <territory>
+      <c>EG</c>
+      <dRelDate>@[RELEASE_DATE]@</dRelDate>
+      <priceinfo>
+        <effectivedate>@[EFFECTIVE_DATE]@</effectivedate>
+        <pricecode>25</pricecode>
+      </priceinfo>
+    </territory>
+    <item itemtypeid="4512">
+      <binary filesize="@[TRACK_FILE_SIZE]@" kind="BINARY" md5sum="@[HASH_SUM]@">Files/@[TRACK_TITLE]@.mp4</binary>
+    </item>
+  </article>
+</contentimport>

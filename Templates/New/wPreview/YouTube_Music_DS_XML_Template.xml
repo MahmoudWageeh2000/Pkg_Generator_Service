@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ern:NewReleaseMessage xmlns:ern="http://ddex.net/xml/ern/382" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:schemaLocation="http://ddex.net/xml/ern/382 file:../XSD/release-notification.xsd" MessageSchemaVersionId="ern/382" LanguageAndScriptCode="en">
+	<MessageHeader>
+		<MessageId>@[CREATION_FULL_DATE_TIME]@</MessageId>
+		<MessageSender>
+			<PartyId>PADPIDA20131118019</PartyId>
+			<PartyName>
+				<FullName>Global Sound</FullName>
+			</PartyName>
+		</MessageSender>
+		<MessageRecipient>
+			<PartyId>PADPIDA2013020802I</PartyId>
+			<PartyName>
+				<FullName>YouTube</FullName>
+			</PartyName>
+		</MessageRecipient>
+		<MessageCreatedDateTime>@[FULL_DATE_TIME]@+02:00</MessageCreatedDateTime>
+		<MessageControlType>LiveMessage</MessageControlType>
+	</MessageHeader>
+	<UpdateIndicator>OriginalMessage</UpdateIndicator>
+	<ResourceList>
+		#LOOP_SOUND_RECORDING#
+		<SoundRecording>
+			<SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+			<SoundRecordingId>
+				<ISRC>@[ISRC]@</ISRC>
+				<ProprietaryId Namespace="YOUTUBE:AT_CUSTOM_ID">@[ISRC]@</ProprietaryId>
+			</SoundRecordingId>
+			<ResourceReference>A@[TRACK_NO]@</ResourceReference>
+			<ReferenceTitle LanguageAndScriptCode="en">
+				<TitleText>@[TRACK_TITLE]@</TitleText>
+			</ReferenceTitle>
+			<Duration>@[TRACK_DURATION]@</Duration>
+			<SoundRecordingDetailsByTerritory>
+				<TerritoryCode>@[TERRITORY_CODE]@</TerritoryCode>
+				<Title LanguageAndScriptCode="en" TitleType="FormalTitle">
+					<TitleText>@[TRACK_TITLE]@</TitleText>
+				</Title>
+				<Title LanguageAndScriptCode="en" TitleType="DisplayTitle">
+					<TitleText>@[TRACK_TITLE]@</TitleText>
+				</Title>
+				#LOOP_TRACK_MAIN_ARTIST#
+				<DisplayArtist SequenceNumber="1">
+					<PartyName>
+						<FullName>@[TRACK_ARTIST]@</FullName>
+					</PartyName>
+					<ArtistRole>MainArtist</ArtistRole>
+				</DisplayArtist>
+				#END_LOOP_TRACK_MAIN_ARTIST#
+				#LOOP_TRACK_FEATURED_ARTIST#
+				<DisplayArtist>
+					<PartyName>
+						<FullName>@[TRACK_FEATURED_ARTIST]@</FullName>
+					</PartyName>
+					<ArtistRole>FeaturedArtist</ArtistRole>
+				</DisplayArtist>
+				#END_LOOP_TRACK_FEATURED_ARTIST#
+				<DisplayArtistName>@[TRACK_ARTIST]@</DisplayArtistName>
+				<LabelName LabelNameType="DisplayLabelName">@[LABEL_NAME]@</LabelName>
+				<PLine>
+					<Year>@[RELEASE_YEAR]@</Year>
+					<PLineText>(P) @[RELEASE_YEAR]@ @[LABEL_NAME]@</PLineText>
+				</PLine>
+				<Genre>
+					<GenreText>@[TRACK_GENRE]@</GenreText>
+				</Genre>
+				<ParentalWarningType>NotExplicit</ParentalWarningType>
+				<TechnicalSoundRecordingDetails>
+					<TechnicalResourceDetailsReference>T@[TRACK_NO]@</TechnicalResourceDetailsReference>
+					<IsPreview>false</IsPreview>
+					<PreviewDetails>
+						<StartPoint>@[PREVIEW_START]@</StartPoint>
+						<EndPoint>@[PREVIEW_END]@</EndPoint>
+						<ExpressionType>Instructive</ExpressionType>
+					</PreviewDetails>
+					<File>
+						<FileName>@[ISRC]@.flac</FileName>
+						<FilePath>resources/</FilePath>
+					</File>
+				</TechnicalSoundRecordingDetails>
+			</SoundRecordingDetailsByTerritory>
+		</SoundRecording>
+		#END_LOOP_SOUND_RECORDING#
+		<Image>
+			<ImageType>FrontCoverImage</ImageType>
+			<ImageId>
+				<ProprietaryId Namespace="DPID:PADPIDA20131118019">@[ALBUM_UPC]@</ProprietaryId>
+			</ImageId>
+			<ResourceReference>A@[IMAGE_NO]@</ResourceReference>
+			<ImageDetailsByTerritory>
+				<TerritoryCode>@[TERRITORY_CODE]@</TerritoryCode>
+				<TechnicalImageDetails>
+					<TechnicalResourceDetailsReference>T@[IMAGE_NO]@</TechnicalResourceDetailsReference>
+					<File>
+						<FileName>@[ALBUM_UPC]@.jpg</FileName>
+						<FilePath>resources/</FilePath>
+					</File>
+				</TechnicalImageDetails>
+			</ImageDetailsByTerritory>
+		</Image>
+	</ResourceList>
+	<ReleaseList>
+		<Release IsMainRelease="true">
+			<ReleaseId>
+				<ICPN>@[ALBUM_UPC]@</ICPN>
+			</ReleaseId>
+			<ReleaseReference>R0</ReleaseReference>
+			<ReferenceTitle LanguageAndScriptCode="en">
+				<TitleText>@[ALBUM_TITLE]@</TitleText>
+			</ReferenceTitle>
+			<ReleaseResourceReferenceList>
+				#LOOP_RELEASE_RESOURCE_REFERENCE#
+				<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A@[TRACK_NO]@</ReleaseResourceReference>
+				#END_LOOP_RELEASE_RESOURCE_REFERENCE#
+				<ReleaseResourceReference ReleaseResourceType="SecondaryResource">A@[IMAGE_NO]@</ReleaseResourceReference>
+			</ReleaseResourceReferenceList>
+			<ReleaseType>Album</ReleaseType>
+			<ReleaseDetailsByTerritory>
+				<TerritoryCode>@[TERRITORY_CODE]@</TerritoryCode>
+				<DisplayArtistName>@[ALBUM_ARTIST]@</DisplayArtistName>
+				<LabelName LabelNameType="DisplayLabelName">@[LABEL_NAME]@</LabelName>
+				<Title LanguageAndScriptCode="en" TitleType="FormalTitle">
+					<TitleText>@[ALBUM_TITLE]@</TitleText>
+				</Title>
+				<Title LanguageAndScriptCode="en" TitleType="DisplayTitle">
+					<TitleText>@[ALBUM_TITLE]@</TitleText>
+				</Title>
+				#LOOP_ALBUM_MAIN_ARTIST#
+				<DisplayArtist SequenceNumber="1">
+					<PartyName>
+						<FullName>@[ALBUM_ARTIST]@</FullName>
+					</PartyName>
+					<ArtistRole>MainArtist</ArtistRole>
+				</DisplayArtist>
+				#END_LOOP_ALBUM_MAIN_ARTIST#
+				#LOOP_ALBUM_FEATURED_ARTIST#
+				<DisplayArtist>
+					<PartyName>
+						<FullName>@[ALBUM_FEATURED_ARTIST]@</FullName>
+					</PartyName>
+					<ArtistRole>FeaturedArtist</ArtistRole>
+				</DisplayArtist>
+				#END_LOOP_ALBUM_FEATURED_ARTIST#
+				<ParentalWarningType>NotExplicit</ParentalWarningType>
+				<ResourceGroup>
+					<ResourceGroup>
+						<Title TitleType="GroupingTitle">
+							<TitleText>Disc 1</TitleText>
+						</Title>
+						<SequenceNumber>1</SequenceNumber>
+						#LOOP_RESOURCE_GROUP_CONTENT_ITEM#
+						<ResourceGroupContentItem>
+							<SequenceNumber>@[TRACK_NO]@</SequenceNumber>
+							<ResourceType>SoundRecording</ResourceType>
+							<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A@[TRACK_NO]@</ReleaseResourceReference>
+						</ResourceGroupContentItem>
+						#END_LOOP_RESOURCE_GROUP_CONTENT_ITEM#
+					</ResourceGroup>
+					<ResourceGroupContentItem>
+						<SequenceNumber>@[IMAGE_NO]@</SequenceNumber>
+						<ResourceType>Image</ResourceType>
+						<ReleaseResourceReference ReleaseResourceType="SecondaryResource">A@[IMAGE_NO]@</ReleaseResourceReference>
+					</ResourceGroupContentItem>
+				</ResourceGroup>
+				<Genre>
+					<GenreText>@[TRACK_GENRE]@</GenreText>
+				</Genre>
+				<ReleaseDate>@[RELEASE_DATE]@</ReleaseDate>
+			</ReleaseDetailsByTerritory>
+			<Duration>@[ALBUM_DURATION]@</Duration>
+			<PLine>
+				<Year>@[RELEASE_YEAR]@</Year>
+				<PLineText>(P) @[RELEASE_YEAR]@ @[LABEL_NAME]@</PLineText>
+			</PLine>
+			<GlobalOriginalReleaseDate>@[RELEASE_DATE]@</GlobalOriginalReleaseDate>
+		</Release>
+		#LOOP_RELEASE#
+		<Release>
+			<ReleaseId>
+				<ISRC>@[ISRC]@</ISRC>
+			</ReleaseId>
+			<ReleaseReference>R@[TRACK_NO]@</ReleaseReference>
+			<ReferenceTitle LanguageAndScriptCode="en">
+				<TitleText>@[TRACK_TITLE]@</TitleText>
+			</ReferenceTitle>
+			<ReleaseResourceReferenceList>
+				<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A@[TRACK_NO]@</ReleaseResourceReference>
+			</ReleaseResourceReferenceList>
+			<ReleaseType>TrackRelease</ReleaseType>
+			<ReleaseDetailsByTerritory>
+				<TerritoryCode>@[TERRITORY_CODE]@</TerritoryCode>
+				<DisplayArtistName>@[TRACK_ARTIST]@</DisplayArtistName>
+				<LabelName LabelNameType="DisplayLabelName">@[LABEL_NAME]@</LabelName>
+				<Title LanguageAndScriptCode="en" TitleType="FormalTitle">
+					<TitleText>@[TRACK_TITLE]@</TitleText>
+				</Title>
+				<Title LanguageAndScriptCode="en" TitleType="DisplayTitle">
+					<TitleText>@[TRACK_TITLE]@</TitleText>
+				</Title>
+				#LOOP_TRACK_MAIN_ARTIST#
+				<DisplayArtist SequenceNumber="1">
+					<PartyName>
+						<FullName>@[TRACK_ARTIST]@</FullName>
+					</PartyName>
+					<ArtistRole>MainArtist</ArtistRole>
+				</DisplayArtist>
+				#END_LOOP_TRACK_MAIN_ARTIST#
+				#LOOP_TRACK_FEATURED_ARTIST#
+				<DisplayArtist>
+					<PartyName>
+						<FullName>@[TRACK_FEATURED_ARTIST]@</FullName>
+					</PartyName>
+					<ArtistRole>FeaturedArtist</ArtistRole>
+				</DisplayArtist>
+				#END_LOOP_TRACK_FEATURED_ARTIST#
+				<ParentalWarningType>NotExplicit</ParentalWarningType>
+				<Genre>
+					<GenreText>@[TRACK_GENRE]@</GenreText>
+				</Genre>
+			</ReleaseDetailsByTerritory>
+			<Duration>@[TRACK_DURATION]@</Duration>
+			<PLine>
+				<Year>@[RELEASE_YEAR]@</Year>
+				<PLineText>(P) @[RELEASE_YEAR]@ @[LABEL_NAME]@</PLineText>
+			</PLine>
+		</Release>
+		#END_LOOP_RELEASE#
+	</ReleaseList>
+	<DealList>
+		#LOOP_RELEASE_DEAL#
+		<ReleaseDeal>
+			<DealReleaseReference>R@[TRACK_NO]@</DealReleaseReference>
+			<Deal>
+				<DealTerms>
+					<CommercialModelType>AdvertisementSupportedModel</CommercialModelType>
+					<CommercialModelType>SubscriptionModel</CommercialModelType>
+					<Usage>
+						<UseType>NonInteractiveStream</UseType>
+						<UseType>OnDemandStream</UseType>
+					</Usage>
+					<TerritoryCode>@[TERRITORY_CODE]@</TerritoryCode>
+					<ValidityPeriod>
+						<StartDate>@[START_DATE]@</StartDate>
+					</ValidityPeriod>
+					<ReleaseDisplayStartDate>@[START_DATE]@</ReleaseDisplayStartDate>
+					<TrackListingPreviewStartDate>@[PREVIEW_DATE]@</TrackListingPreviewStartDate>
+					<CoverArtPreviewStartDate>@[PREVIEW_DATE]@</CoverArtPreviewStartDate>
+					<ClipPreviewStartDate>@[PREVIEW_DATE]@</ClipPreviewStartDate>
+				</DealTerms>
+			</Deal>
+		</ReleaseDeal>
+		#END_LOOP_RELEASE_DEAL#
+	</DealList>
+</ern:NewReleaseMessage>

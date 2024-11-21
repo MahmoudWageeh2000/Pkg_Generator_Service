@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ern:NewReleaseMessage xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:ern="http://ddex.net/xml/ern/34" MessageSchemaVersionId="ern/34" LanguageAndScriptCode="en" xs:schemaLocation="http://ddex.net/xml/ern/34 http://ddex.net/xml/ern/34/release-notification.xsd">
+	<MessageHeader>
+		<MessageThreadId>{{ album.album_ubc }}</MessageThreadId>
+		<MessageId>{{ album.album_ubc }}</MessageId>
+		<MessageSender>
+			<PartyId>PADPIDA20131118019</PartyId>
+			<PartyName>
+				<FullName>Mazzika Group</FullName>
+			</PartyName>
+		</MessageSender>
+		<MessageRecipient>
+			<PartyId>PADPIDA2011020803D</PartyId>
+			<PartyName>
+				<FullName>TIDAL</FullName>
+			</PartyName>
+		</MessageRecipient>
+		<MessageCreatedDateTime>{{ album.date_time }}</MessageCreatedDateTime>
+		<MessageControlType>LiveMessage</MessageControlType>
+	</MessageHeader>
+	<UpdateIndicator xmlns="">UpdateMessage</UpdateIndicator>
+  <ResourceList>
+	  {{~ for asset in album.asset_list ~}}
+	  <SoundRecording>
+		  <SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+		  <SoundRecordingId>
+			  <ISRC>{{ asset.asset_isrc }}</ISRC>
+			  <ProprietaryId Namespace="DPID:PADPIDA20131118019">GGL_USR_ID:{{ asset.asset_isrc }}</ProprietaryId>
+		  </SoundRecordingId>
+		  <ResourceReference>A{{asset.track_num}}</ResourceReference>
+		  <ReferenceTitle>
+			  <TitleText>{{ asset.track_name }}</TitleText>
+		  </ReferenceTitle>
+		  <Duration>PT{{ asset.track_duration }}</Duration>
+      <SoundRecordingDetailsByTerritory>
+		  {{~ for country_code in album.country_iso_code_list_string ~}}
+		  <TerritoryCode>{{ country_code }}</TerritoryCode>
+		  {{~ end ~}}
+		  <Title TitleType="DisplayTitle">
+			  <TitleText>{{ asset.track_name }}</TitleText>
+		  </Title>
+		  {{~ seq = 1  ~}}
+		  {{~ for track_main_artist in asset.track_artist_list_string ~}}
+		  <DisplayArtist SequenceNumber="{{seq}}">
+			  <PartyName>
+				  <FullName>{{ track_main_artist.name }}</FullName>
+			  </PartyName>
+			  <ArtistRole>MainArtist</ArtistRole>
+		  </DisplayArtist>
+		  {{~ seq = seq + 1 ~}}
+		  {{~ end ~}}
+		  <LabelName>{{ asset.label_name }}</LabelName>
+		  <Genre>
+			  <GenreText>{{ asset.track_genre }}</GenreText>
+			  <SubGenre></SubGenre>
+        </Genre>
+        <ParentalWarningType>NotExplicit</ParentalWarningType>
+        <TechnicalSoundRecordingDetails>
+			<TechnicalResourceDetailsReference>T{{ asset.track_num }}</TechnicalResourceDetailsReference>
+			<File>
+            <FileName>resources/{{ asset.asset_isrc }}.flac</FileName>
+          </File>
+        </TechnicalSoundRecordingDetails>
+      </SoundRecordingDetailsByTerritory>
+    </SoundRecording>
+	  {{~ end ~}}
+  </ResourceList>
+  <ReleaseList>
+	  <Release>
+		  <ReleaseId>
+			  <ICPN IsEan="false">{{ album.album_ubc }}</ICPN>
+			  <ProprietaryId Namespace="DPID:PADPIDA20131118019">GGL_UR_ID:{{ album.album_ubc }}</ProprietaryId>
+		  </ReleaseId>
+		  <ReleaseReference>R0</ReleaseReference>
+		  <ReferenceTitle>
+			  <TitleText>{{ album.album_name }}</TitleText>
+		  </ReferenceTitle>
+		  <ReleaseResourceReferenceList>
+			  {{~ for asset in album.asset_list ~}}
+			  <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A{{ asset.track_num}}</ReleaseResourceReference>
+			  {{~end~}}
+			  <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A{{ album.image_num }}</ReleaseResourceReference>
+		  </ReleaseResourceReferenceList>
+		  <ReleaseType>Album</ReleaseType>
+		  <ReleaseDetailsByTerritory>
+			  {{~ for country_code in album.country_iso_code_list_string ~}}
+			  <TerritoryCode>{{ country_code }}</TerritoryCode>
+			  {{~ end ~}}
+			  <LabelName>{{ album.label_name }}</LabelName>
+			  <Title TitleType="DisplayTitle">
+				  <TitleText>{{ album.album_name }}</TitleText>
+			  </Title>
+			  <DisplayArtist SequenceNumber="1">
+				  <PartyName>
+					  <FullName>{{ album.album_artist }}</FullName>
+				  </PartyName>
+				  <ArtistRole>MainArtist</ArtistRole>
+			  </DisplayArtist>
+			  <ParentalWarningType>NotExplicit</ParentalWarningType>
+			  <ResourceGroup>
+				  <ResourceGroup>
+					  <Title TitleType="GroupingTitle">
+						  <TitleText>{{ album.album_name }}</TitleText>
+					  </Title>
+					  <SequenceNumber>1</SequenceNumber>
+					  {{~ for asset in album.asset_list ~}}
+					  <ResourceGroupContentItem>
+						  <SequenceNumber>{{asset.track_num}}</SequenceNumber>
+						  <ResourceType>SoundRecording</ResourceType>
+						  <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A{{asset.track_num}}</ReleaseResourceReference>
+					  </ResourceGroupContentItem>
+					  {{~end~}}
+				  </ResourceGroup>
+				  <ResourceGroupContentItem>
+					  <ResourceType>Image</ResourceType>
+					  <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A{{ album.image_num }}</ReleaseResourceReference>
+				  </ResourceGroupContentItem>
+			  </ResourceGroup>
+			  <Genre>
+				  <GenreText>{{album.track_genre}}</GenreText>
+				  <SubGenre></SubGenre>
+			  </Genre>
+			  <OriginalReleaseDate>{{album.release_date}}</OriginalReleaseDate>
+		  </ReleaseDetailsByTerritory>
+		  <PLine>
+			  <Year>{{ album.release_year }}</Year>
+			  <PLineText>{{ album.release_year }} {{ album.label_name }}</PLineText>
+		  </PLine>
+		  <CLine>
+			  <Year>{{ album.release_year }}</Year>
+			  <CLineText>{{ album.release_year }} {{ album.label_name }}</CLineText>
+		  </CLine>
+	  </Release>
+	  {{~ for asset in album.asset_list ~}}
+	  <Release>
+		  <ReleaseId>
+			  <ISRC>{{ asset.asset_isrc }}</ISRC>
+			  <ProprietaryId Namespace="DPID:PADPIDA20131118019">{{ asset.asset_isrc }}</ProprietaryId>
+		  </ReleaseId>
+		  <ReleaseReference>R{{ asset.track_num }}</ReleaseReference>
+		  <ReferenceTitle>
+			  <TitleText>{{ asset.track_name }}</TitleText>
+		  </ReferenceTitle>
+		  <ReleaseResourceReferenceList>
+			  <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A{{ asset.track_num }}</ReleaseResourceReference>
+		  </ReleaseResourceReferenceList>
+		  <ReleaseType>TrackRelease</ReleaseType>
+		  <ReleaseDetailsByTerritory>
+			  {{~ for country_code in album.country_iso_code_list_string ~}}
+			  <TerritoryCode>{{ country_code }}</TerritoryCode>
+			  {{~ end ~}}
+			  <DisplayArtistName>{{ asset.track_artist }}</DisplayArtistName>
+			  <LabelName>{{ asset.label_name }}</LabelName>
+			  <Title TitleType="DisplayTitle">
+				  <TitleText>{{ asset.track_name }}</TitleText>
+			  </Title>
+			  <DisplayArtist SequenceNumber="1">
+				  <PartyName>
+					  <FullName>{{ asset.track_artist }}</FullName>
+				  </PartyName>
+				  <ArtistRole>MainArtist</ArtistRole>
+			  </DisplayArtist>
+		  </ReleaseDetailsByTerritory>
+		  <PLine>
+			  <Year>{{ asset.release_year }}</Year>
+			  <PLineText>{{ asset.release_year }} {{ asset.label_name }}</PLineText>
+		  </PLine>
+	  </Release>
+	  {{~end~}}
+  </ReleaseList>
+  <DealList>
+	  <ReleaseDeal>
+		  <DealReleaseReference>R0</DealReleaseReference>
+		  <Deal>
+			  <DealTerms>
+				  <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+				  <CommercialModelType>AdvertisementSupportedModel</CommercialModelType>
+				  <CommercialModelType>SubscriptionModel</CommercialModelType>
+				  <Usage>
+					  <UseType>PermanentDownload</UseType>
+					  <UseType>OnDemandStream</UseType>
+					  <UseType>NonInteractiveStream</UseType>
+					  <DistributionChannelType>InternetAndMobile</DistributionChannelType>
+				  </Usage>
+				  {{~ for country_code in album.country_iso_code_list_string ~}}
+				  <TerritoryCode>{{ country_code }}</TerritoryCode>
+				  {{~ end ~}}
+				  <ValidityPeriod>
+					  <StartDate>{{album.start_date}}</StartDate>
+				  </ValidityPeriod>
+			  </DealTerms>
+		  </Deal>
+		  <EffectiveDate>{{album.start_date}}</EffectiveDate>
+	  </ReleaseDeal>
+	  {{~ for asset in album.asset_list ~}}
+	  {{~ for country_code in asset.country_iso_code_list_string ~}}
+	  <ReleaseDeal>
+		  <DealReleaseReference>R{{asset.track_num}}</DealReleaseReference>
+		  <Deal>
+			  <DealTerms>
+				  <CommercialModelType>PayAsYouGoModel</CommercialModelType>
+				  <CommercialModelType>AdvertisementSupportedModel</CommercialModelType>
+				  <CommercialModelType>SubscriptionModel</CommercialModelType>
+				  <Usage>
+					  <UseType>PermanentDownload</UseType>
+					  <UseType>OnDemandStream</UseType>
+					  <UseType>NonInteractiveStream</UseType>
+					  <DistributionChannelType>InternetAndMobile</DistributionChannelType>
+				  </Usage>
+				  <TerritoryCode>{{ country_code }}</TerritoryCode>
+				  <ValidityPeriod>
+					  <StartDate>{{asset.start_date}}</StartDate>
+				  </ValidityPeriod>
+			  </DealTerms>
+		  </Deal>
+		  <EffectiveDate>{{asset.start_date}}</EffectiveDate>
+	  </ReleaseDeal>
+	  {{~ end ~}}
+	  {{~ end ~}}
+  </DealList>
+</ern:NewReleaseMessage>

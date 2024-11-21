@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ern:NewReleaseMessage LanguageAndScriptCode="en" MessageSchemaVersionId="ern/382" ReleaseProfileVersionId="CommonReleaseTypesTypes/13/SimpleVideoSingle" xmlns:ern="http://ddex.net/xml/ern/382" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:schemaLocation="http://ddex.net/xml/ern/382 file:../XSD/release-notification.xsd">
+	<MessageHeader>
+		<MessageThreadId/>
+		<MessageId/>
+		<MessageSender>
+			<PartyId>PADPIDA20131118019</PartyId>
+			<PartyName>
+				<FullName>Mazzika Group</FullName>
+			</PartyName>
+		</MessageSender>
+		<MessageRecipient>
+			<PartyId>PADPIDA2013020802I</PartyId>
+			<PartyName>
+				<FullName>YouTube</FullName>
+			</PartyName>
+		</MessageRecipient>
+		<MessageRecipient>
+			<PartyId>PADPIDA2015120100H</PartyId>
+			<PartyName>
+				<FullName>YouTube_ContentID</FullName>
+			</PartyName>
+		</MessageRecipient>
+		<MessageCreatedDateTime>@[FULL_DATE_TIME]@+02:00</MessageCreatedDateTime>
+	</MessageHeader>
+	<UpdateIndicator>OriginalMessage</UpdateIndicator>
+	<ResourceList>
+		<Video>
+			<VideoType>ShortFormMusicalWorkVideo</VideoType>
+			<VideoId>
+				<ISRC>@[ISRC]@</ISRC>
+				<ProprietaryId Namespace="YOUTUBE:MV_ASSET_LABEL">@[MV_ASSET_LABEL]@</ProprietaryId>
+				<ProprietaryId Namespace="YOUTUBE:MV_CUSTOM_ID">@[ISRC]@</ProprietaryId>
+				<ProprietaryId Namespace="YOUTUBE:CHANNEL_ID">@[CHANNEL_ID]@</ProprietaryId>
+				<ProprietaryId Namespace="DPID:PADPIDA20131118019">PADPIDA20131118019</ProprietaryId>
+			</VideoId>
+			<ResourceReference>A1</ResourceReference>
+			<ReferenceTitle>
+				<TitleText>@[TRACK_TITLE]@ - @[TRACK_TITLE_ARB]@</TitleText>
+			</ReferenceTitle>
+			<LanguageOfPerformance>en</LanguageOfPerformance>
+			<Duration>@[TRACK_DURATION]@</Duration>
+			<VideoDetailsByTerritory>
+				<TerritoryCode>@[TERRITORY_CODE]@</TerritoryCode>
+				<Title LanguageAndScriptCode="en" TitleType="FormalTitle">
+					<TitleText>@[TRACK_TITLE]@ - @[TRACK_TITLE_ARB]@</TitleText>
+				</Title>
+				<Title LanguageAndScriptCode="en" TitleType="DisplayTitle">
+					<TitleText>@[TRACK_TITLE]@ - @[TRACK_TITLE_ARB]@</TitleText>
+				</Title>
+				#LOOP_TRACK_MAIN_ARTIST#
+				<DisplayArtist SequenceNumber="1">
+					<PartyName>
+						<FullName>@[TRACK_ARTIST]@ - @[TRACK_ARTIST_ARB]@</FullName>
+					</PartyName>
+					<ArtistRole>MainArtist</ArtistRole>
+				</DisplayArtist>
+				#END_LOOP_TRACK_MAIN_ARTIST#
+				#LOOP_TRACK_FEATURED_ARTIST#
+				<DisplayArtist>
+					<PartyName>
+						<FullName>@[TRACK_FEATURED_ARTIST]@ - @[TRACK_FEATURED_ARTIST_ARB]@</FullName>
+					</PartyName>
+					<ArtistRole>FeaturedArtist</ArtistRole>
+				</DisplayArtist>
+				#END_LOOP_TRACK_FEATURED_ARTIST#
+				<DisplayArtistName>@[TRACK_ARTIST]@ - @[TRACK_ARTIST_ARB]@</DisplayArtistName>
+				<LabelName LabelNameType="DisplayLabelName">@[LABEL_NAME]@</LabelName>
+				<RightsController>
+					<PartyName>
+						<FullName>Mazzika Group</FullName>
+					</PartyName>
+					<PartyId>PADPIDA20131118019</PartyId>
+					<RightsControllerRole>RightsController</RightsControllerRole>
+					<RightSharePercentage>100.00</RightSharePercentage>
+				</RightsController>
+				<ResourceReleaseDate>@[RELEASE_DATE]@</ResourceReleaseDate>
+				<PLine>
+					<Year>@[RELEASE_YEAR]@</Year>
+					<PLineText>(P) @[RELEASE_YEAR]@ @[LABEL_NAME]@</PLineText>
+				</PLine>
+				<Genre>
+					<GenreText>@[TRACK_GENRE]@</GenreText>
+				</Genre>
+				<ParentalWarningType>NotExplicit</ParentalWarningType>
+				<Keywords>@[KEYWORDS]@</Keywords>
+				<TechnicalVideoDetails>
+					<TechnicalResourceDetailsReference>T1</TechnicalResourceDetailsReference>
+					<File>
+						<FileName>@[ISRC]@.mp4</FileName>
+					</File>
+				</TechnicalVideoDetails>
+			</VideoDetailsByTerritory>
+		</Video>
+		<Image>
+			<ImageType>VideoScreenCapture</ImageType>
+			<ImageId>
+				<ProprietaryId Namespace="DPID:PADPIDA20131118019">@[ISRC]@</ProprietaryId>
+			</ImageId>
+			<ResourceReference>A2</ResourceReference>
+			<ImageDetailsByTerritory>
+				<TerritoryCode>@[TERRITORY_CODE]@</TerritoryCode>
+				<ParentalWarningType>NotExplicit</ParentalWarningType>
+				<TechnicalImageDetails>
+					<TechnicalResourceDetailsReference>T2</TechnicalResourceDetailsReference>
+					<File>
+						<FileName>@[ISRC]@.jpg</FileName>
+					</File>
+				</TechnicalImageDetails>
+			</ImageDetailsByTerritory>
+		</Image>
+	</ResourceList>
+	<ReleaseList>
+		<Release IsMainRelease="true">
+			<ReleaseId>
+				<ISRC>@[ISRC]@</ISRC>
+			</ReleaseId>
+			<ReleaseReference>R0</ReleaseReference>
+			<ReferenceTitle LanguageAndScriptCode="en">
+				<TitleText>@[TRACK_TITLE]@ - @[TRACK_TITLE_ARB]@</TitleText>
+			</ReferenceTitle>
+			<ReleaseResourceReferenceList>
+				<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+				<ReleaseResourceReference ReleaseResourceType="SecondaryResource">A2</ReleaseResourceReference>
+			</ReleaseResourceReferenceList>
+			<ReleaseType>VideoSingle</ReleaseType>
+			<ReleaseDetailsByTerritory>
+				<TerritoryCode>@[TERRITORY_CODE]@</TerritoryCode>
+				<DisplayArtistName>@[TRACK_ARTIST]@ - @[TRACK_ARTIST_ARB]@</DisplayArtistName>
+				<LabelName>@[LABEL_NAME]@</LabelName>
+				<Title LanguageAndScriptCode="en" TitleType="FormalTitle">
+					<TitleText>@[TRACK_TITLE]@ - @[TRACK_TITLE_ARB]@</TitleText>
+				</Title>
+				<Title LanguageAndScriptCode="en" TitleType="DisplayTitle">
+					<TitleText>@[TRACK_TITLE]@ - @[TRACK_TITLE_ARB]@</TitleText>
+				</Title>
+				#LOOP_TRACK_MAIN_ARTIST#
+				<DisplayArtist SequenceNumber="1">
+					<PartyName>
+						<FullName>@[TRACK_ARTIST]@ - @[TRACK_ARTIST_ARB]@</FullName>
+					</PartyName>
+					<ArtistRole>MainArtist</ArtistRole>
+				</DisplayArtist>
+				#END_LOOP_TRACK_MAIN_ARTIST#
+				#LOOP_TRACK_FEATURED_ARTIST#
+				<DisplayArtist>
+					<PartyName>
+						<FullName>@[TRACK_FEATURED_ARTIST]@ - @[TRACK_FEATURED_ARTIST_ARB]@</FullName>
+					</PartyName>
+					<ArtistRole>FeaturedArtist</ArtistRole>
+				</DisplayArtist>
+				#END_LOOP_TRACK_FEATURED_ARTIST#
+				<ParentalWarningType>NotExplicit</ParentalWarningType>
+				<ResourceGroup>
+					<ResourceGroup>
+						<Title TitleType="GroupingTitle">
+							<TitleText>Component 1</TitleText>
+						</Title>
+						<SequenceNumber>1</SequenceNumber>
+						<ResourceGroupContentItem>
+							<SequenceNumber>1</SequenceNumber>
+							<ResourceType>Video</ResourceType>
+							<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+							<LinkedReleaseResourceReference LinkDescription="VideoScreenCapture">A2</LinkedReleaseResourceReference>
+						</ResourceGroupContentItem>
+					</ResourceGroup>
+				</ResourceGroup>
+			</ReleaseDetailsByTerritory>
+		</Release>
+		<Release>
+			<ReleaseId>
+				<ISRC>@[ISRC]@</ISRC>
+			</ReleaseId>
+			<ReleaseReference>R1</ReleaseReference>
+			<ReferenceTitle LanguageAndScriptCode="en">
+				<TitleText>@[TRACK_TITLE]@</TitleText>
+			</ReferenceTitle>
+			<ReleaseResourceReferenceList>
+				<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+				<ReleaseResourceReference ReleaseResourceType="SecondaryResource">A2</ReleaseResourceReference>
+			</ReleaseResourceReferenceList>
+			<ReleaseType>VideoTrackRelease</ReleaseType>
+			<ReleaseDetailsByTerritory>
+				<TerritoryCode>@[TERRITORY_CODE]@</TerritoryCode>
+				<DisplayArtistName>@[TRACK_ARTIST]@ - @[TRACK_ARTIST_ARB]@</DisplayArtistName>
+				<LabelName>@[LABEL_NAME]@</LabelName>
+				<Title LanguageAndScriptCode="en" TitleType="FormalTitle">
+					<TitleText>@[TRACK_TITLE]@ - @[TRACK_TITLE_ARB]@</TitleText>
+				</Title>
+				<Title LanguageAndScriptCode="en" TitleType="DisplayTitle">
+					<TitleText>@[TRACK_TITLE]@ - @[TRACK_TITLE_ARB]@</TitleText>
+				</Title>
+				#LOOP_TRACK_MAIN_ARTIST#
+				<DisplayArtist SequenceNumber="1">
+					<PartyName>
+						<FullName>@[TRACK_ARTIST]@ - @[TRACK_ARTIST_ARB]@</FullName>
+					</PartyName>
+					<ArtistRole>MainArtist</ArtistRole>
+				</DisplayArtist>
+				#END_LOOP_TRACK_MAIN_ARTIST#
+				#LOOP_TRACK_FEATURED_ARTIST#
+				<DisplayArtist>
+					<PartyName>
+						<FullName>@[TRACK_FEATURED_ARTIST]@ - @[TRACK_FEATURED_ARTIST_ARB]@</FullName>
+					</PartyName>
+					<ArtistRole>FeaturedArtist</ArtistRole>
+				</DisplayArtist>
+				#END_LOOP_TRACK_FEATURED_ARTIST#
+				<RelatedRelease>
+					<ReleaseId>
+						<ISRC>@[ISRC]@</ISRC>
+					</ReleaseId>
+					<ReleaseRelationshipType>IsFromAudio</ReleaseRelationshipType>
+				</RelatedRelease>
+				<ParentalWarningType>NotExplicit</ParentalWarningType>
+				<MarketingComment>@[VIDEO_DESCRIPTION]@</MarketingComment>
+				<ResourceGroup>
+					<ResourceGroup>
+						<Title TitleType="GroupingTitle">
+							<TitleText>Component 1</TitleText>
+						</Title>
+						<SequenceNumber>1</SequenceNumber>
+						<ResourceGroupContentItem>
+							<SequenceNumber>1</SequenceNumber>
+							<ResourceType>Video</ResourceType>
+							<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+							<LinkedReleaseResourceReference LinkDescription="VideoScreenCapture">A2</LinkedReleaseResourceReference>
+						</ResourceGroupContentItem>
+					</ResourceGroup>
+				</ResourceGroup>
+			</ReleaseDetailsByTerritory>
+		</Release>
+	</ReleaseList>
+	<DealList>
+		<ReleaseDeal>
+			<DealReleaseReference>R1</DealReleaseReference>
+			<Deal>
+				<DealReference>YT_MATCH_POLICY:@[YT_MATCH_POLICY]@</DealReference>
+			</Deal>
+			<Deal>
+				<DealReference>YT_USAGE_POLICY:@[YT_USAGE_POLICY]@</DealReference>
+				<DealTerms>
+					<CommercialModelType>AdvertisementSupportedModel</CommercialModelType>
+					<CommercialModelType>SubscriptionModel</CommercialModelType>
+					<Usage>
+						<UseType>OnDemandStream</UseType>
+					</Usage>
+					<TerritoryCode>@[TERRITORY_CODE]@</TerritoryCode>
+					<ValidityPeriod>
+						<StartDate>@[START_DATE]@</StartDate>
+					</ValidityPeriod>
+				</DealTerms>
+			</Deal>
+		</ReleaseDeal>
+	</DealList>
+</ern:NewReleaseMessage>

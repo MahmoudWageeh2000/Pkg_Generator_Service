@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ernm:NewReleaseMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" MessageSchemaVersionId="2008/ern-main/301" xsi:schemaLocation="http://ddex.net/xml/2008/ern-main/301 http://ddex.net/xml/2008/ern-main/301/ern-main.xsd" xmlns:ernm="http://ddex.net/xml/2008/ern-main/301">
+	<MessageHeader>
+		<MessageThreadId>@[ALBUM_UPC]@</MessageThreadId>
+		<MessageId>@[ALBUM_UPC]@</MessageId>
+		<MessageSender>
+			<PartyId>PADPIDA20131118019</PartyId>
+		</MessageSender>
+		<MessageRecipient>
+			<PartyId>PADPIDA20121010037</PartyId>
+			<PartyName>
+				<FullName>SoundCloud</FullName>
+			</PartyName>
+		</MessageRecipient>
+		<MessageCreatedDateTime>@[DATE_TIME]@</MessageCreatedDateTime>
+	</MessageHeader>
+	<UpdateIndicator>UpdateMessage</UpdateIndicator>
+	<ResourceList>
+		#LOOP_SOUND_RECORDING#
+		<SoundRecording>
+			<SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
+			<SoundRecordingId>
+				<ISRC>@[ISRC]@</ISRC>
+			</SoundRecordingId>
+			<ResourceReference>A_@[ALBUM_UPC]@_@[TRACK_FILE_NO]@</ResourceReference>
+			<ReferenceTitle>
+				<TitleText>@[TRACK_TITLE]@</TitleText>
+			</ReferenceTitle>
+			<Duration>@[TRACK_DURATION_TAKEDOWN]@</Duration>
+			<SoundRecordingDetailsByTerritory>
+				<TerritoryCode>@[COUNTRY_ISO_CODE]@</TerritoryCode>
+				<Title TitleType="DisplayTitle">
+					<TitleText>@[TRACK_TITLE]@</TitleText>
+					<SubTitle>Original Mix</SubTitle>
+				</Title>
+				<DisplayArtist>
+					<PartyName>
+						<FullName>@[TRACK_ARTIST]@</FullName>
+					</PartyName>
+					<ArtistRole>MainArtist</ArtistRole>
+				</DisplayArtist>
+				<LabelName>@[LABEL_NAME]@</LabelName>
+				<Genre>
+					<GenreText>@[TRACK_GENRE]@</GenreText>
+				</Genre>
+				<ParentalWarningType>NotExplicit</ParentalWarningType>
+				<TechnicalSoundRecordingDetails>
+					<TechnicalResourceDetailsReference>T@[TRACK_FILE_NO]@</TechnicalResourceDetailsReference>
+					<AudioCodecType Namespace="PADPIDA20131118019" UserDefinedValue="MP3">UserDefined</AudioCodecType>
+					<BitRate UnitOfMeasure="bps">320000</BitRate>
+					<NumberOfChannels>2</NumberOfChannels>
+					<IsPreview>false</IsPreview>
+					<File>
+						<FileName>@[ALBUM_UPC]@_@[TRACK_FILE_NO]@.mp3</FileName>
+						<FilePath>\@[ALBUM_UPC]@</FilePath>
+						<HashSum>
+							<HashSum>@[HASH_SUM]@</HashSum>
+							<HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+						</HashSum>
+					</File>
+				</TechnicalSoundRecordingDetails>
+			</SoundRecordingDetailsByTerritory>
+		</SoundRecording>
+		#END_LOOP_SOUND_RECORDING#
+		<Image>
+			<ImageType>FrontCoverImage</ImageType>
+			<ImageId>
+				<ProprietaryId Namespace="PADPIDA20131118019">\@[ALBUM_UPC]@\@[ALBUM_UPC]@.jpg</ProprietaryId>
+			</ImageId>
+			<ResourceReference>A_@[ALBUM_UPC]@_Cover_@[ALBUM_UPC]@_jpg_@[IMAGE_HEIGHT]@_@[IMAGE_WIDTH]@</ResourceReference>
+			<ImageDetailsByTerritory>
+				<TerritoryCode>@[COUNTRY_ISO_CODE]@</TerritoryCode>
+				<ParentalWarningType>NotExplicit</ParentalWarningType>
+				<TechnicalImageDetails>
+					<TechnicalResourceDetailsReference>T@[IMAGE_NO]@</TechnicalResourceDetailsReference>
+					<ImageCodecType>JPEG</ImageCodecType>
+					<ImageHeight>@[IMAGE_HEIGHT]@</ImageHeight>
+					<ImageWidth>@[IMAGE_WIDTH]@</ImageWidth>
+					<File>
+						<FileName>@[ALBUM_UPC]@.jpg</FileName>
+						<FilePath>\@[ALBUM_UPC]@</FilePath>
+						<HashSum>
+							<HashSum>@[HASH_SUM_IMAGE]@</HashSum>
+							<HashSumAlgorithmType>MD5</HashSumAlgorithmType>
+						</HashSum>
+					</File>
+				</TechnicalImageDetails>
+			</ImageDetailsByTerritory>
+		</Image>
+	</ResourceList>
+	<ReleaseList>
+		<Release>
+			<ReleaseId>
+				<ICPN IsEan="false">@[ALBUM_UPC]@</ICPN>
+				<ProprietaryId Namespace="PADPIDA20131118019">BA001</ProprietaryId>
+			</ReleaseId>
+			<ReleaseReference>R0</ReleaseReference>
+			<ReferenceTitle>
+				<TitleText>@[ALBUM_TITLE]@</TitleText>
+			</ReferenceTitle>
+			<ReleaseResourceReferenceList>
+				#LOOP_RELEASE_RESOURCE_REFERENCE_LIST#
+				<ReleaseResourceReference>A_@[ALBUM_UPC]@_@[TRACK_FILE_NO]@</ReleaseResourceReference>
+				#END_LOOP_RELEASE_RESOURCE_REFERENCE_LIST#
+				<ReleaseResourceReference>A_@[ALBUM_UPC]@_Cover_@[ALBUM_UPC]@_jpg_@[IMAGE_HEIGHT]@_@[IMAGE_WIDTH]@</ReleaseResourceReference>
+			</ReleaseResourceReferenceList>
+			<ReleaseType>@[RELEASE_TYPE]@</ReleaseType>
+			<ReleaseDetailsByTerritory>
+				<TerritoryCode>@[COUNTRY_ISO_CODE]@</TerritoryCode>
+				<DisplayArtistName>@[ALBUM_ARTIST]@</DisplayArtistName>
+				<LabelName>@[LABEL_NAME]@</LabelName>
+				<Title TitleType="DisplayTitle">
+					<TitleText>@[ALBUM_TITLE]@</TitleText>
+				</Title>
+				<DisplayArtist>
+					<PartyName>
+						<FullName>@[ALBUM_ARTIST]@</FullName>
+					</PartyName>
+					<ArtistRole>MainArtist</ArtistRole>
+				</DisplayArtist>
+				<ParentalWarningType>NotExplicit</ParentalWarningType>
+				<ResourceGroup>
+					<ResourceGroup>
+						<SequenceNumber>1</SequenceNumber>
+						#LOOP_RESOURCE_GROUP_CONTENT_ITEM#
+						<ResourceGroupContentItem>
+							<SequenceNumber>@[TRACK_FILE_NO]@</SequenceNumber>
+							<ResourceType>SoundRecording</ResourceType>
+							<ReleaseResourceReference>A_@[ALBUM_UPC]@_@[TRACK_FILE_NO]@</ReleaseResourceReference>
+						</ResourceGroupContentItem>
+						#END_LOOP_RESOURCE_GROUP_CONTENT_ITEM#
+					</ResourceGroup>
+					<ResourceGroupContentItem>
+						<ResourceType>Image</ResourceType>
+						<ReleaseResourceReference>A_@[ALBUM_UPC]@_Cover_@[ALBUM_UPC]@_jpg_@[IMAGE_HEIGHT]@_@[IMAGE_WIDTH]@</ReleaseResourceReference>
+					</ResourceGroupContentItem>
+				</ResourceGroup>
+				<Genre>
+					<GenreText>@[TRACK_GENRE]@</GenreText>
+				</Genre>
+				<OriginalDigitalReleaseDate>@[RELEASE_DATE]@</OriginalDigitalReleaseDate>
+			</ReleaseDetailsByTerritory>
+			<Duration>PT</Duration>
+		</Release>
+		#LOOP_RELEASE#
+		<Release>
+			<ReleaseId>
+				<ISRC>@[ISRC]@</ISRC>
+			</ReleaseId>
+			<ReleaseReference>R@[TRACK_FILE_NO]@</ReleaseReference>
+			<ReferenceTitle>
+				<TitleText>@[TRACK_TITLE]@</TitleText>
+			</ReferenceTitle>
+			<ReleaseResourceReferenceList>
+				<ReleaseResourceReference>A_@[ALBUM_UPC]@_@[TRACK_FILE_NO]@</ReleaseResourceReference>
+			</ReleaseResourceReferenceList>
+			<ReleaseType>TrackRelease</ReleaseType>
+			<ReleaseDetailsByTerritory>
+				<TerritoryCode>@[COUNTRY_ISO_CODE]@</TerritoryCode>
+				<DisplayArtistName>@[TRACK_ARTIST]@</DisplayArtistName>
+				<LabelName>@[LABEL_NAME]@</LabelName>
+				<Title TitleType="DisplayTitle">
+					<TitleText>@[TRACK_TITLE]@</TitleText>
+					<SubTitle>Original Mix</SubTitle>
+				</Title>
+				<DisplayArtist>
+					<PartyName>
+						<FullName>@[TRACK_ARTIST]@</FullName>
+					</PartyName>
+					<ArtistRole>MainArtist</ArtistRole>
+				</DisplayArtist>
+				<ParentalWarningType>NotExplicit</ParentalWarningType>
+				<ResourceGroup>
+					<ResourceGroup>
+						<SequenceNumber>1</SequenceNumber>
+						<ResourceGroupContentItem>
+							<SequenceNumber>@[TRACK_FILE_NO]@</SequenceNumber>
+							<ResourceType>SoundRecording</ResourceType>
+							<ReleaseResourceReference>A_@[ALBUM_UPC]@_@[TRACK_FILE_NO]@</ReleaseResourceReference>
+						</ResourceGroupContentItem>
+					</ResourceGroup>
+				</ResourceGroup>
+				<Genre>
+					<GenreText>Pop</GenreText>
+				</Genre>
+				<OriginalDigitalReleaseDate>@[RELEASE_DATE]@</OriginalDigitalReleaseDate>
+			</ReleaseDetailsByTerritory>
+			<Duration>PTPT0H3M31S</Duration>
+		</Release>
+		#END_LOOP_RELEASE#
+	</ReleaseList>
+	<DealList>
+		<ReleaseDeal>
+			<DealReleaseReference>R0</DealReleaseReference>
+			<Deal>
+				<DealTerms>
+					<Usage>
+						<UseType>PermanentDownload</UseType>
+						<UseType>OnDemandStream</UseType>
+						<DistributionChannelType UserDefinedValue="Radio (Statutory)">UserDefined</DistributionChannelType>
+						<DistributionChannelType UserDefinedValue="Audio Subscription">UserDefined</DistributionChannelType>
+						<DistributionChannelType UserDefinedValue="Audio Download">UserDefined</DistributionChannelType>
+						<DistributionChannelType UserDefinedValue="Radio (Interactive)">UserDefined</DistributionChannelType>
+						<DistributionChannelType UserDefinedValue="Audio Ad-Supported Streaming">UserDefined</DistributionChannelType>
+						<DistributionChannelType UserDefinedValue="Audio Streaming">UserDefined</DistributionChannelType>
+					</Usage>
+					<TerritoryCode>@[COUNTRY_ISO_CODE]@</TerritoryCode>
+					<PriceInformation>
+						<PriceType Namespace="PADPIDA20131118019">Pre-Release/Exclusive</PriceType>
+					</PriceInformation>
+					<ValidityPeriod />
+				</DealTerms>
+			</Deal>
+			<EffectiveDate>@[TAKEDOWN_DATE]@</EffectiveDate>
+		</ReleaseDeal>
+		#LOOP_RELEASE_DEAL#
+		<ReleaseDeal>
+			<DealReleaseReference>R@[TRACK_FILE_NO]@</DealReleaseReference>
+			<Deal>
+				<DealTerms>
+					<Usage>
+						<UseType>PermanentDownload</UseType>
+						<UseType>OnDemandStream</UseType>
+						<DistributionChannelType UserDefinedValue="Radio (Statutory)">UserDefined</DistributionChannelType>
+						<DistributionChannelType UserDefinedValue="Audio Subscription">UserDefined</DistributionChannelType>
+						<DistributionChannelType UserDefinedValue="Audio Download">UserDefined</DistributionChannelType>
+						<DistributionChannelType UserDefinedValue="Radio (Interactive)">UserDefined</DistributionChannelType>
+						<DistributionChannelType UserDefinedValue="Audio Ad-Supported Streaming">UserDefined</DistributionChannelType>
+						<DistributionChannelType UserDefinedValue="Audio Streaming">UserDefined</DistributionChannelType>
+					</Usage>
+					<TerritoryCode>@[COUNTRY_ISO_CODE]@</TerritoryCode>
+					<ValidityPeriod />
+				</DealTerms>
+			</Deal>
+			<EffectiveDate>@[TAKEDOWN_DATE]@</EffectiveDate>
+		</ReleaseDeal>
+		#END_LOOP_RELEASE_DEAL#
+	</DealList>
+</ernm:NewReleaseMessage>

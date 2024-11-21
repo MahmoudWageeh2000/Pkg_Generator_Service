@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ernm:NewReleaseMessage xmlns:ernm="http://ddex.net/xml/ern/382" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" LanguageAndScriptCode="en" MessageSchemaVersionId="ern/382" xs:schemaLocation="http://ddex.net/xml/ern/382 http://ddex.net/xml/ern/382/release-notification.xsd">
+	<MessageHeader>
+		<MessageThreadId>@[ISRC]@@[CREATION_DATE]@</MessageThreadId>
+		<MessageId>@[ISRC]@</MessageId>
+		<MessageSender>
+			<PartyId>PADPIDA20131118019</PartyId>
+			<PartyName>
+				<FullName>Digital Sound</FullName>
+			</PartyName>
+		</MessageSender>
+		<MessageRecipient>
+			<PartyId>PA-DPIDA-2011022501-9</PartyId>
+			<PartyName>
+				<FullName>Tuned Global Pty Ltd</FullName>
+			</PartyName>
+		</MessageRecipient>
+		<MessageCreatedDateTime>@[DATE_TIME]@Z</MessageCreatedDateTime>
+		<MessageControlType>LiveMessage</MessageControlType>
+	</MessageHeader>
+	<UpdateIndicator>UpdateMessage</UpdateIndicator>
+	<ResourceList>
+		<Video>
+			<VideoType>ShortFormMusicalWorkVideo</VideoType>
+			<VideoId>
+				<ISRC>@[ISRC]@</ISRC>
+			</VideoId>
+			<ResourceReference>A1</ResourceReference>
+			<ReferenceTitle>
+				<TitleText>@[TRACK_TITLE]@</TitleText>
+			</ReferenceTitle>
+			<LanguageOfPerformance>ar</LanguageOfPerformance>
+			<Duration>@[FB_VIDEO_DURATION]@</Duration>
+			<VideoDetailsByTerritory>
+				<TerritoryCode>Worldwide</TerritoryCode>
+				<Title TitleType="FormalTitle">
+					<TitleText>@[TRACK_TITLE]@</TitleText>
+				</Title>
+				<Title TitleType="DisplayTitle">
+					<TitleText>@[TRACK_TITLE]@</TitleText>
+				</Title>
+				<DisplayArtist>
+					<PartyName>
+						<FullName>@[TRACK_ARTIST]@</FullName>
+					</PartyName>
+					<ArtistRole>MainArtist</ArtistRole>
+				</DisplayArtist>
+				#LOOP_TRACK_FEATURED_ARTIST#
+				<DisplayArtist>
+					<PartyName>
+						<FullName>@[TRACK_FEATURED_ARTIST]@</FullName>
+					</PartyName>
+					<ArtistRole>FeaturedArtist</ArtistRole>
+				</DisplayArtist>
+				#END_LOOP_TRACK_FEATURED_ARTIST#
+				<PLine>
+					<Year>@[RELEASE_YEAR]@</Year>
+					<PLineText>@[RELEASE_YEAR]@ @[LABEL_NAME]@</PLineText>
+				</PLine>
+				<Genre>
+					<GenreText>@[TRACK_GENRE]@</GenreText>
+				</Genre>
+				<ParentalWarningType>NotExplicit</ParentalWarningType>
+			</VideoDetailsByTerritory>
+			<VideoDetailsByTerritory>
+				<TerritoryCode>Worldwide</TerritoryCode>
+				<RightsController>
+					<PartyName>
+						<FullName>Digital Sound</FullName>
+					</PartyName>
+					<PartyId>PADPIDA20131118019</PartyId>
+					<RightsControllerRole>RightsController</RightsControllerRole>
+					<RightSharePercentage>100.00</RightSharePercentage>
+				</RightsController>
+			</VideoDetailsByTerritory>
+		</Video>
+	</ResourceList>
+	<ReleaseList>
+		<Release IsMainRelease="true">
+			<ReleaseId>
+				<ISRC>@[ISRC]@</ISRC>
+			</ReleaseId>
+			<ReleaseReference>R1</ReleaseReference>
+			<ReferenceTitle>
+				<TitleText>@[TRACK_TITLE]@</TitleText>
+				<TitleText LanguageAndScriptCode="ar">@[TRACK_TITLE_ARB]@</TitleText>
+			</ReferenceTitle>
+			<ReleaseResourceReferenceList>
+				<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+			</ReleaseResourceReferenceList>
+			<ReleaseType Namespace="DPID:PADPIDA20131118019" UserDefinedValue="Video">VideoSingle</ReleaseType>
+			<ReleaseDetailsByTerritory>
+				<TerritoryCode>Worldwide</TerritoryCode>
+				<DisplayArtistName>@[TRACK_ARTIST]@</DisplayArtistName>
+				<LabelName>Digital Sound</LabelName>
+				<LabelName LabelNameType="UserDefined" UserDefinedValue="MajorLabel">Digital Sound</LabelName>
+				<Title TitleType="FormalTitle">
+					<TitleText>@[TRACK_TITLE]@</TitleText>
+				</Title>
+				<Title TitleType="DisplayTitle">
+					<TitleText>@[TRACK_TITLE]@</TitleText>
+				</Title>
+				<DisplayArtist>
+					<PartyName>
+						<FullName>@[TRACK_ARTIST]@</FullName>
+					</PartyName>
+					<ArtistRole>MainArtist</ArtistRole>
+				</DisplayArtist>
+				<RelatedRelease>
+					<ReleaseId>
+						<ISRC>@[ISRC]@</ISRC>
+						<ICPN IsEan="false"></ICPN>
+					</ReleaseId>
+					<ReferenceTitle>
+						<TitleText>@[TRACK_TITLE]@</TitleText>
+					</ReferenceTitle>
+					<ReleaseSummaryDetailsByTerritory>
+						<TerritoryCode>Worldwide</TerritoryCode>
+						<DisplayArtistName>@[TRACK_ARTIST]@</DisplayArtistName>
+					</ReleaseSummaryDetailsByTerritory>
+					<ReleaseRelationshipType>IsFromAudio</ReleaseRelationshipType>
+				</RelatedRelease>
+				<ParentalWarningType>NotExplicit</ParentalWarningType>
+				<ResourceGroup>
+					<ResourceGroup>
+						<SequenceNumber>1</SequenceNumber>
+						<ResourceGroupContentItem>
+							<SequenceNumber>1</SequenceNumber>
+							<ResourceType>Video</ResourceType>
+							<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A1</ReleaseResourceReference>
+						</ResourceGroupContentItem>
+					</ResourceGroup>
+				</ResourceGroup>
+				<Genre>
+					<GenreText>@[TRACK_GENRE]@</GenreText>
+				</Genre>
+				<Keywords>@[TRACK_ARTIST]@ @[TRACK_ARTIST_ARB]@ @[TRACK_TITLE]@ @[TRACK_TITLE_ARB]@ Mazzika Mazika مزيكا</Keywords>
+			</ReleaseDetailsByTerritory>
+			<PLine>
+				<Year>@[RELEASE_YEAR]@</Year>
+				<PLineText>@[RELEASE_YEAR]@ @[LABEL_NAME]@</PLineText>
+			</PLine>
+			<CLine>
+				<Year>@[RELEASE_YEAR]@</Year>
+				<CLineText>@[RELEASE_YEAR]@ @[LABEL_NAME]@</CLineText>
+			</CLine>
+		</Release>
+	</ReleaseList>
+	<DealList>
+		<ReleaseDeal>
+			<DealReleaseReference>R1</DealReleaseReference>
+			<Deal>
+				<DealTerms>
+					<CommercialModelType>SubscriptionModel</CommercialModelType>
+					<TakeDown>true</TakeDown>
+					<TerritoryCode>@[COUNTRY_ISO_CODE]@</TerritoryCode>
+					<ValidityPeriod>
+						<StartDateTime>@[TAKEDOWN_DATE]@T00:00:00Z</StartDateTime>
+					</ValidityPeriod>
+				</DealTerms>
+			</Deal>
+			<Deal>
+				<DealTerms>
+					<CommercialModelType>AdvertisementSupportedModel</CommercialModelType>
+					<TakeDown>true</TakeDown>
+					<TerritoryCode>@[COUNTRY_ISO_CODE]@</TerritoryCode>
+					<ValidityPeriod>
+						<StartDateTime>@[TAKEDOWN_DATE]@T00:00:00Z</StartDateTime>
+					</ValidityPeriod>
+				</DealTerms>
+			</Deal>
+			<EffectiveDate>@[TAKEDOWN_DATE]@</EffectiveDate>
+		</ReleaseDeal>
+	</DealList>
+</ernm:NewReleaseMessage>

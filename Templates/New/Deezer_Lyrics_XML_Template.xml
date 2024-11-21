@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tracks>
+  #LOOP_TRACK#
+  <track>
+    <title>@[TRACK_TITLE]@</title>
+    <artist>@[TRACK_ARTIST]@</artist>
+    <writers>
+      <writer>
+				<lastName>@[TRACK_WRITER_LAST_NAME]@</lastName>
+				<firstName>@[TRACK_WRITER_FIRST_NAME]@</firstName>
+			</writer>
+    </writers>
+    <ISRCS>
+      <ISRC>@[ISRC]@</ISRC>
+    </ISRCS>
+    <lyrics>@[TRACK_LYRICS]@</lyrics>
+    <publishing>
+      <ownership>
+        <territory>@[COUNTRY_ISO_CODE]@</territory>
+        <share>100</share>
+      </ownership>
+    </publishing>
+  </track>
+
+  #END_LOOP_TRACK#
+</tracks>
