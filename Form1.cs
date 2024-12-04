@@ -7,13 +7,14 @@ using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using System.Text;
 using System.Xml.Linq;
+using System.Diagnostics;
 
 namespace Package_Generator_Service
 {
     public partial class Form1 : Form
     {
         
-            private NotifyIcon _notifyIcon;
+        private NotifyIcon _notifyIcon;
 
 
         private string connectionString = "";
@@ -45,6 +46,11 @@ namespace Package_Generator_Service
         List<AssetHash> CoverHashes = new List<AssetHash>();
         List<AssetHash> XMLHASHES = new List<AssetHash>();
         List<TrackSize> tracksize = new List<TrackSize>();
+        public string networkFolderPath = @"\\10.1.1.26\Data";
+
+        public string username = "cms";
+        public string password = "cms@Mazzika";
+        public string domain = "";
 
         public Form1()
         {
@@ -54,12 +60,87 @@ namespace Package_Generator_Service
             progressBar1.Minimum = 0; // Set minimum value
             progressBar1.Maximum = 100;
             this.LoadConfig();
+            // Create network credentials
 
             this.db = new DatabaseHelper(this.connectionString);
-            //program.db = new DatabaseHelper(program.connectionString);
-            //_timer = new System.Threading.Timer(async state => await program.RunTask(), null, 0, 30000);
+            // Set network credentials and map the network folder
+
+            // Your logic to interact with the network folder
+            // After finishing work with the network folder, disconnect
+            // Only clear credentials for the specific server
         }
 
+        // Method to map network credentials to a drive
+        public static void SetNetworkCredentials(string networkFolder, NetworkCredential credentials)
+        {
+            string networkDrive = @"X:"; // Specify the drive letter to map (for example Z:)
+
+            // Prepare the net use command
+            string netUseCmd = $"net use {networkDrive} {networkFolder} /user:{credentials.UserName} {credentials.Password}";
+
+            // Execute the command and capture output for debugging
+            var processStartInfo = new ProcessStartInfo
+            {
+                FileName = "cmd.exe",
+                Arguments = "/C " + netUseCmd,
+                RedirectStandardOutput = true,
+                RedirectStandardError = true,
+                UseShellExecute = false,
+                CreateNoWindow = true
+            };
+
+            try
+            {
+                using (var process = Process.Start(processStartInfo))
+                {
+                    process.WaitForExit();
+
+                    // Check for any errors
+                    string output = process.StandardOutput.ReadToEnd();
+                    string error = process.StandardError.ReadToEnd();
+
+                  
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("An error occurred while connecting to the network folder: " + ex.Message);
+            }
+        }
+
+        // Method to clean up (disconnect) from the specific network share after finishing
+        public static void CleanupNetworkCredentials(string serverAddress)
+        {
+            // Command to disconnect the specific network server and remove its credentials
+            string netUseDeleteCmd = $"net use X: /delete";
+            var processStartInfo = new ProcessStartInfo
+            {
+                FileName = "cmd.exe",
+                Arguments = "/C " + netUseDeleteCmd,
+                RedirectStandardOutput = true,
+                RedirectStandardError = true,
+                UseShellExecute = false,
+                CreateNoWindow = true
+            };
+
+            try
+            {
+                using (var process = Process.Start(processStartInfo))
+                {
+                    process.WaitForExit();
+
+                    // Check for any errors
+                    string output = process.StandardOutput.ReadToEnd();
+                    string error = process.StandardError.ReadToEnd();
+
+                   
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("An error occurred while disconnecting from the network folder: " + ex.Message);
+            }
+        }
         public void SetProgress(int percentage)
         {
             if (percentage < 0 || percentage > 100)
@@ -126,10 +207,16 @@ namespace Package_Generator_Service
 
         private void Getpkgs()
         {
+            NetworkCredential networkCredential = new NetworkCredential(username, password, domain);
+            SetNetworkCredentials(networkFolderPath, networkCredential);
+
             var dataTable = new DataTable();
 
             string selectQuery = $"SELECT * FROM packages where status = 0 and department_num = '{department_num}' ";
             dataTable = db.ExecuteQuery(selectQuery);
+
+            System.Threading.Thread.Sleep(3000);
+
             foreach (DataRow row in dataTable.Rows)
             {
                 string Deactive_PKGS = "SELECT * FROM packages where status = 0";
@@ -189,6 +276,7 @@ namespace Package_Generator_Service
 
             }
 
+            CleanupNetworkCredentials(@"\\10.1.1.26\Data");
         }
 
         private void GenerateExcel(string PkgId, string pkgfile, string Company_Name)

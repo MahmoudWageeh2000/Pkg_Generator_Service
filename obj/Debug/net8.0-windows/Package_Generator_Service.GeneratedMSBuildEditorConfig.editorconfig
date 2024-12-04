@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Package_Generator_Service
-build_property.ProjectDir = D:\Wageeh\Package_Generator_Service\
+build_property.ProjectDir = C:\0CurrectPrograms\Pkg_Generator_Service\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
