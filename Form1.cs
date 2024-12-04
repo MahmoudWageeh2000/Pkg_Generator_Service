@@ -169,7 +169,18 @@ namespace Package_Generator_Service
             progressBar1.Refresh();
              // Pause for 2 seconds
         }
-
+        private void ResetVariables()
+        {
+            Full_creatation_date = null;
+            PackageFolder = null;
+            ResourcesFolder = null;
+            MetadataFile = null;
+            FinalFolder = null;
+            mediapath = null;
+            temppackagefolder = "1";
+            BatchFolder = null;
+            packagesFolderwithoutID = null;
+        }
         public async void resetlabel ()
         {
             await Task.Delay(2000);
@@ -241,10 +252,25 @@ namespace Package_Generator_Service
                             }));
                             label2.Refresh();
                             Generate_xml(PkgId, pkgfile, Company_Name);
-                            AppendLog($"Succsess Generate Package : {PkgId}", Color.DarkGreen);
-                            SetProgress(100);
-                            SucssesPKG(PkgId);
+                            string Checkerror = $"Select error_notes from packages where pkg_id = {PkgId}";
+                            object error_notes = db.ExecuteScalar(Checkerror);
+                            if (error_notes != "")
+                            {
+                                LogErrorToDatabase($"There is Some errors in The PKG", PkgId);
+                                LogMessage(logFilePath, "There is Some errors in The PKG");
+                                AppendLog($"Error In Generating PKG With ID : {PkgId}", Color.Red);
+                                ResetVariables();
+
+                            }
+                            else
+                            {
+                                AppendLog($"Succsess Generate Package : {PkgId}", Color.DarkGreen);
+                                SetProgress(100);
+                                SucssesPKG(PkgId);
+                                ResetVariables();
+                            }                         
                             Resetprogress();
+                            ResetVariables();
                             resetlabel();
                             break;
 
@@ -826,11 +852,12 @@ namespace Package_Generator_Service
                         int album_num = group.First().Field<int>("album_num");
                         int group_len = group.Count();
                         int ISRC_COUNTER = 0;
+                        int counter_display =  1;
                         string asset_ISRC = "";
 
                         LogMessage(logFilePath, $"Processing group with Album UPC: {albumUPC}");
-
-                        AppendLog($"Processing group with Album UPC: {albumUPC}", Color.Green);
+                        AppendLog($"Processing group with Album UPC: {albumUPC} IS Album number ({counter_display})", Color.Green);
+                        counter_display++;
                         SetProgress(50);
 
 
