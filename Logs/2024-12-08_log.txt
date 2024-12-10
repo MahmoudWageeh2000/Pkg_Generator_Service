@@ -1,0 +1,40 @@
+08-12-2024 13:28:52: Starting XML generation for package ID: 105, Filename: Apple_Music_XML_Template.xml, Company: Apple Music
+08-12-2024 13:28:52: Success: fetched package info for ID: 105
+08-12-2024 13:28:52: Processing group with Album UPC: 6221117188540
+08-12-2024 13:28:52: Starting GetFolderPaths...
+08-12-2024 13:28:52: Fetching package folder for company: Apple Music
+08-12-2024 13:28:52: Sucsses: PackageFolder set to: 20241208132845485
+08-12-2024 13:28:52: Sucsses: Fetching resources folder for company: Apple Music
+08-12-2024 13:28:52: Sucsses: ResourcesFolder set to: 20241208132845485\6221117188540.itmsp
+08-12-2024 13:28:52: Sucsses: Fetching metadata file path for company: Apple Music
+08-12-2024 13:28:52: Sucsses: MetadataFile path set to: 20241208132845485\6221117188540.itmsp\metadata.xml
+08-12-2024 13:28:52: Sucsses: Final PackageFolder path: 105\20241208132845485
+08-12-2024 13:28:52: Sucsses: Final ResourcesFolder path: 105\20241208132845485\6221117188540.itmsp
+08-12-2024 13:28:52: Sucsses: Retrieved folder paths for package: 105
+08-12-2024 13:28:52: Starting GetCover...
+08-12-2024 13:28:52: Error: in GetCover: The user name or password is incorrect. : '\\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers'
+08-12-2024 13:28:52: Error fetching package info: The user name or password is incorrect. : \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers
+08-12-2024 13:28:52: Error: processing Excel file: No Media Found
+08-12-2024 13:28:52: There is Some errors in The PKG
+08-12-2024 13:46:30: Starting XML generation for package ID: 105, Filename: Apple_Music_XML_Template.xml, Company: Apple Music
+08-12-2024 13:46:30: Success: fetched package info for ID: 105
+08-12-2024 13:46:30: Processing group with Album UPC: 6221117188540
+08-12-2024 13:46:30: Starting GetFolderPaths...
+08-12-2024 13:46:30: Fetching package folder for company: Apple Music
+08-12-2024 13:46:30: Sucsses: PackageFolder set to: 20241208134623798
+08-12-2024 13:46:30: Sucsses: Fetching resources folder for company: Apple Music
+08-12-2024 13:46:30: Sucsses: ResourcesFolder set to: 20241208134623798\6221117188540.itmsp
+08-12-2024 13:46:30: Sucsses: Fetching metadata file path for company: Apple Music
+08-12-2024 13:46:30: Sucsses: MetadataFile path set to: 20241208134623798\6221117188540.itmsp\metadata.xml
+08-12-2024 13:46:30: Sucsses: Final PackageFolder path: 105\20241208134623798
+08-12-2024 13:46:30: Sucsses: Final ResourcesFolder path: 105\20241208134623798\6221117188540.itmsp
+08-12-2024 13:46:30: Sucsses: Retrieved folder paths for package: 105
+08-12-2024 13:46:30: Starting GetCover...
+08-12-2024 13:46:31: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117188540.jpg
+08-12-2024 13:46:31: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117188540.jpg
+08-12-2024 13:46:31: Sucsses: Created directory: C:\Pkg_Output\apple music\105\20241208134623798\6221117188540.itmsp
+08-12-2024 13:46:31: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117188540.jpg
+08-12-2024 13:46:31: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\105\20241208134623798\6221117188540.itmsp\6221117188540.jpg
+08-12-2024 13:46:31: Start Getting Media For package info: 105
+08-12-2024 13:46:39: Media data generated successfully.
+08-12-2024 13:46:39: Success: generated XML for package ID: 105

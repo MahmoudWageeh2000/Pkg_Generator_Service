@@ -116,11 +116,11 @@ namespace ConsoleApp1
 
             if (albumTable.Rows.Count > 0)
             {
-                dataDict["creation_full_date_time"] = Form1.creationFullDateTime;
-                dataDict["creation_date"] = Form1.creationDate;
-                dataDict["o_creation_date"] = Form1.oCreationDate;
-                dataDict["date"] = Form1.formattedDate;
-                dataDict["creation_date_time"] = Form1.creationDateTime;
+                dataDict["creation_full_date_time"] = Form1.DateTimeHelper.creationFullDateTime;
+                dataDict["creation_date"] = Form1.DateTimeHelper.creationDate;
+                dataDict["o_creation_date"] = Form1.DateTimeHelper.oCreationDate;
+                dataDict["date"] = Form1.DateTimeHelper.formattedDate;
+                dataDict["creation_date_time"] = Form1.DateTimeHelper.creationDateTime;
                 dataDict["full_date_time"] = DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ss.fff");
                 dataDict["date_time"] = DateTime.Now.ToString("s");
                 dataDict["album_count"] = album_count;
@@ -286,11 +286,11 @@ namespace ConsoleApp1
                 var listDict = new ExpandoObject();
                 var listDictDict = (IDictionary<string, object>)listDict;
                 ///Fixed Objects
-                listDictDict["creation_full_date_time"] = Form1.creationFullDateTime;
-                listDictDict["creation_date"] = Form1.creationDate;
-                listDictDict["o_creation_date"] = Form1.oCreationDate;
-                listDictDict["date"] = Form1.formattedDate;
-                listDictDict["creation_date_time"] = Form1.creationDateTime;
+                listDictDict["creation_full_date_time"] = Form1.DateTimeHelper.creationFullDateTime;
+                listDictDict["creation_date"] = Form1.DateTimeHelper.creationDate;
+                listDictDict["o_creation_date"] = Form1.DateTimeHelper.oCreationDate;
+                listDictDict["date"] = Form1.DateTimeHelper.formattedDate;
+                listDictDict["creation_date_time"] = Form1.DateTimeHelper.creationDateTime;
                 listDictDict["full_date_time"] = DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ss.fff");
                 listDictDict["date_time"] = DateTime.Now.ToString("s");
                 listDictDict["image_size"] = Form1.imageSize;

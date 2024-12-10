@@ -9,6 +9,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{B0F4187E-5842-4F2A-AED3-BE2BE440204E}|Package_Generator_Service.csproj|c:\\0currectprograms\\pkg_generator_service\\xmlgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0F4187E-5842-4F2A-AED3-BE2BE440204E}|Package_Generator_Service.csproj|solutionrelative:xmlgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F4187E-5842-4F2A-AED3-BE2BE440204E}|Package_Generator_Service.csproj|c:\\0currectprograms\\pkg_generator_service\\templates\\new\\youtube_music_st_xml_template.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B0F4187E-5842-4F2A-AED3-BE2BE440204E}|Package_Generator_Service.csproj|solutionrelative:templates\\new\\youtube_music_st_xml_template.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F4187E-5842-4F2A-AED3-BE2BE440204E}|Package_Generator_Service.csproj|c:\\0currectprograms\\pkg_generator_service\\templates\\new\\youtube_sndrec_st_track_xml_template.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B0F4187E-5842-4F2A-AED3-BE2BE440204E}|Package_Generator_Service.csproj|solutionrelative:templates\\new\\youtube_sndrec_st_track_xml_template.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,10 +36,11 @@
               "RelativeDocumentMoniker": "XMLGenerator.cs",
               "ToolTip": "C:\\0CurrectPrograms\\Pkg_Generator_Service\\XMLGenerator.cs",
               "RelativeToolTip": "XMLGenerator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABQBAAAAAAAAAAAowCQBAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T14:04:25.756Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -41,7 +50,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\0CurrectPrograms\\Pkg_Generator_Service\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAOEAAAAAAAAAAAAAABABAAAtAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAcwLAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T09:29:25.957Z",
               "IsPinned": true,
@@ -50,6 +59,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "YouTube_Music_ST_XML_Template.xml",
+              "DocumentMoniker": "C:\\0CurrectPrograms\\Pkg_Generator_Service\\Templates\\New\\YouTube_Music_ST_XML_Template.xml",
+              "RelativeDocumentMoniker": "Templates\\New\\YouTube_Music_ST_XML_Template.xml",
+              "ToolTip": "C:\\0CurrectPrograms\\Pkg_Generator_Service\\Templates\\New\\YouTube_Music_ST_XML_Template.xml",
+              "RelativeToolTip": "Templates\\New\\YouTube_Music_ST_XML_Template.xml",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAAAOAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-12-10T14:17:27.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "YouTube_SndRec_ST_Track_XML_Template.xml",
+              "DocumentMoniker": "C:\\0CurrectPrograms\\Pkg_Generator_Service\\Templates\\New\\YouTube_SndRec_ST_Track_XML_Template.xml",
+              "RelativeDocumentMoniker": "Templates\\New\\YouTube_SndRec_ST_Track_XML_Template.xml",
+              "ToolTip": "C:\\0CurrectPrograms\\Pkg_Generator_Service\\Templates\\New\\YouTube_SndRec_ST_Track_XML_Template.xml",
+              "RelativeToolTip": "Templates\\New\\YouTube_SndRec_ST_Track_XML_Template.xml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-12-10T13:27:48.02Z",
+              "EditorCaption": ""
             }
           ]
         }

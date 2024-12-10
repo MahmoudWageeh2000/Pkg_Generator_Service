@@ -26,11 +26,25 @@ namespace Package_Generator_Service
 
         private string department_num = "";
         public static long imageSize { get; set; } = 0;
-        public static string creationFullDateTime { get; } = DateTime.Now.ToString("yyyyMMddHHmmssfff");
-        public static string creationDateTime { get; } = DateTime.Now.ToString("yyyyMMddHHmmss");
-        public static string creationDate { get; } = DateTime.Now.ToString("yyyyMMdd");
-        public static string oCreationDate { get; } = DateTime.Now.ToString("ddMMyy");
-        public static string formattedDate { get; } = DateTime.Now.ToString("yyyy-MM-dd");
+        public static class DateTimeHelper
+        {
+            // Static properties with private setters
+            public static string creationFullDateTime { get; private set; } = DateTime.Now.ToString("yyyyMMddHHmmssfff");
+            public static string creationDateTime { get; private set; } = DateTime.Now.ToString("yyyyMMddHHmmss");
+            public static string creationDate { get; private set; } = DateTime.Now.ToString("yyyyMMdd");
+            public static string oCreationDate { get; private set; } = DateTime.Now.ToString("ddMMyy");
+            public static string formattedDate { get; private set; } = DateTime.Now.ToString("yyyy-MM-dd");
+
+            // Reset static date-time variables
+            public static void ResetDateTimeVariables()
+            {
+                creationFullDateTime = DateTime.Now.ToString("yyyyMMddHHmmssfff");
+                creationDateTime = DateTime.Now.ToString("yyyyMMddHHmmss");
+                creationDate = DateTime.Now.ToString("yyyyMMdd");
+                oCreationDate = DateTime.Now.ToString("ddMMyy");
+                formattedDate = DateTime.Now.ToString("yyyy-MM-dd");
+            }
+        }
 
         private bool GetFolders = true;
 
@@ -49,7 +63,7 @@ namespace Package_Generator_Service
         public string networkFolderPath = @"\\10.1.1.26\Data";
 
         public string username = "cms";
-        public string password = "cms@Mazzika";
+        public string password = "cms@Mazzika123";
         public string domain = "";
 
         public Form1()
@@ -171,6 +185,8 @@ namespace Package_Generator_Service
         }
         private void ResetVariables()
         {
+            DateTimeHelper.ResetDateTimeVariables();
+
             Full_creatation_date = null;
             PackageFolder = null;
             ResourcesFolder = null;
@@ -1122,10 +1138,10 @@ namespace Package_Generator_Service
 
                     var values_PKG_Folder = new Dictionary<string, string>
     {
-        { "CREATION_FULL_DATE_TIME",creationFullDateTime },
-        { "CREATION_DATE_TIME",creationDateTime },
-        { "CREATION_DATE",creationDate },
-        { "O_CREATION_DATE",oCreationDate },
+        { "CREATION_FULL_DATE_TIME",DateTimeHelper.creationFullDateTime },
+        { "CREATION_DATE_TIME",DateTimeHelper.creationDateTime },
+        { "CREATION_DATE",DateTimeHelper.creationDate },
+        { "O_CREATION_DATE",DateTimeHelper.oCreationDate },
         { "ALBUM_UPC", group.First().Field<string>("album_ubc") },
         { "PackageFolder", PackageFolder },
     };
@@ -1145,7 +1161,7 @@ namespace Package_Generator_Service
     {
         { "ALBUM_UPC", group.First().Field<string>("album_ubc") },
         { "PackageFolder", PackageFolder },
-        { "DATE",formattedDate },
+        { "DATE",DateTimeHelper.formattedDate },
         { "ALBUM_ARTIST", group.First().Field<string>("album_artist") },
         { "ALBUM_TITLE",  group.First().Field<string>("album_name") },
     };
@@ -1162,12 +1178,12 @@ namespace Package_Generator_Service
 
                 var values_Metadata_Folder = new Dictionary<string, string>
     {
-        { "CREATION_FULL_DATE_TIME",creationFullDateTime },
-        { "CREATION_DATE", creationDate },
-        { "O_CREATION_DATE",oCreationDate },
+        { "CREATION_FULL_DATE_TIME",DateTimeHelper.creationFullDateTime },
+        { "CREATION_DATE", DateTimeHelper.creationDate },
+        { "O_CREATION_DATE",DateTimeHelper.oCreationDate },
         { "PackageFolder", PackageFolder },
         { "ALBUM_UPC", group.First().Field<string>("album_ubc") },
-        { "DATE", formattedDate },
+        { "DATE", DateTimeHelper.formattedDate },
         { "ISRC", group.First().Field<string>("asset_isrc") },
          { "ALBUM_ARTIST", group.First().Field<string>("album_artist") },
         { "ALBUM_TITLE",  group.First().Field<string>("album_name") },
@@ -1185,13 +1201,13 @@ namespace Package_Generator_Service
 
                 var values_Batch_Folder = new Dictionary<string, string>
                        {
-                           { "CREATION_FULL_DATE_TIME", creationFullDateTime },
-                           { "CREATION_DATE",creationDate},
-                           { "CREATION_DATE_TIME",creationDateTime },
-                           { "O_CREATION_DATE",oCreationDate },
+                           { "CREATION_FULL_DATE_TIME", DateTimeHelper.creationFullDateTime },
+                           { "CREATION_DATE",DateTimeHelper.creationDate},
+                           { "CREATION_DATE_TIME",DateTimeHelper.creationDateTime },
+                           { "O_CREATION_DATE",DateTimeHelper.oCreationDate },
                            { "PackageFolder", PackageFolder },
         { "ALBUM_UPC", group.First().Field<string>("album_ubc") },
-                           { "DATE",formattedDate},
+                           { "DATE",DateTimeHelper.formattedDate},
          { "ALBUM_ARTIST", group.First().Field<string>("album_artist") },
         { "ALBUM_TITLE",  group.First().Field<string>("album_name") },
                            { "ResourcesFolder", ResourcesFolder },
