@@ -4,9 +4,9 @@
 		<MessageThreadId>{{ album.album_ubc }}{{ album.creation_date }}</MessageThreadId>
 		<MessageId>{{ album.album_ubc }}</MessageId>
 		<MessageSender>
-			<PartyId>PADPIDA20131118019</PartyId>
+			<PartyId>PA-DPIDA-2024121603-C</PartyId>
 			<PartyName>
-				<FullName>Global</FullName>
+				<FullName>Global Sound</FullName>
 			</PartyName>
 		</MessageSender>
 		<MessageRecipient>
@@ -31,8 +31,8 @@
 			<SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
 			<SoundRecordingId>
 				<ISRC>{{ asset.asset_isrc }}</ISRC>
-				<CatalogNumber Namespace="DPID:PADPIDA20131118019">{{ asset.asset_isrc }}</CatalogNumber>
-				<ProprietaryId Namespace="DPID:PADPIDA20131118019">ID:{{ asset.asset_isrc }}</ProprietaryId>
+				<CatalogNumber Namespace="DPID:PA-DPIDA-2024121603-C">{{ asset.asset_isrc }}</CatalogNumber>
+				<ProprietaryId Namespace="DPID:PA-DPIDA-2024121603-C">ID:{{ asset.asset_isrc }}</ProprietaryId>
 			</SoundRecordingId>
 			<ResourceReference>A{{ asset.track_num }}</ResourceReference>
 			<ReferenceTitle>
@@ -50,7 +50,7 @@
 					<PartyName>
 						<FullName>{{ asset.track_artist }}</FullName>
 					</PartyName>
-					<PartyId Namespace="DPID:PADPIDA20131118019">{{ asset.track_artist_id }}</PartyId>
+					<PartyId Namespace="DPID:PA-DPIDA-2024121603-C">{{ asset.track_artist_id }}</PartyId>
 					<ArtistRole>MainArtist</ArtistRole>
 				</DisplayArtist>
           {{ for track_featured_artist in asset.track_featured_artist_list_string }}
@@ -58,7 +58,7 @@
 					<PartyName>
 						<FullName>{{ track_featured_artist.name  }}</FullName>
 					</PartyName>
-					<PartyId Namespace="DPID:PADPIDA20131118019">{{ track_featured_artist.id  }}</PartyId>
+					<PartyId Namespace="DPID:PA-DPIDA-2024121603-C">{{ track_featured_artist.id  }}</PartyId>
 					<ArtistRole>FeaturedArtist</ArtistRole>
 				</DisplayArtist>
           {{~ end ~}}
@@ -103,7 +103,7 @@
 		<Image>
 			<ImageType>FrontCoverImage</ImageType>
 			<ImageId>
-				<ProprietaryId Namespace="DPID:PADPIDA20131118019">GGL_UIM_ID:{{ album.album_ubc }}</ProprietaryId>
+				<ProprietaryId Namespace="DPID:PA-DPIDA-2024121603-C">GGL_UIM_ID:{{ album.album_ubc }}</ProprietaryId>
 			</ImageId>
 			<ResourceReference>A{{ album.image_num }}</ResourceReference>
 			<ImageDetailsByTerritory>
@@ -131,8 +131,8 @@
 		<Release>
 			<ReleaseId>
 				<ICPN IsEan="true">{{ album.album_ubc }}</ICPN>
-				<CatalogNumber Namespace="DPID:PADPIDA20131118019">{{ album.album_ubc }}</CatalogNumber>
-				<ProprietaryId Namespace="DPID:PADPIDA20131118019">ID:{{ album.album_ubc }}</ProprietaryId>
+				<CatalogNumber Namespace="DPID:PA-DPIDA-2024121603-C">{{ album.album_ubc }}</CatalogNumber>
+				<ProprietaryId Namespace="DPID:PA-DPIDA-2024121603-C">ID:{{ album.album_ubc }}</ProprietaryId>
 			</ReleaseId>
 			<ReleaseReference>R0</ReleaseReference>
 			<ReferenceTitle>
@@ -161,7 +161,7 @@
 					<PartyName>
 						<FullName>{{album.album_artist}}</FullName>
 					</PartyName>
-					<PartyId Namespace="DPID:PADPIDA20131118019">{{album.album_artist_id}}</PartyId>
+					<PartyId Namespace="DPID:PA-DPIDA-2024121603-C">{{album.album_artist_id}}</PartyId>
 					<ArtistRole>MainArtist</ArtistRole>
 				</DisplayArtist>
 			    {{ for track_featured_artist in album.track_featured_artist_list_string }}
@@ -169,7 +169,7 @@
 					<PartyName>
 						<FullName>{{ track_featured_artist.name  }}</FullName>
 					</PartyName>
-					<PartyId Namespace="DPID:PADPIDA20131118019">{{ track_featured_artist.id  }}</PartyId>
+					<PartyId Namespace="DPID:PA-DPIDA-2024121603-C">{{ track_featured_artist.id  }}</PartyId>
 					<ArtistRole>FeaturedArtist</ArtistRole>
 				</DisplayArtist>
                {{~ end ~}}
@@ -212,7 +212,7 @@
 		<Release>
 			<ReleaseId>
 				<ISRC>{{ asset.asset_isrc }}</ISRC>
-				<CatalogNumber Namespace="DPID:PADPIDA20131118019">{{ asset.asset_isrc }}</CatalogNumber>
+				<CatalogNumber Namespace="DPID:PA-DPIDA-2024121603-C">{{ asset.asset_isrc }}</CatalogNumber>
 			</ReleaseId>
 			<ReleaseReference>R{{ asset.track_num }}</ReleaseReference>
 			<ReferenceTitle>
@@ -239,7 +239,7 @@
 					<PartyName>
 						<FullName>{{ asset.track_artist }}</FullName>
 					</PartyName>
-					<PartyId Namespace="DPID:PADPIDA20131118019">{{ asset.track_artist_id }}</PartyId>
+					<PartyId Namespace="DPID:PA-DPIDA-2024121603-C">{{ asset.track_artist_id }}</PartyId>
 					<ArtistRole>MainArtist</ArtistRole>
 				</DisplayArtist>
 			    {{ for track_featured_artist in asset.track_featured_artist_list_string }}
@@ -247,7 +247,7 @@
 					<PartyName>
 						<FullName>{{ track_featured_artist.name  }}</FullName>
 					</PartyName>
-					<PartyId Namespace="DPID:PADPIDA20131118019">{{ track_featured_artist.id  }}</PartyId>
+					<PartyId Namespace="DPID:PA-DPIDA-2024121603-C">{{ track_featured_artist.id  }}</PartyId>
 					<ArtistRole>FeaturedArtist</ArtistRole>
 				</DisplayArtist>
                {{~ end ~}}

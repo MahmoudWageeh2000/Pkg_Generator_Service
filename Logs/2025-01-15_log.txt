@@ -1,0 +1,71 @@
+15-01-2025 14:19:04: Starting XML generation for package ID: 169, Filename: SnapChat_XML_Template.xml, Company: Snapchat
+15-01-2025 14:19:04: Success: fetched package info for ID: 169
+15-01-2025 14:19:04: Processing group with Album UPC: 6221117141606
+15-01-2025 14:19:04: Starting GetFolderPaths...
+15-01-2025 14:19:04: Fetching package folder for company: Snapchat
+15-01-2025 14:19:04: Sucsses: PackageFolder set to: 20250115141904064
+15-01-2025 14:19:04: Sucsses: Fetching resources folder for company: Snapchat
+15-01-2025 14:19:04: Sucsses: ResourcesFolder set to: 20250115141904064\6221117141606\resources
+15-01-2025 14:19:04: Sucsses: Fetching metadata file path for company: Snapchat
+15-01-2025 14:19:04: Sucsses: MetadataFile path set to: 20250115141904064\6221117141606\6221117141606.xml
+15-01-2025 14:19:04: Sucsses: Final PackageFolder path: 169\20250115141904064
+15-01-2025 14:19:04: Sucsses: Final ResourcesFolder path: 169\20250115141904064\6221117141606\resources
+15-01-2025 14:19:04: Sucsses: Retrieved folder paths for package: 169
+15-01-2025 14:19:04: Starting GetCover...
+15-01-2025 14:19:04: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141606.jpg
+15-01-2025 14:19:04: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141606.jpg
+15-01-2025 14:19:04: Sucsses: Created directory: C:\Pkg_Output\snapchat\169\20250115141904064\6221117141606\resources
+15-01-2025 14:19:05: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141606.jpg
+15-01-2025 14:19:05: Sucsses: Copied cover file to: C:\Pkg_Output\snapchat\169\20250115141904064\6221117141606\resources\6221117141606.jpg
+15-01-2025 14:19:05: Start Getting Media For package info: 169
+15-01-2025 14:19:09: Starting GetCover...
+15-01-2025 14:19:10: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141606.jpg
+15-01-2025 14:19:10: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141606.jpg
+15-01-2025 14:19:10: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141606.jpg
+15-01-2025 14:19:10: Sucsses: Copied cover file to: C:\Pkg_Output\snapchat\169\20250115141904064\6221117141606\resources\6221117141606.jpg
+15-01-2025 14:19:10: Start Getting Media For package info: 169
+15-01-2025 14:19:14: Starting GetCover...
+15-01-2025 14:19:14: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141606.jpg
+15-01-2025 14:19:14: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141606.jpg
+15-01-2025 14:19:14: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141606.jpg
+15-01-2025 14:19:15: Sucsses: Copied cover file to: C:\Pkg_Output\snapchat\169\20250115141904064\6221117141606\resources\6221117141606.jpg
+15-01-2025 14:19:15: Start Getting Media For package info: 169
+15-01-2025 14:19:19: Starting GetCover...
+15-01-2025 14:19:20: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141606.jpg
+15-01-2025 14:19:20: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141606.jpg
+15-01-2025 14:19:20: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141606.jpg
+15-01-2025 14:19:20: Sucsses: Copied cover file to: C:\Pkg_Output\snapchat\169\20250115141904064\6221117141606\resources\6221117141606.jpg
+15-01-2025 14:19:20: Start Getting Media For package info: 169
+15-01-2025 14:19:24: Starting GetCover...
+15-01-2025 14:19:25: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141606.jpg
+15-01-2025 14:19:25: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141606.jpg
+15-01-2025 14:19:25: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141606.jpg
+15-01-2025 14:19:25: Sucsses: Copied cover file to: C:\Pkg_Output\snapchat\169\20250115141904064\6221117141606\resources\6221117141606.jpg
+15-01-2025 14:19:25: Start Getting Media For package info: 169
+15-01-2025 14:19:29: Starting GetCover...
+15-01-2025 14:19:30: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141606.jpg
+15-01-2025 14:19:30: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141606.jpg
+15-01-2025 14:19:30: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141606.jpg
+15-01-2025 14:19:30: Sucsses: Copied cover file to: C:\Pkg_Output\snapchat\169\20250115141904064\6221117141606\resources\6221117141606.jpg
+15-01-2025 14:19:30: Start Getting Media For package info: 169
+15-01-2025 14:19:35: Starting GetCover...
+15-01-2025 14:19:36: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141606.jpg
+15-01-2025 14:19:36: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141606.jpg
+15-01-2025 14:19:36: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141606.jpg
+15-01-2025 14:19:36: Sucsses: Copied cover file to: C:\Pkg_Output\snapchat\169\20250115141904064\6221117141606\resources\6221117141606.jpg
+15-01-2025 14:19:36: Start Getting Media For package info: 169
+15-01-2025 14:19:40: Starting GetCover...
+15-01-2025 14:19:41: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141606.jpg
+15-01-2025 14:19:41: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141606.jpg
+15-01-2025 14:19:41: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141606.jpg
+15-01-2025 14:19:41: Sucsses: Copied cover file to: C:\Pkg_Output\snapchat\169\20250115141904064\6221117141606\resources\6221117141606.jpg
+15-01-2025 14:19:41: Start Getting Media For package info: 169
+15-01-2025 14:19:45: Starting GetCover...
+15-01-2025 14:19:46: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141606.jpg
+15-01-2025 14:19:46: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141606.jpg
+15-01-2025 14:19:46: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117141606.jpg
+15-01-2025 14:19:46: Sucsses: Copied cover file to: C:\Pkg_Output\snapchat\169\20250115141904064\6221117141606\resources\6221117141606.jpg
+15-01-2025 14:19:46: Start Getting Media For package info: 169
+15-01-2025 14:19:50: Media data generated successfully.
+15-01-2025 14:19:50: Error: generating XML for package: Value cannot be null. (Parameter source)
+15-01-2025 14:19:56: There is Some errors in The PKG

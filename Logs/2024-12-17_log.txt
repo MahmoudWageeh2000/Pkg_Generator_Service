@@ -1,0 +1,88 @@
+17-12-2024 13:39:59: Starting XML generation for package ID: 142, Filename: Deezer_XML_Template.xml, Company: Deezer
+17-12-2024 13:39:59: Success: fetched package info for ID: 142
+17-12-2024 13:39:59: Processing group with Album UPC: 889502742164
+17-12-2024 13:39:59: Starting GetFolderPaths...
+17-12-2024 13:39:59: Fetching package folder for company: Deezer
+17-12-2024 13:39:59: Sucsses: PackageFolder set to: batch_20241217133959
+17-12-2024 13:39:59: Sucsses: Fetching resources folder for company: Deezer
+17-12-2024 13:39:59: Sucsses: ResourcesFolder set to: batch_20241217133959\889502742164
+17-12-2024 13:39:59: Sucsses: Fetching metadata file path for company: Deezer
+17-12-2024 13:39:59: Sucsses: MetadataFile path set to: batch_20241217133959\889502742164\889502742164.xml
+17-12-2024 13:39:59: Sucsses: Final PackageFolder path: 142\batch_20241217133959
+17-12-2024 13:39:59: Sucsses: Final ResourcesFolder path: 142\batch_20241217133959\889502742164
+17-12-2024 13:39:59: Sucsses: Retrieved folder paths for package: 142
+17-12-2024 13:39:59: Starting GetCover...
+17-12-2024 13:40:01: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502742164.jpg
+17-12-2024 13:40:01: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502742164.jpg
+17-12-2024 13:40:01: Sucsses: Created directory: C:\Pkg_Output\deezer\142\batch_20241217133959\889502742164
+17-12-2024 13:40:01: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502742164.jpg
+17-12-2024 13:40:01: Sucsses: Copied cover file to: C:\Pkg_Output\deezer\142\batch_20241217133959\889502742164\889502742164.jpg
+17-12-2024 13:40:01: Start Getting Media For package info: 142
+17-12-2024 13:40:10: Media data generated successfully.
+17-12-2024 13:40:11: Success: generated XML for package ID: 142
+17-12-2024 13:40:11: Starting XML generation for package ID: 143, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+17-12-2024 13:40:11: Success: fetched package info for ID: 143
+17-12-2024 13:40:11: Processing group with Album UPC: 889502742164
+17-12-2024 13:40:11: Starting GetFolderPaths...
+17-12-2024 13:40:11: Fetching package folder for company: Spotify
+17-12-2024 13:40:11: Sucsses: PackageFolder set to: 20241217134011140
+17-12-2024 13:40:11: Sucsses: Fetching resources folder for company: Spotify
+17-12-2024 13:40:11: Sucsses: ResourcesFolder set to: 20241217134011140\889502742164\resources
+17-12-2024 13:40:11: Sucsses: Fetching metadata file path for company: Spotify
+17-12-2024 13:40:11: Sucsses: MetadataFile path set to: 20241217134011140\889502742164\889502742164.xml
+17-12-2024 13:40:11: Sucsses: Final PackageFolder path: 143\20241217134011140
+17-12-2024 13:40:11: Sucsses: Final ResourcesFolder path: 143\20241217134011140\889502742164\resources
+17-12-2024 13:40:11: Sucsses: Retrieved folder paths for package: 143
+17-12-2024 13:40:11: Starting GetCover...
+17-12-2024 13:40:12: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502742164.jpg
+17-12-2024 13:40:12: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502742164.jpg
+17-12-2024 13:40:12: Sucsses: Created directory: C:\Pkg_Output\spotify\143\20241217134011140\889502742164\resources
+17-12-2024 13:40:12: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502742164.jpg
+17-12-2024 13:40:12: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\143\20241217134011140\889502742164\resources\889502742164.jpg
+17-12-2024 13:40:12: Start Getting Media For package info: 143
+17-12-2024 13:40:20: Media data generated successfully.
+17-12-2024 13:40:20: Success: generated XML for package ID: 143
+17-12-2024 13:40:20: Starting XML generation for package ID: 144, Filename: FB_XML_Template.xml, Company: Facebook-Audio
+17-12-2024 13:40:20: Success: fetched package info for ID: 144
+17-12-2024 13:40:20: Processing group with Album UPC: 889502742164
+17-12-2024 13:40:20: Starting GetFolderPaths...
+17-12-2024 13:40:20: Fetching package folder for company: Facebook-Audio
+17-12-2024 13:40:20: Sucsses: PackageFolder set to: 20241217134020340
+17-12-2024 13:40:20: Sucsses: Fetching resources folder for company: Facebook-Audio
+17-12-2024 13:40:20: Sucsses: ResourcesFolder set to: 20241217134020340\889502742164\resources
+17-12-2024 13:40:20: Sucsses: Fetching metadata file path for company: Facebook-Audio
+17-12-2024 13:40:20: Sucsses: MetadataFile path set to: 20241217134020340\889502742164\889502742164.xml
+17-12-2024 13:40:20: Sucsses: Final PackageFolder path: 144\20241217134020340
+17-12-2024 13:40:20: Sucsses: Final ResourcesFolder path: 144\20241217134020340\889502742164\resources
+17-12-2024 13:40:20: Sucsses: Retrieved folder paths for package: 144
+17-12-2024 13:40:20: Starting GetCover...
+17-12-2024 13:40:21: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502742164.jpg
+17-12-2024 13:40:21: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502742164.jpg
+17-12-2024 13:40:21: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\144\20241217134020340\889502742164\resources
+17-12-2024 13:40:21: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502742164.jpg
+17-12-2024 13:40:21: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\144\20241217134020340\889502742164\resources\889502742164.jpg
+17-12-2024 13:40:21: Start Getting Media For package info: 144
+17-12-2024 13:40:29: Media data generated successfully.
+17-12-2024 13:40:29: Success: generated XML for package ID: 144
+17-12-2024 13:40:29: Starting XML generation for package ID: 145, Filename: Apple_Music_XML_Template.xml, Company: Apple Music
+17-12-2024 13:40:29: Success: fetched package info for ID: 145
+17-12-2024 13:40:29: Processing group with Album UPC: 889502742164
+17-12-2024 13:40:29: Starting GetFolderPaths...
+17-12-2024 13:40:29: Fetching package folder for company: Apple Music
+17-12-2024 13:40:29: Sucsses: PackageFolder set to: 20241217134029544
+17-12-2024 13:40:29: Sucsses: Fetching resources folder for company: Apple Music
+17-12-2024 13:40:29: Sucsses: ResourcesFolder set to: 20241217134029544\889502742164.itmsp
+17-12-2024 13:40:29: Sucsses: Fetching metadata file path for company: Apple Music
+17-12-2024 13:40:29: Sucsses: MetadataFile path set to: 20241217134029544\889502742164.itmsp\metadata.xml
+17-12-2024 13:40:29: Sucsses: Final PackageFolder path: 145\20241217134029544
+17-12-2024 13:40:29: Sucsses: Final ResourcesFolder path: 145\20241217134029544\889502742164.itmsp
+17-12-2024 13:40:29: Sucsses: Retrieved folder paths for package: 145
+17-12-2024 13:40:29: Starting GetCover...
+17-12-2024 13:40:30: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502742164.jpg
+17-12-2024 13:40:30: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502742164.jpg
+17-12-2024 13:40:30: Sucsses: Created directory: C:\Pkg_Output\apple music\145\20241217134029544\889502742164.itmsp
+17-12-2024 13:40:30: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\889502742164.jpg
+17-12-2024 13:40:30: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\145\20241217134029544\889502742164.itmsp\889502742164.jpg
+17-12-2024 13:40:30: Start Getting Media For package info: 145
+17-12-2024 13:40:38: Media data generated successfully.
+17-12-2024 13:40:38: Success: generated XML for package ID: 145

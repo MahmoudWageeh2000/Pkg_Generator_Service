@@ -82,6 +82,7 @@ namespace ConsoleApp1
             object album_count = default!;int image_num = 0;
             string store_id_query2 = $"select store_id from packages where pkg_id = {ID}";
             store_id = db.ExecuteScalar(store_id_query2);
+        
 
 
             if (batch)
@@ -254,6 +255,11 @@ namespace ConsoleApp1
                             dataDict["album_duration"] = $"PT{album_duration.Hours:D2}H{album_duration.Minutes:D2}M{album_duration.Seconds:D2}S";
                         }
                     }
+                    //else if (variable.Contains("Party"))
+                    //{
+                       
+                    //}
+
 
                     else
                     {
@@ -279,8 +285,11 @@ namespace ConsoleApp1
             /*dynamic datalist = new ExpandoObject();
             var listDict = (IDictionary<string, object>)datalist;*/
             //TimeSpan total_duration = new TimeSpan(0);
+         
 
             List<object> list = new List<object>();
+            List<Party> partyList = new List<Party>();
+
             foreach (DataRow row in dataTable.Rows)
             {
                 var listDict = new ExpandoObject();
@@ -395,6 +404,50 @@ namespace ConsoleApp1
                         listDictDict[variable] = row[variable];
                         }
                     }
+                    else if (variable.Contains("_party_"))
+                    {
+                        List<string> artist = row["album_artist"]?.ToString()?.Split(',').Select(s => s.Trim()).Distinct().ToList() ?? new List<string>();
+                        List<string> artistAR = row["album_artist_a"]?.ToString()?.Split(',').Select(s => s.Trim()).Distinct().ToList() ?? new List<string>();
+                        List<string> composers = row["composer"]?.ToString()?.Split(',').Select(s => s.Trim()).Distinct().ToList() ?? new List<string>();
+                        List<string> composersA = row["composer_a"]?.ToString()?.Split(',').Select(s => s.Trim()).Distinct().ToList() ?? new List<string>();
+                        List<string> lyrics = row["lyrics"]?.ToString()?.Split(',').Select(s => s.Trim()).Distinct().ToList() ?? new List<string>();
+                        List<string> lyricsA = row["lyrics_a"]?.ToString()?.Split(',').Select(s => s.Trim()).Distinct().ToList() ?? new List<string>();
+                        List<string> arrangers = row["arrenger"]?.ToString()?.Split(',').Select(s => s.Trim()).Distinct().ToList() ?? new List<string>();
+                        List<string> arrangersA = row["arrenger_a"]?.ToString()?.Split(',').Select(s => s.Trim()).Distinct().ToList() ?? new List<string>();
+                        List<string> featuredArtists = row["track_featured_artist"]?.ToString()?.Split(',').Select(s => s.Trim()).Distinct().ToList() ?? new List<string>();
+                        List<string> featuredArtistsA = row["track_featured_artist_a"]?.ToString()?.Split(',').Select(s => s.Trim()).Distinct().ToList() ?? new List<string>();
+
+                        List<string> allNames = composers.Concat(lyrics)
+        .Concat(arrangers)
+        .Concat(featuredArtists).Concat(artist)
+        .Where(s => !string.IsNullOrEmpty(s))  // Ensure no empty strings
+        .ToList();
+
+                        List<string> allNamesA = composersA.Concat(lyricsA)
+                            .Concat(arrangersA)
+                            .Concat(featuredArtistsA).Concat(artistAR)
+                            .Where(s => !string.IsNullOrEmpty(s))  // Ensure no empty strings
+                            .ToList();
+
+                        for (int i = 0; i < allNames.Count; i++)
+                        {
+                            string name = allNames[i];
+                            string nameAr = i < allNamesA.Count ? allNamesA[i] : null;
+
+                            if (!string.IsNullOrEmpty(name) && !partyList.Any(p => p.name.Equals(name, StringComparison.OrdinalIgnoreCase)))
+                            {
+                                partyList.Add(new Party
+                                {
+                                    name = name,
+                                    name_ar = nameAr
+                                });
+                            }
+                        }
+
+
+                        listDictDict[variable] = partyList;
+
+                    }
                     else if (variable.Contains("_list_string"))
                     {
                         string list_string_name= variable.Split("_list_string")[0];
@@ -451,6 +504,7 @@ namespace ConsoleApp1
                                 listDictDict[variable] = null;
                             }
                         }
+                     
                         else
                         {
                             
@@ -586,5 +640,12 @@ namespace ConsoleApp1
             public string id { get; set; } = default;
             public string apple_id { get; set; } = default!;
         }
+
+        public class Party
+        {
+            public string name { get; set; } = default!;
+            public string name_ar { get; set; } = default!;
+        }
+
     }
 }

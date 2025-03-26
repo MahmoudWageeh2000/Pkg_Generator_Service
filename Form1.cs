@@ -24,7 +24,7 @@ namespace Package_Generator_Service
 
         private int MediaFILESCounter = 0;
 
-        private string department_num = "";
+        private string department_num = "" , DirctionFolder = "";
         public static long imageSize { get; set; } = 0;
         public static class DateTimeHelper
         {
@@ -223,6 +223,11 @@ namespace Package_Generator_Service
                                     .Element("network")?
                                     .Element("department_num")?.Value;
 
+                DirctionFolder = config.Element("configuration")?
+                                    .Element("network")?
+                                    .Element("dirction")?.Value;
+
+
                 Console.WriteLine("Configuration loaded successfully.");
             }
             catch (Exception ex)
@@ -325,7 +330,7 @@ namespace Package_Generator_Service
         {
             string extensionquery = $"select output_metadata_file_codec from stores where store_name = '{Company_Name}'";
             string extension = db.ExecuteScalar(extensionquery)?.ToString().ToLower();
-            string companyFolderPath = Path.Combine("C://Pkg_Output", Company_Name, PkgId);
+            string companyFolderPath = Path.Combine($"{DirctionFolder}://Pkg_Output", Company_Name, PkgId);
             if (!Directory.Exists(companyFolderPath))
             {
                 Directory.CreateDirectory(companyFolderPath);
@@ -840,7 +845,7 @@ namespace Package_Generator_Service
                     throw new Exception("No rows returned from the query.");
 
                 // Create company folder
-                string companyFolderPath = Path.Combine("C:\\Pkg_Output", Company_Name, ID);
+                string companyFolderPath = Path.Combine($"{DirctionFolder}:\\Pkg_Output", Company_Name, ID);
                 try
                 {
                     if (!Directory.Exists(companyFolderPath))
@@ -856,7 +861,7 @@ namespace Package_Generator_Service
 
                 }
 
-                // Process each group
+                int counter_display = 1; // Process each group
                 foreach (var group in groupedRows)
                 {
                     try
@@ -868,7 +873,7 @@ namespace Package_Generator_Service
                         int album_num = group.First().Field<int>("album_num");
                         int group_len = group.Count();
                         int ISRC_COUNTER = 0;
-                        int counter_display =  1;
+                        
                         string asset_ISRC = "";
 
                         LogMessage(logFilePath, $"Processing group with Album UPC: {albumUPC}");
@@ -1340,7 +1345,7 @@ namespace Package_Generator_Service
 
                 string getstore_Name_query = $"select store_name from stores where store_id = {storeID}";
                 string Company_Name = db.ExecuteScalar(getstore_Name_query)?.ToString().ToLower();
-                string companyFolderPath = Path.Combine("C://Pkg_Output", Company_Name);
+                string companyFolderPath = Path.Combine($"{DirctionFolder}://Pkg_Output", Company_Name);
 
                 string pkg_type_query = $" select pkg_type from packages where pkg_id = {PkgID}";
                 string pkg_type = db.ExecuteScalar(pkg_type_query)?.ToString();
@@ -2010,7 +2015,7 @@ namespace Package_Generator_Service
                                         continue;
                                     }
                                     string filepath = Path.Combine(FLACFolderPath, $"{item.Field<string>("asset_isrc")}.FLAC");
-                                    // ComputeMD5(filepath, item.Field<string>("asset_isrc"));
+                                     ComputeMD5(filepath, item.Field<string>("asset_isrc"),1);
 
                                     if (FLACFiles.Length > 0)
                                     {

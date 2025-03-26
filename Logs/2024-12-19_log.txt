@@ -1,0 +1,32 @@
+19-12-2024 14:53:37: PKG ID IS : 145
+19-12-2024 14:53:37: Using Excel template: ..\..\..\Templates\New\OnMobile.xltx
+19-12-2024 14:53:37: Processing album UPC: 889502742164
+19-12-2024 14:53:37: Starting GetFolderPaths...
+19-12-2024 14:53:37: Fetching package folder for company: Onmobile
+19-12-2024 14:53:37: Sucsses: PackageFolder set to: 20241219145337
+19-12-2024 14:53:37: Sucsses: Fetching resources folder for company: Onmobile
+19-12-2024 14:53:37: Sucsses: ResourcesFolder set to: 20241219145337\2024-12-19
+19-12-2024 14:53:37: Sucsses: Fetching metadata file path for company: Onmobile
+19-12-2024 14:53:37: Sucsses: MetadataFile path set to: 20241219145337\2024-12-19.xlsx
+19-12-2024 14:53:37: Sucsses: Final PackageFolder path: 145\20241219145337
+19-12-2024 14:53:37: Sucsses: Final ResourcesFolder path: 145\20241219145337\2024-12-19
+19-12-2024 14:53:37: Sucsses:Folder paths generated for album 889502742164.
+19-12-2024 14:53:37: Sucsses:Media path generated for ISRC: AEA141405206
+19-12-2024 14:53:38: Sucsses: Filled data for column: Rights Body
+19-12-2024 14:53:38: Sucsses: Filled data for column: Song Title
+19-12-2024 14:53:38: Sucsses: Filled data for column: Actor
+19-12-2024 14:53:38: Sucsses: Filled data for column: Singer
+19-12-2024 14:53:38: Sucsses: Filled data for column: File Path
+19-12-2024 14:53:38: Sucsses: Filled data for column: Language
+19-12-2024 14:53:38: Sucsses: Filled data for column: Movie/Album
+19-12-2024 14:53:38: Starting GetCover...
+19-12-2024 14:53:38: Error: Provided path is empty. Exiting GetCover.
+19-12-2024 14:53:49: Sucsses: Media data generated successfully.
+19-12-2024 14:53:49: Sucsses: Excel file saved to: C://Pkg_Output\Onmobile\145\20241219145337\2024-12-19.xlsx
+19-12-2024 14:53:49: Sucsses: GenerateExcel completed for Package ID: 145
+19-12-2024 14:53:49: Sucsses: Filled data for column: Song Title (AR)
+19-12-2024 14:53:49: Sucsses: Filled data for column: Song Title
+19-12-2024 14:53:49: Sucsses: Filled data for column: Language
+19-12-2024 14:53:49: Sucsses: Filled data for column: Movie/Album
+19-12-2024 14:53:49: Sucsses: Excel file saved to: C://Pkg_Output\Onmobile\145\20241219145337\2024-12-19.xlsx
+19-12-2024 14:53:49: Sucsses: GenerateExcel completed for Package ID: 145

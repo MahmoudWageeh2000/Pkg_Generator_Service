@@ -29,7 +29,7 @@
       <ReferenceTitle>
         <TitleText>{{ album.track_name }}</TitleText>
       </ReferenceTitle>
-      <Duration>PT{{ album.track_duration }}</Duration>
+      <Duration>{{ album.youtube_track_duration }}</Duration>
       <SoundRecordingDetailsByTerritory>
         {{~ for country_code in album.country_iso_code_list_string ~}}
         <TerritoryCode>{{ country_code }}</TerritoryCode>

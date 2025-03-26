@@ -1,0 +1,120 @@
+12-02-2025 14:48:36: Starting XML generation for package ID: 55, Filename: Emirates_DDEX_XML_Template.xml, Company: Emirates
+12-02-2025 14:48:36: Success: fetched package info for ID: 55
+12-02-2025 14:48:36: Processing group with Album UPC: 9681001016293
+12-02-2025 14:48:36: Starting GetFolderPaths...
+12-02-2025 14:48:36: Fetching package folder for company: Emirates
+12-02-2025 14:48:36: Sucsses: PackageFolder set to: 20250212144836736
+12-02-2025 14:48:36: Sucsses: Fetching resources folder for company: Emirates
+12-02-2025 14:48:36: Sucsses: ResourcesFolder set to: 20250212144836736\9681001016293\resources
+12-02-2025 14:48:36: Sucsses: Fetching metadata file path for company: Emirates
+12-02-2025 14:48:36: Sucsses: MetadataFile path set to: 20250212144836736\9681001016293\9681001016293.xml
+12-02-2025 14:48:36: Sucsses: Final PackageFolder path: 55\20250212144836736
+12-02-2025 14:48:36: Sucsses: Final ResourcesFolder path: 55\20250212144836736\9681001016293\resources
+12-02-2025 14:48:36: Sucsses: Retrieved folder paths for package: 55
+12-02-2025 14:48:36: Starting GetCover...
+12-02-2025 14:48:37: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016293.jpg
+12-02-2025 14:48:37: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016293.jpg
+12-02-2025 14:48:37: Sucsses: Created directory: C:\Pkg_Output\emirates\55\20250212144836736\9681001016293\resources
+12-02-2025 14:48:37: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016293.jpg
+12-02-2025 14:48:37: Sucsses: Copied cover file to: C:\Pkg_Output\emirates\55\20250212144836736\9681001016293\resources\9681001016293.jpg
+12-02-2025 14:48:40: Starting GetCover...
+12-02-2025 14:48:41: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117027375.jpg
+12-02-2025 14:48:41: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117027375.jpg
+12-02-2025 14:48:41: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117027375.jpg
+12-02-2025 14:48:41: Sucsses: Copied cover file to: C:\Pkg_Output\emirates\55\20250212144836736\9681001016293\resources\9681001016293.jpg
+12-02-2025 14:48:45: Media data generated successfully.
+12-02-2025 14:48:45: Error: generating XML for package: Column arrenger_list does not belong to table .
+12-02-2025 14:48:49: There is Some errors in The PKG
+12-02-2025 14:50:39: Starting XML generation for package ID: 55, Filename: Emirates_DDEX_XML_Template.xml, Company: Emirates
+12-02-2025 14:50:39: Success: fetched package info for ID: 55
+12-02-2025 14:50:39: Processing group with Album UPC: 9681001016293
+12-02-2025 14:50:39: Starting GetFolderPaths...
+12-02-2025 14:50:39: Fetching package folder for company: Emirates
+12-02-2025 14:50:39: Sucsses: PackageFolder set to: 20250212144849861
+12-02-2025 14:50:39: Sucsses: Fetching resources folder for company: Emirates
+12-02-2025 14:50:39: Sucsses: ResourcesFolder set to: 20250212144849861\9681001016293\resources
+12-02-2025 14:50:39: Sucsses: Fetching metadata file path for company: Emirates
+12-02-2025 14:50:39: Sucsses: MetadataFile path set to: 20250212144849861\9681001016293\9681001016293.xml
+12-02-2025 14:50:39: Sucsses: Final PackageFolder path: 55\20250212144849861
+12-02-2025 14:50:39: Sucsses: Final ResourcesFolder path: 55\20250212144849861\9681001016293\resources
+12-02-2025 14:50:39: Sucsses: Retrieved folder paths for package: 55
+12-02-2025 14:50:39: Starting GetCover...
+12-02-2025 14:50:40: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016293.jpg
+12-02-2025 14:50:40: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016293.jpg
+12-02-2025 14:50:40: Sucsses: Created directory: C:\Pkg_Output\emirates\55\20250212144849861\9681001016293\resources
+12-02-2025 14:50:40: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016293.jpg
+12-02-2025 14:50:40: Sucsses: Copied cover file to: C:\Pkg_Output\emirates\55\20250212144849861\9681001016293\resources\9681001016293.jpg
+12-02-2025 14:50:43: Starting GetCover...
+12-02-2025 14:50:44: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117027375.jpg
+12-02-2025 14:50:44: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117027375.jpg
+12-02-2025 14:50:44: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117027375.jpg
+12-02-2025 14:50:45: Sucsses: Copied cover file to: C:\Pkg_Output\emirates\55\20250212144849861\9681001016293\resources\9681001016293.jpg
+12-02-2025 14:50:49: Media data generated successfully.
+12-02-2025 14:53:12: Starting XML generation for package ID: 55, Filename: Emirates_DDEX_XML_Template.xml, Company: Emirates
+12-02-2025 14:53:12: Success: fetched package info for ID: 55
+12-02-2025 14:53:12: Processing group with Album UPC: 9681001016293
+12-02-2025 14:53:12: Starting GetFolderPaths...
+12-02-2025 14:53:12: Fetching package folder for company: Emirates
+12-02-2025 14:53:12: Sucsses: PackageFolder set to: 20250212145312560
+12-02-2025 14:53:12: Sucsses: Fetching resources folder for company: Emirates
+12-02-2025 14:53:12: Sucsses: ResourcesFolder set to: 20250212145312560\9681001016293\resources
+12-02-2025 14:53:12: Sucsses: Fetching metadata file path for company: Emirates
+12-02-2025 14:53:12: Sucsses: MetadataFile path set to: 20250212145312560\9681001016293\9681001016293.xml
+12-02-2025 14:53:12: Sucsses: Final PackageFolder path: 55\20250212145312560
+12-02-2025 14:53:12: Sucsses: Final ResourcesFolder path: 55\20250212145312560\9681001016293\resources
+12-02-2025 14:53:12: Sucsses: Retrieved folder paths for package: 55
+12-02-2025 14:53:42: Starting GetCover...
+12-02-2025 14:53:43: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016293.jpg
+12-02-2025 14:53:43: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016293.jpg
+12-02-2025 14:53:43: Sucsses: Created directory: C:\Pkg_Output\emirates\55\20250212145312560\9681001016293\resources
+12-02-2025 14:53:43: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016293.jpg
+12-02-2025 14:53:43: Sucsses: Copied cover file to: C:\Pkg_Output\emirates\55\20250212145312560\9681001016293\resources\9681001016293.jpg
+12-02-2025 14:55:15: Starting XML generation for package ID: 55, Filename: Emirates_DDEX_XML_Template.xml, Company: Emirates
+12-02-2025 14:55:15: Success: fetched package info for ID: 55
+12-02-2025 14:55:15: Processing group with Album UPC: 9681001016293
+12-02-2025 14:55:15: Starting GetFolderPaths...
+12-02-2025 14:55:15: Fetching package folder for company: Emirates
+12-02-2025 14:55:15: Sucsses: PackageFolder set to: 20250212145515411
+12-02-2025 14:55:15: Sucsses: Fetching resources folder for company: Emirates
+12-02-2025 14:55:15: Sucsses: ResourcesFolder set to: 20250212145515411\9681001016293\resources
+12-02-2025 14:55:15: Sucsses: Fetching metadata file path for company: Emirates
+12-02-2025 14:55:15: Sucsses: MetadataFile path set to: 20250212145515411\9681001016293\9681001016293.xml
+12-02-2025 14:55:15: Sucsses: Final PackageFolder path: 55\20250212145515411
+12-02-2025 14:55:15: Sucsses: Final ResourcesFolder path: 55\20250212145515411\9681001016293\resources
+12-02-2025 14:55:15: Sucsses: Retrieved folder paths for package: 55
+12-02-2025 14:55:15: Starting GetCover...
+12-02-2025 14:55:16: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016293.jpg
+12-02-2025 14:55:16: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016293.jpg
+12-02-2025 14:55:16: Sucsses: Created directory: C:\Pkg_Output\emirates\55\20250212145515411\9681001016293\resources
+12-02-2025 14:55:16: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016293.jpg
+12-02-2025 14:55:16: Sucsses: Copied cover file to: C:\Pkg_Output\emirates\55\20250212145515411\9681001016293\resources\9681001016293.jpg
+12-02-2025 14:55:22: Starting GetCover...
+12-02-2025 14:55:23: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117027375.jpg
+12-02-2025 14:55:23: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117027375.jpg
+12-02-2025 14:55:23: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117027375.jpg
+12-02-2025 14:55:23: Sucsses: Copied cover file to: C:\Pkg_Output\emirates\55\20250212145515411\9681001016293\resources\9681001016293.jpg
+12-02-2025 14:55:30: Media data generated successfully.
+12-02-2025 14:55:30: Success: generated XML for package ID: 55
+12-02-2025 14:55:30: Processing group with Album UPC: 6221117027375
+12-02-2025 14:55:30: Starting GetFolderPaths...
+12-02-2025 14:55:30: Sucsses: PackageFolder trimmed to: 20250212145515411
+12-02-2025 14:55:30: Sucsses: Fetching resources folder for company: Emirates
+12-02-2025 14:55:30: Sucsses: ResourcesFolder set to: 20250212145515411\6221117027375\resources
+12-02-2025 14:55:30: Sucsses: Fetching metadata file path for company: Emirates
+12-02-2025 14:55:30: Sucsses: MetadataFile path set to: 20250212145515411\6221117027375\6221117027375.xml
+12-02-2025 14:55:30: Sucsses: Final PackageFolder path: 55\20250212145515411
+12-02-2025 14:55:30: Sucsses: Final ResourcesFolder path: 55\20250212145515411\6221117027375\resources
+12-02-2025 14:55:30: Sucsses: Retrieved folder paths for package: 55
+12-02-2025 14:55:30: Starting GetCover...
+12-02-2025 14:55:31: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016293.jpg
+12-02-2025 14:55:31: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016293.jpg
+12-02-2025 14:55:31: Sucsses: Created directory: C:\Pkg_Output\emirates\55\20250212145515411\6221117027375\resources
+12-02-2025 14:55:32: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016293.jpg
+12-02-2025 14:55:32: Sucsses: Copied cover file to: C:\Pkg_Output\emirates\55\20250212145515411\6221117027375\resources\9681001016293.jpg
+12-02-2025 14:55:37: Starting GetCover...
+12-02-2025 14:55:38: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117027375.jpg
+12-02-2025 14:55:38: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117027375.jpg
+12-02-2025 14:55:38: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117027375.jpg
+12-02-2025 14:55:38: Sucsses: Copied cover file to: C:\Pkg_Output\emirates\55\20250212145515411\6221117027375\resources\9681001016293.jpg
+12-02-2025 14:55:46: Media data generated successfully.
+12-02-2025 14:55:46: Success: generated XML for package ID: 55
