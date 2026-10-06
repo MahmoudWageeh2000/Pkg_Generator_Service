@@ -21,7 +21,9 @@ namespace ConsoleApp1
     {
         //private string connectionString = "Data Source=10.1.1.27;Initial Catalog=DPackaging;User ID=cms;Password=D@cms2015;Encrypt=True;TrustServerCertificate=True;";
         private DatabaseHelper db;
-        public static TimeSpan album_duration = new TimeSpan(0);
+        // Instance field (was static). A new XMLGenerator is created for every package,
+        // so each package starts from zero instead of inheriting the previous total.
+        public TimeSpan album_duration = new TimeSpan(0);
         public bool batch = false;
         public object store_id = "";
         
@@ -46,8 +48,7 @@ namespace ConsoleApp1
         public void GenerateBatch (string filepath,string outputFile, List<AssetHash> assetHashes, string cover_hash_sum, int album_num, string ID)
         {
             List<int> IdsWithBatch = new List<int> { 1, 3, 4, 9, 10, 12, 16, 17, 18, 22, 26, 39, 46,27,61};
-            List<int> IdsWithoutBatch = new List<int>{2, 6, 7, 8, 11, 13, 14, 15, 19, 20, 21, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 40, 41, 42, 43, 44, 45, 47, 48, 49, 50,51, 52, 54, 55, 56, 57, 58, 59, 60, 61, 62,65 , 64
-    };
+            List<int> IdsWithoutBatch = new List<int>{2, 6, 7, 8, 11, 13, 14, 15, 19, 20, 21, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 40, 41, 42, 43, 44, 45, 47, 48, 49, 50,51, 52, 54, 55, 56, 57, 58, 59, 60, 61, 62,65 , 64};
             string store_id_query = $"select store_id from packages where pkg_id = {ID}";
             object store_id = db.ExecuteScalar(store_id_query);
 
@@ -74,6 +75,12 @@ namespace ConsoleApp1
         
         {
             
+            // Problem: album_duration used to be static and was never reset between packages,
+            // so it kept accumulating for as long as the app stayed open. The Release <Duration>
+            // ended up holding the total of everything generated in the session instead of the
+            // current album's own length. ResetVariables() in Form1 did not clear it either.
+            //album_duration = new TimeSpan(0);
+
             var variablesData = variables.AsEnumerable().Where(x => x.StartsWith("album.")).Select(x => x.Replace("album.", "")).ToList();
             dynamic data = new ExpandoObject();
             var dataDict = (IDictionary<string, object>)data;
@@ -191,6 +198,32 @@ namespace ConsoleApp1
                         dataDict[variable] = albumTable.Rows[0][variable];
 
                     }
+
+                    // this edit for composer , lyrics, arranger, remixer, featured artist, mixing engineer, master engineer, producer
+                    else if (variable.EndsWith("_pair_list_string"))
+                    {
+                        var pair_name = variable.Substring(0, variable.Length - "_pair_list_string".Length);
+                        string[] pairEn = albumTable.Columns.Contains(pair_name)
+                            ? albumTable.Rows[0][pair_name].ToString().Split(",")
+                            : new string[0];
+                        string[] pairAr = albumTable.Columns.Contains(pair_name + "_a")
+                            ? albumTable.Rows[0][pair_name + "_a"].ToString().Split(",")
+                            : new string[0];
+                        List<Artist> pairs = new List<Artist>();
+                        for (int i = 0; i < pairEn.Length; i++)
+                        {
+                            if (string.IsNullOrWhiteSpace(pairEn[i]))
+                                continue;
+                            pairs.Add(new Artist
+                            {
+                                name = pairEn[i].Trim(),
+                                name_ar = i < pairAr.Length ? pairAr[i].Trim() : ""
+                            });
+                        }
+                        if (pairs.Count > 0)
+                            dataDict[variable] = pairs;
+                    }
+
                     else if (variable.Contains("_list_string"))
                     {
                         var list_name = variable.Split("_list_string")[0];
@@ -224,6 +257,7 @@ namespace ConsoleApp1
                                     }
                                     dataDict[variable] = artists;
                                 }
+
                                 else
                                 {
                                     for (int i = 0; i < strings.Length; i++)
@@ -248,6 +282,30 @@ namespace ConsoleApp1
                                 dataDict[variable] = null;
                             }
                         }
+                        // this edit for composer , lyrics, arranger, remixer, featured artist, mixing engineer, master engineer, producer
+                        //     var list_name = variable.Split("_list_string")[0].Replace("_test", "");
+                        //else if (variable.Contains("_test_"))
+                        //{
+                        //    string[] stringsAr = albumTable.Columns.Contains(list_name + "_a")
+                        //        ? albumTable.Rows[0][list_name + "_a"].ToString().Split(",")
+                        //        : new string[0];
+                        //    List<Artist> artists = new List<Artist>();
+                        //    if (strings.Length > 0 && strings[0] != "")
+                        //    {
+                        //        for (int i = 0; i < strings.Length; i++)
+                        //        {
+                        //            artists.Add(new Artist
+                        //            {
+                        //                name = strings[i].Trim(),
+                        //                name_ar = i < stringsAr.Length ? stringsAr[i].Trim() : ""
+                        //            });
+                        //        }
+                        //        dataDict[variable] = artists;
+                        //    }
+                        //    else dataDict[variable] = null;
+                        //}
+
+
                         else
                         {
 
@@ -281,7 +339,7 @@ namespace ConsoleApp1
                             dataDict[variable] = image_num;
                         }
                     }
-                    
+
                 }
                 // data.album_upc = albumTable.Rows[0]["album_upc"];
                 // data.creation_date_time = albumTable.Rows[0]["creation_date_time"];
@@ -560,7 +618,31 @@ namespace ConsoleApp1
                         listDictDict[variable] = partyList;
                     }
 
-
+                    // this edit for composer , lyrics, arranger, remixer, featured artist, mixing engineer, master engineer, producer
+                    else if (variable.EndsWith("_pair_list_string"))
+                    {
+                        // composer_pair_list_string => composer + composer_a
+                        var pair_name = variable.Substring(0, variable.Length - "_pair_list_string".Length);
+                        string[] pairEn = dataTable.Columns.Contains(pair_name)
+                            ? row[pair_name].ToString().Split(",")
+                            : new string[0];
+                        string[] pairAr = dataTable.Columns.Contains(pair_name + "_a")
+                            ? row[pair_name + "_a"].ToString().Split(",")
+                            : new string[0];
+                        List<Artist> pairs = new List<Artist>();
+                        for (int i = 0; i < pairEn.Length; i++)
+                        {
+                            if (string.IsNullOrWhiteSpace(pairEn[i]))
+                                continue;
+                            pairs.Add(new Artist
+                            {
+                                name = pairEn[i].Trim(),
+                                name_ar = i < pairAr.Length ? pairAr[i].Trim() : ""
+                            });
+                        }
+                        if (pairs.Count > 0)
+                            listDictDict[variable] = pairs;
+                    }
                     else if (variable.Contains("_list_string"))
                     {
                         string list_string_name= variable.Split("_list_string")[0];
@@ -617,7 +699,30 @@ namespace ConsoleApp1
                                 listDictDict[variable] = null;
                             }
                         }
-                     
+
+                        // this edit for composer , lyrics, arranger, remixer, featured artist, mixing engineer, master engineer, producer
+                        //     string list_string_name = variable.Split("_list_string")[0].Replace("_test", "");
+                        //else if (variable.Contains("_test_"))
+                        //{
+                        //    string[] stringsAr = dataTable.Columns.Contains(list_string_name + "_a")
+                        //        ? row[list_string_name + "_a"].ToString().Split(",")
+                        //        : new string[0];
+                        //    List<Artist> artists = new List<Artist>();
+                        //    if (strings.Length > 0 && strings[0] != "")
+                        //    {
+                        //        for (int i = 0; i < strings.Length; i++)
+                        //        {
+                        //            artists.Add(new Artist
+                        //            {
+                        //                name = strings[i].Trim(),
+                        //                name_ar = i < stringsAr.Length ? stringsAr[i].Trim() : ""
+                        //            });
+                        //        }
+                        //        listDictDict[variable] = artists;
+                        //    }
+                        //    else listDictDict[variable] = null;
+                        //}
+
                         else
                         {
                             

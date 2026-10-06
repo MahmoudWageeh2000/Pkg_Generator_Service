@@ -6,7 +6,7 @@
 		<MessageSender>
 			<PartyId>PADPIDA20131118019</PartyId>
 			<PartyName>
-				<FullName>Mazzika Group</FullName>
+				<FullName>Global</FullName>
 			</PartyName>
 		</MessageSender>
 		<MessageRecipient>
@@ -32,38 +32,64 @@
         <TitleText>{{ asset.track_name }}</TitleText>
 				<TitleText LanguageAndScriptCode="ar">{{ asset.track_name_a }}</TitleText>
 			</ReferenceTitle>
-			<Duration>{{ asset.track_duration }}</Duration>
+			<Duration>PT{{ asset.track_duration }}</Duration>
 			<SoundRecordingDetailsByTerritory>
         {{~ for country_code in asset.country_iso_code_list_string ~}}
         <TerritoryCode>{{ country_code }}</TerritoryCode>
         {{~ end ~}}
         <Title TitleType="DisplayTitle">
-					<TitleText>{{ asset.track_name }}</TitleText>
-				</Title>
-				<Title LanguageAndScriptCode="ar" TitleType="TranslatedTitle">
-					<TitleText>{{ asset.track_name_a }}</TitleText>
-				</Title>
-				<DisplayArtist SequenceNumber="1">
-					<PartyName>
-						<FullName>{{ asset.track_artist }}</FullName>
-					</PartyName>
-					<PartyName LanguageAndScriptCode="ar">
-						<FullName>{{ asset.track_artist_a }}</FullName>
-					</PartyName>
-					<ArtistRole>MainArtist</ArtistRole>
-				</DisplayArtist>
-        {{~ seq = 1  ~}}
-        {{~ for track_featured_artist in asset.track_featured_artist_list_string ~}}
-        <DisplayArtist SequenceNumber="{{seq}}">
-					<PartyName>
-						<FullName>{{ track_featured_artist.name }}</FullName>
-					</PartyName>
-					<PartyName LanguageAndScriptCode="ar">
-						<FullName>{{ track_featured_artist.name_ar }}</FullName>
-					</PartyName>
-					<ArtistRole>MainArtist</ArtistRole>
-				</DisplayArtist>
-        {{~ seq = seq + 1 ~}}
+				<TitleText>{{ asset.track_name }}</TitleText>
+			</Title>
+			<Title LanguageAndScriptCode="ar" TitleType="TranslatedTitle">
+				<TitleText>{{ asset.track_name_a }}</TitleText>
+			</Title>
+			{{~ seq = 1  ~}}
+			{{~ for track_artist in asset.track_artist_list_string ~}}
+			<DisplayArtist SequenceNumber="{{seq}}">
+				<PartyName>
+					<FullName>{{ track_artist.name }}</FullName>
+				</PartyName>
+				<PartyName LanguageAndScriptCode="ar">
+					<FullName>{{ track_artist.name_ar }}</FullName>
+				</PartyName>
+				<ArtistRole>MainArtist</ArtistRole>
+			</DisplayArtist>
+			{{~ seq = seq + 1  ~}}
+			{{~ end ~}}
+			{{~ seq = 1  ~}}
+			{{~ for track_featured_artist in asset.track_featured_artist_list_string ~}}
+			<DisplayArtist SequenceNumber="{{seq}}">
+				<PartyName>
+					<FullName>{{ track_featured_artist.name }}</FullName>
+				</PartyName>
+				<PartyName LanguageAndScriptCode="ar">
+					<FullName>{{ track_featured_artist.name_ar }}</FullName>
+				</PartyName>
+				<ArtistRole>FeaturedArtist</ArtistRole>
+			</DisplayArtist>
+            {{~ seq = seq + 1 ~}}
+            {{~ end ~}}
+        {{~ for comp in asset.composer_pair_list_string ~}}
+        <IndirectResourceContributor>
+          <PartyName>
+            <FullName>{{ comp.name | string.strip }}</FullName>
+          </PartyName>
+          <PartyName LanguageAndScriptCode="ar">
+            <FullName>{{ comp.name_ar | string.strip }}</FullName>
+          </PartyName>
+          <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+        </IndirectResourceContributor>
+        {{~ end ~}}
+        {{~ for track_lyricist in asset.lyrics_pair_list_string ~}}
+        <IndirectResourceContributor>
+          <PartyName>
+            <FullName>{{ track_lyricist.name | string.strip }}</FullName>
+          </PartyName>
+          <PartyName LanguageAndScriptCode="ar">
+            <FullName>{{ track_lyricist.name_ar | string.strip }}</FullName>
+          </PartyName>
+          <IndirectResourceContributorRole>Lyricist</IndirectResourceContributorRole>
+        </IndirectResourceContributor>
         {{~ end ~}}
         <LabelName>{{asset.label_name}}</LabelName>
 				<PLine>
@@ -72,7 +98,7 @@
 				</PLine>
 				<CLine>
           <Year>{{ asset.release_year}}</Year>
-          <CLineText>(C){{ asset.release_year}}{{asset.label_name}}</CLineText>
+          <CLineText>(C) {{ asset.release_year}} {{asset.label_name}}</CLineText>
 				</CLine>
 				<Genre>
           <GenreText>{{ asset.track_genre }}</GenreText>
@@ -112,25 +138,29 @@
         <Title LanguageAndScriptCode="ar" TitleType="TranslatedTitle">
           <TitleText>{{ album.album_name_a }}</TitleText>
         </Title>
-        <DisplayArtist SequenceNumber="1">
+		{{~ seq = 1 ~}}
+		{{~ for album_main_artist in album.album_artist_list_string ~}}
+        <DisplayArtist SequenceNumber="{{seq}}">
           <PartyName>
-            <FullName>{{ album.album_artist }}</FullName>
+            <FullName>{{ album_main_artist.name }}</FullName>
           </PartyName>
           <PartyName LanguageAndScriptCode="ar">
-            <FullName>{{ album.album_artist_a }}</FullName>
+            <FullName>{{ album_main_artist.name_ar }}</FullName>
           </PartyName>
           <ArtistRole>MainArtist</ArtistRole>
         </DisplayArtist>
+		{{~ seq = seq + 1 ~}}
+		{{~ end ~}}
         {{~ seq = 1  ~}}
-        {{~ for track_featured_artist in album.track_featured_artist_list_string ~}}
+        {{~ for album_featured_artist in album.album_featured_artist_list_string ~}}
         <DisplayArtist SequenceNumber="{{seq}}">
           <PartyName>
-            <FullName>{{ track_featured_artist.name }}</FullName>
+            <FullName>{{ album_featured_artist.name }}</FullName>
           </PartyName>
           <PartyName LanguageAndScriptCode="ar">
-            <FullName>{{ track_featured_artist.name_ar }}</FullName>
+            <FullName>{{ album_featured_artist.name_ar }}</FullName>
           </PartyName>
-          <ArtistRole>MainArtist</ArtistRole>
+          <ArtistRole>FeaturedArtist</ArtistRole>
         </DisplayArtist>
         {{~ seq = seq + 1 ~}}
         {{~ end ~}}
@@ -162,12 +192,12 @@
         <OriginalReleaseDate>{{ album.release_date }}</OriginalReleaseDate>
       </ReleaseDetailsByTerritory>
       <PLine>
-        <Year>{{ album.release_date }}</Year>
-        <PLineText>{{ album.release_date }} {{ album.label_name }}</PLineText>
+        <Year>{{ album.release_year }}</Year>
+        <PLineText>{{ album.release_year }} {{ album.label_name }}</PLineText>
       </PLine>
       <CLine>
         <Year>{{ album.release_year }}</Year>
-        <CLineText>{{ album.release_date }} {{ album.label_name }}</CLineText>
+        <CLineText>{{ album.release_year }} {{ album.label_name }}</CLineText>
       </CLine>
     </Release>
     {{~for asset in asset_list ~}}
@@ -176,7 +206,7 @@
         <ISRC>{{asset.asset_isrc}}</ISRC>
         <ProprietaryId Namespace="DPID:PADPIDA20131118019">{{asset.asset_isrc}}</ProprietaryId>
       </ReleaseId>
-      <ReleaseReference>{{asset.track_num}}</ReleaseReference>
+      <ReleaseReference>R{{asset.track_num}}</ReleaseReference>
       <ReferenceTitle>
         <TitleText>{{asset.track_name}}</TitleText>
         <TitleText LanguageAndScriptCode="ar">{{asset.track_name_a}}</TitleText>
@@ -189,24 +219,28 @@
         {{~ for country_code in asset.country_iso_code_list_string ~}}
         <TerritoryCode>{{ country_code }}</TerritoryCode>
         {{~ end ~}}
-<DisplayArtistName>{{asset.track_artist}}</DisplayArtistName>
+      <DisplayArtistName>{{asset.track_artist}}</DisplayArtistName>
       <DisplayArtistName LanguageAndScriptCode="ar">{{asset.track_artist_a}}</DisplayArtistName>
-      <LabelName>{{asset.label_anme}}</LabelName>
+      <LabelName>{{asset.label_name}}</LabelName>
       <Title TitleType="DisplayTitle">
         <TitleText>{{asset.track_name}}</TitleText>
       </Title>
       <Title LanguageAndScriptCode="ar" TitleType="TranslatedTitle">
         <TitleText>{{asset.track_name_a}}</TitleText>
       </Title>
-        <DisplayArtist SequenceNumber="1">
+		{{~ seq = 1  ~}}
+        {{~ for track_artist in asset.track_artist_list_string ~}}
+        <DisplayArtist SequenceNumber="{{seq}}">
           <PartyName>
-            <FullName>{{asset.track_artist}}</FullName>
+            <FullName>{{ track_artist.name }}</FullName>
           </PartyName>
           <PartyName LanguageAndScriptCode="ar">
-            <FullName>{{asset.track_artist_name}}</FullName>
+            <FullName>{{ track_artist.name_ar }}</FullName>
           </PartyName>
           <ArtistRole>MainArtist</ArtistRole>
         </DisplayArtist>
+		{{~ seq = seq + 1 ~}}
+        {{~ end ~}}		
         {{~ seq = 1  ~}}
         {{~ for track_featured_artist in asset.track_featured_artist_list_string ~}}
         <DisplayArtist SequenceNumber="{{seq}}">
@@ -216,9 +250,31 @@
           <PartyName LanguageAndScriptCode="ar">
             <FullName>{{ track_featured_artist.name_ar }}</FullName>
           </PartyName>
-          <ArtistRole>MainArtist</ArtistRole>
+          <ArtistRole>FeaturedArtist</ArtistRole>
         </DisplayArtist>
         {{~ seq = seq + 1 ~}}
+        {{~ end ~}}
+        {{~ for comp in asset.composer_pair_list_string ~}}
+        <IndirectResourceContributor>
+          <PartyName>
+            <FullName>{{ comp.name | string.strip }}</FullName>
+          </PartyName>
+          <PartyName LanguageAndScriptCode="ar">
+            <FullName>{{ comp.name_ar | string.strip }}</FullName>
+          </PartyName>
+          <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+        </IndirectResourceContributor>
+        {{~ end ~}}
+        {{~ for track_lyricist in asset.lyrics_pair_list_string ~}}
+        <IndirectResourceContributor>
+          <PartyName>
+            <FullName>{{ track_lyricist.name | string.strip }}</FullName>
+          </PartyName>
+          <PartyName LanguageAndScriptCode="ar">
+            <FullName>{{ track_lyricist.name_ar | string.strip }}</FullName>
+          </PartyName>
+          <IndirectResourceContributorRole>Lyricist</IndirectResourceContributorRole>
+        </IndirectResourceContributor>
         {{~ end ~}}
       </ReleaseDetailsByTerritory>
 			<PLine>

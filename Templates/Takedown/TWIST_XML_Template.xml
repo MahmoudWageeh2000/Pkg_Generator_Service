@@ -6,7 +6,7 @@
 		<MessageSender>
 			<PartyId>PADPIDA20131118019</PartyId>
 			<PartyName>
-				<FullName>Digital Sound</FullName>
+				<FullName>Global</FullName>
 			</PartyName>
 		</MessageSender>
 		<MessageRecipient>
@@ -40,7 +40,7 @@
 					<SubTitle/>
 				</Title>
         {{~ for track_artist in asset.track_artist_list_string ~}}
-        <DisplayArtist >
+        <DisplayArtist>
           <PartyName>
             <FullName>{{ track_artist.name }}</FullName>
           </PartyName>
@@ -79,7 +79,7 @@
           <IndirectResourceContributorRole>Arranger</IndirectResourceContributorRole>
         </IndirectResourceContributor>
         {{~ end ~}}
-        {{~ for track_producer in asset.arrenger_list_string ~}}
+        {{~ for track_producer in asset.producer_list_string ~}}
         <IndirectResourceContributor>
           <PartyName>
             <FullName>{{ track_producer }}</FullName>
@@ -148,7 +148,7 @@
           <ArtistRole>FeaturedArtist</ArtistRole>
         </DisplayArtist>
         {{~ end ~}}
-        {{~ for track_producer in album.arrenger_list_string ~}}
+        {{~ for track_producer in album.producer_list_string ~}}
         <IndirectResourceContributor>
           <PartyName>
             <FullName>{{ track_producer }}</FullName>
@@ -156,7 +156,7 @@
           <IndirectResourceContributorRole>Producer</IndirectResourceContributorRole>
         </IndirectResourceContributor>
         {{~ end ~}}
-        {{~ for track_remixer in album.composer_list_string ~}}
+        {{~ for track_remixer in album.remixer_list_string ~}}
         <IndirectResourceContributor>
           <PartyName>
             <FullName>{{ track_remixer }}</FullName>
@@ -211,7 +211,7 @@
 			<ReleaseDetailsByTerritory>
 				<TerritoryCode>Worldwide</TerritoryCode>
 				<DisplayArtistName>{{asset.track_artist}}</DisplayArtistName>
-        <LabelName>{{asset.label_anme}}</LabelName>
+        <LabelName>{{asset.label_name}}</LabelName>
 				<Title TitleType="DisplayTitle">
 					<TitleText>{{ asset.track_name }}</TitleText>
 				</Title>
@@ -255,7 +255,7 @@
           <IndirectResourceContributorRole>Arranger</IndirectResourceContributorRole>
         </IndirectResourceContributor>
         {{~ end ~}}
-        {{~ for track_producer in asset.arrenger_list_string ~}}
+        {{~ for track_producer in asset.producer_list_string ~}}
         <IndirectResourceContributor>
           <PartyName>
             <FullName>{{ track_producer }}</FullName>
@@ -273,14 +273,15 @@
     {{~ end ~}}
   </ReleaseList>
 	<DealList>
-    {{~ for country_code in album.country_iso_code_list_string ~}}
     <ReleaseDeal>
 			<DealReleaseReference>R0</DealReleaseReference>
 			<Deal>
 				<DealTerms>
 					<CommercialModelType>SubscriptionModel</CommercialModelType>
 					<TakeDown>true</TakeDown>
+					{{~ for country_code in album.country_iso_code_list_string ~}}
 					<TerritoryCode>{{country_code}}</TerritoryCode>
+					{{~ end ~}}
 					<ValidityPeriod>
 						<StartDateTime>{{album.takedown_date}}T00:00:00Z</StartDateTime>
 					</ValidityPeriod>
@@ -290,7 +291,9 @@
 				<DealTerms>
 					<CommercialModelType>AdvertisementSupportedModel</CommercialModelType>
 					<TakeDown>true</TakeDown>
+					{{~ for country_code in album.country_iso_code_list_string ~}}
 					<TerritoryCode>{{country_code}}</TerritoryCode>
+					{{~ end ~}}
 					<ValidityPeriod>
 						<StartDateTime>{{album.takedown_date}}T00:00:00Z</StartDateTime>
 					</ValidityPeriod>
@@ -298,7 +301,6 @@
 			</Deal>
 			<EffectiveDate>{{album.takedown_date}}</EffectiveDate>
 		</ReleaseDeal>
-    {{~ end ~}}
     {{~ for asset in album.asset_list ~}}
     {{~ for country_code in album.country_iso_code_list_string ~}}
     <ReleaseDeal>

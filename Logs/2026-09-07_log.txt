@@ -1,0 +1,288 @@
+07/09/2026 02:14:22 م: Starting XML generation for package ID: 11201, Filename: TikTok_DDEX_XML_Template.xml, Company: TikTok
+07/09/2026 02:14:22 م: Success: fetched package info for ID: 11201
+07/09/2026 02:14:22 م: Processing group with Album UPC: 9681001007352
+07/09/2026 02:14:22 م: Starting GetFolderPaths...
+07/09/2026 02:14:22 م: Fetching package folder for company: TikTok
+07/09/2026 02:14:22 م: Sucsses: PackageFolder set to: batch_20260907141422
+07/09/2026 02:14:22 م: Sucsses: Fetching resources folder for company: TikTok
+07/09/2026 02:14:22 م: Sucsses: ResourcesFolder set to: batch_20260907141422\9681001007352\resources
+07/09/2026 02:14:22 م: Sucsses: Fetching metadata file path for company: TikTok
+07/09/2026 02:14:22 م: Sucsses: MetadataFile path set to: batch_20260907141422\9681001007352\9681001007352.xml
+07/09/2026 02:14:22 م: Sucsses: Final PackageFolder path: 11201\batch_20260907141422
+07/09/2026 02:14:22 م: Sucsses: Final ResourcesFolder path: 11201\batch_20260907141422\9681001007352\resources
+07/09/2026 02:14:22 م: Sucsses: Retrieved folder paths for package: 11201
+07/09/2026 02:14:22 م: Starting GetCover...
+07/09/2026 02:14:28 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 02:14:28 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 02:14:28 م: Sucsses: Created directory: C:\Pkg_Output\tiktok\11201\batch_20260907141422\9681001007352\resources
+07/09/2026 02:14:29 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 02:14:29 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\11201\batch_20260907141422\9681001007352\resources\9681001007352.jpg
+07/09/2026 02:14:29 م: Start Getting Media For package info: 11201
+07/09/2026 02:14:52 م: Media data generated successfully.
+07/09/2026 02:14:52 م: Error: generating XML for package: Value cannot be null. (Parameter source)
+07/09/2026 02:14:52 م: There is Some errors in The PKG
+07/09/2026 02:18:15 م: Starting XML generation for package ID: 11211, Filename: TikTok_DDEX_XML_Template.xml, Company: TikTok
+07/09/2026 02:18:15 م: Success: fetched package info for ID: 11211
+07/09/2026 02:18:15 م: Processing group with Album UPC: 9681001007352
+07/09/2026 02:18:15 م: Starting GetFolderPaths...
+07/09/2026 02:18:15 م: Fetching package folder for company: TikTok
+07/09/2026 02:18:15 م: Sucsses: PackageFolder set to: batch_20260907141815
+07/09/2026 02:18:15 م: Sucsses: Fetching resources folder for company: TikTok
+07/09/2026 02:18:15 م: Sucsses: ResourcesFolder set to: batch_20260907141815\9681001007352\resources
+07/09/2026 02:18:15 م: Sucsses: Fetching metadata file path for company: TikTok
+07/09/2026 02:18:15 م: Sucsses: MetadataFile path set to: batch_20260907141815\9681001007352\9681001007352.xml
+07/09/2026 02:18:15 م: Sucsses: Final PackageFolder path: 11211\batch_20260907141815
+07/09/2026 02:18:15 م: Sucsses: Final ResourcesFolder path: 11211\batch_20260907141815\9681001007352\resources
+07/09/2026 02:18:15 م: Sucsses: Retrieved folder paths for package: 11211
+07/09/2026 02:18:15 م: Starting GetCover...
+07/09/2026 02:18:21 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 02:18:21 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 02:18:21 م: Sucsses: Created directory: C:\Pkg_Output\tiktok\11211\batch_20260907141815\9681001007352\resources
+07/09/2026 02:18:21 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 02:18:21 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\11211\batch_20260907141815\9681001007352\resources\9681001007352.jpg
+07/09/2026 02:18:21 م: Start Getting Media For package info: 11211
+07/09/2026 02:18:46 م: Media data generated successfully.
+07/09/2026 02:19:06 م: Error: generating XML for package: Value cannot be null. (Parameter source)
+07/09/2026 02:19:07 م: There is Some errors in The PKG
+07/09/2026 02:20:24 م: Starting XML generation for package ID: 11221, Filename: TikTok_DDEX_XML_Template.xml, Company: TikTok
+07/09/2026 02:20:24 م: Success: fetched package info for ID: 11221
+07/09/2026 02:20:24 م: Processing group with Album UPC: 9681001007352
+07/09/2026 02:20:24 م: Starting GetFolderPaths...
+07/09/2026 02:20:24 م: Fetching package folder for company: TikTok
+07/09/2026 02:20:24 م: Sucsses: PackageFolder set to: batch_20260907141907
+07/09/2026 02:20:24 م: Sucsses: Fetching resources folder for company: TikTok
+07/09/2026 02:20:24 م: Sucsses: ResourcesFolder set to: batch_20260907141907\9681001007352\resources
+07/09/2026 02:20:24 م: Sucsses: Fetching metadata file path for company: TikTok
+07/09/2026 02:20:24 م: Sucsses: MetadataFile path set to: batch_20260907141907\9681001007352\9681001007352.xml
+07/09/2026 02:20:24 م: Sucsses: Final PackageFolder path: 11221\batch_20260907141907
+07/09/2026 02:20:24 م: Sucsses: Final ResourcesFolder path: 11221\batch_20260907141907\9681001007352\resources
+07/09/2026 02:20:24 م: Sucsses: Retrieved folder paths for package: 11221
+07/09/2026 02:20:24 م: Starting GetCover...
+07/09/2026 02:20:30 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 02:20:30 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 02:20:30 م: Sucsses: Created directory: C:\Pkg_Output\tiktok\11221\batch_20260907141907\9681001007352\resources
+07/09/2026 02:20:30 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 02:20:30 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\11221\batch_20260907141907\9681001007352\resources\9681001007352.jpg
+07/09/2026 02:20:30 م: Start Getting Media For package info: 11221
+07/09/2026 02:21:03 م: Media data generated successfully.
+07/09/2026 02:24:46 م: Error: generating XML for package: Value cannot be null. (Parameter source)
+07/09/2026 02:24:59 م: There is Some errors in The PKG
+07/09/2026 02:25:51 م: Starting XML generation for package ID: 11231, Filename: TikTok_DDEX_XML_Template.xml, Company: TikTok
+07/09/2026 02:25:51 م: Success: fetched package info for ID: 11231
+07/09/2026 02:25:51 م: Processing group with Album UPC: 9681001007352
+07/09/2026 02:25:51 م: Starting GetFolderPaths...
+07/09/2026 02:25:51 م: Fetching package folder for company: TikTok
+07/09/2026 02:25:51 م: Sucsses: PackageFolder set to: batch_20260907142459
+07/09/2026 02:25:51 م: Sucsses: Fetching resources folder for company: TikTok
+07/09/2026 02:25:51 م: Sucsses: ResourcesFolder set to: batch_20260907142459\9681001007352\resources
+07/09/2026 02:25:51 م: Sucsses: Fetching metadata file path for company: TikTok
+07/09/2026 02:25:51 م: Sucsses: MetadataFile path set to: batch_20260907142459\9681001007352\9681001007352.xml
+07/09/2026 02:25:51 م: Sucsses: Final PackageFolder path: 11231\batch_20260907142459
+07/09/2026 02:25:51 م: Sucsses: Final ResourcesFolder path: 11231\batch_20260907142459\9681001007352\resources
+07/09/2026 02:25:51 م: Sucsses: Retrieved folder paths for package: 11231
+07/09/2026 02:25:51 م: Starting GetCover...
+07/09/2026 02:25:58 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 02:25:58 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 02:25:58 م: Sucsses: Created directory: C:\Pkg_Output\tiktok\11231\batch_20260907142459\9681001007352\resources
+07/09/2026 02:26:00 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 02:26:00 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\11231\batch_20260907142459\9681001007352\resources\9681001007352.jpg
+07/09/2026 02:26:00 م: Start Getting Media For package info: 11231
+07/09/2026 02:26:36 م: Media data generated successfully.
+07/09/2026 02:48:24 م: Error: generating XML for package: Value cannot be null. (Parameter source)
+07/09/2026 02:48:31 م: There is Some errors in The PKG
+07/09/2026 02:48:51 م: Starting XML generation for package ID: 11241, Filename: TikTok_DDEX_XML_Template.xml, Company: TikTok
+07/09/2026 02:48:51 م: Success: fetched package info for ID: 11241
+07/09/2026 02:48:51 م: Processing group with Album UPC: 9681001007352
+07/09/2026 02:48:51 م: Starting GetFolderPaths...
+07/09/2026 02:48:51 م: Fetching package folder for company: TikTok
+07/09/2026 02:48:51 م: Sucsses: PackageFolder set to: batch_20260907144831
+07/09/2026 02:48:51 م: Sucsses: Fetching resources folder for company: TikTok
+07/09/2026 02:48:52 م: Sucsses: ResourcesFolder set to: batch_20260907144831\9681001007352\resources
+07/09/2026 02:48:52 م: Sucsses: Fetching metadata file path for company: TikTok
+07/09/2026 02:48:52 م: Sucsses: MetadataFile path set to: batch_20260907144831\9681001007352\9681001007352.xml
+07/09/2026 02:48:52 م: Sucsses: Final PackageFolder path: 11241\batch_20260907144831
+07/09/2026 02:48:52 م: Sucsses: Final ResourcesFolder path: 11241\batch_20260907144831\9681001007352\resources
+07/09/2026 02:48:52 م: Sucsses: Retrieved folder paths for package: 11241
+07/09/2026 02:48:52 م: Starting GetCover...
+07/09/2026 02:48:58 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 02:48:58 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 02:48:58 م: Sucsses: Created directory: C:\Pkg_Output\tiktok\11241\batch_20260907144831\9681001007352\resources
+07/09/2026 02:48:58 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 02:48:58 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\11241\batch_20260907144831\9681001007352\resources\9681001007352.jpg
+07/09/2026 02:48:58 م: Start Getting Media For package info: 11241
+07/09/2026 02:49:37 م: Media data generated successfully.
+07/09/2026 02:52:24 م: Error: generating XML for package: Value cannot be null. (Parameter source)
+07/09/2026 02:52:26 م: There is Some errors in The PKG
+07/09/2026 02:52:50 م: Starting XML generation for package ID: 11251, Filename: TikTok_DDEX_XML_Template.xml, Company: TikTok
+07/09/2026 02:52:50 م: Success: fetched package info for ID: 11251
+07/09/2026 02:52:50 م: Processing group with Album UPC: 9681001007352
+07/09/2026 02:52:50 م: Starting GetFolderPaths...
+07/09/2026 02:52:50 م: Fetching package folder for company: TikTok
+07/09/2026 02:52:50 م: Sucsses: PackageFolder set to: batch_20260907145226
+07/09/2026 02:52:50 م: Sucsses: Fetching resources folder for company: TikTok
+07/09/2026 02:52:50 م: Sucsses: ResourcesFolder set to: batch_20260907145226\9681001007352\resources
+07/09/2026 02:52:50 م: Sucsses: Fetching metadata file path for company: TikTok
+07/09/2026 02:52:50 م: Sucsses: MetadataFile path set to: batch_20260907145226\9681001007352\9681001007352.xml
+07/09/2026 02:52:50 م: Sucsses: Final PackageFolder path: 11251\batch_20260907145226
+07/09/2026 02:52:50 م: Sucsses: Final ResourcesFolder path: 11251\batch_20260907145226\9681001007352\resources
+07/09/2026 02:52:50 م: Sucsses: Retrieved folder paths for package: 11251
+07/09/2026 02:52:50 م: Starting GetCover...
+07/09/2026 02:52:56 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 02:52:56 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 02:52:56 م: Sucsses: Created directory: C:\Pkg_Output\tiktok\11251\batch_20260907145226\9681001007352\resources
+07/09/2026 02:52:56 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 02:52:56 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\11251\batch_20260907145226\9681001007352\resources\9681001007352.jpg
+07/09/2026 02:52:56 م: Start Getting Media For package info: 11251
+07/09/2026 02:53:14 م: Media data generated successfully.
+07/09/2026 04:05:54 م: Starting XML generation for package ID: 11251, Filename: TikTok_DDEX_XML_Template.xml, Company: TikTok
+07/09/2026 04:05:54 م: Success: fetched package info for ID: 11251
+07/09/2026 04:05:54 م: Processing group with Album UPC: 9681001007352
+07/09/2026 04:05:54 م: Starting GetFolderPaths...
+07/09/2026 04:05:54 م: Fetching package folder for company: TikTok
+07/09/2026 04:05:54 م: Sucsses: PackageFolder set to: batch_20260907160554
+07/09/2026 04:05:54 م: Sucsses: Fetching resources folder for company: TikTok
+07/09/2026 04:05:54 م: Sucsses: ResourcesFolder set to: batch_20260907160554\9681001007352\resources
+07/09/2026 04:05:54 م: Sucsses: Fetching metadata file path for company: TikTok
+07/09/2026 04:05:54 م: Sucsses: MetadataFile path set to: batch_20260907160554\9681001007352\9681001007352.xml
+07/09/2026 04:05:55 م: Sucsses: Final PackageFolder path: 11251\batch_20260907160554
+07/09/2026 04:05:55 م: Sucsses: Final ResourcesFolder path: 11251\batch_20260907160554\9681001007352\resources
+07/09/2026 04:05:55 م: Sucsses: Retrieved folder paths for package: 11251
+07/09/2026 04:05:55 م: Starting GetCover...
+07/09/2026 04:06:06 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 04:06:06 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 04:06:06 م: Sucsses: Created directory: C:\Pkg_Output\tiktok\11251\batch_20260907160554\9681001007352\resources
+07/09/2026 04:06:09 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 04:06:09 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\11251\batch_20260907160554\9681001007352\resources\9681001007352.jpg
+07/09/2026 04:06:09 م: Start Getting Media For package info: 11251
+07/09/2026 04:09:07 م: Media data generated successfully.
+07/09/2026 04:09:18 م: Success: generated XML for package ID: 11251
+07/09/2026 04:09:27 م: Starting XML generation for package ID: 11261, Filename: TikTok_DDEX_XML_Template.xml, Company: TikTok
+07/09/2026 04:09:27 م: Success: fetched package info for ID: 11261
+07/09/2026 04:09:27 م: Processing group with Album UPC: 9681001007352
+07/09/2026 04:09:27 م: Starting GetFolderPaths...
+07/09/2026 04:09:27 م: Fetching package folder for company: TikTok
+07/09/2026 04:09:27 م: Sucsses: PackageFolder set to: batch_20260907160925
+07/09/2026 04:09:27 م: Sucsses: Fetching resources folder for company: TikTok
+07/09/2026 04:09:27 م: Sucsses: ResourcesFolder set to: batch_20260907160925\9681001007352\resources
+07/09/2026 04:09:27 م: Sucsses: Fetching metadata file path for company: TikTok
+07/09/2026 04:09:27 م: Sucsses: MetadataFile path set to: batch_20260907160925\9681001007352\9681001007352.xml
+07/09/2026 04:09:27 م: Sucsses: Final PackageFolder path: 11261\batch_20260907160925
+07/09/2026 04:09:27 م: Sucsses: Final ResourcesFolder path: 11261\batch_20260907160925\9681001007352\resources
+07/09/2026 04:09:27 م: Sucsses: Retrieved folder paths for package: 11261
+07/09/2026 04:09:28 م: Starting GetCover...
+07/09/2026 04:09:48 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 04:09:48 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 04:09:48 م: Sucsses: Created directory: C:\Pkg_Output\tiktok\11261\batch_20260907160925\9681001007352\resources
+07/09/2026 04:09:52 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 04:09:52 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\11261\batch_20260907160925\9681001007352\resources\9681001007352.jpg
+07/09/2026 04:09:52 م: Start Getting Media For package info: 11261
+07/09/2026 04:11:46 م: Starting XML generation for package ID: 11261, Filename: TikTok_DDEX_XML_Template.xml, Company: TikTok
+07/09/2026 04:11:47 م: Success: fetched package info for ID: 11261
+07/09/2026 04:11:47 م: Processing group with Album UPC: 9681001007352
+07/09/2026 04:11:47 م: Starting GetFolderPaths...
+07/09/2026 04:11:47 م: Fetching package folder for company: TikTok
+07/09/2026 04:11:47 م: Sucsses: PackageFolder set to: batch_20260907161147
+07/09/2026 04:11:47 م: Sucsses: Fetching resources folder for company: TikTok
+07/09/2026 04:11:47 م: Sucsses: ResourcesFolder set to: batch_20260907161147\9681001007352\resources
+07/09/2026 04:11:47 م: Sucsses: Fetching metadata file path for company: TikTok
+07/09/2026 04:11:47 م: Sucsses: MetadataFile path set to: batch_20260907161147\9681001007352\9681001007352.xml
+07/09/2026 04:11:47 م: Sucsses: Final PackageFolder path: 11261\batch_20260907161147
+07/09/2026 04:11:47 م: Sucsses: Final ResourcesFolder path: 11261\batch_20260907161147\9681001007352\resources
+07/09/2026 04:11:47 م: Sucsses: Retrieved folder paths for package: 11261
+07/09/2026 04:11:48 م: Starting GetCover...
+07/09/2026 04:12:34 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 04:12:34 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 04:12:34 م: Sucsses: Created directory: C:\Pkg_Output\tiktok\11261\batch_20260907161147\9681001007352\resources
+07/09/2026 04:12:37 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 04:12:37 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\11261\batch_20260907161147\9681001007352\resources\9681001007352.jpg
+07/09/2026 04:12:37 م: Start Getting Media For package info: 11261
+07/09/2026 04:14:21 م: Media data generated successfully.
+07/09/2026 04:14:22 م: Success: generated XML for package ID: 11261
+07/09/2026 04:59:07 م: Starting XML generation for package ID: 11271, Filename: TikTok_DDEX_XML_Template.xml, Company: TikTok
+07/09/2026 04:59:07 م: Success: fetched package info for ID: 11271
+07/09/2026 04:59:07 م: Processing group with Album UPC: 9681001007352
+07/09/2026 04:59:07 م: Starting GetFolderPaths...
+07/09/2026 04:59:07 م: Fetching package folder for company: TikTok
+07/09/2026 04:59:07 م: Sucsses: PackageFolder set to: batch_20260907161422
+07/09/2026 04:59:07 م: Sucsses: Fetching resources folder for company: TikTok
+07/09/2026 04:59:07 م: Sucsses: ResourcesFolder set to: batch_20260907161422\9681001007352\resources
+07/09/2026 04:59:07 م: Sucsses: Fetching metadata file path for company: TikTok
+07/09/2026 04:59:07 م: Sucsses: MetadataFile path set to: batch_20260907161422\9681001007352\9681001007352.xml
+07/09/2026 04:59:07 م: Sucsses: Final PackageFolder path: 11271\batch_20260907161422
+07/09/2026 04:59:07 م: Sucsses: Final ResourcesFolder path: 11271\batch_20260907161422\9681001007352\resources
+07/09/2026 04:59:07 م: Sucsses: Retrieved folder paths for package: 11271
+07/09/2026 04:59:07 م: Starting GetCover...
+07/09/2026 04:59:11 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 04:59:11 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 04:59:11 م: Sucsses: Created directory: C:\Pkg_Output\tiktok\11271\batch_20260907161422\9681001007352\resources
+07/09/2026 04:59:11 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 04:59:11 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\11271\batch_20260907161422\9681001007352\resources\9681001007352.jpg
+07/09/2026 04:59:11 م: Start Getting Media For package info: 11271
+07/09/2026 04:59:20 م: Media data generated successfully.
+07/09/2026 04:59:20 م: Success: generated XML for package ID: 11271
+07/09/2026 05:07:11 م: Starting XML generation for package ID: 11281, Filename: TikTok_DDEX_XML_Template.xml, Company: TikTok
+07/09/2026 05:07:11 م: Success: fetched package info for ID: 11281
+07/09/2026 05:07:11 م: Processing group with Album UPC: 9681001007352
+07/09/2026 05:07:11 م: Starting GetFolderPaths...
+07/09/2026 05:07:11 م: Fetching package folder for company: TikTok
+07/09/2026 05:07:11 م: Sucsses: PackageFolder set to: batch_20260907165920
+07/09/2026 05:07:11 م: Sucsses: Fetching resources folder for company: TikTok
+07/09/2026 05:07:11 م: Sucsses: ResourcesFolder set to: batch_20260907165920\9681001007352\resources
+07/09/2026 05:07:11 م: Sucsses: Fetching metadata file path for company: TikTok
+07/09/2026 05:07:11 م: Sucsses: MetadataFile path set to: batch_20260907165920\9681001007352\9681001007352.xml
+07/09/2026 05:07:11 م: Sucsses: Final PackageFolder path: 11281\batch_20260907165920
+07/09/2026 05:07:11 م: Sucsses: Final ResourcesFolder path: 11281\batch_20260907165920\9681001007352\resources
+07/09/2026 05:07:11 م: Sucsses: Retrieved folder paths for package: 11281
+07/09/2026 05:07:11 م: Starting GetCover...
+07/09/2026 05:07:15 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 05:07:15 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 05:07:15 م: Sucsses: Created directory: C:\Pkg_Output\tiktok\11281\batch_20260907165920\9681001007352\resources
+07/09/2026 05:07:15 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 05:07:15 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\11281\batch_20260907165920\9681001007352\resources\9681001007352.jpg
+07/09/2026 05:07:15 م: Start Getting Media For package info: 11281
+07/09/2026 05:07:24 م: Media data generated successfully.
+07/09/2026 05:07:24 م: Success: generated XML for package ID: 11281
+07/09/2026 05:26:30 م: Starting XML generation for package ID: 11291, Filename: TikTok_DDEX_XML_Template.xml, Company: TikTok
+07/09/2026 05:26:30 م: Success: fetched package info for ID: 11291
+07/09/2026 05:26:30 م: Processing group with Album UPC: 9681001007352
+07/09/2026 05:26:30 م: Starting GetFolderPaths...
+07/09/2026 05:26:30 م: Fetching package folder for company: TikTok
+07/09/2026 05:26:30 م: Sucsses: PackageFolder set to: batch_20260907170724
+07/09/2026 05:26:30 م: Sucsses: Fetching resources folder for company: TikTok
+07/09/2026 05:26:30 م: Sucsses: ResourcesFolder set to: batch_20260907170724\9681001007352\resources
+07/09/2026 05:26:30 م: Sucsses: Fetching metadata file path for company: TikTok
+07/09/2026 05:26:30 م: Sucsses: MetadataFile path set to: batch_20260907170724\9681001007352\9681001007352.xml
+07/09/2026 05:26:30 م: Sucsses: Final PackageFolder path: 11291\batch_20260907170724
+07/09/2026 05:26:30 م: Sucsses: Final ResourcesFolder path: 11291\batch_20260907170724\9681001007352\resources
+07/09/2026 05:26:30 م: Sucsses: Retrieved folder paths for package: 11291
+07/09/2026 05:26:30 م: Starting GetCover...
+07/09/2026 05:26:33 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 05:26:33 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 05:26:33 م: Sucsses: Created directory: C:\Pkg_Output\tiktok\11291\batch_20260907170724\9681001007352\resources
+07/09/2026 05:26:33 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 05:26:33 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\11291\batch_20260907170724\9681001007352\resources\9681001007352.jpg
+07/09/2026 05:26:33 م: Start Getting Media For package info: 11291
+07/09/2026 05:26:44 م: Media data generated successfully.
+07/09/2026 05:26:44 م: Success: generated XML for package ID: 11291
+07/09/2026 05:47:41 م: Starting XML generation for package ID: 11301, Filename: TikTok_DDEX_XML_Template.xml, Company: TikTok
+07/09/2026 05:47:41 م: Success: fetched package info for ID: 11301
+07/09/2026 05:47:41 م: Processing group with Album UPC: 9681001007352
+07/09/2026 05:47:41 م: Starting GetFolderPaths...
+07/09/2026 05:47:41 م: Fetching package folder for company: TikTok
+07/09/2026 05:47:41 م: Sucsses: PackageFolder set to: batch_20260907172644
+07/09/2026 05:47:41 م: Sucsses: Fetching resources folder for company: TikTok
+07/09/2026 05:47:41 م: Sucsses: ResourcesFolder set to: batch_20260907172644\9681001007352\resources
+07/09/2026 05:47:41 م: Sucsses: Fetching metadata file path for company: TikTok
+07/09/2026 05:47:41 م: Sucsses: MetadataFile path set to: batch_20260907172644\9681001007352\9681001007352.xml
+07/09/2026 05:47:41 م: Sucsses: Final PackageFolder path: 11301\batch_20260907172644
+07/09/2026 05:47:41 م: Sucsses: Final ResourcesFolder path: 11301\batch_20260907172644\9681001007352\resources
+07/09/2026 05:47:41 م: Sucsses: Retrieved folder paths for package: 11301
+07/09/2026 05:47:41 م: Starting GetCover...
+07/09/2026 05:47:45 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 05:47:45 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 05:47:45 م: Sucsses: Created directory: C:\Pkg_Output\tiktok\11301\batch_20260907172644\9681001007352\resources
+07/09/2026 05:47:45 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+07/09/2026 05:47:45 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\11301\batch_20260907172644\9681001007352\resources\9681001007352.jpg
+07/09/2026 05:47:45 م: Start Getting Media For package info: 11301
+07/09/2026 05:47:52 م: Media data generated successfully.
+07/09/2026 05:47:52 م: Success: generated XML for package ID: 11301

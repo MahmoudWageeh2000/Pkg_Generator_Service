@@ -1,0 +1,260 @@
+05/10/2026 01:50:18 م: Starting XML generation for package ID: 11691, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+05/10/2026 01:50:18 م: Success: fetched package info for ID: 11691
+05/10/2026 01:50:18 م: Processing group with Album UPC: 6221117066220
+05/10/2026 01:50:18 م: Starting GetFolderPaths...
+05/10/2026 01:50:18 م: Fetching package folder for company: Spotify
+05/10/2026 01:50:18 م: Sucsses: PackageFolder set to: 20261005135018992
+05/10/2026 01:50:18 م: Sucsses: Fetching resources folder for company: Spotify
+05/10/2026 01:50:18 م: Sucsses: ResourcesFolder set to: 20261005135018992\6221117066220\resources
+05/10/2026 01:50:18 م: Sucsses: Fetching metadata file path for company: Spotify
+05/10/2026 01:50:18 م: Sucsses: MetadataFile path set to: 20261005135018992\6221117066220\6221117066220.xml
+05/10/2026 01:50:19 م: Sucsses: Final PackageFolder path: 11691_Admin\20261005135018992
+05/10/2026 01:50:19 م: Sucsses: Final ResourcesFolder path: 11691_Admin\20261005135018992\6221117066220\resources
+05/10/2026 01:50:19 م: Sucsses: Retrieved folder paths for package: 11691
+05/10/2026 01:50:19 م: Starting GetCover...
+05/10/2026 01:50:19 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+05/10/2026 01:50:19 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+05/10/2026 01:50:19 م: Sucsses: Created directory: C:\Pkg_Output\spotify\11691_Admin\20261005135018992\6221117066220\resources
+05/10/2026 01:50:19 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+05/10/2026 01:50:19 م: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\11691_Admin\20261005135018992\6221117066220\resources\6221117066220.jpg
+05/10/2026 01:50:19 م: Start Getting Media For package info: 11691
+05/10/2026 01:50:20 م: Media data generated successfully.
+05/10/2026 01:50:21 م: Success: generated XML for package ID: 11691
+05/10/2026 03:03:54 م: Starting XML generation for package ID: 11701, Filename: TikTok_DDEX_XML_Template.xml, Company: TikTok
+05/10/2026 03:03:54 م: Success: fetched package info for ID: 11701
+05/10/2026 03:03:54 م: Processing group with Album UPC: 6221117066220
+05/10/2026 03:03:54 م: Starting GetFolderPaths...
+05/10/2026 03:03:54 م: Fetching package folder for company: TikTok
+05/10/2026 03:03:54 م: Sucsses: PackageFolder set to: batch_20261005150354
+05/10/2026 03:03:54 م: Sucsses: Fetching resources folder for company: TikTok
+05/10/2026 03:03:54 م: Sucsses: ResourcesFolder set to: batch_20261005150354\6221117066220\resources
+05/10/2026 03:03:54 م: Sucsses: Fetching metadata file path for company: TikTok
+05/10/2026 03:03:54 م: Sucsses: MetadataFile path set to: batch_20261005150354\6221117066220\6221117066220.xml
+05/10/2026 03:03:54 م: Sucsses: Final PackageFolder path: 11701_Admin\batch_20261005150354
+05/10/2026 03:03:54 م: Sucsses: Final ResourcesFolder path: 11701_Admin\batch_20261005150354\6221117066220\resources
+05/10/2026 03:03:54 م: Sucsses: Retrieved folder paths for package: 11701
+05/10/2026 03:03:54 م: Starting GetCover...
+05/10/2026 03:03:54 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+05/10/2026 03:03:54 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+05/10/2026 03:03:54 م: Sucsses: Created directory: C:\Pkg_Output\tiktok\11701_Admin\batch_20261005150354\6221117066220\resources
+05/10/2026 03:03:54 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+05/10/2026 03:03:54 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\11701_Admin\batch_20261005150354\6221117066220\resources\6221117066220.jpg
+05/10/2026 03:03:54 م: Start Getting Media For package info: 11701
+05/10/2026 03:03:56 م: Media data generated successfully.
+05/10/2026 03:03:56 م: Success: generated XML for package ID: 11701
+05/10/2026 03:03:56 م: Starting JSON generation for package ID: 11711, Filename: Deezer_Lyrics_JSON_Template.json, Company: Deezer Lyrics
+05/10/2026 03:03:56 م: Success: fetched package info for ID: 11711
+05/10/2026 03:03:56 م: Processing group with Album UPC: 9681001007352
+05/10/2026 03:03:56 م: Starting GetFolderPaths...
+05/10/2026 03:03:56 م: Fetching package folder for company: Deezer Lyrics
+05/10/2026 03:03:56 م: Sucsses: PackageFolder set to: batch_20261005150356
+05/10/2026 03:03:56 م: Sucsses: Fetching resources folder for company: Deezer Lyrics
+05/10/2026 03:03:56 م: Sucsses: ResourcesFolder set to: batch_20261005150356\9681001007352
+05/10/2026 03:03:56 م: Sucsses: Fetching metadata file path for company: Deezer Lyrics
+05/10/2026 03:03:56 م: Sucsses: MetadataFile path set to: batch_20261005150356\9681001007352\9681001007352.json
+05/10/2026 03:03:56 م: Sucsses: Final PackageFolder path: 11711_Admin\batch_20261005150356
+05/10/2026 03:03:56 م: Sucsses: Final ResourcesFolder path: 11711_Admin\batch_20261005150356\9681001007352
+05/10/2026 03:03:56 م: Sucsses: Retrieved folder paths for package: 11711
+05/10/2026 03:03:56 م: Sucsses: Created output directory: C:\Pkg_Output\Deezer Lyrics\11711_Admin\batch_20261005150356\9681001007352
+05/10/2026 03:03:56 م: Success: generated JSON for package ID: 11711
+05/10/2026 03:03:56 م: Starting JSON generation for package ID: 11721, Filename: Deezer_Lyrics_JSON_Template.json, Company: Deezer Lyrics
+05/10/2026 03:03:56 م: Success: fetched package info for ID: 11721
+05/10/2026 03:03:56 م: Processing group with Album UPC: 9681001007352
+05/10/2026 03:03:56 م: Starting GetFolderPaths...
+05/10/2026 03:03:56 م: Fetching package folder for company: Deezer Lyrics
+05/10/2026 03:03:56 م: Sucsses: PackageFolder set to: batch_20261005150356
+05/10/2026 03:03:56 م: Sucsses: Fetching resources folder for company: Deezer Lyrics
+05/10/2026 03:03:56 م: Sucsses: ResourcesFolder set to: batch_20261005150356\9681001007352
+05/10/2026 03:03:56 م: Sucsses: Fetching metadata file path for company: Deezer Lyrics
+05/10/2026 03:03:56 م: Sucsses: MetadataFile path set to: batch_20261005150356\9681001007352\9681001007352.json
+05/10/2026 03:03:56 م: Sucsses: Final PackageFolder path: 11721_Admin\batch_20261005150356
+05/10/2026 03:03:56 م: Sucsses: Final ResourcesFolder path: 11721_Admin\batch_20261005150356\9681001007352
+05/10/2026 03:03:56 م: Sucsses: Retrieved folder paths for package: 11721
+05/10/2026 03:03:56 م: Sucsses: Created output directory: C:\Pkg_Output\Deezer Lyrics\11721_Admin\batch_20261005150356\9681001007352
+05/10/2026 03:03:56 م: Success: generated JSON for package ID: 11721
+05/10/2026 03:40:07 م: Starting JSONL generation for package ID: 11731, Filename: Musixmatch_Template.jsonl, Company: Musixmatch
+05/10/2026 03:40:09 م: Success: fetched package info for ID: 11731
+05/10/2026 03:40:09 م: Processing group with Album UPC: 9681001007352
+05/10/2026 03:40:09 م: Starting GetFolderPaths...
+05/10/2026 03:40:09 م: Fetching package folder for company: Musixmatch
+05/10/2026 03:40:09 م: Sucsses: PackageFolder set to: batch_20261005150356
+05/10/2026 03:40:09 م: Sucsses: Fetching resources folder for company: Musixmatch
+05/10/2026 03:40:09 م: Sucsses: ResourcesFolder set to: batch_20261005150356
+05/10/2026 03:40:09 م: Sucsses: Fetching metadata file path for company: Musixmatch
+05/10/2026 03:40:09 م: Sucsses: MetadataFile path set to: batch_20261005150356\MAZZIKA_20261005150356.jsonl
+05/10/2026 03:40:09 م: Sucsses: Final PackageFolder path: 11731_Admin\batch_20261005150356
+05/10/2026 03:40:09 م: Sucsses: Final ResourcesFolder path: 11731_Admin\batch_20261005150356
+05/10/2026 03:40:09 م: Sucsses: Retrieved folder paths for package: 11731
+05/10/2026 03:40:09 م: Sucsses: Created output directory: C:\Pkg_Output\Musixmatch\11731_Admin\batch_20261005150356
+05/10/2026 03:40:09 م: Success: generated JSONL for package ID: 11731
+05/10/2026 03:47:01 م: PKG ID IS : 11741
+05/10/2026 03:47:01 م: Using Excel template: ..\..\..\Templates\New\Virgo.xltx
+05/10/2026 03:47:01 م: Processing album UPC: 9681001007352
+05/10/2026 03:47:01 م: Starting GetFolderPaths...
+05/10/2026 03:47:01 م: Fetching package folder for company: Digital Virgo-Audio
+05/10/2026 03:47:01 م: Sucsses: PackageFolder set to: 20261005154009
+05/10/2026 03:47:01 م: Sucsses: Fetching resources folder for company: Digital Virgo-Audio
+05/10/2026 03:47:01 م: Sucsses: ResourcesFolder set to: 20261005154009\Tamer Ashour_Esht Maak Hekayat
+05/10/2026 03:47:01 م: Sucsses: Fetching metadata file path for company: Digital Virgo-Audio
+05/10/2026 03:47:01 م: Sucsses: MetadataFile path set to: 20261005154009\metadata.xls
+05/10/2026 03:47:01 م: Sucsses: Final PackageFolder path: 11741_Admin\20261005154009
+05/10/2026 03:47:01 م: Sucsses: Final ResourcesFolder path: 11741_Admin\20261005154009\Tamer Ashour_Esht Maak Hekayat
+05/10/2026 03:47:01 م: Sucsses:Folder paths generated for album 9681001007352.
+05/10/2026 03:47:01 م: Starting GetFolderPaths...
+05/10/2026 03:47:01 م: Fetching package folder for company: Digital Virgo-Audio
+05/10/2026 03:47:01 م: Sucsses: PackageFolder set to: 20261005154009
+05/10/2026 03:47:01 م: Sucsses: Fetching resources folder for company: Digital Virgo-Audio
+05/10/2026 03:47:01 م: Sucsses: ResourcesFolder set to: 20261005154009\Tamer Ashour_Esht Maak Hekayat
+05/10/2026 03:47:01 م: Sucsses: Fetching metadata file path for company: Digital Virgo-Audio
+05/10/2026 03:47:01 م: Sucsses: MetadataFile path set to: 20261005154009\metadata.xls
+05/10/2026 03:47:01 م: Sucsses: Final PackageFolder path: 11741_Admin\20261005154009
+05/10/2026 03:47:01 م: Sucsses: Final ResourcesFolder path: 11741_Admin\20261005154009\Tamer Ashour_Esht Maak Hekayat
+05/10/2026 03:47:01 م: Starting GetCover...
+05/10/2026 03:47:01 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+05/10/2026 03:47:01 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+05/10/2026 03:47:01 م: Sucsses: Created directory: C:\Pkg_Output\digital virgo-audio\11741_Admin\20261005154009\Tamer Ashour_Esht Maak Hekayat
+05/10/2026 03:47:01 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+05/10/2026 03:47:01 م: Sucsses: Copied cover file to: C:\Pkg_Output\digital virgo-audio\11741_Admin\20261005154009\Tamer Ashour_Esht Maak Hekayat\Tamer Ashour_Esht Maak Hekayat.jpg
+05/10/2026 03:47:01 م: Start Getting Media For package info: 11741
+05/10/2026 03:47:02 م: Starting GetCover...
+05/10/2026 03:47:02 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+05/10/2026 03:47:02 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+05/10/2026 03:47:02 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+05/10/2026 03:47:02 م: Sucsses: Copied cover file to: C:\Pkg_Output\digital virgo-audio\11741_Admin\20261005154009\Tamer Ashour_Esht Maak Hekayat\Tamer Ashour_Esht Maak Hekayat.jpg
+05/10/2026 03:47:02 م: Start Getting Media For package info: 11741
+05/10/2026 03:47:03 م: Sucsses:Media path generated for ISRC: EGA019004224
+05/10/2026 03:47:04 م: Sucsses: Filled data for column: Album UPC
+05/10/2026 03:47:04 م: Sucsses: Filled data for column: Album AR
+05/10/2026 03:47:04 م: Sucsses: Filled data for column: Album EN
+05/10/2026 03:47:04 م: Sucsses: Filled data for column: Track ISRC
+05/10/2026 03:47:04 م: Sucsses: Filled data for column: Title AR
+05/10/2026 03:47:04 م: Sucsses: Filled data for column: Short Title AR
+05/10/2026 03:47:04 م: Sucsses: Filled data for column: Title EN
+05/10/2026 03:47:04 م: Sucsses: Filled data for column: Short Title En
+05/10/2026 03:47:04 م: Sucsses: Filled data for column: Singer
+05/10/2026 03:47:04 م: Sucsses: Filled data for column: Composer
+05/10/2026 03:47:04 م: Sucsses: Filled data for column: Author
+05/10/2026 03:47:04 م: Sucsses: Filled data for column: Track number
+05/10/2026 03:47:04 م: Sucsses: Media data generated successfully.
+05/10/2026 03:47:04 م: Sucsses: Excel file saved to: C://Pkg_Output\Digital Virgo-Audio\11741_Admin\20261005154009\metadata.xls
+05/10/2026 03:47:04 م: Sucsses: GenerateExcel completed for Package ID: 11741
+05/10/2026 04:26:50 م: Starting JSON generation for package ID: 11751, Filename: Deezer_Lyrics_JSON_Template.json, Company: Deezer Lyrics
+05/10/2026 04:26:50 م: Success: fetched package info for ID: 11751
+05/10/2026 04:26:50 م: Processing group with Album UPC: 6221117066220
+05/10/2026 04:26:50 م: Starting GetFolderPaths...
+05/10/2026 04:26:50 م: Fetching package folder for company: Deezer Lyrics
+05/10/2026 04:26:50 م: Sucsses: PackageFolder set to: batch_20261005162650
+05/10/2026 04:26:50 م: Sucsses: Fetching resources folder for company: Deezer Lyrics
+05/10/2026 04:26:50 م: Sucsses: ResourcesFolder set to: batch_20261005162650\6221117066220
+05/10/2026 04:26:50 م: Sucsses: Fetching metadata file path for company: Deezer Lyrics
+05/10/2026 04:26:50 م: Sucsses: MetadataFile path set to: batch_20261005162650\6221117066220\6221117066220.json
+05/10/2026 04:26:50 م: Sucsses: Final PackageFolder path: 11751\batch_20261005162650
+05/10/2026 04:26:50 م: Sucsses: Final ResourcesFolder path: 11751\batch_20261005162650\6221117066220
+05/10/2026 04:26:50 م: Sucsses: Retrieved folder paths for package: 11751
+05/10/2026 04:26:50 م: Sucsses: Created output directory: C:\Pkg_Output\Deezer Lyrics\11751\batch_20261005162650\6221117066220
+05/10/2026 04:26:51 م: Success: generated JSON for package ID: 11751
+05/10/2026 05:01:52 م: Starting XML generation for package ID: 14511, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+05/10/2026 05:01:52 م: Success: fetched package info for ID: 14511
+05/10/2026 05:01:52 م: Processing group with Album UPC: 6221117234056
+05/10/2026 05:01:52 م: Starting GetFolderPaths...
+05/10/2026 05:01:52 م: Fetching package folder for company: Spotify
+05/10/2026 05:01:52 م: Sucsses: PackageFolder set to: 20261005170152632
+05/10/2026 05:01:52 م: Sucsses: Fetching resources folder for company: Spotify
+05/10/2026 05:01:52 م: Sucsses: ResourcesFolder set to: 20261005170152632\6221117234056\resources
+05/10/2026 05:01:52 م: Sucsses: Fetching metadata file path for company: Spotify
+05/10/2026 05:01:52 م: Sucsses: MetadataFile path set to: 20261005170152632\6221117234056\6221117234056.xml
+05/10/2026 05:01:52 م: Sucsses: Final PackageFolder path: 14511\20261005170152632
+05/10/2026 05:01:52 م: Sucsses: Final ResourcesFolder path: 14511\20261005170152632\6221117234056\resources
+05/10/2026 05:01:52 م: Sucsses: Retrieved folder paths for package: 14511
+05/10/2026 05:01:52 م: Starting GetCover...
+05/10/2026 05:01:52 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234056.jpg
+05/10/2026 05:01:52 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234056.jpg
+05/10/2026 05:01:52 م: Sucsses: Created directory: C:\Pkg_Output\spotify\14511\20261005170152632\6221117234056\resources
+05/10/2026 05:01:52 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234056.jpg
+05/10/2026 05:01:52 م: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\14511\20261005170152632\6221117234056\resources\6221117234056.jpg
+05/10/2026 05:01:52 م: Start Getting Media For package info: 14511
+05/10/2026 05:01:53 م: Media data generated successfully.
+05/10/2026 05:01:54 م: Success: generated XML for package ID: 14511
+05/10/2026 05:01:54 م: Starting XML generation for package ID: 14521, Filename: Deezer_Lyrics_XML_Template.xml, Company: Deezer Lyrics
+05/10/2026 05:01:54 م: Success: fetched package info for ID: 14521
+05/10/2026 05:01:54 م: Processing group with Album UPC: 6221117230812
+05/10/2026 05:01:54 م: Starting GetFolderPaths...
+05/10/2026 05:01:54 م: Fetching package folder for company: Deezer Lyrics
+05/10/2026 05:01:54 م: Sucsses: PackageFolder set to: batch_20261005170154
+05/10/2026 05:01:54 م: Sucsses: Fetching resources folder for company: Deezer Lyrics
+05/10/2026 05:01:54 م: Sucsses: ResourcesFolder set to: batch_20261005170154\6221117230812
+05/10/2026 05:01:54 م: Sucsses: Fetching metadata file path for company: Deezer Lyrics
+05/10/2026 05:01:54 م: Sucsses: MetadataFile path set to: batch_20261005170154\6221117230812\6221117230812.xml
+05/10/2026 05:01:54 م: Sucsses: Final PackageFolder path: 14521\batch_20261005170154
+05/10/2026 05:01:54 م: Sucsses: Final ResourcesFolder path: 14521\batch_20261005170154\6221117230812
+05/10/2026 05:01:54 م: Sucsses: Retrieved folder paths for package: 14521
+05/10/2026 05:01:54 م: Starting GetCover...
+05/10/2026 05:01:54 م: Error: Provided path is empty. Exiting GetCover.
+05/10/2026 05:01:54 م: Start Getting Media For package info: 14521
+05/10/2026 05:01:54 م: Error fetching package info: The target file C:\Pkg_Output is a directory, not a file.
+05/10/2026 05:01:54 م: Error: processing Excel file: No Media Found
+05/10/2026 05:01:54 م: There is Some errors in The PKG
+05/10/2026 05:02:20 م: Starting XML generation for package ID: 14531, Filename: Deezer_Lyrics_XML_Template.xml, Company: Deezer Lyrics
+05/10/2026 05:02:20 م: Success: fetched package info for ID: 14531
+05/10/2026 05:02:20 م: Processing group with Album UPC: 6221117230812
+05/10/2026 05:02:20 م: Starting GetFolderPaths...
+05/10/2026 05:02:20 م: Fetching package folder for company: Deezer Lyrics
+05/10/2026 05:02:20 م: Sucsses: PackageFolder set to: batch_20261005170154
+05/10/2026 05:02:20 م: Sucsses: Fetching resources folder for company: Deezer Lyrics
+05/10/2026 05:02:20 م: Sucsses: ResourcesFolder set to: batch_20261005170154\6221117230812
+05/10/2026 05:02:20 م: Sucsses: Fetching metadata file path for company: Deezer Lyrics
+05/10/2026 05:02:20 م: Sucsses: MetadataFile path set to: batch_20261005170154\6221117230812\6221117230812.xml
+05/10/2026 05:02:20 م: Sucsses: Final PackageFolder path: 14531\batch_20261005170154
+05/10/2026 05:02:20 م: Sucsses: Final ResourcesFolder path: 14531\batch_20261005170154\6221117230812
+05/10/2026 05:02:20 م: Sucsses: Retrieved folder paths for package: 14531
+05/10/2026 05:02:20 م: Starting GetCover...
+05/10/2026 05:02:20 م: Error: Provided path is empty. Exiting GetCover.
+05/10/2026 05:02:20 م: Start Getting Media For package info: 14531
+05/10/2026 05:02:20 م: Error fetching package info: The target file C:\Pkg_Output is a directory, not a file.
+05/10/2026 05:02:20 م: Error: processing Excel file: No Media Found
+05/10/2026 05:02:20 م: There is Some errors in The PKG
+05/10/2026 05:47:03 م: Starting JSON generation for package ID: 14561, Filename: Deezer_Lyrics_JSON_Template.json, Company: Deezer Lyrics
+05/10/2026 05:47:05 م: Success: fetched package info for ID: 14561
+05/10/2026 05:47:05 م: Processing group with Album UPC: 6221117230812
+05/10/2026 05:47:05 م: Starting GetFolderPaths...
+05/10/2026 05:47:05 م: Fetching package folder for company: Deezer Lyrics
+05/10/2026 05:47:05 م: Sucsses: PackageFolder set to: batch_20261005170220
+05/10/2026 05:47:05 م: Sucsses: Fetching resources folder for company: Deezer Lyrics
+05/10/2026 05:47:05 م: Sucsses: ResourcesFolder set to: batch_20261005170220\6221117230812
+05/10/2026 05:47:05 م: Sucsses: Fetching metadata file path for company: Deezer Lyrics
+05/10/2026 05:47:05 م: Sucsses: MetadataFile path set to: batch_20261005170220\6221117230812\6221117230812.json
+05/10/2026 05:47:05 م: Sucsses: Final PackageFolder path: 14561\batch_20261005170220
+05/10/2026 05:47:05 م: Sucsses: Final ResourcesFolder path: 14561\batch_20261005170220\6221117230812
+05/10/2026 05:47:05 م: Sucsses: Retrieved folder paths for package: 14561
+05/10/2026 05:47:05 م: Sucsses: Created output directory: C:\Pkg_Output\Deezer Lyrics\14561\batch_20261005170220\6221117230812
+05/10/2026 05:47:05 م: Success: generated JSON for package ID: 14561
+05/10/2026 05:49:29 م: Starting JSON generation for package ID: 14571, Filename: Deezer_Lyrics_JSON_Template.json, Company: Deezer Lyrics
+05/10/2026 05:49:29 م: Success: fetched package info for ID: 14571
+05/10/2026 05:49:29 م: Processing group with Album UPC: 6221117230812
+05/10/2026 05:49:29 م: Starting GetFolderPaths...
+05/10/2026 05:49:29 م: Fetching package folder for company: Deezer Lyrics
+05/10/2026 05:49:29 م: Sucsses: PackageFolder set to: batch_20261005174705
+05/10/2026 05:49:29 م: Sucsses: Fetching resources folder for company: Deezer Lyrics
+05/10/2026 05:49:29 م: Sucsses: ResourcesFolder set to: batch_20261005174705\6221117230812
+05/10/2026 05:49:29 م: Sucsses: Fetching metadata file path for company: Deezer Lyrics
+05/10/2026 05:49:29 م: Sucsses: MetadataFile path set to: batch_20261005174705\6221117230812\6221117230812.json
+05/10/2026 05:49:29 م: Sucsses: Final PackageFolder path: 14571\batch_20261005174705
+05/10/2026 05:49:29 م: Sucsses: Final ResourcesFolder path: 14571\batch_20261005174705\6221117230812
+05/10/2026 05:49:29 م: Sucsses: Retrieved folder paths for package: 14571
+05/10/2026 05:49:29 م: Sucsses: Created output directory: C:\Pkg_Output\Deezer Lyrics\14571\batch_20261005174705\6221117230812
+05/10/2026 05:49:29 م: Success: generated JSON for package ID: 14571
+05/10/2026 05:52:06 م: Starting JSON generation for package ID: 14581, Filename: Deezer_Lyrics_JSON_Template.json, Company: Deezer Lyrics
+05/10/2026 05:52:06 م: Success: fetched package info for ID: 14581
+05/10/2026 05:52:06 م: Processing group with Album UPC: 6221117230812
+05/10/2026 05:52:06 م: Starting GetFolderPaths...
+05/10/2026 05:52:06 م: Fetching package folder for company: Deezer Lyrics
+05/10/2026 05:52:06 م: Sucsses: PackageFolder set to: batch_20261005174929
+05/10/2026 05:52:06 م: Sucsses: Fetching resources folder for company: Deezer Lyrics
+05/10/2026 05:52:06 م: Sucsses: ResourcesFolder set to: batch_20261005174929\6221117230812
+05/10/2026 05:52:06 م: Sucsses: Fetching metadata file path for company: Deezer Lyrics
+05/10/2026 05:52:06 م: Sucsses: MetadataFile path set to: batch_20261005174929\6221117230812\6221117230812.json
+05/10/2026 05:52:06 م: Sucsses: Final PackageFolder path: 14581\batch_20261005174929
+05/10/2026 05:52:06 م: Sucsses: Final ResourcesFolder path: 14581\batch_20261005174929\6221117230812
+05/10/2026 05:52:06 م: Sucsses: Retrieved folder paths for package: 14581
+05/10/2026 05:52:06 م: Sucsses: Created output directory: C:\Pkg_Output\Deezer Lyrics\14581\batch_20261005174929\6221117230812
+05/10/2026 05:52:06 م: Success: generated JSON for package ID: 14581

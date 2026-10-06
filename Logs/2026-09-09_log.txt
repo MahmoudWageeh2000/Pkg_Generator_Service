@@ -1,0 +1,288 @@
+09/09/2026 01:20:38 م: Starting XML generation for package ID: 11361, Filename: Deezer_XML_Template.xml, Company: Deezer
+09/09/2026 01:20:38 م: Success: fetched package info for ID: 11361
+09/09/2026 01:20:38 م: Processing group with Album UPC: 9681001007352
+09/09/2026 01:20:38 م: Starting GetFolderPaths...
+09/09/2026 01:20:38 م: Fetching package folder for company: Deezer
+09/09/2026 01:20:38 م: Sucsses: PackageFolder set to: batch_20260909132038
+09/09/2026 01:20:38 م: Sucsses: Fetching resources folder for company: Deezer
+09/09/2026 01:20:38 م: Sucsses: ResourcesFolder set to: batch_20260909132038\9681001007352
+09/09/2026 01:20:38 م: Sucsses: Fetching metadata file path for company: Deezer
+09/09/2026 01:20:38 م: Sucsses: MetadataFile path set to: batch_20260909132038\9681001007352\9681001007352.xml
+09/09/2026 01:20:38 م: Sucsses: Final PackageFolder path: 11361\batch_20260909132038
+09/09/2026 01:20:38 م: Sucsses: Final ResourcesFolder path: 11361\batch_20260909132038\9681001007352
+09/09/2026 01:20:38 م: Sucsses: Retrieved folder paths for package: 11361
+09/09/2026 01:20:38 م: Starting GetCover...
+09/09/2026 01:20:40 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 01:20:40 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 01:20:40 م: Sucsses: Created directory: C:\Pkg_Output\deezer\11361\batch_20260909132038\9681001007352
+09/09/2026 01:20:40 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 01:20:40 م: Sucsses: Copied cover file to: C:\Pkg_Output\deezer\11361\batch_20260909132038\9681001007352\9681001007352.jpg
+09/09/2026 01:20:40 م: Start Getting Media For package info: 11361
+09/09/2026 01:20:48 م: Media data generated successfully.
+09/09/2026 01:20:48 م: Success: generated XML for package ID: 11361
+09/09/2026 02:31:38 م: Starting XML generation for package ID: 11371, Filename: Deezer_XML_Template.xml, Company: Deezer
+09/09/2026 02:31:38 م: Success: fetched package info for ID: 11371
+09/09/2026 02:31:38 م: Processing group with Album UPC: 9681001007352
+09/09/2026 02:31:38 م: Starting GetFolderPaths...
+09/09/2026 02:31:38 م: Fetching package folder for company: Deezer
+09/09/2026 02:31:38 م: Sucsses: PackageFolder set to: batch_20260909132048
+09/09/2026 02:31:38 م: Sucsses: Fetching resources folder for company: Deezer
+09/09/2026 02:31:38 م: Sucsses: ResourcesFolder set to: batch_20260909132048\9681001007352
+09/09/2026 02:31:38 م: Sucsses: Fetching metadata file path for company: Deezer
+09/09/2026 02:31:38 م: Sucsses: MetadataFile path set to: batch_20260909132048\9681001007352\9681001007352.xml
+09/09/2026 02:31:38 م: Sucsses: Final PackageFolder path: 11371\batch_20260909132048
+09/09/2026 02:31:38 م: Sucsses: Final ResourcesFolder path: 11371\batch_20260909132048\9681001007352
+09/09/2026 02:31:38 م: Sucsses: Retrieved folder paths for package: 11371
+09/09/2026 02:31:38 م: Starting GetCover...
+09/09/2026 02:31:40 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 02:31:40 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 02:31:40 م: Sucsses: Created directory: C:\Pkg_Output\deezer\11371\batch_20260909132048\9681001007352
+09/09/2026 02:31:40 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 02:31:40 م: Sucsses: Copied cover file to: C:\Pkg_Output\deezer\11371\batch_20260909132048\9681001007352\9681001007352.jpg
+09/09/2026 02:31:40 م: Start Getting Media For package info: 11371
+09/09/2026 02:31:46 م: Media data generated successfully.
+09/09/2026 02:31:46 م: Success: generated XML for package ID: 11371
+09/09/2026 02:34:55 م: Starting XML generation for package ID: 11381, Filename: Deezer_XML_Template.xml, Company: Deezer
+09/09/2026 02:34:55 م: Success: fetched package info for ID: 11381
+09/09/2026 02:34:55 م: Processing group with Album UPC: 9681001007352
+09/09/2026 02:34:55 م: Starting GetFolderPaths...
+09/09/2026 02:34:55 م: Fetching package folder for company: Deezer
+09/09/2026 02:34:55 م: Sucsses: PackageFolder set to: batch_20260909143146
+09/09/2026 02:34:55 م: Sucsses: Fetching resources folder for company: Deezer
+09/09/2026 02:34:55 م: Sucsses: ResourcesFolder set to: batch_20260909143146\9681001007352
+09/09/2026 02:34:55 م: Sucsses: Fetching metadata file path for company: Deezer
+09/09/2026 02:34:55 م: Sucsses: MetadataFile path set to: batch_20260909143146\9681001007352\9681001007352.xml
+09/09/2026 02:34:55 م: Sucsses: Final PackageFolder path: 11381\batch_20260909143146
+09/09/2026 02:34:55 م: Sucsses: Final ResourcesFolder path: 11381\batch_20260909143146\9681001007352
+09/09/2026 02:34:55 م: Sucsses: Retrieved folder paths for package: 11381
+09/09/2026 02:34:55 م: Starting GetCover...
+09/09/2026 02:34:57 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 02:34:57 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 02:34:57 م: Sucsses: Created directory: C:\Pkg_Output\deezer\11381\batch_20260909143146\9681001007352
+09/09/2026 02:34:57 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 02:34:57 م: Sucsses: Copied cover file to: C:\Pkg_Output\deezer\11381\batch_20260909143146\9681001007352\9681001007352.jpg
+09/09/2026 02:34:57 م: Start Getting Media For package info: 11381
+09/09/2026 02:35:04 م: Media data generated successfully.
+09/09/2026 02:35:04 م: Success: generated XML for package ID: 11381
+09/09/2026 02:58:35 م: Starting XML generation for package ID: 11391, Filename: Deezer_XML_Template.xml, Company: Deezer
+09/09/2026 02:58:35 م: Success: fetched package info for ID: 11391
+09/09/2026 02:58:35 م: Processing group with Album UPC: 9681001007352
+09/09/2026 02:58:36 م: Starting GetFolderPaths...
+09/09/2026 02:58:36 م: Fetching package folder for company: Deezer
+09/09/2026 02:58:36 م: Sucsses: PackageFolder set to: batch_20260909145836
+09/09/2026 02:58:36 م: Sucsses: Fetching resources folder for company: Deezer
+09/09/2026 02:58:36 م: Sucsses: ResourcesFolder set to: batch_20260909145836\9681001007352
+09/09/2026 02:58:36 م: Sucsses: Fetching metadata file path for company: Deezer
+09/09/2026 02:58:36 م: Sucsses: MetadataFile path set to: batch_20260909145836\9681001007352\9681001007352.xml
+09/09/2026 02:58:36 م: Sucsses: Final PackageFolder path: 11391\batch_20260909145836
+09/09/2026 02:58:36 م: Sucsses: Final ResourcesFolder path: 11391\batch_20260909145836\9681001007352
+09/09/2026 02:58:36 م: Sucsses: Retrieved folder paths for package: 11391
+09/09/2026 02:58:36 م: Starting GetCover...
+09/09/2026 02:58:37 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 02:58:37 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 02:58:37 م: Sucsses: Created directory: C:\Pkg_Output\deezer\11391\batch_20260909145836\9681001007352
+09/09/2026 02:58:37 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 02:58:37 م: Sucsses: Copied cover file to: C:\Pkg_Output\deezer\11391\batch_20260909145836\9681001007352\9681001007352.jpg
+09/09/2026 02:58:37 م: Start Getting Media For package info: 11391
+09/09/2026 02:58:42 م: Media data generated successfully.
+09/09/2026 02:58:42 م: Error: generating XML for package: Column composer_test does not belong to table .
+09/09/2026 02:58:42 م: There is Some errors in The PKG
+09/09/2026 03:08:15 م: Starting XML generation for package ID: 11401, Filename: Deezer_XML_Template.xml, Company: Deezer
+09/09/2026 03:08:16 م: Success: fetched package info for ID: 11401
+09/09/2026 03:08:16 م: Processing group with Album UPC: 9681001007352
+09/09/2026 03:08:16 م: Starting GetFolderPaths...
+09/09/2026 03:08:16 م: Fetching package folder for company: Deezer
+09/09/2026 03:08:16 م: Sucsses: PackageFolder set to: batch_20260909150816
+09/09/2026 03:08:16 م: Sucsses: Fetching resources folder for company: Deezer
+09/09/2026 03:08:16 م: Sucsses: ResourcesFolder set to: batch_20260909150816\9681001007352
+09/09/2026 03:08:16 م: Sucsses: Fetching metadata file path for company: Deezer
+09/09/2026 03:08:16 م: Sucsses: MetadataFile path set to: batch_20260909150816\9681001007352\9681001007352.xml
+09/09/2026 03:08:16 م: Sucsses: Final PackageFolder path: 11401\batch_20260909150816
+09/09/2026 03:08:16 م: Sucsses: Final ResourcesFolder path: 11401\batch_20260909150816\9681001007352
+09/09/2026 03:08:16 م: Sucsses: Retrieved folder paths for package: 11401
+09/09/2026 03:08:16 م: Starting GetCover...
+09/09/2026 03:08:18 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 03:08:18 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 03:08:18 م: Sucsses: Created directory: C:\Pkg_Output\deezer\11401\batch_20260909150816\9681001007352
+09/09/2026 03:08:18 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 03:08:18 م: Sucsses: Copied cover file to: C:\Pkg_Output\deezer\11401\batch_20260909150816\9681001007352\9681001007352.jpg
+09/09/2026 03:08:18 م: Start Getting Media For package info: 11401
+09/09/2026 03:08:22 م: Media data generated successfully.
+09/09/2026 03:08:22 م: Error: generating XML for package: Column composer_test does not belong to table .
+09/09/2026 03:08:22 م: There is Some errors in The PKG
+09/09/2026 03:29:33 م: Starting XML generation for package ID: 11411, Filename: Deezer_XML_Template.xml, Company: Deezer
+09/09/2026 03:29:33 م: Success: fetched package info for ID: 11411
+09/09/2026 03:29:33 م: Processing group with Album UPC: 9681001007352
+09/09/2026 03:29:33 م: Starting GetFolderPaths...
+09/09/2026 03:29:33 م: Fetching package folder for company: Deezer
+09/09/2026 03:29:33 م: Sucsses: PackageFolder set to: batch_20260909152933
+09/09/2026 03:29:33 م: Sucsses: Fetching resources folder for company: Deezer
+09/09/2026 03:29:33 م: Sucsses: ResourcesFolder set to: batch_20260909152933\9681001007352
+09/09/2026 03:29:33 م: Sucsses: Fetching metadata file path for company: Deezer
+09/09/2026 03:29:33 م: Sucsses: MetadataFile path set to: batch_20260909152933\9681001007352\9681001007352.xml
+09/09/2026 03:29:33 م: Sucsses: Final PackageFolder path: 11411\batch_20260909152933
+09/09/2026 03:29:33 م: Sucsses: Final ResourcesFolder path: 11411\batch_20260909152933\9681001007352
+09/09/2026 03:29:33 م: Sucsses: Retrieved folder paths for package: 11411
+09/09/2026 03:29:33 م: Starting GetCover...
+09/09/2026 03:29:34 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 03:29:34 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 03:29:35 م: Sucsses: Created directory: C:\Pkg_Output\deezer\11411\batch_20260909152933\9681001007352
+09/09/2026 03:29:35 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 03:29:35 م: Sucsses: Copied cover file to: C:\Pkg_Output\deezer\11411\batch_20260909152933\9681001007352\9681001007352.jpg
+09/09/2026 03:29:35 م: Start Getting Media For package info: 11411
+09/09/2026 03:29:42 م: Media data generated successfully.
+09/09/2026 03:29:42 م: Success: generated XML for package ID: 11411
+09/09/2026 04:18:20 م: Starting XML generation for package ID: 11421, Filename: Deezer_XML_Template.xml, Company: Deezer
+09/09/2026 04:18:20 م: Success: fetched package info for ID: 11421
+09/09/2026 04:18:20 م: Processing group with Album UPC: 9681001007352
+09/09/2026 04:18:20 م: Starting GetFolderPaths...
+09/09/2026 04:18:20 م: Fetching package folder for company: Deezer
+09/09/2026 04:18:20 م: Sucsses: PackageFolder set to: batch_20260909161820
+09/09/2026 04:18:20 م: Sucsses: Fetching resources folder for company: Deezer
+09/09/2026 04:18:20 م: Sucsses: ResourcesFolder set to: batch_20260909161820\9681001007352
+09/09/2026 04:18:20 م: Sucsses: Fetching metadata file path for company: Deezer
+09/09/2026 04:18:20 م: Sucsses: MetadataFile path set to: batch_20260909161820\9681001007352\9681001007352.xml
+09/09/2026 04:18:20 م: Sucsses: Final PackageFolder path: 11421\batch_20260909161820
+09/09/2026 04:18:20 م: Sucsses: Final ResourcesFolder path: 11421\batch_20260909161820\9681001007352
+09/09/2026 04:18:20 م: Sucsses: Retrieved folder paths for package: 11421
+09/09/2026 04:18:20 م: Starting GetCover...
+09/09/2026 04:18:25 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 04:18:25 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 04:18:25 م: Sucsses: Created directory: C:\Pkg_Output\deezer\11421\batch_20260909161820\9681001007352
+09/09/2026 04:18:25 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 04:18:25 م: Sucsses: Copied cover file to: C:\Pkg_Output\deezer\11421\batch_20260909161820\9681001007352\9681001007352.jpg
+09/09/2026 04:18:25 م: Start Getting Media For package info: 11421
+09/09/2026 04:18:38 م: Media data generated successfully.
+09/09/2026 04:18:38 م: Success: generated XML for package ID: 11421
+09/09/2026 04:50:45 م: Starting XML generation for package ID: 11431, Filename: Deezer_XML_Template.xml, Company: Deezer
+09/09/2026 04:50:45 م: Success: fetched package info for ID: 11431
+09/09/2026 04:50:45 م: Processing group with Album UPC: 9681001007352
+09/09/2026 04:50:45 م: Starting GetFolderPaths...
+09/09/2026 04:50:45 م: Fetching package folder for company: Deezer
+09/09/2026 04:50:45 م: Sucsses: PackageFolder set to: batch_20260909165045
+09/09/2026 04:50:45 م: Sucsses: Fetching resources folder for company: Deezer
+09/09/2026 04:50:45 م: Sucsses: ResourcesFolder set to: batch_20260909165045\9681001007352
+09/09/2026 04:50:45 م: Sucsses: Fetching metadata file path for company: Deezer
+09/09/2026 04:50:45 م: Sucsses: MetadataFile path set to: batch_20260909165045\9681001007352\9681001007352.xml
+09/09/2026 04:50:45 م: Sucsses: Final PackageFolder path: 11431\batch_20260909165045
+09/09/2026 04:50:45 م: Sucsses: Final ResourcesFolder path: 11431\batch_20260909165045\9681001007352
+09/09/2026 04:50:45 م: Sucsses: Retrieved folder paths for package: 11431
+09/09/2026 04:50:46 م: Starting GetCover...
+09/09/2026 04:50:48 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 04:50:48 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 04:50:48 م: Sucsses: Created directory: C:\Pkg_Output\deezer\11431\batch_20260909165045\9681001007352
+09/09/2026 04:50:48 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 04:50:48 م: Sucsses: Copied cover file to: C:\Pkg_Output\deezer\11431\batch_20260909165045\9681001007352\9681001007352.jpg
+09/09/2026 04:50:48 م: Start Getting Media For package info: 11431
+09/09/2026 04:50:54 م: Media data generated successfully.
+09/09/2026 04:50:54 م: Success: generated XML for package ID: 11431
+09/09/2026 05:19:56 م: Starting XML generation for package ID: 11441, Filename: Deezer_XML_Template.xml, Company: Deezer
+09/09/2026 05:19:56 م: Success: fetched package info for ID: 11441
+09/09/2026 05:19:56 م: Processing group with Album UPC: 9681001007352
+09/09/2026 05:19:56 م: Starting GetFolderPaths...
+09/09/2026 05:19:56 م: Fetching package folder for company: Deezer
+09/09/2026 05:19:56 م: Sucsses: PackageFolder set to: batch_20260909171956
+09/09/2026 05:19:56 م: Sucsses: Fetching resources folder for company: Deezer
+09/09/2026 05:19:56 م: Sucsses: ResourcesFolder set to: batch_20260909171956\9681001007352
+09/09/2026 05:19:56 م: Sucsses: Fetching metadata file path for company: Deezer
+09/09/2026 05:19:56 م: Sucsses: MetadataFile path set to: batch_20260909171956\9681001007352\9681001007352.xml
+09/09/2026 05:19:56 م: Sucsses: Final PackageFolder path: 11441\batch_20260909171956
+09/09/2026 05:19:56 م: Sucsses: Final ResourcesFolder path: 11441\batch_20260909171956\9681001007352
+09/09/2026 05:19:56 م: Sucsses: Retrieved folder paths for package: 11441
+09/09/2026 05:19:56 م: Starting GetCover...
+09/09/2026 05:19:58 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 05:19:58 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 05:19:58 م: Sucsses: Created directory: C:\Pkg_Output\deezer\11441\batch_20260909171956\9681001007352
+09/09/2026 05:19:59 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 05:19:59 م: Sucsses: Copied cover file to: C:\Pkg_Output\deezer\11441\batch_20260909171956\9681001007352\9681001007352.jpg
+09/09/2026 05:19:59 م: Start Getting Media For package info: 11441
+09/09/2026 05:20:03 م: Media data generated successfully.
+09/09/2026 05:20:03 م: Success: generated XML for package ID: 11441
+09/09/2026 05:40:35 م: Starting XML generation for package ID: 11451, Filename: Deezer_XML_Template.xml, Company: Deezer
+09/09/2026 05:40:35 م: Success: fetched package info for ID: 11451
+09/09/2026 05:40:35 م: Processing group with Album UPC: 9681001007352
+09/09/2026 05:40:35 م: Starting GetFolderPaths...
+09/09/2026 05:40:35 م: Fetching package folder for company: Deezer
+09/09/2026 05:40:35 م: Sucsses: PackageFolder set to: batch_20260909172003
+09/09/2026 05:40:35 م: Sucsses: Fetching resources folder for company: Deezer
+09/09/2026 05:40:35 م: Sucsses: ResourcesFolder set to: batch_20260909172003\9681001007352
+09/09/2026 05:40:35 م: Sucsses: Fetching metadata file path for company: Deezer
+09/09/2026 05:40:35 م: Sucsses: MetadataFile path set to: batch_20260909172003\9681001007352\9681001007352.xml
+09/09/2026 05:40:35 م: Sucsses: Final PackageFolder path: 11451\batch_20260909172003
+09/09/2026 05:40:35 م: Sucsses: Final ResourcesFolder path: 11451\batch_20260909172003\9681001007352
+09/09/2026 05:40:35 م: Sucsses: Retrieved folder paths for package: 11451
+09/09/2026 05:40:35 م: Starting GetCover...
+09/09/2026 05:40:37 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 05:40:37 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 05:40:37 م: Sucsses: Created directory: C:\Pkg_Output\deezer\11451\batch_20260909172003\9681001007352
+09/09/2026 05:40:37 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 05:40:37 م: Sucsses: Copied cover file to: C:\Pkg_Output\deezer\11451\batch_20260909172003\9681001007352\9681001007352.jpg
+09/09/2026 05:40:37 م: Start Getting Media For package info: 11451
+09/09/2026 05:40:41 م: Media data generated successfully.
+09/09/2026 05:40:41 م: Success: generated XML for package ID: 11451
+09/09/2026 05:44:42 م: Starting XML generation for package ID: 11461, Filename: Deezer_XML_Template.xml, Company: Deezer
+09/09/2026 05:44:42 م: Success: fetched package info for ID: 11461
+09/09/2026 05:44:42 م: Processing group with Album UPC: 9681001007352
+09/09/2026 05:44:42 م: Starting GetFolderPaths...
+09/09/2026 05:44:42 م: Fetching package folder for company: Deezer
+09/09/2026 05:44:42 م: Sucsses: PackageFolder set to: batch_20260909174041
+09/09/2026 05:44:42 م: Sucsses: Fetching resources folder for company: Deezer
+09/09/2026 05:44:42 م: Sucsses: ResourcesFolder set to: batch_20260909174041\9681001007352
+09/09/2026 05:44:42 م: Sucsses: Fetching metadata file path for company: Deezer
+09/09/2026 05:44:42 م: Sucsses: MetadataFile path set to: batch_20260909174041\9681001007352\9681001007352.xml
+09/09/2026 05:44:42 م: Sucsses: Final PackageFolder path: 11461\batch_20260909174041
+09/09/2026 05:44:42 م: Sucsses: Final ResourcesFolder path: 11461\batch_20260909174041\9681001007352
+09/09/2026 05:44:42 م: Sucsses: Retrieved folder paths for package: 11461
+09/09/2026 05:44:42 م: Starting GetCover...
+09/09/2026 05:44:44 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 05:44:44 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 05:44:44 م: Sucsses: Created directory: C:\Pkg_Output\deezer\11461\batch_20260909174041\9681001007352
+09/09/2026 05:44:44 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 05:44:44 م: Sucsses: Copied cover file to: C:\Pkg_Output\deezer\11461\batch_20260909174041\9681001007352\9681001007352.jpg
+09/09/2026 05:44:44 م: Start Getting Media For package info: 11461
+09/09/2026 05:44:48 م: Media data generated successfully.
+09/09/2026 05:44:48 م: Success: generated XML for package ID: 11461
+09/09/2026 05:57:08 م: Starting XML generation for package ID: 11471, Filename: Deezer_XML_Template.xml, Company: Deezer
+09/09/2026 05:57:08 م: Success: fetched package info for ID: 11471
+09/09/2026 05:57:08 م: Processing group with Album UPC: 9681001007352
+09/09/2026 05:57:08 م: Starting GetFolderPaths...
+09/09/2026 05:57:08 م: Fetching package folder for company: Deezer
+09/09/2026 05:57:08 م: Sucsses: PackageFolder set to: batch_20260909174448
+09/09/2026 05:57:08 م: Sucsses: Fetching resources folder for company: Deezer
+09/09/2026 05:57:08 م: Sucsses: ResourcesFolder set to: batch_20260909174448\9681001007352
+09/09/2026 05:57:08 م: Sucsses: Fetching metadata file path for company: Deezer
+09/09/2026 05:57:08 م: Sucsses: MetadataFile path set to: batch_20260909174448\9681001007352\9681001007352.xml
+09/09/2026 05:57:08 م: Sucsses: Final PackageFolder path: 11471\batch_20260909174448
+09/09/2026 05:57:08 م: Sucsses: Final ResourcesFolder path: 11471\batch_20260909174448\9681001007352
+09/09/2026 05:57:08 م: Sucsses: Retrieved folder paths for package: 11471
+09/09/2026 05:57:08 م: Starting GetCover...
+09/09/2026 05:57:11 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 05:57:11 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 05:57:11 م: Sucsses: Created directory: C:\Pkg_Output\deezer\11471\batch_20260909174448\9681001007352
+09/09/2026 05:57:11 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 05:57:11 م: Sucsses: Copied cover file to: C:\Pkg_Output\deezer\11471\batch_20260909174448\9681001007352\9681001007352.jpg
+09/09/2026 05:57:11 م: Start Getting Media For package info: 11471
+09/09/2026 05:57:15 م: Media data generated successfully.
+09/09/2026 05:57:15 م: Success: generated XML for package ID: 11471
+09/09/2026 06:06:51 م: Starting XML generation for package ID: 11481, Filename: Deezer_XML_Template.xml, Company: Deezer
+09/09/2026 06:06:51 م: Success: fetched package info for ID: 11481
+09/09/2026 06:06:51 م: Processing group with Album UPC: 9681001007352
+09/09/2026 06:06:51 م: Starting GetFolderPaths...
+09/09/2026 06:06:51 م: Fetching package folder for company: Deezer
+09/09/2026 06:06:51 م: Sucsses: PackageFolder set to: batch_20260909175716
+09/09/2026 06:06:51 م: Sucsses: Fetching resources folder for company: Deezer
+09/09/2026 06:06:51 م: Sucsses: ResourcesFolder set to: batch_20260909175716\9681001007352
+09/09/2026 06:06:51 م: Sucsses: Fetching metadata file path for company: Deezer
+09/09/2026 06:06:51 م: Sucsses: MetadataFile path set to: batch_20260909175716\9681001007352\9681001007352.xml
+09/09/2026 06:06:51 م: Sucsses: Final PackageFolder path: 11481\batch_20260909175716
+09/09/2026 06:06:51 م: Sucsses: Final ResourcesFolder path: 11481\batch_20260909175716\9681001007352
+09/09/2026 06:06:51 م: Sucsses: Retrieved folder paths for package: 11481
+09/09/2026 06:06:52 م: Starting GetCover...
+09/09/2026 06:06:54 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 06:06:54 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 06:06:54 م: Sucsses: Created directory: C:\Pkg_Output\deezer\11481\batch_20260909175716\9681001007352
+09/09/2026 06:06:54 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+09/09/2026 06:06:54 م: Sucsses: Copied cover file to: C:\Pkg_Output\deezer\11481\batch_20260909175716\9681001007352\9681001007352.jpg
+09/09/2026 06:06:54 م: Start Getting Media For package info: 11481
+09/09/2026 06:06:58 م: Media data generated successfully.
+09/09/2026 06:06:58 م: Success: generated XML for package ID: 11481

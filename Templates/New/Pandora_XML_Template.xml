@@ -6,7 +6,7 @@
 		<MessageSender>
 			<PartyId>PADPIDA20131118019</PartyId>
 			<PartyName>
-				<FullName>Mazzika Group</FullName>
+				<FullName>Global</FullName>
 			</PartyName>
 		</MessageSender>
     <MessageRecipient>
@@ -30,20 +30,21 @@
 			<ReferenceTitle>
 				<TitleText>{{ asset.track_name }}</TitleText>
 			</ReferenceTitle>
-			<Duration>PT{{ asset.track_duration }}</Duration>
+			{{~ d = asset.track_duration | string.replace "H" ":" | string.replace "M" ":" | string.replace "S" "" | string.split ":" ~}}
+			<Duration>PT{{ d[0] | string.to_int }}H{{ d[1] | string.to_int }}M{{ d[2] | string.to_int }}S</Duration>
 			<SoundRecordingDetailsByTerritory>
-				{{~ for country_code in album.country_iso_code_list_string ~}}
-				<TerritoryCode>{{ country_code }}</TerritoryCode>
-				{{~ end ~}}
+				<TerritoryCode>Worldwide</TerritoryCode>
 				<Title TitleType="DisplayTitle">
 					<TitleText>{{ asset.track_name }}</TitleText>
 				</Title>
+				{{~ for track_main_artist in asset.track_artist_list_string ~}}
 				<DisplayArtist>
 					<PartyName>
-						<FullName>{{ asset.track_artist }}</FullName>
+						<FullName>{{ track_main_artist.name }}</FullName>
 					</PartyName>
 					<ArtistRole>MainArtist</ArtistRole>
 				</DisplayArtist>
+				{{~ end ~}}
 				<LabelName>{{ asset.label_name }}</LabelName>
 				<PLine>
 					<Year>{{ asset.release_year}}</Year>
@@ -58,8 +59,7 @@
 					<AudioCodecType>FLAC</AudioCodecType>
 					<SamplingRate UnitOfMeasure="kHz">44100</SamplingRate>
 					<File>
-						<FileName>
-							{{ asset.album_ubc }}_{{ asset.track_num.size < 2 ? "00" + asset.track_num : asset.track_num.size < 3 ? "0" + asset.track_num : asset.track_num }}.flac</FileName>
+						<FileName>{{ asset.album_ubc }}_{{ if (asset.track_num | string.to_int) < 10 }}0{{ end }}{{ asset.track_num }}.flac</FileName>
 						<FilePath>resources/</FilePath>
 						<HashSum>
 							<HashSum>{{ asset.HASH_SUM }}</HashSum>
@@ -77,9 +77,7 @@
 			</ImageId>
 			<ResourceReference>A{{ album.image_num }}</ResourceReference>
 			<ImageDetailsByTerritory>
-				{{~ for country_code in album.country_iso_code_list_string ~}}
-				<TerritoryCode>{{ country_code }}</TerritoryCode>
-				{{~ end ~}}
+				<TerritoryCode>Worldwide</TerritoryCode>
 				<TechnicalImageDetails>
 					<TechnicalResourceDetailsReference>T{{ album.image_num }}</TechnicalResourceDetailsReference>
 					<ImageCodecType>JPEG</ImageCodecType>
@@ -101,7 +99,7 @@
 		<Release>
 			<ReleaseId>
 				<ICPN IsEan="false">{{ album.album_ubc }}</ICPN>
-				<ProprietaryId Namespace="DPID:PADPIDA20131118019">GGL_UR_ID:{{ album.album_ubc }}</ProprietaryId>
+				<ProprietaryId Namespace="DPID:PADPIDA20131118019">GGL_UR_ID:{{ album.album_ubc }}1</ProprietaryId>
 			</ReleaseId>
 			<ReleaseReference>R0</ReleaseReference>
 			<ReferenceTitle>
@@ -115,19 +113,19 @@
 			</ReleaseResourceReferenceList>
 			<ReleaseType>{{ album.release_type }}</ReleaseType>
 			<ReleaseDetailsByTerritory>
-				{{~ for country_code in album.country_iso_code_list_string ~}}
-				<TerritoryCode>{{ country_code }}</TerritoryCode>
-				{{~ end ~}}
+				<TerritoryCode>Worldwide</TerritoryCode>
 				<LabelName>{{ album.label_name }}</LabelName>
 				<Title TitleType="DisplayTitle">
 					<TitleText>{{ album.album_name }}</TitleText>
 				</Title>
+				{{~ for album_main_artist in album.album_artist_list_string ~}}
 				<DisplayArtist>
 					<PartyName>
-						<FullName>{{ album.album_artist }}</FullName>
+						<FullName>{{ album_main_artist.name }}</FullName>
 					</PartyName>
 					<ArtistRole>MainArtist</ArtistRole>
 				</DisplayArtist>
+				{{~ end ~}}
 				<ParentalWarningType>NotExplicit</ParentalWarningType>
 				<ResourceGroup>
 					<ResourceGroup>
@@ -170,19 +168,19 @@
 			</ReleaseResourceReferenceList>
 			<ReleaseType>TrackRelease</ReleaseType>
 			<ReleaseDetailsByTerritory>
-				{{~ for country_code in album.country_iso_code_list_string ~}}
-				<TerritoryCode>{{ country_code }}</TerritoryCode>
-				{{~ end ~}}
+				<TerritoryCode>Worldwide</TerritoryCode>
 				<LabelName>{{ asset.label_name }}</LabelName>
 				<Title TitleType="DisplayTitle">
 					<TitleText>{{ asset.track_name }}</TitleText>
 				</Title>
+				{{~ for track_main_artist in asset.track_artist_list_string ~}}
 				<DisplayArtist>
 					<PartyName>
-						<FullName>{{ asset.track_artist }}</FullName>
+						<FullName>{{ track_main_artist.name }}</FullName>
 					</PartyName>
 					<ArtistRole>MainArtist</ArtistRole>
 				</DisplayArtist>
+				{{~ end ~}}
 			</ReleaseDetailsByTerritory>
 			<PLine>
 				<Year>{{ asset.release_year }}</Year>
@@ -213,7 +211,6 @@
 			</Deal>
 		</ReleaseDeal>
 		{{~ for asset in album.asset_list ~}}
-		{{~ for country_code in asset.country_iso_code_list_string ~}}
 		<ReleaseDeal>
 			<DealReleaseReference>R{{asset.track_num}}</DealReleaseReference>
 			<Deal>
@@ -225,14 +222,15 @@
             <UseType>NonInteractiveStream</UseType>
             <UseType>OnDemandStream</UseType>
           </Usage>
-          <TerritoryCode>{{ country_code }}</TerritoryCode>
+		  {{~ for country_code in asset.country_iso_code_list_string ~}}
+			<TerritoryCode>{{ country_code }}</TerritoryCode>
+		  {{~ end ~}}
           <ValidityPeriod>
             <StartDate>{{asset.start_date}}</StartDate>
           </ValidityPeriod>
         </DealTerms>
 			</Deal>
 		</ReleaseDeal>
-		{{~ end ~}}
 		{{~ end ~}}
 	</DealList>
 </ernm:NewReleaseMessage>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <configuration>
   <database>
-    <connectionString>Data Source=db.mazzikatv.com;Initial Catalog=DPackaging;User ID=cms;Password=D@cms2015;Encrypt=True;TrustServerCertificate=True;</connectionString>
+	  <connectionString>Data Source=10.1.1.30;Initial Catalog=DPackaging;User ID=pkg;Password=D@S#Pkg2026;Encrypt=True;TrustServerCertificate=True;</connectionString>
   </database>
   <network>
-	  <department_num>1</department_num>
+	  <department_num>0</department_num>
     <dirction>C</dirction>
   </network> 
 </configuration>

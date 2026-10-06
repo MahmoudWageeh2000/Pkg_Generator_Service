@@ -126,7 +126,7 @@
 				  <ArtistRole>MainArtist</ArtistRole>
 			  </DisplayArtist>
 			  {{~ end ~}}
-			  {{ for track_featured_artist in album.track_featured_artist_list_string }}
+			  {{~ for track_featured_artist in album.track_featured_artist_list_string ~}}
 			  <DisplayArtist>
 				  <PartyName>
 					  <FullName>{{ track_featured_artist.name }}</FullName>
@@ -195,13 +195,37 @@
 				  <ArtistRole>MainArtist</ArtistRole>
 			  </DisplayArtist>
 			  {{~ end ~}}
-			  {{ for track_featured_artist in asset.track_featured_artist_list_string }}
+			  {{~ for track_featured_artist in asset.track_featured_artist_list_string ~}}
 			  <DisplayArtist>
 				  <PartyName>
 					  <FullName>{{ track_featured_artist.name  }}</FullName>
 				  </PartyName>
 				  <ArtistRole>MainArtist</ArtistRole>
 			  </DisplayArtist>
+			  {{~ end ~}}
+			  {{~ for comp in asset.composer_list_string ~}}
+			  <IndirectResourceContributor>
+				  <PartyName>
+					  <FullName>{{ comp | string.strip }}</FullName>
+				  </PartyName>
+				  <IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+			  </IndirectResourceContributor>
+			  {{~ end ~}}
+			  {{~ for lyr in asset.lyrics_list_string ~}}
+			  <IndirectResourceContributor>
+				  <PartyName>
+					  <FullName>{{ lyr | string.strip }}</FullName>
+				  </PartyName>
+				  <IndirectResourceContributorRole>Lyricist</IndirectResourceContributorRole>
+			  </IndirectResourceContributor>
+			  {{~ end ~}}
+			  {{~ for arr in asset.arrenger_list_string ~}}
+			  <IndirectResourceContributor>
+				  <PartyName>
+					  <FullName>{{ arr | string.strip }}</FullName>
+				  </PartyName>
+				  <IndirectResourceContributorRole>Producer</IndirectResourceContributorRole>
+			  </IndirectResourceContributor>
 			  {{~ end ~}}
 			  <ParentalWarningType>NotExplicit</ParentalWarningType>
         <Genre>

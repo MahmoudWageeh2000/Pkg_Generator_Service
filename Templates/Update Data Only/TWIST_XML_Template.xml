@@ -6,7 +6,7 @@
 		<MessageSender>
 			<PartyId>PADPIDA20131118019</PartyId>
 			<PartyName>
-				<FullName>Digital Sound</FullName>
+				<FullName>Global</FullName>
 			</PartyName>
 		</MessageSender>
 		<MessageRecipient>
@@ -41,7 +41,7 @@
 					<TitleText>{{ asset.track_name }}</TitleText>
 				</Title>
 				{{~ for track_artist in asset.track_artist_list_string ~}}
-				<DisplayArtist >
+				<DisplayArtist>
 					<PartyName>
 						<FullName>{{ track_artist.name }}</FullName>
 					</PartyName>
@@ -80,7 +80,7 @@
 					<IndirectResourceContributorRole>Arranger</IndirectResourceContributorRole>
 				</IndirectResourceContributor>
 				{{~ end ~}}
-				{{~ for track_producer in asset.arrenger_list_string ~}}
+				{{~ for track_producer in asset.producer_list_string ~}}
 				<IndirectResourceContributor>
 					<PartyName>
 						<FullName>{{ track_producer }}</FullName>
@@ -88,7 +88,7 @@
 					<IndirectResourceContributorRole>Producer</IndirectResourceContributorRole>
 				</IndirectResourceContributor>
 				{{~ end ~}}
-				<LabelName>Digital Sound</LabelName>
+				<LabelName>{{ asset.label_name }}</LabelName>
 				<PLine>
 					<Year>{{ asset.release_year}}</Year>
 					<PLineText>{{ asset.release_year}} {{ asset.label_name }}</PLineText>
@@ -141,7 +141,7 @@
 					<ArtistRole>FeaturedArtist</ArtistRole>
 				</DisplayArtist>
 				{{~ end ~}}
-				{{~ for track_producer in album.arrenger_list_string ~}}
+				{{~ for track_producer in album.producer_list_string ~}}
 				<IndirectResourceContributor>
 					<PartyName>
 						<FullName>{{ track_producer }}</FullName>
@@ -149,7 +149,7 @@
 					<IndirectResourceContributorRole>Producer</IndirectResourceContributorRole>
 				</IndirectResourceContributor>
 				{{~ end ~}}
-				{{~ for track_remixer in album.composer_list_string ~}}
+				{{~ for track_remixer in album.remixer_list_string ~}}
 				<IndirectResourceContributor>
 					<PartyName>
 						<FullName>{{ track_remixer }}</FullName>
@@ -184,12 +184,12 @@
 				<CLineText>{{ album.release_year }} {{ album.label_name }}</CLineText>
 			</CLine>
 		</Release>
-		{{~for asset in asset_list ~}}
+		{{~ for asset in album.asset_list ~}}
 		<Release>
 			<ReleaseId>
 				<ISRC>{{asset.asset_isrc}}</ISRC>
 			</ReleaseId>
-			<ReleaseReference>R{{asset.tract_num}}</ReleaseReference>
+			<ReleaseReference>R{{asset.track_num}}</ReleaseReference>
 			<ReferenceTitle>
 				<TitleText>{{asset.track_name}}</TitleText>
 			</ReferenceTitle>
@@ -202,7 +202,7 @@
 				<TerritoryCode>{{ country_code }}</TerritoryCode>
 				{{~ end ~}}
 				<DisplayArtistName>{{asset.track_artist}}</DisplayArtistName>
-				<LabelName>{{asset.label_anme}}</LabelName>
+				<LabelName>{{asset.label_name}}</LabelName>
 				<Title TitleType="DisplayTitle">
 					<TitleText>{{asset.track_name}}</TitleText>
 				</Title>
@@ -246,7 +246,7 @@
 					<IndirectResourceContributorRole>Arranger</IndirectResourceContributorRole>
 				</IndirectResourceContributor>
 				{{~ end ~}}
-				{{~ for track_producer in asset.arrenger_list_string ~}}
+				{{~ for track_producer in asset.producer_list_string ~}}
 				<IndirectResourceContributor>
 					<PartyName>
 						<FullName>{{ track_producer }}</FullName>
@@ -281,7 +281,7 @@
 					</Usage>
 					<TerritoryCode>{{country_code}}</TerritoryCode>
 					<ValidityPeriod>
-						<StartDateTime>{{album.start_date}}</StartDateTime>
+						<StartDateTime>{{ album.start_date }}T{{ album.start_time }}Z</StartDateTime>
 					</ValidityPeriod>
 				</DealTerms>
 			</Deal>
@@ -293,7 +293,7 @@
 					</Usage>
 					<TerritoryCode>{{country_code}}</TerritoryCode>
 					<ValidityPeriod>
-						<StartDateTime>{{album.start_date}}</StartDateTime>
+						<StartDateTime>{{ album.start_date }}T{{ album.start_time }}Z</StartDateTime>
 					</ValidityPeriod>
 				</DealTerms>
 			</Deal>
@@ -312,7 +312,7 @@
 					</Usage>
 					<TerritoryCode>{{ country_code }}</TerritoryCode>
 					<ValidityPeriod>
-						<StartDateTime>{{asset.start_date}}</StartDateTime>
+						<StartDateTime>{{ asset.start_date }}T{{ asset.start_time }}Z</StartDateTime>
 					</ValidityPeriod>
 				</DealTerms>
 			</Deal>
@@ -324,7 +324,7 @@
 					</Usage>
 					<TerritoryCode>{{ country_code }}</TerritoryCode>
 					<ValidityPeriod>
-						<StartDateTime>{{asset.start_date}}</StartDateTime>
+						<StartDateTime>{{ asset.start_date }}T{{ asset.start_time }}Z</StartDateTime>
 					</ValidityPeriod>
 				</DealTerms>
 			</Deal>

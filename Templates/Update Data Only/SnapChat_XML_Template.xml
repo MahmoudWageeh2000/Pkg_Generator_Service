@@ -7,9 +7,9 @@
 		<MessageThreadId>{{ album.album_ubc }}</MessageThreadId>
 		<MessageId>{{ album.album_ubc }}</MessageId>
 		<MessageSender>
-			<PartyId>PADPIDA20131118019</PartyId>
+			<PartyId>PADPIDA2024121603C</PartyId>
 			<PartyName>
-				<FullName>Mazzika Group</FullName>
+				<FullName>Global Sound</FullName>
 			</PartyName>
 		</MessageSender>
 		<MessageRecipient>
@@ -29,19 +29,21 @@
 			<SoundRecordingId>
 				<ISRC>{{ asset.asset_isrc }}</ISRC>
 			</SoundRecordingId>
-			<ResourceReference>A{{ asset.asset_isrc }}</ResourceReference>
+			<ResourceReference>A{{ asset.track_num }}</ResourceReference>
 			<ReferenceTitle>
-				<TitleText>{{ asset.track_name }}({{ asset.track_name_a }})</TitleText>
+				<TitleText>{{ asset.track_name }} ({{ asset.track_name_a }})</TitleText>
 			</ReferenceTitle>
 			<LanguageOfPerformance>ar</LanguageOfPerformance>
-			<Duration>{{ asset.track_duration }}</Duration>
+			<Duration>PT{{ asset.track_duration }}</Duration>
 			<SoundRecordingDetailsByTerritory>
-				<TerritoryCode>Worldwide</TerritoryCode>
+				{{~ for country_code in asset.country_iso_code_list_string ~}}
+				<TerritoryCode>{{ country_code }}</TerritoryCode>
+				{{~ end ~}}
 				<Title TitleType="FormalTitle">
-					<TitleText>{{ asset.track_name }}({{ asset.track_name_a }})</TitleText>
+					<TitleText>{{ asset.track_name }} ({{ asset.track_name_a }})</TitleText>
 				</Title>
 				<Title TitleType="DisplayTitle">
-					<TitleText>{{ asset.track_name }}({{ asset.track_name_a }})</TitleText>
+					<TitleText>{{ asset.track_name }} ({{ asset.track_name_a }})</TitleText>
 				</Title>
 				<DisplayArtist>
 					<PartyName>
@@ -52,7 +54,7 @@
 				{{~ for track_featured_artist in asset.track_featured_artist_list_string ~}}
 				<DisplayArtist>
 					<PartyName>
-						<FullName>{{ track_featured_artist }} ({{ track_featured_artist_a }})</FullName>
+						<FullName>{{ track_featured_artist.name }} ({{ track_featured_artist.name_ar }})</FullName>
 					</PartyName>
 					<ArtistRole>MainArtist</ArtistRole>
 				</DisplayArtist>
@@ -60,7 +62,7 @@
 				<LabelName>{{asset.label_name}}</LabelName>
 				<RightsController>
 					<PartyName>
-						<FullName>Mazzika Group</FullName>
+						<FullName>Global Sound</FullName>
 					</PartyName>
 					<RightsControllerRole>RightsController</RightsControllerRole>
 					<RightSharePercentage>100.00</RightSharePercentage>
@@ -68,7 +70,7 @@
 				<OriginalResourceReleaseDate>{{ asset.release_date}}</OriginalResourceReleaseDate>
 				<PLine>
 					<Year>{{ asset.release_year}}</Year>
-					<PLineText>{{ asset.release_year}}{{asset.label_name}}</PLineText>
+					<PLineText>{{ asset.release_year}} {{asset.label_name}}</PLineText>
 				</PLine>
 				<Genre>
 					<GenreText>{{ asset.track_genre}}</GenreText>
@@ -84,7 +86,7 @@
 			</ReleaseId>
 			<ReleaseReference>R0</ReleaseReference>
 			<ReferenceTitle>
-				<TitleText>{{ asset.track_name }}({{ asset.track_name_a }})</TitleText>
+				<TitleText>{{ album.album_name }} ({{ album.album_name_a }})</TitleText>
 			</ReferenceTitle>
 			<ReleaseResourceReferenceList>
 				{{~for resource_group_content_item in album.asset_list~}}
@@ -99,21 +101,21 @@
 				<DisplayArtistName>{{ album.album_artist }} ({{ album.album_artist_a }})</DisplayArtistName>
 				<LabelName>{{ album.label_name }}</LabelName>
 				<Title TitleType="FormalTitle">
-					<TitleText>{{ asset.track_name }}({{ asset.track_name_a }})</TitleText>
+					<TitleText>{{ album.album_name }} ({{ album.album_name_a }})</TitleText>
 				</Title>
 				<Title TitleType="DisplayTitle">
-					<TitleText>{{ asset.track_name }}({{ asset.track_name_a }})</TitleText>
+					<TitleText>{{ album.album_name }} ({{ album.album_name_a }})</TitleText>
 				</Title>
 				<DisplayArtist>
-					<PartyName>
+					<PartyName LanguageAndScriptCode="en">
 						<FullName>{{ album.album_artist }} ({{ album.album_artist_a }})</FullName>
 					</PartyName>
 					<ArtistRole>MainArtist</ArtistRole>
 				</DisplayArtist>
-				{{~ for track_featured_artist in album.track_featured_artist_list_string ~}}
+				{{~ for album_featured_artist in album.album_featured_artist_list_string ~}}
 				<DisplayArtist>
 					<PartyName>
-						<FullName>{{ track_featured_artist.name }} ({{ track_featured_artist.name_ar }})</FullName>
+						<FullName>{{ album_featured_artist.name }} ({{ album_featured_artist.name_ar }})</FullName>
 					</PartyName>
 					<ArtistRole>MainArtist</ArtistRole>
 				</DisplayArtist>
@@ -137,22 +139,22 @@
 				<OriginalReleaseDate>{{ album.release_date }}</OriginalReleaseDate>
 			</ReleaseDetailsByTerritory>
 			<PLine>
-				<Year>{{ album.release_date }}</Year>
-				<PLineText>{{ album.release_date }} {{ album.label_name }}</PLineText>
+				<Year>{{ album.release_year }}</Year>
+				<PLineText>{{ album.release_year }} {{ album.label_name }}</PLineText>
 			</PLine>
 			<CLine>
 				<Year>{{ album.release_year }}</Year>
-				<CLineText>{{ album.release_date }} {{ album.label_name }}</CLineText>
+				<CLineText>{{ album.release_year }} {{ album.label_name }}</CLineText>
 			</CLine>
 		</Release>
-		#LOOP_RELEASE#
+		{{~ for asset in album.asset_list ~}}
 		<Release>
 			<ReleaseId>
 				<ISRC>{{asset.asset_isrc}}</ISRC>
 			</ReleaseId>
 			<ReleaseReference>R{{asset.track_num}}</ReleaseReference>
 			<ReferenceTitle>
-				<TitleText>{{ asset.track_name }}({{ asset.track_name_a }})</TitleText>
+				<TitleText>{{ asset.track_name }} ({{ asset.track_name_a }})</TitleText>
 			</ReferenceTitle>
 			<ReleaseResourceReferenceList>
 				<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A{{asset.track_num}}</ReleaseResourceReference>
@@ -162,16 +164,16 @@
 				{{~ for country_code in album.country_iso_code_list_string ~}}
 				<TerritoryCode>{{ country_code }}</TerritoryCode>
 				{{~ end ~}}
-				<DisplayArtistName>{ asset.track_artist }} ({{ asset.track_artist_a }})</DisplayArtistName>
+				<DisplayArtistName>{{ asset.track_artist }} ({{ asset.track_artist_a }})</DisplayArtistName>
 				<LabelName>{{ asset.label_name }}</LabelName>
 				<Title TitleType="FormalTitle">
-					<TitleText>{{ asset.track_name }}({{ asset.track_name_a }})</TitleText>
+					<TitleText>{{ asset.track_name }} ({{ asset.track_name_a }})</TitleText>
 				</Title>
 				<Title TitleType="DisplayTitle">
-					<TitleText>{{ asset.track_name }}({{ asset.track_name_a }})</TitleText>
+					<TitleText>{{ asset.track_name }} ({{ asset.track_name_a }})</TitleText>
 				</Title>
 				<DisplayArtist>
-					<PartyName>
+					<PartyName LanguageAndScriptCode="en">
 						<FullName>{{ asset.track_artist }} ({{ asset.track_artist_a }})</FullName>
 					</PartyName>
 					<ArtistRole>MainArtist</ArtistRole>
@@ -179,7 +181,7 @@
 				{{~ for track_featured_artist in asset.track_featured_artist_list_string ~}}
 				<DisplayArtist>
 					<PartyName>
-						<FullName>{{ track_featured_artist }} ({{ track_featured_artist_a }})</FullName>
+						<FullName>{{ track_featured_artist.name }} ({{ track_featured_artist.name_ar }})</FullName>
 					</PartyName>
 					<ArtistRole>MainArtist</ArtistRole>
 				</DisplayArtist>
@@ -192,11 +194,11 @@
 			</ReleaseDetailsByTerritory>
 			<PLine>
 				<Year>{{ asset.release_year}}</Year>
-				<PLineText>{{ asset.release_year}}{{ asset.label_name}}</PLineText>
+				<PLineText>{{ asset.release_year}} {{ asset.label_name}}</PLineText>
 			</PLine>
 			<CLine>
 				<Year>{{ asset.release_year}}</Year>
-				<CLineText>{{ asset.release_year}}{{ asset.label_name}}</CLineText>
+				<CLineText>{{ asset.release_year}} {{ asset.label_name}}</CLineText>
 			</CLine>
 		</Release>
 		{{~ end ~}}

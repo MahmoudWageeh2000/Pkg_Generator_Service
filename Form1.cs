@@ -51,7 +51,15 @@ namespace Package_Generator_Service
         private bool CreateExl = true;
 
         private string Full_creatation_date, PackageFolder, ResourcesFolder, MetadataFile, FinalFolder, mediapath, temppackagefolder = "1", BatchFolder, packagesFolderwithoutID;
-
+        // ---- Update 5/10/2026 output_file_path : START ----
+        ///// <summary>
+        ///// Output folder name per pkg id - "11201_momen" instead of "11201".
+        ///// Filled in Getpkgs from the row the package came from, so no extra query, and keyed by
+        ///// id rather than held in a single field: Generate_xml is async void, so the loop can have
+        ///// a second package in flight before the first one is done.
+        ///// </summary>
+        //private readonly Dictionary<string, string> PkgFolderNames = new Dictionary<string, string>();
+        // ---- Update 5/10/2026 output_file_path : END ----
         static string logFolderPath = Path.Combine("..\\..\\..\\", "Logs");
 
         string logFilePath = Path.Combine(logFolderPath, $"{DateTime.Now:yyyy-MM-dd}_log.txt");
@@ -178,7 +186,7 @@ namespace Package_Generator_Service
 
         public async void Resetprogress()
         {
-            await Task.Delay(2000);
+            await Task.Delay(1000);
             progressBar1.Value = 0;
             progressBar1.Refresh();
             // Pause for 2 seconds
@@ -199,7 +207,7 @@ namespace Package_Generator_Service
         }
         public async void resetlabel()
         {
-            await Task.Delay(2000);
+            await Task.Delay(1000);
             label2.Text = "";
             label2.Refresh();
         }
@@ -247,23 +255,45 @@ namespace Package_Generator_Service
             string selectQuery = $"SELECT * FROM packages where status = 0 and department_num = '{department_num}' ";
             dataTable = db.ExecuteQuery(selectQuery);
 
-            System.Threading.Thread.Sleep(3000);
-
-
-            tracksize.Clear();
-            assetHashes.Clear();
-            imageSize = 0;
+            System.Threading.Thread.Sleep(1500);
 
             foreach (DataRow row in dataTable.Rows)
             {
+                // Each package is one vendor and owns its own hashes and sizes. These four lists
+                // are form-level and were only ever appended to, so the second vendor for an album
+                // found the first vendor's entry first - the lookups match on ISRC alone and take
+                // whatever comes back first. Pandora (14011) shipped Snapchat's FLAC hash this way,
+                // 21 seconds apart in the same MultiVendors run. Clearing at the start of the
+                // package, not the end, also covers a package that throws before it finishes.
+                assetHashes.Clear();
+                CoverHashes.Clear();
+                XMLHASHES.Clear();
+                tracksize.Clear();
+
                 string Deactive_PKGS = "SELECT * FROM packages where status = 0";
                 string PkgId = row["pkg_id"].ToString();
+
+                // ---- Update 5/10/2026 output_file_path : START ----
+                //// packages.user_id is the portal login name, written when the package is saved.
+                //// The SELECT * above already brought it along, so no extra query here.
+                //string pkgUserId = dataTable.Columns.Contains("user_id") ? row["user_id"]?.ToString() : null;
+                //PkgFolderNames[PkgId] = BuildPkgFolderName(PkgId, pkgUserId);
+                // ---- Update 5/10/2026 output_file_path : END ----
 
                 string storeID = row["store_id"].ToString();
                 string querypkgfile = $"select output_metadata_file_template FROM stores where store_id = {storeID}";
                 var pkgfile = db.ExecuteScalar(querypkgfile)?.ToString();
                 string companynamequery = $"select store_name from stores where store_id = {storeID}";
                 var Company_Name = db.ExecuteScalar(companynamequery)?.ToString();
+
+                // ---- Update 5/10/2026 output_file_path : START ----
+                //// The real path the package is written to. The portal wrote its expected value at
+                //// Generate time; this is the authoritative one, using the drive the service actually
+                //// runs on (dirction in config.xml).
+                //string outputFolderPath = Path.Combine($"{DirctionFolder}:\\Pkg_Output", Company_Name, PkgFolderName(PkgId));
+                //db.ExecuteNonQuery(
+                //    $"UPDATE packages SET output_file_path = '{outputFolderPath.Replace("'", "''")}' WHERE pkg_id = {PkgId}");
+                // ---- Update 5/10/2026 output_file_path : END ----
 
                 if (pkgfile != null)
                 {
@@ -280,7 +310,9 @@ namespace Package_Generator_Service
                             Generate_xml(PkgId, pkgfile, Company_Name);
                             string Checkerror = $"Select error_notes from packages where pkg_id = {PkgId}";
                             object error_notes = db.ExecuteScalar(Checkerror);
-                            if (error_notes != "")
+                            // object != "" is a reference comparison and was always true, so this
+                            // reported an error on every package. Same shape as the .xls check below.
+                            if (!string.IsNullOrEmpty(error_notes?.ToString()))
                             {
                                 LogErrorToDatabase($"There is Some errors in The PKG", PkgId);
                                 LogMessage(logFilePath, "There is Some errors in The PKG");
@@ -300,14 +332,121 @@ namespace Package_Generator_Service
                             resetlabel();
                             break;
 
-                        case ".xls":
-                        case ".xlsx":
-                        case ".xltx":
+                        // A .jsonl store ships JSON Lines: one self-contained JSON record per track,
+                        // the whole album in a single file, and nothing else - no audio, no artwork.
+                        // Musixmatch is the first vendor of this kind.
+                        // It gets its own generator instead of sharing Generate_xml, because most of
+                        // what Generate_xml does around the template (fetching media, resolving cover
+                        // hashes, emitting a batch file) does not apply here - and the media stage did
+                        // not just idle, it failed the package outright.
+                        case ".jsonl":
+                            this.Invoke(new Action(() =>
+                            {
+                                label2.Text = $"{PkgId}";
+                            }));
+                            label2.Refresh();
+                            Generate_jsonl(PkgId, pkgfile, Company_Name);
+                            // separate names from the .xml case above: switch sections share one scope
+                            string jsonlCheckerror = $"Select error_notes from packages where pkg_id = {PkgId}";
+                            object jsonlErrorNotes = db.ExecuteScalar(jsonlCheckerror);
+                            // Same reference-comparison bug as the .xml case above.
+                            if (!string.IsNullOrEmpty(jsonlErrorNotes?.ToString()))
+                            {
+                                LogErrorToDatabase($"There is Some errors in The PKG", PkgId);
+                                LogMessage(logFilePath, "There is Some errors in The PKG");
+                                AppendLog($"Error In Generating PKG With ID : {PkgId}", Color.Red);
+                                ResetVariables();
+                            }
+                            else
+                            {
+                                AppendLog($"Succsess Generate Package : {PkgId}", Color.DarkGreen);
+                                SetProgress(100);
+                                SucssesPKG(PkgId);
+                                ResetVariables();
+                            }
+                            Resetprogress();
+                            ResetVariables();
+                            resetlabel();
+                            break;
 
-                            // Handle Excel file
+                        // The three Excel template types get a case each, so one can change without
+                        // touching the others. Today every Excel store ships an .xltx template; the
+                        // other two are here for when one arrives. How the file is saved is a separate
+                        // question, answered from output_metadata_file_path inside GenerateExcel.
+                        case ".xls":
+                            this.Invoke(new Action(() =>
+                            {
+                                label2.Text = $"{PkgId}";
+                            }));
+                            label2.Refresh();
                             GenerateExcel(PkgId, pkgfile, Company_Name);
-                            AppendLog($"Succsess Generate Package : {PkgId}", Color.DarkGreen);
-                            SucssesPKG(PkgId);
+                            // separate names from the cases below: switch sections share one scope
+                            object xlsErrorNotes = db.ExecuteScalar($"Select error_notes from packages where pkg_id = {PkgId}");
+                            if (!string.IsNullOrEmpty(xlsErrorNotes?.ToString()))
+                            {
+                                LogErrorToDatabase($"There is Some errors in The PKG", PkgId);
+                                LogMessage(logFilePath, "There is Some errors in The PKG");
+                                AppendLog($"Error In Generating PKG With ID : {PkgId}", Color.Red);
+                            }
+                            else
+                            {
+                                AppendLog($"Succsess Generate Package : {PkgId}", Color.DarkGreen);
+                                SetProgress(100);
+                                SucssesPKG(PkgId);
+                            }
+                            Resetprogress();
+                            ResetVariables();
+                            resetlabel();
+                            break;
+
+                        case ".xlsx":
+                            this.Invoke(new Action(() =>
+                            {
+                                label2.Text = $"{PkgId}";
+                            }));
+                            label2.Refresh();
+                            GenerateExcel(PkgId, pkgfile, Company_Name);
+                            object xlsxErrorNotes = db.ExecuteScalar($"Select error_notes from packages where pkg_id = {PkgId}");
+                            if (!string.IsNullOrEmpty(xlsxErrorNotes?.ToString()))
+                            {
+                                LogErrorToDatabase($"There is Some errors in The PKG", PkgId);
+                                LogMessage(logFilePath, "There is Some errors in The PKG");
+                                AppendLog($"Error In Generating PKG With ID : {PkgId}", Color.Red);
+                            }
+                            else
+                            {
+                                AppendLog($"Succsess Generate Package : {PkgId}", Color.DarkGreen);
+                                SetProgress(100);
+                                SucssesPKG(PkgId);
+                            }
+                            Resetprogress();
+                            ResetVariables();
+                            resetlabel();
+                            break;
+
+                        case ".xltx":
+                            this.Invoke(new Action(() =>
+                            {
+                                label2.Text = $"{PkgId}";
+                            }));
+                            label2.Refresh();
+                            GenerateExcel(PkgId, pkgfile, Company_Name);
+                            object xltxErrorNotes = db.ExecuteScalar($"Select error_notes from packages where pkg_id = {PkgId}");
+                            if (!string.IsNullOrEmpty(xltxErrorNotes?.ToString()))
+                            {
+                                LogErrorToDatabase($"There is Some errors in The PKG", PkgId);
+                                LogMessage(logFilePath, "There is Some errors in The PKG");
+                                AppendLog($"Error In Generating PKG With ID : {PkgId}", Color.Red);
+                            }
+                            else
+                            {
+                                AppendLog($"Succsess Generate Package : {PkgId}", Color.DarkGreen);
+                                SetProgress(100);
+                                SucssesPKG(PkgId);
+                            }
+                            Resetprogress();
+                            ResetVariables();
+                            resetlabel();
                             break;
 
                         case ".txt":
@@ -315,9 +454,39 @@ namespace Package_Generator_Service
                             Console.WriteLine("Processing text file...");
                             break;
 
+                        // A .json store ships one JSON document per album, every track inside a single
+                        // "tracks" array, and nothing else - no audio, no artwork.
+                        // Deezer Lyrics is the first vendor of this kind.
+                        // Kept apart from .jsonl on purpose: the file shape differs, and each vendor
+                        // should be free to change without dragging the other along.
                         case ".json":
-                            // Handle json file
-                            Console.WriteLine("Processing text file...");
+                            this.Invoke(new Action(() =>
+                            {
+                                label2.Text = $"{PkgId}";
+                            }));
+                            label2.Refresh();
+                            Generate_json(PkgId, pkgfile, Company_Name);
+                            // separate names from the cases above: switch sections share one scope
+                            string jsonCheckerror = $"Select error_notes from packages where pkg_id = {PkgId}";
+                            object jsonErrorNotes = db.ExecuteScalar(jsonCheckerror);
+                            // Same reference-comparison bug as the .xml and .jsonl cases above.
+                            if (!string.IsNullOrEmpty(jsonErrorNotes?.ToString()))
+                            {
+                                LogErrorToDatabase($"There is Some errors in The PKG", PkgId);
+                                LogMessage(logFilePath, "There is Some errors in The PKG");
+                                AppendLog($"Error In Generating PKG With ID : {PkgId}", Color.Red);
+                                ResetVariables();
+                            }
+                            else
+                            {
+                                AppendLog($"Succsess Generate Package : {PkgId}", Color.DarkGreen);
+                                SetProgress(100);
+                                SucssesPKG(PkgId);
+                                ResetVariables();
+                            }
+                            Resetprogress();
+                            ResetVariables();
+                            resetlabel();
                             break;
 
                         default:
@@ -335,6 +504,9 @@ namespace Package_Generator_Service
         {
             string extensionquery = $"select output_metadata_file_codec from stores where store_name = '{Company_Name}'";
             string extension = db.ExecuteScalar(extensionquery)?.ToString().ToLower();
+            // ---- Update 5/10/2026 output_file_path : START ----
+            //string companyFolderPath = Path.Combine($"{DirctionFolder}://Pkg_Output", Company_Name, PkgFolderName(PkgId));
+            // ---- Update 5/10/2026 output_file_path : END ----
             string companyFolderPath = Path.Combine($"{DirctionFolder}://Pkg_Output", Company_Name, PkgId);
             if (!Directory.Exists(companyFolderPath))
             {
@@ -348,8 +520,17 @@ namespace Package_Generator_Service
             object PkgType_Name = db.ExecuteScalar(PkgType_Name_query);
 
             string filePath = $"..\\..\\..\\Templates\\{PkgType_Name}\\{pkgfile}";
+            // EPPlus opens a missing file as an empty workbook instead of failing, so the package
+            // would finish with no Excel written at all.
+            if (!File.Exists(filePath))
+            {
+                LogErrorToDatabase($"Template not found: {Path.GetFullPath(filePath)}", PkgId);
+                LogMessage(logFilePath, $"Error: Template not found: {Path.GetFullPath(filePath)}");
+                return;
+            }
             LogMessage(logFilePath, $"PKG ID IS : {PkgId}");
             WriteColoredLine($"PKG ID IS : {PkgId} / Starting now...", ConsoleColor.Green);
+            AppendLog($"Starting Excel generation for package ID: {PkgId}, Template: {pkgfile}, Company: {Company_Name}", Color.Green);
             LogMessage(logFilePath, $"Using Excel template: {filePath}");
 
             Dictionary<string, string> columnMapping = new Dictionary<string, string>{
@@ -479,6 +660,7 @@ namespace Package_Generator_Service
 
                 LogMessage(logFilePath, $"Processing album UPC: {albumUPC}");
                 WriteColoredLine($"Processing album UPC: {albumUPC}", ConsoleColor.White);
+                AppendLog($"Processing album UPC: {albumUPC} - {album_artist} / {album_Title} ({group.Count()} track(s))", Color.Green);
 
                 try
                 {
@@ -607,7 +789,14 @@ namespace Package_Generator_Service
                                         else
                                         {
                                             // Set the value from the DataTable
-                                            worksheet.Cells[i + 2, columnIndex].Value = dataTable.Rows[i][dataTableColumnName];
+                                            object cellValue = dataTable.Rows[i][dataTableColumnName];
+                                            // Digital Virgo-Audio's accepted sample writes the track number as two digits (01).
+                                            if (store_id.ToString() == "25" && dataTableColumnName == "track_num"
+                                                && int.TryParse(Convert.ToString(cellValue), out int trackNumber))
+                                            {
+                                                cellValue = trackNumber.ToString("D2");
+                                            }
+                                            worksheet.Cells[i + 2, columnIndex].Value = cellValue;
                                         }
 
 
@@ -658,7 +847,22 @@ namespace Package_Generator_Service
                             {
                                 Directory.CreateDirectory(directoryPathh);
                             }
-                            package.SaveAs(filePathh);
+                            // How the file is saved comes from output_metadata_file_path in the database,
+                            // not from the template type that picked the case above. EPPlus only writes
+                            // .xlsx, so an .xls path would get .xlsx content under an .xls name.
+                            // Limited to Digital Virgo-Audio (25) for now: Radio Channels, Airlines and
+                            // Digital Virgo-Video also save .xls, but their accepted samples are unchecked.
+                            if (store_id.ToString() == "25"
+                                && Path.GetExtension(filePathh).Equals(".xls", StringComparison.OrdinalIgnoreCase))
+                            {
+                                SaveWorksheetAsXls(worksheet, filePathh);
+                                AppendLog($"Metadata saved as Excel 97-2003: {Path.GetFileName(filePathh)}", Color.Green);
+                            }
+                            else
+                            {
+                                package.SaveAs(filePathh);
+                                AppendLog($"Metadata saved: {Path.GetFileName(filePathh)}", Color.Green);
+                            }
                             LogMessage(logFilePath, $"Sucsses: Excel file saved to: {filePathh}");
 
                             //SucssesPKG(PkgId);
@@ -695,6 +899,34 @@ namespace Package_Generator_Service
             }
 
 
+        }
+
+        // Writes a filled EPPlus worksheet as a real Excel 97-2003 file, which EPPlus cannot produce.
+        // Values go in as text and empty cells are left out, matching the accepted sample.
+        private void SaveWorksheetAsXls(ExcelWorksheet worksheet, string outputPath)
+        {
+            var workbook = new NPOI.HSSF.UserModel.HSSFWorkbook();
+            var sheet = workbook.CreateSheet(worksheet.Name);
+
+            if (worksheet.Dimension != null)
+            {
+                for (int r = 1; r <= worksheet.Dimension.End.Row; r++)
+                {
+                    var row = sheet.CreateRow(r - 1);
+                    for (int c = 1; c <= worksheet.Dimension.End.Column; c++)
+                    {
+                        string value = Convert.ToString(worksheet.Cells[r, c].Value);
+                        if (!string.IsNullOrEmpty(value))
+                            row.CreateCell(c - 1).SetCellValue(value);
+                    }
+                }
+            }
+
+            using (var stream = new FileStream(outputPath, FileMode.Create, FileAccess.Write))
+            {
+                workbook.Write(stream);
+            }
+            workbook.Close();
         }
 
         private void ComputeMD5(string filePath, string isrc, int operation)
@@ -784,6 +1016,38 @@ namespace Package_Generator_Service
             }
         }
 
+        /// <summary>
+        /// Creates the folder the metadata file is about to be written into, for a Takedown only.
+        ///
+        /// Only the first segment of that path is ever created deliberately - Pkg_Output, store, pkg id
+        /// - in Generate_xml. Everything below it, the timestamp folder and the UPC folder, is created
+        /// as a side effect of GetCover: Directory.CreateDirectory builds the whole tree on its way to
+        /// ResourcesFolder, which sits one level deeper than the metadata file. For package 11161 that
+        /// is ...\Spotify\11161 created here, and 20260929151219017\6221117068538 created by the cover.
+        ///
+        /// A Takedown skips media and cover, so nobody is left to do that, and XMLGenerator.Generate
+        /// calls File.WriteAllText straight out - which does not create directories and throws
+        /// DirectoryNotFoundException. Generate_jsonl and GenerateExcel each hit this and each fixed it
+        /// the same way; this is the third path to need it.
+        ///
+        /// The isTakedown guard means every other package returns before touching anything, so the
+        /// cover keeps creating the tree exactly as it does today.
+        ///
+        /// Must be called after GetFolderPaths, which is what sets MetadataFile.
+        /// </summary>
+        private void EnsureMetadataFolder(string companyFolderPath, bool isTakedown)
+        {
+            if (!isTakedown)
+                return;
+
+            string outDir = Path.GetDirectoryName($"{companyFolderPath}\\{MetadataFile}");
+            if (!string.IsNullOrEmpty(outDir) && !Directory.Exists(outDir))
+            {
+                Directory.CreateDirectory(outDir);
+                LogMessage(logFilePath, $"Sucsses: Created output directory: {outDir}");
+            }
+        }
+
         private async void Generate_xml(string ID, string filename, string Company_Name)
         {
 
@@ -850,6 +1114,9 @@ namespace Package_Generator_Service
                     throw new Exception("No rows returned from the query.");
 
                 // Create company folder
+                // ---- Update 5/10/2026 output_file_path : START ----
+                //string companyFolderPath = Path.Combine($"{DirctionFolder}:\\Pkg_Output", Company_Name, PkgFolderName(ID));
+                // ---- Update 5/10/2026 output_file_path : END ----
                 string companyFolderPath = Path.Combine($"{DirctionFolder}:\\Pkg_Output", Company_Name, ID);
                 try
                 {
@@ -941,27 +1208,52 @@ namespace Package_Generator_Service
                             temppackagefolder = "";
                         }
 
+                        // A Takedown ships no audio and no artwork, so the media stage has nothing to
+                        // feed: 24 of the 26 Takedown templates name no hash and no file size at all.
+                        // The two that do are left producing empty values for now, by decision - see
+                        // the note on EnsureMetadataFolder.
+                        //
+                        // Keyed on pkg_type, never on store_id: Takedown is a case on every vendor.
+                        // Declared outside the try because the XML section below needs it too, and
+                        // ?.ToString() because == on an object is reference equality - the old
+                        // PkgType_ID == "5" could never be true, which is why this branch never ran.
+                        bool isTakedown = PkgType_ID?.ToString() == "5"
+                                       && PkgType_Name?.ToString() == "Takedown";
+
                         try
                         {
-
-                            await GetMediaData(ID, groupedRows, group);
-                            string Checkerror = $"Select error_notes from packages where pkg_id = {ID}";
-                            object error_notes = db.ExecuteScalar(Checkerror);
-                            SetProgress(80);
-
-                            if (error_notes != "")
+                            if (isTakedown)
                             {
-                                throw new FileNotFoundException($"No Media Found");
+                                // Media and cover only. The XML and its MD5 further down still run:
+                                // ComputeMD5(..., 3) is the sole writer of XMLHASHES, and GenerateBatch
+                                // reads it for hash_sum_xml. A continue here skipped the whole iteration
+                                // instead, left XMLHASHES empty, and took the batch down with a
+                                // NullReferenceException in XMLGenerator.List_Recursion.
+                                LogMessage(logFilePath, "Takedown package: media and cover stage skipped.");
+                                AppendLog("Takedown package: media and cover stage skipped.", Color.Green);
+                                SetProgress(80);
                             }
                             else
                             {
-                                LogMessage(logFilePath, "Media data generated successfully.");
-                                WriteColoredLine("Media data generated successfully.", ConsoleColor.Green);
-                                AppendLog("Media data generated successfully.", Color.Green);
+                                await GetMediaData(ID, groupedRows, group);
+                                string Checkerror = $"Select error_notes from packages where pkg_id = {ID}";
+                                object error_notes = db.ExecuteScalar(Checkerror);
+                                SetProgress(80);
 
-
+                                // error_notes is an object, so != "" compared references and was always
+                                // true - this threw even when the media stage had just succeeded, and
+                                // the catch below swallowed it. ?.ToString() also folds DBNull away.
+                                if (!string.IsNullOrWhiteSpace(error_notes?.ToString()))
+                                {
+                                    throw new FileNotFoundException($"No Media Found");
+                                }
+                                else
+                                {
+                                    LogMessage(logFilePath, "Media data generated successfully.");
+                                    WriteColoredLine("Media data generated successfully.", ConsoleColor.Green);
+                                    AppendLog("Media data generated successfully.", Color.Green);
+                                }
                             }
-
 
                         }
                         catch (Exception ex)
@@ -990,6 +1282,8 @@ namespace Package_Generator_Service
                                     AppendLog($"Start Generating in ISRC {item.Field<string>("asset_isrc")}", Color.Green);
                                     SetProgress(90);
 
+                                    // After GetFolderPaths, which is what rewrites MetadataFile per ISRC.
+                                    EnsureMetadataFolder(companyFolderPath, isTakedown);
                                     xmlGenerator.Generate($"..\\..\\..\\Templates\\{PkgType_Name}\\" + filename, $"{companyFolderPath}\\" + $"{MetadataFile}", assetHashes, coverHashImage, album_num, ID, tracksize, item.Field<string>("asset_isrc"));
                                     AppendLog($"Success: Generating in ISRC {item.Field<string>("asset_isrc")}", Color.Green);
 
@@ -999,6 +1293,7 @@ namespace Package_Generator_Service
                             else
                             {
                                 var xmlGenerator = new XMLGenerator(connectionString);
+                                EnsureMetadataFolder(companyFolderPath, isTakedown);
                                 xmlGenerator.Generate($"..\\..\\..\\Templates\\{PkgType_Name}\\" + filename, $"{companyFolderPath}\\" + $"{MetadataFile}", assetHashes, coverHashImage, album_num, ID, tracksize, null);
                                 ComputeMD5($"{companyFolderPath}\\" + $"{MetadataFile}", albumUPC, 3);
 
@@ -1059,6 +1354,442 @@ namespace Package_Generator_Service
 
                 LogMessage(logFilePath, $"Critical error: {cleanedMessage}");
                 throw; // Optionally rethrow the exception or handle it as needed
+            }
+        }
+
+        /// <summary>
+        /// Generator for JSON Lines (.jsonl) stores - metadata-only vendors, Musixmatch being the first.
+        ///
+        /// This is deliberately not Generate_xml driven by a flag. A .jsonl package is a different shape
+        /// of job: one file for the whole album, one self-contained JSON record per track, and no
+        /// companion assets whatsoever. So the media stage, the cover-hash lookup, the per-track file
+        /// mode (store_id 40) and the batch file are not skipped by a condition here - they are simply
+        /// not part of this path at all.
+        ///
+        /// One consequence is easy to miss: for every other vendor the output folder gets created as a
+        /// side effect of GetCover dropping the artwork in, because Directory.CreateDirectory builds the
+        /// whole tree on its way to the resources folder. With no cover and no media there is nobody
+        /// left to do that, and XMLGenerator.Generate calls File.WriteAllText straight out - so this
+        /// method creates the folder itself before writing.
+        ///
+        /// Plain void, not async void like Generate_xml: there is nothing to await once the media stage
+        /// is gone, and async void would swallow exceptions instead of surfacing them to the caller.
+        /// </summary>
+        private void Generate_jsonl(string ID, string filename, string Company_Name)
+        {
+            try
+            {
+                // Create log folder if it doesn't exist
+                if (!Directory.Exists(logFolderPath))
+                {
+                    Directory.CreateDirectory(logFolderPath);
+                }
+
+                string Pkgtype_ID_query = $"select pkg_type from packages where pkg_id = {ID}";
+                object PkgType_ID = db.ExecuteScalar(Pkgtype_ID_query);
+                string PkgType_Name_query = $"select pkg_type_name from pkg_types_info where pkg_type_id = {PkgType_ID}";
+                object PkgType_Name = db.ExecuteScalar(PkgType_Name_query);
+
+                LogMessage(logFilePath, $"Starting JSONL generation for package ID: {ID}, Filename: {filename}, Company: {Company_Name}");
+                AppendLog($"Starting JSONL generation for package ID: {ID}, Filename: {filename}, Company: {Company_Name}", Color.Green);
+                WriteColoredLine($"Starting JSONL generation for package ID: {ID}, Filename: {filename}, Company: {Company_Name}", ConsoleColor.White);
+                SetProgress(20);
+
+                if (string.IsNullOrWhiteSpace(ID) || string.IsNullOrWhiteSpace(filename) || string.IsNullOrWhiteSpace(Company_Name))
+                {
+                    LogErrorToDatabase("ID, filename, and Company_Name cannot be null or empty.", ID);
+                    LogMessage(logFilePath, "Error: ID, filename, and Company_Name cannot be null or empty.");
+                }
+
+                // Fetch package information
+                string querygetpkginfo = $"SELECT * FROM t_packages_info WHERE pkg_id = {ID} ORDER BY album_num";
+                DataTable dataTable = new DataTable();
+
+                try
+                {
+                    dataTable = db.ExecuteQuery(querygetpkginfo);
+                    LogMessage(logFilePath, $"Success: fetched package info for ID: {ID}");
+                    AppendLog($"Success: fetched package info for ID: {ID}", Color.Green);
+                    WriteColoredLine($"Success: fetched package info for ID: {ID}", ConsoleColor.Green);
+                    SetProgress(30);
+                }
+                catch (Exception ex)
+                {
+                    string cleanedMessage = ex.Message.Replace("'", "");
+                    LogErrorToDatabase(cleanedMessage, ID);
+                    AppendLog(cleanedMessage, Color.Red);
+                    LogMessage(logFilePath, $"Error: fetching package info: {cleanedMessage}");
+                }
+
+                var groupedRows = dataTable.AsEnumerable()
+                                           .GroupBy(row => row.Field<int>("album_num"))
+                                           .ToList();
+
+                if (groupedRows.Count == 0)
+                    throw new Exception("No rows returned from the query.");
+
+                // Create company folder
+                // ---- Update 5/10/2026 output_file_path : START ----
+                //string companyFolderPath = Path.Combine($"{DirctionFolder}:\\Pkg_Output", Company_Name, PkgFolderName(ID));
+                // ---- Update 5/10/2026 output_file_path : END ----
+                string companyFolderPath = Path.Combine($"{DirctionFolder}:\\Pkg_Output", Company_Name, ID);
+                try
+                {
+                    if (!Directory.Exists(companyFolderPath))
+                    {
+                        Directory.CreateDirectory(companyFolderPath);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    string cleanedMessage = ex.Message.Replace("'", "");
+                    LogErrorToDatabase(cleanedMessage, ID);
+                    LogMessage(logFilePath, $"Error:creating company folder: {cleanedMessage}");
+                }
+
+                int counter_display = 1;
+                foreach (var group in groupedRows)
+                {
+                    try
+                    {
+                        string albumUPC = group.First().Field<string>("album_ubc");
+                        string album_artist = group.First().Field<string>("album_artist");
+                        string album_Title = group.First().Field<string>("album_name");
+                        int album_num = group.First().Field<int>("album_num");
+                        int group_len = group.Count();
+                        int ISRC_COUNTER = 0;
+                        string asset_ISRC = "";
+
+                        LogMessage(logFilePath, $"Processing group with Album UPC: {albumUPC}");
+                        AppendLog($"Processing group with Album UPC: {albumUPC} IS Album number ({counter_display})", Color.Green);
+                        counter_display++;
+                        SetProgress(50);
+
+                        // Folder resolution, carried over from Generate_xml as-is.
+                        // temppackagefolder is read back inside GetFolderPaths - the check there
+                        // (PackageFolder == temppackagefolder) trims the path, which is what keeps it
+                        // from repeating itself when one package holds more than one album.
+                        // Left untouched on purpose rather than simplified.
+                        if (PackageFolder == null)
+                        {
+                            if (group_len == ISRC_COUNTER)
+                            {
+                                ISRC_COUNTER = 0;
+                                GetFolderPaths(Company_Name, albumUPC, album_artist, album_Title, group, ID, asset_ISRC);
+                                LogMessage(logFilePath, $"Sucsses: Retrieved folder paths for package: {ID}");
+                                SetProgress(10);
+                            }
+                            else
+                            {
+                                asset_ISRC = group.Skip(ISRC_COUNTER).FirstOrDefault()?.Field<string>("asset_isrc");
+                                GetFolderPaths(Company_Name, albumUPC, album_artist, album_Title, group, ID, asset_ISRC);
+                                ISRC_COUNTER++;
+                                LogMessage(logFilePath, $"Sucsses: Retrieved folder paths for package: {ID}");
+                                SetProgress(60);
+                            }
+                        }
+                        else
+                        {
+                            temppackagefolder = PackageFolder;
+                            if (group_len == ISRC_COUNTER)
+                            {
+                                ISRC_COUNTER = 0;
+                                GetFolderPaths(Company_Name, albumUPC, album_artist, album_Title, group, ID, asset_ISRC);
+                                LogMessage(logFilePath, $"Sucsses: Retrieved folder paths for package: {ID}");
+                                SetProgress(70);
+                            }
+                            else
+                            {
+                                asset_ISRC = group.Skip(ISRC_COUNTER).FirstOrDefault()?.Field<string>("asset_isrc");
+                                GetFolderPaths(Company_Name, albumUPC, album_artist, album_Title, group, ID, asset_ISRC);
+                                ISRC_COUNTER++;
+                                LogMessage(logFilePath, $"Sucsses: Retrieved folder paths for package: {ID}");
+                            }
+                            temppackagefolder = "";
+                        }
+
+                        string outputFile = $"{companyFolderPath}\\{MetadataFile}";
+
+                        // Nothing else has created this folder - see the note on the method.
+                        string outDir = Path.GetDirectoryName(outputFile);
+                        if (!string.IsNullOrEmpty(outDir) && !Directory.Exists(outDir))
+                        {
+                            Directory.CreateDirectory(outDir);
+                            LogMessage(logFilePath, $"Sucsses: Created output directory: {outDir}");
+                        }
+
+                        SetProgress(80);
+
+                        try
+                        {
+                            // assetHashes and tracksize go in empty, and the cover hash as null, on
+                            // purpose: this vendor ships no media, and the template asks for no
+                            // checksums, file sizes or artwork.
+                            var jsonlGenerator = new XMLGenerator(connectionString);
+                            jsonlGenerator.Generate($"..\\..\\..\\Templates\\{PkgType_Name}\\" + filename, outputFile, assetHashes, null, album_num, ID, tracksize, null);
+                            ComputeMD5(outputFile, albumUPC, 3);
+
+                            LogMessage(logFilePath, $"Success: generated JSONL for package ID: {ID}");
+                            AppendLog($"Success: generated JSONL for package ID: {ID}", Color.Green);
+                            WriteColoredLine($"Success: generated JSONL for package ID: {ID}", ConsoleColor.Green);
+                            SetProgress(90);
+                        }
+                        catch (Exception ex)
+                        {
+                            string cleanedMessage = ex.Message.Replace("'", "");
+                            LogErrorToDatabase(cleanedMessage, ID);
+                            LogMessage(logFilePath, $"Error: generating JSONL for package: {cleanedMessage}");
+                            AppendLog(cleanedMessage, Color.Red);
+                            Console.WriteLine($"Error: generating JSONL for package: {cleanedMessage}");
+                            break;
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        string cleanedMessage = ex.Message.Replace("'", "");
+                        LogErrorToDatabase(cleanedMessage, ID);
+                        AppendLog(cleanedMessage, Color.Red);
+                        LogMessage(logFilePath, $"Error: processing group: {cleanedMessage}");
+                        continue; // carry on with the next album if one fails
+                    }
+                }
+
+                temppackagefolder = "1";
+            }
+            catch (Exception ex)
+            {
+                string cleanedMessage = ex.Message.Replace("'", "");
+                LogErrorToDatabase(cleanedMessage, ID);
+                AppendLog(cleanedMessage, Color.Red);
+                LogMessage(logFilePath, $"Critical error: {cleanedMessage}");
+                throw;
+            }
+        }
+
+        /// <summary>
+        /// Generator for plain JSON (.json) stores - metadata-only vendors, Deezer Lyrics being the first.
+        ///
+        /// Same kind of job as Generate_jsonl - one file per album, no media, no cover, no batch file -
+        /// but the file is a single JSON document with all the album's tracks inside one array, not one
+        /// record per line. The shape itself lives entirely in the template; this method only feeds it.
+        ///
+        /// Kept as its own method rather than sharing Generate_jsonl, so either vendor can change
+        /// without touching the other.
+        ///
+        /// As with Generate_jsonl, nothing else creates the output folder (no GetCover here), so this
+        /// method creates it itself before writing.
+        /// </summary>
+        private void Generate_json(string ID, string filename, string Company_Name)
+        {
+            try
+            {
+                // Create log folder if it doesn't exist
+                if (!Directory.Exists(logFolderPath))
+                {
+                    Directory.CreateDirectory(logFolderPath);
+                }
+
+                string Pkgtype_ID_query = $"select pkg_type from packages where pkg_id = {ID}";
+                object PkgType_ID = db.ExecuteScalar(Pkgtype_ID_query);
+                string PkgType_Name_query = $"select pkg_type_name from pkg_types_info where pkg_type_id = {PkgType_ID}";
+                object PkgType_Name = db.ExecuteScalar(PkgType_Name_query);
+
+                LogMessage(logFilePath, $"Starting JSON generation for package ID: {ID}, Filename: {filename}, Company: {Company_Name}");
+                AppendLog($"Starting JSON generation for package ID: {ID}, Filename: {filename}, Company: {Company_Name}", Color.Green);
+                WriteColoredLine($"Starting JSON generation for package ID: {ID}, Filename: {filename}, Company: {Company_Name}", ConsoleColor.White);
+                SetProgress(20);
+
+                if (string.IsNullOrWhiteSpace(ID) || string.IsNullOrWhiteSpace(filename) || string.IsNullOrWhiteSpace(Company_Name))
+                {
+                    LogErrorToDatabase("ID, filename, and Company_Name cannot be null or empty.", ID);
+                    LogMessage(logFilePath, "Error: ID, filename, and Company_Name cannot be null or empty.");
+                }
+
+                // Fetch package information
+                string querygetpkginfo = $"SELECT * FROM t_packages_info WHERE pkg_id = {ID} ORDER BY album_num";
+                DataTable dataTable = new DataTable();
+
+                try
+                {
+                    dataTable = db.ExecuteQuery(querygetpkginfo);
+                    LogMessage(logFilePath, $"Success: fetched package info for ID: {ID}");
+                    AppendLog($"Success: fetched package info for ID: {ID}", Color.Green);
+                    WriteColoredLine($"Success: fetched package info for ID: {ID}", ConsoleColor.Green);
+                    SetProgress(30);
+                }
+                catch (Exception ex)
+                {
+                    string cleanedMessage = ex.Message.Replace("'", "");
+                    LogErrorToDatabase(cleanedMessage, ID);
+                    AppendLog(cleanedMessage, Color.Red);
+                    LogMessage(logFilePath, $"Error: fetching package info: {cleanedMessage}");
+                }
+
+                var groupedRows = dataTable.AsEnumerable()
+                                           .GroupBy(row => row.Field<int>("album_num"))
+                                           .ToList();
+
+                if (groupedRows.Count == 0)
+                    throw new Exception("No rows returned from the query.");
+
+                // Deezer rejects a track with no writer or no artist at all, and the template cannot
+                // stop the package on its own - it would just emit an empty array. So check every
+                // track up front, and if any is missing either, fail the package without writing a file.
+                // The template splits both columns on commas and drops blank entries, so a value made
+                // of commas only counts as empty here too.
+                bool HasName(DataRow row, string column) =>
+                    dataTable.Columns.Contains(column)
+                    && row[column].ToString().Split(',').Any(s => !string.IsNullOrWhiteSpace(s));
+
+                var missingData = new List<string>();
+                foreach (DataRow row in dataTable.Rows)
+                {
+                    string isrc = row["asset_isrc"].ToString();
+                    if (!HasName(row, "lyrics"))
+                        missingData.Add($"Track {isrc} has no lyrics writer");
+                    if (!HasName(row, "track_artist"))
+                        missingData.Add($"Track {isrc} has no track artist");
+                }
+
+                if (missingData.Count > 0)
+                {
+                    string missingMessage = string.Join(" / ", missingData).Replace("'", "");
+                    LogErrorToDatabase(missingMessage, ID);
+                    LogMessage(logFilePath, $"Error: {missingMessage}");
+                    AppendLog(missingMessage, Color.Red);
+                    WriteColoredLine(missingMessage, ConsoleColor.Red);
+                    return;
+                }
+
+                // Create company folder
+                // ---- Update 5/10/2026 output_file_path : START ----
+                //string companyFolderPath = Path.Combine($"{DirctionFolder}:\\Pkg_Output", Company_Name, PkgFolderName(ID));
+                // ---- Update 5/10/2026 output_file_path : END ----
+                string companyFolderPath = Path.Combine($"{DirctionFolder}:\\Pkg_Output", Company_Name, ID);
+                try
+                {
+                    if (!Directory.Exists(companyFolderPath))
+                    {
+                        Directory.CreateDirectory(companyFolderPath);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    string cleanedMessage = ex.Message.Replace("'", "");
+                    LogErrorToDatabase(cleanedMessage, ID);
+                    LogMessage(logFilePath, $"Error:creating company folder: {cleanedMessage}");
+                }
+
+                int counter_display = 1;
+                foreach (var group in groupedRows)
+                {
+                    try
+                    {
+                        string albumUPC = group.First().Field<string>("album_ubc");
+                        string album_artist = group.First().Field<string>("album_artist");
+                        string album_Title = group.First().Field<string>("album_name");
+                        int album_num = group.First().Field<int>("album_num");
+                        int group_len = group.Count();
+                        int ISRC_COUNTER = 0;
+                        string asset_ISRC = "";
+
+                        LogMessage(logFilePath, $"Processing group with Album UPC: {albumUPC}");
+                        AppendLog($"Processing group with Album UPC: {albumUPC} IS Album number ({counter_display})", Color.Green);
+                        counter_display++;
+                        SetProgress(50);
+
+                        // Folder resolution, carried over from Generate_xml as-is (see Generate_jsonl).
+                        if (PackageFolder == null)
+                        {
+                            if (group_len == ISRC_COUNTER)
+                            {
+                                ISRC_COUNTER = 0;
+                                GetFolderPaths(Company_Name, albumUPC, album_artist, album_Title, group, ID, asset_ISRC);
+                                LogMessage(logFilePath, $"Sucsses: Retrieved folder paths for package: {ID}");
+                                SetProgress(10);
+                            }
+                            else
+                            {
+                                asset_ISRC = group.Skip(ISRC_COUNTER).FirstOrDefault()?.Field<string>("asset_isrc");
+                                GetFolderPaths(Company_Name, albumUPC, album_artist, album_Title, group, ID, asset_ISRC);
+                                ISRC_COUNTER++;
+                                LogMessage(logFilePath, $"Sucsses: Retrieved folder paths for package: {ID}");
+                                SetProgress(60);
+                            }
+                        }
+                        else
+                        {
+                            temppackagefolder = PackageFolder;
+                            if (group_len == ISRC_COUNTER)
+                            {
+                                ISRC_COUNTER = 0;
+                                GetFolderPaths(Company_Name, albumUPC, album_artist, album_Title, group, ID, asset_ISRC);
+                                LogMessage(logFilePath, $"Sucsses: Retrieved folder paths for package: {ID}");
+                                SetProgress(70);
+                            }
+                            else
+                            {
+                                asset_ISRC = group.Skip(ISRC_COUNTER).FirstOrDefault()?.Field<string>("asset_isrc");
+                                GetFolderPaths(Company_Name, albumUPC, album_artist, album_Title, group, ID, asset_ISRC);
+                                ISRC_COUNTER++;
+                                LogMessage(logFilePath, $"Sucsses: Retrieved folder paths for package: {ID}");
+                            }
+                            temppackagefolder = "";
+                        }
+
+                        string outputFile = $"{companyFolderPath}\\{MetadataFile}";
+
+                        // Nothing else has created this folder - see the note on the method.
+                        string outDir = Path.GetDirectoryName(outputFile);
+                        if (!string.IsNullOrEmpty(outDir) && !Directory.Exists(outDir))
+                        {
+                            Directory.CreateDirectory(outDir);
+                            LogMessage(logFilePath, $"Sucsses: Created output directory: {outDir}");
+                        }
+
+                        SetProgress(80);
+
+                        try
+                        {
+                            // No media and no artwork for this vendor: hashes, sizes and cover go in empty.
+                            var jsonGenerator = new XMLGenerator(connectionString);
+                            jsonGenerator.Generate($"..\\..\\..\\Templates\\{PkgType_Name}\\" + filename, outputFile, assetHashes, null, album_num, ID, tracksize, null);
+                            ComputeMD5(outputFile, albumUPC, 3);
+
+                            LogMessage(logFilePath, $"Success: generated JSON for package ID: {ID}");
+                            AppendLog($"Success: generated JSON for package ID: {ID}", Color.Green);
+                            WriteColoredLine($"Success: generated JSON for package ID: {ID}", ConsoleColor.Green);
+                            SetProgress(90);
+                        }
+                        catch (Exception ex)
+                        {
+                            string cleanedMessage = ex.Message.Replace("'", "");
+                            LogErrorToDatabase(cleanedMessage, ID);
+                            LogMessage(logFilePath, $"Error: generating JSON for package: {cleanedMessage}");
+                            AppendLog(cleanedMessage, Color.Red);
+                            Console.WriteLine($"Error: generating JSON for package: {cleanedMessage}");
+                            break;
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        string cleanedMessage = ex.Message.Replace("'", "");
+                        LogErrorToDatabase(cleanedMessage, ID);
+                        AppendLog(cleanedMessage, Color.Red);
+                        LogMessage(logFilePath, $"Error: processing group: {cleanedMessage}");
+                        continue; // carry on with the next album if one fails
+                    }
+                }
+
+                temppackagefolder = "1";
+            }
+            catch (Exception ex)
+            {
+                string cleanedMessage = ex.Message.Replace("'", "");
+                LogErrorToDatabase(cleanedMessage, ID);
+                AppendLog(cleanedMessage, Color.Red);
+                LogMessage(logFilePath, $"Critical error: {cleanedMessage}");
+                throw;
             }
         }
 
@@ -1189,6 +1920,8 @@ namespace Package_Generator_Service
                 var values_Metadata_Folder = new Dictionary<string, string>
     {
         { "CREATION_FULL_DATE_TIME",DateTimeHelper.creationFullDateTime },
+        // CREATION_DATE_TIME was missing here while the package-folder and batch-folder
+        { "CREATION_DATE_TIME",DateTimeHelper.creationDateTime },
         { "CREATION_DATE", DateTimeHelper.creationDate },
         { "O_CREATION_DATE",DateTimeHelper.oCreationDate },
         { "PackageFolder", PackageFolder },
@@ -1229,6 +1962,10 @@ namespace Package_Generator_Service
 
                 //MetadataFile = MetadataFile.Replace("\\", "//");
 
+                // ---- Update 5/10/2026 output_file_path : START ----
+                //PackageFolder = Path.Combine(PkgFolderName(ID), PackageFolder);
+                //ResourcesFolder = Path.Combine(PkgFolderName(ID), ResourcesFolder);
+                // ---- Update 5/10/2026 output_file_path : END ----
                 PackageFolder = Path.Combine(ID, PackageFolder);
                 ResourcesFolder = Path.Combine(ID, ResourcesFolder);
 
@@ -1257,7 +1994,37 @@ namespace Package_Generator_Service
 
 
         }
-
+        // ---- Update 5/10/2026 output_file_path : START ----
+        ///// <summary>
+        ///// Folder name for a package: the pkg id, plus the user who generated it when
+        ///// packages.user_id carries one.
+        ///// The id stays the first segment so the existing path trimming (GetFolderPaths,
+        ///// packagesFolderwithoutID) keeps working and the folders still sort by id.
+        ///// Must stay identical to PackageOutput.FolderName in DPackagingNEW.
+        ///// </summary>
+        //private string BuildPkgFolderName(string pkgId, string userId)
+        //{
+        //    if (string.IsNullOrWhiteSpace(userId))
+        //        return pkgId;
+        //
+        //    string cleaned = userId.Trim();
+        //    foreach (char invalid in Path.GetInvalidFileNameChars())
+        //        cleaned = cleaned.Replace(invalid, '_');
+        //    cleaned = cleaned.Replace(' ', '_');
+        //
+        //    return string.IsNullOrWhiteSpace(cleaned) ? pkgId : $"{pkgId}_{cleaned}";
+        //}
+        //
+        ///// <summary>
+        ///// The package folder name. With no user recorded it returns the bare id, exactly as before.
+        ///// </summary>
+        //private string PkgFolderName(string pkgId)
+        //{
+        //    return PkgFolderNames.TryGetValue(pkgId, out string folderName) && !string.IsNullOrWhiteSpace(folderName)
+        //        ? folderName
+        //        : pkgId;
+        //}
+        // ---- Update 5/10/2026 output_file_path : END ----
         string ReplacePlaceholders(string input, Dictionary<string, string> values)
         {
             foreach (var key in values.Keys)
@@ -1323,6 +2090,7 @@ namespace Package_Generator_Service
                     }
                     // Copy the cover file to the destination
                     LogMessage(logFilePath, $"Sucsses: Copied cover file to: {destinationFilePath}");
+                    AppendLog($"Cover added: {Path.GetFileName(destinationFilePath)}", Color.DarkGreen);
                 }
                 else
                 {
@@ -1589,6 +2357,7 @@ namespace Package_Generator_Service
 
                                             // Copy the file to the new location with the correct name
                                             File.Copy(selectedMp3File, destinationFilePath, overwrite: true);
+                                            AppendLog($"Media added: {Path.GetFileName(destinationFilePath)}", Color.DarkGreen);
                                         }
                                     }
                                 }
@@ -1627,6 +2396,7 @@ namespace Package_Generator_Service
 
                                         // Copy the file to the new location with the correct name
                                         File.Copy(selectedMp3File, destinationFilePath, overwrite: true);
+                                        AppendLog($"Media added: {Path.GetFileName(destinationFilePath)}", Color.DarkGreen);
                                     }
 
 
@@ -1768,17 +2538,9 @@ namespace Package_Generator_Service
                                 string[] FLACFiles = Directory.GetFiles(FLACFolderPath, $"{item.Field<string>("asset_isrc")}.FLAC");
                                 if (FLACFiles.Length == 0)
                                 {
-                                    if (pkg_type =="5")
-                                    {
-                                        continue;
-                                    }
-                                    else
-                                    {
-                                        LogMessage(logFilePath, $"No FLAC files found for asset ISRC: {item.Field<string>("asset_isrc")}");
-                                        LogErrorToDatabase($"No FLAC files found for asset ISRC: {item.Field<string>("asset_isrc")}", PkgID);
-                                        continue;
-                                    }
-                                
+                                    LogMessage(logFilePath, $"No FLAC files found for asset ISRC: {item.Field<string>("asset_isrc")}");
+                                    LogErrorToDatabase($"No FLAC files found for asset ISRC: {item.Field<string>("asset_isrc")}", PkgID);
+                                    continue;
                                 }
                                 string filepath = Path.Combine(FLACFolderPath, $"{item.Field<string>("asset_isrc")}.FLAC");
                                 ComputeMD5(filepath, item.Field<string>("asset_isrc"), 1);
@@ -2023,6 +2785,7 @@ namespace Package_Generator_Service
 
                                             // Copy the file to the new location with the correct name
                                             File.Copy(selectedMp3File, destinationFilePath, overwrite: true);
+                                            AppendLog($"Media added: {Path.GetFileName(destinationFilePath)}", Color.DarkGreen);
                                         }
                                     }
                                     else
@@ -2072,6 +2835,7 @@ namespace Package_Generator_Service
 
                                             // Copy the file to the new location with the correct name
                                             File.Copy(selectedMp3File, destinationFilePath, overwrite: true);
+                                            AppendLog($"Media added: {Path.GetFileName(destinationFilePath)}", Color.DarkGreen);
                                         }
 
 

@@ -28,7 +28,7 @@
 			</SoundRecordingId>
 			<ResourceReference>A{{ asset.track_num }}</ResourceReference>
 			<ReferenceTitle>
-				<TitleText>{{ asset.track_name }} - {{ asset.track_name_a }}</TitleText>
+				<TitleText>{{ asset.track_name }}{{ if (asset.track_name_a | string.strip) != "" }} - {{ asset.track_name_a }}{{ end }}</TitleText>
 			</ReferenceTitle>
 			<IsInstrumental>false</IsInstrumental>
 			<LanguageOfPerformance>en</LanguageOfPerformance>
@@ -37,8 +37,11 @@
 				{{~ for country_code in asset.country_iso_code_list_string ~}}
 				<TerritoryCode>{{ country_code }}</TerritoryCode>
 				{{~ end ~}}
+				<Title TitleType="FormalTitle">
+					<TitleText>{{ asset.track_name }}{{ if (asset.track_name_a | string.strip) != "" }} - {{ asset.track_name_a }}{{ end }}</TitleText>
+				</Title>
 				<Title TitleType="DisplayTitle">
-					<TitleText>{{ asset.track_name }} - {{ asset.track_name_a }}</TitleText>
+					<TitleText>{{ asset.track_name }}{{ if (asset.track_name_a | string.strip) != "" }} - {{ asset.track_name_a }}{{ end }}</TitleText>
 					<SubTitle/>
 				</Title>
 				{{~ for track_artist in asset.track_artist_list_string ~}}
@@ -54,24 +57,87 @@
 					<PartyName>
 						<FullName>{{ track_featured_artist.name }}</FullName>
 					</PartyName>
-					<ArtistRole>MainArtist</ArtistRole>
+					<ArtistRole>FeaturedArtist</ArtistRole>
 				</DisplayArtist>
+				{{~ end ~}}
+				{{~ if asset.composer_list_string ~}}
+				{{~ for comp in asset.composer_list_string ~}}
+				<IndirectResourceContributor>
+					<PartyName>
+						<FullName>{{ comp | string.strip }}</FullName>
+					</PartyName>
+					<IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+				</IndirectResourceContributor>
+				{{~ end ~}}
+				{{~ else ~}}
+				<IndirectResourceContributor>
+					<PartyName>
+						<FullName/>
+					</PartyName>
+					<IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+				</IndirectResourceContributor>
+				{{~ end ~}}
+				{{~ if asset.lyrics_list_string ~}}
+				{{~ for lyr in asset.lyrics_list_string ~}}
+				<IndirectResourceContributor>
+					<PartyName>
+						<FullName>{{ lyr | string.strip }}</FullName>
+					</PartyName>
+					<IndirectResourceContributorRole>Lyricist</IndirectResourceContributorRole>
+				</IndirectResourceContributor>
+				{{~ end ~}}
+				{{~ else ~}}
+				<IndirectResourceContributor>
+					<PartyName>
+						<FullName/>
+					</PartyName>
+					<IndirectResourceContributorRole>Lyricist</IndirectResourceContributorRole>
+				</IndirectResourceContributor>
+				{{~ end ~}}
+				{{~ if asset.producer_list_string ~}}
+				{{~ for prod in asset.producer_list_string ~}}
+				<IndirectResourceContributor>
+					<PartyName>
+						<FullName>{{ prod | string.strip }}</FullName>
+					</PartyName>
+					<IndirectResourceContributorRole>Producer</IndirectResourceContributorRole>
+				</IndirectResourceContributor>
+				{{~ end ~}}
+				{{~ else ~}}
+				<IndirectResourceContributor>
+					<PartyName>
+						<FullName/>
+					</PartyName>
+					<IndirectResourceContributorRole>Producer</IndirectResourceContributorRole>
+				</IndirectResourceContributor>
 				{{~ end ~}}
 				<LabelName>{{ asset.label_name }}</LabelName>
 				<PLine>
-					<Year>{{ asset.release_year}}</Year>
-					<PLineText>{{ asset.release_year}} {{ asset.label_name }}</PLineText>
+					<Year>{{ asset.release_year }}</Year>
+					<PLineText>{{ asset.release_year }} {{ asset.label_name }}</PLineText>
 				</PLine>
 				<Genre>
 					<GenreText>{{ asset.track_genre }}</GenreText>
 				</Genre>
+				<ParentalWarningType>NotExplicit</ParentalWarningType>
+				<RightsController>
+					<PartyName>
+						<FullName>{{ asset.label_name }}</FullName>
+					</PartyName>
+					<PartyId>PADPIDA20131118019</PartyId>
+					<RightsControllerRole>RightsController</RightsControllerRole>
+					<RightSharePercentage>100.00</RightSharePercentage>
+				</RightsController>
 				<TechnicalSoundRecordingDetails>
 					<TechnicalResourceDetailsReference>T{{ asset.track_num }}</TechnicalResourceDetailsReference>
-					<AudioCodecType>FLAC</AudioCodecType>
+					<AudioCodecType UserDefinedValue="flac" Namespace="DPID:PADPIDA20131118019">UserDefined</AudioCodecType>
 					<NumberOfChannels>2</NumberOfChannels>
-					<SamplingRate UnitOfMeasure="kHz">44.1</SamplingRate>
-					<BitsPerSample>16</BitsPerSample>
 					<IsPreview>false</IsPreview>
+					<PreviewDetails>
+						<StartPoint>0</StartPoint>
+						<Duration>PT0H1M00S</Duration>
+						<ExpressionType>Instructive</ExpressionType>
+					</PreviewDetails>
 					<File>
 						<FileName>{{ asset.asset_isrc }}.flac</FileName>
 						<FilePath>resources/</FilePath>
@@ -80,11 +146,6 @@
 							<HashSumAlgorithmType>MD5</HashSumAlgorithmType>
 						</HashSum>
 					</File>
-					<PreviewDetails>
-						<StartPoint>0</StartPoint>
-						<Duration>PT0H1M00S</Duration>
-						<ExpressionType>Instructive</ExpressionType>
-					</PreviewDetails>
 				</TechnicalSoundRecordingDetails>
 			</SoundRecordingDetailsByTerritory>
 		</SoundRecording>
@@ -92,7 +153,7 @@
 		<Image>
 			<ImageType>FrontCoverImage</ImageType>
 			<ImageId>
-				<ProprietaryId Namespace="ADD">{{ album.album_ubc }}.jpg</ProprietaryId>
+				<ProprietaryId Namespace="DPID:PADPIDA20131118019">{{ album.album_ubc }}</ProprietaryId>
 			</ImageId>
 			<ResourceReference>A{{ album.image_num }}</ResourceReference>
 			<ImageDetailsByTerritory>
@@ -102,6 +163,8 @@
 				<TechnicalImageDetails>
 					<TechnicalResourceDetailsReference>T{{ album.image_num }}</TechnicalResourceDetailsReference>
 					<ImageCodecType>JPEG</ImageCodecType>
+					<ImageHeight>1500</ImageHeight>
+					<ImageWidth>1500</ImageWidth>
 					<File>
 						<FileName>{{ album.album_ubc }}.jpg</FileName>
 						<FilePath>resources/</FilePath>
@@ -121,38 +184,41 @@
 			</ReleaseId>
 			<ReleaseReference>R0</ReleaseReference>
 			<ReferenceTitle>
-				<TitleText>{{ album.album_name }} - {{ album.album_name_a }}</TitleText>
+				<TitleText>{{ album.album_name }}{{ if (album.album_name_a | string.strip) != "" }} - {{ album.album_name_a }}{{ end }}</TitleText>
 			</ReferenceTitle>
 			<ReleaseResourceReferenceList>
 				{{~ for asset in album.asset_list ~}}
-				<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A{{asset.track_num}}</ReleaseResourceReference>
+				<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A{{ asset.track_num }}</ReleaseResourceReference>
 				{{~ end ~}}
-				<ReleaseResourceReference ReleaseResourceType="SecondaryResource">A{{album.image_num}}</ReleaseResourceReference>
+				<ReleaseResourceReference ReleaseResourceType="SecondaryResource">A{{ album.image_num }}</ReleaseResourceReference>
 			</ReleaseResourceReferenceList>
-			<ReleaseType>{{album.release_type}}</ReleaseType>
+			<ReleaseType>{{ album.release_type }}</ReleaseType>
 			<ReleaseDetailsByTerritory>
 				{{~ for country_code in album.country_iso_code_list_string ~}}
 				<TerritoryCode>{{ country_code }}</TerritoryCode>
 				{{~ end ~}}
-				<DisplayArtistName>{{album.album_artist}}</DisplayArtistName>
-				<LabelName>{{album.label_name}}</LabelName>
-				<Title TitleType="DisplayTitle">
-					<TitleText>{{ album.album_name }} - {{ album.album_name_a }}</TitleText>
+				<DisplayArtistName>{{ album.album_artist }}</DisplayArtistName>
+				<LabelName>{{ album.label_name }}</LabelName>
+				<Title TitleType="FormalTitle">
+					<TitleText>{{ album.album_name }}{{ if (album.album_name_a | string.strip) != "" }} - {{ album.album_name_a }}{{ end }}</TitleText>
 				</Title>
-				{{~ for track_artist in album.track_artist_list_string ~}}
+				<Title TitleType="DisplayTitle">
+					<TitleText>{{ album.album_name }}{{ if (album.album_name_a | string.strip) != "" }} - {{ album.album_name_a }}{{ end }}</TitleText>
+				</Title>
+				{{~ for album_artist in album.album_artist_list_string ~}}
 				<DisplayArtist>
 					<PartyName>
-						<FullName>{{ track_artist.name }}</FullName>
+						<FullName>{{ album_artist.name }}</FullName>
 					</PartyName>
 					<ArtistRole>MainArtist</ArtistRole>
 				</DisplayArtist>
 				{{~ end ~}}
-				{{ for track_featured_artist in album.track_featured_artist_list_string }}
+				{{~ for album_featured_artist in album.album_featured_artist_list_string ~}}
 				<DisplayArtist>
 					<PartyName>
-						<FullName>{{ track_featured_artist.name }}</FullName>
+						<FullName>{{ album_featured_artist.name }}</FullName>
 					</PartyName>
-					<ArtistRole>MainArtist</ArtistRole>
+					<ArtistRole>FeaturedArtist</ArtistRole>
 				</DisplayArtist>
 				{{~ end ~}}
 				<ParentalWarningType>NotExplicit</ParentalWarningType>
@@ -161,14 +227,15 @@
 						<SequenceNumber>1</SequenceNumber>
 						{{~ for asset in album.asset_list ~}}
 						<ResourceGroupContentItem>
-							<SequenceNumber>{{asset.track_num}}</SequenceNumber>
+							<SequenceNumber>{{ asset.track_num }}</SequenceNumber>
 							<ResourceType>SoundRecording</ResourceType>
-							<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A{{asset.track_num}}</ReleaseResourceReference>
+							<ReleaseResourceReference>A{{ asset.track_num }}</ReleaseResourceReference>
 						</ResourceGroupContentItem>
 						{{~ end ~}}
 						<ResourceGroupContentItem>
+							<SequenceNumber>2</SequenceNumber>
 							<ResourceType>Image</ResourceType>
-							<ReleaseResourceReference ReleaseResourceType="SecondaryResource">A{{ album.image_num }}</ReleaseResourceReference>
+							<ReleaseResourceReference>A{{ album.image_num }}</ReleaseResourceReference>
 						</ResourceGroupContentItem>
 					</ResourceGroup>
 				</ResourceGroup>
@@ -176,6 +243,7 @@
 					<GenreText>{{ album.track_genre }}</GenreText>
 				</Genre>
 				<OriginalReleaseDate>{{ album.release_date }}</OriginalReleaseDate>
+				<Keywords>{{ album.track_genre }},{{ album.album_name }}{{ if (album.album_name_a | string.strip) != "" }},{{ album.album_name_a }}{{ end }},{{ album.album_artist }}</Keywords>
 			</ReleaseDetailsByTerritory>
 			<PLine>
 				<Year>{{ album.release_year }}</Year>
@@ -193,7 +261,7 @@
 			</ReleaseId>
 			<ReleaseReference>R{{ asset.track_num }}</ReleaseReference>
 			<ReferenceTitle>
-				<TitleText>{{ asset.track_name }} - {{ asset.track_name_a }}</TitleText>
+				<TitleText>{{ asset.track_name }}{{ if (asset.track_name_a | string.strip) != "" }} - {{ asset.track_name_a }}{{ end }}</TitleText>
 			</ReferenceTitle>
 			<ReleaseResourceReferenceList>
 				<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A{{ asset.track_num }}</ReleaseResourceReference>
@@ -205,8 +273,11 @@
 				{{~ end ~}}
 				<DisplayArtistName>{{ asset.track_artist }}</DisplayArtistName>
 				<LabelName>{{ asset.label_name }}</LabelName>
+				<Title TitleType="FormalTitle">
+					<TitleText>{{ asset.track_name }}{{ if (asset.track_name_a | string.strip) != "" }} - {{ asset.track_name_a }}{{ end }}</TitleText>
+				</Title>
 				<Title TitleType="DisplayTitle">
-					<TitleText>{{ asset.track_name }} - {{ asset.track_name_a }}</TitleText>
+					<TitleText>{{ asset.track_name }}{{ if (asset.track_name_a | string.strip) != "" }} - {{ asset.track_name_a }}{{ end }}</TitleText>
 				</Title>
 				{{~ for track_artist in asset.track_artist_list_string ~}}
 				<DisplayArtist>
@@ -216,42 +287,76 @@
 					<ArtistRole>MainArtist</ArtistRole>
 				</DisplayArtist>
 				{{~ end ~}}
-				{{ for track_featured_artist in asset.track_featured_artist_list_string }}
+				{{~ for track_featured_artist in asset.track_featured_artist_list_string ~}}
 				<DisplayArtist>
 					<PartyName>
-						<FullName>{{ track_featured_artist.name  }}</FullName>
+						<FullName>{{ track_featured_artist.name }}</FullName>
 					</PartyName>
-					<ArtistRole>MainArtist</ArtistRole>
+					<ArtistRole>FeaturedArtist</ArtistRole>
 				</DisplayArtist>
 				{{~ end ~}}
+				{{~ if asset.composer_list_string ~}}
+				{{~ for comp in asset.composer_list_string ~}}
 				<IndirectResourceContributor>
 					<PartyName>
-						<FullName>{{ asset.composer }}</FullName>
+						<FullName>{{ comp | string.strip }}</FullName>
 					</PartyName>
 					<IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
 				</IndirectResourceContributor>
+				{{~ end ~}}
+				{{~ else ~}}
 				<IndirectResourceContributor>
 					<PartyName>
-						<FullName>{{asset.lyrics}}</FullName>
+						<FullName/>
+					</PartyName>
+					<IndirectResourceContributorRole>Composer</IndirectResourceContributorRole>
+				</IndirectResourceContributor>
+				{{~ end ~}}
+				{{~ if asset.lyrics_list_string ~}}
+				{{~ for lyr in asset.lyrics_list_string ~}}
+				<IndirectResourceContributor>
+					<PartyName>
+						<FullName>{{ lyr | string.strip }}</FullName>
 					</PartyName>
 					<IndirectResourceContributorRole>Lyricist</IndirectResourceContributorRole>
 				</IndirectResourceContributor>
+				{{~ end ~}}
+				{{~ else ~}}
 				<IndirectResourceContributor>
 					<PartyName>
-						<FullName>{{asset.arrenger}}</FullName>
+						<FullName/>
+					</PartyName>
+					<IndirectResourceContributorRole>Lyricist</IndirectResourceContributorRole>
+				</IndirectResourceContributor>
+				{{~ end ~}}
+				{{~ if asset.producer_list_string ~}}
+				{{~ for prod in asset.producer_list_string ~}}
+				<IndirectResourceContributor>
+					<PartyName>
+						<FullName>{{ prod | string.strip }}</FullName>
 					</PartyName>
 					<IndirectResourceContributorRole>Producer</IndirectResourceContributorRole>
 				</IndirectResourceContributor>
+				{{~ end ~}}
+				{{~ else ~}}
+				<IndirectResourceContributor>
+					<PartyName>
+						<FullName/>
+					</PartyName>
+					<IndirectResourceContributorRole>Producer</IndirectResourceContributorRole>
+				</IndirectResourceContributor>
+				{{~ end ~}}
 				<ParentalWarningType>NotExplicit</ParentalWarningType>
 				<Genre>
-					<GenreText>{{asset.track_genre}}</GenreText>
+					<GenreText>{{ asset.track_genre }}</GenreText>
 				</Genre>
-				<OriginalReleaseDate>{{ asset.release_date}}</OriginalReleaseDate>
+				<OriginalReleaseDate>{{ asset.release_date }}</OriginalReleaseDate>
+				<Keywords>{{ asset.track_genre }},{{ asset.track_name }}{{ if (asset.track_name_a | string.strip) != "" }},{{ asset.track_name_a }}{{ end }},{{ asset.track_artist }}</Keywords>
 			</ReleaseDetailsByTerritory>
 			<LanguageOfPerformance>en</LanguageOfPerformance>
 			<PLine>
-				<Year>{{ asset.release_year}}</Year>
-				<PLineText>{{ asset.release_year}} {{ asset.label_name}}</PLineText>
+				<Year>{{ asset.release_year }}</Year>
+				<PLineText>{{ asset.release_year }} {{ asset.label_name }}</PLineText>
 			</PLine>
 		</Release>
 		{{~ end ~}}
@@ -261,67 +366,54 @@
 			<DealReleaseReference>R0</DealReleaseReference>
 			<Deal>
 				<DealTerms>
-					<CommercialModelType>SubscriptionModel</CommercialModelType>
-					<Usage>
-						<UseType>ConditionalDownload</UseType>
-						<UseType>OnDemandStream</UseType>
-					</Usage>
-					{{~ for country_code in album.country_iso_code_list_string ~}}
-					<TerritoryCode>{{ country_code }}</TerritoryCode>
-					{{~ end ~}}				
-					<ValidityPeriod>
-						<StartDateTime>{{album.start_date}}</StartDateTime>
-					</ValidityPeriod>
-				</DealTerms>
-			</Deal>
-			<Deal>
-				<DealTerms>
 					<CommercialModelType>AdvertisementSupportedModel</CommercialModelType>
 					<Usage>
 						<UseType>OnDemandStream</UseType>
 					</Usage>
 					{{~ for country_code in album.country_iso_code_list_string ~}}
 					<TerritoryCode>{{ country_code }}</TerritoryCode>
-					{{~ end ~}}	
+					{{~ end ~}}
 					<ValidityPeriod>
-						<StartDateTime>{{album.start_date}}</StartDateTime>
+						<StartDate>{{ album.start_date }}T{{ album.start_time }}Z</StartDate>
 					</ValidityPeriod>
 				</DealTerms>
 			</Deal>
+			<EffectiveDate>{{ album.start_date }}T{{ album.start_time }}Z</EffectiveDate>
 		</ReleaseDeal>
 		{{~ for asset in album.asset_list ~}}
+		{{~ for country_code in asset.country_iso_code_list_string ~}}
 		<ReleaseDeal>
-			<DealReleaseReference>R{{asset.track_num}}</DealReleaseReference>
-			<Deal>
-				<DealTerms>
-					<CommercialModelType>SubscriptionModel</CommercialModelType>
-					<Usage>
-						<UseType>ConditionalDownload</UseType>
-						<UseType>OnDemandStream</UseType>
-					</Usage>
-					{{~ for country_code in asset.country_iso_code_list_string ~}}
-					<TerritoryCode>{{ country_code }}</TerritoryCode>
-					{{~ end ~}}	
-					<ValidityPeriod>
-						<StartDateTime>{{asset.start_date}}</StartDateTime>
-					</ValidityPeriod>
-				</DealTerms>
-			</Deal>
+			<DealReleaseReference>R{{ asset.track_num }}</DealReleaseReference>
 			<Deal>
 				<DealTerms>
 					<CommercialModelType>AdvertisementSupportedModel</CommercialModelType>
 					<Usage>
 						<UseType>OnDemandStream</UseType>
 					</Usage>
-					{{~ for country_code in asset.country_iso_code_list_string ~}}
 					<TerritoryCode>{{ country_code }}</TerritoryCode>
-					{{~ end ~}}	
 					<ValidityPeriod>
-						<StartDateTime>{{asset.start_date}}</StartDateTime>
+						<StartDate>{{ asset.start_date }}T{{ asset.start_time }}Z</StartDate>
 					</ValidityPeriod>
 				</DealTerms>
 			</Deal>
+			<Deal>
+				<DealTerms>
+					<CommercialModelType>RightsClaimModel</CommercialModelType>
+					<Usage>
+						<UseType>UserMakeAvailableUserProvided</UseType>
+					</Usage>
+					<TerritoryCode>{{ country_code }}</TerritoryCode>
+					<ValidityPeriod>
+						<StartDateTime>{{ asset.start_date }}T{{ asset.start_time }}Z</StartDateTime>
+					</ValidityPeriod>
+					<RightsClaimPolicy>
+						<RightsClaimPolicyType>Monetize</RightsClaimPolicyType>
+					</RightsClaimPolicy>
+				</DealTerms>
+			</Deal>
+			<EffectiveDate>{{ asset.start_date }}T{{ asset.start_time }}Z</EffectiveDate>
 		</ReleaseDeal>
+		{{~ end ~}}
 		{{~ end ~}}
 	</DealList>
 </ernm:NewReleaseMessage>

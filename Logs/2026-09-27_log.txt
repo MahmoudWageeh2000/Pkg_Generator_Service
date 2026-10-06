@@ -1,0 +1,199 @@
+27/09/2026 11:38:14 ص: Starting XML generation for package ID: 10591, Filename: SnapChat_XML_Template.xml, Company: Snapchat
+27/09/2026 11:38:14 ص: Success: fetched package info for ID: 10591
+27/09/2026 11:38:14 ص: Processing group with Album UPC: 9681001007352
+27/09/2026 11:38:14 ص: Starting GetFolderPaths...
+27/09/2026 11:38:14 ص: Fetching package folder for company: Snapchat
+27/09/2026 11:38:14 ص: Sucsses: PackageFolder set to: 20260927113814592
+27/09/2026 11:38:14 ص: Sucsses: Fetching resources folder for company: Snapchat
+27/09/2026 11:38:14 ص: Sucsses: ResourcesFolder set to: 20260927113814592\9681001007352\resources
+27/09/2026 11:38:14 ص: Sucsses: Fetching metadata file path for company: Snapchat
+27/09/2026 11:38:14 ص: Sucsses: MetadataFile path set to: 20260927113814592\9681001007352\9681001007352.xml
+27/09/2026 11:38:14 ص: Sucsses: Final PackageFolder path: 10591\20260927113814592
+27/09/2026 11:38:14 ص: Sucsses: Final ResourcesFolder path: 10591\20260927113814592\9681001007352\resources
+27/09/2026 11:38:14 ص: Sucsses: Retrieved folder paths for package: 10591
+27/09/2026 11:38:14 ص: Starting GetCover...
+27/09/2026 11:38:14 ص: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+27/09/2026 11:38:14 ص: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+27/09/2026 11:38:14 ص: Sucsses: Created directory: C:\Pkg_Output\snapchat\10591\20260927113814592\9681001007352\resources
+27/09/2026 11:38:15 ص: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+27/09/2026 11:38:15 ص: Sucsses: Copied cover file to: C:\Pkg_Output\snapchat\10591\20260927113814592\9681001007352\resources\9681001007352.jpg
+27/09/2026 11:38:15 ص: Start Getting Media For package info: 10591
+27/09/2026 11:38:34 ص: Media data generated successfully.
+27/09/2026 11:38:34 ص: Error: generating XML for package: Index and length must refer to a location within the string. (Parameter length)
+27/09/2026 11:38:34 ص: There is Some errors in The PKG
+27/09/2026 11:39:26 ص: Starting XML generation for package ID: 10601, Filename: SnapChat_XML_Template.xml, Company: Snapchat
+27/09/2026 11:39:27 ص: Success: fetched package info for ID: 10601
+27/09/2026 11:39:27 ص: Processing group with Album UPC: 9681001007352
+27/09/2026 11:39:27 ص: Starting GetFolderPaths...
+27/09/2026 11:39:27 ص: Fetching package folder for company: Snapchat
+27/09/2026 11:39:27 ص: Sucsses: PackageFolder set to: 20260927113834921
+27/09/2026 11:39:27 ص: Sucsses: Fetching resources folder for company: Snapchat
+27/09/2026 11:39:27 ص: Sucsses: ResourcesFolder set to: 20260927113834921\9681001007352\resources
+27/09/2026 11:39:27 ص: Sucsses: Fetching metadata file path for company: Snapchat
+27/09/2026 11:39:27 ص: Sucsses: MetadataFile path set to: 20260927113834921\9681001007352\9681001007352.xml
+27/09/2026 11:39:27 ص: Sucsses: Final PackageFolder path: 10601\20260927113834921
+27/09/2026 11:39:27 ص: Sucsses: Final ResourcesFolder path: 10601\20260927113834921\9681001007352\resources
+27/09/2026 11:39:27 ص: Sucsses: Retrieved folder paths for package: 10601
+27/09/2026 11:39:27 ص: Starting GetCover...
+27/09/2026 11:39:27 ص: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+27/09/2026 11:39:27 ص: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+27/09/2026 11:39:27 ص: Sucsses: Created directory: C:\Pkg_Output\snapchat\10601\20260927113834921\9681001007352\resources
+27/09/2026 11:39:27 ص: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+27/09/2026 11:39:27 ص: Sucsses: Copied cover file to: C:\Pkg_Output\snapchat\10601\20260927113834921\9681001007352\resources\9681001007352.jpg
+27/09/2026 11:39:27 ص: Start Getting Media For package info: 10601
+27/09/2026 11:39:50 ص: Media data generated successfully.
+27/09/2026 11:39:50 ص: Success: generated XML for package ID: 10601
+27/09/2026 11:42:04 ص: Starting XML generation for package ID: 10611, Filename: SnapChat_XML_Template.xml, Company: Snapchat
+27/09/2026 11:42:04 ص: Success: fetched package info for ID: 10611
+27/09/2026 11:42:04 ص: Processing group with Album UPC: 9681001007352
+27/09/2026 11:42:04 ص: Starting GetFolderPaths...
+27/09/2026 11:42:04 ص: Fetching package folder for company: Snapchat
+27/09/2026 11:42:04 ص: Sucsses: PackageFolder set to: 20260927113950230
+27/09/2026 11:42:04 ص: Sucsses: Fetching resources folder for company: Snapchat
+27/09/2026 11:42:04 ص: Sucsses: ResourcesFolder set to: 20260927113950230\9681001007352\resources
+27/09/2026 11:42:04 ص: Sucsses: Fetching metadata file path for company: Snapchat
+27/09/2026 11:42:04 ص: Sucsses: MetadataFile path set to: 20260927113950230\9681001007352\9681001007352.xml
+27/09/2026 11:42:04 ص: Sucsses: Final PackageFolder path: 10611\20260927113950230
+27/09/2026 11:42:04 ص: Sucsses: Final ResourcesFolder path: 10611\20260927113950230\9681001007352\resources
+27/09/2026 11:42:04 ص: Sucsses: Retrieved folder paths for package: 10611
+27/09/2026 11:42:04 ص: Starting GetCover...
+27/09/2026 11:42:04 ص: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+27/09/2026 11:42:04 ص: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+27/09/2026 11:42:04 ص: Sucsses: Created directory: C:\Pkg_Output\snapchat\10611\20260927113950230\9681001007352\resources
+27/09/2026 11:42:05 ص: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+27/09/2026 11:42:05 ص: Sucsses: Copied cover file to: C:\Pkg_Output\snapchat\10611\20260927113950230\9681001007352\resources\9681001007352.jpg
+27/09/2026 11:42:05 ص: Start Getting Media For package info: 10611
+27/09/2026 11:42:14 ص: Media data generated successfully.
+27/09/2026 11:42:14 ص: Error: generating XML for package: Value cannot be null. (Parameter source)
+27/09/2026 11:42:14 ص: There is Some errors in The PKG
+27/09/2026 11:43:32 ص: Starting XML generation for package ID: 10621, Filename: SnapChat_XML_Template.xml, Company: Snapchat
+27/09/2026 11:43:32 ص: Success: fetched package info for ID: 10621
+27/09/2026 11:43:32 ص: Processing group with Album UPC: 9681001007352
+27/09/2026 11:43:32 ص: Starting GetFolderPaths...
+27/09/2026 11:43:32 ص: Fetching package folder for company: Snapchat
+27/09/2026 11:43:32 ص: Sucsses: PackageFolder set to: 20260927114214965
+27/09/2026 11:43:32 ص: Sucsses: Fetching resources folder for company: Snapchat
+27/09/2026 11:43:32 ص: Sucsses: ResourcesFolder set to: 20260927114214965\9681001007352\resources
+27/09/2026 11:43:32 ص: Sucsses: Fetching metadata file path for company: Snapchat
+27/09/2026 11:43:32 ص: Sucsses: MetadataFile path set to: 20260927114214965\9681001007352\9681001007352.xml
+27/09/2026 11:43:32 ص: Sucsses: Final PackageFolder path: 10621\20260927114214965
+27/09/2026 11:43:32 ص: Sucsses: Final ResourcesFolder path: 10621\20260927114214965\9681001007352\resources
+27/09/2026 11:43:32 ص: Sucsses: Retrieved folder paths for package: 10621
+27/09/2026 11:43:32 ص: Starting GetCover...
+27/09/2026 11:43:32 ص: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+27/09/2026 11:43:32 ص: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+27/09/2026 11:43:32 ص: Sucsses: Created directory: C:\Pkg_Output\snapchat\10621\20260927114214965\9681001007352\resources
+27/09/2026 11:43:32 ص: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+27/09/2026 11:43:32 ص: Sucsses: Copied cover file to: C:\Pkg_Output\snapchat\10621\20260927114214965\9681001007352\resources\9681001007352.jpg
+27/09/2026 11:43:32 ص: Start Getting Media For package info: 10621
+27/09/2026 11:43:40 ص: Media data generated successfully.
+27/09/2026 11:43:40 ص: Error: generating XML for package: <input>(87,25) : error : Cannot get the member asset.track_name for a null object.
+27/09/2026 11:43:40 ص: There is Some errors in The PKG
+27/09/2026 11:46:11 ص: Starting XML generation for package ID: 10631, Filename: SnapChat_XML_Template.xml, Company: Snapchat
+27/09/2026 11:46:11 ص: Success: fetched package info for ID: 10631
+27/09/2026 11:46:11 ص: Processing group with Album UPC: 9681001007352
+27/09/2026 11:46:11 ص: Starting GetFolderPaths...
+27/09/2026 11:46:11 ص: Fetching package folder for company: Snapchat
+27/09/2026 11:46:11 ص: Sucsses: PackageFolder set to: 20260927114340647
+27/09/2026 11:46:11 ص: Sucsses: Fetching resources folder for company: Snapchat
+27/09/2026 11:46:11 ص: Sucsses: ResourcesFolder set to: 20260927114340647\9681001007352\resources
+27/09/2026 11:46:11 ص: Sucsses: Fetching metadata file path for company: Snapchat
+27/09/2026 11:46:11 ص: Sucsses: MetadataFile path set to: 20260927114340647\9681001007352\9681001007352.xml
+27/09/2026 11:46:11 ص: Sucsses: Final PackageFolder path: 10631\20260927114340647
+27/09/2026 11:46:11 ص: Sucsses: Final ResourcesFolder path: 10631\20260927114340647\9681001007352\resources
+27/09/2026 11:46:11 ص: Sucsses: Retrieved folder paths for package: 10631
+27/09/2026 11:46:11 ص: Starting GetCover...
+27/09/2026 11:46:11 ص: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+27/09/2026 11:46:11 ص: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+27/09/2026 11:46:11 ص: Sucsses: Created directory: C:\Pkg_Output\snapchat\10631\20260927114340647\9681001007352\resources
+27/09/2026 11:46:12 ص: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+27/09/2026 11:46:12 ص: Sucsses: Copied cover file to: C:\Pkg_Output\snapchat\10631\20260927114340647\9681001007352\resources\9681001007352.jpg
+27/09/2026 11:46:12 ص: Start Getting Media For package info: 10631
+27/09/2026 11:46:20 ص: Media data generated successfully.
+27/09/2026 11:46:20 ص: Success: generated XML for package ID: 10631
+27/09/2026 11:53:29 ص: Starting XML generation for package ID: 10641, Filename: SnapChat_XML_Template.xml, Company: Snapchat
+27/09/2026 11:53:29 ص: Success: fetched package info for ID: 10641
+27/09/2026 11:53:29 ص: Processing group with Album UPC: 9681001007352
+27/09/2026 11:53:29 ص: Starting GetFolderPaths...
+27/09/2026 11:53:29 ص: Fetching package folder for company: Snapchat
+27/09/2026 11:53:29 ص: Sucsses: PackageFolder set to: 20260927114620931
+27/09/2026 11:53:29 ص: Sucsses: Fetching resources folder for company: Snapchat
+27/09/2026 11:53:29 ص: Sucsses: ResourcesFolder set to: 20260927114620931\9681001007352\resources
+27/09/2026 11:53:29 ص: Sucsses: Fetching metadata file path for company: Snapchat
+27/09/2026 11:53:29 ص: Sucsses: MetadataFile path set to: 20260927114620931\9681001007352\9681001007352.xml
+27/09/2026 11:53:29 ص: Sucsses: Final PackageFolder path: 10641\20260927114620931
+27/09/2026 11:53:29 ص: Sucsses: Final ResourcesFolder path: 10641\20260927114620931\9681001007352\resources
+27/09/2026 11:53:29 ص: Sucsses: Retrieved folder paths for package: 10641
+27/09/2026 11:53:29 ص: Starting GetCover...
+27/09/2026 11:53:29 ص: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+27/09/2026 11:53:29 ص: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+27/09/2026 11:53:29 ص: Sucsses: Created directory: C:\Pkg_Output\snapchat\10641\20260927114620931\9681001007352\resources
+27/09/2026 11:53:30 ص: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+27/09/2026 11:53:30 ص: Sucsses: Copied cover file to: C:\Pkg_Output\snapchat\10641\20260927114620931\9681001007352\resources\9681001007352.jpg
+27/09/2026 11:53:30 ص: Start Getting Media For package info: 10641
+27/09/2026 11:53:40 ص: Media data generated successfully.
+27/09/2026 11:53:40 ص: Success: generated XML for package ID: 10641
+27/09/2026 11:57:35 ص: Starting XML generation for package ID: 10651, Filename: SnapChat_XML_Template.xml, Company: Snapchat
+27/09/2026 11:57:35 ص: Success: fetched package info for ID: 10651
+27/09/2026 11:57:35 ص: Processing group with Album UPC: 9681001007352
+27/09/2026 11:57:35 ص: Starting GetFolderPaths...
+27/09/2026 11:57:35 ص: Fetching package folder for company: Snapchat
+27/09/2026 11:57:35 ص: Sucsses: PackageFolder set to: 20260927115340402
+27/09/2026 11:57:35 ص: Sucsses: Fetching resources folder for company: Snapchat
+27/09/2026 11:57:35 ص: Sucsses: ResourcesFolder set to: 20260927115340402\9681001007352\resources
+27/09/2026 11:57:35 ص: Sucsses: Fetching metadata file path for company: Snapchat
+27/09/2026 11:57:35 ص: Sucsses: MetadataFile path set to: 20260927115340402\9681001007352\9681001007352.xml
+27/09/2026 11:57:35 ص: Sucsses: Final PackageFolder path: 10651\20260927115340402
+27/09/2026 11:57:35 ص: Sucsses: Final ResourcesFolder path: 10651\20260927115340402\9681001007352\resources
+27/09/2026 11:57:35 ص: Sucsses: Retrieved folder paths for package: 10651
+27/09/2026 11:57:35 ص: Starting GetCover...
+27/09/2026 11:57:35 ص: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+27/09/2026 11:57:35 ص: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+27/09/2026 11:57:35 ص: Sucsses: Created directory: C:\Pkg_Output\snapchat\10651\20260927115340402\9681001007352\resources
+27/09/2026 11:57:36 ص: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+27/09/2026 11:57:36 ص: Sucsses: Copied cover file to: C:\Pkg_Output\snapchat\10651\20260927115340402\9681001007352\resources\9681001007352.jpg
+27/09/2026 11:57:36 ص: Start Getting Media For package info: 10651
+27/09/2026 11:57:45 ص: Media data generated successfully.
+27/09/2026 11:57:45 ص: Success: generated XML for package ID: 10651
+27/09/2026 05:43:30 م: Starting XLS generation for package ID: 10661, Filename: Virgo.xltx, Company: Digital Virgo-Audio
+27/09/2026 05:43:30 م: Starting GetFolderPaths...
+27/09/2026 05:43:30 م: Fetching package folder for company: Digital Virgo-Audio
+27/09/2026 05:43:30 م: Sucsses: PackageFolder set to: 20260927174330
+27/09/2026 05:43:30 م: Sucsses: Fetching resources folder for company: Digital Virgo-Audio
+27/09/2026 05:43:30 م: Sucsses: ResourcesFolder set to: 20260927174330\Karim Heraje_Takbirat El Eid
+27/09/2026 05:43:30 م: Sucsses: Fetching metadata file path for company: Digital Virgo-Audio
+27/09/2026 05:43:30 م: Sucsses: MetadataFile path set to: 20260927174330\metadata.xls
+27/09/2026 05:43:30 م: Sucsses: Final PackageFolder path: 10661\20260927174330
+27/09/2026 05:43:30 م: Sucsses: Final ResourcesFolder path: 10661\20260927174330\Karim Heraje_Takbirat El Eid
+27/09/2026 05:43:30 م: Sucsses: Copied \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117113184.jpg to C:\Pkg_Output\Digital Virgo-Audio\10661\20260927174330\Karim Heraje_Takbirat El Eid\Karim Heraje_Takbirat El Eid.jpg
+27/09/2026 05:43:30 م: Sucsses: Copied \\10.1.1.26\Data\FTP_Data\AudioLibrary\MP3\EGA010553758.mp3 to C:\Pkg_Output\Digital Virgo-Audio\10661\20260927174330\Karim Heraje_Takbirat El Eid\Karim Heraje_Takbirat El Eid.mp3
+27/09/2026 05:43:38 م: Error: generating XLS for package: Method not found: System.IO.MemoryStream Microsoft.IO.RecyclableMemoryStreamManager.GetStream().
+27/09/2026 05:43:38 م: There is Some errors in The PKG
+27/09/2026 05:45:37 م: Starting XLS generation for package ID: 10671, Filename: Virgo.xltx, Company: Digital Virgo-Audio
+27/09/2026 05:45:37 م: Starting GetFolderPaths...
+27/09/2026 05:45:37 م: Fetching package folder for company: Digital Virgo-Audio
+27/09/2026 05:45:37 م: Sucsses: PackageFolder set to: 20260927174537
+27/09/2026 05:45:37 م: Sucsses: Fetching resources folder for company: Digital Virgo-Audio
+27/09/2026 05:45:37 م: Sucsses: ResourcesFolder set to: 20260927174537\Karim Heraje_Takbirat El Eid
+27/09/2026 05:45:37 م: Sucsses: Fetching metadata file path for company: Digital Virgo-Audio
+27/09/2026 05:45:37 م: Sucsses: MetadataFile path set to: 20260927174537\metadata.xls
+27/09/2026 05:45:37 م: Sucsses: Final PackageFolder path: 10671\20260927174537
+27/09/2026 05:45:37 م: Sucsses: Final ResourcesFolder path: 10671\20260927174537\Karim Heraje_Takbirat El Eid
+27/09/2026 05:45:37 م: Sucsses: Copied \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117113184.jpg to C:\Pkg_Output\Digital Virgo-Audio\10671\20260927174537\Karim Heraje_Takbirat El Eid\Karim Heraje_Takbirat El Eid.jpg
+27/09/2026 05:45:37 م: Sucsses: Copied \\10.1.1.26\Data\FTP_Data\AudioLibrary\MP3\EGA010553758.mp3 to C:\Pkg_Output\Digital Virgo-Audio\10671\20260927174537\Karim Heraje_Takbirat El Eid\Karim Heraje_Takbirat El Eid.mp3
+27/09/2026 05:45:37 م: Error: generating XLS for package: Sequence contains no elements
+27/09/2026 05:45:37 م: There is Some errors in The PKG
+27/09/2026 05:50:53 م: Starting XLS generation for package ID: 10681, Filename: Virgo.xltx, Company: Digital Virgo-Audio
+27/09/2026 05:50:53 م: Starting GetFolderPaths...
+27/09/2026 05:50:53 م: Fetching package folder for company: Digital Virgo-Audio
+27/09/2026 05:50:53 م: Sucsses: PackageFolder set to: 20260927175053
+27/09/2026 05:50:53 م: Sucsses: Fetching resources folder for company: Digital Virgo-Audio
+27/09/2026 05:50:53 م: Sucsses: ResourcesFolder set to: 20260927175053\Karim Heraje_Takbirat El Eid
+27/09/2026 05:50:53 م: Sucsses: Fetching metadata file path for company: Digital Virgo-Audio
+27/09/2026 05:50:53 م: Sucsses: MetadataFile path set to: 20260927175053\metadata.xls
+27/09/2026 05:50:53 م: Sucsses: Final PackageFolder path: 10681\20260927175053
+27/09/2026 05:50:53 م: Sucsses: Final ResourcesFolder path: 10681\20260927175053\Karim Heraje_Takbirat El Eid
+27/09/2026 05:50:53 م: Sucsses: Copied \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117113184.jpg to C:\Pkg_Output\Digital Virgo-Audio\10681\20260927175053\Karim Heraje_Takbirat El Eid\Karim Heraje_Takbirat El Eid.jpg
+27/09/2026 05:50:54 م: Sucsses: Copied \\10.1.1.26\Data\FTP_Data\AudioLibrary\MP3\EGA010553758.mp3 to C:\Pkg_Output\Digital Virgo-Audio\10681\20260927175053\Karim Heraje_Takbirat El Eid\Karim Heraje_Takbirat El Eid.mp3
+27/09/2026 05:50:54 م: Error: generating XLS for package: Template not found: D:\Apps\Pkg_Generator_Service\Templates\Takedown\Virgo.xltx
+27/09/2026 05:50:54 م: There is Some errors in The PKG

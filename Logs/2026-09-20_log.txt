@@ -1,0 +1,390 @@
+20/09/2026 11:53:50 ص: Starting XML generation for package ID: 10181, Filename: Tidal_XML_Template.xml, Company: Tidal
+20/09/2026 11:53:50 ص: Success: fetched package info for ID: 10181
+20/09/2026 11:53:50 ص: Processing group with Album UPC: 9681001007352
+20/09/2026 11:53:50 ص: Starting GetFolderPaths...
+20/09/2026 11:53:50 ص: Fetching package folder for company: Tidal
+20/09/2026 11:53:50 ص: Sucsses: PackageFolder set to: 20260920115350712
+20/09/2026 11:53:50 ص: Sucsses: Fetching resources folder for company: Tidal
+20/09/2026 11:53:50 ص: Sucsses: ResourcesFolder set to: 20260920115350712\9681001007352\resources
+20/09/2026 11:53:50 ص: Sucsses: Fetching metadata file path for company: Tidal
+20/09/2026 11:53:50 ص: Sucsses: MetadataFile path set to: 20260920115350712\9681001007352\9681001007352.xml
+20/09/2026 11:53:50 ص: Sucsses: Final PackageFolder path: 10181\20260920115350712
+20/09/2026 11:53:50 ص: Sucsses: Final ResourcesFolder path: 10181\20260920115350712\9681001007352\resources
+20/09/2026 11:53:50 ص: Sucsses: Retrieved folder paths for package: 10181
+20/09/2026 11:53:50 ص: Starting GetCover...
+20/09/2026 11:53:54 ص: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 11:53:54 ص: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 11:53:54 ص: Sucsses: Created directory: C:\Pkg_Output\tidal\10181\20260920115350712\9681001007352\resources
+20/09/2026 11:53:54 ص: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 11:53:54 ص: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\10181\20260920115350712\9681001007352\resources\9681001007352_T2.jpg
+20/09/2026 11:53:54 ص: Start Getting Media For package info: 10181
+20/09/2026 11:54:09 ص: Media data generated successfully.
+20/09/2026 11:54:10 ص: Success: generated XML for package ID: 10181
+20/09/2026 12:04:08 م: Starting XML generation for package ID: 10191, Filename: Tidal_XML_Template.xml, Company: Tidal
+20/09/2026 12:04:08 م: Success: fetched package info for ID: 10191
+20/09/2026 12:04:08 م: Processing group with Album UPC: 9681001007352
+20/09/2026 12:04:08 م: Starting GetFolderPaths...
+20/09/2026 12:04:08 م: Fetching package folder for company: Tidal
+20/09/2026 12:04:08 م: Sucsses: PackageFolder set to: 20260920115410277
+20/09/2026 12:04:08 م: Sucsses: Fetching resources folder for company: Tidal
+20/09/2026 12:04:08 م: Sucsses: ResourcesFolder set to: 20260920115410277\9681001007352\resources
+20/09/2026 12:04:08 م: Sucsses: Fetching metadata file path for company: Tidal
+20/09/2026 12:04:08 م: Sucsses: MetadataFile path set to: 20260920115410277\9681001007352\9681001007352.xml
+20/09/2026 12:04:08 م: Sucsses: Final PackageFolder path: 10191\20260920115410277
+20/09/2026 12:04:08 م: Sucsses: Final ResourcesFolder path: 10191\20260920115410277\9681001007352\resources
+20/09/2026 12:04:08 م: Sucsses: Retrieved folder paths for package: 10191
+20/09/2026 12:04:08 م: Starting GetCover...
+20/09/2026 12:04:16 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 12:04:16 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 12:04:16 م: Sucsses: Created directory: C:\Pkg_Output\tidal\10191\20260920115410277\9681001007352\resources
+20/09/2026 12:04:16 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 12:04:17 م: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\10191\20260920115410277\9681001007352\resources\9681001007352_T2.jpg
+20/09/2026 12:04:17 م: Start Getting Media For package info: 10191
+20/09/2026 12:04:51 م: Media data generated successfully.
+20/09/2026 12:04:51 م: Success: generated XML for package ID: 10191
+20/09/2026 12:06:45 م: Starting XML generation for package ID: 10201, Filename: Tidal_XML_Template.xml, Company: Tidal
+20/09/2026 12:06:45 م: Success: fetched package info for ID: 10201
+20/09/2026 12:06:45 م: Processing group with Album UPC: 9681001007352
+20/09/2026 12:06:45 م: Starting GetFolderPaths...
+20/09/2026 12:06:45 م: Fetching package folder for company: Tidal
+20/09/2026 12:06:45 م: Sucsses: PackageFolder set to: 20260920120451827
+20/09/2026 12:06:45 م: Sucsses: Fetching resources folder for company: Tidal
+20/09/2026 12:06:45 م: Sucsses: ResourcesFolder set to: 20260920120451827\9681001007352\resources
+20/09/2026 12:06:45 م: Sucsses: Fetching metadata file path for company: Tidal
+20/09/2026 12:06:45 م: Sucsses: MetadataFile path set to: 20260920120451827\9681001007352\9681001007352.xml
+20/09/2026 12:06:45 م: Sucsses: Final PackageFolder path: 10201\20260920120451827
+20/09/2026 12:06:45 م: Sucsses: Final ResourcesFolder path: 10201\20260920120451827\9681001007352\resources
+20/09/2026 12:06:45 م: Sucsses: Retrieved folder paths for package: 10201
+20/09/2026 12:06:45 م: Starting GetCover...
+20/09/2026 12:06:53 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 12:06:53 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 12:06:53 م: Sucsses: Created directory: C:\Pkg_Output\tidal\10201\20260920120451827\9681001007352\resources
+20/09/2026 12:06:53 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 12:06:53 م: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\10201\20260920120451827\9681001007352\resources\9681001007352_T2.jpg
+20/09/2026 12:06:53 م: Start Getting Media For package info: 10201
+20/09/2026 12:07:15 م: Media data generated successfully.
+20/09/2026 12:07:15 م: Success: generated XML for package ID: 10201
+20/09/2026 12:24:27 م: Starting XML generation for package ID: 10211, Filename: Tidal_XML_Template.xml, Company: Tidal
+20/09/2026 12:24:28 م: Success: fetched package info for ID: 10211
+20/09/2026 12:24:28 م: Processing group with Album UPC: 9681001007352
+20/09/2026 12:24:28 م: Starting GetFolderPaths...
+20/09/2026 12:24:28 م: Fetching package folder for company: Tidal
+20/09/2026 12:24:28 م: Sucsses: PackageFolder set to: 20260920120715488
+20/09/2026 12:24:28 م: Sucsses: Fetching resources folder for company: Tidal
+20/09/2026 12:24:28 م: Sucsses: ResourcesFolder set to: 20260920120715488\9681001007352\resources
+20/09/2026 12:24:28 م: Sucsses: Fetching metadata file path for company: Tidal
+20/09/2026 12:24:28 م: Sucsses: MetadataFile path set to: 20260920120715488\9681001007352\9681001007352.xml
+20/09/2026 12:24:28 م: Sucsses: Final PackageFolder path: 10211\20260920120715488
+20/09/2026 12:24:28 م: Sucsses: Final ResourcesFolder path: 10211\20260920120715488\9681001007352\resources
+20/09/2026 12:24:28 م: Sucsses: Retrieved folder paths for package: 10211
+20/09/2026 12:24:28 م: Starting GetCover...
+20/09/2026 12:24:43 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 12:24:43 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 12:24:43 م: Sucsses: Created directory: C:\Pkg_Output\tidal\10211\20260920120715488\9681001007352\resources
+20/09/2026 12:24:44 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 12:24:44 م: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\10211\20260920120715488\9681001007352\resources\9681001007352_T2.jpg
+20/09/2026 12:24:44 م: Start Getting Media For package info: 10211
+20/09/2026 12:25:06 م: Media data generated successfully.
+20/09/2026 12:25:06 م: Success: generated XML for package ID: 10211
+20/09/2026 12:31:40 م: Starting XML generation for package ID: 10221, Filename: Tidal_XML_Template.xml, Company: Tidal
+20/09/2026 12:31:40 م: Success: fetched package info for ID: 10221
+20/09/2026 12:31:40 م: Processing group with Album UPC: 9681001007352
+20/09/2026 12:31:40 م: Starting GetFolderPaths...
+20/09/2026 12:31:40 م: Fetching package folder for company: Tidal
+20/09/2026 12:31:40 م: Sucsses: PackageFolder set to: 20260920122506315
+20/09/2026 12:31:40 م: Sucsses: Fetching resources folder for company: Tidal
+20/09/2026 12:31:40 م: Sucsses: ResourcesFolder set to: 20260920122506315\9681001007352\resources
+20/09/2026 12:31:40 م: Sucsses: Fetching metadata file path for company: Tidal
+20/09/2026 12:31:40 م: Sucsses: MetadataFile path set to: 20260920122506315\9681001007352\9681001007352.xml
+20/09/2026 12:31:40 م: Sucsses: Final PackageFolder path: 10221\20260920122506315
+20/09/2026 12:31:40 م: Sucsses: Final ResourcesFolder path: 10221\20260920122506315\9681001007352\resources
+20/09/2026 12:31:40 م: Sucsses: Retrieved folder paths for package: 10221
+20/09/2026 12:31:40 م: Starting GetCover...
+20/09/2026 12:31:48 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 12:31:48 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 12:31:48 م: Sucsses: Created directory: C:\Pkg_Output\tidal\10221\20260920122506315\9681001007352\resources
+20/09/2026 12:31:48 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 12:31:48 م: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\10221\20260920122506315\9681001007352\resources\9681001007352_T2.jpg
+20/09/2026 12:31:48 م: Start Getting Media For package info: 10221
+20/09/2026 12:32:14 م: Media data generated successfully.
+20/09/2026 12:32:14 م: Success: generated XML for package ID: 10221
+20/09/2026 12:32:27 م: Starting XML generation for package ID: 10231, Filename: Tidal_XML_Template.xml, Company: Tidal
+20/09/2026 12:32:27 م: Success: fetched package info for ID: 10231
+20/09/2026 12:32:27 م: Processing group with Album UPC: 9681001007352
+20/09/2026 12:32:27 م: Starting GetFolderPaths...
+20/09/2026 12:32:27 م: Fetching package folder for company: Tidal
+20/09/2026 12:32:27 م: Sucsses: PackageFolder set to: 20260920123214356
+20/09/2026 12:32:27 م: Sucsses: Fetching resources folder for company: Tidal
+20/09/2026 12:32:27 م: Sucsses: ResourcesFolder set to: 20260920123214356\9681001007352\resources
+20/09/2026 12:32:27 م: Sucsses: Fetching metadata file path for company: Tidal
+20/09/2026 12:32:27 م: Sucsses: MetadataFile path set to: 20260920123214356\9681001007352\9681001007352.xml
+20/09/2026 12:32:27 م: Sucsses: Final PackageFolder path: 10231\20260920123214356
+20/09/2026 12:32:27 م: Sucsses: Final ResourcesFolder path: 10231\20260920123214356\9681001007352\resources
+20/09/2026 12:32:27 م: Sucsses: Retrieved folder paths for package: 10231
+20/09/2026 12:32:27 م: Starting GetCover...
+20/09/2026 12:32:35 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 12:32:35 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 12:32:35 م: Sucsses: Created directory: C:\Pkg_Output\tidal\10231\20260920123214356\9681001007352\resources
+20/09/2026 12:32:36 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 12:32:36 م: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\10231\20260920123214356\9681001007352\resources\9681001007352_T2.jpg
+20/09/2026 12:32:36 م: Start Getting Media For package info: 10231
+20/09/2026 12:33:10 م: Media data generated successfully.
+20/09/2026 12:33:11 م: Success: generated XML for package ID: 10231
+20/09/2026 12:37:15 م: Starting XML generation for package ID: 10241, Filename: Tidal_XML_Template.xml, Company: Tidal
+20/09/2026 12:37:15 م: Success: fetched package info for ID: 10241
+20/09/2026 12:37:15 م: Processing group with Album UPC: 9681001007352
+20/09/2026 12:37:15 م: Starting GetFolderPaths...
+20/09/2026 12:37:15 م: Fetching package folder for company: Tidal
+20/09/2026 12:37:15 م: Sucsses: PackageFolder set to: 20260920123311091
+20/09/2026 12:37:15 م: Sucsses: Fetching resources folder for company: Tidal
+20/09/2026 12:37:15 م: Sucsses: ResourcesFolder set to: 20260920123311091\9681001007352\resources
+20/09/2026 12:37:15 م: Sucsses: Fetching metadata file path for company: Tidal
+20/09/2026 12:37:15 م: Sucsses: MetadataFile path set to: 20260920123311091\9681001007352\9681001007352.xml
+20/09/2026 12:37:15 م: Sucsses: Final PackageFolder path: 10241\20260920123311091
+20/09/2026 12:37:15 م: Sucsses: Final ResourcesFolder path: 10241\20260920123311091\9681001007352\resources
+20/09/2026 12:37:15 م: Sucsses: Retrieved folder paths for package: 10241
+20/09/2026 12:37:15 م: Starting GetCover...
+20/09/2026 12:37:24 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 12:37:24 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 12:37:24 م: Sucsses: Created directory: C:\Pkg_Output\tidal\10241\20260920123311091\9681001007352\resources
+20/09/2026 12:37:24 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 12:37:24 م: Sucsses: Copied cover file to: C:\Pkg_Output\tidal\10241\20260920123311091\9681001007352\resources\9681001007352_T2.jpg
+20/09/2026 12:37:24 م: Start Getting Media For package info: 10241
+20/09/2026 12:37:57 م: Media data generated successfully.
+20/09/2026 12:37:57 م: Success: generated XML for package ID: 10241
+20/09/2026 01:47:37 م: Starting XML generation for package ID: 10251, Filename: Pandora_XML_Template.xml, Company: Pandora
+20/09/2026 01:47:37 م: Success: fetched package info for ID: 10251
+20/09/2026 01:47:37 م: Processing group with Album UPC: 9681001007352
+20/09/2026 01:47:38 م: Starting GetFolderPaths...
+20/09/2026 01:47:38 م: Fetching package folder for company: Pandora
+20/09/2026 01:47:38 م: Sucsses: PackageFolder set to: 20260920123757268
+20/09/2026 01:47:38 م: Sucsses: Fetching resources folder for company: Pandora
+20/09/2026 01:47:38 م: Sucsses: ResourcesFolder set to: 20260920123757268\9681001007352\resources
+20/09/2026 01:47:38 م: Sucsses: Fetching metadata file path for company: Pandora
+20/09/2026 01:47:38 م: Sucsses: MetadataFile path set to: 20260920123757268\9681001007352\9681001007352.xml
+20/09/2026 01:47:38 م: Sucsses: Final PackageFolder path: 10251\20260920123757268
+20/09/2026 01:47:38 م: Sucsses: Final ResourcesFolder path: 10251\20260920123757268\9681001007352\resources
+20/09/2026 01:47:38 م: Sucsses: Retrieved folder paths for package: 10251
+20/09/2026 01:47:38 م: Starting GetCover...
+20/09/2026 01:47:52 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 01:47:52 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 01:47:52 م: Sucsses: Created directory: C:\Pkg_Output\pandora\10251\20260920123757268\9681001007352\resources
+20/09/2026 01:47:54 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 01:47:56 م: Sucsses: Copied cover file to: C:\Pkg_Output\pandora\10251\20260920123757268\9681001007352\resources\9681001007352.jpg
+20/09/2026 01:47:56 م: Start Getting Media For package info: 10251
+20/09/2026 01:52:28 م: Media data generated successfully.
+20/09/2026 01:52:29 م: Success: generated XML for package ID: 10251
+20/09/2026 01:54:45 م: Starting XML generation for package ID: 10261, Filename: Pandora_XML_Template.xml, Company: Pandora
+20/09/2026 01:54:45 م: Success: fetched package info for ID: 10261
+20/09/2026 01:54:45 م: Processing group with Album UPC: 9681001007352
+20/09/2026 01:54:45 م: Starting GetFolderPaths...
+20/09/2026 01:54:45 م: Fetching package folder for company: Pandora
+20/09/2026 01:54:45 م: Sucsses: PackageFolder set to: 20260920135229050
+20/09/2026 01:54:45 م: Sucsses: Fetching resources folder for company: Pandora
+20/09/2026 01:54:45 م: Sucsses: ResourcesFolder set to: 20260920135229050\9681001007352\resources
+20/09/2026 01:54:45 م: Sucsses: Fetching metadata file path for company: Pandora
+20/09/2026 01:54:45 م: Sucsses: MetadataFile path set to: 20260920135229050\9681001007352\9681001007352.xml
+20/09/2026 01:54:45 م: Sucsses: Final PackageFolder path: 10261\20260920135229050
+20/09/2026 01:54:45 م: Sucsses: Final ResourcesFolder path: 10261\20260920135229050\9681001007352\resources
+20/09/2026 01:54:45 م: Sucsses: Retrieved folder paths for package: 10261
+20/09/2026 01:54:45 م: Starting GetCover...
+20/09/2026 01:55:13 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 01:55:13 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 01:55:13 م: Sucsses: Created directory: C:\Pkg_Output\pandora\10261\20260920135229050\9681001007352\resources
+20/09/2026 01:55:15 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 01:55:18 م: Sucsses: Copied cover file to: C:\Pkg_Output\pandora\10261\20260920135229050\9681001007352\resources\9681001007352.jpg
+20/09/2026 01:55:18 م: Start Getting Media For package info: 10261
+20/09/2026 01:56:42 م: Media data generated successfully.
+20/09/2026 01:56:42 م: Success: generated XML for package ID: 10261
+20/09/2026 01:58:25 م: Starting XML generation for package ID: 10271, Filename: Pandora_XML_Template.xml, Company: Pandora
+20/09/2026 01:58:25 م: Success: fetched package info for ID: 10271
+20/09/2026 01:58:25 م: Processing group with Album UPC: 9681001007352
+20/09/2026 01:58:25 م: Starting GetFolderPaths...
+20/09/2026 01:58:25 م: Fetching package folder for company: Pandora
+20/09/2026 01:58:25 م: Sucsses: PackageFolder set to: 20260920135825911
+20/09/2026 01:58:25 م: Sucsses: Fetching resources folder for company: Pandora
+20/09/2026 01:58:25 م: Sucsses: ResourcesFolder set to: 20260920135825911\9681001007352\resources
+20/09/2026 01:58:25 م: Sucsses: Fetching metadata file path for company: Pandora
+20/09/2026 01:58:25 م: Sucsses: MetadataFile path set to: 20260920135825911\9681001007352\9681001007352.xml
+20/09/2026 01:58:25 م: Sucsses: Final PackageFolder path: 10271\20260920135825911
+20/09/2026 01:58:25 م: Sucsses: Final ResourcesFolder path: 10271\20260920135825911\9681001007352\resources
+20/09/2026 01:58:25 م: Sucsses: Retrieved folder paths for package: 10271
+20/09/2026 01:58:25 م: Starting GetCover...
+20/09/2026 01:58:33 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 01:58:33 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 01:58:33 م: Sucsses: Created directory: C:\Pkg_Output\pandora\10271\20260920135825911\9681001007352\resources
+20/09/2026 01:58:34 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 01:58:34 م: Sucsses: Copied cover file to: C:\Pkg_Output\pandora\10271\20260920135825911\9681001007352\resources\9681001007352.jpg
+20/09/2026 01:58:34 م: Start Getting Media For package info: 10271
+20/09/2026 01:59:38 م: Media data generated successfully.
+20/09/2026 01:59:38 م: Success: generated XML for package ID: 10271
+20/09/2026 02:14:08 م: Starting XML generation for package ID: 10281, Filename: Pandora_XML_Template.xml, Company: Pandora
+20/09/2026 02:14:08 م: Success: fetched package info for ID: 10281
+20/09/2026 02:14:08 م: Processing group with Album UPC: 9681001007352
+20/09/2026 02:14:08 م: Starting GetFolderPaths...
+20/09/2026 02:14:08 م: Fetching package folder for company: Pandora
+20/09/2026 02:14:08 م: Sucsses: PackageFolder set to: 20260920135938900
+20/09/2026 02:14:08 م: Sucsses: Fetching resources folder for company: Pandora
+20/09/2026 02:14:08 م: Sucsses: ResourcesFolder set to: 20260920135938900\9681001007352\resources
+20/09/2026 02:14:08 م: Sucsses: Fetching metadata file path for company: Pandora
+20/09/2026 02:14:08 م: Sucsses: MetadataFile path set to: 20260920135938900\9681001007352\9681001007352.xml
+20/09/2026 02:14:08 م: Sucsses: Final PackageFolder path: 10281\20260920135938900
+20/09/2026 02:14:08 م: Sucsses: Final ResourcesFolder path: 10281\20260920135938900\9681001007352\resources
+20/09/2026 02:14:08 م: Sucsses: Retrieved folder paths for package: 10281
+20/09/2026 02:14:09 م: Starting GetCover...
+20/09/2026 02:14:40 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 02:14:40 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 02:14:40 م: Sucsses: Created directory: C:\Pkg_Output\pandora\10281\20260920135938900\9681001007352\resources
+20/09/2026 02:14:41 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 02:14:42 م: Sucsses: Copied cover file to: C:\Pkg_Output\pandora\10281\20260920135938900\9681001007352\resources\9681001007352.jpg
+20/09/2026 02:14:42 م: Start Getting Media For package info: 10281
+20/09/2026 02:16:02 م: Media data generated successfully.
+20/09/2026 02:16:02 م: Success: generated XML for package ID: 10281
+20/09/2026 02:18:17 م: Starting XML generation for package ID: 10291, Filename: Pandora_XML_Template.xml, Company: Pandora
+20/09/2026 02:18:17 م: Success: fetched package info for ID: 10291
+20/09/2026 02:18:17 م: Processing group with Album UPC: 9681001007352
+20/09/2026 02:18:17 م: Starting GetFolderPaths...
+20/09/2026 02:18:17 م: Fetching package folder for company: Pandora
+20/09/2026 02:18:17 م: Sucsses: PackageFolder set to: 20260920141602808
+20/09/2026 02:18:17 م: Sucsses: Fetching resources folder for company: Pandora
+20/09/2026 02:18:17 م: Sucsses: ResourcesFolder set to: 20260920141602808\9681001007352\resources
+20/09/2026 02:18:17 م: Sucsses: Fetching metadata file path for company: Pandora
+20/09/2026 02:18:17 م: Sucsses: MetadataFile path set to: 20260920141602808\9681001007352\9681001007352.xml
+20/09/2026 02:18:17 م: Sucsses: Final PackageFolder path: 10291\20260920141602808
+20/09/2026 02:18:17 م: Sucsses: Final ResourcesFolder path: 10291\20260920141602808\9681001007352\resources
+20/09/2026 02:18:17 م: Sucsses: Retrieved folder paths for package: 10291
+20/09/2026 02:18:17 م: Starting GetCover...
+20/09/2026 02:18:27 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 02:18:27 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 02:18:27 م: Sucsses: Created directory: C:\Pkg_Output\pandora\10291\20260920141602808\9681001007352\resources
+20/09/2026 02:18:28 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 02:18:28 م: Sucsses: Copied cover file to: C:\Pkg_Output\pandora\10291\20260920141602808\9681001007352\resources\9681001007352.jpg
+20/09/2026 02:18:28 م: Start Getting Media For package info: 10291
+20/09/2026 02:19:49 م: Media data generated successfully.
+20/09/2026 02:19:50 م: Success: generated XML for package ID: 10291
+20/09/2026 02:27:43 م: Starting XML generation for package ID: 10301, Filename: Pandora_XML_Template.xml, Company: Pandora
+20/09/2026 02:27:43 م: Success: fetched package info for ID: 10301
+20/09/2026 02:27:43 م: Processing group with Album UPC: 9681001007352
+20/09/2026 02:27:43 م: Starting GetFolderPaths...
+20/09/2026 02:27:43 م: Fetching package folder for company: Pandora
+20/09/2026 02:27:43 م: Sucsses: PackageFolder set to: 20260920141951182
+20/09/2026 02:27:43 م: Sucsses: Fetching resources folder for company: Pandora
+20/09/2026 02:27:43 م: Sucsses: ResourcesFolder set to: 20260920141951182\9681001007352\resources
+20/09/2026 02:27:43 م: Sucsses: Fetching metadata file path for company: Pandora
+20/09/2026 02:27:43 م: Sucsses: MetadataFile path set to: 20260920141951182\9681001007352\9681001007352.xml
+20/09/2026 02:27:43 م: Sucsses: Final PackageFolder path: 10301\20260920141951182
+20/09/2026 02:27:43 م: Sucsses: Final ResourcesFolder path: 10301\20260920141951182\9681001007352\resources
+20/09/2026 02:27:43 م: Sucsses: Retrieved folder paths for package: 10301
+20/09/2026 02:27:43 م: Starting GetCover...
+20/09/2026 02:28:08 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 02:28:08 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 02:28:08 م: Sucsses: Created directory: C:\Pkg_Output\pandora\10301\20260920141951182\9681001007352\resources
+20/09/2026 02:28:10 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001007352.jpg
+20/09/2026 02:28:10 م: Sucsses: Copied cover file to: C:\Pkg_Output\pandora\10301\20260920141951182\9681001007352\resources\9681001007352.jpg
+20/09/2026 02:28:10 م: Start Getting Media For package info: 10301
+20/09/2026 02:30:25 م: Media data generated successfully.
+20/09/2026 02:30:25 م: Success: generated XML for package ID: 10301
+20/09/2026 03:49:40 م: Starting XML generation for package ID: 2060, Filename: Musixmatch_Template.jsonl, Company: Musixmatch
+20/09/2026 03:49:40 م: Success: fetched package info for ID: 2060
+20/09/2026 03:49:40 م: Processing group with Album UPC: 6221117205810
+20/09/2026 03:49:40 م: Starting GetFolderPaths...
+20/09/2026 03:49:40 م: Fetching package folder for company: Musixmatch
+20/09/2026 03:49:40 م: Sucsses: PackageFolder set to: batch_20260920154940
+20/09/2026 03:49:40 م: Sucsses: Fetching resources folder for company: Musixmatch
+20/09/2026 03:49:40 م: Sucsses: ResourcesFolder set to: batch_20260920154940
+20/09/2026 03:49:40 م: Sucsses: Fetching metadata file path for company: Musixmatch
+20/09/2026 03:49:40 م: Sucsses: MetadataFile path set to: batch_20260920154940\MAZZIKA_@[CREATION_DATE_TIME]@.jsonl
+20/09/2026 03:49:40 م: Sucsses: Final PackageFolder path: 2060\batch_20260920154940
+20/09/2026 03:49:40 م: Sucsses: Final ResourcesFolder path: 2060\batch_20260920154940
+20/09/2026 03:49:40 م: Sucsses: Retrieved folder paths for package: 2060
+20/09/2026 03:49:40 م: Starting GetCover...
+20/09/2026 03:49:40 م: Error: Provided path is empty. Exiting GetCover.
+20/09/2026 03:49:40 م: Start Getting Media For package info: 2060
+20/09/2026 03:49:59 م: Error fetching package info: The target file C:\Pkg_Output is a directory, not a file.
+20/09/2026 03:49:59 م: Error: processing Excel file: No Media Found
+20/09/2026 03:49:59 م: There is Some errors in The PKG
+20/09/2026 03:49:59 م: Starting XML generation for package ID: 10311, Filename: Musixmatch_Template.jsonl, Company: Musixmatch
+20/09/2026 03:49:59 م: Success: fetched package info for ID: 10311
+20/09/2026 03:49:59 م: Processing group with Album UPC: 9681001007352
+20/09/2026 03:49:59 م: Starting GetFolderPaths...
+20/09/2026 03:49:59 م: Fetching package folder for company: Musixmatch
+20/09/2026 03:49:59 م: Sucsses: PackageFolder set to: batch_20260920154959
+20/09/2026 03:49:59 م: Sucsses: Fetching resources folder for company: Musixmatch
+20/09/2026 03:49:59 م: Sucsses: ResourcesFolder set to: batch_20260920154959
+20/09/2026 03:49:59 م: Sucsses: Fetching metadata file path for company: Musixmatch
+20/09/2026 03:49:59 م: Sucsses: MetadataFile path set to: batch_20260920154959\MAZZIKA_@[CREATION_DATE_TIME]@.jsonl
+20/09/2026 03:49:59 م: Sucsses: Final PackageFolder path: 10311\batch_20260920154959
+20/09/2026 03:49:59 م: Sucsses: Final ResourcesFolder path: 10311\batch_20260920154959
+20/09/2026 03:49:59 م: Sucsses: Retrieved folder paths for package: 10311
+20/09/2026 03:49:59 م: Starting GetCover...
+20/09/2026 03:49:59 م: Error: Provided path is empty. Exiting GetCover.
+20/09/2026 03:49:59 م: Start Getting Media For package info: 10311
+20/09/2026 03:50:18 م: Error fetching package info: The target file C:\Pkg_Output is a directory, not a file.
+20/09/2026 03:50:18 م: Error: processing Excel file: No Media Found
+20/09/2026 03:50:18 م: There is Some errors in The PKG
+20/09/2026 03:51:29 م: Starting XML generation for package ID: 10321, Filename: Musixmatch_Template.jsonl, Company: Musixmatch
+20/09/2026 03:51:29 م: Success: fetched package info for ID: 10321
+20/09/2026 03:51:29 م: Processing group with Album UPC: 9681001007352
+20/09/2026 03:51:29 م: Starting GetFolderPaths...
+20/09/2026 03:51:29 م: Fetching package folder for company: Musixmatch
+20/09/2026 03:51:29 م: Sucsses: PackageFolder set to: batch_20260920155018
+20/09/2026 03:51:29 م: Sucsses: Fetching resources folder for company: Musixmatch
+20/09/2026 03:51:29 م: Sucsses: ResourcesFolder set to: batch_20260920155018
+20/09/2026 03:51:29 م: Sucsses: Fetching metadata file path for company: Musixmatch
+20/09/2026 03:51:29 م: Sucsses: MetadataFile path set to: batch_20260920155018\MAZZIKA_@[CREATION_DATE_TIME]@.jsonl
+20/09/2026 03:51:29 م: Sucsses: Final PackageFolder path: 10321\batch_20260920155018
+20/09/2026 03:51:29 م: Sucsses: Final ResourcesFolder path: 10321\batch_20260920155018
+20/09/2026 03:51:29 م: Sucsses: Retrieved folder paths for package: 10321
+20/09/2026 03:51:29 م: Starting GetCover...
+20/09/2026 03:51:29 م: Error: Provided path is empty. Exiting GetCover.
+20/09/2026 03:51:29 م: Start Getting Media For package info: 10321
+20/09/2026 03:51:52 م: Error fetching package info: The target file C:\Pkg_Output is a directory, not a file.
+20/09/2026 03:51:52 م: Error: processing Excel file: No Media Found
+20/09/2026 03:51:52 م: There is Some errors in The PKG
+20/09/2026 04:09:56 م: Starting XML generation for package ID: 10331, Filename: Musixmatch_Template.jsonl, Company: Musixmatch
+20/09/2026 04:09:56 م: Success: fetched package info for ID: 10331
+20/09/2026 04:09:56 م: Processing group with Album UPC: 9681001007352
+20/09/2026 04:09:56 م: Starting GetFolderPaths...
+20/09/2026 04:09:56 م: Fetching package folder for company: Musixmatch
+20/09/2026 04:09:56 م: Sucsses: PackageFolder set to: batch_20260920160956
+20/09/2026 04:09:56 م: Sucsses: Fetching resources folder for company: Musixmatch
+20/09/2026 04:09:56 م: Sucsses: ResourcesFolder set to: batch_20260920160956
+20/09/2026 04:09:56 م: Sucsses: Fetching metadata file path for company: Musixmatch
+20/09/2026 04:09:56 م: Sucsses: MetadataFile path set to: batch_20260920160956\MAZZIKA_@[CREATION_DATE_TIME]@.jsonl
+20/09/2026 04:09:56 م: Sucsses: Final PackageFolder path: 10331\batch_20260920160956
+20/09/2026 04:09:56 م: Sucsses: Final ResourcesFolder path: 10331\batch_20260920160956
+20/09/2026 04:09:56 م: Sucsses: Retrieved folder paths for package: 10331
+20/09/2026 04:09:56 م: Metadata-only package (.jsonl): skipping media and cover.
+20/09/2026 04:09:56 م: Sucsses: Created output directory: C:\Pkg_Output\Musixmatch\10331\batch_20260920160956
+20/09/2026 04:09:57 م: Success: generated XML for package ID: 10331
+20/09/2026 04:15:30 م: Starting XML generation for package ID: 10341, Filename: Musixmatch_Template.jsonl, Company: Musixmatch
+20/09/2026 04:15:30 م: Success: fetched package info for ID: 10341
+20/09/2026 04:15:30 م: Processing group with Album UPC: 9681001007352
+20/09/2026 04:15:30 م: Starting GetFolderPaths...
+20/09/2026 04:15:30 م: Fetching package folder for company: Musixmatch
+20/09/2026 04:15:30 م: Sucsses: PackageFolder set to: batch_20260920161530
+20/09/2026 04:15:30 م: Sucsses: Fetching resources folder for company: Musixmatch
+20/09/2026 04:15:30 م: Sucsses: ResourcesFolder set to: batch_20260920161530
+20/09/2026 04:15:30 م: Sucsses: Fetching metadata file path for company: Musixmatch
+20/09/2026 04:15:30 م: Sucsses: MetadataFile path set to: batch_20260920161530\MAZZIKA_20260920161530.jsonl
+20/09/2026 04:15:30 م: Sucsses: Final PackageFolder path: 10341\batch_20260920161530
+20/09/2026 04:15:30 م: Sucsses: Final ResourcesFolder path: 10341\batch_20260920161530
+20/09/2026 04:15:30 م: Sucsses: Retrieved folder paths for package: 10341
+20/09/2026 04:15:30 م: Metadata-only package (.jsonl): skipping media and cover.
+20/09/2026 04:15:30 م: Sucsses: Created output directory: C:\Pkg_Output\Musixmatch\10341\batch_20260920161530
+20/09/2026 04:15:31 م: Success: generated XML for package ID: 10341
+20/09/2026 05:17:44 م: Starting JSONL generation for package ID: 10351, Filename: Musixmatch_Template.jsonl, Company: Musixmatch
+20/09/2026 05:17:44 م: Success: fetched package info for ID: 10351
+20/09/2026 05:17:44 م: Processing group with Album UPC: 9681001007352
+20/09/2026 05:17:44 م: Starting GetFolderPaths...
+20/09/2026 05:17:44 م: Fetching package folder for company: Musixmatch
+20/09/2026 05:17:44 م: Sucsses: PackageFolder set to: batch_20260920171744
+20/09/2026 05:17:44 م: Sucsses: Fetching resources folder for company: Musixmatch
+20/09/2026 05:17:44 م: Sucsses: ResourcesFolder set to: batch_20260920171744
+20/09/2026 05:17:44 م: Sucsses: Fetching metadata file path for company: Musixmatch
+20/09/2026 05:17:44 م: Sucsses: MetadataFile path set to: batch_20260920171744\MAZZIKA_20260920171744.jsonl
+20/09/2026 05:17:44 م: Sucsses: Final PackageFolder path: 10351\batch_20260920171744
+20/09/2026 05:17:44 م: Sucsses: Final ResourcesFolder path: 10351\batch_20260920171744
+20/09/2026 05:17:44 م: Sucsses: Retrieved folder paths for package: 10351
+20/09/2026 05:17:44 م: Sucsses: Created output directory: C:\Pkg_Output\Musixmatch\10351\batch_20260920171744
+20/09/2026 05:17:44 م: Success: generated JSONL for package ID: 10351

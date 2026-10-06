@@ -1,0 +1,91 @@
+﻿{
+  "data": {
+    "identifier": "@[ISRC]@",
+    "title": "@[TRACK_TITLE]@",
+    "alternate_titles": [ "@[TRACK_TITLE_ARB]@" ],
+    "iswc": "",
+    "isrc": [ "@[ISRC]@", "@[OLD_ISRC]@" ],
+    "performers": [ { "name": "@[TRACK_ARTIST]@" }   ],
+    "owners": {
+      "publisher": [
+        {
+          "identifier": "",
+          "name": "Mazzika Group",
+          "ipi": "828947977",
+          "role": "E",
+          "controlled": "Y",
+          "mech_ownership_share": 10000,
+          "perf_ownership_share": 10000,
+          "sync_ownership_share": 10000
+        }
+      ],
+      "writer": [
+        #LOOP_TRACK_COMPOSER_MAIN_ARTIST#
+        {
+          "identifier": "@[TRACK_COMPOSER_ID]@",
+          "name": "@[TRACK_COMPOSER]@",
+          "ipi": "",
+          "role": "C",
+          "controlled": "Y",
+          "mech_ownership_share": 0,
+          "perf_ownership_share": 0,
+          "sync_ownership_share": 0
+        },
+        #END_LOOP_TRACK_COMPOSER_MAIN_ARTIST#
+        #LOOP_TRACK_COMPOSER_FEATURED_ARTIST#
+        {
+          "identifier": "@[TRACK_FEATURED_COMPOSER_ID]@",
+          "name": "@[TRACK_FEATURED_COMPOSER]@",
+          "ipi": "",
+          "role": "C",
+          "controlled": "Y",
+          "mech_ownership_share": 0,
+          "perf_ownership_share": 0,
+          "sync_ownership_share": 0
+        },
+        #END_LOOP_TRACK_COMPOSER_FEATURED_ARTIST#
+        #LOOP_TRACK_WRITER_MAIN_ARTIST#
+        {
+          "identifier": "@[TRACK_WRITER_ID]@",
+          "name": "@[TRACK_WRITER]@",
+          "ipi": "",
+          "role": "A",
+          "controlled": "Y",
+          "mech_ownership_share": 0,
+          "perf_ownership_share": 0,
+          "sync_ownership_share": 0
+        },
+        #END_LOOP_TRACK_WRITER_MAIN_ARTIST#
+        #LOOP_TRACK_WRITER_FEATURED_ARTIST#
+        {
+          "identifier": "@[TRACK_FEATURED_WRITER_ID]@",
+          "name": "@[TRACK_FEATURED_WRITER]@",
+          "ipi": "",
+          "role": "A",
+          "controlled": "Y",
+          "mech_ownership_share": 0,
+          "perf_ownership_share": 0,
+          "sync_ownership_share": 0
+        },
+        #END_LOOP_TRACK_WRITER_FEATURED_ARTIST#
+      ]
+    },
+    "collection": {
+      "validity_begin": "@[START_DATE]@",
+      "validity_end": null,
+      "territories": [
+        {
+          "code": "XW",
+          "mech_share": 10000,
+          "perf_share": 10000,
+          "sync_share": 10000
+        }
+      ]
+    },
+    "lyrics": {
+      "duration": @[MONDIA_TRACK_DURATION]@,
+      "lyrics": "@[TRACK_LYRICS_MM]@",
+      "lrc": ""
+    }
+  }
+}

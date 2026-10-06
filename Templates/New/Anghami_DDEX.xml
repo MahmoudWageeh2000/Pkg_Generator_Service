@@ -6,13 +6,13 @@
 		<MessageSender>
 			<PartyId>PADPIDA2024121603C</PartyId>
 			<PartyName>
-				<FullName>Global Sound</FullName>
+				<FullName>Global</FullName>
 			</PartyName>
 		</MessageSender>
 		<MessageRecipient>
 			<PartyId>PADPIDA2018010804X</PartyId>
 			<PartyName>
-				<FullName>Facebook_AAP</FullName>
+				<FullName>Anghami</FullName>
 			</PartyName>
 		</MessageRecipient>	
 		<MessageCreatedDateTime>{{ album.date_time }}</MessageCreatedDateTime>
@@ -32,7 +32,7 @@
             <ReferenceTitle>
                 <TitleText>{{ asset.track_name }}</TitleText>
             </ReferenceTitle>
-            <Duration>{{ asset.fb_track_duration }}</Duration>
+            <Duration>PT{{ asset.track_duration }}</Duration>
             <SoundRecordingDetailsByTerritory>
                 {{~ for country_code in asset.country_iso_code_list_string ~}}
 				<TerritoryCode>{{ country_code }}</TerritoryCode>
@@ -49,8 +49,9 @@
                 <Title LanguageAndScriptCode="ar" TitleType="DisplayTitle">
                     <TitleText>{{ asset.track_name_a }}</TitleText>
                 </Title>
-                {{ for track_artist in asset.track_artist_list_string }}
-                <DisplayArtist SequenceNumber="1">
+				{{~ seq = 1 ~}}
+				{{ for track_artist in asset.track_artist_list_string }}
+				<DisplayArtist SequenceNumber="{{ seq }}">
                     <PartyName LanguageAndScriptCode="en">
                         <FullName>{{ track_artist.name }}</FullName>
                     </PartyName>
@@ -58,22 +59,12 @@
                         <FullName>{{ track_artist.name_ar }}</FullName>
                     </PartyName>
                     <ArtistRole>MainArtist</ArtistRole>
-                </DisplayArtist>                
-                <DisplayArtistName LanguageAndScriptCode="en">{{ track_artist.name }}</DisplayArtistName>
-                <DisplayArtistName LanguageAndScriptCode="ar">{{ track_artist.name_ar }}</DisplayArtistName>
-                {{~ end ~}}
-
-                {{ for track_featured_artist in album.track_featured_artist_list_string }}
-				<DisplayArtist>
-					<PartyName>
-						<FullName>{{ track_featured_artist.name  }}</FullName>
-					</PartyName>
-					<PartyId Namespace="DPID:PADPIDA2024121603C">{{ track_featured_artist.id  }}</PartyId>
-					<ArtistRole>FeaturedArtist</ArtistRole>
-				</DisplayArtist>
+                </DisplayArtist>
+				{{~ seq = seq + 1 ~}}
 				{{~ end ~}}
-
-                <LabelName>{{ asset.label_name }}</LabelName>
+				<DisplayArtistName LanguageAndScriptCode="en">{{ asset.track_artist }}</DisplayArtistName>
+                <DisplayArtistName LanguageAndScriptCode="ar">{{ asset.track_artist_a }}</DisplayArtistName>
+				<LabelName>{{ asset.label_name }}</LabelName>
                 <OriginalResourceReleaseDate>{{ asset.release_date}}</OriginalResourceReleaseDate>
               	<PLine>
 					<Year>{{ asset.release_year}}</Year>
@@ -87,11 +78,12 @@
         	<TechnicalSoundRecordingDetails>
 					<TechnicalResourceDetailsReference>T{{ asset.track_num }}</TechnicalResourceDetailsReference>
 					<AudioCodecType>FLAC</AudioCodecType>
-					<BitRate UnitOfMeasure="bps">1411200</BitRate>
-					<SamplingRate UnitOfMeasure="Hz">44100</SamplingRate>
-					<IsPreview>false</IsPreview>
-					<File>
-						<FileName>{{ asset.album_ubc }}_{{ asset.track_num }}_{{ asset.track_num }}.flac</FileName>
+					<BitRate UnitOfMeasure="kbps">997</BitRate>
+                    <NumberOfChannels>2</NumberOfChannels>
+                    <SamplingRate UnitOfMeasure="Hz">44100</SamplingRate>
+                    <IsPreview>false</IsPreview>
+                    <File>
+						<FileName>{{ asset.album_ubc }}_{{ asset.asset_isrc }}.flac</FileName>
 						<FilePath>resources/</FilePath>
 						<HashSum>
 							<HashSum>{{asset.HASH_SUM}}</HashSum>
@@ -116,8 +108,10 @@
 				<TechnicalImageDetails>
 					<TechnicalResourceDetailsReference>T{{ album.image_num }}</TechnicalResourceDetailsReference>
 					<ImageCodecType>JPEG</ImageCodecType>
-					<ImageHeight>1500</ImageHeight>
-					<ImageWidth>1500</ImageWidth>
+					<ImageHeight>2048</ImageHeight>
+					<ImageWidth>2048</ImageWidth>
+					<ImageResolution>96</ImageResolution>
+					<IsPreview>false</IsPreview>
 					<File>
 						<FileName>{{ album.album_ubc }}.jpg</FileName>
 						<FilePath>resources/</FilePath>
@@ -166,29 +160,21 @@
                 <Title LanguageAndScriptCode="ar" TitleType="DisplayTitle">
                     <TitleText>{{ album.album_name_a }}</TitleText>
                 </Title>
-				{{ for track_artist in album.album_artist_list_string }}
-				<DisplayArtist SequenceNumber="1">
+				{{~ seq = 1 ~}}
+				{{ for album_artist in album.album_artist_list_string }}
+				<DisplayArtist SequenceNumber="{{ seq }}">
                     <PartyName LanguageAndScriptCode="en">
-                        <FullName>{{ track_artist.name }}</FullName>
+                        <FullName>{{ album_artist.name }}</FullName>
                     </PartyName>
                     <PartyName LanguageAndScriptCode="ar">
-                        <FullName>{{ track_artist.name_ar }}</FullName>
+                        <FullName>{{ album_artist.name_ar }}</FullName>
                     </PartyName>
                     <ArtistRole>MainArtist</ArtistRole>
-                </DisplayArtist>                
-                <DisplayArtistName LanguageAndScriptCode="en">{{ track_artist.name }}</DisplayArtistName>
-                <DisplayArtistName LanguageAndScriptCode="ar">{{ track_artist.name_ar }}</DisplayArtistName>
-                {{~ end ~}}
-
-                	{{ for track_featured_artist in album.track_featured_artist_list_string }}
-				<DisplayArtist>
-					<PartyName>
-						<FullName>{{ track_featured_artist.name  }}</FullName>
-					</PartyName>
-					<PartyId Namespace="DPID:PADPIDA2024121603C">{{ track_featured_artist.id  }}</PartyId>
-					<ArtistRole>FeaturedArtist</ArtistRole>
-				</DisplayArtist>
+                </DisplayArtist>
+				{{~ seq = seq + 1 ~}}
 				{{~ end ~}}
+				<DisplayArtistName LanguageAndScriptCode="en">{{ album.album_artist }}</DisplayArtistName>
+				<DisplayArtistName LanguageAndScriptCode="ar">{{ album.album_artist_a }}</DisplayArtistName>
                 <ParentalWarningType>NotExplicit</ParentalWarningType>
                 <ResourceGroup>
                     <ResourceGroup>
@@ -212,9 +198,10 @@
                 </Genre>
    				<OriginalReleaseDate>{{ album.release_date }}</OriginalReleaseDate>
 			</ReleaseDetailsByTerritory>
+			<Duration>{{ album.album_duration }}</Duration>
 			<PLine>
 				<Year>{{ album.release_year }}</Year>
-				<PLineText>{{ album.label_name }}</PLineText>
+				<PLineText>{{ album.release_year}} {{ album.label_name }}</PLineText>
 			</PLine>
 			<CLine>
 				<Year>{{ album.release_year }}</Year>
@@ -254,8 +241,9 @@
                 <Title LanguageAndScriptCode="ar" TitleType="DisplayTitle">
                     <TitleText>{{ asset.track_name_a }}</TitleText>
                 </Title>
-                {{ for track_artist in asset.track_artist_list_string }}
-                <DisplayArtist SequenceNumber="1">
+				{{~ seq = 1 ~}}
+				{{ for track_artist in asset.track_artist_list_string }}
+				<DisplayArtist SequenceNumber="{{ seq }}">
                     <PartyName LanguageAndScriptCode="en">
                         <FullName>{{ track_artist.name }}</FullName>
                     </PartyName>
@@ -263,20 +251,11 @@
                         <FullName>{{ track_artist.name_ar }}</FullName>
                     </PartyName>
                     <ArtistRole>MainArtist</ArtistRole>
-                </DisplayArtist>                
-                <DisplayArtistName LanguageAndScriptCode="en">{{ track_artist.name }}</DisplayArtistName>
-                <DisplayArtistName LanguageAndScriptCode="ar">{{ track_artist.name_ar }}</DisplayArtistName>
-                {{~ end ~}}
-
-                {{ for track_featured_artist in album.track_featured_artist_list_string }}
-				<DisplayArtist>
-					<PartyName>
-						<FullName>{{ track_featured_artist.name  }}</FullName>
-					</PartyName>
-					<PartyId Namespace="DPID:PADPIDA2024121603C">{{ track_featured_artist.id  }}</PartyId>
-					<ArtistRole>FeaturedArtist</ArtistRole>
-				</DisplayArtist>
+                </DisplayArtist>
+				{{~ seq = seq + 1 ~}}
 				{{~ end ~}}
+				<DisplayArtistName LanguageAndScriptCode="en">{{ asset.track_artist }}</DisplayArtistName>
+				<DisplayArtistName LanguageAndScriptCode="ar">{{ asset.track_artist_a }}</DisplayArtistName>
                 <ParentalWarningType>NotExplicit</ParentalWarningType>
                 <ResourceGroup>
                     <SequenceNumber>1</SequenceNumber>
@@ -291,10 +270,10 @@
                 </Genre>
 				<OriginalReleaseDate>{{ asset.release_date}}</OriginalReleaseDate>
             </ReleaseDetailsByTerritory>
-            <Duration>{{ asset.fb_track_duration }}</Duration>
+            <Duration>PT{{ asset.track_duration }}</Duration>
         	<PLine>
 				<Year>{{ asset.release_year}}</Year>
-				<PLineText>{{ asset.label_name}}</PLineText>
+				<PLineText>{{ asset.release_year}} {{ asset.label_name }}</PLineText>
 			</PLine>
 			<CLine>
 				<Year>{{ asset.release_year}}</Year>
@@ -302,46 +281,9 @@
 			</CLine>
         </Release>
         {{~ end ~}}
-
     </ReleaseList>
     <DealList>
-        <ReleaseDeal>
-            <DealReleaseReference>R0</DealReleaseReference>
-            <Deal>
-                <DealTerms>
-                    <CommercialModelType>SubscriptionModel</CommercialModelType>
-                    <Usage>
-                        <UseType>ConditionalDownload</UseType>
-                        <UseType>NonInteractiveStream</UseType>
-                        <UseType>OnDemandStream</UseType>
-                    </Usage>
-                 	{{~ for country_code in album.country_iso_code_list_string ~}}
-					<TerritoryCode>{{ country_code }}</TerritoryCode>
-					{{~ end ~}}
-                    <ValidityPeriod>
-                        <StartDate>{{album.start_date}}</StartDate>
-                    </ValidityPeriod>
-                </DealTerms>
-            </Deal>
-            <Deal>
-                <DealTerms>
-                    <CommercialModelType>AdvertisementSupportedModel</CommercialModelType>
-                    <Usage>
-                        <UseType>NonInteractiveStream</UseType>
-                        <UseType>OnDemandStream</UseType>
-                    </Usage>
-                 	{{~ for country_code in album.country_iso_code_list_string ~}}
-					<TerritoryCode>{{ country_code }}</TerritoryCode>
-					{{~ end ~}}
-                    <ValidityPeriod>
-                        <StartDate>{{album.start_date}}</StartDate>
-                    </ValidityPeriod>
-                </DealTerms>
-            </Deal>
-        </ReleaseDeal>
-
-        		{{~ for asset in album.asset_list ~}}
-
+    {{~ for asset in album.asset_list ~}}
     <ReleaseDeal>
 			<DealReleaseReference>R{{asset.track_num}}</DealReleaseReference>
             <Deal>
@@ -376,7 +318,6 @@
                 </DealTerms>
             </Deal>
         </ReleaseDeal>
-        		{{~ end ~}}
-
+    {{~ end ~}}
     </DealList>
 </ern:NewReleaseMessage>

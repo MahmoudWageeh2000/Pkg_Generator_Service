@@ -101,7 +101,7 @@
       {{~ seq = 1  ~}}
       {{~ for track_artist in asset.track_artist_list_string ~}}
       <DisplayArtist SequenceNumber="{{ seq }}">
-        <ArtistPartyReference>P{{ track_artist.name | string.replace " " ""}}</ArtistPartyReference>
+        <ArtistPartyReference>P{{ track_artist.name | string.replace " " "" }}</ArtistPartyReference>
         <DisplayArtistRole>MainArtist</DisplayArtistRole>
       </DisplayArtist>
       {{~ seq = seq + 1 ~}}
@@ -109,7 +109,7 @@
       {{~ seq = 1  ~}}
       {{~ for track_featured_artist in asset.track_featured_artist_list_string ~}}
       <DisplayArtist SequenceNumber="{{ seq }}">
-        <ArtistPartyReference>P{{ track_featured_artist.name | string.replace " " ""}}</ArtistPartyReference>
+        <ArtistPartyReference>P{{ track_featured_artist.name | string.replace " " "" }}</ArtistPartyReference>
         <DisplayArtistRole>FeaturedArtist</DisplayArtistRole>
       </DisplayArtist>
       {{~ seq = seq + 1 ~}}
@@ -117,7 +117,7 @@
       {{~ if asset.composer_list_string != empty ~}}
       {{~ for track_composer in asset.composer_list_string ~}}
       <Contributor SequenceNumber="{{ seq }}">
-        <ContributorPartyReference>P{{ track_composer | string.replace " " ""}}</ContributorPartyReference>
+        <ContributorPartyReference>P{{ track_composer | string.replace " " "" }}</ContributorPartyReference>
         <Role>Composer</Role>
       </Contributor>
       {{~ seq = seq + 1 ~}}
@@ -147,7 +147,7 @@
       {{~ if asset.arrenger_list_string != empty ~}}
       {{~ for track_arranger in asset.arrenger_list_string ~}}
       <Contributor SequenceNumber="{{ seq }}">
-        <ContributorPartyReference>P{{ track_arranger | string.replace " " ""}}</ContributorPartyReference>
+        <ContributorPartyReference>P{{ track_arranger | string.replace " " "" }}</ContributorPartyReference>
         <Role>Arranger</Role>
       </Contributor>
       {{~ seq = seq + 1 ~}}
@@ -251,7 +251,7 @@
 		{{~ end ~}}
 		{{ for track_artist in album.album_artist_list_string }}
 		<DisplayArtist SequenceNumber="1">
-        <ArtistPartyReference>P{{track_artist.name | string.replace " " "" }}</ArtistPartyReference>
+        <ArtistPartyReference>P{{ track_artist.name | string.replace " " "" }}</ArtistPartyReference>
         <DisplayArtistRole>MainArtist</DisplayArtistRole>
       </DisplayArtist>
       {{ end }}

@@ -6,7 +6,7 @@
 		<MessageSender>
 			<PartyId>PADPIDA20131118019</PartyId>
 			<PartyName>
-				<FullName>Mazzika Group</FullName>
+				<FullName>Global</FullName>
 			</PartyName>
 		</MessageSender>
 		<MessageRecipient>
@@ -32,18 +32,21 @@
 				<TitleText>{{ asset.track_name }}</TitleText>
 				<TitleText LanguageAndScriptCode="ar">{{ asset.track_name_a }}</TitleText>
 			</ReferenceTitle>
-			<Duration>{{ asset.track_duration }}</Duration>
+			{{~ d = asset.track_duration | string.replace "H" ":" | string.replace "M" ":" | string.replace "S" "" | string.split ":" ~}}
+			<Duration>PT{{ d[0] | string.to_int }}H{{ d[1] | string.to_int }}M{{ d[2] | string.to_int }}S</Duration>
 			<SoundRecordingDetailsByTerritory>
 				<TerritoryCode>Worldwide</TerritoryCode>
-        <Title TitleType="DisplayTitle">
-          <TitleText>{{ asset.track_name }}</TitleText>
-        </Title>
+			<Title TitleType="DisplayTitle">
+			  <TitleText>{{ asset.track_name }}</TitleText>
+			</Title>
+				{{~ for track_main_artist in asset.track_artist_list_string ~}}
 				<DisplayArtist>
 					<PartyName>
-						<FullName>{{ asset.track_artist }}</FullName>
+						<FullName>{{ track_main_artist.name }}</FullName>
 					</PartyName>
 					<ArtistRole>MainArtist</ArtistRole>
 				</DisplayArtist>
+				{{~ end ~}}
 				<LabelName>{{ asset.label_name }}</LabelName>
 				<PLine>
           <Year>{{ asset.release_year}}</Year>
@@ -76,16 +79,20 @@
 			<ReleaseType>Album</ReleaseType>
 			<ReleaseDetailsByTerritory>
 				<TerritoryCode>Worldwide</TerritoryCode>
-				<LabelName>{{ album.album_name }}</LabelName>
+				<LabelName>{{ album.label_name }}</LabelName>
 				<Title TitleType="DisplayTitle">
 					<TitleText>{{ album.album_name }}</TitleText>
 				</Title>
-				<DisplayArtist SequenceNumber="1">
+				{{~ seq = 1 ~}}
+				{{~ for album_main_artist in album.album_artist_list_string ~}}
+				<DisplayArtist SequenceNumber="{{ seq }}">
 					<PartyName>
-						<FullName>{{ album.album_artist }}</FullName>
+						<FullName>{{ album_main_artist.name }}</FullName>
 					</PartyName>
 					<ArtistRole>MainArtist</ArtistRole>
 				</DisplayArtist>
+				{{~ seq = seq + 1 ~}}
+				{{~ end ~}}
 				<ParentalWarningType>NotExplicit</ParentalWarningType>
 				<ResourceGroup>
 					<ResourceGroup>
@@ -95,10 +102,10 @@
 						<SequenceNumber>1</SequenceNumber>
             {{~ for asset in album.asset_list ~}}
             <ResourceGroupContentItem>
-							<SequenceNumber>{{ asset.track_num }}</SequenceNumber>
-							<ResourceType>SoundRecording</ResourceType>
-							<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A{{asset.track_num}}</ReleaseResourceReference>
-						</ResourceGroupContentItem>
+					<SequenceNumber>{{ asset.track_num }}</SequenceNumber>
+					<ResourceType>SoundRecording</ResourceType>
+					<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A{{asset.track_num}}</ReleaseResourceReference>
+			</ResourceGroupContentItem>
             {{~end~}}
           </ResourceGroup>
 					<ResourceGroupContentItem>
@@ -142,12 +149,16 @@
 				<Title TitleType="DisplayTitle">
 					<TitleText>{{ asset.track_name }}</TitleText>
 				</Title>
-				<DisplayArtist SequenceNumber="1">
+				{{~ seq = 1 ~}}
+				{{~ for track_main_artist in asset.track_artist_list_string ~}}
+				<DisplayArtist SequenceNumber="{{ seq }}">
 					<PartyName>
-						<FullName>{{ asset.track_artist }}</FullName>
+						<FullName>{{ track_main_artist.name }}</FullName>
 					</PartyName>
 					<ArtistRole>MainArtist</ArtistRole>
 				</DisplayArtist>
+				{{~ seq = seq + 1 ~}}
+				{{~ end ~}}
 			</ReleaseDetailsByTerritory>
 			<PLine>
         <Year>{{ asset.release_year }}</Year>
@@ -178,7 +189,6 @@
 			</Deal>
 		</ReleaseDeal>
     {{~ for asset in album.asset_list ~}}
-    {{~ for country_code in asset.country_iso_code_list_string ~}}
     <ReleaseDeal>
 			<DealReleaseReference>R{{ asset.track_num }}</DealReleaseReference>
 			<Deal>
@@ -192,7 +202,9 @@
 						<UseType>NonInteractiveStream</UseType>
 						<DistributionChannelType>InternetAndMobile</DistributionChannelType>
 					</Usage>
-          <TerritoryCode>{{ country_code }}</TerritoryCode>
+					{{~ for country_code in asset.country_iso_code_list_string ~}}
+						  <TerritoryCode>{{ country_code }}</TerritoryCode>
+					{{~ end ~}}
 					<ValidityPeriod>
 						<EndDate>{{asset.takedown_date}}</EndDate>
 					</ValidityPeriod>
@@ -200,7 +212,6 @@
 			</Deal>
 			<EffectiveDate>{{asset.takedown_date}}</EffectiveDate>
 		</ReleaseDeal>
-    {{~ end ~}}
     {{~ end ~}}
   </DealList>
 </ern:NewReleaseMessage>

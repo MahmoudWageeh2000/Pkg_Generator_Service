@@ -2,25 +2,25 @@
 <ern:NewReleaseMessage xmlns:ern="http://ddex.net/xml/ern/382" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
                        xs:schemaLocation="http://ddex.net/xml/ern/382 http://ddex.net/xml/ern/382/release-notification.xsd"
                        MessageSchemaVersionId="ern/382" LanguageAndScriptCode="en">
-    <MessageHeader>
+	<MessageHeader>
 		<MessageThreadId>{{ album.album_ubc }}</MessageThreadId>
 		<MessageId>{{ album.album_ubc }}</MessageId>
-        <MessageSender>
-            <PartyId>PADPIDA20131118019</PartyId>
-            <PartyName>
-				<FullName>Mazzika Group</FullName>
+		<MessageSender>
+			<PartyId>PADPIDA20131118019</PartyId>
+			<PartyName>
+				<FullName>Global</FullName>
 			</PartyName>
-        </MessageSender>
-        <MessageRecipient>
-            <PartyId>PADPIDA20120806051</PartyId>
-            <PartyName>
-                <FullName>Yandex</FullName>
-            </PartyName>
-        </MessageRecipient>
+		</MessageSender>
+		<MessageRecipient>
+			<PartyId>PADPIDA20120806051</PartyId>
+			<PartyName>
+				<FullName>Yandex</FullName>
+			</PartyName>
+		</MessageRecipient>
 		<MessageCreatedDateTime>{{ album.date_time }}+02:00</MessageCreatedDateTime>
 	</MessageHeader>
-    <UpdateIndicator>UpdateMessage</UpdateIndicator>
-    <ResourceList>
+	<UpdateIndicator>UpdateMessage</UpdateIndicator>
+	<ResourceList>
 		{{~ for asset in album.asset_list ~}}
 		<SoundRecording>
 			<SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
@@ -34,7 +34,8 @@
 			</ReferenceTitle>
 			<IsInstrumental>false</IsInstrumental>
 			<LanguageOfPerformance>en</LanguageOfPerformance>
-			<Duration>PT{{ asset.track_duration }}</Duration>
+			{{~ d = asset.track_duration | string.replace "H" ":" | string.replace "M" ":" | string.replace "S" "" | string.split ":" ~}}
+			<Duration>PT{{ d[0] | string.to_int }}H{{ d[1] | string.to_int }}M{{ d[2] | string.to_int }}S</Duration>
 			<SoundRecordingDetailsByTerritory>
 				{{~ for country_code in album.country_iso_code_list_string ~}}
 				<TerritoryCode>{{ country_code }}</TerritoryCode>
@@ -45,7 +46,9 @@
 				<Title LanguageAndScriptCode="ar" TitleType="TranslatedTitle">
 					<TitleText>{{ asset.track_name_a }}</TitleText>
 				</Title>
-				<DisplayArtist SequenceNumber="1">
+				{{~ seq = 1 ~}}
+				{{~ if (asset.track_artist | string.strip) != "" ~}}
+				<DisplayArtist SequenceNumber="{{ seq }}">
 					<PartyName>
 						<FullName>{{ asset.track_artist }}</FullName>
 					</PartyName>
@@ -54,42 +57,40 @@
 					</PartyName>
 					<ArtistRole>MainArtist</ArtistRole>
 				</DisplayArtist>
-				{{~ seq = 1  ~}}
-				{{~ for track_featured_artist in asset.track_featured_artist_list_string ~}}
+				{{~ end ~}}
+				{{~ seq = seq + 1 ~}}
+				{{~ if (asset.track_featured_artist | string.strip) != "" ~}}
 				<DisplayArtist SequenceNumber="{{ seq }}">
 					<PartyName>
-						<FullName>{{ track_featured_artist.name }}</FullName>
+						<FullName>{{ asset.track_featured_artist }}</FullName>
 					</PartyName>
 					<PartyName LanguageAndScriptCode="ar">
-						<FullName>{{ track_featured_artist.name_ar }}</FullName>
+						<FullName>{{ asset.track_featured_artist_a }}</FullName>
 					</PartyName>
 					<ArtistRole>MainArtist</ArtistRole>
-					{{~ seq = seq + 1 ~}}
 				</DisplayArtist>
 				{{~ end ~}}
-				{{~ for track_composer in asset.composer_list_string ~}}
+				{{~ if (asset.composer | string.strip) != "" ~}}
 				<DisplayArtist SequenceNumber="{{ seq }}">
 					<PartyName>
-						<FullName>{{ track_composer }}</FullName>
+						<FullName>{{ asset.composer }}</FullName>
 					</PartyName>
 					<PartyName LanguageAndScriptCode="ar">
-						<FullName>{{album.composer_a}}</FullName>
+						<FullName>{{ asset.composer_a }}</FullName>
 					</PartyName>
 					<ArtistRole>Composer</ArtistRole>
 				</DisplayArtist>
-				{{~ seq = seq + 1 ~}}
 				{{~ end ~}}
-				{{~ for track_composer in asset.track_featured_composers_list_string ~}}
+				{{~ if (asset.track_featured_composers | string.strip) != "" ~}}
 				<DisplayArtist SequenceNumber="{{ seq }}">
 					<PartyName>
-						<FullName>{{ track_composer }}</FullName>
+						<FullName>{{ asset.track_featured_composers }}</FullName>
 					</PartyName>
 					<PartyName LanguageAndScriptCode="ar">
-						<FullName>{{album.track_featured_composers_a}}</FullName>
+						<FullName>{{ asset.track_featured_composers_a }}</FullName>
 					</PartyName>
 					<ArtistRole>Composer</ArtistRole>
 				</DisplayArtist>
-				{{~ seq = seq + 1 ~}}
 				{{~ end ~}}
 				<PLine>
 					<Year>{{ asset.release_year}}</Year>
@@ -103,32 +104,11 @@
 					<GenreText>{{ asset.track_genre }}</GenreText>
 				</Genre>
 				<ParentalWarningType>NotExplicit</ParentalWarningType>
-				<TechnicalSoundRecordingDetails>
-					<TechnicalResourceDetailsReference>T{{ asset.track_num }}</TechnicalResourceDetailsReference>
-					<AudioCodecType>FLAC</AudioCodecType>
-					<NumberOfChannels>2</NumberOfChannels>
-					<SamplingRate UnitOfMeasure="Hz">44100.0</SamplingRate>
-					<BitsPerSample>16</BitsPerSample>
-					<IsPreview>false</IsPreview>
-					<PreviewDetails>
-						<StartPoint>120.000</StartPoint>
-						<Duration>PT@[MONDIA_TRACK_DURATION]@</Duration>
-						<ExpressionType>Instructive</ExpressionType>
-					</PreviewDetails>
-					<File>
-						<FileName>{{ asset.album_ubc }}_{{ asset.track_num }}.flac</FileName>
-						<FilePath>resources/</FilePath>
-						<HashSum>
-							<HashSum>{{ asset.HASH_SUM }}</HashSum>
-							<HashSumAlgorithmType>MD5</HashSumAlgorithmType>
-						</HashSum>
-					</File>
-				</TechnicalSoundRecordingDetails>
 			</SoundRecordingDetailsByTerritory>
 		</SoundRecording>
 		{{~ end ~}}
 	</ResourceList>
-    <ReleaseList>
+	<ReleaseList>
 		<Release IsMainRelease="true">
 			<ReleaseId>
 				<ICPN IsEan="false">{{ album.album_ubc }}</ICPN>
@@ -156,7 +136,9 @@
 				<Title LanguageAndScriptCode="ar" TitleType="TranslatedTitle">
 					<TitleText>{{ album.album_name_a }}</TitleText>
 				</Title>
-				<DisplayArtist SequenceNumber="1">
+				{{~ seq = 1 ~}}
+				{{~ if (album.album_artist | string.strip) != "" ~}}
+				<DisplayArtist SequenceNumber="{{ seq }}">
 					<PartyName>
 						<FullName>{{ album.album_artist }}</FullName>
 					</PartyName>
@@ -165,17 +147,39 @@
 					</PartyName>
 					<ArtistRole>MainArtist</ArtistRole>
 				</DisplayArtist>
-				{{~ seq = 1  ~}}
-				{{~ for track_featured_artist in album.track_featured_artist_list_string ~}}
+				{{~ end ~}}
+				{{~ seq = seq + 1 ~}}
+				{{~ if (album.album_featured_artist | string.strip) != "" ~}}
 				<DisplayArtist SequenceNumber="{{ seq }}">
 					<PartyName>
-						<FullName>{{ track_featured_artist.name }}</FullName>
+						<FullName>{{ album.album_featured_artist }}</FullName>
 					</PartyName>
 					<PartyName LanguageAndScriptCode="ar">
-						<FullName>{{ track_featured_artist.name_ar }}</FullName>
+						<FullName>{{ album.album_featured_artist_a }}</FullName>
 					</PartyName>
 					<ArtistRole>MainArtist</ArtistRole>
-					{{~ seq = seq + 1 ~}}
+				</DisplayArtist>
+				{{~ end ~}}
+				{{~ if (album.composer | string.strip) != "" ~}}
+				<DisplayArtist SequenceNumber="{{ seq }}">
+					<PartyName>
+						<FullName>{{ album.composer }}</FullName>
+					</PartyName>
+					<PartyName LanguageAndScriptCode="ar">
+						<FullName>{{ album.composer_a }}</FullName>
+					</PartyName>
+					<ArtistRole>Composer</ArtistRole>
+				</DisplayArtist>
+				{{~ end ~}}
+				{{~ if (album.track_featured_composers | string.strip) != "" ~}}
+				<DisplayArtist SequenceNumber="{{ seq }}">
+					<PartyName>
+						<FullName>{{  album.track_featured_composers }}</FullName>
+					</PartyName>
+					<PartyName LanguageAndScriptCode="ar">
+						<FullName>{{  album.track_featured_composers_a }}</FullName>
+					</PartyName>
+					<ArtistRole>Composer</ArtistRole>
 				</DisplayArtist>
 				{{~ end ~}}
 				<IsMultiArtistCompilation>true</IsMultiArtistCompilation>
@@ -207,7 +211,8 @@
 				<OriginalReleaseDate>{{ album.release_date }}</OriginalReleaseDate>
 				<OriginalDigitalReleaseDate>{{ album.release_date }}</OriginalDigitalReleaseDate>
 			</ReleaseDetailsByTerritory>
-			<Duration>{{ album.album_duration }}</Duration>
+			{{~ ad = album.album_duration | string.replace "PT" "" | string.replace "H" ":" | string.replace "M" ":" | string.replace "S" "" | string.split ":" ~}}
+			<Duration>PT{{ ad[0] | string.to_int }}H{{ ad[1] | string.to_int }}M{{ ad[2] | string.to_int }}S</Duration>
 		</Release>
 		{{~ for asset in album.asset_list ~}}
 		<Release>
@@ -234,7 +239,9 @@
 				<Title LanguageAndScriptCode="ar" TitleType="TranslatedTitle">
 					<TitleText>{{ asset.track_name_a }}</TitleText>
 				</Title>
-				<DisplayArtist SequenceNumber="1">
+				{{~ seq = 1 ~}}
+				{{~ if (asset.track_artist | string.strip) != "" ~}}
+				<DisplayArtist SequenceNumber="{{ seq }}">
 					<PartyName>
 						<FullName>{{ asset.track_artist }}</FullName>
 					</PartyName>
@@ -243,42 +250,40 @@
 					</PartyName>
 					<ArtistRole>MainArtist</ArtistRole>
 				</DisplayArtist>
-				{{~ seq = 1  ~}}
-				{{~ for track_featured_artist in asset.track_featured_artist_list_string ~}}
+				{{~ end ~}}
+				{{~ seq = seq + 1 ~}}
+				{{~ if (asset.track_featured_artist | string.strip) != "" ~}}
 				<DisplayArtist SequenceNumber="{{ seq }}">
 					<PartyName>
-						<FullName>{{ track_featured_artist.name }}</FullName>
+						<FullName>{{ asset.track_featured_artist }}</FullName>
 					</PartyName>
 					<PartyName LanguageAndScriptCode="ar">
-						<FullName>{{ track_featured_artist.name_ar }}</FullName>
+						<FullName>{{ asset.track_featured_artist_a }}</FullName>
 					</PartyName>
 					<ArtistRole>MainArtist</ArtistRole>
-					{{~ seq = seq + 1 ~}}
 				</DisplayArtist>
 				{{~ end ~}}
-				{{~ for track_composer in asset.composer_list_string ~}}
+				{{~ if (asset.composer | string.strip) != "" ~}}
 				<DisplayArtist SequenceNumber="{{ seq }}">
 					<PartyName>
-						<FullName>{{ track_composer }}</FullName>
+						<FullName>{{ asset.composer }}</FullName>
 					</PartyName>
 					<PartyName LanguageAndScriptCode="ar">
-						<FullName>{{album.composer_a}}</FullName>
+						<FullName>{{ asset.composer_a }}</FullName>
 					</PartyName>
 					<ArtistRole>Composer</ArtistRole>
 				</DisplayArtist>
-				{{~ seq = seq + 1 ~}}
 				{{~ end ~}}
-				{{~ for track_composer in asset.track_featured_composers_list_string ~}}
+				{{~ if (asset.track_featured_composers | string.strip) != "" ~}}
 				<DisplayArtist SequenceNumber="{{ seq }}">
 					<PartyName>
-						<FullName>{{ track_composer }}</FullName>
+						<FullName>{{ asset.track_featured_composers }}</FullName>
 					</PartyName>
 					<PartyName LanguageAndScriptCode="ar">
-						<FullName>{{album.track_featured_composers_a}}</FullName>
+						<FullName>{{ asset.track_featured_composers_a }}</FullName>
 					</PartyName>
 					<ArtistRole>Composer</ArtistRole>
 				</DisplayArtist>
-				{{~ seq = seq + 1 ~}}
 				{{~ end ~}}
 				<ParentalWarningType>NotExplicit</ParentalWarningType>
 				<ResourceGroup>
@@ -299,11 +304,12 @@
 					<CLineText>(C) {{ asset.release_year}} {{ asset.label_name }}</CLineText>
 				</CLine>
 			</ReleaseDetailsByTerritory>
-			<Duration>{{ asset.track_duration}}</Duration>
+			{{~ d = asset.track_duration | string.replace "H" ":" | string.replace "M" ":" | string.replace "S" "" | string.split ":" ~}}
+			<Duration>PT{{ d[0] | string.to_int }}H{{ d[1] | string.to_int }}M{{ d[2] | string.to_int }}S</Duration>
 		</Release>
 		{{~end~}}
 	</ReleaseList>
-    <DealList>
+	<DealList>
 		{{~ for country_code in album.country_iso_code_list_string ~}}
 		<ReleaseDeal>
 			<DealReleaseReference>R0</DealReleaseReference>
@@ -315,7 +321,7 @@
 					</Usage>
 					<TerritoryCode>{{ country_code }}</TerritoryCode>
 					<ValidityPeriod>
-						<StartDateTime>{{album.start_date}}</StartDateTime>
+						<StartDateTime>{{ album.start_date }}T{{ album.start_time }}Z</StartDateTime>
 					</ValidityPeriod>
 				</DealTerms>
 			</Deal>
@@ -327,7 +333,7 @@
 					</Usage>
 					<TerritoryCode>{{ country_code }}</TerritoryCode>
 					<ValidityPeriod>
-						<StartDateTime>{{album.start_date}}</StartDateTime>
+						<StartDateTime>{{ album.start_date }}T{{ album.start_time }}Z</StartDateTime>
 					</ValidityPeriod>
 				</DealTerms>
 			</Deal>
@@ -345,7 +351,7 @@
 					</Usage>
 					<TerritoryCode>{{ country_code }}</TerritoryCode>
 					<ValidityPeriod>
-						<StartDate>{{asset.start_date}}</StartDate>
+						<StartDateTime>{{ asset.start_date }}T{{ asset.start_time }}Z</StartDateTime>
 					</ValidityPeriod>
 				</DealTerms>
 			</Deal>
@@ -357,7 +363,7 @@
 					</Usage>
 					<TerritoryCode>{{ country_code }}</TerritoryCode>
 					<ValidityPeriod>
-						<StartDate>{{asset.start_date}}</StartDate>
+						<StartDateTime>{{ asset.start_date }}T{{ asset.start_time }}Z</StartDateTime>
 					</ValidityPeriod>
 				</DealTerms>
 			</Deal>

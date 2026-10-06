@@ -1,183 +1,328 @@
 {
   "version": 2,
-  "dgSpecHash": "hwXRL3Fq6vQ=",
+  "dgSpecHash": "Cd/pk0mEu2U=",
   "success": true,
-  "projectFilePath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+  "projectFilePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\programmer\\.nuget\\packages\\epplus\\6.0.3\\epplus.6.0.3.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\epplus.interfaces\\6.0.0\\epplus.interfaces.6.0.0.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\epplus.system.drawing\\6.0.0\\epplus.system.drawing.6.0.0.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\5.0.0\\microsoft.extensions.configuration.fileextensions.5.0.0.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\microsoft.extensions.configuration.json\\5.0.0\\microsoft.extensions.configuration.json.5.0.0.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\5.0.0\\microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\5.0.0\\microsoft.extensions.fileproviders.physical.5.0.0.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\5.0.0\\microsoft.extensions.filesystemglobbing.5.0.0.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\microsoft.identity.client\\4.66.2\\microsoft.identity.client.4.66.2.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.35.0\\microsoft.identitymodel.abstractions.6.35.0.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\microsoft.io.recyclablememorystream\\2.2.0\\microsoft.io.recyclablememorystream.2.2.0.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\officeopenxml.extension.aspnetcore\\1.0.0\\officeopenxml.extension.aspnetcore.1.0.0.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\scriban\\5.12.0\\scriban.5.12.0.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\system.data.sqlclient\\4.9.0\\system.data.sqlclient.4.9.0.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\system.formats.asn1\\5.0.0\\system.formats.asn1.5.0.0.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\system.security.cryptography.cng\\5.0.0\\system.security.cryptography.cng.5.0.0.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\system.security.cryptography.pkcs\\5.0.0\\system.security.cryptography.pkcs.5.0.0.nupkg.sha512",
-    "C:\\Users\\programmer\\.nuget\\packages\\system.text.encoding.codepages\\5.0.0\\system.text.encoding.codepages.5.0.0.nupkg.sha512"
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\enums.net\\4.0.1\\enums.net.4.0.1.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\epplus\\6.0.3\\epplus.6.0.3.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\epplus.interfaces\\6.0.0\\epplus.interfaces.6.0.0.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\epplus.system.drawing\\6.0.0\\epplus.system.drawing.6.0.0.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\mathnet.numerics.signed\\4.15.0\\mathnet.numerics.signed.4.15.0.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\5.0.0\\microsoft.extensions.configuration.fileextensions.5.0.0.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\microsoft.extensions.configuration.json\\5.0.0\\microsoft.extensions.configuration.json.5.0.0.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\5.0.0\\microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\5.0.0\\microsoft.extensions.fileproviders.physical.5.0.0.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\5.0.0\\microsoft.extensions.filesystemglobbing.5.0.0.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\microsoft.identity.client\\4.90.1\\microsoft.identity.client.4.90.1.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.14.0\\microsoft.identitymodel.abstractions.8.14.0.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\microsoft.io.recyclablememorystream\\2.3.2\\microsoft.io.recyclablememorystream.2.3.2.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\microsoft.win32.systemevents\\11.0.0-rc.1.26425.128\\microsoft.win32.systemevents.11.0.0-rc.1.26425.128.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\npoi\\2.6.2\\npoi.2.6.2.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\officeopenxml.extension.aspnetcore\\1.0.0\\officeopenxml.extension.aspnetcore.1.0.0.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\scriban\\5.12.0\\scriban.5.12.0.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\sharpziplib\\1.3.3\\sharpziplib.1.3.3.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\sixlabors.fonts\\1.0.0\\sixlabors.fonts.1.0.0.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\sixlabors.imagesharp\\2.1.4\\sixlabors.imagesharp.2.1.4.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\system.data.sqlclient\\4.9.1\\system.data.sqlclient.4.9.1.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\system.drawing.common\\11.0.0-rc.1.26425.128\\system.drawing.common.11.0.0-rc.1.26425.128.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\system.formats.asn1\\11.0.0-rc.1.26425.128\\system.formats.asn1.11.0.0-rc.1.26425.128.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'BouncyCastle.Cryptography' 2.2.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-8xfc-gm6g-vgpv",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "BouncyCastle.Cryptography",
+      "targetGraphs": [
+        "net10.0-windows"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'BouncyCastle.Cryptography' 2.2.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m44j-cfrm-g8qc",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "BouncyCastle.Cryptography",
+      "targetGraphs": [
+        "net10.0-windows"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'BouncyCastle.Cryptography' 2.2.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-v435-xc8x-wvr9",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "BouncyCastle.Cryptography",
+      "targetGraphs": [
+        "net10.0-windows"
+      ]
+    },
     {
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'Scriban' 5.12.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-24c8-4792-22hx",
-      "projectPath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
       "libraryId": "Scriban",
       "targetGraphs": [
-        "net8.0-windows"
+        "net10.0-windows"
       ]
     },
     {
       "code": "NU1902",
       "level": "Warning",
       "message": "Package 'Scriban' 5.12.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-5rpf-x9jg-8j5p",
-      "projectPath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
       "libraryId": "Scriban",
       "targetGraphs": [
-        "net8.0-windows"
+        "net10.0-windows"
       ]
     },
     {
       "code": "NU1904",
       "level": "Warning",
       "message": "Package 'Scriban' 5.12.0 has a known critical severity vulnerability, https://github.com/advisories/GHSA-5wr9-m6jw-xx44",
-      "projectPath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
       "libraryId": "Scriban",
       "targetGraphs": [
-        "net8.0-windows"
+        "net10.0-windows"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Scriban' 5.12.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-7jvp-hj45-2f2m",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "Scriban",
+      "targetGraphs": [
+        "net10.0-windows"
       ]
     },
     {
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'Scriban' 5.12.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-c875-h985-hvrc",
-      "projectPath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
       "libraryId": "Scriban",
       "targetGraphs": [
-        "net8.0-windows"
+        "net10.0-windows"
       ]
     },
     {
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'Scriban' 5.12.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-grr9-747v-xvcp",
-      "projectPath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
       "libraryId": "Scriban",
       "targetGraphs": [
-        "net8.0-windows"
+        "net10.0-windows"
       ]
     },
     {
       "code": "NU1902",
       "level": "Warning",
       "message": "Package 'Scriban' 5.12.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m2p3-hwv5-xpqw",
-      "projectPath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
       "libraryId": "Scriban",
       "targetGraphs": [
-        "net8.0-windows"
+        "net10.0-windows"
       ]
     },
     {
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'Scriban' 5.12.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-p6q4-fgr8-vx4p",
-      "projectPath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
       "libraryId": "Scriban",
       "targetGraphs": [
-        "net8.0-windows"
+        "net10.0-windows"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Scriban' 5.12.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-q6rr-fm2g-g5x8",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "Scriban",
+      "targetGraphs": [
+        "net10.0-windows"
       ]
     },
     {
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'Scriban' 5.12.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-v66j-x4hw-fv9g",
-      "projectPath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
       "libraryId": "Scriban",
       "targetGraphs": [
-        "net8.0-windows"
+        "net10.0-windows"
       ]
     },
     {
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'Scriban' 5.12.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-wgh7-7m3c-fx25",
-      "projectPath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
       "libraryId": "Scriban",
       "targetGraphs": [
-        "net8.0-windows"
+        "net10.0-windows"
       ]
     },
     {
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'Scriban' 5.12.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-x6m9-38vm-2xhf",
-      "projectPath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
       "libraryId": "Scriban",
       "targetGraphs": [
-        "net8.0-windows"
+        "net10.0-windows"
       ]
     },
     {
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'Scriban' 5.12.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-xcx6-vp38-8hr5",
-      "projectPath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
       "libraryId": "Scriban",
       "targetGraphs": [
-        "net8.0-windows"
+        "net10.0-windows"
       ]
     },
     {
       "code": "NU1902",
       "level": "Warning",
       "message": "Package 'Scriban' 5.12.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-xw6w-9jjh-p9cr",
-      "projectPath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
       "libraryId": "Scriban",
       "targetGraphs": [
-        "net8.0-windows"
+        "net10.0-windows"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'SixLabors.ImageSharp' 2.1.4 has a known high severity vulnerability, https://github.com/advisories/GHSA-2cmq-823j-5qj8",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net10.0-windows"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'SixLabors.ImageSharp' 2.1.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-5x7m-6737-26cr",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net10.0-windows"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'SixLabors.ImageSharp' 2.1.4 has a known high severity vulnerability, https://github.com/advisories/GHSA-63p8-c4ww-9cg7",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net10.0-windows"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'SixLabors.ImageSharp' 2.1.4 has a known high severity vulnerability, https://github.com/advisories/GHSA-65x7-c272-7g7r",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net10.0-windows"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'SixLabors.ImageSharp' 2.1.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-g85r-6x2q-45w7",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net10.0-windows"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'SixLabors.ImageSharp' 2.1.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-qxrv-gp6x-rc23",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net10.0-windows"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'SixLabors.ImageSharp' 2.1.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-rxmq-m78w-7wmc",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net10.0-windows"
       ]
     }
   ]

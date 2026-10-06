@@ -1,0 +1,46 @@
+{
+  "specification": "ownership-1.4",
+  "clientName": "mazzika",
+  "password": "dpBmlcla",
+  "tracks": [{{ for asset in album.asset_list }}{{ if !for.first }},{{ end }}
+	{
+	  "songId": "{{ asset.asset_isrc }}",
+	  "newRecord": false,
+	  "composition": {
+		"title": "{{ asset.track_name | string.escape }}",
+		"writers": [{{ w_first = true }}{{ for l in asset.lyrics_pair_list_string }}{{ if !w_first }},{{ end }}{{ w_first = false }}{{ parts = l.name | string.strip | string.split " " }}
+		  {
+			"firstName": "{{ parts[0] | string.escape }}",
+			"lastName": "{{ parts | array.offset 1 | array.join " " | string.escape }}"
+		  }{{ end }}
+		],
+		"publishing": [
+		  {
+			"publisherId": 233067,
+			"territory": {
+			  "2136": 1
+			}
+		  }
+		]
+	  },
+	  "recordings": [
+		{
+		  "ISRCS": [
+			{
+			  "ISRC": "{{ asset.asset_isrc }}"
+			}
+		  ],
+		  "language": "AR",
+		  "lyrics": "{{ asset.asset_lyrics | string.replace "\r" "" | regex.replace "(\n[ \t]*)+\n" "\n" | string.escape }}",
+		  "lrcIncluded": false,
+		  "artists": [{{ for track_artist in asset.track_artist_list_string }}{{ if !for.first }},{{ end }}
+			{
+			  "name": "{{ track_artist.name | string.strip | string.escape }}",
+			  "main": true
+			}{{ end }}
+		  ]
+		}
+	  ]
+	}{{ end }}
+  ]
+}

@@ -6,7 +6,7 @@
 		<MessageSender>
 			<PartyId>PADPIDA20131118019</PartyId>
 			<PartyName>
-				<FullName>Mazzika Group</FullName>
+				<FullName>Global</FullName>
 			</PartyName>
 		</MessageSender>
 		<MessageRecipient>
@@ -31,7 +31,8 @@
 		  <ReferenceTitle>
 			  <TitleText>{{ asset.track_name }}</TitleText>
 		  </ReferenceTitle>
-		  <Duration>PT{{ asset.track_duration }}</Duration>
+		  {{~ d = asset.track_duration | string.replace "H" ":" | string.replace "M" ":" | string.replace "S" "" | string.split ":" ~}}
+		  <Duration>PT{{ d[0] | string.to_int }}H{{ d[1] | string.to_int }}M{{ d[2] | string.to_int }}S</Duration>
 		  <SoundRecordingDetailsByTerritory>
 			  {{~ for country_code in album.country_iso_code_list_string ~}}
 			  <TerritoryCode>{{ country_code }}</TerritoryCode>
@@ -39,7 +40,7 @@
 			  <Title TitleType="DisplayTitle">
 				  <TitleText>{{ asset.track_name }}</TitleText>
 			  </Title>
-			  {{~ seq = 1  ~}}
+			  {{~ seq = 1 ~}}
 			  {{~ for track_main_artist in asset.track_artist_list_string ~}}
 			  <DisplayArtist SequenceNumber="{{seq}}">
 				  <PartyName>
@@ -62,8 +63,7 @@
         <TechnicalSoundRecordingDetails>
           <TechnicalResourceDetailsReference>T{{ asset.track_num }}</TechnicalResourceDetailsReference>
           <File>
-            <FileName>
-				resources/{{ asset.album_ubc }}_T{{ asset.track_num.size < 2 ? "00" + asset.track_num : asset.track_num.size < 3 ? "0" + asset.track_num : asset.track_num }}.flac</FileName>
+            <FileName>resources/{{ asset.album_ubc }}_T{{ asset.track_num }}.flac</FileName>
           </File>
         </TechnicalSoundRecordingDetails>
       </SoundRecordingDetailsByTerritory>
@@ -116,13 +116,17 @@
         <Title TitleType="DisplayTitle">
           <TitleText>{{ album.album_name }}</TitleText>
         </Title>
-        <DisplayArtist SequenceNumber="1">
+		  {{~ seq = 1 ~}}
+		  {{~ for album_main_artist in album.album_artist_list_string ~}}
+		  <DisplayArtist SequenceNumber="{{seq}}">
           <PartyName>
-            <FullName>{{ album.album_artist }}</FullName>
+            <FullName>{{ album_main_artist.name }}</FullName>
           </PartyName>
           <ArtistRole>MainArtist</ArtistRole>
-        </DisplayArtist>
-        <ParentalWarningType>NotExplicit</ParentalWarningType>
+          </DisplayArtist>
+		  {{~ seq = seq + 1 ~}}
+		  {{~ end ~}}
+		  <ParentalWarningType>NotExplicit</ParentalWarningType>
         <ResourceGroup>
           <ResourceGroup>
             <Title TitleType="GroupingTitle">
@@ -180,13 +184,17 @@
         <Title TitleType="DisplayTitle">
           <TitleText>{{ asset.track_name }}</TitleText>
         </Title>
-        <DisplayArtist SequenceNumber="1">
+		  {{~ seq = 1 ~}}
+		  {{~ for track_main_artist in asset.track_artist_list_string ~}}
+		  <DisplayArtist SequenceNumber="{{seq}}">
           <PartyName>
-            <FullName>{{ asset.track_artist }}</FullName>
+            <FullName>{{ track_main_artist.name }}</FullName>
           </PartyName>
           <ArtistRole>MainArtist</ArtistRole>
-        </DisplayArtist>
-      </ReleaseDetailsByTerritory>
+          </DisplayArtist>
+		  {{~ seq = seq + 1 ~}}
+		  {{~ end ~}}
+	  </ReleaseDetailsByTerritory>
       <PLine>
         <Year>{{ asset.release_year }}</Year>
         <PLineText>{{ asset.release_year }} {{ asset.label_name }}</PLineText>
@@ -195,7 +203,6 @@
 	  {{~end~}}
   </ReleaseList>
   <DealList>
-
 	  <ReleaseDeal>
 		  <DealReleaseReference>R0</DealReleaseReference>
 		  <Deal>
