@@ -1,0 +1,63 @@
+27/04/2026 03:54:23 م: Starting XML generation for package ID: 3837, Filename: TWIST_Video_XML_Template.xml, Company: Etisalat-TWIST
+27/04/2026 03:54:23 م: Success: fetched package info for ID: 3837
+27/04/2026 03:54:23 م: Processing group with Album UPC: 6221117009791
+27/04/2026 03:54:23 م: Starting GetFolderPaths...
+27/04/2026 03:54:23 م: Fetching package folder for company: Etisalat-TWIST
+27/04/2026 03:54:23 م: Sucsses: PackageFolder set to: 20260427155423466
+27/04/2026 03:54:23 م: Sucsses: Fetching resources folder for company: Etisalat-TWIST
+27/04/2026 03:54:23 م: Sucsses: ResourcesFolder set to: 20260427155423466\6221117009791\resources
+27/04/2026 03:54:23 م: Sucsses: Fetching metadata file path for company: Etisalat-TWIST
+27/04/2026 03:54:23 م: Sucsses: MetadataFile path set to: 20260427155423466\6221117009791\6221117009791.xml
+27/04/2026 03:54:23 م: Sucsses: Final PackageFolder path: 3837\20260427155423466
+27/04/2026 03:54:23 م: Sucsses: Final ResourcesFolder path: 3837\20260427155423466\6221117009791\resources
+27/04/2026 03:54:23 م: Sucsses: Retrieved folder paths for package: 3837
+27/04/2026 03:54:23 م: Starting GetCover...
+27/04/2026 03:54:24 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117009791.jpg
+27/04/2026 03:54:24 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117009791.jpg
+27/04/2026 03:54:24 م: Sucsses: Created directory: C:\Pkg_Output\etisalat-twist\3837\20260427155423466\6221117009791\resources
+27/04/2026 03:54:24 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117009791.jpg
+27/04/2026 03:54:24 م: Sucsses: Copied cover file to: C:\Pkg_Output\etisalat-twist\3837\20260427155423466\6221117009791\resources\6221117009791.jpg
+27/04/2026 03:54:24 م: Start Getting Media For package info: 3837
+27/04/2026 03:54:24 م: Media data generated successfully.
+27/04/2026 04:27:57 م: Starting XML generation for package ID: 3845, Filename: TWIST_Video_XML_Template.xml, Company: Etisalat-TWIST
+27/04/2026 04:27:57 م: Success: fetched package info for ID: 3845
+27/04/2026 04:27:57 م: Processing group with Album UPC: 6221117018557
+27/04/2026 04:27:57 م: Starting GetFolderPaths...
+27/04/2026 04:27:57 م: Fetching package folder for company: Etisalat-TWIST
+27/04/2026 04:27:57 م: Sucsses: PackageFolder set to: 20260427162757698
+27/04/2026 04:27:57 م: Sucsses: Fetching resources folder for company: Etisalat-TWIST
+27/04/2026 04:27:57 م: Sucsses: ResourcesFolder set to: 20260427162757698\6221117018557\resources
+27/04/2026 04:27:57 م: Sucsses: Fetching metadata file path for company: Etisalat-TWIST
+27/04/2026 04:27:57 م: Sucsses: MetadataFile path set to: 20260427162757698\6221117018557\6221117018557.xml
+27/04/2026 04:27:57 م: Sucsses: Final PackageFolder path: 3845\20260427162757698
+27/04/2026 04:27:57 م: Sucsses: Final ResourcesFolder path: 3845\20260427162757698\6221117018557\resources
+27/04/2026 04:27:57 م: Sucsses: Retrieved folder paths for package: 3845
+27/04/2026 04:27:57 م: Starting GetCover...
+27/04/2026 04:27:58 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117018557.jpg
+27/04/2026 04:27:58 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117018557.jpg
+27/04/2026 04:27:58 م: Sucsses: Created directory: C:\Pkg_Output\etisalat-twist\3845\20260427162757698\6221117018557\resources
+27/04/2026 04:27:58 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117018557.jpg
+27/04/2026 04:27:58 م: Sucsses: Copied cover file to: C:\Pkg_Output\etisalat-twist\3845\20260427162757698\6221117018557\resources\6221117018557.jpg
+27/04/2026 04:27:58 م: Start Getting Media For package info: 3845
+27/04/2026 04:32:28 م: Starting XML generation for package ID: 3845, Filename: TWIST_Video_XML_Template.xml, Company: Etisalat-TWIST
+27/04/2026 04:32:28 م: Success: fetched package info for ID: 3845
+27/04/2026 04:32:28 م: Processing group with Album UPC: 6221117018557
+27/04/2026 04:32:28 م: Starting GetFolderPaths...
+27/04/2026 04:32:28 م: Fetching package folder for company: Etisalat-TWIST
+27/04/2026 04:32:28 م: Sucsses: PackageFolder set to: 20260427163228149
+27/04/2026 04:32:28 م: Sucsses: Fetching resources folder for company: Etisalat-TWIST
+27/04/2026 04:32:28 م: Sucsses: ResourcesFolder set to: 20260427163228149\6221117018557\resources
+27/04/2026 04:32:28 م: Sucsses: Fetching metadata file path for company: Etisalat-TWIST
+27/04/2026 04:32:28 م: Sucsses: MetadataFile path set to: 20260427163228149\6221117018557\6221117018557.xml
+27/04/2026 04:32:28 م: Sucsses: Final PackageFolder path: 3845\20260427163228149
+27/04/2026 04:32:28 م: Sucsses: Final ResourcesFolder path: 3845\20260427163228149\6221117018557\resources
+27/04/2026 04:32:28 م: Sucsses: Retrieved folder paths for package: 3845
+27/04/2026 04:32:28 م: Starting GetCover...
+27/04/2026 04:32:28 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117018557.jpg
+27/04/2026 04:32:28 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117018557.jpg
+27/04/2026 04:32:28 م: Sucsses: Created directory: C:\Pkg_Output\etisalat-twist\3845\20260427163228149\6221117018557\resources
+27/04/2026 04:32:28 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117018557.jpg
+27/04/2026 04:32:29 م: Sucsses: Copied cover file to: C:\Pkg_Output\etisalat-twist\3845\20260427163228149\6221117018557\resources\6221117018557.jpg
+27/04/2026 04:32:29 م: Start Getting Media For package info: 3845
+27/04/2026 04:33:01 م: Media data generated successfully.
+27/04/2026 04:33:03 م: Success: generated XML for package ID: 3845

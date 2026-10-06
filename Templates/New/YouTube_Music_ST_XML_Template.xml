@@ -178,7 +178,7 @@
 			</PLine>
 			<GlobalOriginalReleaseDate>{{ album.release_date }}</GlobalOriginalReleaseDate>
 		</Release>
-		{{~for asset in asset_list ~}}
+		{{~for asset in album.asset_list ~}}
 		<Release>
 			<ReleaseId>
 				<ISRC>{{asset.asset_isrc}}</ISRC>
@@ -196,7 +196,7 @@
 				<TerritoryCode>{{ country_code }}</TerritoryCode>
 				{{~ end ~}}
 				<DisplayArtistName>{{asset.track_artist}}</DisplayArtistName>
-				<LabelName LabelNameType="DisplayLabelName">{{asset.label_anme}}</LabelName>
+				<LabelName LabelNameType="DisplayLabelName">{{asset.label_name}}</LabelName>
 				<Title LanguageAndScriptCode="en" TitleType="FormalTitle">
 					<TitleText>{{asset.track_name}}</TitleText>
 				</Title>

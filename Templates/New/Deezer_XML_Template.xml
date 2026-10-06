@@ -43,18 +43,22 @@
         <Title LanguageAndScriptCode="ar" TitleType="TranslatedTitle">
           <TitleText>{{ asset.track_name_a }}</TitleText>
         </Title>
-        <DisplayArtist SequenceNumber="1">
+        {{~ seq = 1  ~}}
+        {{~ for track_artist in asset.track_artist_list_string ~}}
+        <DisplayArtist SequenceNumber="{{seq}}">
           <PartyName>
-            <FullName>{{ asset.track_artist }}</FullName>
+            <FullName>{{track_artist.name}}</FullName>
           </PartyName>
           <PartyName LanguageAndScriptCode="ar">
-            <FullName>{{ asset.track_artist_a }}</FullName>
+            <FullName>{{track_artist.name_ar}}</FullName>
           </PartyName>
           <ArtistRole>MainArtist</ArtistRole>
         </DisplayArtist>
-		  {{~ seq = 1  ~}}
-		  {{~ for track_featured_artist in asset.track_featured_artist_list_string ~}}
-		  <DisplayArtist SequenceNumber="{{seq}}">
+        {{~ seq = seq + 1  ~}}
+        {{~ end ~}}
+        {{~ seq = 1  ~}}
+        {{~ for track_featured_artist in asset.track_featured_artist_list_string ~}}
+        <DisplayArtist SequenceNumber="{{seq}}">
           <PartyName>
             <FullName>{{ track_featured_artist.name }}</FullName>
           </PartyName>

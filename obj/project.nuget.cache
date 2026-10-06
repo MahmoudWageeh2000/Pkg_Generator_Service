@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HZk7RgMFEFM=",
+  "dgSpecHash": "hwXRL3Fq6vQ=",
   "success": true,
-  "projectFilePath": "C:\\0CurrectPrograms\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+  "projectFilePath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\programmer\\.nuget\\packages\\epplus\\6.0.3\\epplus.6.0.3.nupkg.sha512",
     "C:\\Users\\programmer\\.nuget\\packages\\epplus.interfaces\\6.0.0\\epplus.interfaces.6.0.0.nupkg.sha512",
@@ -35,5 +35,150 @@
     "C:\\Users\\programmer\\.nuget\\packages\\system.security.cryptography.pkcs\\5.0.0\\system.security.cryptography.pkcs.5.0.0.nupkg.sha512",
     "C:\\Users\\programmer\\.nuget\\packages\\system.text.encoding.codepages\\5.0.0\\system.text.encoding.codepages.5.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Scriban' 5.12.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-24c8-4792-22hx",
+      "projectPath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "Scriban",
+      "targetGraphs": [
+        "net8.0-windows"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Scriban' 5.12.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-5rpf-x9jg-8j5p",
+      "projectPath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "Scriban",
+      "targetGraphs": [
+        "net8.0-windows"
+      ]
+    },
+    {
+      "code": "NU1904",
+      "level": "Warning",
+      "message": "Package 'Scriban' 5.12.0 has a known critical severity vulnerability, https://github.com/advisories/GHSA-5wr9-m6jw-xx44",
+      "projectPath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "Scriban",
+      "targetGraphs": [
+        "net8.0-windows"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Scriban' 5.12.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-c875-h985-hvrc",
+      "projectPath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "Scriban",
+      "targetGraphs": [
+        "net8.0-windows"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Scriban' 5.12.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-grr9-747v-xvcp",
+      "projectPath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "Scriban",
+      "targetGraphs": [
+        "net8.0-windows"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Scriban' 5.12.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m2p3-hwv5-xpqw",
+      "projectPath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "Scriban",
+      "targetGraphs": [
+        "net8.0-windows"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Scriban' 5.12.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-p6q4-fgr8-vx4p",
+      "projectPath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "Scriban",
+      "targetGraphs": [
+        "net8.0-windows"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Scriban' 5.12.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-v66j-x4hw-fv9g",
+      "projectPath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "Scriban",
+      "targetGraphs": [
+        "net8.0-windows"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Scriban' 5.12.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-wgh7-7m3c-fx25",
+      "projectPath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "Scriban",
+      "targetGraphs": [
+        "net8.0-windows"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Scriban' 5.12.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-x6m9-38vm-2xhf",
+      "projectPath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "Scriban",
+      "targetGraphs": [
+        "net8.0-windows"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Scriban' 5.12.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-xcx6-vp38-8hr5",
+      "projectPath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "Scriban",
+      "targetGraphs": [
+        "net8.0-windows"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Scriban' 5.12.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-xw6w-9jjh-p9cr",
+      "projectPath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "Scriban",
+      "targetGraphs": [
+        "net8.0-windows"
+      ]
+    }
+  ]
 }

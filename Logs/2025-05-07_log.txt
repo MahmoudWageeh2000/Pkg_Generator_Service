@@ -1,0 +1,345 @@
+07-05-2025 14:11:30: Starting XML generation for package ID: 331, Filename: Apple_Music_XML_Template.xml, Company: Apple Music
+07-05-2025 14:11:30: Success: fetched package info for ID: 331
+07-05-2025 14:11:30: Processing group with Album UPC: 6221117190697
+07-05-2025 14:11:30: Starting GetFolderPaths...
+07-05-2025 14:11:30: Fetching package folder for company: Apple Music
+07-05-2025 14:11:30: Sucsses: PackageFolder set to: 20250507141130404
+07-05-2025 14:11:30: Sucsses: Fetching resources folder for company: Apple Music
+07-05-2025 14:11:30: Sucsses: ResourcesFolder set to: 20250507141130404\6221117190697.itmsp
+07-05-2025 14:11:30: Sucsses: Fetching metadata file path for company: Apple Music
+07-05-2025 14:11:30: Sucsses: MetadataFile path set to: 20250507141130404\6221117190697.itmsp\metadata.xml
+07-05-2025 14:11:30: Sucsses: Final PackageFolder path: 331\20250507141130404
+07-05-2025 14:11:30: Sucsses: Final ResourcesFolder path: 331\20250507141130404\6221117190697.itmsp
+07-05-2025 14:11:30: Sucsses: Retrieved folder paths for package: 331
+07-05-2025 14:11:30: Starting GetCover...
+07-05-2025 14:11:31: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117190697.jpg
+07-05-2025 14:11:31: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117190697.jpg
+07-05-2025 14:11:31: Sucsses: Created directory: C:\Pkg_Output\apple music\331\20250507141130404\6221117190697.itmsp
+07-05-2025 14:11:31: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117190697.jpg
+07-05-2025 14:11:31: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\331\20250507141130404\6221117190697.itmsp\6221117190697.jpg
+07-05-2025 14:11:31: Start Getting Media For package info: 331
+07-05-2025 14:11:33: Media data generated successfully.
+07-05-2025 14:11:33: Success: generated XML for package ID: 331
+07-05-2025 14:11:33: Processing group with Album UPC: 6221117190789
+07-05-2025 14:11:33: Starting GetFolderPaths...
+07-05-2025 14:11:33: Sucsses: PackageFolder trimmed to: 20250507141130404
+07-05-2025 14:11:33: Sucsses: Fetching resources folder for company: Apple Music
+07-05-2025 14:11:33: Sucsses: ResourcesFolder set to: 20250507141130404\6221117190789.itmsp
+07-05-2025 14:11:33: Sucsses: Fetching metadata file path for company: Apple Music
+07-05-2025 14:11:33: Sucsses: MetadataFile path set to: 20250507141130404\6221117190789.itmsp\metadata.xml
+07-05-2025 14:11:33: Sucsses: Final PackageFolder path: 331\20250507141130404
+07-05-2025 14:11:33: Sucsses: Final ResourcesFolder path: 331\20250507141130404\6221117190789.itmsp
+07-05-2025 14:11:33: Sucsses: Retrieved folder paths for package: 331
+07-05-2025 14:11:33: Starting GetCover...
+07-05-2025 14:11:34: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117190789.jpg
+07-05-2025 14:11:34: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117190789.jpg
+07-05-2025 14:11:34: Sucsses: Created directory: C:\Pkg_Output\apple music\331\20250507141130404\6221117190789.itmsp
+07-05-2025 14:11:34: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117190789.jpg
+07-05-2025 14:11:34: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\331\20250507141130404\6221117190789.itmsp\6221117190789.jpg
+07-05-2025 14:11:34: Start Getting Media For package info: 331
+07-05-2025 14:11:36: Media data generated successfully.
+07-05-2025 14:11:36: Success: generated XML for package ID: 331
+07-05-2025 14:11:36: Processing group with Album UPC: 6221117198525
+07-05-2025 14:11:36: Starting GetFolderPaths...
+07-05-2025 14:11:36: Sucsses: PackageFolder trimmed to: 20250507141130404
+07-05-2025 14:11:36: Sucsses: Fetching resources folder for company: Apple Music
+07-05-2025 14:11:36: Sucsses: ResourcesFolder set to: 20250507141130404\6221117198525.itmsp
+07-05-2025 14:11:36: Sucsses: Fetching metadata file path for company: Apple Music
+07-05-2025 14:11:36: Sucsses: MetadataFile path set to: 20250507141130404\6221117198525.itmsp\metadata.xml
+07-05-2025 14:11:36: Sucsses: Final PackageFolder path: 331\20250507141130404
+07-05-2025 14:11:36: Sucsses: Final ResourcesFolder path: 331\20250507141130404\6221117198525.itmsp
+07-05-2025 14:11:36: Sucsses: Retrieved folder paths for package: 331
+07-05-2025 14:11:36: Starting GetCover...
+07-05-2025 14:11:37: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198525.jpg
+07-05-2025 14:11:37: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198525.jpg
+07-05-2025 14:11:37: Sucsses: Created directory: C:\Pkg_Output\apple music\331\20250507141130404\6221117198525.itmsp
+07-05-2025 14:11:37: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198525.jpg
+07-05-2025 14:11:37: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\331\20250507141130404\6221117198525.itmsp\6221117198525.jpg
+07-05-2025 14:11:37: Start Getting Media For package info: 331
+07-05-2025 14:11:39: Media data generated successfully.
+07-05-2025 14:11:39: Success: generated XML for package ID: 331
+07-05-2025 14:11:39: Processing group with Album UPC: 6221117198532
+07-05-2025 14:11:39: Starting GetFolderPaths...
+07-05-2025 14:11:39: Sucsses: PackageFolder trimmed to: 20250507141130404
+07-05-2025 14:11:39: Sucsses: Fetching resources folder for company: Apple Music
+07-05-2025 14:11:39: Sucsses: ResourcesFolder set to: 20250507141130404\6221117198532.itmsp
+07-05-2025 14:11:39: Sucsses: Fetching metadata file path for company: Apple Music
+07-05-2025 14:11:39: Sucsses: MetadataFile path set to: 20250507141130404\6221117198532.itmsp\metadata.xml
+07-05-2025 14:11:39: Sucsses: Final PackageFolder path: 331\20250507141130404
+07-05-2025 14:11:39: Sucsses: Final ResourcesFolder path: 331\20250507141130404\6221117198532.itmsp
+07-05-2025 14:11:39: Sucsses: Retrieved folder paths for package: 331
+07-05-2025 14:11:39: Starting GetCover...
+07-05-2025 14:11:40: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198532.jpg
+07-05-2025 14:11:40: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198532.jpg
+07-05-2025 14:11:40: Sucsses: Created directory: C:\Pkg_Output\apple music\331\20250507141130404\6221117198532.itmsp
+07-05-2025 14:11:40: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198532.jpg
+07-05-2025 14:11:41: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\331\20250507141130404\6221117198532.itmsp\6221117198532.jpg
+07-05-2025 14:11:41: Start Getting Media For package info: 331
+07-05-2025 14:11:43: Media data generated successfully.
+07-05-2025 14:11:43: Success: generated XML for package ID: 331
+07-05-2025 14:11:43: Processing group with Album UPC: 6221117198549
+07-05-2025 14:11:43: Starting GetFolderPaths...
+07-05-2025 14:11:43: Sucsses: PackageFolder trimmed to: 20250507141130404
+07-05-2025 14:11:43: Sucsses: Fetching resources folder for company: Apple Music
+07-05-2025 14:11:43: Sucsses: ResourcesFolder set to: 20250507141130404\6221117198549.itmsp
+07-05-2025 14:11:43: Sucsses: Fetching metadata file path for company: Apple Music
+07-05-2025 14:11:43: Sucsses: MetadataFile path set to: 20250507141130404\6221117198549.itmsp\metadata.xml
+07-05-2025 14:11:43: Sucsses: Final PackageFolder path: 331\20250507141130404
+07-05-2025 14:11:43: Sucsses: Final ResourcesFolder path: 331\20250507141130404\6221117198549.itmsp
+07-05-2025 14:11:43: Sucsses: Retrieved folder paths for package: 331
+07-05-2025 14:11:43: Starting GetCover...
+07-05-2025 14:11:44: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198549.jpg
+07-05-2025 14:11:44: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198549.jpg
+07-05-2025 14:11:44: Sucsses: Created directory: C:\Pkg_Output\apple music\331\20250507141130404\6221117198549.itmsp
+07-05-2025 14:11:44: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198549.jpg
+07-05-2025 14:11:44: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\331\20250507141130404\6221117198549.itmsp\6221117198549.jpg
+07-05-2025 14:11:44: Start Getting Media For package info: 331
+07-05-2025 14:11:46: Media data generated successfully.
+07-05-2025 14:11:46: Success: generated XML for package ID: 331
+07-05-2025 14:11:46: Processing group with Album UPC: 6221117198556
+07-05-2025 14:11:46: Starting GetFolderPaths...
+07-05-2025 14:11:46: Sucsses: PackageFolder trimmed to: 20250507141130404
+07-05-2025 14:11:46: Sucsses: Fetching resources folder for company: Apple Music
+07-05-2025 14:11:46: Sucsses: ResourcesFolder set to: 20250507141130404\6221117198556.itmsp
+07-05-2025 14:11:46: Sucsses: Fetching metadata file path for company: Apple Music
+07-05-2025 14:11:46: Sucsses: MetadataFile path set to: 20250507141130404\6221117198556.itmsp\metadata.xml
+07-05-2025 14:11:46: Sucsses: Final PackageFolder path: 331\20250507141130404
+07-05-2025 14:11:46: Sucsses: Final ResourcesFolder path: 331\20250507141130404\6221117198556.itmsp
+07-05-2025 14:11:46: Sucsses: Retrieved folder paths for package: 331
+07-05-2025 14:11:46: Starting GetCover...
+07-05-2025 14:11:47: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198556.jpg
+07-05-2025 14:11:47: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198556.jpg
+07-05-2025 14:11:47: Sucsses: Created directory: C:\Pkg_Output\apple music\331\20250507141130404\6221117198556.itmsp
+07-05-2025 14:11:47: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198556.jpg
+07-05-2025 14:11:47: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\331\20250507141130404\6221117198556.itmsp\6221117198556.jpg
+07-05-2025 14:11:47: Start Getting Media For package info: 331
+07-05-2025 14:11:49: Media data generated successfully.
+07-05-2025 14:11:49: Success: generated XML for package ID: 331
+07-05-2025 14:11:49: Processing group with Album UPC: 6221117198563
+07-05-2025 14:11:49: Starting GetFolderPaths...
+07-05-2025 14:11:49: Sucsses: PackageFolder trimmed to: 20250507141130404
+07-05-2025 14:11:49: Sucsses: Fetching resources folder for company: Apple Music
+07-05-2025 14:11:49: Sucsses: ResourcesFolder set to: 20250507141130404\6221117198563.itmsp
+07-05-2025 14:11:49: Sucsses: Fetching metadata file path for company: Apple Music
+07-05-2025 14:11:49: Sucsses: MetadataFile path set to: 20250507141130404\6221117198563.itmsp\metadata.xml
+07-05-2025 14:11:49: Sucsses: Final PackageFolder path: 331\20250507141130404
+07-05-2025 14:11:49: Sucsses: Final ResourcesFolder path: 331\20250507141130404\6221117198563.itmsp
+07-05-2025 14:11:49: Sucsses: Retrieved folder paths for package: 331
+07-05-2025 14:11:49: Starting GetCover...
+07-05-2025 14:11:50: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198563.jpg
+07-05-2025 14:11:50: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198563.jpg
+07-05-2025 14:11:50: Sucsses: Created directory: C:\Pkg_Output\apple music\331\20250507141130404\6221117198563.itmsp
+07-05-2025 14:11:50: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198563.jpg
+07-05-2025 14:11:50: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\331\20250507141130404\6221117198563.itmsp\6221117198563.jpg
+07-05-2025 14:11:50: Start Getting Media For package info: 331
+07-05-2025 14:11:52: Media data generated successfully.
+07-05-2025 14:11:52: Success: generated XML for package ID: 331
+07-05-2025 14:11:52: Processing group with Album UPC: 6221117198570
+07-05-2025 14:11:52: Starting GetFolderPaths...
+07-05-2025 14:11:52: Sucsses: PackageFolder trimmed to: 20250507141130404
+07-05-2025 14:11:52: Sucsses: Fetching resources folder for company: Apple Music
+07-05-2025 14:11:52: Sucsses: ResourcesFolder set to: 20250507141130404\6221117198570.itmsp
+07-05-2025 14:11:52: Sucsses: Fetching metadata file path for company: Apple Music
+07-05-2025 14:11:52: Sucsses: MetadataFile path set to: 20250507141130404\6221117198570.itmsp\metadata.xml
+07-05-2025 14:11:52: Sucsses: Final PackageFolder path: 331\20250507141130404
+07-05-2025 14:11:52: Sucsses: Final ResourcesFolder path: 331\20250507141130404\6221117198570.itmsp
+07-05-2025 14:11:52: Sucsses: Retrieved folder paths for package: 331
+07-05-2025 14:11:52: Starting GetCover...
+07-05-2025 14:11:53: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198570.jpg
+07-05-2025 14:11:53: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198570.jpg
+07-05-2025 14:11:53: Sucsses: Created directory: C:\Pkg_Output\apple music\331\20250507141130404\6221117198570.itmsp
+07-05-2025 14:11:53: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198570.jpg
+07-05-2025 14:11:53: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\331\20250507141130404\6221117198570.itmsp\6221117198570.jpg
+07-05-2025 14:11:53: Start Getting Media For package info: 331
+07-05-2025 14:11:55: Media data generated successfully.
+07-05-2025 14:11:55: Success: generated XML for package ID: 331
+07-05-2025 14:11:55: Processing group with Album UPC: 6221117198587
+07-05-2025 14:11:55: Starting GetFolderPaths...
+07-05-2025 14:11:55: Sucsses: PackageFolder trimmed to: 20250507141130404
+07-05-2025 14:11:55: Sucsses: Fetching resources folder for company: Apple Music
+07-05-2025 14:11:55: Sucsses: ResourcesFolder set to: 20250507141130404\6221117198587.itmsp
+07-05-2025 14:11:55: Sucsses: Fetching metadata file path for company: Apple Music
+07-05-2025 14:11:55: Sucsses: MetadataFile path set to: 20250507141130404\6221117198587.itmsp\metadata.xml
+07-05-2025 14:11:55: Sucsses: Final PackageFolder path: 331\20250507141130404
+07-05-2025 14:11:55: Sucsses: Final ResourcesFolder path: 331\20250507141130404\6221117198587.itmsp
+07-05-2025 14:11:55: Sucsses: Retrieved folder paths for package: 331
+07-05-2025 14:11:55: Starting GetCover...
+07-05-2025 14:11:56: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198587.jpg
+07-05-2025 14:11:56: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198587.jpg
+07-05-2025 14:11:56: Sucsses: Created directory: C:\Pkg_Output\apple music\331\20250507141130404\6221117198587.itmsp
+07-05-2025 14:11:56: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198587.jpg
+07-05-2025 14:11:56: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\331\20250507141130404\6221117198587.itmsp\6221117198587.jpg
+07-05-2025 14:11:56: Start Getting Media For package info: 331
+07-05-2025 14:11:58: Media data generated successfully.
+07-05-2025 14:11:58: Success: generated XML for package ID: 331
+07-05-2025 14:11:58: Processing group with Album UPC: 6221117198594
+07-05-2025 14:11:58: Starting GetFolderPaths...
+07-05-2025 14:11:58: Sucsses: PackageFolder trimmed to: 20250507141130404
+07-05-2025 14:11:58: Sucsses: Fetching resources folder for company: Apple Music
+07-05-2025 14:11:58: Sucsses: ResourcesFolder set to: 20250507141130404\6221117198594.itmsp
+07-05-2025 14:11:58: Sucsses: Fetching metadata file path for company: Apple Music
+07-05-2025 14:11:58: Sucsses: MetadataFile path set to: 20250507141130404\6221117198594.itmsp\metadata.xml
+07-05-2025 14:11:58: Sucsses: Final PackageFolder path: 331\20250507141130404
+07-05-2025 14:11:58: Sucsses: Final ResourcesFolder path: 331\20250507141130404\6221117198594.itmsp
+07-05-2025 14:11:58: Sucsses: Retrieved folder paths for package: 331
+07-05-2025 14:11:58: Starting GetCover...
+07-05-2025 14:11:59: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198594.jpg
+07-05-2025 14:11:59: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198594.jpg
+07-05-2025 14:11:59: Sucsses: Created directory: C:\Pkg_Output\apple music\331\20250507141130404\6221117198594.itmsp
+07-05-2025 14:11:59: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198594.jpg
+07-05-2025 14:11:59: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\331\20250507141130404\6221117198594.itmsp\6221117198594.jpg
+07-05-2025 14:11:59: Start Getting Media For package info: 331
+07-05-2025 14:12:01: Media data generated successfully.
+07-05-2025 14:12:01: Success: generated XML for package ID: 331
+07-05-2025 14:12:01: Processing group with Album UPC: 6221117198600
+07-05-2025 14:12:01: Starting GetFolderPaths...
+07-05-2025 14:12:01: Sucsses: PackageFolder trimmed to: 20250507141130404
+07-05-2025 14:12:01: Sucsses: Fetching resources folder for company: Apple Music
+07-05-2025 14:12:01: Sucsses: ResourcesFolder set to: 20250507141130404\6221117198600.itmsp
+07-05-2025 14:12:01: Sucsses: Fetching metadata file path for company: Apple Music
+07-05-2025 14:12:01: Sucsses: MetadataFile path set to: 20250507141130404\6221117198600.itmsp\metadata.xml
+07-05-2025 14:12:01: Sucsses: Final PackageFolder path: 331\20250507141130404
+07-05-2025 14:12:01: Sucsses: Final ResourcesFolder path: 331\20250507141130404\6221117198600.itmsp
+07-05-2025 14:12:01: Sucsses: Retrieved folder paths for package: 331
+07-05-2025 14:12:01: Starting GetCover...
+07-05-2025 14:12:02: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198600.jpg
+07-05-2025 14:12:02: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198600.jpg
+07-05-2025 14:12:02: Sucsses: Created directory: C:\Pkg_Output\apple music\331\20250507141130404\6221117198600.itmsp
+07-05-2025 14:12:02: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198600.jpg
+07-05-2025 14:12:02: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\331\20250507141130404\6221117198600.itmsp\6221117198600.jpg
+07-05-2025 14:12:02: Start Getting Media For package info: 331
+07-05-2025 14:12:04: Media data generated successfully.
+07-05-2025 14:12:04: Success: generated XML for package ID: 331
+07-05-2025 14:12:04: Processing group with Album UPC: 6221117198617
+07-05-2025 14:12:04: Starting GetFolderPaths...
+07-05-2025 14:12:04: Sucsses: PackageFolder trimmed to: 20250507141130404
+07-05-2025 14:12:04: Sucsses: Fetching resources folder for company: Apple Music
+07-05-2025 14:12:04: Sucsses: ResourcesFolder set to: 20250507141130404\6221117198617.itmsp
+07-05-2025 14:12:04: Sucsses: Fetching metadata file path for company: Apple Music
+07-05-2025 14:12:04: Sucsses: MetadataFile path set to: 20250507141130404\6221117198617.itmsp\metadata.xml
+07-05-2025 14:12:04: Sucsses: Final PackageFolder path: 331\20250507141130404
+07-05-2025 14:12:04: Sucsses: Final ResourcesFolder path: 331\20250507141130404\6221117198617.itmsp
+07-05-2025 14:12:04: Sucsses: Retrieved folder paths for package: 331
+07-05-2025 14:12:04: Starting GetCover...
+07-05-2025 14:12:05: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198617.jpg
+07-05-2025 14:12:05: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198617.jpg
+07-05-2025 14:12:05: Sucsses: Created directory: C:\Pkg_Output\apple music\331\20250507141130404\6221117198617.itmsp
+07-05-2025 14:12:05: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198617.jpg
+07-05-2025 14:12:05: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\331\20250507141130404\6221117198617.itmsp\6221117198617.jpg
+07-05-2025 14:12:05: Start Getting Media For package info: 331
+07-05-2025 14:12:07: Media data generated successfully.
+07-05-2025 14:12:07: Success: generated XML for package ID: 331
+07-05-2025 14:12:07: Processing group with Album UPC: 6221117198624
+07-05-2025 14:12:07: Starting GetFolderPaths...
+07-05-2025 14:12:07: Sucsses: PackageFolder trimmed to: 20250507141130404
+07-05-2025 14:12:07: Sucsses: Fetching resources folder for company: Apple Music
+07-05-2025 14:12:07: Sucsses: ResourcesFolder set to: 20250507141130404\6221117198624.itmsp
+07-05-2025 14:12:07: Sucsses: Fetching metadata file path for company: Apple Music
+07-05-2025 14:12:07: Sucsses: MetadataFile path set to: 20250507141130404\6221117198624.itmsp\metadata.xml
+07-05-2025 14:12:07: Sucsses: Final PackageFolder path: 331\20250507141130404
+07-05-2025 14:12:07: Sucsses: Final ResourcesFolder path: 331\20250507141130404\6221117198624.itmsp
+07-05-2025 14:12:07: Sucsses: Retrieved folder paths for package: 331
+07-05-2025 14:12:07: Starting GetCover...
+07-05-2025 14:12:08: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198624.jpg
+07-05-2025 14:12:08: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198624.jpg
+07-05-2025 14:12:08: Sucsses: Created directory: C:\Pkg_Output\apple music\331\20250507141130404\6221117198624.itmsp
+07-05-2025 14:12:08: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198624.jpg
+07-05-2025 14:12:08: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\331\20250507141130404\6221117198624.itmsp\6221117198624.jpg
+07-05-2025 14:12:08: Start Getting Media For package info: 331
+07-05-2025 14:12:10: Media data generated successfully.
+07-05-2025 14:12:10: Success: generated XML for package ID: 331
+07-05-2025 14:12:10: Processing group with Album UPC: 6221117198822
+07-05-2025 14:12:10: Starting GetFolderPaths...
+07-05-2025 14:12:10: Sucsses: PackageFolder trimmed to: 20250507141130404
+07-05-2025 14:12:10: Sucsses: Fetching resources folder for company: Apple Music
+07-05-2025 14:12:10: Sucsses: ResourcesFolder set to: 20250507141130404\6221117198822.itmsp
+07-05-2025 14:12:10: Sucsses: Fetching metadata file path for company: Apple Music
+07-05-2025 14:12:10: Sucsses: MetadataFile path set to: 20250507141130404\6221117198822.itmsp\metadata.xml
+07-05-2025 14:12:10: Sucsses: Final PackageFolder path: 331\20250507141130404
+07-05-2025 14:12:10: Sucsses: Final ResourcesFolder path: 331\20250507141130404\6221117198822.itmsp
+07-05-2025 14:12:10: Sucsses: Retrieved folder paths for package: 331
+07-05-2025 14:12:10: Starting GetCover...
+07-05-2025 14:12:11: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198822.jpg
+07-05-2025 14:12:11: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198822.jpg
+07-05-2025 14:12:11: Sucsses: Created directory: C:\Pkg_Output\apple music\331\20250507141130404\6221117198822.itmsp
+07-05-2025 14:12:11: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198822.jpg
+07-05-2025 14:12:11: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\331\20250507141130404\6221117198822.itmsp\6221117198822.jpg
+07-05-2025 14:12:11: Start Getting Media For package info: 331
+07-05-2025 14:12:18: Media data generated successfully.
+07-05-2025 14:12:18: Success: generated XML for package ID: 331
+07-05-2025 14:12:18: Processing group with Album UPC: 6221117198839
+07-05-2025 14:12:18: Starting GetFolderPaths...
+07-05-2025 14:12:18: Sucsses: PackageFolder trimmed to: 20250507141130404
+07-05-2025 14:12:18: Sucsses: Fetching resources folder for company: Apple Music
+07-05-2025 14:12:18: Sucsses: ResourcesFolder set to: 20250507141130404\6221117198839.itmsp
+07-05-2025 14:12:18: Sucsses: Fetching metadata file path for company: Apple Music
+07-05-2025 14:12:18: Sucsses: MetadataFile path set to: 20250507141130404\6221117198839.itmsp\metadata.xml
+07-05-2025 14:12:18: Sucsses: Final PackageFolder path: 331\20250507141130404
+07-05-2025 14:12:18: Sucsses: Final ResourcesFolder path: 331\20250507141130404\6221117198839.itmsp
+07-05-2025 14:12:18: Sucsses: Retrieved folder paths for package: 331
+07-05-2025 14:12:18: Starting GetCover...
+07-05-2025 14:12:18: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198839.jpg
+07-05-2025 14:12:18: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198839.jpg
+07-05-2025 14:12:18: Sucsses: Created directory: C:\Pkg_Output\apple music\331\20250507141130404\6221117198839.itmsp
+07-05-2025 14:12:19: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198839.jpg
+07-05-2025 14:12:19: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\331\20250507141130404\6221117198839.itmsp\6221117198839.jpg
+07-05-2025 14:12:19: Start Getting Media For package info: 331
+07-05-2025 14:12:24: Media data generated successfully.
+07-05-2025 14:12:24: Success: generated XML for package ID: 331
+07-05-2025 14:12:24: Processing group with Album UPC: 6221117198846
+07-05-2025 14:12:24: Starting GetFolderPaths...
+07-05-2025 14:12:24: Sucsses: PackageFolder trimmed to: 20250507141130404
+07-05-2025 14:12:24: Sucsses: Fetching resources folder for company: Apple Music
+07-05-2025 14:12:24: Sucsses: ResourcesFolder set to: 20250507141130404\6221117198846.itmsp
+07-05-2025 14:12:24: Sucsses: Fetching metadata file path for company: Apple Music
+07-05-2025 14:12:24: Sucsses: MetadataFile path set to: 20250507141130404\6221117198846.itmsp\metadata.xml
+07-05-2025 14:12:24: Sucsses: Final PackageFolder path: 331\20250507141130404
+07-05-2025 14:12:24: Sucsses: Final ResourcesFolder path: 331\20250507141130404\6221117198846.itmsp
+07-05-2025 14:12:24: Sucsses: Retrieved folder paths for package: 331
+07-05-2025 14:12:24: Starting GetCover...
+07-05-2025 14:12:25: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198846.jpg
+07-05-2025 14:12:25: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198846.jpg
+07-05-2025 14:12:25: Sucsses: Created directory: C:\Pkg_Output\apple music\331\20250507141130404\6221117198846.itmsp
+07-05-2025 14:12:25: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198846.jpg
+07-05-2025 14:12:25: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\331\20250507141130404\6221117198846.itmsp\6221117198846.jpg
+07-05-2025 14:12:25: Start Getting Media For package info: 331
+07-05-2025 14:12:27: Media data generated successfully.
+07-05-2025 14:12:27: Success: generated XML for package ID: 331
+07-05-2025 14:12:27: Processing group with Album UPC: 6221117198853
+07-05-2025 14:12:27: Starting GetFolderPaths...
+07-05-2025 14:12:27: Sucsses: PackageFolder trimmed to: 20250507141130404
+07-05-2025 14:12:27: Sucsses: Fetching resources folder for company: Apple Music
+07-05-2025 14:12:27: Sucsses: ResourcesFolder set to: 20250507141130404\6221117198853.itmsp
+07-05-2025 14:12:27: Sucsses: Fetching metadata file path for company: Apple Music
+07-05-2025 14:12:27: Sucsses: MetadataFile path set to: 20250507141130404\6221117198853.itmsp\metadata.xml
+07-05-2025 14:12:27: Sucsses: Final PackageFolder path: 331\20250507141130404
+07-05-2025 14:12:27: Sucsses: Final ResourcesFolder path: 331\20250507141130404\6221117198853.itmsp
+07-05-2025 14:12:27: Sucsses: Retrieved folder paths for package: 331
+07-05-2025 14:12:27: Starting GetCover...
+07-05-2025 14:12:28: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198853.jpg
+07-05-2025 14:12:28: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198853.jpg
+07-05-2025 14:12:28: Sucsses: Created directory: C:\Pkg_Output\apple music\331\20250507141130404\6221117198853.itmsp
+07-05-2025 14:12:28: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198853.jpg
+07-05-2025 14:12:28: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\331\20250507141130404\6221117198853.itmsp\6221117198853.jpg
+07-05-2025 14:12:28: Start Getting Media For package info: 331
+07-05-2025 14:12:30: Media data generated successfully.
+07-05-2025 14:12:30: Success: generated XML for package ID: 331
+07-05-2025 14:12:30: Processing group with Album UPC: 6221117198877
+07-05-2025 14:12:30: Starting GetFolderPaths...
+07-05-2025 14:12:30: Sucsses: PackageFolder trimmed to: 20250507141130404
+07-05-2025 14:12:30: Sucsses: Fetching resources folder for company: Apple Music
+07-05-2025 14:12:30: Sucsses: ResourcesFolder set to: 20250507141130404\6221117198877.itmsp
+07-05-2025 14:12:30: Sucsses: Fetching metadata file path for company: Apple Music
+07-05-2025 14:12:30: Sucsses: MetadataFile path set to: 20250507141130404\6221117198877.itmsp\metadata.xml
+07-05-2025 14:12:30: Sucsses: Final PackageFolder path: 331\20250507141130404
+07-05-2025 14:12:30: Sucsses: Final ResourcesFolder path: 331\20250507141130404\6221117198877.itmsp
+07-05-2025 14:12:30: Sucsses: Retrieved folder paths for package: 331
+07-05-2025 14:12:30: Starting GetCover...
+07-05-2025 14:12:31: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198877.jpg
+07-05-2025 14:12:31: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198877.jpg
+07-05-2025 14:12:31: Sucsses: Created directory: C:\Pkg_Output\apple music\331\20250507141130404\6221117198877.itmsp
+07-05-2025 14:12:31: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117198877.jpg
+07-05-2025 14:12:31: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\331\20250507141130404\6221117198877.itmsp\6221117198877.jpg
+07-05-2025 14:12:31: Start Getting Media For package info: 331
+07-05-2025 14:12:42: Media data generated successfully.
+07-05-2025 14:12:42: Success: generated XML for package ID: 331

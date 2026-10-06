@@ -22,9 +22,10 @@
                 </locales>
                 <primary>true</primary>
             </artist>
-			{{~ end ~}}
-			{{~ for album_featured_artist in album.album_featured_artist_list_string ~}}
-			<artist>
+          {{~ end ~}}
+      
+          {{~ for album_featured_artist in album.album_featured_artist_list_string ~}}
+          <artist>
 				<artist_name>{{album_featured_artist.name}}</artist_name>
 				<apple_id>{{album_featured_artist.apple_id}}</apple_id>
 				<roles>
@@ -93,9 +94,24 @@
 						</locales>
 						<primary>true</primary>
 					</artist>
-					{{~ end ~}}
-					{{~ for album_featured_artist in asset.album_featured_artist_list_string ~}}
-					<artist>
+                  {{~ end ~}}
+                  {{~ for album_artist in asset.track_artist_list_string ~}}
+                  <artist>
+                    <artist_name>{{album_artist.name}}</artist_name>
+                    <apple_id>{{album_artist.apple_id}}</apple_id>
+                    <roles>
+                      <role>Primary</role>
+                    </roles>
+                    <locales>
+                      <locale name="ar">
+                        <artist_name>{{album_artist.name_ar}}</artist_name>
+                      </locale>
+                    </locales>
+                    <primary>true</primary>
+                  </artist>
+                  {{~ end ~}}
+                  {{~ for album_featured_artist in asset.track_featured_artist_list_string ~}}
+                  <artist>
 						<artist_name>{{album_featured_artist.name}}</artist_name>
 						<apple_id>{{album_featured_artist.apple_id}}</apple_id>
 						<roles>
@@ -133,11 +149,22 @@
 				<lyrics>{{asset.asset_lyrics}}</lyrics>
 				<volume_number>{{asset.disc_num}}</volume_number>
                 <track_number>{{asset.track_num}}</track_number>
-                <audio_file>
-                    <file_name>{{asset.asset_isrc}}.m4a</file_name>
-                    <size>{{asset.track_file_size}}</size>
-                    <checksum type="md5">{{ asset.HASH_SUM }}</checksum>
-                </audio_file>
+				<assets>
+					<asset type="full">
+						<data_file role="audio.2_0">
+							<file_name>{{asset.asset_isrc}}.m4a</file_name>
+							<size>{{asset.track_file_size}}</size>
+							<checksum type="md5">{{ asset.HASH_SUM }}</checksum>
+						</data_file>
+						{{ if asset.HASH_SUM_dolby }}
+						<data_file role="audio.object_based">
+							<file_name>{{asset.ISRC_Dolby_File}}.wav</file_name>
+							<size>{{asset.track_file_size_dolby}}</size>
+							<checksum type="md5">{{ asset.HASH_SUM_dolby }}</checksum>
+						</data_file>
+						{{ end }}
+					</asset>
+				</assets>
                 <audio_language>ar</audio_language>
             </track>
 			{{~ end ~}}

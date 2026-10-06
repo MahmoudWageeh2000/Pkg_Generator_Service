@@ -1,0 +1,136 @@
+09/06/2026 02:18:04 م: Starting XML generation for package ID: 7075, Filename: Anghami_DDEX_XML_Template.xml, Company: Anghami
+09/06/2026 02:18:04 م: Success: fetched package info for ID: 7075
+09/06/2026 02:18:04 م: Processing group with Album UPC: 6221117025265
+09/06/2026 02:18:04 م: Starting GetFolderPaths...
+09/06/2026 02:18:04 م: Fetching package folder for company: Anghami
+09/06/2026 02:18:04 م: Sucsses: PackageFolder set to: 20260609141804353
+09/06/2026 02:18:04 م: Sucsses: Fetching resources folder for company: Anghami
+09/06/2026 02:18:04 م: Sucsses: ResourcesFolder set to: 20260609141804353\6221117025265\resources
+09/06/2026 02:18:04 م: Sucsses: Fetching metadata file path for company: Anghami
+09/06/2026 02:18:04 م: Sucsses: MetadataFile path set to: 20260609141804353\6221117025265\6221117025265.xml
+09/06/2026 02:18:04 م: Sucsses: Final PackageFolder path: 7075\20260609141804353
+09/06/2026 02:18:04 م: Sucsses: Final ResourcesFolder path: 7075\20260609141804353\6221117025265\resources
+09/06/2026 02:18:04 م: Sucsses: Retrieved folder paths for package: 7075
+09/06/2026 02:18:04 م: Starting GetCover...
+09/06/2026 02:18:05 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117025265.jpg
+09/06/2026 02:18:05 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117025265.JPG
+09/06/2026 02:18:05 م: Sucsses: Created directory: C:\Pkg_Output\anghami\7075\20260609141804353\6221117025265\resources
+09/06/2026 02:18:05 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117025265.JPG
+09/06/2026 02:18:05 م: Sucsses: Copied cover file to: C:\Pkg_Output\anghami\7075\20260609141804353\6221117025265\resources\6221117025265.jpg
+09/06/2026 02:18:08 م: Media data generated successfully.
+09/06/2026 02:18:08 م: Error: generating XML for package: Could not find file C:\Apps\Pkg_Generator_Service\Templates\New\Anghami_DDEX_XML_Template.xml.
+09/06/2026 02:18:09 م: There is Some errors in The PKG
+09/06/2026 02:20:55 م: Starting XML generation for package ID: 7076, Filename: Anghami_DDEX.xml, Company: Anghami-Audio
+09/06/2026 02:20:55 م: Success: fetched package info for ID: 7076
+09/06/2026 02:20:55 م: Processing group with Album UPC: 9681001013544
+09/06/2026 02:20:55 م: Starting GetFolderPaths...
+09/06/2026 02:20:55 م: Fetching package folder for company: Anghami-Audio
+09/06/2026 02:20:55 م: Sucsses: PackageFolder set to: 20260609141809
+09/06/2026 02:20:55 م: Sucsses: Fetching resources folder for company: Anghami-Audio
+09/06/2026 02:20:55 م: Sucsses: ResourcesFolder set to: 20260609141809
+09/06/2026 02:20:55 م: Sucsses: Fetching metadata file path for company: Anghami-Audio
+09/06/2026 02:20:55 م: Sucsses: MetadataFile path set to: 20260609141809\9681001013544\9681001013544.xml
+09/06/2026 02:20:55 م: Sucsses: Final PackageFolder path: 7076\20260609141809
+09/06/2026 02:20:55 م: Sucsses: Final ResourcesFolder path: 7076\20260609141809
+09/06/2026 02:20:55 م: Sucsses: Retrieved folder paths for package: 7076
+09/06/2026 02:20:55 م: Starting GetCover...
+09/06/2026 02:20:56 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001013544.jpg
+09/06/2026 02:20:56 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001013544.jpg
+09/06/2026 02:20:56 م: Sucsses: Created directory: C:\Pkg_Output\anghami-audio\7076\20260609141809
+09/06/2026 02:20:56 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001013544.jpg
+09/06/2026 02:20:56 م: Sucsses: Copied cover file to: C:\Pkg_Output\anghami-audio\7076\20260609141809\9681001013544.jpg
+09/06/2026 02:20:56 م: Start Getting Media For package info: 7076
+09/06/2026 02:20:59 م: Media data generated successfully.
+09/06/2026 02:20:59 م: Error: generating XML for package: <input>(58,57) : error : Cannot get the member asset.track_artist.name_ar for a null object.
+09/06/2026 02:20:59 م: There is Some errors in The PKG
+09/06/2026 02:22:30 م: Starting XML generation for package ID: 7076, Filename: Anghami_DDEX.xml, Company: Anghami-Audio
+09/06/2026 02:22:30 م: Success: fetched package info for ID: 7076
+09/06/2026 02:22:30 م: Processing group with Album UPC: 9681001013544
+09/06/2026 02:22:30 م: Starting GetFolderPaths...
+09/06/2026 02:22:30 م: Fetching package folder for company: Anghami-Audio
+09/06/2026 02:22:30 م: Sucsses: PackageFolder set to: 20260609142059
+09/06/2026 02:22:30 م: Sucsses: Fetching resources folder for company: Anghami-Audio
+09/06/2026 02:22:30 م: Sucsses: ResourcesFolder set to: 20260609142059
+09/06/2026 02:22:30 م: Sucsses: Fetching metadata file path for company: Anghami-Audio
+09/06/2026 02:22:30 م: Sucsses: MetadataFile path set to: 20260609142059\9681001013544\9681001013544.xml
+09/06/2026 02:22:30 م: Sucsses: Final PackageFolder path: 7076\20260609142059
+09/06/2026 02:22:30 م: Sucsses: Final ResourcesFolder path: 7076\20260609142059
+09/06/2026 02:22:30 م: Sucsses: Retrieved folder paths for package: 7076
+09/06/2026 02:22:30 م: Starting GetCover...
+09/06/2026 02:22:31 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001013544.jpg
+09/06/2026 02:22:31 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001013544.jpg
+09/06/2026 02:22:31 م: Sucsses: Created directory: C:\Pkg_Output\anghami-audio\7076\20260609142059
+09/06/2026 02:22:31 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001013544.jpg
+09/06/2026 02:22:31 م: Sucsses: Copied cover file to: C:\Pkg_Output\anghami-audio\7076\20260609142059\9681001013544.jpg
+09/06/2026 02:22:31 م: Start Getting Media For package info: 7076
+09/06/2026 02:22:33 م: Media data generated successfully.
+09/06/2026 02:22:34 م: Error: generating XML for package: <input>(169,45) : error : Cannot get the member asset.album_artist_list_string for a null object.
+09/06/2026 02:22:35 م: There is Some errors in The PKG
+09/06/2026 02:23:08 م: Starting XML generation for package ID: 7076, Filename: Anghami_DDEX.xml, Company: Anghami-Audio
+09/06/2026 02:23:08 م: Success: fetched package info for ID: 7076
+09/06/2026 02:23:08 م: Processing group with Album UPC: 9681001013544
+09/06/2026 02:23:08 م: Starting GetFolderPaths...
+09/06/2026 02:23:08 م: Fetching package folder for company: Anghami-Audio
+09/06/2026 02:23:08 م: Sucsses: PackageFolder set to: 20260609142235
+09/06/2026 02:23:08 م: Sucsses: Fetching resources folder for company: Anghami-Audio
+09/06/2026 02:23:08 م: Sucsses: ResourcesFolder set to: 20260609142235
+09/06/2026 02:23:08 م: Sucsses: Fetching metadata file path for company: Anghami-Audio
+09/06/2026 02:23:08 م: Sucsses: MetadataFile path set to: 20260609142235\9681001013544\9681001013544.xml
+09/06/2026 02:23:08 م: Sucsses: Final PackageFolder path: 7076\20260609142235
+09/06/2026 02:23:08 م: Sucsses: Final ResourcesFolder path: 7076\20260609142235
+09/06/2026 02:23:08 م: Sucsses: Retrieved folder paths for package: 7076
+09/06/2026 02:23:08 م: Starting GetCover...
+09/06/2026 02:23:08 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001013544.jpg
+09/06/2026 02:23:08 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001013544.jpg
+09/06/2026 02:23:08 م: Sucsses: Created directory: C:\Pkg_Output\anghami-audio\7076\20260609142235
+09/06/2026 02:23:08 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001013544.jpg
+09/06/2026 02:23:08 م: Sucsses: Copied cover file to: C:\Pkg_Output\anghami-audio\7076\20260609142235\9681001013544.jpg
+09/06/2026 02:23:08 م: Start Getting Media For package info: 7076
+09/06/2026 02:23:10 م: Media data generated successfully.
+09/06/2026 02:23:10 م: Error: generating XML for package: Could not find a part of the path C:\Pkg_Output\Anghami-Audio\7076\20260609142235\9681001013544\9681001013544.xml.
+09/06/2026 02:23:10 م: There is Some errors in The PKG
+09/06/2026 02:23:42 م: Starting XML generation for package ID: 7076, Filename: Anghami_DDEX.xml, Company: Anghami-Audio
+09/06/2026 02:23:42 م: Success: fetched package info for ID: 7076
+09/06/2026 02:23:42 م: Processing group with Album UPC: 9681001013544
+09/06/2026 02:23:42 م: Starting GetFolderPaths...
+09/06/2026 02:23:42 م: Fetching package folder for company: Anghami-Audio
+09/06/2026 02:23:42 م: Sucsses: PackageFolder set to: 20260609142310
+09/06/2026 02:23:42 م: Sucsses: Fetching resources folder for company: Anghami-Audio
+09/06/2026 02:23:42 م: Sucsses: ResourcesFolder set to: 20260609142310
+09/06/2026 02:23:42 م: Sucsses: Fetching metadata file path for company: Anghami-Audio
+09/06/2026 02:23:42 م: Sucsses: MetadataFile path set to: 20260609142310\9681001013544\9681001013544.xml
+09/06/2026 02:23:42 م: Sucsses: Final PackageFolder path: 7076\20260609142310
+09/06/2026 02:23:42 م: Sucsses: Final ResourcesFolder path: 7076\20260609142310
+09/06/2026 02:23:42 م: Sucsses: Retrieved folder paths for package: 7076
+09/06/2026 02:23:42 م: Starting GetCover...
+09/06/2026 02:23:42 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001013544.jpg
+09/06/2026 02:23:42 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001013544.jpg
+09/06/2026 02:23:42 م: Sucsses: Created directory: C:\Pkg_Output\anghami-audio\7076\20260609142310
+09/06/2026 02:23:42 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001013544.jpg
+09/06/2026 02:23:42 م: Sucsses: Copied cover file to: C:\Pkg_Output\anghami-audio\7076\20260609142310\9681001013544.jpg
+09/06/2026 02:23:42 م: Start Getting Media For package info: 7076
+09/06/2026 02:23:44 م: Media data generated successfully.
+09/06/2026 02:23:44 م: Error: generating XML for package: Could not find a part of the path C:\Pkg_Output\Anghami-Audio\7076\20260609142310\9681001013544\9681001013544.xml.
+09/06/2026 02:23:44 م: There is Some errors in The PKG
+09/06/2026 02:25:25 م: Starting XML generation for package ID: 7076, Filename: Anghami_DDEX.xml, Company: Anghami-Audio
+09/06/2026 02:25:25 م: Success: fetched package info for ID: 7076
+09/06/2026 02:25:25 م: Processing group with Album UPC: 9681001013544
+09/06/2026 02:25:25 م: Starting GetFolderPaths...
+09/06/2026 02:25:25 م: Fetching package folder for company: Anghami-Audio
+09/06/2026 02:25:25 م: Sucsses: PackageFolder set to: 20260609142344901
+09/06/2026 02:25:25 م: Sucsses: Fetching resources folder for company: Anghami-Audio
+09/06/2026 02:25:25 م: Sucsses: ResourcesFolder set to: 20260609142344901\9681001013544\resources
+09/06/2026 02:25:25 م: Sucsses: Fetching metadata file path for company: Anghami-Audio
+09/06/2026 02:25:25 م: Sucsses: MetadataFile path set to: 20260609142344901\9681001013544\9681001013544.xml
+09/06/2026 02:25:25 م: Sucsses: Final PackageFolder path: 7076\20260609142344901
+09/06/2026 02:25:25 م: Sucsses: Final ResourcesFolder path: 7076\20260609142344901\9681001013544\resources
+09/06/2026 02:25:25 م: Sucsses: Retrieved folder paths for package: 7076
+09/06/2026 02:25:25 م: Starting GetCover...
+09/06/2026 02:25:26 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001013544.jpg
+09/06/2026 02:25:26 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001013544.jpg
+09/06/2026 02:25:26 م: Sucsses: Created directory: C:\Pkg_Output\anghami-audio\7076\20260609142344901\9681001013544\resources
+09/06/2026 02:25:26 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001013544.jpg
+09/06/2026 02:25:26 م: Sucsses: Copied cover file to: C:\Pkg_Output\anghami-audio\7076\20260609142344901\9681001013544\resources\9681001013544.jpg
+09/06/2026 02:25:26 م: Start Getting Media For package info: 7076
+09/06/2026 02:25:28 م: Media data generated successfully.
+09/06/2026 02:25:28 م: Success: generated XML for package ID: 7076

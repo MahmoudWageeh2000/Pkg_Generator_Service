@@ -13,7 +13,7 @@ namespace Package_Generator_Service
 {
     public partial class Form1 : Form
     {
-        
+
         private NotifyIcon _notifyIcon;
 
 
@@ -24,7 +24,7 @@ namespace Package_Generator_Service
 
         private int MediaFILESCounter = 0;
 
-        private string department_num = "" , DirctionFolder = "";
+        private string department_num = "", DirctionFolder = "";
         public static long imageSize { get; set; } = 0;
         public static class DateTimeHelper
         {
@@ -113,7 +113,7 @@ namespace Package_Generator_Service
                     string output = process.StandardOutput.ReadToEnd();
                     string error = process.StandardError.ReadToEnd();
 
-                  
+
                 }
             }
             catch (Exception ex)
@@ -147,7 +147,7 @@ namespace Package_Generator_Service
                     string output = process.StandardOutput.ReadToEnd();
                     string error = process.StandardError.ReadToEnd();
 
-                   
+
                 }
             }
             catch (Exception ex)
@@ -181,7 +181,7 @@ namespace Package_Generator_Service
             await Task.Delay(2000);
             progressBar1.Value = 0;
             progressBar1.Refresh();
-             // Pause for 2 seconds
+            // Pause for 2 seconds
         }
         private void ResetVariables()
         {
@@ -197,7 +197,7 @@ namespace Package_Generator_Service
             BatchFolder = null;
             packagesFolderwithoutID = null;
         }
-        public async void resetlabel ()
+        public async void resetlabel()
         {
             await Task.Delay(2000);
             label2.Text = "";
@@ -249,6 +249,11 @@ namespace Package_Generator_Service
 
             System.Threading.Thread.Sleep(3000);
 
+
+            tracksize.Clear();
+            assetHashes.Clear();
+            imageSize = 0;
+
             foreach (DataRow row in dataTable.Rows)
             {
                 string Deactive_PKGS = "SELECT * FROM packages where status = 0";
@@ -289,7 +294,7 @@ namespace Package_Generator_Service
                                 SetProgress(100);
                                 SucssesPKG(PkgId);
                                 ResetVariables();
-                            }                         
+                            }
                             Resetprogress();
                             ResetVariables();
                             resetlabel();
@@ -469,7 +474,7 @@ namespace Package_Generator_Service
                 string album_Title = group.First().Field<string>("album_name");
                 string asset_ISRC = group.Skip(ISRC_COUNTER).FirstOrDefault()?.Field<string>("asset_isrc");
 
-              
+
 
 
                 LogMessage(logFilePath, $"Processing album UPC: {albumUPC}");
@@ -623,7 +628,7 @@ namespace Package_Generator_Service
                                     {
                                         GetMediaData(PkgId, groupedRows, group);
                                     }
-                                 
+
                                     excelMedia = 1;
                                     if (MediaFILESCounter == 0)
                                     {
@@ -797,10 +802,10 @@ namespace Package_Generator_Service
                 string store_id_query = $"select store_id from packages where pkg_id = {ID}";
                 object store_id = db.ExecuteScalar(store_id_query);
 
-             
+
                 LogMessage(logFilePath, $"Starting XML generation for package ID: {ID}, Filename: {filename}, Company: {Company_Name}");
                 AppendLog($"Starting XML generation for package ID: {ID}, Filename: {filename}, Company: {Company_Name}", Color.Green);
-                
+
                 SetProgress(20);
 
                 WriteColoredLine($"Starting XML generation for package ID: {ID}, Filename: {filename}, Company: {Company_Name}", ConsoleColor.White);
@@ -873,7 +878,7 @@ namespace Package_Generator_Service
                         int album_num = group.First().Field<int>("album_num");
                         int group_len = group.Count();
                         int ISRC_COUNTER = 0;
-                        
+
                         string asset_ISRC = "";
 
                         LogMessage(logFilePath, $"Processing group with Album UPC: {albumUPC}");
@@ -1103,7 +1108,7 @@ namespace Package_Generator_Service
         }
         private void GetFolderPaths(string Company_Name, string albumUPC, string album_artist, string album_Title, IGrouping<int, DataRow> group, string ID, string isrc)
         {
-           
+
             try
             {
                 LogMessage(logFilePath, "Starting GetFolderPaths...");
@@ -1336,9 +1341,14 @@ namespace Package_Generator_Service
         {
             try
             {
+                string mediaPathDolby = "";
                 string basePath = @"\\10.1.1.26\Data\FTP_Data\AudioLibrary";
-                string[] RBT_Companies = { "24",  "26", "28", "29", "30", "S31", "32", "33", "34", "35", "47", "49", "50" };
-                string[] XML_companies = { "1", "2", "25", "3", "4", "5", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "21", "22", "27", "35", "37", "38", "40", "41", "42", "43", "44", "45", "46", "47", "52", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64" };
+                string vidoesPath = @"\\10.1.1.26\Data2\FTP_Data\VideoLibrary";
+
+                string[] ListQuiltyVideos = {"HD" , "PAL" , "2K" , "4k"};
+
+                string[] RBT_Companies = { "24", "26", "28", "29", "30", "S31", "32", "33", "34", "35", "47", "49", "50" };
+                string[] XML_companies = { "1", "2", "25", "3", "4", "5", "9", "10", "11", "12", "13", "14", "15","16","17", "18", "19", "21", "22", "27", "35", "37", "38", "40", "41", "42", "43", "44", "45", "46", "47", "52", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64" , "65" };
 
                 string getstore_query = $"select store_id from packages where pkg_id = {PkgID}";
                 string storeID = db.ExecuteScalar(getstore_query)?.ToString().ToLower();
@@ -1362,6 +1372,11 @@ namespace Package_Generator_Service
 
                 string get_media_path = $"select output_media_file_path from stores where store_id = {storeID}";
                 string media_path = db.ExecuteScalar(get_media_path)?.ToString();
+
+                if(storeID == "58")
+                {
+                     mediaPathDolby = $"@[ResourcesFolder]@\\@[Dolby]@.wav";
+                }
 
                 string get_cover_path = $"select output_cover_file_path from stores where store_id = {storeID}";
                 string cover_path = db.ExecuteScalar(get_cover_path)?.ToString();
@@ -1397,6 +1412,7 @@ namespace Package_Generator_Service
 
                                           { "TRACK_FILE_NUM",int.Parse(item.Field<string>("track_num")).ToString("D3")  },
                                           { "ISRC", item.Field<string>("asset_isrc") },
+                                          { "Dolby", item.Field<string>("ISRC_Dolby_File") },
                                           { "TRACK_TITLE", item.Field<string>("track_name") },
                                           { "TRACK_NUMBER",int.Parse(item.Field<string>("track_num")).ToString("D3")  },
                                           { "TRACK_NUM", int.Parse(item.Field<string>("track_num")).ToString("D3")  },
@@ -1522,6 +1538,7 @@ namespace Package_Generator_Service
 
                         media_path = db.ExecuteScalar(get_media_path)?.ToString();
                         media_path = ReplacePlaceholders(media_path, values_Media_Folder);
+                        mediaPathDolby = ReplacePlaceholders(mediaPathDolby, values_Media_Folder);
                         cover_path = ReplacePlaceholders(cover_path, values_Media_Folder);
                         mediapath = media_path;
                         GetCover(cover_path, item.Field<string>("album_ubc"), Cover_extension, companyFolderPath, pkg_type);
@@ -1580,7 +1597,7 @@ namespace Package_Generator_Service
                                     basePath = @"\\10.1.1.26\Data\FTP_Data\AudioLibrary\IVR_Cuts\mp3\45";
 
                                     string mp3FolderPath = Path.Combine(basePath);
-                                   
+
                                     string[] mp3Files = Directory.GetFiles(mp3FolderPath, $"{item.Field<string>("rbt_code")}.mp3");
                                     if (mp3Files.Length == 0)
                                     {
@@ -1635,6 +1652,8 @@ namespace Package_Generator_Service
                                     ComputeMD5(filepathWAV1, item.Field<string>("asset_isrc"), 1);
                                     GetFileSize(filepathWAV1, item.Field<string>("asset_isrc"), 1);
 
+                                
+
                                     if (pkg_type != "4" && pkg_type != "5")
                                     {
                                         if (WAVFiles.Length > 0)
@@ -1657,6 +1676,50 @@ namespace Package_Generator_Service
                                             // Copy the file to the new location with the correct name
                                             File.Copy(selectedWAVFile, destinationFilePath, overwrite: true);
                                         }
+                                    }
+
+                                    if (storeID == "58")
+                                    {
+
+                                         WAVFolderPath = Path.Combine(basePath, "WAV");
+                                         WAVFiles = Directory.GetFiles(WAVFolderPath, $"{item.Field<string>("ISRC_Dolby_File")}.WAV");
+                                        if (WAVFiles.Length == 0)
+                                        {
+                                            // Throw an exception and exit the function
+                                            LogMessage(logFilePath, $"No WAV files found for asset ISRC: {item.Field<string>("ISRC_Dolby_File")}");
+                                            LogErrorToDatabase($"No WAV files found for asset ISRC: {item.Field<string>("ISRC_Dolby_File")}", PkgID);
+                                            continue;
+                                        }
+                                        filepathWAV1 = Path.Combine(WAVFolderPath, $"{item.Field<string>("ISRC_Dolby_File")}.WAV");
+                                        ComputeMD5(filepathWAV1, item.Field<string>("ISRC_Dolby_File"), 1);
+                                        GetFileSize(filepathWAV1, item.Field<string>("ISRC_Dolby_File"), 1);
+
+
+
+                                        if (pkg_type != "4" && pkg_type != "5")
+                                        {
+                                            if (WAVFiles.Length > 0)
+                                            {
+                                                string selectedWAVFile = WAVFiles[0];
+
+                                                // Separate the directory path and the file name from media_path
+                                                string destinationDirectory = Path.GetDirectoryName(Path.Combine(companyFolderPath, media_path));
+                                                string destinationFileName = Path.GetFileName(media_path);
+
+                                                // Ensure the directory exists
+                                                if (!Directory.Exists(destinationDirectory))
+                                                {
+                                                    Directory.CreateDirectory(destinationDirectory);
+                                                }
+
+                                                // Combine the directory and the new file name
+                                                string destinationFilePath = Path.Combine(destinationDirectory, destinationFileName);
+
+                                                // Copy the file to the new location with the correct name
+                                                File.Copy(selectedWAVFile, destinationFilePath, overwrite: true);
+                                            }
+                                        }
+
                                     }
                                 }
                                 else
@@ -1705,9 +1768,17 @@ namespace Package_Generator_Service
                                 string[] FLACFiles = Directory.GetFiles(FLACFolderPath, $"{item.Field<string>("asset_isrc")}.FLAC");
                                 if (FLACFiles.Length == 0)
                                 {
-                                    LogMessage(logFilePath, $"No FLAC files found for asset ISRC: {item.Field<string>("asset_isrc")}");
-                                    LogErrorToDatabase($"No FLAC files found for asset ISRC: {item.Field<string>("asset_isrc")}", PkgID);
-                                    continue;
+                                    if (pkg_type =="5")
+                                    {
+                                        continue;
+                                    }
+                                    else
+                                    {
+                                        LogMessage(logFilePath, $"No FLAC files found for asset ISRC: {item.Field<string>("asset_isrc")}");
+                                        LogErrorToDatabase($"No FLAC files found for asset ISRC: {item.Field<string>("asset_isrc")}", PkgID);
+                                        continue;
+                                    }
+                                
                                 }
                                 string filepath = Path.Combine(FLACFolderPath, $"{item.Field<string>("asset_isrc")}.FLAC");
                                 ComputeMD5(filepath, item.Field<string>("asset_isrc"), 1);
@@ -1739,7 +1810,52 @@ namespace Package_Generator_Service
                                 break;
 
                             case "MP4":
+                                string ISRC = item.Field<string>("asset_isrc");
+                                //string Query_Vid_ID = $"select video_id from [CMSVideos].[dbo].[t_videos_info] where asset_isrc = '{ISRC}' AND video_type_id = 1 and video_kind_id = 17 and video_quality_id = 5";
+                                
+                                //var Video_ID = db.ExecuteScalar(Query_Vid_ID).ToString();
+                                var Video_ID = item.Field<string>("video_id");
 
+                                foreach (string type in ListQuiltyVideos)
+                                {
+                                    string MP4FolderPath = Path.Combine(vidoesPath, type);
+
+                                    // Get ALL files, then filter with exact match using regex or string check
+                                    string[] allFiles = Directory.GetFiles(MP4FolderPath);
+
+                                    string[] MP4Files = allFiles
+                                        .Where(f =>
+                                        {
+                                            string fileName = Path.GetFileNameWithoutExtension(f);
+                                            // Match exact ID: either filename IS the ID, or ID is followed by _ or -
+                                            return fileName == Video_ID ||
+                                                   fileName.StartsWith(Video_ID + "_") ||
+                                                   fileName.StartsWith(Video_ID + "-");
+                                        })
+                                        .ToArray();
+
+                                    if (MP4Files.Length == 1)
+                                    {
+                                        string filepathMP4 = MP4Files[0];
+                                        string extension = Path.GetExtension(filepathMP4);
+
+                                        ComputeMD5(filepathMP4, item.Field<string>("asset_isrc"), 1);
+                                        GetFileSize(filepathMP4, item.Field<string>("asset_isrc"), 1);
+
+                                        string NameingOfFile = media_path + extension;
+                                        string destinationDirectory = Path.GetDirectoryName(Path.Combine(companyFolderPath, media_path));
+                                        string destinationFileName = Path.GetFileName(NameingOfFile);
+
+                                        if (!Directory.Exists(destinationDirectory))
+                                        {
+                                            Directory.CreateDirectory(destinationDirectory);
+                                        }
+
+                                        string destinationFilePath = Path.Combine(destinationDirectory, destinationFileName);
+                                        File.Copy(filepathMP4, destinationFilePath, overwrite: true);
+                                        break;
+                                    }
+                                }
                                 break;
 
                             case "M4A":
@@ -1778,6 +1894,47 @@ namespace Package_Generator_Service
                                         File.Copy(selectedM4AFile, destinationFilePath, overwrite: true);
                                     }
                                 }
+                                if (storeID == "58")
+                                {
+
+                                    string WAVFolderPath = Path.Combine(basePath, "WAV");
+                                    string[] WAVFiles = Directory.GetFiles(WAVFolderPath, $"{item.Field<string>("ISRC_Dolby_File")}.WAV");
+                                    if (WAVFiles.Length == 0)
+                                    {                                      
+                                        continue;
+                                    }
+                                    string filepathWAV1 = Path.Combine(WAVFolderPath, $"{item.Field<string>("ISRC_Dolby_File")}.WAV");
+                                    ComputeMD5(filepathWAV1, item.Field<string>("ISRC_Dolby_File"), 1);
+                                    GetFileSize(filepathWAV1, item.Field<string>("ISRC_Dolby_File"), 1);
+
+
+
+                                    if (pkg_type != "4" && pkg_type != "5")
+                                    {
+                                        if (WAVFiles.Length > 0)
+                                        {
+                                            string selectedWAVFile = WAVFiles[0];
+
+                                            // Separate the directory path and the file name from media_path
+                                            string destinationDirectory = Path.GetDirectoryName(Path.Combine(companyFolderPath, mediaPathDolby));
+                                            string destinationFileName = Path.GetFileName(mediaPathDolby);
+
+                                            // Ensure the directory exists
+                                            if (!Directory.Exists(destinationDirectory))
+                                            {
+                                                Directory.CreateDirectory(destinationDirectory);
+                                            }
+
+                                            // Combine the directory and the new file name
+                                            string destinationFilePath = Path.Combine(destinationDirectory, destinationFileName);
+
+                                            // Copy the file to the new location with the correct name
+                                            File.Copy(selectedWAVFile, destinationFilePath, overwrite: true);
+                                        }
+                                    }
+
+                                }
+
                                 break;
                         }
 
@@ -2015,7 +2172,7 @@ namespace Package_Generator_Service
                                         continue;
                                     }
                                     string filepath = Path.Combine(FLACFolderPath, $"{item.Field<string>("asset_isrc")}.FLAC");
-                                     ComputeMD5(filepath, item.Field<string>("asset_isrc"),1);
+                                    ComputeMD5(filepath, item.Field<string>("asset_isrc"), 1);
 
                                     if (FLACFiles.Length > 0)
                                     {
@@ -2222,8 +2379,8 @@ namespace Package_Generator_Service
                         button1.Enabled = false;
                     }
                     _semaphore.Release();
-                   
-                 
+
+
 
                 }
             }
@@ -2316,14 +2473,63 @@ namespace Package_Generator_Service
             }
             else
             {
+                string timeStamp = DateTime.Now.ToString("HH:mm:ss");
+
                 richTextBox1.SelectionStart = richTextBox1.TextLength;
                 richTextBox1.SelectionLength = 0;
-                richTextBox1.SelectionColor = color;
+
+                // Muted timestamp prefix
+                richTextBox1.SelectionColor = Color.FromArgb(120, 132, 156);
+                richTextBox1.AppendText($"[{timeStamp}]  ");
+
+                // Message in its (contrast-adjusted) color
+                richTextBox1.SelectionColor = AdjustForDarkBackground(color);
                 richTextBox1.AppendText(message + Environment.NewLine);
+
                 richTextBox1.SelectionColor = richTextBox1.ForeColor; // Reset to default color
                 richTextBox1.ScrollToCaret(); // Scroll to the end
                 richTextBox1.Refresh(); // Forces the control to redraw itself
 
+            }
+        }
+
+        // Brightens very dark colors so they stay readable on the dark log background.
+        private static Color AdjustForDarkBackground(Color color)
+        {
+            int brightness = (color.R + color.G + color.B) / 3;
+            if (brightness >= 120)
+            {
+                return color;
+            }
+
+            // Map the common log colors to vivid, high-contrast variants.
+            if (color.G >= color.R && color.G >= color.B)
+            {
+                return Color.FromArgb(80, 220, 130);   // success / green
+            }
+            if (color.R >= color.G && color.R >= color.B)
+            {
+                return Color.FromArgb(255, 105, 97);    // error / red
+            }
+            return Color.FromArgb(220, 224, 232);       // neutral
+        }
+
+        // Draws a subtle horizontal gradient across the header bar.
+        private void headerPanel_Paint(object sender, PaintEventArgs e)
+        {
+            using (var brush = new System.Drawing.Drawing2D.LinearGradientBrush(
+                headerPanel.ClientRectangle,
+                Color.FromArgb(27, 42, 74),
+                Color.FromArgb(44, 74, 124),
+                System.Drawing.Drawing2D.LinearGradientMode.Horizontal))
+            {
+                e.Graphics.FillRectangle(brush, headerPanel.ClientRectangle);
+            }
+
+            // Thin accent line along the bottom edge of the header.
+            using (var pen = new Pen(Color.FromArgb(45, 108, 223), 3))
+            {
+                e.Graphics.DrawLine(pen, 0, headerPanel.Height - 2, headerPanel.Width, headerPanel.Height - 2);
             }
         }
 

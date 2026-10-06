@@ -1,0 +1,46 @@
+16/08/2026 02:21:44 م: Starting XML generation for package ID: 9381, Filename: FB_Global_XML_Template.xml, Company: Facebook-Audio
+16/08/2026 02:21:44 م: Success: fetched package info for ID: 9381
+16/08/2026 02:21:44 م: Processing group with Album UPC: 9681001015692
+16/08/2026 02:21:44 م: Starting GetFolderPaths...
+16/08/2026 02:21:44 م: Fetching package folder for company: Facebook-Audio
+16/08/2026 02:21:44 م: Sucsses: PackageFolder set to: 20260816142144619
+16/08/2026 02:21:44 م: Sucsses: Fetching resources folder for company: Facebook-Audio
+16/08/2026 02:21:44 م: Sucsses: ResourcesFolder set to: 20260816142144619\9681001015692\resources
+16/08/2026 02:21:44 م: Sucsses: Fetching metadata file path for company: Facebook-Audio
+16/08/2026 02:21:44 م: Sucsses: MetadataFile path set to: 20260816142144619\9681001015692\9681001015692.xml
+16/08/2026 02:21:44 م: Sucsses: Final PackageFolder path: 9381\20260816142144619
+16/08/2026 02:21:44 م: Sucsses: Final ResourcesFolder path: 9381\20260816142144619\9681001015692\resources
+16/08/2026 02:21:44 م: Sucsses: Retrieved folder paths for package: 9381
+16/08/2026 02:21:44 م: Starting GetCover...
+16/08/2026 02:21:45 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001015692.jpg
+16/08/2026 02:21:45 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001015692.jpg
+16/08/2026 02:21:45 م: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\9381\20260816142144619\9681001015692\resources
+16/08/2026 02:21:45 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001015692.jpg
+16/08/2026 02:21:45 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\9381\20260816142144619\9681001015692\resources\9681001015692.jpg
+16/08/2026 02:21:45 م: Start Getting Media For package info: 9381
+16/08/2026 02:21:48 م: Media data generated successfully.
+16/08/2026 02:21:49 م: Success: generated XML for package ID: 9381
+16/08/2026 02:21:49 م: Critical error: Could not find file C:\Apps\Pkg_Generator_Service\Templates\Batches\FB_Global_XML_Template.xml.
+16/08/2026 02:21:49 م: There is Some errors in The PKG
+16/08/2026 02:24:47 م: Starting XML generation for package ID: 9381, Filename: FB_Global_XML_Template.xml, Company: Facebook-Audio
+16/08/2026 02:24:47 م: Success: fetched package info for ID: 9381
+16/08/2026 02:24:47 م: Processing group with Album UPC: 9681001015692
+16/08/2026 02:24:47 م: Starting GetFolderPaths...
+16/08/2026 02:24:47 م: Fetching package folder for company: Facebook-Audio
+16/08/2026 02:24:47 م: Sucsses: PackageFolder set to: 20260816142447198
+16/08/2026 02:24:47 م: Sucsses: Fetching resources folder for company: Facebook-Audio
+16/08/2026 02:24:47 م: Sucsses: ResourcesFolder set to: 20260816142447198\9681001015692\resources
+16/08/2026 02:24:47 م: Sucsses: Fetching metadata file path for company: Facebook-Audio
+16/08/2026 02:24:47 م: Sucsses: MetadataFile path set to: 20260816142447198\9681001015692\9681001015692.xml
+16/08/2026 02:24:47 م: Sucsses: Final PackageFolder path: 9381\20260816142447198
+16/08/2026 02:24:47 م: Sucsses: Final ResourcesFolder path: 9381\20260816142447198\9681001015692\resources
+16/08/2026 02:24:47 م: Sucsses: Retrieved folder paths for package: 9381
+16/08/2026 02:24:47 م: Starting GetCover...
+16/08/2026 02:24:48 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001015692.jpg
+16/08/2026 02:24:48 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001015692.jpg
+16/08/2026 02:24:48 م: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\9381\20260816142447198\9681001015692\resources
+16/08/2026 02:24:48 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001015692.jpg
+16/08/2026 02:24:48 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\9381\20260816142447198\9681001015692\resources\9681001015692.jpg
+16/08/2026 02:24:48 م: Start Getting Media For package info: 9381
+16/08/2026 02:24:50 م: Media data generated successfully.
+16/08/2026 02:24:50 م: Success: generated XML for package ID: 9381

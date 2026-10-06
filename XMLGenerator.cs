@@ -45,13 +45,13 @@ namespace ConsoleApp1
 
         public void GenerateBatch (string filepath,string outputFile, List<AssetHash> assetHashes, string cover_hash_sum, int album_num, string ID)
         {
-            List<int> IdsWithBatch = new List<int> { 1, 3, 4, 9, 10, 12, 16, 17, 18, 22, 26, 39, 46,  64 ,27,61};
-            List<int> IdsWithoutBatch = new List<int>{2, 6, 7, 8, 11, 13, 14, 15, 19, 20, 21, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 40, 41, 42, 43, 44, 45, 47, 48, 49, 50,51, 52, 54, 55, 56, 57, 58, 59, 60, 61, 62
+            List<int> IdsWithBatch = new List<int> { 1, 3, 4, 9, 10, 12, 16, 17, 18, 22, 26, 39, 46,27,61};
+            List<int> IdsWithoutBatch = new List<int>{2, 6, 7, 8, 11, 13, 14, 15, 19, 20, 21, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 40, 41, 42, 43, 44, 45, 47, 48, 49, 50,51, 52, 54, 55, 56, 57, 58, 59, 60, 61, 62,65 , 64
     };
             string store_id_query = $"select store_id from packages where pkg_id = {ID}";
             object store_id = db.ExecuteScalar(store_id_query);
 
-            if (store_id != null && Convert.ToInt32(store_id) == 5)
+            if (store_id != null && (Convert.ToInt32(store_id) == 5 || Convert.ToInt32(store_id) == 65))
             {
                 var variables = ParseTemplate(filepath);
                 batch = true;
@@ -135,13 +135,18 @@ namespace ConsoleApp1
                 foreach (var variable in variablesData)
                 {
 
-                    if (variable=="release"||variable=="release_year"||variable=="release_date"|| variable == "start_date" || variable == "end_date" || variable == "takedown_date")
+                    if (variable=="release"||variable=="release_year"||variable=="release_date"|| variable == "start_date" || variable == "end_date" || variable == "takedown_date" || variable == "spotify_release" || variable == "spotify_release_year")
                     {
                         string dateString = null;
 
                         if (variable == "release" || variable == "release_year")
                         {
                             dateString = string.IsNullOrEmpty(albumTable.Rows[0]["release_date"].ToString()) ? DateTime.Now.ToString("yyyyMMdd") : albumTable.Rows[0]["release_date"].ToString();
+                        }
+                        else if (variable == "spotify_release" || variable == "spotify_release_year")
+                        {
+                            dateString = string.IsNullOrEmpty(albumTable.Rows[0]["start_date"].ToString()) ? DateTime.Now.ToString("yyyyMMdd") : albumTable.Rows[0]["start_date"].ToString();
+
                         }
                         else
                         {
@@ -158,6 +163,10 @@ namespace ConsoleApp1
                             dataDict[variable] = date.ToString("yyyy-MM-dd");
                         else if (variable == "release_year")
                             dataDict[variable] = date.ToString("yyyy");
+                        else if (variable == "spotify_release_year")
+                            dataDict[variable] = date.ToString("yyyy");
+                        else if (variable == "spotify_release")
+                            dataDict[variable] = date.ToString("yyyy-MM-dd");
                         else
                             dataDict[variable] = date;
                     }
@@ -305,14 +314,31 @@ namespace ConsoleApp1
                 listDictDict["image_size"] = Form1.imageSize;
                 foreach (var variable in variablesList)
                 {
-                    if (variable.Contains("track_file_size"))
+                    if (variable.Contains("track_file_size_dolby"))
                     {
-                        listDictDict[variable] = tracksize.Find(x => x.isrc == row["asset_isrc"].ToString()).size;
-
-                    }                    
-                    if (variable.Contains("HASH_SUM"))
+                        string dolbyIsrc = row.Table.Columns.Contains("ISRC_Dolby_File") ? row["ISRC_Dolby_File"]?.ToString() : null;
+                        var match = string.IsNullOrEmpty(dolbyIsrc) ? null : tracksize.Find(x => x.isrc == dolbyIsrc);
+                        if (match != null)
+                            listDictDict[variable] = match.size;
+                    }
+                    else if (variable.Contains("track_file_size"))
                     {
-                        listDictDict[variable] = assetHashes.Find(x => x.ISRC == row["asset_isrc"].ToString()).MD5Hash;
+                        var match = tracksize.Find(x => x.isrc == row["asset_isrc"].ToString());
+                        if (match != null)
+                            listDictDict[variable] = match.size;
+                    }
+                    if (variable.Contains("HASH_SUM_dolby"))
+                    {
+                        string dolbyIsrc = row.Table.Columns.Contains("ISRC_Dolby_File") ? row["ISRC_Dolby_File"]?.ToString() : null;
+                        var match = string.IsNullOrEmpty(dolbyIsrc) ? null : assetHashes.Find(x => x.ISRC == dolbyIsrc);
+                        if (match != null)
+                            listDictDict[variable] = match.MD5Hash;
+                    }
+                    else if (variable.Contains("HASH_SUM"))
+                    {
+                        var match = assetHashes.Find(x => x.ISRC == row["asset_isrc"].ToString());
+                        if (match != null)
+                            listDictDict[variable] = match.MD5Hash;
                     }
                     if (variable.Contains("hash_sum_xml"))
                     {
@@ -322,7 +348,7 @@ namespace ConsoleApp1
                     {
                         listDictDict[variable] = cover_hash_sum;
                     }
-                    if (variable == "release" || variable == "release_year" || variable == "release_date" || variable == "start_date" || variable == "end_date" || variable == "takedown_date")
+                    if (variable == "release" || variable == "release_year" || variable == "release_date" || variable == "start_date" || variable == "end_date" || variable == "takedown_date" || variable == "spotify_release_year" || variable == "spotify_release")
                     {
                         string dateString = null;
 
@@ -330,6 +356,12 @@ namespace ConsoleApp1
                         {
                             dateString = string.IsNullOrEmpty(row["release_date"].ToString()) ? DateTime.Now.ToString("yyyyMMdd") : row["release_date"].ToString();
                         }
+                        else if (variable == "spotify_release" || variable == "spotify_release_year")
+                        {
+                            dateString = string.IsNullOrEmpty(row["start_date"].ToString()) ? DateTime.Now.ToString("yyyyMMdd") : row["start_date"].ToString();
+
+                        }
+
                         else
                         {
                             dateString = string.IsNullOrEmpty(row[variable].ToString()) ? DateTime.Now.ToString("yyyyMMdd") : row[variable].ToString();
@@ -346,6 +378,10 @@ namespace ConsoleApp1
                             listDictDict[variable] = date.ToString("yyyy-MM-dd");
                         else if (variable == "release_year")
                             listDictDict[variable] = date.ToString("yyyy");
+                        else if (variable == "spotify_release_year")
+                            listDictDict[variable] = date.ToString("yyyy");
+                        else if (variable == "spotify_release")
+                            listDictDict[variable] = date.ToString("yyyy-MM-dd");
                         else
                             listDictDict[variable] = date;
                     }
@@ -406,48 +442,125 @@ namespace ConsoleApp1
                     }
                     else if (variable.Contains("_party_"))
                     {
-                        List<string> artist = row["album_artist"]?.ToString()?.Split(',').Select(s => s.Trim()).Distinct().ToList() ?? new List<string>();
-                        List<string> artistAR = row["album_artist_a"]?.ToString()?.Split(',').Select(s => s.Trim()).Distinct().ToList() ?? new List<string>();
-                        List<string> composers = row["composer"]?.ToString()?.Split(',').Select(s => s.Trim()).Distinct().ToList() ?? new List<string>();
-                        List<string> composersA = row["composer_a"]?.ToString()?.Split(',').Select(s => s.Trim()).Distinct().ToList() ?? new List<string>();
-                        List<string> lyrics = row["lyrics"]?.ToString()?.Split(',').Select(s => s.Trim()).Distinct().ToList() ?? new List<string>();
-                        List<string> lyricsA = row["lyrics_a"]?.ToString()?.Split(',').Select(s => s.Trim()).Distinct().ToList() ?? new List<string>();
-                        List<string> arrangers = row["arrenger"]?.ToString()?.Split(',').Select(s => s.Trim()).Distinct().ToList() ?? new List<string>();
-                        List<string> arrangersA = row["arrenger_a"]?.ToString()?.Split(',').Select(s => s.Trim()).Distinct().ToList() ?? new List<string>();
-                        List<string> featuredArtists = row["track_featured_artist"]?.ToString()?.Split(',').Select(s => s.Trim()).Distinct().ToList() ?? new List<string>();
-                        List<string> featuredArtistsA = row["track_featured_artist_a"]?.ToString()?.Split(',').Select(s => s.Trim()).Distinct().ToList() ?? new List<string>();
+                        // -------------------------
+                        // 1) Read English + Arabic names
+                        // -------------------------
+                        List<string> artist = row["track_artist"]?.ToString()?.Split(',').Select(s => s.Trim()).ToList() ?? new List<string>();
+                        List<string> artistAR = row["track_artist_a"]?.ToString()?.Split(',').Select(s => s.Trim()).ToList() ?? new List<string>();
 
-                        List<string> allNames = composers.Concat(lyrics)
-        .Concat(arrangers)
-        .Concat(featuredArtists).Concat(artist)
-        .Where(s => !string.IsNullOrEmpty(s))  // Ensure no empty strings
-        .ToList();
+                        List<string> composers = row["composer"]?.ToString()?.Split(',').Select(s => s.Trim()).ToList() ?? new List<string>();
+                        List<string> composersA = row["composer_a"]?.ToString()?.Split(',').Select(s => s.Trim()).ToList() ?? new List<string>();
 
-                        List<string> allNamesA = composersA.Concat(lyricsA)
-                            .Concat(arrangersA)
-                            .Concat(featuredArtistsA).Concat(artistAR)
-                            .Where(s => !string.IsNullOrEmpty(s))  // Ensure no empty strings
-                            .ToList();
+                        List<string> lyrics = row["lyrics"]?.ToString()?.Split(',').Select(s => s.Trim()).ToList() ?? new List<string>();
+                        List<string> lyricsA = row["lyrics_a"]?.ToString()?.Split(',').Select(s => s.Trim()).ToList() ?? new List<string>();
 
-                        for (int i = 0; i < allNames.Count; i++)
-                        {
-                            string name = allNames[i];
-                            string nameAr = i < allNamesA.Count ? allNamesA[i] : null;
+                        List<string> arrangers = row["arrenger"]?.ToString()?.Split(',').Select(s => s.Trim()).ToList() ?? new List<string>();
+                        List<string> arrangersA = row["arrenger_a"]?.ToString()?.Split(',').Select(s => s.Trim()).ToList() ?? new List<string>();
 
-                            if (!string.IsNullOrEmpty(name) && !partyList.Any(p => p.name.Equals(name, StringComparison.OrdinalIgnoreCase)))
-                            {
-                                partyList.Add(new Party
-                                {
-                                    name = name,
-                                    name_ar = nameAr
-                                });
-                            }
-                        }
+                        List<string> remixers = row.Table.Columns.Contains("remixer")
+                                                    ? row["remixer"]?.ToString()?.Split(',').Select(s => s.Trim()).ToList()
+                                                    : new List<string>();
+                        remixers ??= new List<string>();
+
+                        List<string> remixersA = row.Table.Columns.Contains("remixer_a")
+                                                    ? row["remixer_a"]?.ToString()?.Split(',').Select(s => s.Trim()).ToList()
+                                                    : new List<string>();
+                        remixersA ??= new List<string>();
+
+                        List<string> featured = row["track_featured_artist"]?.ToString()?.Split(',').Select(s => s.Trim()).ToList() ?? new List<string>();
+                        List<string> featuredA = row["track_featured_artist_a"]?.ToString()?.Split(',').Select(s => s.Trim()).ToList() ?? new List<string>();
 
 
+                        List<string> MixingEng = row.Table.Columns.Contains("mixing_engineer")
+                                              ? row["mixing_engineer"]?.ToString()?.Split(',').Select(s => s.Trim()).ToList()
+                                              : new List<string>();
+                        MixingEng ??= new List<string>();
+
+                        List<string> MixingEngA = row.Table.Columns.Contains("mixing_engineer_a")
+                                         ? row["mixing_engineer_a"]?.ToString()?.Split(',').Select(s => s.Trim()).ToList()
+                                         : new List<string>();
+                        MixingEngA ??= new List<string>();
+
+                        List<string> MastergEng = row.Table.Columns.Contains("master_engineer")
+                                         ? row["master_engineer"]?.ToString()?.Split(',').Select(s => s.Trim()).ToList()
+                                         : new List<string>();
+                        MastergEng ??= new List<string>();
+
+                        List<string> MastergEngA = row.Table.Columns.Contains("master_engineer_a")
+                                         ? row["master_engineer_a"]?.ToString()?.Split(',').Select(s => s.Trim()).ToList()
+                                         : new List<string>();
+                        MastergEngA ??= new List<string>();
+
+                        List<string> Producers = row.Table.Columns.Contains("producer")
+                     ? row["producer"]?.ToString()?.Split(',').Select(s => s.Trim()).ToList()
+                     : new List<string>();
+                        Producers ??= new List<string>();
+
+                        List<string> ProducersA = row.Table.Columns.Contains("producer_a")
+                                         ? row["producer_a"]?.ToString()?.Split(',').Select(s => s.Trim()).ToList()
+                                         : new List<string>();
+                        ProducersA ??= new List<string>();
+
+
+
+                        // -------------------------
+                        // 2) Read Spotify IDs
+                        // -------------------------
+                        List<string> artistSpotify = row["spotify_id_track_artist"]?.ToString()?.Split(',').Select(s => s.Trim()).ToList() ?? new List<string>();
+                        List<string> featuredSpotify = row["spotify_id_track_artis_featread"]?.ToString()?.Split(',').Select(s => s.Trim()).ToList() ?? new List<string>();
+                        List<string> remixerSpotify = row["spotify_id_remixer"]?.ToString()?.Split(',').Select(s => s.Trim()).ToList() ?? new List<string>();
+
+
+                        // -------------------------
+                        // 3) Read Internal IDs (Provider DPID)
+                        // -------------------------
+                        List<string> artistInternal = row["track_artist_id"]?.ToString()?.Split(',').Select(s => s.Trim()).ToList() ?? new List<string>();
+                        List<string> featuredInternal = row["track_featured_artist_id"]?.ToString()?.Split(',').Select(s => s.Trim()).ToList() ?? new List<string>();
+                        List<string> remixerInternal = row["remixer_id"]?.ToString()?.Split(',').Select(s => s.Trim()).ToList() ?? new List<string>();
+
+
+                        // -------------------------
+                        // 3b) Read Facebook page IDs + Instagram handles
+                        // -------------------------
+                        List<string> artistFacebook = row.Table.Columns.Contains("facebook_id_track_artist")
+                                                    ? row["facebook_id_track_artist"]?.ToString()?.Split(',').Select(s => s.Trim()).ToList()
+                                                    : new List<string>();
+                        artistFacebook ??= new List<string>();
+
+                        List<string> artistInstagram = row.Table.Columns.Contains("instagram_track_artist")
+                                                    ? row["instagram_track_artist"]?.ToString()?.Split(',').Select(s => s.Trim()).ToList()
+                                                    : new List<string>();
+                        artistInstagram ??= new List<string>();
+
+                        List<string> featuredFacebook = row.Table.Columns.Contains("facebook_id_track_artist_featread")
+                                                    ? row["facebook_id_track_artist_featread"]?.ToString()?.Split(',').Select(s => s.Trim()).ToList()
+                                                    : new List<string>();
+                        featuredFacebook ??= new List<string>();
+
+                        List<string> featuredInstagram = row.Table.Columns.Contains("instagram_track_artist_featread")
+                                                    ? row["instagram_track_artist_featread"]?.ToString()?.Split(',').Select(s => s.Trim()).ToList()
+                                                    : new List<string>();
+                        featuredInstagram ??= new List<string>();
+
+
+                        // -------------------------
+                        // 4) Build party list
+                        // -------------------------
+                        AddParties(artist, artistAR, artistSpotify, artistInternal, artistFacebook, artistInstagram, partyList);
+                        AddParties(featured, featuredA, featuredSpotify, featuredInternal, featuredFacebook, featuredInstagram, partyList);
+                        AddParties(remixers, remixersA, remixerSpotify, remixerInternal, new List<string>(), new List<string>(), partyList);
+
+                        // Those do NOT have IDs → empty lists
+                        AddParties(composers, composersA, new List<string>(), new List<string>(), new List<string>(), new List<string>(), partyList);
+                        AddParties(lyrics, lyricsA, new List<string>(), new List<string>(), new List<string>(), new List<string>(), partyList);
+                        AddParties(arrangers, arrangersA, new List<string>(), new List<string>(), new List<string>(), new List<string>(), partyList);
+                        AddParties(MixingEng, MixingEngA, new List<string>(), new List<string>(), new List<string>(), new List<string>(), partyList);
+                        AddParties(MastergEng, MastergEngA, new List<string>(), new List<string>(), new List<string>(), new List<string>(), partyList);
+                        AddParties(Producers, ProducersA, new List<string>(), new List<string>(), new List<string>(), new List<string>(), partyList);
                         listDictDict[variable] = partyList;
-
                     }
+
+
                     else if (variable.Contains("_list_string"))
                     {
                         string list_string_name= variable.Split("_list_string")[0];
@@ -533,6 +646,65 @@ namespace ConsoleApp1
             }
             return list;
         }
+
+
+        private void AddParties(
+     List<string> names,
+     List<string> namesAr,
+     List<string> spotifyIds,
+     List<string> internalIds,
+     List<string> facebookIds,
+     List<string> instagrams,
+     List<Party> partyList)
+        {
+            for (int i = 0; i < names.Count; i++)
+            {
+                string name = names[i];
+                string nameAr = i < namesAr.Count ? namesAr[i] : null;
+                string spotify = i < spotifyIds.Count ? spotifyIds[i] : null;
+                string internalId = i < internalIds.Count ? internalIds[i] : null;
+                string facebook = i < facebookIds.Count ? facebookIds[i] : null;
+                string instagram = i < instagrams.Count ? instagrams[i] : null;
+
+                if (string.IsNullOrWhiteSpace(name))
+                    continue;
+
+                var existing = partyList.FirstOrDefault(
+                    p => p.name.Equals(name, StringComparison.OrdinalIgnoreCase));
+
+                if (existing == null)
+                {
+                    partyList.Add(new Party
+                    {
+                        name = name,
+                        name_ar = nameAr,
+                        spotify_id = spotify,
+                        internal_id = internalId,
+                        facebook_id = facebook,
+                        instagram = instagram
+                    });
+                }
+                else
+                {
+                    if (string.IsNullOrEmpty(existing.name_ar) && !string.IsNullOrEmpty(nameAr))
+                        existing.name_ar = nameAr;
+
+                    if (string.IsNullOrEmpty(existing.spotify_id) && !string.IsNullOrEmpty(spotify))
+                        existing.spotify_id = spotify;
+
+                    if (string.IsNullOrEmpty(existing.internal_id) && !string.IsNullOrEmpty(internalId))
+                        existing.internal_id = internalId;
+
+                    if (string.IsNullOrEmpty(existing.facebook_id) && !string.IsNullOrEmpty(facebook))
+                        existing.facebook_id = facebook;
+
+                    if (string.IsNullOrEmpty(existing.instagram) && !string.IsNullOrEmpty(instagram))
+                        existing.instagram = instagram;
+                }
+            }
+        }
+
+
         public List<string> ParseTemplate(string filePath)
         {
             // Load the template from the file
@@ -645,6 +817,14 @@ namespace ConsoleApp1
         {
             public string name { get; set; } = default!;
             public string name_ar { get; set; } = default!;
+            public string internal_id { get; set; }
+
+            public string spotify_id { get; set; }
+
+            public string facebook_id { get; set; }
+
+            public string instagram { get; set; }
+
         }
 
     }

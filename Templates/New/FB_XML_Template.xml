@@ -26,8 +26,8 @@
 	</MessageHeader>
 	<UpdateIndicator xmlns="">OriginalMessage</UpdateIndicator>
 	<ResourceList>
-  {{~ for asset in album.asset_list ~}}
-  		<SoundRecording>
+		{{~ for asset in album.asset_list ~}}
+		<SoundRecording>
 			<SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
 			<SoundRecordingId>
 				<ISRC>{{ asset.asset_isrc }}</ISRC>
@@ -40,10 +40,10 @@
 			</ReferenceTitle>
 			<Duration>{{ asset.fb_track_duration }}</Duration>
 			<SoundRecordingDetailsByTerritory>
-   {{~ for country_code in asset.country_iso_code_list_string ~}}
-         <TerritoryCode>{{ country_code }}</TerritoryCode>
-   {{~ end ~}}
-   				<Title TitleType="DisplayTitle">
+				{{~ for country_code in asset.country_iso_code_list_string ~}}
+				<TerritoryCode>{{ country_code }}</TerritoryCode>
+				{{~ end ~}}
+				<Title TitleType="DisplayTitle">
 					<TitleText>{{ asset.track_name }} - {{ asset.track_name_a }}</TitleText>
 				</Title>
 				<DisplayArtist>
@@ -53,7 +53,7 @@
 					<PartyId Namespace="DPID:PADPIDA20131118019">{{ asset.track_artist_id }}</PartyId>
 					<ArtistRole>MainArtist</ArtistRole>
 				</DisplayArtist>
-          {{ for track_featured_artist in asset.track_featured_artist_list_string }}
+				{{ for track_featured_artist in asset.track_featured_artist_list_string }}
 				<DisplayArtist>
 					<PartyName>
 						<FullName>{{ track_featured_artist.name  }}</FullName>
@@ -61,7 +61,7 @@
 					<PartyId Namespace="DPID:PADPIDA20131118019">{{ track_featured_artist.id  }}</PartyId>
 					<ArtistRole>FeaturedArtist</ArtistRole>
 				</DisplayArtist>
-          {{~ end ~}}
+				{{~ end ~}}
 
 				<LabelName>{{ asset.label_name }}</LabelName>
 				<RightsController>
@@ -99,7 +99,7 @@
 				</TechnicalSoundRecordingDetails>
 			</SoundRecordingDetailsByTerritory>
 		</SoundRecording>
-          {{~ end ~}}
+		{{~ end ~}}
 		<Image>
 			<ImageType>FrontCoverImage</ImageType>
 			<ImageId>
@@ -107,10 +107,10 @@
 			</ImageId>
 			<ResourceReference>A{{ album.image_num }}</ResourceReference>
 			<ImageDetailsByTerritory>
-   {{~ for country_code in album.country_iso_code_list_string ~}}
-                <TerritoryCode>{{ country_code }}</TerritoryCode>
-   {{~ end ~}}
-   				<TechnicalImageDetails>
+				{{~ for country_code in album.country_iso_code_list_string ~}}
+				<TerritoryCode>{{ country_code }}</TerritoryCode>
+				{{~ end ~}}
+				<TechnicalImageDetails>
 					<TechnicalResourceDetailsReference>T{{ album.image_num }}</TechnicalResourceDetailsReference>
 					<ImageCodecType>JPEG</ImageCodecType>
 					<ImageHeight>1500</ImageHeight>
@@ -139,17 +139,17 @@
 				<TitleText>{{ album.album_name }} - {{ album.album_name_a }}</TitleText>
 			</ReferenceTitle>
 			<ReleaseResourceReferenceList>
-            {{~ for asset in album.asset_list ~}}
+				{{~ for asset in album.asset_list ~}}
 				<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A{{asset.track_num}}</ReleaseResourceReference>
-            {{~ end ~}}
+				{{~ end ~}}
 				<ReleaseResourceReference ReleaseResourceType="SecondaryResource">A{{album.image_num}}</ReleaseResourceReference>
 			</ReleaseResourceReferenceList>
 			<ReleaseType>{{album.release_type}}</ReleaseType>
 			<ReleaseDetailsByTerritory>
-  {{~ for country_code in album.country_iso_code_list_string ~}}
-                <TerritoryCode>{{ country_code }}</TerritoryCode>
-   {{~ end ~}}
-   				<DisplayArtistName>{{album.album_artist}}</DisplayArtistName>
+				{{~ for country_code in album.country_iso_code_list_string ~}}
+				<TerritoryCode>{{ country_code }}</TerritoryCode>
+				{{~ end ~}}
+				<DisplayArtistName>{{album.album_artist}}</DisplayArtistName>
 				<LabelName>{{album.label_name}}</LabelName>
 				<Title TitleType="FormalTitle">
 					<TitleText>{{ album.album_name }} - {{ album.album_name_a }}</TitleText>
@@ -164,7 +164,7 @@
 					<PartyId Namespace="DPID:PADPIDA20131118019">{{album.album_artist_id}}</PartyId>
 					<ArtistRole>MainArtist</ArtistRole>
 				</DisplayArtist>
-			    {{ for track_featured_artist in album.track_featured_artist_list_string }}
+				{{ for track_featured_artist in album.track_featured_artist_list_string }}
 				<DisplayArtist>
 					<PartyName>
 						<FullName>{{ track_featured_artist.name  }}</FullName>
@@ -172,7 +172,7 @@
 					<PartyId Namespace="DPID:PADPIDA20131118019">{{ track_featured_artist.id  }}</PartyId>
 					<ArtistRole>FeaturedArtist</ArtistRole>
 				</DisplayArtist>
-               {{~ end ~}}
+				{{~ end ~}}
 				<ParentalWarningType>NotExplicit</ParentalWarningType>
 				<ResourceGroup>
 					<ResourceGroup>
@@ -180,13 +180,13 @@
 							<TitleText>Disc {{album.disc_num}}</TitleText>
 						</Title>
 						<SequenceNumber>1</SequenceNumber>
-               {{~ for asset in album.asset_list ~}}
+						{{~ for asset in album.asset_list ~}}
 						<ResourceGroupContentItem>
 							<SequenceNumber>{{asset.track_num}}</SequenceNumber>
 							<ResourceType>SoundRecording</ResourceType>
 							<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A{{asset.track_num}}</ReleaseResourceReference>
 						</ResourceGroupContentItem>
-               {{~ end ~}}
+						{{~ end ~}}
 					</ResourceGroup>
 					<ResourceGroupContentItem>
 						<ResourceType>Image</ResourceType>
@@ -208,7 +208,7 @@
 				<CLineText>{{ album.label_name }}</CLineText>
 			</CLine>
 		</Release>
-       {{~ for asset in album.asset_list ~}}
+		{{~ for asset in album.asset_list ~}}
 		<Release>
 			<ReleaseId>
 				<ISRC>{{ asset.asset_isrc }}</ISRC>
@@ -223,10 +223,10 @@
 			</ReleaseResourceReferenceList>
 			<ReleaseType>TrackRelease</ReleaseType>
 			<ReleaseDetailsByTerritory>
-   {{~ for country_code in asset.country_iso_code_list_string ~}}
-         <TerritoryCode>{{ country_code }}</TerritoryCode>
-   {{~ end ~}}
-   				<DisplayArtistName>{{ asset.track_artist }}</DisplayArtistName>
+				{{~ for country_code in asset.country_iso_code_list_string ~}}
+				<TerritoryCode>{{ country_code }}</TerritoryCode>
+				{{~ end ~}}
+				<DisplayArtistName>{{ asset.track_artist }}</DisplayArtistName>
 				<DisplayArtistName LanguageAndScriptCode="ar">{{ asset.track_artist_a }}</DisplayArtistName>
 				<LabelName>{{ asset.label_name }}</LabelName>
 				<Title TitleType="FormalTitle">
@@ -242,7 +242,7 @@
 					<PartyId Namespace="DPID:PADPIDA20131118019">{{ asset.track_artist_id }}</PartyId>
 					<ArtistRole>MainArtist</ArtistRole>
 				</DisplayArtist>
-			    {{ for track_featured_artist in asset.track_featured_artist_list_string }}
+				{{ for track_featured_artist in asset.track_featured_artist_list_string }}
 				<DisplayArtist>
 					<PartyName>
 						<FullName>{{ track_featured_artist.name  }}</FullName>
@@ -250,7 +250,7 @@
 					<PartyId Namespace="DPID:PADPIDA20131118019">{{ track_featured_artist.id  }}</PartyId>
 					<ArtistRole>FeaturedArtist</ArtistRole>
 				</DisplayArtist>
-               {{~ end ~}}
+				{{~ end ~}}
 				<ParentalWarningType>NotExplicit</ParentalWarningType>
 				<ResourceGroup>
 					<SequenceNumber>1</SequenceNumber>
@@ -275,7 +275,7 @@
 				<CLineText>{{ asset.label_name}}</CLineText>
 			</CLine>
 		</Release>
-    {{~ end ~}}
+		{{~ end ~}}
 	</ReleaseList>
 	<DealList>
 		<ReleaseDeal>
@@ -287,19 +287,18 @@
 					<Usage>
 						<UseType>UserMakeAvailableLabelProvided</UseType>
 					</Usage>
-  {{~ for country_code in album.country_iso_code_list_string ~}}
-         <TerritoryCode>{{ country_code }}</TerritoryCode>
-   {{~ end ~}}
-   					<ValidityPeriod>
+					{{~ for country_code in album.country_iso_code_list_string ~}}
+					<TerritoryCode>{{ country_code }}</TerritoryCode>
+					{{~ end ~}}
+					<ValidityPeriod>
 						<StartDate>{{album.start_date}}</StartDate>
 					</ValidityPeriod>
 				</DealTerms>
 			</Deal>
 		</ReleaseDeal>
+		{{~ for asset in album.asset_list ~}}
 		<ReleaseDeal>
-         {{~ for asset in album.asset_list ~}}
 			<DealReleaseReference>R{{asset.track_num}}</DealReleaseReference>
-	     {{~ end ~}}
 			<Deal>
 				<DealReference>D2</DealReference>
 				<DealTerms>
@@ -307,10 +306,10 @@
 					<Usage>
 						<UseType>UserMakeAvailableUserProvided</UseType>
 					</Usage>
-    {{~ for country_code in album.country_iso_code_list_string ~}}
-         <TerritoryCode>{{ country_code }}</TerritoryCode>
-    {{~ end ~}}				
-   	<ValidityPeriod>
+					{{~ for country_code in album.country_iso_code_list_string ~}}
+					<TerritoryCode>{{ country_code }}</TerritoryCode>
+					{{~ end ~}}
+					<ValidityPeriod>
 						<StartDate>{{album.start_date}}</StartDate>
 					</ValidityPeriod>
 					<RightsClaimPolicy>
@@ -319,5 +318,6 @@
 				</DealTerms>
 			</Deal>
 		</ReleaseDeal>
+		{{~ end ~}}
 	</DealList>
 </ern:NewReleaseMessage>

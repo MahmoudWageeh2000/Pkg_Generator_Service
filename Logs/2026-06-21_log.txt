@@ -1,0 +1,218 @@
+21/06/2026 03:14:42 م: Starting XML generation for package ID: 7128, Filename: Apple_Music_XML_Template.xml, Company: Apple Music
+21/06/2026 03:14:42 م: Success: fetched package info for ID: 7128
+21/06/2026 03:14:42 م: Processing group with Album UPC: 6221117204653
+21/06/2026 03:14:42 م: Starting GetFolderPaths...
+21/06/2026 03:14:42 م: Fetching package folder for company: Apple Music
+21/06/2026 03:14:42 م: Sucsses: PackageFolder set to: 20260621151442712
+21/06/2026 03:14:42 م: Sucsses: Fetching resources folder for company: Apple Music
+21/06/2026 03:14:42 م: Sucsses: ResourcesFolder set to: 20260621151442712\6221117204653.itmsp
+21/06/2026 03:14:42 م: Sucsses: Fetching metadata file path for company: Apple Music
+21/06/2026 03:14:42 م: Sucsses: MetadataFile path set to: 20260621151442712\6221117204653.itmsp\metadata.xml
+21/06/2026 03:14:42 م: Sucsses: Final PackageFolder path: 7128\20260621151442712
+21/06/2026 03:14:42 م: Sucsses: Final ResourcesFolder path: 7128\20260621151442712\6221117204653.itmsp
+21/06/2026 03:14:42 م: Sucsses: Retrieved folder paths for package: 7128
+21/06/2026 03:14:42 م: Starting GetCover...
+21/06/2026 03:14:43 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:14:43 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:14:43 م: Sucsses: Created directory: C:\Pkg_Output\apple music\7128\20260621151442712\6221117204653.itmsp
+21/06/2026 03:14:43 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:14:43 م: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\7128\20260621151442712\6221117204653.itmsp\6221117204653.jpg
+21/06/2026 03:14:43 م: Start Getting Media For package info: 7128
+21/06/2026 03:14:45 م: Media data generated successfully.
+21/06/2026 03:14:45 م: Success: generated XML for package ID: 7128
+21/06/2026 03:16:57 م: Starting XML generation for package ID: 7128, Filename: Apple_Music_XML_Template.xml, Company: Apple Music
+21/06/2026 03:16:57 م: Success: fetched package info for ID: 7128
+21/06/2026 03:16:57 م: Processing group with Album UPC: 6221117204653
+21/06/2026 03:16:57 م: Starting GetFolderPaths...
+21/06/2026 03:16:57 م: Fetching package folder for company: Apple Music
+21/06/2026 03:16:57 م: Sucsses: PackageFolder set to: 20260621151657797
+21/06/2026 03:16:57 م: Sucsses: Fetching resources folder for company: Apple Music
+21/06/2026 03:16:57 م: Sucsses: ResourcesFolder set to: 20260621151657797\6221117204653.itmsp
+21/06/2026 03:16:57 م: Sucsses: Fetching metadata file path for company: Apple Music
+21/06/2026 03:16:57 م: Sucsses: MetadataFile path set to: 20260621151657797\6221117204653.itmsp\metadata.xml
+21/06/2026 03:16:57 م: Sucsses: Final PackageFolder path: 7128\20260621151657797
+21/06/2026 03:16:57 م: Sucsses: Final ResourcesFolder path: 7128\20260621151657797\6221117204653.itmsp
+21/06/2026 03:16:57 م: Sucsses: Retrieved folder paths for package: 7128
+21/06/2026 03:16:57 م: Starting GetCover...
+21/06/2026 03:16:58 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:16:58 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:16:58 م: Sucsses: Created directory: C:\Pkg_Output\apple music\7128\20260621151657797\6221117204653.itmsp
+21/06/2026 03:16:58 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:16:58 م: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\7128\20260621151657797\6221117204653.itmsp\6221117204653.jpg
+21/06/2026 03:16:58 م: Start Getting Media For package info: 7128
+21/06/2026 03:17:01 م: No WAV files found for asset ISRC: EGA012502116
+21/06/2026 03:17:01 م: Error: processing Excel file: No Media Found
+21/06/2026 03:17:01 م: There is Some errors in The PKG
+21/06/2026 03:18:58 م: Starting XML generation for package ID: 7128, Filename: Apple_Music_XML_Template.xml, Company: Apple Music
+21/06/2026 03:18:58 م: Success: fetched package info for ID: 7128
+21/06/2026 03:18:58 م: Processing group with Album UPC: 6221117204653
+21/06/2026 03:18:58 م: Starting GetFolderPaths...
+21/06/2026 03:18:58 م: Fetching package folder for company: Apple Music
+21/06/2026 03:18:58 م: Sucsses: PackageFolder set to: 20260621151858564
+21/06/2026 03:18:58 م: Sucsses: Fetching resources folder for company: Apple Music
+21/06/2026 03:18:58 م: Sucsses: ResourcesFolder set to: 20260621151858564\6221117204653.itmsp
+21/06/2026 03:18:58 م: Sucsses: Fetching metadata file path for company: Apple Music
+21/06/2026 03:18:58 م: Sucsses: MetadataFile path set to: 20260621151858564\6221117204653.itmsp\metadata.xml
+21/06/2026 03:18:58 م: Sucsses: Final PackageFolder path: 7128\20260621151858564
+21/06/2026 03:18:58 م: Sucsses: Final ResourcesFolder path: 7128\20260621151858564\6221117204653.itmsp
+21/06/2026 03:18:58 م: Sucsses: Retrieved folder paths for package: 7128
+21/06/2026 03:18:58 م: Starting GetCover...
+21/06/2026 03:18:59 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:18:59 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:18:59 م: Sucsses: Created directory: C:\Pkg_Output\apple music\7128\20260621151858564\6221117204653.itmsp
+21/06/2026 03:18:59 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:18:59 م: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\7128\20260621151858564\6221117204653.itmsp\6221117204653.jpg
+21/06/2026 03:18:59 م: Start Getting Media For package info: 7128
+21/06/2026 03:19:03 م: Media data generated successfully.
+21/06/2026 03:19:03 م: Success: generated XML for package ID: 7128
+21/06/2026 03:23:03 م: Starting XML generation for package ID: 7128, Filename: Apple_Music_XML_Template.xml, Company: Apple Music
+21/06/2026 03:23:03 م: Success: fetched package info for ID: 7128
+21/06/2026 03:23:03 م: Processing group with Album UPC: 6221117204653
+21/06/2026 03:23:03 م: Starting GetFolderPaths...
+21/06/2026 03:23:03 م: Fetching package folder for company: Apple Music
+21/06/2026 03:23:03 م: Sucsses: PackageFolder set to: 20260621152303747
+21/06/2026 03:23:03 م: Sucsses: Fetching resources folder for company: Apple Music
+21/06/2026 03:23:03 م: Sucsses: ResourcesFolder set to: 20260621152303747\6221117204653.itmsp
+21/06/2026 03:23:03 م: Sucsses: Fetching metadata file path for company: Apple Music
+21/06/2026 03:23:03 م: Sucsses: MetadataFile path set to: 20260621152303747\6221117204653.itmsp\metadata.xml
+21/06/2026 03:23:03 م: Sucsses: Final PackageFolder path: 7128\20260621152303747
+21/06/2026 03:23:03 م: Sucsses: Final ResourcesFolder path: 7128\20260621152303747\6221117204653.itmsp
+21/06/2026 03:23:03 م: Sucsses: Retrieved folder paths for package: 7128
+21/06/2026 03:23:03 م: Starting GetCover...
+21/06/2026 03:23:04 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:23:04 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:23:04 م: Sucsses: Created directory: C:\Pkg_Output\apple music\7128\20260621152303747\6221117204653.itmsp
+21/06/2026 03:23:04 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:23:04 م: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\7128\20260621152303747\6221117204653.itmsp\6221117204653.jpg
+21/06/2026 03:23:04 م: Start Getting Media For package info: 7128
+21/06/2026 03:39:23 م: Starting XML generation for package ID: 7128, Filename: Apple_Music_XML_Template.xml, Company: Apple Music
+21/06/2026 03:39:23 م: Success: fetched package info for ID: 7128
+21/06/2026 03:39:23 م: Processing group with Album UPC: 6221117204653
+21/06/2026 03:39:23 م: Starting GetFolderPaths...
+21/06/2026 03:39:23 م: Fetching package folder for company: Apple Music
+21/06/2026 03:39:23 م: Sucsses: PackageFolder set to: 20260621153923951
+21/06/2026 03:39:23 م: Sucsses: Fetching resources folder for company: Apple Music
+21/06/2026 03:39:23 م: Sucsses: ResourcesFolder set to: 20260621153923951\6221117204653.itmsp
+21/06/2026 03:39:23 م: Sucsses: Fetching metadata file path for company: Apple Music
+21/06/2026 03:39:23 م: Sucsses: MetadataFile path set to: 20260621153923951\6221117204653.itmsp\metadata.xml
+21/06/2026 03:39:23 م: Sucsses: Final PackageFolder path: 7128\20260621153923951
+21/06/2026 03:39:23 م: Sucsses: Final ResourcesFolder path: 7128\20260621153923951\6221117204653.itmsp
+21/06/2026 03:39:23 م: Sucsses: Retrieved folder paths for package: 7128
+21/06/2026 03:39:23 م: Starting GetCover...
+21/06/2026 03:39:24 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:39:24 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:39:24 م: Sucsses: Created directory: C:\Pkg_Output\apple music\7128\20260621153923951\6221117204653.itmsp
+21/06/2026 03:39:24 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:39:24 م: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\7128\20260621153923951\6221117204653.itmsp\6221117204653.jpg
+21/06/2026 03:39:24 م: Start Getting Media For package info: 7128
+21/06/2026 03:40:34 م: Media data generated successfully.
+21/06/2026 03:40:35 م: Success: generated XML for package ID: 7128
+21/06/2026 03:41:28 م: Starting XML generation for package ID: 7128, Filename: Apple_Music_XML_Template.xml, Company: Apple Music
+21/06/2026 03:41:28 م: Success: fetched package info for ID: 7128
+21/06/2026 03:41:28 م: Processing group with Album UPC: 6221117204653
+21/06/2026 03:41:28 م: Starting GetFolderPaths...
+21/06/2026 03:41:28 م: Fetching package folder for company: Apple Music
+21/06/2026 03:41:28 م: Sucsses: PackageFolder set to: 20260621154128176
+21/06/2026 03:41:28 م: Sucsses: Fetching resources folder for company: Apple Music
+21/06/2026 03:41:28 م: Sucsses: ResourcesFolder set to: 20260621154128176\6221117204653.itmsp
+21/06/2026 03:41:28 م: Sucsses: Fetching metadata file path for company: Apple Music
+21/06/2026 03:41:28 م: Sucsses: MetadataFile path set to: 20260621154128176\6221117204653.itmsp\metadata.xml
+21/06/2026 03:41:28 م: Sucsses: Final PackageFolder path: 7128\20260621154128176
+21/06/2026 03:41:28 م: Sucsses: Final ResourcesFolder path: 7128\20260621154128176\6221117204653.itmsp
+21/06/2026 03:41:28 م: Sucsses: Retrieved folder paths for package: 7128
+21/06/2026 03:41:28 م: Starting GetCover...
+21/06/2026 03:41:29 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:41:29 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:41:29 م: Sucsses: Created directory: C:\Pkg_Output\apple music\7128\20260621154128176\6221117204653.itmsp
+21/06/2026 03:41:29 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:41:29 م: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\7128\20260621154128176\6221117204653.itmsp\6221117204653.jpg
+21/06/2026 03:41:29 م: Start Getting Media For package info: 7128
+21/06/2026 03:42:28 م: Media data generated successfully.
+21/06/2026 03:42:33 م: Success: generated XML for package ID: 7128
+21/06/2026 03:44:56 م: Starting XML generation for package ID: 7128, Filename: Apple_Music_XML_Template.xml, Company: Apple Music
+21/06/2026 03:44:56 م: Success: fetched package info for ID: 7128
+21/06/2026 03:44:56 م: Processing group with Album UPC: 6221117204653
+21/06/2026 03:44:56 م: Starting GetFolderPaths...
+21/06/2026 03:44:56 م: Fetching package folder for company: Apple Music
+21/06/2026 03:44:56 م: Sucsses: PackageFolder set to: 20260621154456292
+21/06/2026 03:44:56 م: Sucsses: Fetching resources folder for company: Apple Music
+21/06/2026 03:44:56 م: Sucsses: ResourcesFolder set to: 20260621154456292\6221117204653.itmsp
+21/06/2026 03:44:56 م: Sucsses: Fetching metadata file path for company: Apple Music
+21/06/2026 03:44:56 م: Sucsses: MetadataFile path set to: 20260621154456292\6221117204653.itmsp\metadata.xml
+21/06/2026 03:44:56 م: Sucsses: Final PackageFolder path: 7128\20260621154456292
+21/06/2026 03:44:56 م: Sucsses: Final ResourcesFolder path: 7128\20260621154456292\6221117204653.itmsp
+21/06/2026 03:44:56 م: Sucsses: Retrieved folder paths for package: 7128
+21/06/2026 03:44:56 م: Starting GetCover...
+21/06/2026 03:44:57 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:44:57 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:44:57 م: Sucsses: Created directory: C:\Pkg_Output\apple music\7128\20260621154456292\6221117204653.itmsp
+21/06/2026 03:44:57 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:44:57 م: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\7128\20260621154456292\6221117204653.itmsp\6221117204653.jpg
+21/06/2026 03:44:57 م: Start Getting Media For package info: 7128
+21/06/2026 03:45:51 م: Media data generated successfully.
+21/06/2026 03:45:51 م: Success: generated XML for package ID: 7128
+21/06/2026 03:47:12 م: Starting XML generation for package ID: 7128, Filename: Apple_Music_XML_Template.xml, Company: Apple Music
+21/06/2026 03:47:12 م: Success: fetched package info for ID: 7128
+21/06/2026 03:47:12 م: Processing group with Album UPC: 6221117204653
+21/06/2026 03:47:12 م: Starting GetFolderPaths...
+21/06/2026 03:47:12 م: Fetching package folder for company: Apple Music
+21/06/2026 03:47:12 م: Sucsses: PackageFolder set to: 20260621154712909
+21/06/2026 03:47:12 م: Sucsses: Fetching resources folder for company: Apple Music
+21/06/2026 03:47:12 م: Sucsses: ResourcesFolder set to: 20260621154712909\6221117204653.itmsp
+21/06/2026 03:47:12 م: Sucsses: Fetching metadata file path for company: Apple Music
+21/06/2026 03:47:12 م: Sucsses: MetadataFile path set to: 20260621154712909\6221117204653.itmsp\metadata.xml
+21/06/2026 03:47:12 م: Sucsses: Final PackageFolder path: 7128\20260621154712909
+21/06/2026 03:47:12 م: Sucsses: Final ResourcesFolder path: 7128\20260621154712909\6221117204653.itmsp
+21/06/2026 03:47:12 م: Sucsses: Retrieved folder paths for package: 7128
+21/06/2026 03:47:12 م: Starting GetCover...
+21/06/2026 03:47:13 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:47:13 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:47:13 م: Sucsses: Created directory: C:\Pkg_Output\apple music\7128\20260621154712909\6221117204653.itmsp
+21/06/2026 03:47:13 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:47:13 م: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\7128\20260621154712909\6221117204653.itmsp\6221117204653.jpg
+21/06/2026 03:47:13 م: Start Getting Media For package info: 7128
+21/06/2026 03:47:20 م: Media data generated successfully.
+21/06/2026 03:50:17 م: Starting XML generation for package ID: 7128, Filename: Apple_Music_XML_Template.xml, Company: Apple Music
+21/06/2026 03:50:17 م: Success: fetched package info for ID: 7128
+21/06/2026 03:50:17 م: Processing group with Album UPC: 6221117204653
+21/06/2026 03:50:17 م: Starting GetFolderPaths...
+21/06/2026 03:50:17 م: Fetching package folder for company: Apple Music
+21/06/2026 03:50:17 م: Sucsses: PackageFolder set to: 20260621155017636
+21/06/2026 03:50:17 م: Sucsses: Fetching resources folder for company: Apple Music
+21/06/2026 03:50:17 م: Sucsses: ResourcesFolder set to: 20260621155017636\6221117204653.itmsp
+21/06/2026 03:50:17 م: Sucsses: Fetching metadata file path for company: Apple Music
+21/06/2026 03:50:17 م: Sucsses: MetadataFile path set to: 20260621155017636\6221117204653.itmsp\metadata.xml
+21/06/2026 03:50:17 م: Sucsses: Final PackageFolder path: 7128\20260621155017636
+21/06/2026 03:50:17 م: Sucsses: Final ResourcesFolder path: 7128\20260621155017636\6221117204653.itmsp
+21/06/2026 03:50:17 م: Sucsses: Retrieved folder paths for package: 7128
+21/06/2026 03:50:17 م: Starting GetCover...
+21/06/2026 03:50:18 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:50:18 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:50:18 م: Sucsses: Created directory: C:\Pkg_Output\apple music\7128\20260621155017636\6221117204653.itmsp
+21/06/2026 03:50:18 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:50:18 م: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\7128\20260621155017636\6221117204653.itmsp\6221117204653.jpg
+21/06/2026 03:50:18 م: Start Getting Media For package info: 7128
+21/06/2026 03:50:21 م: Media data generated successfully.
+21/06/2026 03:50:21 م: Success: generated XML for package ID: 7128
+21/06/2026 03:52:51 م: Starting XML generation for package ID: 7128, Filename: Apple_Music_XML_Template.xml, Company: Apple Music
+21/06/2026 03:52:51 م: Success: fetched package info for ID: 7128
+21/06/2026 03:52:51 م: Processing group with Album UPC: 6221117204653
+21/06/2026 03:52:51 م: Starting GetFolderPaths...
+21/06/2026 03:52:51 م: Fetching package folder for company: Apple Music
+21/06/2026 03:52:51 م: Sucsses: PackageFolder set to: 20260621155021503
+21/06/2026 03:52:51 م: Sucsses: Fetching resources folder for company: Apple Music
+21/06/2026 03:52:51 م: Sucsses: ResourcesFolder set to: 20260621155021503\6221117204653.itmsp
+21/06/2026 03:52:51 م: Sucsses: Fetching metadata file path for company: Apple Music
+21/06/2026 03:52:51 م: Sucsses: MetadataFile path set to: 20260621155021503\6221117204653.itmsp\metadata.xml
+21/06/2026 03:52:51 م: Sucsses: Final PackageFolder path: 7128\20260621155021503
+21/06/2026 03:52:51 م: Sucsses: Final ResourcesFolder path: 7128\20260621155021503\6221117204653.itmsp
+21/06/2026 03:52:51 م: Sucsses: Retrieved folder paths for package: 7128
+21/06/2026 03:52:51 م: Starting GetCover...
+21/06/2026 03:52:52 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:52:52 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:52:52 م: Sucsses: Created directory: C:\Pkg_Output\apple music\7128\20260621155021503\6221117204653.itmsp
+21/06/2026 03:52:52 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117204653.jpg
+21/06/2026 03:52:52 م: Sucsses: Copied cover file to: C:\Pkg_Output\apple music\7128\20260621155021503\6221117204653.itmsp\6221117204653.jpg
+21/06/2026 03:52:52 م: Start Getting Media For package info: 7128
+21/06/2026 03:52:55 م: Media data generated successfully.
+21/06/2026 03:52:55 م: Success: generated XML for package ID: 7128

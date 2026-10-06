@@ -14,7 +14,7 @@
 				<FullName>YouTube_ContentID</FullName>
 			</PartyName>
 		</MessageRecipient>
-		<MessageCreatedDateTime>{{ album.full_date_time }}+02:00</MessageCreatedDateTime>
+		<MessageCreatedDateTime>{{ album.full_date_time }}Z</MessageCreatedDateTime>
 		<MessageControlType>LiveMessage</MessageControlType>
 	</MessageHeader>
 	<ResourceList>
@@ -22,7 +22,7 @@
 			<SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
 			<SoundRecordingId>
 				<ISRC>{{ album.asset_isrc }}</ISRC>
-				<ProprietaryId Namespace="YOUTUBE:SR_ASSET_LABEL">{{ album.sr_asset_label}}</ProprietaryId>
+				<ProprietaryId Namespace="YOUTUBE:SR_ASSET_LABEL">{{ album.asset_label}}</ProprietaryId>
 				<ProprietaryId Namespace="YOUTUBE:SR_CUSTOM_ID">{{ album.asset_isrc }}</ProprietaryId>
 			</SoundRecordingId>
 			<ResourceReference>A{{ album.track_num }}</ResourceReference>

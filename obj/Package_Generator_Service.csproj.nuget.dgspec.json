@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\0CurrectPrograms\\Pkg_Generator_Service\\Package_Generator_Service.csproj": {}
+    "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj": {}
   },
   "projects": {
-    "C:\\0CurrectPrograms\\Pkg_Generator_Service\\Package_Generator_Service.csproj": {
+    "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\0CurrectPrograms\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+        "projectUniqueName": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
         "projectName": "Package_Generator_Service",
-        "projectPath": "C:\\0CurrectPrograms\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+        "projectPath": "C:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
         "packagesPath": "C:\\Users\\programmer\\.nuget\\packages\\",
-        "outputPath": "C:\\0CurrectPrograms\\Pkg_Generator_Service\\obj\\",
+        "outputPath": "C:\\Apps\\Pkg_Generator_Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -30,7 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0-windows7.0": {
+          "net8.0-windows": {
+            "framework": "net8.0-windows7.0",
             "targetAlias": "net8.0-windows",
             "projectReferences": {}
           }
@@ -44,10 +45,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
-        "net8.0-windows7.0": {
+        "net8.0-windows": {
+          "framework": "net8.0-windows7.0",
           "targetAlias": "net8.0-windows",
           "dependencies": {
             "Microsoft.Identity.Client": {
@@ -86,7 +89,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

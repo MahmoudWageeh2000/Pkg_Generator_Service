@@ -1,0 +1,126 @@
+05/03/2026 03:25:17 م: Starting XML generation for package ID: 3549, Filename: TWIST_Video_XML_Template.xml, Company: Etisalat-TWIST
+05/03/2026 03:25:17 م: Success: fetched package info for ID: 3549
+05/03/2026 03:25:17 م: Processing group with Album UPC: 6221117211033
+05/03/2026 03:25:18 م: Starting GetFolderPaths...
+05/03/2026 03:25:18 م: Fetching package folder for company: Etisalat-TWIST
+05/03/2026 03:25:18 م: Sucsses: PackageFolder set to: 20260305152518003
+05/03/2026 03:25:18 م: Sucsses: Fetching resources folder for company: Etisalat-TWIST
+05/03/2026 03:25:18 م: Sucsses: ResourcesFolder set to: 20260305152518003\6221117211033\resources
+05/03/2026 03:25:18 م: Sucsses: Fetching metadata file path for company: Etisalat-TWIST
+05/03/2026 03:25:18 م: Sucsses: MetadataFile path set to: 20260305152518003\6221117211033\6221117211033.xml
+05/03/2026 03:25:18 م: Sucsses: Final PackageFolder path: 3549\20260305152518003
+05/03/2026 03:25:18 م: Sucsses: Final ResourcesFolder path: 3549\20260305152518003\6221117211033\resources
+05/03/2026 03:25:18 م: Sucsses: Retrieved folder paths for package: 3549
+05/03/2026 03:25:18 م: Starting GetCover...
+05/03/2026 03:25:18 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:25:18 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:25:18 م: Sucsses: Created directory: C:\Pkg_Output\etisalat-twist\3549\20260305152518003\6221117211033\resources
+05/03/2026 03:25:18 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:25:18 م: Sucsses: Copied cover file to: C:\Pkg_Output\etisalat-twist\3549\20260305152518003\6221117211033\resources\6221117211033.jpg
+05/03/2026 03:25:18 م: Start Getting Media For package info: 3549
+05/03/2026 03:29:34 م: Starting XML generation for package ID: 3550, Filename: TWIST_Video_XML_Template.xml, Company: Etisalat-TWIST
+05/03/2026 03:29:34 م: Success: fetched package info for ID: 3550
+05/03/2026 03:29:34 م: Processing group with Album UPC: 6221117211033
+05/03/2026 03:29:34 م: Starting GetFolderPaths...
+05/03/2026 03:29:34 م: Fetching package folder for company: Etisalat-TWIST
+05/03/2026 03:29:34 م: Sucsses: PackageFolder set to: 20260305152934912
+05/03/2026 03:29:34 م: Sucsses: Fetching resources folder for company: Etisalat-TWIST
+05/03/2026 03:29:34 م: Sucsses: ResourcesFolder set to: 20260305152934912\6221117211033\resources
+05/03/2026 03:29:34 م: Sucsses: Fetching metadata file path for company: Etisalat-TWIST
+05/03/2026 03:29:34 م: Sucsses: MetadataFile path set to: 20260305152934912\6221117211033\6221117211033.xml
+05/03/2026 03:29:34 م: Sucsses: Final PackageFolder path: 3550\20260305152934912
+05/03/2026 03:29:34 م: Sucsses: Final ResourcesFolder path: 3550\20260305152934912\6221117211033\resources
+05/03/2026 03:29:34 م: Sucsses: Retrieved folder paths for package: 3550
+05/03/2026 03:29:34 م: Starting GetCover...
+05/03/2026 03:29:35 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:29:35 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:29:35 م: Sucsses: Created directory: C:\Pkg_Output\etisalat-twist\3550\20260305152934912\6221117211033\resources
+05/03/2026 03:29:35 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:29:35 م: Sucsses: Copied cover file to: C:\Pkg_Output\etisalat-twist\3550\20260305152934912\6221117211033\resources\6221117211033.jpg
+05/03/2026 03:29:35 م: Start Getting Media For package info: 3550
+05/03/2026 03:29:39 م: Starting GetCover...
+05/03/2026 03:29:40 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:29:40 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:29:40 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:29:40 م: Sucsses: Copied cover file to: C:\Pkg_Output\etisalat-twist\3550\20260305152934912\6221117211033\resources\6221117211033.jpg
+05/03/2026 03:29:40 م: Start Getting Media For package info: 3550
+05/03/2026 03:29:43 م: Starting GetCover...
+05/03/2026 03:29:44 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:29:44 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:29:44 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:29:44 م: Sucsses: Copied cover file to: C:\Pkg_Output\etisalat-twist\3550\20260305152934912\6221117211033\resources\6221117211033.jpg
+05/03/2026 03:29:44 م: Start Getting Media For package info: 3550
+05/03/2026 03:29:47 م: Starting GetCover...
+05/03/2026 03:29:48 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:29:48 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:29:48 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:29:48 م: Sucsses: Copied cover file to: C:\Pkg_Output\etisalat-twist\3550\20260305152934912\6221117211033\resources\6221117211033.jpg
+05/03/2026 03:29:48 م: Start Getting Media For package info: 3550
+05/03/2026 03:29:49 م: Starting GetCover...
+05/03/2026 03:29:50 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:29:50 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:29:50 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:29:50 م: Sucsses: Copied cover file to: C:\Pkg_Output\etisalat-twist\3550\20260305152934912\6221117211033\resources\6221117211033.jpg
+05/03/2026 03:29:50 م: Start Getting Media For package info: 3550
+05/03/2026 03:29:51 م: Starting GetCover...
+05/03/2026 03:29:52 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:29:52 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:29:52 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:29:52 م: Sucsses: Copied cover file to: C:\Pkg_Output\etisalat-twist\3550\20260305152934912\6221117211033\resources\6221117211033.jpg
+05/03/2026 03:29:52 م: Start Getting Media For package info: 3550
+05/03/2026 03:29:53 م: Starting GetCover...
+05/03/2026 03:29:54 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:29:54 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:29:54 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:29:54 م: Sucsses: Copied cover file to: C:\Pkg_Output\etisalat-twist\3550\20260305152934912\6221117211033\resources\6221117211033.jpg
+05/03/2026 03:29:54 م: Start Getting Media For package info: 3550
+05/03/2026 03:29:56 م: Starting GetCover...
+05/03/2026 03:29:57 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:29:57 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:29:57 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:29:57 م: Sucsses: Copied cover file to: C:\Pkg_Output\etisalat-twist\3550\20260305152934912\6221117211033\resources\6221117211033.jpg
+05/03/2026 03:29:57 م: Start Getting Media For package info: 3550
+05/03/2026 03:29:58 م: Starting GetCover...
+05/03/2026 03:29:59 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:29:59 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:29:59 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:29:59 م: Sucsses: Copied cover file to: C:\Pkg_Output\etisalat-twist\3550\20260305152934912\6221117211033\resources\6221117211033.jpg
+05/03/2026 03:29:59 م: Start Getting Media For package info: 3550
+05/03/2026 03:30:01 م: Starting GetCover...
+05/03/2026 03:30:01 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:30:01 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:30:01 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:30:01 م: Sucsses: Copied cover file to: C:\Pkg_Output\etisalat-twist\3550\20260305152934912\6221117211033\resources\6221117211033.jpg
+05/03/2026 03:30:01 م: Start Getting Media For package info: 3550
+05/03/2026 03:30:03 م: Starting GetCover...
+05/03/2026 03:30:04 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:30:04 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:30:04 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:30:04 م: Sucsses: Copied cover file to: C:\Pkg_Output\etisalat-twist\3550\20260305152934912\6221117211033\resources\6221117211033.jpg
+05/03/2026 03:30:04 م: Start Getting Media For package info: 3550
+05/03/2026 03:30:06 م: Starting GetCover...
+05/03/2026 03:30:07 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:30:07 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:30:07 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:30:07 م: Sucsses: Copied cover file to: C:\Pkg_Output\etisalat-twist\3550\20260305152934912\6221117211033\resources\6221117211033.jpg
+05/03/2026 03:30:07 م: Start Getting Media For package info: 3550
+05/03/2026 03:30:08 م: Starting GetCover...
+05/03/2026 03:30:09 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:30:09 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:30:09 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:30:09 م: Sucsses: Copied cover file to: C:\Pkg_Output\etisalat-twist\3550\20260305152934912\6221117211033\resources\6221117211033.jpg
+05/03/2026 03:30:09 م: Start Getting Media For package info: 3550
+05/03/2026 03:30:11 م: Starting GetCover...
+05/03/2026 03:30:11 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:30:11 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:30:11 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:30:11 م: Sucsses: Copied cover file to: C:\Pkg_Output\etisalat-twist\3550\20260305152934912\6221117211033\resources\6221117211033.jpg
+05/03/2026 03:30:11 م: Start Getting Media For package info: 3550
+05/03/2026 03:30:13 م: Starting GetCover...
+05/03/2026 03:30:14 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:30:14 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:30:14 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117211033.jpg
+05/03/2026 03:30:14 م: Sucsses: Copied cover file to: C:\Pkg_Output\etisalat-twist\3550\20260305152934912\6221117211033\resources\6221117211033.jpg
+05/03/2026 03:30:14 م: Start Getting Media For package info: 3550
+05/03/2026 03:30:17 م: Media data generated successfully.
+05/03/2026 03:30:33 م: Success: generated XML for package ID: 3550

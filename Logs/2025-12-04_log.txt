@@ -1,0 +1,45 @@
+04-12-2025 12:32:02: Starting XML generation for package ID: 2135, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+04-12-2025 12:32:02: Success: fetched package info for ID: 2135
+04-12-2025 12:32:02: Processing group with Album UPC: 9681001016682
+04-12-2025 12:32:02: Starting GetFolderPaths...
+04-12-2025 12:32:02: Fetching package folder for company: Spotify
+04-12-2025 12:32:02: Sucsses: PackageFolder set to: 20251204123202582
+04-12-2025 12:32:02: Sucsses: Fetching resources folder for company: Spotify
+04-12-2025 12:32:02: Sucsses: ResourcesFolder set to: 20251204123202582\9681001016682\resources
+04-12-2025 12:32:02: Sucsses: Fetching metadata file path for company: Spotify
+04-12-2025 12:32:02: Sucsses: MetadataFile path set to: 20251204123202582\9681001016682\9681001016682.xml
+04-12-2025 12:32:02: Sucsses: Final PackageFolder path: 2135\20251204123202582
+04-12-2025 12:32:02: Sucsses: Final ResourcesFolder path: 2135\20251204123202582\9681001016682\resources
+04-12-2025 12:32:02: Sucsses: Retrieved folder paths for package: 2135
+04-12-2025 12:32:02: Starting GetCover...
+04-12-2025 12:32:03: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016682.jpg
+04-12-2025 12:32:03: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016682.jpg
+04-12-2025 12:32:03: Sucsses: Created directory: C:\Pkg_Output\spotify\2135\20251204123202582\9681001016682\resources
+04-12-2025 12:32:03: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016682.jpg
+04-12-2025 12:32:04: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\2135\20251204123202582\9681001016682\resources\9681001016682.jpg
+04-12-2025 12:32:04: Start Getting Media For package info: 2135
+04-12-2025 12:32:10: Media data generated successfully.
+04-12-2025 12:32:11: Success: generated XML for package ID: 2135
+04-12-2025 12:33:25: Starting XML generation for package ID: 2136, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+04-12-2025 12:33:25: Success: fetched package info for ID: 2136
+04-12-2025 12:33:25: Processing group with Album UPC: 9681001016682
+04-12-2025 12:33:25: Starting GetFolderPaths...
+04-12-2025 12:33:25: Fetching package folder for company: Spotify
+04-12-2025 12:33:25: Sucsses: PackageFolder set to: 20251204123211043
+04-12-2025 12:33:25: Sucsses: Fetching resources folder for company: Spotify
+04-12-2025 12:33:25: Sucsses: ResourcesFolder set to: 20251204123211043\9681001016682\resources
+04-12-2025 12:33:25: Sucsses: Fetching metadata file path for company: Spotify
+04-12-2025 12:33:25: Sucsses: MetadataFile path set to: 20251204123211043\9681001016682\9681001016682.xml
+04-12-2025 12:33:25: Sucsses: Final PackageFolder path: 2136\20251204123211043
+04-12-2025 12:33:25: Sucsses: Final ResourcesFolder path: 2136\20251204123211043\9681001016682\resources
+04-12-2025 12:33:25: Sucsses: Retrieved folder paths for package: 2136
+04-12-2025 12:33:25: Starting GetCover...
+04-12-2025 12:33:26: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016682.jpg
+04-12-2025 12:33:26: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016682.jpg
+04-12-2025 12:33:26: Sucsses: Created directory: C:\Pkg_Output\spotify\2136\20251204123211043\9681001016682\resources
+04-12-2025 12:33:26: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\9681001016682.jpg
+04-12-2025 12:33:26: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\2136\20251204123211043\9681001016682\resources\9681001016682.jpg
+04-12-2025 12:33:26: Start Getting Media For package info: 2136
+04-12-2025 12:33:33: Media data generated successfully.
+04-12-2025 12:33:33: Error: generating XML for package: Index was outside the bounds of the array.
+04-12-2025 12:33:33: There is Some errors in The PKG

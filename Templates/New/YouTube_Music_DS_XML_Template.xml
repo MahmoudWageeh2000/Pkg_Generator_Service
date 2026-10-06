@@ -19,8 +19,8 @@
 	</MessageHeader>
 	<UpdateIndicator>OriginalMessage</UpdateIndicator>
 	<ResourceList>
-    {{~ for asset in album.asset_list ~}}
-    <SoundRecording>
+		{{~ for asset in album.asset_list ~}}
+		<SoundRecording>
 			<SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
 			<SoundRecordingId>
 				<ISRC>{{ asset.asset_isrc }}</ISRC>
@@ -32,32 +32,32 @@
 			</ReferenceTitle>
 			<Duration>{{ asset.track_duration }}</Duration>
 			<SoundRecordingDetailsByTerritory>
-        {{~ for country_code in asset.country_iso_code_list_string ~}}
-        <TerritoryCode>{{ country_code }}</TerritoryCode>
-        {{~ end ~}}
+				{{~ for country_code in asset.country_iso_code_list_string ~}}
+				<TerritoryCode>{{ country_code }}</TerritoryCode>
+				{{~ end ~}}
 				<Title LanguageAndScriptCode="en" TitleType="FormalTitle">
 					<TitleText>{{ asset.track_name }}</TitleText>
 				</Title>
 				<Title LanguageAndScriptCode="en" TitleType="DisplayTitle">
 					<TitleText>{{ asset.track_name }}</TitleText>
 				</Title>
-        {{~ for track_main_artist in asset.track_artist_list_string ~}}
-        <DisplayArtist SequenceNumber="1">
+				{{~ for track_main_artist in asset.track_artist_list_string ~}}
+				<DisplayArtist SequenceNumber="1">
 					<PartyName>
 						<FullName>{{ track_main_artist.name }}</FullName>
 					</PartyName>
 					<ArtistRole>MainArtist</ArtistRole>
 				</DisplayArtist>
-        {{~ end ~}}
-        {{~ for track_featured_artist in asset.track_featured_artist_list_string ~}}
-        <DisplayArtist>
+				{{~ end ~}}
+				{{~ for track_featured_artist in asset.track_featured_artist_list_string ~}}
+				<DisplayArtist>
 					<PartyName>
 						<FullName>{{ track_featured_artist.name }}</FullName>
 					</PartyName>
 					<ArtistRole>FeaturedArtist</ArtistRole>
 				</DisplayArtist>
-        {{~ end ~}}
-        <DisplayArtistName>{{asset.track_artist}}</DisplayArtistName>
+				{{~ end ~}}
+				<DisplayArtistName>{{asset.track_artist}}</DisplayArtistName>
 				<LabelName LabelNameType="DisplayLabelName">{{ asset.label_name }}</LabelName>
 				<PLine>
 					<Year>{{ asset.release_year}}</Year>
@@ -76,18 +76,18 @@
 				</TechnicalSoundRecordingDetails>
 			</SoundRecordingDetailsByTerritory>
 		</SoundRecording>
-    {{~ end ~}}
-    <Image>
+		{{~ end ~}}
+		<Image>
 			<ImageType>FrontCoverImage</ImageType>
 			<ImageId>
 				<ProprietaryId Namespace="DPID:PADPIDA20131118019">{{ album.album_ubc }}</ProprietaryId>
 			</ImageId>
 			<ResourceReference>A{{ album.image_num }}</ResourceReference>
 			<ImageDetailsByTerritory>
-        {{~ for country_code in album.country_iso_code_list_string ~}}
-        <TerritoryCode>{{ country_code }}</TerritoryCode>
-        {{~ end ~}}
-        <TechnicalImageDetails>
+				{{~ for country_code in album.country_iso_code_list_string ~}}
+				<TerritoryCode>{{ country_code }}</TerritoryCode>
+				{{~ end ~}}
+				<TechnicalImageDetails>
 					<TechnicalResourceDetailsReference>T{{ album.image_num }}</TechnicalResourceDetailsReference>
 					<File>
 						<FileName>{{ album.album_ubc }}.jpg</FileName>
@@ -107,17 +107,17 @@
 				<TitleText>{{ album.album_name }}</TitleText>
 			</ReferenceTitle>
 			<ReleaseResourceReferenceList>
-        {{~ for asset in album.asset_list ~}}
-        <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A{{ asset.track_num}}</ReleaseResourceReference>
-        {{~end~}}
-        <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A{{ album.image_num }}</ReleaseResourceReference>
+				{{~ for asset in album.asset_list ~}}
+				<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A{{ asset.track_num}}</ReleaseResourceReference>
+				{{~end~}}
+				<ReleaseResourceReference ReleaseResourceType="SecondaryResource">A{{ album.image_num }}</ReleaseResourceReference>
 			</ReleaseResourceReferenceList>
 			<ReleaseType>Album</ReleaseType>
 			<ReleaseDetailsByTerritory>
-        {{~ for country_code in album.country_iso_code_list_string ~}}
-        <TerritoryCode>{{ country_code }}</TerritoryCode>
-        {{~ end ~}}
-        <DisplayArtistName>{{ album.album_artist }}</DisplayArtistName>
+				{{~ for country_code in album.country_iso_code_list_string ~}}
+				<TerritoryCode>{{ country_code }}</TerritoryCode>
+				{{~ end ~}}
+				<DisplayArtistName>{{ album.album_artist }}</DisplayArtistName>
 				<LabelName LabelNameType="DisplayLabelName">{{ album.label_name }}</LabelName>
 				<Title LanguageAndScriptCode="en" TitleType="FormalTitle">
 					<TitleText>{{ album.album_name }}</TitleText>
@@ -125,39 +125,39 @@
 				<Title LanguageAndScriptCode="en" TitleType="DisplayTitle">
 					<TitleText>{{ album.album_name }}</TitleText>
 				</Title>
-	    {{~ seq = 1  ~}}
-        {{~ for album_main_artist in album.album_artist_list_string ~}}
-        <DisplayArtist SequenceNumber="{{seq}}">
+				{{~ seq = 1  ~}}
+				{{~ for album_main_artist in album.album_artist_list_string ~}}
+				<DisplayArtist SequenceNumber="{{seq}}">
 					<PartyName>
 						<FullName>{{ album_main_artist.name }}</FullName>
 					</PartyName>
 					<ArtistRole>MainArtist</ArtistRole>
 				</DisplayArtist>
-		{{~ seq = seq + 1  ~}}
-        {{~ end ~}}
-        {{~ for album_featured_artist in album.album_featured_artist_list_string ~}}
-        <DisplayArtist>
+				{{~ seq = seq + 1  ~}}
+				{{~ end ~}}
+				{{~ for album_featured_artist in album.album_featured_artist_list_string ~}}
+				<DisplayArtist>
 					<PartyName>
 						<FullName>{{ album_featured_artist.name }}</FullName>
 					</PartyName>
 					<ArtistRole>FeaturedArtist</ArtistRole>
 				</DisplayArtist>
-        {{~ end ~}}
-        <ParentalWarningType>NotExplicit</ParentalWarningType>
+				{{~ end ~}}
+				<ParentalWarningType>NotExplicit</ParentalWarningType>
 				<ResourceGroup>
 					<ResourceGroup>
 						<Title TitleType="GroupingTitle">
 							<TitleText>Disc 1</TitleText>
 						</Title>
 						<SequenceNumber>1</SequenceNumber>
-            {{~for resource_group_content_item in album.asset_list ~}}
-            <ResourceGroupContentItem>
+						{{~for resource_group_content_item in album.asset_list ~}}
+						<ResourceGroupContentItem>
 							<SequenceNumber>{{resource_group_content_item.track_num}}</SequenceNumber>
 							<ResourceType>SoundRecording</ResourceType>
 							<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A{{resource_group_content_item.track_num}}</ReleaseResourceReference>
 						</ResourceGroupContentItem>
-            {{~ end ~}}
-          </ResourceGroup>
+						{{~ end ~}}
+					</ResourceGroup>
 					<ResourceGroupContentItem>
 						<SequenceNumber>{{ album.image_num }}</SequenceNumber>
 						<ResourceType>Image</ResourceType>
@@ -176,12 +176,12 @@
 			</PLine>
 			<GlobalOriginalReleaseDate>{{ album.release_date }}</GlobalOriginalReleaseDate>
 		</Release>
-    {{~for asset in asset_list ~}}
-    <Release>
+		{{~for asset in album.asset_list ~}}
+		<Release>
 			<ReleaseId>
 				<ISRC>{{asset.asset_isrc}}</ISRC>
 			</ReleaseId>
-			<ReleaseReference>R{{asset.tract_num}}</ReleaseReference>
+			<ReleaseReference>R{{asset.track_num}}</ReleaseReference>
 			<ReferenceTitle LanguageAndScriptCode="en">
 				<TitleText>{{asset.track_name}}</TitleText>
 			</ReferenceTitle>
@@ -190,50 +190,50 @@
 			</ReleaseResourceReferenceList>
 			<ReleaseType>TrackRelease</ReleaseType>
 			<ReleaseDetailsByTerritory>
-        {{~ for country_code in asset.country_iso_code_list_string ~}}
-        <TerritoryCode>{{ country_code }}</TerritoryCode>
-        {{~ end ~}}
-        <DisplayArtistName>{{asset.track_artist}}</DisplayArtistName>
-				<LabelName LabelNameType="DisplayLabelName">{{asset.label_anme}}</LabelName>
+				{{~ for country_code in asset.country_iso_code_list_string ~}}
+				<TerritoryCode>{{ country_code }}</TerritoryCode>
+				{{~ end ~}}
+				<DisplayArtistName>{{asset.track_artist}}</DisplayArtistName>
+				<LabelName LabelNameType="DisplayLabelName">{{asset.label_name}}</LabelName>
 				<Title LanguageAndScriptCode="en" TitleType="FormalTitle">
 					<TitleText>{{asset.track_name}}</TitleText>
 				</Title>
 				<Title LanguageAndScriptCode="en" TitleType="DisplayTitle">
 					<TitleText>{{asset.track_name}}</TitleText>
 				</Title>
-        {{~ for track_main_artist in asset.track_artist_list_string ~}}
-        <DisplayArtist SequenceNumber="1">
+				{{~ for track_main_artist in asset.track_artist_list_string ~}}
+				<DisplayArtist SequenceNumber="1">
 					<PartyName>
 						<FullName>{{ track_main_artist.name }}</FullName>
 					</PartyName>
 					<ArtistRole>MainArtist</ArtistRole>
 				</DisplayArtist>
-        {{~ end ~}}
-        {{~ for track_featured_artist in asset.track_featured_artist_list_string ~}}
-        <DisplayArtist>
+				{{~ end ~}}
+				{{~ for track_featured_artist in asset.track_featured_artist_list_string ~}}
+				<DisplayArtist>
 					<PartyName>
 						<FullName>{{ track_featured_artist.name }}</FullName>
 					</PartyName>
 					<ArtistRole>FeaturedArtist</ArtistRole>
 				</DisplayArtist>
-        {{~ end ~}}
-        <ParentalWarningType>NotExplicit</ParentalWarningType>
+				{{~ end ~}}
+				<ParentalWarningType>NotExplicit</ParentalWarningType>
 				<Genre>
 					<GenreText>{{asset.track_genre}}</GenreText>
 				</Genre>
 			</ReleaseDetailsByTerritory>
-			<Duration>PT{{ asset.track_duration }}</Duration>
+			<Duration>{{ asset.track_duration }}</Duration>
 			<PLine>
 				<Year>{{ asset.release_year }}</Year>
 				<PLineText>(P) {{ asset.release_year }} {{ asset.label_name }}</PLineText>
 			</PLine>
 		</Release>
-    {{~end~}}
-  </ReleaseList>
+		{{~end~}}
+	</ReleaseList>
 	<DealList>
-    {{~ for asset in album.asset_list ~}}
-    {{~ for country_code in asset.country_iso_code_list_string ~}}
-    <ReleaseDeal>
+		{{~ for asset in album.asset_list ~}}
+		{{~ for country_code in asset.country_iso_code_list_string ~}}
+		<ReleaseDeal>
 			<DealReleaseReference>R{{asset.track_num}}</DealReleaseReference>
 			<Deal>
 				<DealTerms>
@@ -249,7 +249,7 @@
 				</DealTerms>
 			</Deal>
 		</ReleaseDeal>
-    {{~ end ~}}
-    {{~ end ~}}
-  </DealList>
+		{{~ end ~}}
+		{{~ end ~}}
+	</DealList>
 </ern:NewReleaseMessage>

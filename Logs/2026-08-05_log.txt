@@ -1,0 +1,415 @@
+05/08/2026 05:16:19 م: Starting XML generation for package ID: 8511, Filename: FB_Global_XML_Template.xml, Company: Facebook-Audio
+05/08/2026 05:16:19 م: Success: fetched package info for ID: 8511
+05/08/2026 05:16:19 م: Processing group with Album UPC: 6221117230102
+05/08/2026 05:16:19 م: Starting GetFolderPaths...
+05/08/2026 05:16:19 م: Fetching package folder for company: Facebook-Audio
+05/08/2026 05:16:19 م: Sucsses: PackageFolder set to: 20260805171619039
+05/08/2026 05:16:19 م: Sucsses: Fetching resources folder for company: Facebook-Audio
+05/08/2026 05:16:19 م: Sucsses: ResourcesFolder set to: 20260805171619039\6221117230102\resources
+05/08/2026 05:16:19 م: Sucsses: Fetching metadata file path for company: Facebook-Audio
+05/08/2026 05:16:19 م: Sucsses: MetadataFile path set to: 20260805171619039\6221117230102\6221117230102.xml
+05/08/2026 05:16:19 م: Sucsses: Final PackageFolder path: 8511\20260805171619039
+05/08/2026 05:16:19 م: Sucsses: Final ResourcesFolder path: 8511\20260805171619039\6221117230102\resources
+05/08/2026 05:16:19 م: Sucsses: Retrieved folder paths for package: 8511
+05/08/2026 05:16:19 م: Starting GetCover...
+05/08/2026 05:16:19 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:16:19 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:16:19 م: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230102\resources
+05/08/2026 05:16:19 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:16:19 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230102\resources\6221117230102.jpg
+05/08/2026 05:16:22 م: Starting GetCover...
+05/08/2026 05:16:23 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:16:23 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:16:23 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:16:23 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230102\resources\6221117230102.jpg
+05/08/2026 05:16:26 م: Starting GetCover...
+05/08/2026 05:16:26 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:16:26 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:16:26 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:16:26 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230102\resources\6221117230102.jpg
+05/08/2026 05:16:29 م: Starting GetCover...
+05/08/2026 05:16:29 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:16:29 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:16:29 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:16:29 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230102\resources\6221117230102.jpg
+05/08/2026 05:16:32 م: Starting GetCover...
+05/08/2026 05:16:32 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:16:32 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:16:32 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:16:32 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230102\resources\6221117230102.jpg
+05/08/2026 05:16:35 م: Starting GetCover...
+05/08/2026 05:16:36 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:16:36 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:16:36 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:16:36 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230102\resources\6221117230102.jpg
+05/08/2026 05:16:38 م: Starting GetCover...
+05/08/2026 05:16:39 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:16:39 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:16:39 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:16:39 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230102\resources\6221117230102.jpg
+05/08/2026 05:16:41 م: Starting GetCover...
+05/08/2026 05:16:42 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:16:42 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:16:42 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:16:42 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230102\resources\6221117230102.jpg
+05/08/2026 05:16:44 م: Starting GetCover...
+05/08/2026 05:16:45 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:16:45 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:16:45 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:16:45 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230102\resources\6221117230102.jpg
+05/08/2026 05:16:48 م: Starting GetCover...
+05/08/2026 05:16:48 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:16:48 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:16:48 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:16:48 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230102\resources\6221117230102.jpg
+05/08/2026 05:16:51 م: Starting GetCover...
+05/08/2026 05:16:52 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:16:52 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:16:52 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:16:52 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230102\resources\6221117230102.jpg
+05/08/2026 05:16:54 م: Starting GetCover...
+05/08/2026 05:16:55 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:16:55 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:16:55 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:16:55 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230102\resources\6221117230102.jpg
+05/08/2026 05:16:57 م: Starting GetCover...
+05/08/2026 05:16:58 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:16:58 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:16:58 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:16:58 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230102\resources\6221117230102.jpg
+05/08/2026 05:17:00 م: Starting GetCover...
+05/08/2026 05:17:01 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:17:01 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:17:01 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:17:01 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230102\resources\6221117230102.jpg
+05/08/2026 05:17:03 م: Starting GetCover...
+05/08/2026 05:17:04 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:17:04 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:17:04 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:17:04 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230102\resources\6221117230102.jpg
+05/08/2026 05:17:07 م: Starting GetCover...
+05/08/2026 05:17:08 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:17:08 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:17:08 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:17:08 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230102\resources\6221117230102.jpg
+05/08/2026 05:17:10 م: Starting GetCover...
+05/08/2026 05:17:11 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:17:11 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:17:11 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:17:11 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230102\resources\6221117230102.jpg
+05/08/2026 05:17:14 م: Starting GetCover...
+05/08/2026 05:17:15 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:17:15 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:17:15 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:17:15 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230102\resources\6221117230102.jpg
+05/08/2026 05:17:18 م: Media data generated successfully.
+05/08/2026 05:17:18 م: Success: generated XML for package ID: 8511
+05/08/2026 05:17:18 م: Processing group with Album UPC: 6221117230133
+05/08/2026 05:17:18 م: Starting GetFolderPaths...
+05/08/2026 05:17:18 م: Sucsses: PackageFolder trimmed to: 20260805171619039
+05/08/2026 05:17:18 م: Sucsses: Fetching resources folder for company: Facebook-Audio
+05/08/2026 05:17:18 م: Sucsses: ResourcesFolder set to: 20260805171619039\6221117230133\resources
+05/08/2026 05:17:18 م: Sucsses: Fetching metadata file path for company: Facebook-Audio
+05/08/2026 05:17:18 م: Sucsses: MetadataFile path set to: 20260805171619039\6221117230133\6221117230133.xml
+05/08/2026 05:17:18 م: Sucsses: Final PackageFolder path: 8511\20260805171619039
+05/08/2026 05:17:18 م: Sucsses: Final ResourcesFolder path: 8511\20260805171619039\6221117230133\resources
+05/08/2026 05:17:18 م: Sucsses: Retrieved folder paths for package: 8511
+05/08/2026 05:17:18 م: Starting GetCover...
+05/08/2026 05:17:19 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:17:19 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:17:19 م: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230133\resources
+05/08/2026 05:17:19 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:17:19 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230133\resources\6221117230102.jpg
+05/08/2026 05:17:21 م: Starting GetCover...
+05/08/2026 05:17:22 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:17:22 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:17:22 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:17:22 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230133\resources\6221117230102.jpg
+05/08/2026 05:17:25 م: Starting GetCover...
+05/08/2026 05:17:26 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:17:26 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:17:26 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:17:26 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230133\resources\6221117230102.jpg
+05/08/2026 05:17:28 م: Starting GetCover...
+05/08/2026 05:17:29 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:17:29 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:17:29 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:17:29 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230133\resources\6221117230102.jpg
+05/08/2026 05:17:31 م: Starting GetCover...
+05/08/2026 05:17:32 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:17:32 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:17:32 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:17:32 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230133\resources\6221117230102.jpg
+05/08/2026 05:17:34 م: Starting GetCover...
+05/08/2026 05:17:35 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:17:35 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:17:35 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:17:35 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230133\resources\6221117230102.jpg
+05/08/2026 05:17:37 م: Starting GetCover...
+05/08/2026 05:17:38 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:17:38 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:17:38 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:17:38 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230133\resources\6221117230102.jpg
+05/08/2026 05:17:40 م: Starting GetCover...
+05/08/2026 05:17:41 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:17:41 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:17:41 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:17:41 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230133\resources\6221117230102.jpg
+05/08/2026 05:17:43 م: Starting GetCover...
+05/08/2026 05:17:44 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:17:44 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:17:44 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:17:44 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230133\resources\6221117230102.jpg
+05/08/2026 05:17:47 م: Starting GetCover...
+05/08/2026 05:17:48 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:17:48 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:17:48 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:17:48 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230133\resources\6221117230102.jpg
+05/08/2026 05:17:50 م: Starting GetCover...
+05/08/2026 05:17:51 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:17:51 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:17:51 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:17:51 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230133\resources\6221117230102.jpg
+05/08/2026 05:17:53 م: Starting GetCover...
+05/08/2026 05:17:54 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:17:54 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:17:54 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:17:54 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230133\resources\6221117230102.jpg
+05/08/2026 05:17:56 م: Starting GetCover...
+05/08/2026 05:17:57 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:17:57 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:17:57 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:17:57 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230133\resources\6221117230102.jpg
+05/08/2026 05:17:59 م: Starting GetCover...
+05/08/2026 05:18:00 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:18:00 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:18:00 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:18:00 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230133\resources\6221117230102.jpg
+05/08/2026 05:18:02 م: Starting GetCover...
+05/08/2026 05:18:03 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:18:03 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:18:03 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:18:03 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230133\resources\6221117230102.jpg
+05/08/2026 05:18:06 م: Starting GetCover...
+05/08/2026 05:18:07 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:18:07 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:18:07 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:18:07 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230133\resources\6221117230102.jpg
+05/08/2026 05:18:10 م: Starting GetCover...
+05/08/2026 05:18:11 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:18:11 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:18:11 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:18:11 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230133\resources\6221117230102.jpg
+05/08/2026 05:18:14 م: Starting GetCover...
+05/08/2026 05:18:15 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:18:15 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:18:15 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:18:15 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230133\resources\6221117230102.jpg
+05/08/2026 05:18:17 م: Media data generated successfully.
+05/08/2026 05:18:17 م: Success: generated XML for package ID: 8511
+05/08/2026 05:18:17 م: Processing group with Album UPC: 6221117230140
+05/08/2026 05:18:17 م: Starting GetFolderPaths...
+05/08/2026 05:18:17 م: Sucsses: PackageFolder trimmed to: 20260805171619039
+05/08/2026 05:18:17 م: Sucsses: Fetching resources folder for company: Facebook-Audio
+05/08/2026 05:18:17 م: Sucsses: ResourcesFolder set to: 20260805171619039\6221117230140\resources
+05/08/2026 05:18:17 م: Sucsses: Fetching metadata file path for company: Facebook-Audio
+05/08/2026 05:18:17 م: Sucsses: MetadataFile path set to: 20260805171619039\6221117230140\6221117230140.xml
+05/08/2026 05:18:17 م: Sucsses: Final PackageFolder path: 8511\20260805171619039
+05/08/2026 05:18:17 م: Sucsses: Final ResourcesFolder path: 8511\20260805171619039\6221117230140\resources
+05/08/2026 05:18:17 م: Sucsses: Retrieved folder paths for package: 8511
+05/08/2026 05:18:17 م: Starting GetCover...
+05/08/2026 05:18:18 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:18:18 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:18:18 م: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230140\resources
+05/08/2026 05:18:18 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:18:18 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230140\resources\6221117230102.jpg
+05/08/2026 05:18:21 م: Starting GetCover...
+05/08/2026 05:18:22 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:18:22 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:18:22 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:18:22 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230140\resources\6221117230102.jpg
+05/08/2026 05:18:24 م: Starting GetCover...
+05/08/2026 05:18:25 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:18:25 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:18:25 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:18:25 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230140\resources\6221117230102.jpg
+05/08/2026 05:18:27 م: Starting GetCover...
+05/08/2026 05:18:28 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:18:28 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:18:28 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:18:28 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230140\resources\6221117230102.jpg
+05/08/2026 05:18:30 م: Starting GetCover...
+05/08/2026 05:18:31 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:18:31 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:18:31 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:18:31 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230140\resources\6221117230102.jpg
+05/08/2026 05:18:34 م: Starting GetCover...
+05/08/2026 05:18:35 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:18:35 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:18:35 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:18:35 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230140\resources\6221117230102.jpg
+05/08/2026 05:18:37 م: Starting GetCover...
+05/08/2026 05:18:38 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:18:38 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:18:38 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:18:38 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230140\resources\6221117230102.jpg
+05/08/2026 05:18:40 م: Starting GetCover...
+05/08/2026 05:18:41 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:18:41 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:18:41 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:18:41 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230140\resources\6221117230102.jpg
+05/08/2026 05:18:43 م: Starting GetCover...
+05/08/2026 05:18:44 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:18:44 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:18:44 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:18:44 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230140\resources\6221117230102.jpg
+05/08/2026 05:18:46 م: Starting GetCover...
+05/08/2026 05:18:47 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:18:47 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:18:47 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:18:47 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230140\resources\6221117230102.jpg
+05/08/2026 05:18:50 م: Starting GetCover...
+05/08/2026 05:18:51 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:18:51 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:18:51 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:18:51 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230140\resources\6221117230102.jpg
+05/08/2026 05:18:53 م: Starting GetCover...
+05/08/2026 05:18:54 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:18:54 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:18:54 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:18:54 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230140\resources\6221117230102.jpg
+05/08/2026 05:18:56 م: Starting GetCover...
+05/08/2026 05:18:57 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:18:57 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:18:57 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:18:57 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230140\resources\6221117230102.jpg
+05/08/2026 05:18:59 م: Starting GetCover...
+05/08/2026 05:19:00 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:19:00 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:19:00 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:19:00 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230140\resources\6221117230102.jpg
+05/08/2026 05:19:02 م: Starting GetCover...
+05/08/2026 05:19:03 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:19:03 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:19:03 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:19:03 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230140\resources\6221117230102.jpg
+05/08/2026 05:19:06 م: Starting GetCover...
+05/08/2026 05:19:06 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:19:06 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:19:07 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:19:07 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230140\resources\6221117230102.jpg
+05/08/2026 05:19:09 م: Starting GetCover...
+05/08/2026 05:19:10 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:19:10 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:19:10 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:19:10 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230140\resources\6221117230102.jpg
+05/08/2026 05:19:13 م: Starting GetCover...
+05/08/2026 05:19:14 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:19:14 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:19:14 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:19:14 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230140\resources\6221117230102.jpg
+05/08/2026 05:19:17 م: Media data generated successfully.
+05/08/2026 05:19:17 م: Success: generated XML for package ID: 8511
+05/08/2026 05:19:17 م: Processing group with Album UPC: 6221117230157
+05/08/2026 05:19:17 م: Starting GetFolderPaths...
+05/08/2026 05:19:17 م: Sucsses: PackageFolder trimmed to: 20260805171619039
+05/08/2026 05:19:17 م: Sucsses: Fetching resources folder for company: Facebook-Audio
+05/08/2026 05:19:17 م: Sucsses: ResourcesFolder set to: 20260805171619039\6221117230157\resources
+05/08/2026 05:19:17 م: Sucsses: Fetching metadata file path for company: Facebook-Audio
+05/08/2026 05:19:17 م: Sucsses: MetadataFile path set to: 20260805171619039\6221117230157\6221117230157.xml
+05/08/2026 05:19:17 م: Sucsses: Final PackageFolder path: 8511\20260805171619039
+05/08/2026 05:19:17 م: Sucsses: Final ResourcesFolder path: 8511\20260805171619039\6221117230157\resources
+05/08/2026 05:19:17 م: Sucsses: Retrieved folder paths for package: 8511
+05/08/2026 05:19:17 م: Starting GetCover...
+05/08/2026 05:19:18 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:19:18 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:19:18 م: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230157\resources
+05/08/2026 05:19:18 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:19:18 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230157\resources\6221117230102.jpg
+05/08/2026 05:19:20 م: Starting GetCover...
+05/08/2026 05:19:21 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:19:21 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:19:21 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:19:21 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230157\resources\6221117230102.jpg
+05/08/2026 05:19:24 م: Starting GetCover...
+05/08/2026 05:19:25 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:19:25 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:19:25 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:19:25 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230157\resources\6221117230102.jpg
+05/08/2026 05:19:27 م: Starting GetCover...
+05/08/2026 05:19:28 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:19:28 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:19:28 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:19:28 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230157\resources\6221117230102.jpg
+05/08/2026 05:19:30 م: Starting GetCover...
+05/08/2026 05:19:31 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:19:31 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:19:31 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230102.jpg
+05/08/2026 05:19:31 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230157\resources\6221117230102.jpg
+05/08/2026 05:19:33 م: Starting GetCover...
+05/08/2026 05:19:34 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:19:34 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:19:34 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:19:34 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230157\resources\6221117230102.jpg
+05/08/2026 05:19:36 م: Starting GetCover...
+05/08/2026 05:19:37 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:19:37 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:19:37 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:19:37 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230157\resources\6221117230102.jpg
+05/08/2026 05:19:39 م: Starting GetCover...
+05/08/2026 05:19:40 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:19:40 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:19:40 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:19:40 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230157\resources\6221117230102.jpg
+05/08/2026 05:19:43 م: Starting GetCover...
+05/08/2026 05:19:43 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:19:43 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:19:43 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:19:43 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230157\resources\6221117230102.jpg
+05/08/2026 05:19:46 م: Starting GetCover...
+05/08/2026 05:19:47 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:19:47 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:19:47 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230133.jpg
+05/08/2026 05:19:47 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230157\resources\6221117230102.jpg
+05/08/2026 05:19:49 م: Starting GetCover...
+05/08/2026 05:19:50 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:19:50 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:19:50 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:19:50 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230157\resources\6221117230102.jpg
+05/08/2026 05:19:52 م: Starting GetCover...
+05/08/2026 05:19:53 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:19:53 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:19:53 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:19:53 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230157\resources\6221117230102.jpg
+05/08/2026 05:19:55 م: Starting GetCover...
+05/08/2026 05:19:56 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:19:56 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:19:56 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:19:56 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230157\resources\6221117230102.jpg
+05/08/2026 05:19:58 م: Starting GetCover...
+05/08/2026 05:19:59 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:19:59 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:19:59 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230140.jpg
+05/08/2026 05:19:59 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230157\resources\6221117230102.jpg
+05/08/2026 05:20:01 م: Starting GetCover...
+05/08/2026 05:20:02 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:20:02 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:20:02 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:20:02 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230157\resources\6221117230102.jpg
+05/08/2026 05:20:05 م: Starting GetCover...
+05/08/2026 05:20:06 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:20:06 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:20:06 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:20:06 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230157\resources\6221117230102.jpg
+05/08/2026 05:20:09 م: Starting GetCover...
+05/08/2026 05:20:09 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:20:09 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:20:10 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:20:10 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230157\resources\6221117230102.jpg
+05/08/2026 05:20:13 م: Starting GetCover...
+05/08/2026 05:20:14 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:20:14 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:20:14 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117230157.jpg
+05/08/2026 05:20:14 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\8511\20260805171619039\6221117230157\resources\6221117230102.jpg
+05/08/2026 05:20:16 م: Media data generated successfully.
+05/08/2026 05:20:16 م: Success: generated XML for package ID: 8511

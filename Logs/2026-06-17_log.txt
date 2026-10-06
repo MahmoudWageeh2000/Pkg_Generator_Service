@@ -1,0 +1,63 @@
+17/06/2026 04:41:26 م: Starting XML generation for package ID: 7123, Filename: FB_Global_XML_Template.xml, Company: Facebook-Audio
+17/06/2026 04:41:26 م: Success: fetched package info for ID: 7123
+17/06/2026 04:41:26 م: Processing group with Album UPC: 6221117122728
+17/06/2026 04:41:26 م: Starting GetFolderPaths...
+17/06/2026 04:41:26 م: Fetching package folder for company: Facebook-Audio
+17/06/2026 04:41:26 م: Sucsses: PackageFolder set to: 20260617164126183
+17/06/2026 04:41:26 م: Sucsses: Fetching resources folder for company: Facebook-Audio
+17/06/2026 04:41:26 م: Sucsses: ResourcesFolder set to: 20260617164126183\6221117122728\resources
+17/06/2026 04:41:26 م: Sucsses: Fetching metadata file path for company: Facebook-Audio
+17/06/2026 04:41:26 م: Sucsses: MetadataFile path set to: 20260617164126183\6221117122728\6221117122728.xml
+17/06/2026 04:41:26 م: Sucsses: Final PackageFolder path: 7123\20260617164126183
+17/06/2026 04:41:26 م: Sucsses: Final ResourcesFolder path: 7123\20260617164126183\6221117122728\resources
+17/06/2026 04:41:26 م: Sucsses: Retrieved folder paths for package: 7123
+17/06/2026 04:41:26 م: Starting GetCover...
+17/06/2026 04:41:27 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117122728.jpg
+17/06/2026 04:41:27 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117122728.jpg
+17/06/2026 04:41:27 م: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\7123\20260617164126183\6221117122728\resources
+17/06/2026 04:41:27 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117122728.jpg
+17/06/2026 04:41:27 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\7123\20260617164126183\6221117122728\resources\6221117122728.jpg
+17/06/2026 04:41:29 م: Media data generated successfully.
+17/06/2026 04:41:29 م: Success: generated XML for package ID: 7123
+17/06/2026 04:44:45 م: Starting XML generation for package ID: 7124, Filename: FB_Global_XML_Template.xml, Company: Facebook-Audio
+17/06/2026 04:44:45 م: Success: fetched package info for ID: 7124
+17/06/2026 04:44:45 م: Processing group with Album UPC: 6221117122728
+17/06/2026 04:44:45 م: Starting GetFolderPaths...
+17/06/2026 04:44:45 م: Fetching package folder for company: Facebook-Audio
+17/06/2026 04:44:45 م: Sucsses: PackageFolder set to: 20260617164445275
+17/06/2026 04:44:45 م: Sucsses: Fetching resources folder for company: Facebook-Audio
+17/06/2026 04:44:45 م: Sucsses: ResourcesFolder set to: 20260617164445275\6221117122728\resources
+17/06/2026 04:44:45 م: Sucsses: Fetching metadata file path for company: Facebook-Audio
+17/06/2026 04:44:45 م: Sucsses: MetadataFile path set to: 20260617164445275\6221117122728\6221117122728.xml
+17/06/2026 04:44:45 م: Sucsses: Final PackageFolder path: 7124\20260617164445275
+17/06/2026 04:44:45 م: Sucsses: Final ResourcesFolder path: 7124\20260617164445275\6221117122728\resources
+17/06/2026 04:44:45 م: Sucsses: Retrieved folder paths for package: 7124
+17/06/2026 04:44:45 م: Starting GetCover...
+17/06/2026 04:44:46 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117122728.jpg
+17/06/2026 04:44:46 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117122728.jpg
+17/06/2026 04:44:46 م: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\7124\20260617164445275\6221117122728\resources
+17/06/2026 04:44:46 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117122728.jpg
+17/06/2026 04:44:46 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\7124\20260617164445275\6221117122728\resources\6221117122728.jpg
+17/06/2026 04:44:48 م: Media data generated successfully.
+17/06/2026 04:44:48 م: Success: generated XML for package ID: 7124
+17/06/2026 05:13:22 م: Starting XML generation for package ID: 7125, Filename: FB_Global_XML_Template.xml, Company: Facebook-Audio
+17/06/2026 05:13:22 م: Success: fetched package info for ID: 7125
+17/06/2026 05:13:22 م: Processing group with Album UPC: 6221117122728
+17/06/2026 05:13:22 م: Starting GetFolderPaths...
+17/06/2026 05:13:22 م: Fetching package folder for company: Facebook-Audio
+17/06/2026 05:13:22 م: Sucsses: PackageFolder set to: 20260617171322749
+17/06/2026 05:13:22 م: Sucsses: Fetching resources folder for company: Facebook-Audio
+17/06/2026 05:13:22 م: Sucsses: ResourcesFolder set to: 20260617171322749\6221117122728\resources
+17/06/2026 05:13:22 م: Sucsses: Fetching metadata file path for company: Facebook-Audio
+17/06/2026 05:13:22 م: Sucsses: MetadataFile path set to: 20260617171322749\6221117122728\6221117122728.xml
+17/06/2026 05:13:22 م: Sucsses: Final PackageFolder path: 7125\20260617171322749
+17/06/2026 05:13:22 م: Sucsses: Final ResourcesFolder path: 7125\20260617171322749\6221117122728\resources
+17/06/2026 05:13:22 م: Sucsses: Retrieved folder paths for package: 7125
+17/06/2026 05:13:22 م: Starting GetCover...
+17/06/2026 05:13:23 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117122728.jpg
+17/06/2026 05:13:23 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117122728.jpg
+17/06/2026 05:13:23 م: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\7125\20260617171322749\6221117122728\resources
+17/06/2026 05:13:23 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117122728.jpg
+17/06/2026 05:13:23 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\7125\20260617171322749\6221117122728\resources\6221117122728.jpg
+17/06/2026 05:13:25 م: Media data generated successfully.
+17/06/2026 05:13:25 م: Success: generated XML for package ID: 7125

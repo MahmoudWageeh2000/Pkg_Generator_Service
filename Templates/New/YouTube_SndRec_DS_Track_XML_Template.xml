@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ern:NewReleaseMessage LanguageAndScriptCode="en" MessageSchemaVersionId="ern/382" xmlns:ern="http://ddex.net/xml/ern/382" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:schemaLocation="http://ddex.net/xml/ern/382 file:../XSD/release-notification.xsd">
 	<MessageHeader>
-			<MessageId>{{ album.creation_full_date_time }}</MessageId>
-			<MessageSender>
-				<PartyId>PADPIDA20131118019</PartyId>
-				<PartyName>
-					<FullName>Global</FullName>
-				</PartyName>
-			</MessageSender>
+		<MessageId>{{ album.creation_full_date_time }}</MessageId>
+		<MessageSender>
+			<PartyId>PADPIDA20131118019</PartyId>
+			<PartyName>
+				<FullName>Mazzika Group</FullName>
+			</PartyName>
+		</MessageSender>
 		<MessageRecipient>
 			<PartyId>PADPIDA2015120100H</PartyId>
 			<PartyName>
@@ -22,7 +22,7 @@
 			<SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
 			<SoundRecordingId>
 				<ISRC>{{ album.asset_isrc }}</ISRC>
-				<ProprietaryId Namespace="YOUTUBE:SR_ASSET_LABEL">{{ album.sr_label_name }}</ProprietaryId>
+				<ProprietaryId Namespace="YOUTUBE:SR_ASSET_LABEL">{{ album.label_name }}</ProprietaryId>
 				<ProprietaryId Namespace="YOUTUBE:SR_CUSTOM_ID">{{ album.asset_isrc }}</ProprietaryId>
 			</SoundRecordingId>
 			<ResourceReference>A{{ album.track_num }}</ResourceReference>

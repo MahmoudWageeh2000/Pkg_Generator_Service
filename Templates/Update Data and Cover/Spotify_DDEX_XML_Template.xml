@@ -30,9 +30,6 @@
         <FullName>{{ party.name }}</FullName>
         <FullNameIndexed>{{ party.name }}</FullNameIndexed>
       </PartyName>
-      <PartyName LanguageAndScriptCode="ar">
-        <FullName>{{ party.name_ar }}</FullName>
-      </PartyName>
     </Party>
     {{~ end ~}}
     {{~ end ~}}
@@ -40,7 +37,7 @@
     <Party>
       <PartyReference>PGlobal</PartyReference>
       <PartyName>
-        <FullName>Global Sound Limited</FullName>
+        <FullName>{{album.label_name}}</FullName>
       </PartyName>
     </Party>
   </PartyList>
@@ -58,28 +55,10 @@
           <Year>{{ asset.release_year}}</Year>
           <PLineText>{{ asset.release_year}} {{asset.label_name}}</PLineText>
         </PLine>
-        <TechnicalDetails>
-          <TechnicalResourceDetailsReference>T{{asset.track_num}}</TechnicalResourceDetailsReference>
-          <DeliveryFile>
-            <Type>AudioFile</Type>
-            <File>
-              <URI>
-                resources/{{asset.album_ubc}}_{{ asset.disc_num < 10 ? "0" : (asset.disc_num < 100 ? "0" : "") }}{{ asset.disc_num }}_{{ asset.track_num.size < 2 ? "00" + asset.track_num : asset.track_num.size < 3 ? "0" + asset.track_num : asset.track_num }}.flac</URI>
-            </File>
-          </DeliveryFile>
-          <ClipDetails>
-            <TechnicalResourceDetailsReference>T{{asset.track_num}}C</TechnicalResourceDetailsReference>
-            <ClipType>Preview</ClipType>
-            <Timing>
-              <StartPoint>45</StartPoint>
-            </Timing>
-            <ExpressionType>Instructive</ExpressionType>
-          </ClipDetails>
-        </TechnicalDetails>
       </SoundRecordingEdition>
       <DisplayTitleText>{{ asset.track_name }}</DisplayTitleText>
       {{~ for country_code in asset.country_iso_code_list_string ~}}
-      <DisplayTitle ApplicableTerritoryCode="{{ country_code }}" IsDefault="true">
+      <DisplayTitle LanguageAndScriptCode="en" ApplicableTerritoryCode="{{ country_code }}" IsDefault="true">
         <TitleText>{{ asset.track_name }}</TitleText>
       </DisplayTitle>
       {{~ end ~}}
@@ -193,31 +172,17 @@
       {{~ end ~}}
       <Duration>PT{{asset.track_duration}}</Duration>
       <CreationDate IsApproximate="true">2024-05-17</CreationDate>
-      <ParentalWarningType>NoAdviceAvailable</ParentalWarningType>
+      <ParentalWarningType>NotExplicit</ParentalWarningType>
       <IsInstrumental>false</IsInstrumental>
-      <LanguageOfPerformance>ar</LanguageOfPerformance>
+      <LanguageOfPerformance>en</LanguageOfPerformance>
     </SoundRecording>
     {{~ ResourceReference = ResourceReference + 1  ~}}
     {{~ end ~}}
-    <Image>
-      <ResourceReference>A{{ album.image_num }}</ResourceReference>
-      <Type>FrontCoverImage</Type>
-      <ResourceId>
-        <ProprietaryId Namespace="PADPIDA20131118019">PACKSHOT:{{ album.album_ubc }}</ProprietaryId>
-      </ResourceId>
-      <ParentalWarningType>NotExplicit</ParentalWarningType>
-      <TechnicalDetails>
-        <TechnicalResourceDetailsReference>T{{ album.image_num }}</TechnicalResourceDetailsReference>
-        <File>
-          <URI>resources/{{ album.album_ubc }}.jpg</URI>
-        </File>
-      </TechnicalDetails>
-    </Image>
   </ResourceList>
   <ReleaseList>
     <Release>
       <ReleaseReference>R0</ReleaseReference>
-      <ReleaseType>Album</ReleaseType>
+      <ReleaseType>{{ album.release_type }}</ReleaseType>
       <ReleaseId>
         <ICPN>{{ album.album_ubc }}</ICPN>
       </ReleaseId>
@@ -242,7 +207,10 @@
       <Genre ApplicableTerritoryCode="Worldwide">
         <GenreText>{{ album.track_genre }}</GenreText>
       </Genre>
-      <ParentalWarningType>NoAdviceAvailable</ParentalWarningType>
+
+      <ReleaseDate>{{album.release_date}}</ReleaseDate>
+      <OriginalReleaseDate>{{album.release_date}}</OriginalReleaseDate>
+      <ParentalWarningType>NotExplicit</ParentalWarningType>
       <RelatedRelease>
         <ReleaseRelationshipType>IsDigitalEquivalentToPhysical</ReleaseRelationshipType>
         <ReleaseId>
@@ -273,6 +241,7 @@
       <Genre ApplicableTerritoryCode="Worldwide">
         <GenreText>{{asset.track_genre}}</GenreText>
       </Genre>
+
     </TrackRelease>
     {{~ end ~}}
   </ReleaseList>
@@ -286,7 +255,7 @@
         <DealTerms>
           <TerritoryCode>{{ country_code }}</TerritoryCode>
           <ValidityPeriod>
-            <StartDate>{{album.start_date}}</StartDate>
+            <StartDateTime>{{album.start_date}}T{{album.start_time}}Z</StartDateTime>
           </ValidityPeriod>
           <CommercialModelType>SubscriptionModel</CommercialModelType>
           <CommercialModelType>AdvertisementSupportedModel</CommercialModelType>
@@ -300,7 +269,7 @@
         <DealTerms>
           <TerritoryCode>{{ country_code }}</TerritoryCode>
           <ValidityPeriod>
-            <StartDate>{{album.start_date}}</StartDate>
+            <StartDateTime>{{album.start_date}}T{{album.start_time}}Z</StartDateTime>
           </ValidityPeriod>
           <CommercialModelType>PayAsYouGoModel</CommercialModelType>
           <UseType>PermanentDownload</UseType>
@@ -312,15 +281,14 @@
       </Deal>
       {{~ end ~}}
     </ReleaseDeal>
-    {{~ for asset in album.asset_list ~}}
     {{~ for country_code in album.country_iso_code_list_string ~}}
     <ReleaseDeal>
-      <DealReleaseReference>R{{asset.track_num}}</DealReleaseReference>
+      <DealReleaseReference>R0</DealReleaseReference>
       <Deal>
         <DealTerms>
           <TerritoryCode>{{ country_code }}</TerritoryCode>
           <ValidityPeriod>
-            <StartDate>{{asset.start_date}}</StartDate>
+            <StartDateTime>{{album.start_date}}T{{album.start_time}}Z</StartDateTime>
           </ValidityPeriod>
           <CommercialModelType>PayAsYouGoModel</CommercialModelType>
           <UseType>PermanentDownload</UseType>
@@ -331,7 +299,6 @@
         </DealTerms>
       </Deal>
     </ReleaseDeal>
-    {{~ end ~}}
     {{~ end ~}}
   </DealList>
 </ern:NewReleaseMessage>

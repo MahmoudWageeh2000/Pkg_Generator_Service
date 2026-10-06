@@ -1,0 +1,44 @@
+18/08/2026 04:15:12 م: Starting XML generation for package ID: 9581, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+18/08/2026 04:15:12 م: Success: fetched package info for ID: 9581
+18/08/2026 04:15:12 م: Processing group with Album UPC: 6221117005045
+18/08/2026 04:15:12 م: Starting GetFolderPaths...
+18/08/2026 04:15:12 م: Fetching package folder for company: Spotify
+18/08/2026 04:15:12 م: Sucsses: PackageFolder set to: 20260818161512698
+18/08/2026 04:15:12 م: Sucsses: Fetching resources folder for company: Spotify
+18/08/2026 04:15:12 م: Sucsses: ResourcesFolder set to: 20260818161512698\6221117005045\resources
+18/08/2026 04:15:12 م: Sucsses: Fetching metadata file path for company: Spotify
+18/08/2026 04:15:12 م: Sucsses: MetadataFile path set to: 20260818161512698\6221117005045\6221117005045.xml
+18/08/2026 04:15:12 م: Sucsses: Final PackageFolder path: 9581\20260818161512698
+18/08/2026 04:15:12 م: Sucsses: Final ResourcesFolder path: 9581\20260818161512698\6221117005045\resources
+18/08/2026 04:15:12 م: Sucsses: Retrieved folder paths for package: 9581
+18/08/2026 04:15:12 م: Starting GetCover...
+18/08/2026 04:15:14 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117005045.jpg
+18/08/2026 04:15:14 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117005045.jpg
+18/08/2026 04:15:14 م: Sucsses: Created directory: C:\Pkg_Output\spotify\9581\20260818161512698\6221117005045\resources
+18/08/2026 04:15:14 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117005045.jpg
+18/08/2026 04:15:14 م: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\9581\20260818161512698\6221117005045\resources\6221117005045.jpg
+18/08/2026 04:15:14 م: Start Getting Media For package info: 9581
+18/08/2026 04:15:17 م: Media data generated successfully.
+18/08/2026 04:15:18 م: Success: generated XML for package ID: 9581
+18/08/2026 04:34:07 م: Starting XML generation for package ID: 9591, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+18/08/2026 04:34:07 م: Success: fetched package info for ID: 9591
+18/08/2026 04:34:07 م: Processing group with Album UPC: 6221117005045
+18/08/2026 04:34:07 م: Starting GetFolderPaths...
+18/08/2026 04:34:07 م: Fetching package folder for company: Spotify
+18/08/2026 04:34:07 م: Sucsses: PackageFolder set to: 20260818161518041
+18/08/2026 04:34:07 م: Sucsses: Fetching resources folder for company: Spotify
+18/08/2026 04:34:07 م: Sucsses: ResourcesFolder set to: 20260818161518041\6221117005045\resources
+18/08/2026 04:34:07 م: Sucsses: Fetching metadata file path for company: Spotify
+18/08/2026 04:34:07 م: Sucsses: MetadataFile path set to: 20260818161518041\6221117005045\6221117005045.xml
+18/08/2026 04:34:07 م: Sucsses: Final PackageFolder path: 9591\20260818161518041
+18/08/2026 04:34:07 م: Sucsses: Final ResourcesFolder path: 9591\20260818161518041\6221117005045\resources
+18/08/2026 04:34:07 م: Sucsses: Retrieved folder paths for package: 9591
+18/08/2026 04:34:07 م: Starting GetCover...
+18/08/2026 04:34:08 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117005045.jpg
+18/08/2026 04:34:08 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117005045.jpg
+18/08/2026 04:34:08 م: Sucsses: Created directory: C:\Pkg_Output\spotify\9591\20260818161518041\6221117005045\resources
+18/08/2026 04:34:08 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117005045.jpg
+18/08/2026 04:34:08 م: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\9591\20260818161518041\6221117005045\resources\6221117005045.jpg
+18/08/2026 04:34:08 م: Start Getting Media For package info: 9591
+18/08/2026 04:34:10 م: Media data generated successfully.
+18/08/2026 04:34:10 م: Success: generated XML for package ID: 9591
