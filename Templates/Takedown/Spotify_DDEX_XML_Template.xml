@@ -101,7 +101,7 @@
       {{~ seq = 1  ~}}
       {{~ for track_artist in asset.track_artist_list_string ~}}
       <DisplayArtist SequenceNumber="{{ seq }}">
-        <ArtistPartyReference>P{{ track_artist.name | string.replace " " "" }}</ArtistPartyReference>
+        <ArtistPartyReference>P{{ track_artist.name | string.replace " " ""}}</ArtistPartyReference>
         <DisplayArtistRole>MainArtist</DisplayArtistRole>
       </DisplayArtist>
       {{~ seq = seq + 1 ~}}
@@ -109,7 +109,7 @@
       {{~ seq = 1  ~}}
       {{~ for track_featured_artist in asset.track_featured_artist_list_string ~}}
       <DisplayArtist SequenceNumber="{{ seq }}">
-        <ArtistPartyReference>P{{ track_featured_artist.name | string.replace " " "" }}</ArtistPartyReference>
+        <ArtistPartyReference>P{{ track_featured_artist.name | string.replace " " ""}}</ArtistPartyReference>
         <DisplayArtistRole>FeaturedArtist</DisplayArtistRole>
       </DisplayArtist>
       {{~ seq = seq + 1 ~}}
@@ -117,7 +117,7 @@
       {{~ if asset.composer_list_string != empty ~}}
       {{~ for track_composer in asset.composer_list_string ~}}
       <Contributor SequenceNumber="{{ seq }}">
-        <ContributorPartyReference>P{{ track_composer | string.replace " " "" }}</ContributorPartyReference>
+        <ContributorPartyReference>P{{ track_composer | string.replace " " ""}}</ContributorPartyReference>
         <Role>Composer</Role>
       </Contributor>
       {{~ seq = seq + 1 ~}}
@@ -147,7 +147,7 @@
       {{~ if asset.arrenger_list_string != empty ~}}
       {{~ for track_arranger in asset.arrenger_list_string ~}}
       <Contributor SequenceNumber="{{ seq }}">
-        <ContributorPartyReference>P{{ track_arranger | string.replace " " "" }}</ContributorPartyReference>
+        <ContributorPartyReference>P{{ track_arranger | string.replace " " ""}}</ContributorPartyReference>
         <Role>Arranger</Role>
       </Contributor>
       {{~ seq = seq + 1 ~}}
@@ -216,7 +216,7 @@
       {{~ else ~}}
       <Contributor SequenceNumber="{{ seq }}">
         <ContributorPartyReference> </ContributorPartyReference>
-        <Role>MasteringEngineer</Role>
+        <Role>MixingEngineer</Role>
       </Contributor>
       {{~ seq = seq + 1 ~}}
       {{~ end ~}}
@@ -259,7 +259,7 @@
       {{~ end ~}}
       {{ for track_artist in album.album_artist_list_string  }}
       <DisplayArtist SequenceNumber="1">
-        <ArtistPartyReference>P{{ track_artist.name | string.replace " " "" }}</ArtistPartyReference>
+        <ArtistPartyReference>P{{track_artist.name | string.replace " " "" }}</ArtistPartyReference>
         <DisplayArtistRole>MainArtist</DisplayArtistRole>
       </DisplayArtist>
       {{ end }}
@@ -305,19 +305,17 @@
     {{~ end ~}}
   </ReleaseList>
   <DealList>
-	  {{~ for asset in album.asset_list ~}}
-	  <ReleaseDeal>
+    <ReleaseDeal>
+      {{~ for asset in album.asset_list ~}}
       <DealReleaseReference>R{{asset.track_num}}</DealReleaseReference>
+      {{~ end ~}}
       {{~ for country_code in album.country_iso_code_list_string ~}}
       <Deal>
         <DealTerms>
           <TerritoryCode>{{ country_code }}</TerritoryCode>
           <ValidityPeriod>
-			  <StartDateTime>{{ asset.start_date }}T00:00:00+02:00</StartDateTime>
-			  {{~ if asset.takedown_date && (asset.takedown_date | string.strip) != "" ~}}
-			  <EndDateTime>{{ asset.takedown_date }}T00:00:00+02:00</EndDateTime>
-			  {{~ end ~}}
-		  </ValidityPeriod>        
+            <StartDate>{{album.takedown_date}}</StartDate>
+          </ValidityPeriod>        
         </DealTerms>
       </Deal>
       {{~ end ~}}
@@ -326,16 +324,12 @@
         <DealTerms>
           <TerritoryCode>{{ country_code }}</TerritoryCode>
           <ValidityPeriod>
-			  <StartDateTime>{{ asset.start_date }}T00:00:00+02:00</StartDateTime>
-			  {{~ if asset.takedown_date && (asset.takedown_date | string.strip) != "" ~}}
-			  <EndDateTime>{{ asset.takedown_date }}T00:00:00+02:00</EndDateTime>
-			  {{~ end ~}}
-		  </ValidityPeriod>  
+            <StartDate>{{album.takedown_date}}</StartDate>          
+        </ValidityPeriod>  
         </DealTerms>
       </Deal>
       {{~ end ~}}
     </ReleaseDeal>
-	  {{~ end ~}}
     {{~ for country_code in album.country_iso_code_list_string ~}}
     <ReleaseDeal>
       <DealReleaseReference>R0</DealReleaseReference>
@@ -343,7 +337,7 @@
         <DealTerms>
           <TerritoryCode>{{ country_code }}</TerritoryCode>
           <ValidityPeriod>
-            <StartDate>{{album.start_date}}</StartDate>
+            <StartDate>{{album.takedown_date}}</StartDate>
           </ValidityPeriod>       
         </DealTerms>
       </Deal>
