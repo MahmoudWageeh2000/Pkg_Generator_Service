@@ -141,8 +141,12 @@ namespace ConsoleApp1
                 //dataDict["release_date"] = DateTime.Now.ToString("yyyy-mm-dd");
                 foreach (var variable in variablesData)
                 {
-
-                    if (variable=="release"||variable=="release_year"||variable=="release_date"|| variable == "start_date" || variable == "end_date" || variable == "takedown_date" || variable == "spotify_release" || variable == "spotify_release_year")
+                    // A missing takedown date must stay empty instead of falling back to today
+                    if (variable == "takedown_date" && string.IsNullOrWhiteSpace(albumTable.Rows[0][variable].ToString()))
+                    {
+                        dataDict[variable] = "";
+                    }
+                    if (variable=="release"||variable=="release_year"||variable=="release_date"|| variable == "start_date" || variable == "end_date" || variable == "spotify_release" || variable == "spotify_release_year")
                     {
                         string dateString = null;
 
@@ -406,7 +410,12 @@ namespace ConsoleApp1
                     {
                         listDictDict[variable] = cover_hash_sum;
                     }
-                    if (variable == "release" || variable == "release_year" || variable == "release_date" || variable == "start_date" || variable == "end_date" || variable == "takedown_date" || variable == "spotify_release_year" || variable == "spotify_release")
+                    // A missing takedown date must stay empty instead of falling back to today
+                    if (variable == "takedown_date" && string.IsNullOrWhiteSpace(row[variable].ToString()))
+                    {
+                        listDictDict[variable] = "";
+                    }
+                    if (variable == "release" || variable == "release_year" || variable == "release_date" || variable == "start_date" || variable == "end_date" || variable == "spotify_release_year" || variable == "spotify_release")
                     {
                         string dateString = null;
 

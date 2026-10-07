@@ -1,0 +1,280 @@
+07/10/2026 02:10:54 م: Starting XML generation for package ID: 11871, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+07/10/2026 02:10:54 م: Success: fetched package info for ID: 11871
+07/10/2026 02:10:54 م: Processing group with Album UPC: 6221117066220
+07/10/2026 02:10:54 م: Starting GetFolderPaths...
+07/10/2026 02:10:54 م: Fetching package folder for company: Spotify
+07/10/2026 02:10:54 م: Sucsses: PackageFolder set to: 20261007141054083
+07/10/2026 02:10:54 م: Sucsses: Fetching resources folder for company: Spotify
+07/10/2026 02:10:54 م: Sucsses: ResourcesFolder set to: 20261007141054083\6221117066220\resources
+07/10/2026 02:10:54 م: Sucsses: Fetching metadata file path for company: Spotify
+07/10/2026 02:10:54 م: Sucsses: MetadataFile path set to: 20261007141054083\6221117066220\6221117066220.xml
+07/10/2026 02:10:54 م: Sucsses: Final PackageFolder path: 11871\20261007141054083
+07/10/2026 02:10:54 م: Sucsses: Final ResourcesFolder path: 11871\20261007141054083\6221117066220\resources
+07/10/2026 02:10:54 م: Sucsses: Retrieved folder paths for package: 11871
+07/10/2026 02:10:54 م: Starting GetCover...
+07/10/2026 02:10:54 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:10:54 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:10:54 م: Sucsses: Created directory: C:\Pkg_Output\spotify\11871\20261007141054083\6221117066220\resources
+07/10/2026 02:10:54 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:10:54 م: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\11871\20261007141054083\6221117066220\resources\6221117066220.jpg
+07/10/2026 02:10:54 م: Start Getting Media For package info: 11871
+07/10/2026 02:10:55 م: Media data generated successfully.
+07/10/2026 02:10:55 م: Success: generated XML for package ID: 11871
+07/10/2026 02:12:11 م: Starting XML generation for package ID: 11881, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+07/10/2026 02:12:11 م: Success: fetched package info for ID: 11881
+07/10/2026 02:12:11 م: Processing group with Album UPC: 6221117066220
+07/10/2026 02:12:11 م: Starting GetFolderPaths...
+07/10/2026 02:12:11 م: Fetching package folder for company: Spotify
+07/10/2026 02:12:11 م: Sucsses: PackageFolder set to: 20261007141055610
+07/10/2026 02:12:11 م: Sucsses: Fetching resources folder for company: Spotify
+07/10/2026 02:12:11 م: Sucsses: ResourcesFolder set to: 20261007141055610\6221117066220\resources
+07/10/2026 02:12:11 م: Sucsses: Fetching metadata file path for company: Spotify
+07/10/2026 02:12:11 م: Sucsses: MetadataFile path set to: 20261007141055610\6221117066220\6221117066220.xml
+07/10/2026 02:12:11 م: Sucsses: Final PackageFolder path: 11881\20261007141055610
+07/10/2026 02:12:11 م: Sucsses: Final ResourcesFolder path: 11881\20261007141055610\6221117066220\resources
+07/10/2026 02:12:11 م: Sucsses: Retrieved folder paths for package: 11881
+07/10/2026 02:12:11 م: Starting GetCover...
+07/10/2026 02:12:11 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:12:11 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:12:11 م: Sucsses: Created directory: C:\Pkg_Output\spotify\11881\20261007141055610\6221117066220\resources
+07/10/2026 02:12:11 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:12:11 م: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\11881\20261007141055610\6221117066220\resources\6221117066220.jpg
+07/10/2026 02:12:11 م: Start Getting Media For package info: 11881
+07/10/2026 02:12:12 م: Media data generated successfully.
+07/10/2026 02:12:13 م: Success: generated XML for package ID: 11881
+07/10/2026 02:13:57 م: Starting XML generation for package ID: 11891, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+07/10/2026 02:13:57 م: Success: fetched package info for ID: 11891
+07/10/2026 02:13:57 م: Processing group with Album UPC: 
+07/10/2026 02:13:57 م: Starting GetFolderPaths...
+07/10/2026 02:13:57 م: Fetching package folder for company: Spotify
+07/10/2026 02:13:57 م: Sucsses: PackageFolder set to: 20261007141213989
+07/10/2026 02:13:57 م: Sucsses: Fetching resources folder for company: Spotify
+07/10/2026 02:13:57 م: Sucsses: ResourcesFolder set to: 20261007141213989\\resources
+07/10/2026 02:13:57 م: Sucsses: Fetching metadata file path for company: Spotify
+07/10/2026 02:13:57 م: Sucsses: MetadataFile path set to: 20261007141213989\\.xml
+07/10/2026 02:13:57 م: Sucsses: Final PackageFolder path: 11891\20261007141213989
+07/10/2026 02:13:57 م: Sucsses: Final ResourcesFolder path: 11891\20261007141213989\\resources
+07/10/2026 02:13:57 م: Sucsses: Retrieved folder paths for package: 11891
+07/10/2026 02:13:57 م: Starting GetCover...
+07/10/2026 02:13:58 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\.jpg
+07/10/2026 02:13:58 م: Error: No cover file found for UPC:  in \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers
+07/10/2026 02:13:58 م: Error: in GetCover: No cover file found for UPC: 
+07/10/2026 02:13:58 م: Error fetching package info: No cover file found for UPC: 
+07/10/2026 02:13:58 م: Error: processing Excel file: No Media Found
+07/10/2026 02:13:58 م: Critical error: Object reference not set to an instance of an object.
+07/10/2026 02:13:58 م: There is Some errors in The PKG
+07/10/2026 02:17:28 م: Starting XML generation for package ID: 11901, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+07/10/2026 02:17:28 م: Success: fetched package info for ID: 11901
+07/10/2026 02:17:28 م: Processing group with Album UPC: 
+07/10/2026 02:17:28 م: Starting GetFolderPaths...
+07/10/2026 02:17:28 م: Fetching package folder for company: Spotify
+07/10/2026 02:17:28 م: Sucsses: PackageFolder set to: 20261007141358146
+07/10/2026 02:17:28 م: Sucsses: Fetching resources folder for company: Spotify
+07/10/2026 02:17:28 م: Sucsses: ResourcesFolder set to: 20261007141358146\\resources
+07/10/2026 02:17:28 م: Sucsses: Fetching metadata file path for company: Spotify
+07/10/2026 02:17:28 م: Sucsses: MetadataFile path set to: 20261007141358146\\.xml
+07/10/2026 02:17:28 م: Sucsses: Final PackageFolder path: 11901\20261007141358146
+07/10/2026 02:17:28 م: Sucsses: Final ResourcesFolder path: 11901\20261007141358146\\resources
+07/10/2026 02:17:28 م: Sucsses: Retrieved folder paths for package: 11901
+07/10/2026 02:17:28 م: Starting GetCover...
+07/10/2026 02:17:28 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\.jpg
+07/10/2026 02:17:28 م: Error: No cover file found for UPC:  in \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers
+07/10/2026 02:17:28 م: Error: in GetCover: No cover file found for UPC: 
+07/10/2026 02:17:28 م: Error fetching package info: No cover file found for UPC: 
+07/10/2026 02:17:28 م: Error: processing Excel file: No Media Found
+07/10/2026 02:17:28 م: Critical error: Object reference not set to an instance of an object.
+07/10/2026 02:17:28 م: There is Some errors in The PKG
+07/10/2026 02:17:28 م: Starting XML generation for package ID: 11911, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+07/10/2026 02:17:28 م: Success: fetched package info for ID: 11911
+07/10/2026 02:17:28 م: Processing group with Album UPC: 6221117066220
+07/10/2026 02:17:28 م: Starting GetFolderPaths...
+07/10/2026 02:17:28 م: Fetching package folder for company: Spotify
+07/10/2026 02:17:28 م: Sucsses: PackageFolder set to: 20261007141728680
+07/10/2026 02:17:28 م: Sucsses: Fetching resources folder for company: Spotify
+07/10/2026 02:17:28 م: Sucsses: ResourcesFolder set to: 20261007141728680\6221117066220\resources
+07/10/2026 02:17:28 م: Sucsses: Fetching metadata file path for company: Spotify
+07/10/2026 02:17:28 م: Sucsses: MetadataFile path set to: 20261007141728680\6221117066220\6221117066220.xml
+07/10/2026 02:17:28 م: Sucsses: Final PackageFolder path: 11911\20261007141728680
+07/10/2026 02:17:28 م: Sucsses: Final ResourcesFolder path: 11911\20261007141728680\6221117066220\resources
+07/10/2026 02:17:28 م: Sucsses: Retrieved folder paths for package: 11911
+07/10/2026 02:17:28 م: Starting GetCover...
+07/10/2026 02:17:28 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:17:28 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:17:28 م: Sucsses: Created directory: C:\Pkg_Output\spotify\11911\20261007141728680\6221117066220\resources
+07/10/2026 02:17:28 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:17:28 م: Sucsses: Copied cover file to: C:\Pkg_Output\spotify\11911\20261007141728680\6221117066220\resources\6221117066220.jpg
+07/10/2026 02:17:28 م: Start Getting Media For package info: 11911
+07/10/2026 02:17:29 م: Media data generated successfully.
+07/10/2026 02:17:29 م: Success: generated XML for package ID: 11911
+07/10/2026 02:17:56 م: Starting XML generation for package ID: 11921, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+07/10/2026 02:17:56 م: Success: fetched package info for ID: 11921
+07/10/2026 02:17:56 م: Processing group with Album UPC: 6221117066220
+07/10/2026 02:17:56 م: Starting GetFolderPaths...
+07/10/2026 02:17:56 م: Fetching package folder for company: Spotify
+07/10/2026 02:17:56 م: Sucsses: PackageFolder set to: 20261007141756396
+07/10/2026 02:17:56 م: Sucsses: Fetching resources folder for company: Spotify
+07/10/2026 02:17:56 م: Sucsses: ResourcesFolder set to: 20261007141756396\6221117066220\resources
+07/10/2026 02:17:56 م: Sucsses: Fetching metadata file path for company: Spotify
+07/10/2026 02:17:56 م: Sucsses: MetadataFile path set to: 20261007141756396\6221117066220\6221117066220.xml
+07/10/2026 02:17:56 م: Sucsses: Final PackageFolder path: 11921\20261007141756396
+07/10/2026 02:17:56 م: Sucsses: Final ResourcesFolder path: 11921\20261007141756396\6221117066220\resources
+07/10/2026 02:17:56 م: Sucsses: Retrieved folder paths for package: 11921
+07/10/2026 02:17:56 م: Starting GetCover...
+07/10/2026 02:17:56 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:17:56 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:17:56 م: Sucsses: Created directory: C:\Pkg_Output\spotify\11921\20261007141756396\6221117066220\resources
+07/10/2026 02:17:56 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:17:56 م: Package type 5: cover hash computed, copy skipped: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:17:56 م: Start Getting Media For package info: 11921
+07/10/2026 02:17:57 م: Media verified: hashes computed, no files shipped for this package type.
+07/10/2026 02:17:57 م: Success: generated XML for package ID: 11921
+07/10/2026 02:20:35 م: Starting XML generation for package ID: 11931, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+07/10/2026 02:20:35 م: Success: fetched package info for ID: 11931
+07/10/2026 02:20:35 م: Processing group with Album UPC: 
+07/10/2026 02:20:35 م: Starting GetFolderPaths...
+07/10/2026 02:20:35 م: Fetching package folder for company: Spotify
+07/10/2026 02:20:35 م: Sucsses: PackageFolder set to: 20261007141757604
+07/10/2026 02:20:35 م: Sucsses: Fetching resources folder for company: Spotify
+07/10/2026 02:20:35 م: Sucsses: ResourcesFolder set to: 20261007141757604\\resources
+07/10/2026 02:20:35 م: Sucsses: Fetching metadata file path for company: Spotify
+07/10/2026 02:20:35 م: Sucsses: MetadataFile path set to: 20261007141757604\\.xml
+07/10/2026 02:20:35 م: Sucsses: Final PackageFolder path: 11931\20261007141757604
+07/10/2026 02:20:35 م: Sucsses: Final ResourcesFolder path: 11931\20261007141757604\\resources
+07/10/2026 02:20:35 م: Sucsses: Retrieved folder paths for package: 11931
+07/10/2026 02:20:35 م: Starting GetCover...
+07/10/2026 02:20:35 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\.jpg
+07/10/2026 02:20:35 م: Error: No cover file found for UPC:  in \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers
+07/10/2026 02:20:36 م: Error: in GetCover: No cover file found for UPC: 
+07/10/2026 02:20:36 م: Error fetching package info: No cover file found for UPC: 
+07/10/2026 02:20:36 م: Error: processing Excel file: No Media Found
+07/10/2026 02:20:36 م: Critical error: Object reference not set to an instance of an object.
+07/10/2026 02:20:36 م: There is Some errors in The PKG
+07/10/2026 02:21:38 م: Starting XML generation for package ID: 11941, Filename: FB_Global_XML_Template.xml, Company: Facebook-Audio
+07/10/2026 02:21:38 م: Success: fetched package info for ID: 11941
+07/10/2026 02:21:38 م: Processing group with Album UPC: 6221117066220
+07/10/2026 02:21:38 م: Starting GetFolderPaths...
+07/10/2026 02:21:38 م: Fetching package folder for company: Facebook-Audio
+07/10/2026 02:21:38 م: Sucsses: PackageFolder set to: 20261007142036053
+07/10/2026 02:21:38 م: Sucsses: Fetching resources folder for company: Facebook-Audio
+07/10/2026 02:21:38 م: Sucsses: ResourcesFolder set to: 20261007142036053\6221117066220\resources
+07/10/2026 02:21:38 م: Sucsses: Fetching metadata file path for company: Facebook-Audio
+07/10/2026 02:21:38 م: Sucsses: MetadataFile path set to: 20261007142036053\6221117066220\6221117066220.xml
+07/10/2026 02:21:38 م: Sucsses: Final PackageFolder path: 11941\20261007142036053
+07/10/2026 02:21:38 م: Sucsses: Final ResourcesFolder path: 11941\20261007142036053\6221117066220\resources
+07/10/2026 02:21:38 م: Sucsses: Retrieved folder paths for package: 11941
+07/10/2026 02:21:38 م: Starting GetCover...
+07/10/2026 02:21:38 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:21:38 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:21:38 م: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\11941\20261007142036053\6221117066220\resources
+07/10/2026 02:21:38 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:21:38 م: Package type 5: cover hash computed, copy skipped: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:21:38 م: Start Getting Media For package info: 11941
+07/10/2026 02:21:39 م: Media verified: hashes computed, no files shipped for this package type.
+07/10/2026 02:21:39 م: Success: generated XML for package ID: 11941
+07/10/2026 02:24:14 م: Starting XML generation for package ID: 11951, Filename: Pandora_XML_Template.xml, Company: Pandora
+07/10/2026 02:24:14 م: Success: fetched package info for ID: 11951
+07/10/2026 02:24:14 م: Processing group with Album UPC: 6221117066220
+07/10/2026 02:24:14 م: Starting GetFolderPaths...
+07/10/2026 02:24:14 م: Fetching package folder for company: Pandora
+07/10/2026 02:24:14 م: Sucsses: PackageFolder set to: 20261007142140399
+07/10/2026 02:24:14 م: Sucsses: Fetching resources folder for company: Pandora
+07/10/2026 02:24:14 م: Sucsses: ResourcesFolder set to: 20261007142140399\6221117066220\resources
+07/10/2026 02:24:14 م: Sucsses: Fetching metadata file path for company: Pandora
+07/10/2026 02:24:14 م: Sucsses: MetadataFile path set to: 20261007142140399\6221117066220\6221117066220.xml
+07/10/2026 02:24:14 م: Sucsses: Final PackageFolder path: 11951\20261007142140399
+07/10/2026 02:24:14 م: Sucsses: Final ResourcesFolder path: 11951\20261007142140399\6221117066220\resources
+07/10/2026 02:24:14 م: Sucsses: Retrieved folder paths for package: 11951
+07/10/2026 02:24:14 م: Starting GetCover...
+07/10/2026 02:24:15 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:24:15 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:24:15 م: Sucsses: Created directory: C:\Pkg_Output\pandora\11951\20261007142140399\6221117066220\resources
+07/10/2026 02:24:15 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:24:15 م: Package type 5: cover hash computed, copy skipped: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:24:15 م: Start Getting Media For package info: 11951
+07/10/2026 02:24:15 م: Media verified: hashes computed, no files shipped for this package type.
+07/10/2026 02:24:16 م: Success: generated XML for package ID: 11951
+07/10/2026 02:24:16 م: Starting XML generation for package ID: 11961, Filename: Pandora_XML_Template.xml, Company: Pandora
+07/10/2026 02:24:16 م: Success: fetched package info for ID: 11961
+07/10/2026 02:24:16 م: Processing group with Album UPC: 6221117066220
+07/10/2026 02:24:16 م: Starting GetFolderPaths...
+07/10/2026 02:24:16 م: Fetching package folder for company: Pandora
+07/10/2026 02:24:16 م: Sucsses: PackageFolder set to: 20261007142416538
+07/10/2026 02:24:16 م: Sucsses: Fetching resources folder for company: Pandora
+07/10/2026 02:24:16 م: Sucsses: ResourcesFolder set to: 20261007142416538\6221117066220\resources
+07/10/2026 02:24:16 م: Sucsses: Fetching metadata file path for company: Pandora
+07/10/2026 02:24:16 م: Sucsses: MetadataFile path set to: 20261007142416538\6221117066220\6221117066220.xml
+07/10/2026 02:24:16 م: Sucsses: Final PackageFolder path: 11961\20261007142416538
+07/10/2026 02:24:16 م: Sucsses: Final ResourcesFolder path: 11961\20261007142416538\6221117066220\resources
+07/10/2026 02:24:16 م: Sucsses: Retrieved folder paths for package: 11961
+07/10/2026 02:24:16 م: Starting GetCover...
+07/10/2026 02:24:16 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:24:16 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:24:16 م: Sucsses: Created directory: C:\Pkg_Output\pandora\11961\20261007142416538\6221117066220\resources
+07/10/2026 02:24:16 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:24:16 م: Package type 4: cover hash computed, copy skipped: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:24:16 م: Start Getting Media For package info: 11961
+07/10/2026 02:24:16 م: Media verified: hashes computed, no files shipped for this package type.
+07/10/2026 02:24:16 م: Success: generated XML for package ID: 11961
+07/10/2026 02:28:44 م: Starting XML generation for package ID: 11971, Filename: Pandora_XML_Template.xml, Company: Pandora
+07/10/2026 02:28:44 م: Success: fetched package info for ID: 11971
+07/10/2026 02:28:44 م: Processing group with Album UPC: 
+07/10/2026 02:28:44 م: Starting GetFolderPaths...
+07/10/2026 02:28:44 م: Fetching package folder for company: Pandora
+07/10/2026 02:28:44 م: Sucsses: PackageFolder set to: 20261007142416892
+07/10/2026 02:28:44 م: Sucsses: Fetching resources folder for company: Pandora
+07/10/2026 02:28:44 م: Sucsses: ResourcesFolder set to: 20261007142416892\\resources
+07/10/2026 02:28:44 م: Sucsses: Fetching metadata file path for company: Pandora
+07/10/2026 02:28:44 م: Sucsses: MetadataFile path set to: 20261007142416892\\.xml
+07/10/2026 02:28:44 م: Sucsses: Final PackageFolder path: 11971\20261007142416892
+07/10/2026 02:28:44 م: Sucsses: Final ResourcesFolder path: 11971\20261007142416892\\resources
+07/10/2026 02:28:44 م: Sucsses: Retrieved folder paths for package: 11971
+07/10/2026 02:28:44 م: Starting GetCover...
+07/10/2026 02:28:44 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\.jpg
+07/10/2026 02:28:44 م: Error: No cover file found for UPC:  in \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers
+07/10/2026 02:28:44 م: Error: in GetCover: No cover file found for UPC: 
+07/10/2026 02:28:44 م: Error fetching package info: No cover file found for UPC: 
+07/10/2026 02:28:44 م: Error: processing Excel file: No Media Found
+07/10/2026 02:28:44 م: Critical error: Could not find a part of the path C:\Pkg_Output\Pandora\11971\20261007142416892\BatchComplete_20261007142416892.xml.
+07/10/2026 02:28:44 م: There is Some errors in The PKG
+07/10/2026 02:31:59 م: Starting XML generation for package ID: 11981, Filename: Pandora_XML_Template.xml, Company: Pandora
+07/10/2026 02:31:59 م: Success: fetched package info for ID: 11981
+07/10/2026 02:31:59 م: Processing group with Album UPC: 
+07/10/2026 02:31:59 م: Starting GetFolderPaths...
+07/10/2026 02:31:59 م: Fetching package folder for company: Pandora
+07/10/2026 02:31:59 م: Sucsses: PackageFolder set to: 20261007143159906
+07/10/2026 02:31:59 م: Sucsses: Fetching resources folder for company: Pandora
+07/10/2026 02:31:59 م: Sucsses: ResourcesFolder set to: 20261007143159906\\resources
+07/10/2026 02:31:59 م: Sucsses: Fetching metadata file path for company: Pandora
+07/10/2026 02:31:59 م: Sucsses: MetadataFile path set to: 20261007143159906\\.xml
+07/10/2026 02:31:59 م: Sucsses: Final PackageFolder path: 11981\20261007143159906
+07/10/2026 02:31:59 م: Sucsses: Final ResourcesFolder path: 11981\20261007143159906\\resources
+07/10/2026 02:31:59 م: Sucsses: Retrieved folder paths for package: 11981
+07/10/2026 02:31:59 م: Starting GetCover...
+07/10/2026 02:31:59 م: Error: Album has no UPC, so no cover can be resolved.
+07/10/2026 02:31:59 م: Error: in GetCover: Album has no UPC, so no cover can be resolved.
+07/10/2026 02:31:59 م: Error fetching package info: Album has no UPC, so no cover can be resolved.
+07/10/2026 02:31:59 م: Error: processing Excel file: No Media Found
+07/10/2026 02:31:59 م: No metadata written for any album, batch skipped.
+07/10/2026 02:31:59 م: There is Some errors in The PKG
+07/10/2026 02:37:34 م: Starting XML generation for package ID: 11991, Filename: Pandora_XML_Template.xml, Company: Pandora
+07/10/2026 02:37:34 م: Success: fetched package info for ID: 11991
+07/10/2026 02:37:34 م: Processing group with Album UPC: 6221117066220
+07/10/2026 02:37:34 م: Starting GetFolderPaths...
+07/10/2026 02:37:34 م: Fetching package folder for company: Pandora
+07/10/2026 02:37:34 م: Sucsses: PackageFolder set to: 20261007143159986
+07/10/2026 02:37:34 م: Sucsses: Fetching resources folder for company: Pandora
+07/10/2026 02:37:34 م: Sucsses: ResourcesFolder set to: 20261007143159986\6221117066220\resources
+07/10/2026 02:37:34 م: Sucsses: Fetching metadata file path for company: Pandora
+07/10/2026 02:37:34 م: Sucsses: MetadataFile path set to: 20261007143159986\6221117066220\6221117066220.xml
+07/10/2026 02:37:34 م: Sucsses: Final PackageFolder path: 11991\20261007143159986
+07/10/2026 02:37:34 م: Sucsses: Final ResourcesFolder path: 11991\20261007143159986\6221117066220\resources
+07/10/2026 02:37:34 م: Sucsses: Retrieved folder paths for package: 11991
+07/10/2026 02:37:34 م: Starting GetCover...
+07/10/2026 02:37:34 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:37:34 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:37:34 م: Sucsses: Created directory: C:\Pkg_Output\pandora\11991\20261007143159986\6221117066220\resources
+07/10/2026 02:37:34 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:37:34 م: Package type 4: cover hash computed, copy skipped: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117066220.jpg
+07/10/2026 02:37:34 م: Start Getting Media For package info: 11991
+07/10/2026 02:37:35 م: Media verified: hashes computed, no files shipped for this package type.
+07/10/2026 02:37:35 م: Success: generated XML for package ID: 11991

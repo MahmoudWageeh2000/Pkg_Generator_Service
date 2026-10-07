@@ -56,3 +56,9 @@ D:\Apps\Pkg_Generator_Service\obj\Debug\net10.0-windows\Package_Generator_Servic
 D:\Apps\Pkg_Generator_Service\obj\Debug\net10.0-windows\ref\Package_Generator_Service.dll
 D:\Apps\Pkg_Generator_Service\bin\Debug\net10.0-windows\SixLabors.Fonts.dll
 D:\Apps\Pkg_Generator_Service\bin\Debug\net10.0-windows\SixLabors.ImageSharp.dll
+C:\Users\momen.mohsen\AppData\Local\Temp\claude\D--Apps\1f4168e7-c9e8-4348-88c1-242e0b456464\scratchpad\buildcheck\Package_Generator_Service.exe
+C:\Users\momen.mohsen\AppData\Local\Temp\claude\D--Apps\1f4168e7-c9e8-4348-88c1-242e0b456464\scratchpad\buildcheck\config.xml
+C:\Users\momen.mohsen\AppData\Local\Temp\claude\D--Apps\1f4168e7-c9e8-4348-88c1-242e0b456464\scratchpad\buildcheck\Package_Generator_Service.deps.json
+C:\Users\momen.mohsen\AppData\Local\Temp\claude\D--Apps\1f4168e7-c9e8-4348-88c1-242e0b456464\scratchpad\buildcheck\Package_Generator_Service.runtimeconfig.json
+C:\Users\momen.mohsen\AppData\Local\Temp\claude\D--Apps\1f4168e7-c9e8-4348-88c1-242e0b456464\scratchpad\buildcheck\Package_Generator_Service.dll
+C:\Users\momen.mohsen\AppData\Local\Temp\claude\D--Apps\1f4168e7-c9e8-4348-88c1-242e0b456464\scratchpad\buildcheck\Package_Generator_Service.pdb

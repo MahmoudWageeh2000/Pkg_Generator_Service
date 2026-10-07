@@ -305,17 +305,19 @@
     {{~ end ~}}
   </ReleaseList>
   <DealList>
-    <ReleaseDeal>
-      {{~ for asset in album.asset_list ~}}
+	  {{~ for asset in album.asset_list ~}}
+	  <ReleaseDeal>
       <DealReleaseReference>R{{asset.track_num}}</DealReleaseReference>
-      {{~ end ~}}
       {{~ for country_code in album.country_iso_code_list_string ~}}
       <Deal>
         <DealTerms>
           <TerritoryCode>{{ country_code }}</TerritoryCode>
           <ValidityPeriod>
-            <StartDate>{{album.takedown_date}}</StartDate>
-          </ValidityPeriod>        
+			  <StartDateTime>{{ asset.start_date }}T00:00:00+02:00</StartDateTime>
+			  {{~ if asset.takedown_date && (asset.takedown_date | string.strip) != "" ~}}
+			  <EndDateTime>{{ asset.takedown_date }}T00:00:00+02:00</EndDateTime>
+			  {{~ end ~}}
+		  </ValidityPeriod>        
         </DealTerms>
       </Deal>
       {{~ end ~}}
@@ -324,12 +326,16 @@
         <DealTerms>
           <TerritoryCode>{{ country_code }}</TerritoryCode>
           <ValidityPeriod>
-            <StartDate>{{album.takedown_date}}</StartDate>          
-        </ValidityPeriod>  
+			  <StartDateTime>{{ asset.start_date }}T00:00:00+02:00</StartDateTime>
+			  {{~ if asset.takedown_date && (asset.takedown_date | string.strip) != "" ~}}
+			  <EndDateTime>{{ asset.takedown_date }}T00:00:00+02:00</EndDateTime>
+			  {{~ end ~}}
+		  </ValidityPeriod>  
         </DealTerms>
       </Deal>
       {{~ end ~}}
     </ReleaseDeal>
+	  {{~ end ~}}
     {{~ for country_code in album.country_iso_code_list_string ~}}
     <ReleaseDeal>
       <DealReleaseReference>R0</DealReleaseReference>
@@ -337,7 +343,7 @@
         <DealTerms>
           <TerritoryCode>{{ country_code }}</TerritoryCode>
           <ValidityPeriod>
-            <StartDate>{{album.takedown_date}}</StartDate>
+            <StartDate>{{album.start_date}}</StartDate>
           </ValidityPeriod>       
         </DealTerms>
       </Deal>

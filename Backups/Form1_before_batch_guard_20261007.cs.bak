@@ -1318,19 +1318,6 @@ namespace Package_Generator_Service
 
 
 
-                // Every album failed, so no metadata file was written and XMLHASHES - whose only
-                // writer is ComputeMD5(..., 3) further up - is still empty. GenerateBatch reads it
-                // for hash_sum_xml and throws NullReferenceException inside
-                // XMLGenerator.List_Recursion on an empty list, which then escapes this async void
-                // method. Seen on package 11931, whose albums had no album_ubc. The package is
-                // already marked failed by then, so there is nothing to ship anyway.
-                if (XMLHASHES.Count == 0)
-                {
-                    LogMessage(logFilePath, "No metadata written for any album, batch skipped.");
-                    AppendLog("No metadata written for any album, batch skipped.", Color.Red);
-                    return;
-                }
-
                 var xmlGeneratorBatch = new XMLGenerator(connectionString);
                 int firstSlashIndex = PackageFolder.IndexOf('\\');
 
@@ -2050,19 +2037,6 @@ namespace Package_Generator_Service
 
                 // Define the source path for the cover file
                 string sourceCoverDirectory = @"\\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers";
-
-                // An album with no UPC searched for ".jpg" and reported "No cover file found for
-                // UPC: ", which sends whoever reads the log looking for a missing image. The fault
-                // is in the package data - seen on 11931.
-                if (string.IsNullOrWhiteSpace(UPC))
-                {
-                    string noUpc = "Album has no UPC, so no cover can be resolved.";
-                    LogMessage(logFilePath, $"Error: {noUpc}");
-                    LogErrorToDatabase(noUpc, PkgID);
-                    AppendLog(noUpc, Color.Red);
-                    throw new FileNotFoundException(noUpc);
-                }
-
                 string coverSearchPattern = $"{UPC}.jpg";
                 string[] coverFiles = Directory.GetFiles(sourceCoverDirectory, coverSearchPattern);
                 string coverFilePath = Path.Combine(sourceCoverDirectory, coverSearchPattern);

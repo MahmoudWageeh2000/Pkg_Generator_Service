@@ -45,17 +45,14 @@
 				{{~ if has_internal ~}}
 				<ProprietaryId Namespace="PADPIDA2024121603C">{{ party.internal_id }}</ProprietaryId>
 				{{~ end ~}}
-					{{~ if has_facebook ~}}
-				<ProprietaryId Namespace="PADPIDA2018010804X">{{ party.facebook_id }}</ProprietaryId>
-				{{~ end ~}}
 			</PartyId>
-			{{~ end ~}}		
-				{{~ if has_facebook ~}}
-	<ArtistProfilePage>{{ (party.instagram | string.downcase) == "new" ? "NEW" : "https://www.facebook.com/" + party.facebook_id }}</ArtistProfilePage>
-	{{~ end ~}}
+			{{~ end ~}}
+			{{~ if has_facebook ~}}
+			<ArtistProfilePage>{{ (party.instagram | string.downcase) == "new" ? "NEW" : "https://www.facebook.com/" + party.facebook_id }}</ArtistProfilePage>
+			{{~ end ~}}
 			{{~ if has_instagram ~}}
-	<ArtistProfilePage>{{ (party.instagram | string.downcase) == "new" ? "NEW" : "https://www.instagram.com/" + party.instagram }}</ArtistProfilePage>
-	{{~ end ~}}
+			<ArtistProfilePage>{{ (party.instagram | string.downcase) == "new" ? "NEW" : "https://www.instagram.com/" + party.instagram }}</ArtistProfilePage>
+			{{~ end ~}}
 		</Party>
 		{{~ end ~}}
 		{{~ end ~}}
@@ -81,28 +78,6 @@
 					<PLineCompany>PGlobal</PLineCompany>
 					<PLineText>℗ {{ asset.release_year }} {{ asset.label_name }}</PLineText>
 				</PLine>
-				<TechnicalDetails>
-					<TechnicalResourceDetailsReference>T{{ asset.track_num }}</TechnicalResourceDetailsReference>			
-					<DeliveryFile>
-						<Type>AudioFile</Type>
-						<File>
-							<URI>resources/{{ asset.album_ubc }}_{{ asset.track_num }}_{{ asset.track_num }}.flac</URI>
-							<HashSum>
-								<Algorithm>MD5</Algorithm>
-								<HashSumValue>{{ asset.HASH_SUM }}</HashSumValue>
-							</HashSum>
-						</File>
-					</DeliveryFile>
-					<ClipDetails>
-						<TechnicalResourceDetailsReference>T{{ asset.track_num }}C</TechnicalResourceDetailsReference>
-						<ClipType>Preview</ClipType>
-						<Timing>
-							<StartPoint>15</StartPoint>
-							<DurationUsed>PT30S</DurationUsed>
-						</Timing>
-						<ExpressionType>Informative</ExpressionType>
-					</ClipDetails>
-				</TechnicalDetails>
 			</SoundRecordingEdition>
 			<DisplayTitleText>{{ asset.track_name }}</DisplayTitleText>
 			{{~ for country_code in asset.country_iso_code_list_string ~}}
@@ -166,7 +141,7 @@
 					<UseType>UserMakeAvailableUserProvided</UseType>
 				</DelegatedUsageRights>
 			</ResourceRightsController>
-			
+
 			<Duration>PT{{ asset.track_duration }}</Duration>
 			<ParentalWarningType>NotExplicit</ParentalWarningType>
 			<IsInstrumental>false</IsInstrumental>
@@ -180,19 +155,6 @@
 				<ProprietaryId Namespace="PADPIDA2024121603C">PACKSHOT:{{ album.album_ubc }}</ProprietaryId>
 			</ResourceId>
 			<ParentalWarningType>NotExplicit</ParentalWarningType>
-			<TechnicalDetails>
-				<TechnicalResourceDetailsReference>T{{ album.image_num }}</TechnicalResourceDetailsReference>
-				<ImageCodecType>JPEG</ImageCodecType>
-				<ImageHeight>1500</ImageHeight>
-				<ImageWidth>1500</ImageWidth>
-				<File>
-					<URI>resources/{{ album.album_ubc }}.jpg</URI>
-					<HashSum>
-						<Algorithm>MD5</Algorithm>
-						<HashSumValue>{{ album.hash_sum_image }}</HashSumValue>
-					</HashSum>
-				</File>
-			</TechnicalDetails>
 		</Image>
 	</ResourceList>
 	<ReleaseList>
@@ -208,9 +170,9 @@
 			<DisplayTitle LanguageAndScriptCode="en" ApplicableTerritoryCode="Worldwide" IsDefault="true">
 				<TitleText>{{ album.album_name }}</TitleText>
 			</DisplayTitle>
-				<DisplayTitle LanguageAndScriptCode="ar" ApplicableTerritoryCode="Worldwide" IsDefault="false">
+			<DisplayTitle LanguageAndScriptCode="ar" ApplicableTerritoryCode="Worldwide" IsDefault="false">
 				<TitleText>{{ album.album_name_a }}</TitleText>
-			</DisplayTitle>			
+			</DisplayTitle>
 			{{~ for track_artist in album.album_artist_list_string ~}}
 			{{~ for country_code in album.country_iso_code_list_string ~}}
 			<DisplayArtistName ApplicableTerritoryCode="{{ country_code }}" LanguageAndScriptCode="en" IsDefault="true">{{ track_artist.name }}</DisplayArtistName>
@@ -264,7 +226,7 @@
 		{{~ for asset in album.asset_list ~}}
 		<TrackRelease>
 			<ReleaseReference>R{{ asset.track_num }}</ReleaseReference>
-			<ReleaseId>				
+			<ReleaseId>
 				<ProprietaryId Namespace="PADPIDA2024121603C">{{ asset.album_ubc }}_{{ asset.asset_isrc }}_R{{ asset.track_num }}</ProprietaryId>
 			</ReleaseId>
 			<ReleaseResourceReference>A{{ asset.track_num }}</ReleaseResourceReference>
@@ -272,7 +234,6 @@
 			<Genre ApplicableTerritoryCode="Worldwide">
 				<GenreText>{{ asset.track_genre }}</GenreText>
 			</Genre>
-			<ReleaseVisibilityReference>V1</ReleaseVisibilityReference>
 		</TrackRelease>
 		{{~ end ~}}
 	</ReleaseList>
@@ -281,27 +242,39 @@
 			{{~ for asset in album.asset_list ~}}
 			<DealReleaseReference>R{{ asset.track_num }}</DealReleaseReference>
 			{{~ end ~}}
+			{{~ for country_code in album.country_iso_code_list_string ~}}
 			<Deal>
 				<DealTerms>
-					{{~ for country_code in album.country_iso_code_list_string ~}}
 					<TerritoryCode>{{ country_code }}</TerritoryCode>
-					{{~ end ~}}
 					<ValidityPeriod>
-						<StartDateTime>{{ album.start_date }}T00:00:00+02:00</StartDateTime>
+						<StartDate>{{ album.takedown_date }}</StartDate>
 					</ValidityPeriod>
-					<CommercialModelType>RightsClaimModel</CommercialModelType>
-					<UseType>UserMakeAvailableUserProvided</UseType>
-					<UseType>UserMakeAvailableLabelProvided</UseType>
-					<RightsClaimPolicy>
-						<RightsClaimPolicyType>{{ album.right_role }}</RightsClaimPolicyType>
-					</RightsClaimPolicy>
+				</DealTerms>
+			</Deal>
+			{{~ end ~}}
+			{{~ for country_code in album.country_iso_code_list_string ~}}
+			<Deal>
+				<DealTerms>
+					<TerritoryCode>{{ country_code }}</TerritoryCode>
+					<ValidityPeriod>
+						<StartDate>{{ album.takedown_date }}</StartDate>
+					</ValidityPeriod>
+				</DealTerms>
+			</Deal>
+			{{~ end ~}}
+		</ReleaseDeal>
+		{{~ for country_code in album.country_iso_code_list_string ~}}
+		<ReleaseDeal>
+			<DealReleaseReference>R0</DealReleaseReference>
+			<Deal>
+				<DealTerms>
+					<TerritoryCode>{{ country_code }}</TerritoryCode>
+					<ValidityPeriod>
+						<StartDate>{{ album.takedown_date }}</StartDate>
+					</ValidityPeriod>
 				</DealTerms>
 			</Deal>
 		</ReleaseDeal>
-		<TrackReleaseVisibility>
-			<VisibilityReference>V1</VisibilityReference>
-			<TrackListingPreviewStartDateTime>{{ album.start_date }}T00:00:00+02:00</TrackListingPreviewStartDateTime>
-			<ClipPreviewStartDateTime>{{ album.start_date }}T00:00:00+02:00</ClipPreviewStartDateTime>
-		</TrackReleaseVisibility>
+		{{~ end ~}}
 	</DealList>
 </ern:NewReleaseMessage>

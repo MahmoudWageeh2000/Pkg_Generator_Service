@@ -1229,16 +1229,9 @@ namespace Package_Generator_Service
                             }
                             else
                             {
-                                // 4 and 5 ship no files: the stage checked the assets exist and
-                                // computed their hashes, but nothing was written, so "generated"
-                                // would overstate what happened.
-                                string pkgTypeId = PkgType_ID?.ToString();
-                                string mediaMessage = (pkgTypeId == "4" || pkgTypeId == "5")
-                                    ? "Media verified: hashes computed, no files shipped for this package type."
-                                    : "Media data generated successfully.";
-                                LogMessage(logFilePath, mediaMessage);
-                                WriteColoredLine(mediaMessage, ConsoleColor.Green);
-                                AppendLog(mediaMessage, Color.Green);
+                                LogMessage(logFilePath, "Media data generated successfully.");
+                                WriteColoredLine("Media data generated successfully.", ConsoleColor.Green);
+                                AppendLog("Media data generated successfully.", Color.Green);
                             }
                         }
                         catch (Exception ex)
@@ -1317,19 +1310,6 @@ namespace Package_Generator_Service
                 }
 
 
-
-                // Every album failed, so no metadata file was written and XMLHASHES - whose only
-                // writer is ComputeMD5(..., 3) further up - is still empty. GenerateBatch reads it
-                // for hash_sum_xml and throws NullReferenceException inside
-                // XMLGenerator.List_Recursion on an empty list, which then escapes this async void
-                // method. Seen on package 11931, whose albums had no album_ubc. The package is
-                // already marked failed by then, so there is nothing to ship anyway.
-                if (XMLHASHES.Count == 0)
-                {
-                    LogMessage(logFilePath, "No metadata written for any album, batch skipped.");
-                    AppendLog("No metadata written for any album, batch skipped.", Color.Red);
-                    return;
-                }
 
                 var xmlGeneratorBatch = new XMLGenerator(connectionString);
                 int firstSlashIndex = PackageFolder.IndexOf('\\');
@@ -2050,19 +2030,6 @@ namespace Package_Generator_Service
 
                 // Define the source path for the cover file
                 string sourceCoverDirectory = @"\\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers";
-
-                // An album with no UPC searched for ".jpg" and reported "No cover file found for
-                // UPC: ", which sends whoever reads the log looking for a missing image. The fault
-                // is in the package data - seen on 11931.
-                if (string.IsNullOrWhiteSpace(UPC))
-                {
-                    string noUpc = "Album has no UPC, so no cover can be resolved.";
-                    LogMessage(logFilePath, $"Error: {noUpc}");
-                    LogErrorToDatabase(noUpc, PkgID);
-                    AppendLog(noUpc, Color.Red);
-                    throw new FileNotFoundException(noUpc);
-                }
-
                 string coverSearchPattern = $"{UPC}.jpg";
                 string[] coverFiles = Directory.GetFiles(sourceCoverDirectory, coverSearchPattern);
                 string coverFilePath = Path.Combine(sourceCoverDirectory, coverSearchPattern);
@@ -2097,19 +2064,11 @@ namespace Package_Generator_Service
                     LogMessage(logFilePath, $"Sucsses: Computed MD5 hash for: {selectedCoverFile}");
                     if (pkg_type != "4" && pkg_type != "5")
                     {
-                        // Copy the cover file to the destination
                         File.Copy(selectedCoverFile, destinationFilePath, overwrite: true);
-                        LogMessage(logFilePath, $"Sucsses: Copied cover file to: {destinationFilePath}");
-                        AppendLog($"Cover added: {Path.GetFileName(destinationFilePath)}", Color.DarkGreen);
                     }
-                    else
-                    {
-                        // pkg_type 4 and 5 ship no files, so the hash computed above is all the
-                        // metadata needs. Both lines used to sit outside the guard and printed
-                        // "Cover added" naming a file nobody wrote - seen on Takedown package 11871.
-                        LogMessage(logFilePath, $"Package type {pkg_type}: cover hash computed, copy skipped: {selectedCoverFile}");
-                        AppendLog($"Cover hash computed, copy skipped: {Path.GetFileName(selectedCoverFile)}", Color.DarkGreen);
-                    }
+                    // Copy the cover file to the destination
+                    LogMessage(logFilePath, $"Sucsses: Copied cover file to: {destinationFilePath}");
+                    AppendLog($"Cover added: {Path.GetFileName(destinationFilePath)}", Color.DarkGreen);
                 }
                 else
                 {
@@ -2422,12 +2381,8 @@ namespace Package_Generator_Service
                                         string destinationFilePath = Path.Combine(destinationDirectory, destinationFileName);
 
                                         // Copy the file to the new location with the correct name
-                                        // pkg_type 4 and 5 need the asset's hash and size, not the file.
-                                        if (pkg_type != "4" && pkg_type != "5")
-                                        {
-                                            File.Copy(selectedMp3File, destinationFilePath, overwrite: true);
-                                            AppendLog($"Media added: {Path.GetFileName(destinationFilePath)}", Color.DarkGreen);
-                                        }
+                                        File.Copy(selectedMp3File, destinationFilePath, overwrite: true);
+                                        AppendLog($"Media added: {Path.GetFileName(destinationFilePath)}", Color.DarkGreen);
                                     }
 
 
@@ -2557,11 +2512,7 @@ namespace Package_Generator_Service
                                         string destinationFilePath = Path.Combine(destinationDirectory, destinationFileName);
 
                                         // Copy the file to the new location with the correct name
-                                        // pkg_type 4 and 5 need the asset's hash and size, not the file.
-                                        if (pkg_type != "4" && pkg_type != "5")
-                                        {
-                                            File.Copy(selectedWAVFile, destinationFilePath, overwrite: true);
-                                        }
+                                        File.Copy(selectedWAVFile, destinationFilePath, overwrite: true);
                                     }
                                 }
 
@@ -2649,11 +2600,7 @@ namespace Package_Generator_Service
                                         }
 
                                         string destinationFilePath = Path.Combine(destinationDirectory, destinationFileName);
-                                        // pkg_type 4 and 5 need the asset's hash and size, not the file.
-                                        if (pkg_type != "4" && pkg_type != "5")
-                                        {
-                                            File.Copy(filepathMP4, destinationFilePath, overwrite: true);
-                                        }
+                                        File.Copy(filepathMP4, destinationFilePath, overwrite: true);
                                         break;
                                     }
                                 }
@@ -2823,12 +2770,8 @@ namespace Package_Generator_Service
                                             string destinationFilePath = Path.Combine(destinationDirectory, destinationFileName);
 
                                             // Copy the file to the new location with the correct name
-                                            // pkg_type 4 and 5 need the asset's hash and size, not the file.
-                                            if (pkg_type != "4" && pkg_type != "5")
-                                            {
-                                                File.Copy(selectedMp3File, destinationFilePath, overwrite: true);
-                                                AppendLog($"Media added: {Path.GetFileName(destinationFilePath)}", Color.DarkGreen);
-                                            }
+                                            File.Copy(selectedMp3File, destinationFilePath, overwrite: true);
+                                            AppendLog($"Media added: {Path.GetFileName(destinationFilePath)}", Color.DarkGreen);
                                         }
                                     }
                                     else
@@ -2877,12 +2820,8 @@ namespace Package_Generator_Service
                                             string destinationFilePath = Path.Combine(destinationDirectory, destinationFileName);
 
                                             // Copy the file to the new location with the correct name
-                                            // pkg_type 4 and 5 need the asset's hash and size, not the file.
-                                            if (pkg_type != "4" && pkg_type != "5")
-                                            {
-                                                File.Copy(selectedMp3File, destinationFilePath, overwrite: true);
-                                                AppendLog($"Media added: {Path.GetFileName(destinationFilePath)}", Color.DarkGreen);
-                                            }
+                                            File.Copy(selectedMp3File, destinationFilePath, overwrite: true);
+                                            AppendLog($"Media added: {Path.GetFileName(destinationFilePath)}", Color.DarkGreen);
                                         }
 
 
@@ -2927,11 +2866,7 @@ namespace Package_Generator_Service
                                             string destinationFilePath = Path.Combine(destinationDirectory, destinationFileName);
 
                                             // Copy the file to the new location with the correct name
-                                            // pkg_type 4 and 5 need the asset's hash and size, not the file.
-                                            if (pkg_type != "4" && pkg_type != "5")
-                                            {
-                                                File.Copy(selectedWAVFile, destinationFilePath, overwrite: true);
-                                            }
+                                            File.Copy(selectedWAVFile, destinationFilePath, overwrite: true);
                                         }
                                     }
                                     else
@@ -2970,11 +2905,7 @@ namespace Package_Generator_Service
                                             string destinationFilePath = Path.Combine(destinationDirectory, destinationFileName);
 
                                             // Copy the file to the new location with the correct name
-                                            // pkg_type 4 and 5 need the asset's hash and size, not the file.
-                                            if (pkg_type != "4" && pkg_type != "5")
-                                            {
-                                                File.Copy(selectedWAVFile, destinationFilePath, overwrite: true);
-                                            }
+                                            File.Copy(selectedWAVFile, destinationFilePath, overwrite: true);
                                         }
                                     }
 
@@ -3011,11 +2942,7 @@ namespace Package_Generator_Service
                                         string destinationFilePath = Path.Combine(destinationDirectory, destinationFileName);
 
                                         // Copy the file to the new location with the correct name
-                                        // pkg_type 4 and 5 need the asset's hash and size, not the file.
-                                        if (pkg_type != "4" && pkg_type != "5")
-                                        {
-                                            File.Copy(selectedFLACFile, destinationFilePath, overwrite: true);
-                                        }
+                                        File.Copy(selectedFLACFile, destinationFilePath, overwrite: true);
                                     }
 
                                     break;
@@ -3054,11 +2981,7 @@ namespace Package_Generator_Service
                                         string destinationFilePath = Path.Combine(destinationDirectory, destinationFileName);
 
                                         // Copy the file to the new location with the correct name
-                                        // pkg_type 4 and 5 need the asset's hash and size, not the file.
-                                        if (pkg_type != "4" && pkg_type != "5")
-                                        {
-                                            File.Copy(selectedM4AFile, destinationFilePath, overwrite: true);
-                                        }
+                                        File.Copy(selectedM4AFile, destinationFilePath, overwrite: true);
                                     }
 
                                     break;
