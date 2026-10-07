@@ -78,28 +78,6 @@
 					<PLineCompany>PGlobal</PLineCompany>
 					<PLineText>℗ {{ asset.release_year }} {{ asset.label_name }}</PLineText>
 				</PLine>
-				<TechnicalDetails>
-					<TechnicalResourceDetailsReference>T{{ asset.track_num }}</TechnicalResourceDetailsReference>
-					<DeliveryFile>
-						<Type>AudioFile</Type>
-						<File>
-							<URI>resources/{{ asset.album_ubc }}_{{ asset.track_num }}_{{ asset.track_num }}.flac</URI>
-							<HashSum>
-								<Algorithm>MD5</Algorithm>
-								<HashSumValue>{{ asset.HASH_SUM }}</HashSumValue>
-							</HashSum>
-						</File>
-					</DeliveryFile>
-					<ClipDetails>
-						<TechnicalResourceDetailsReference>T{{ asset.track_num }}C</TechnicalResourceDetailsReference>
-						<ClipType>Preview</ClipType>
-						<Timing>
-							<StartPoint>15</StartPoint>
-							<DurationUsed>PT30S</DurationUsed>
-						</Timing>
-						<ExpressionType>Informative</ExpressionType>
-					</ClipDetails>
-				</TechnicalDetails>
 			</SoundRecordingEdition>
 			<DisplayTitleText>{{ asset.track_name }}</DisplayTitleText>
 			{{~ for country_code in asset.country_iso_code_list_string ~}}
@@ -170,27 +148,6 @@
 			<LanguageOfPerformance>en</LanguageOfPerformance>
 		</SoundRecording>
 		{{~ end ~}}
-		<Image>
-			<ResourceReference>A{{ album.image_num }}</ResourceReference>
-			<Type>FrontCoverImage</Type>
-			<ResourceId>
-				<ProprietaryId Namespace="PADPIDA2024121603C">PACKSHOT:{{ album.album_ubc }}</ProprietaryId>
-			</ResourceId>
-			<ParentalWarningType>NotExplicit</ParentalWarningType>
-			<TechnicalDetails>
-				<TechnicalResourceDetailsReference>T{{ album.image_num }}</TechnicalResourceDetailsReference>
-				<ImageCodecType>JPEG</ImageCodecType>
-				<ImageHeight>1500</ImageHeight>
-				<ImageWidth>1500</ImageWidth>
-				<File>
-					<URI>resources/{{ album.album_ubc }}.jpg</URI>
-					<HashSum>
-						<Algorithm>MD5</Algorithm>
-						<HashSumValue>{{ album.hash_sum_image }}</HashSumValue>
-					</HashSum>
-				</File>
-			</TechnicalDetails>
-		</Image>
 	</ResourceList>
 	<ReleaseList>
 		<Release>
@@ -255,7 +212,6 @@
 					<ReleaseResourceReference>A{{ asset.track_num }}</ReleaseResourceReference>
 				</ResourceGroupContentItem>
 				{{~ end ~}}
-				<LinkedReleaseResourceReference>A{{ album.image_num }}</LinkedReleaseResourceReference>
 			</ResourceGroup>
 		</Release>
 		{{~ for asset in album.asset_list ~}}
