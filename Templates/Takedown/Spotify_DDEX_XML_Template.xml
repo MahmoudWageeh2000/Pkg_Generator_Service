@@ -325,7 +325,7 @@
           <TerritoryCode>{{ country_code }}</TerritoryCode>
           <ValidityPeriod>
             <StartDate>{{album.takedown_date}}</StartDate>          
-        </ValidityPeriod>  
+          </ValidityPeriod>  
         </DealTerms>
       </Deal>
       {{~ end ~}}

@@ -83,7 +83,7 @@
 					<DeliveryFile>
 						<Type>AudioFile</Type>
 						<File>
-							<URI>resources/{{ asset.album_ubc }}_{{ asset.track_num }}_{{ asset.track_num }}.flac</URI>
+							<URI>resources/{{ asset.album_ubc }}_1_{{ asset.track_num }}.flac</URI>
 							<HashSum>
 								<Algorithm>MD5</Algorithm>
 								<HashSumValue>{{ asset.HASH_SUM }}</HashSumValue>
