@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Package_Generator_Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+688386b35b97dcc383adb995c21ea8a61ca602df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+106f2a5164a2f283e3f1d725ff3fb77c491bf548")]
 [assembly: System.Reflection.AssemblyProductAttribute("Package_Generator_Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Package_Generator_Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

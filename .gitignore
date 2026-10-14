@@ -1,0 +1,135 @@
+## ---------------------------------------------
+## Build output
+## ---------------------------------------------
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+build/
+bld/
+[Ll]og/
+[Ll]ogs/
+publish/
+
+## ---------------------------------------------
+## Visual Studio / Rider / VS Code
+## ---------------------------------------------
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.csproj.user
+*.vcxproj.user
+*.dbmdl
+*.jfm
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+## ---------------------------------------------
+## Publish profiles (contain local/server paths)
+## ---------------------------------------------
+Properties/PublishProfiles/*.pubxml.user
+*.azurePubxml
+*.pubxml.user
+PublishScripts/
+
+## ---------------------------------------------
+## NuGet
+## ---------------------------------------------
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## ---------------------------------------------
+## Local backups & scratch copies
+## ---------------------------------------------
+Backups/
+*.bak
+*.orig
+*.rej
+*.tmp
+*.temp
+*~
+*.swp
+
+## ---------------------------------------------
+## Runtime logs & reports
+## ---------------------------------------------
+*.log
+*_log.txt
+*.tlog
+*.ldf
+*.mdf
+
+## ---------------------------------------------
+## Test / coverage / profiling
+## ---------------------------------------------
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.coverage
+*.coveragexml
+*.VisualState.xml
+TestResult.xml
+coverage*.json
+coverage*.xml
+BenchmarkDotNet.Artifacts/
+
+## ---------------------------------------------
+## OS cruft
+## ---------------------------------------------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+## ---------------------------------------------
+## Misc
+## ---------------------------------------------
+*.cache
+*.pidb
+*.svclog
+*.scc
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.exp
+
+## ---------------------------------------------
+## Local secrets — uncomment after you have a
+## config.xml.example committed in its place.
+## (config.xml holds a live DB connection string)
+## ---------------------------------------------
+# config.xml
+*.secrets.json
+appsettings.*.local.json
