@@ -978,3 +978,233 @@
 14/10/2026 02:25:00 م: Start Getting Media For package info: 12921
 14/10/2026 02:25:02 م: Media data generated successfully.
 14/10/2026 02:25:02 م: Success: generated XML for package ID: 12921
+14/10/2026 03:19:13 م: Starting XML generation for package ID: 16621, Filename: SnapChat_XML_Template.xml, Company: Snapchat
+14/10/2026 03:19:13 م: Success: fetched package info for ID: 16621
+14/10/2026 03:19:13 م: Processing group with Album UPC: 6221117154781
+14/10/2026 03:19:13 م: Starting GetFolderPaths...
+14/10/2026 03:19:13 م: Fetching package folder for company: Snapchat
+14/10/2026 03:19:13 م: Sucsses: PackageFolder set to: 20261014151913423
+14/10/2026 03:19:13 م: Sucsses: Fetching resources folder for company: Snapchat
+14/10/2026 03:19:13 م: Sucsses: ResourcesFolder set to: 20261014151913423\6221117154781\resources
+14/10/2026 03:19:13 م: Sucsses: Fetching metadata file path for company: Snapchat
+14/10/2026 03:19:13 م: Sucsses: MetadataFile path set to: 20261014151913423\6221117154781\6221117154781.xml
+14/10/2026 03:19:13 م: Sucsses: Final PackageFolder path: 16621_mahmoud.wageeh\20261014151913423
+14/10/2026 03:19:13 م: Sucsses: Final ResourcesFolder path: 16621_mahmoud.wageeh\20261014151913423\6221117154781\resources
+14/10/2026 03:19:13 م: Sucsses: Retrieved folder paths for package: 16621
+14/10/2026 03:19:13 م: Starting GetCover...
+14/10/2026 03:19:14 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117154781.jpg
+14/10/2026 03:19:14 م: Error: No cover file found for UPC: 6221117154781 in \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers
+14/10/2026 03:19:14 م: Error: in GetCover: No cover file found for UPC: 6221117154781
+14/10/2026 03:19:14 م: Error fetching package info: No cover file found for UPC: 6221117154781
+14/10/2026 03:19:14 م: Error: processing Excel file: No Media Found
+14/10/2026 03:19:14 م: No metadata written for any album, batch skipped.
+14/10/2026 03:19:14 م: There is Some errors in The PKG
+14/10/2026 03:19:53 م: Starting XML generation for package ID: 16631, Filename: SnapChat_XML_Template.xml, Company: Snapchat
+14/10/2026 03:19:53 م: Success: fetched package info for ID: 16631
+14/10/2026 03:19:53 م: Processing group with Album UPC: 6221117146915
+14/10/2026 03:19:53 م: Starting GetFolderPaths...
+14/10/2026 03:19:53 م: Fetching package folder for company: Snapchat
+14/10/2026 03:19:53 م: Sucsses: PackageFolder set to: 20261014151914362
+14/10/2026 03:19:53 م: Sucsses: Fetching resources folder for company: Snapchat
+14/10/2026 03:19:53 م: Sucsses: ResourcesFolder set to: 20261014151914362\6221117146915\resources
+14/10/2026 03:19:53 م: Sucsses: Fetching metadata file path for company: Snapchat
+14/10/2026 03:19:53 م: Sucsses: MetadataFile path set to: 20261014151914362\6221117146915\6221117146915.xml
+14/10/2026 03:19:53 م: Sucsses: Final PackageFolder path: 16631_mahmoud.wageeh\20261014151914362
+14/10/2026 03:19:53 م: Sucsses: Final ResourcesFolder path: 16631_mahmoud.wageeh\20261014151914362\6221117146915\resources
+14/10/2026 03:19:53 م: Sucsses: Retrieved folder paths for package: 16631
+14/10/2026 03:19:53 م: Starting GetCover...
+14/10/2026 03:19:53 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117146915.jpg
+14/10/2026 03:19:53 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117146915.jpg
+14/10/2026 03:19:53 م: Sucsses: Created directory: C:\Pkg_Output\snapchat\16631_mahmoud.wageeh\20261014151914362\6221117146915\resources
+14/10/2026 03:19:53 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117146915.jpg
+14/10/2026 03:19:53 م: Sucsses: Copied cover file to: C:\Pkg_Output\snapchat\16631_mahmoud.wageeh\20261014151914362\6221117146915\resources\6221117146915.jpg
+14/10/2026 03:19:53 م: Start Getting Media For package info: 16631
+14/10/2026 03:19:56 م: Media data generated successfully.
+14/10/2026 03:19:56 م: Error: generating XML for package: Incorrect syntax near the keyword from.
+14/10/2026 03:19:56 م: No metadata written for any album, batch skipped.
+14/10/2026 03:19:56 م: There is Some errors in The PKG
+14/10/2026 03:20:59 م: Starting XML generation for package ID: 16641, Filename: SnapChat_XML_Template.xml, Company: Snapchat
+14/10/2026 03:20:59 م: Success: fetched package info for ID: 16641
+14/10/2026 03:20:59 م: Processing group with Album UPC: 6221117146915
+14/10/2026 03:20:59 م: Starting GetFolderPaths...
+14/10/2026 03:20:59 م: Fetching package folder for company: Snapchat
+14/10/2026 03:20:59 م: Sucsses: PackageFolder set to: 20261014152059308
+14/10/2026 03:20:59 م: Sucsses: Fetching resources folder for company: Snapchat
+14/10/2026 03:20:59 م: Sucsses: ResourcesFolder set to: 20261014152059308\6221117146915\resources
+14/10/2026 03:20:59 م: Sucsses: Fetching metadata file path for company: Snapchat
+14/10/2026 03:20:59 م: Sucsses: MetadataFile path set to: 20261014152059308\6221117146915\6221117146915.xml
+14/10/2026 03:20:59 م: Sucsses: Final PackageFolder path: 16641_mahmoud.wageeh\20261014152059308
+14/10/2026 03:20:59 م: Sucsses: Final ResourcesFolder path: 16641_mahmoud.wageeh\20261014152059308\6221117146915\resources
+14/10/2026 03:20:59 م: Sucsses: Retrieved folder paths for package: 16641
+14/10/2026 03:20:59 م: Starting GetCover...
+14/10/2026 03:21:00 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117146915.jpg
+14/10/2026 03:21:00 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117146915.jpg
+14/10/2026 03:21:00 م: Sucsses: Created directory: C:\Pkg_Output\snapchat\16641_mahmoud.wageeh\20261014152059308\6221117146915\resources
+14/10/2026 03:21:00 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117146915.jpg
+14/10/2026 03:21:00 م: Sucsses: Copied cover file to: C:\Pkg_Output\snapchat\16641_mahmoud.wageeh\20261014152059308\6221117146915\resources\6221117146915.jpg
+14/10/2026 03:21:00 م: Start Getting Media For package info: 16641
+14/10/2026 03:21:03 م: Media data generated successfully.
+14/10/2026 03:23:06 م: Starting XML generation for package ID: 16641, Filename: SnapChat_XML_Template.xml, Company: Snapchat
+14/10/2026 03:23:06 م: Success: fetched package info for ID: 16641
+14/10/2026 03:23:06 م: Processing group with Album UPC: 6221117146915
+14/10/2026 03:23:06 م: Starting GetFolderPaths...
+14/10/2026 03:23:06 م: Fetching package folder for company: Snapchat
+14/10/2026 03:23:06 م: Sucsses: PackageFolder set to: 20261014152306739
+14/10/2026 03:23:06 م: Sucsses: Fetching resources folder for company: Snapchat
+14/10/2026 03:23:06 م: Sucsses: ResourcesFolder set to: 20261014152306739\6221117146915\resources
+14/10/2026 03:23:06 م: Sucsses: Fetching metadata file path for company: Snapchat
+14/10/2026 03:23:06 م: Sucsses: MetadataFile path set to: 20261014152306739\6221117146915\6221117146915.xml
+14/10/2026 03:23:06 م: Sucsses: Final PackageFolder path: 16641_mahmoud.wageeh\20261014152306739
+14/10/2026 03:23:06 م: Sucsses: Final ResourcesFolder path: 16641_mahmoud.wageeh\20261014152306739\6221117146915\resources
+14/10/2026 03:23:06 م: Sucsses: Retrieved folder paths for package: 16641
+14/10/2026 03:23:06 م: Starting GetCover...
+14/10/2026 03:23:07 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117146915.jpg
+14/10/2026 03:23:07 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117146915.jpg
+14/10/2026 03:23:07 م: Sucsses: Created directory: C:\Pkg_Output\snapchat\16641_mahmoud.wageeh\20261014152306739\6221117146915\resources
+14/10/2026 03:23:07 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117146915.jpg
+14/10/2026 03:23:07 م: Sucsses: Copied cover file to: C:\Pkg_Output\snapchat\16641_mahmoud.wageeh\20261014152306739\6221117146915\resources\6221117146915.jpg
+14/10/2026 03:23:07 م: Start Getting Media For package info: 16641
+14/10/2026 03:23:10 م: Media data generated successfully.
+14/10/2026 03:23:10 م: Error: generating XML for package: The SELECT permission was denied on the object t_albums_info, database Digital_CMS, schema dbo.
+14/10/2026 03:23:10 م: No metadata written for any album, batch skipped.
+14/10/2026 03:23:10 م: There is Some errors in The PKG
+14/10/2026 03:23:10 م: Starting XML generation for package ID: 16651, Filename: SnapChat_XML_Template.xml, Company: Snapchat
+14/10/2026 03:23:10 م: Success: fetched package info for ID: 16651
+14/10/2026 03:23:10 م: Processing group with Album UPC: 6221117146915
+14/10/2026 03:23:10 م: Starting GetFolderPaths...
+14/10/2026 03:23:10 م: Fetching package folder for company: Snapchat
+14/10/2026 03:23:10 م: Sucsses: PackageFolder set to: 20261014152310664
+14/10/2026 03:23:10 م: Sucsses: Fetching resources folder for company: Snapchat
+14/10/2026 03:23:10 م: Sucsses: ResourcesFolder set to: 20261014152310664\6221117146915\resources
+14/10/2026 03:23:10 م: Sucsses: Fetching metadata file path for company: Snapchat
+14/10/2026 03:23:10 م: Sucsses: MetadataFile path set to: 20261014152310664\6221117146915\6221117146915.xml
+14/10/2026 03:23:10 م: Sucsses: Final PackageFolder path: 16651_mahmoud.wageeh\20261014152310664
+14/10/2026 03:23:10 م: Sucsses: Final ResourcesFolder path: 16651_mahmoud.wageeh\20261014152310664\6221117146915\resources
+14/10/2026 03:23:10 م: Sucsses: Retrieved folder paths for package: 16651
+14/10/2026 03:23:10 م: Starting GetCover...
+14/10/2026 03:23:11 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117146915.jpg
+14/10/2026 03:23:11 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117146915.jpg
+14/10/2026 03:23:11 م: Sucsses: Created directory: C:\Pkg_Output\snapchat\16651_mahmoud.wageeh\20261014152310664\6221117146915\resources
+14/10/2026 03:23:11 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117146915.jpg
+14/10/2026 03:23:11 م: Sucsses: Copied cover file to: C:\Pkg_Output\snapchat\16651_mahmoud.wageeh\20261014152310664\6221117146915\resources\6221117146915.jpg
+14/10/2026 03:23:11 م: Start Getting Media For package info: 16651
+14/10/2026 03:23:14 م: Media data generated successfully.
+14/10/2026 03:23:14 م: Error: generating XML for package: The SELECT permission was denied on the object t_albums_info, database Digital_CMS, schema dbo.
+14/10/2026 03:23:14 م: No metadata written for any album, batch skipped.
+14/10/2026 03:23:14 م: There is Some errors in The PKG
+14/10/2026 03:23:54 م: Starting XML generation for package ID: 16661, Filename: SnapChat_XML_Template.xml, Company: Snapchat
+14/10/2026 03:23:54 م: Success: fetched package info for ID: 16661
+14/10/2026 03:23:54 م: Processing group with Album UPC: 6221117146915
+14/10/2026 03:23:54 م: Starting GetFolderPaths...
+14/10/2026 03:23:54 م: Fetching package folder for company: Snapchat
+14/10/2026 03:23:54 م: Sucsses: PackageFolder set to: 20261014152354419
+14/10/2026 03:23:54 م: Sucsses: Fetching resources folder for company: Snapchat
+14/10/2026 03:23:54 م: Sucsses: ResourcesFolder set to: 20261014152354419\6221117146915\resources
+14/10/2026 03:23:54 م: Sucsses: Fetching metadata file path for company: Snapchat
+14/10/2026 03:23:54 م: Sucsses: MetadataFile path set to: 20261014152354419\6221117146915\6221117146915.xml
+14/10/2026 03:23:54 م: Sucsses: Final PackageFolder path: 16661_mahmoud.wageeh\20261014152354419
+14/10/2026 03:23:54 م: Sucsses: Final ResourcesFolder path: 16661_mahmoud.wageeh\20261014152354419\6221117146915\resources
+14/10/2026 03:23:54 م: Sucsses: Retrieved folder paths for package: 16661
+14/10/2026 03:23:54 م: Starting GetCover...
+14/10/2026 03:23:54 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117146915.jpg
+14/10/2026 03:23:54 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117146915.jpg
+14/10/2026 03:23:54 م: Sucsses: Created directory: C:\Pkg_Output\snapchat\16661_mahmoud.wageeh\20261014152354419\6221117146915\resources
+14/10/2026 03:23:55 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117146915.jpg
+14/10/2026 03:23:55 م: Sucsses: Copied cover file to: C:\Pkg_Output\snapchat\16661_mahmoud.wageeh\20261014152354419\6221117146915\resources\6221117146915.jpg
+14/10/2026 03:23:55 م: Start Getting Media For package info: 16661
+14/10/2026 03:23:57 م: Media data generated successfully.
+14/10/2026 03:23:57 م: Error: generating XML for package: Conversion failed when converting date and/or time from character string.
+14/10/2026 03:23:57 م: No metadata written for any album, batch skipped.
+14/10/2026 03:23:57 م: There is Some errors in The PKG
+14/10/2026 03:24:47 م: Starting XML generation for package ID: 16671, Filename: SnapChat_XML_Template.xml, Company: Snapchat
+14/10/2026 03:24:47 م: Success: fetched package info for ID: 16671
+14/10/2026 03:24:47 م: Processing group with Album UPC: 6221117146915
+14/10/2026 03:24:47 م: Starting GetFolderPaths...
+14/10/2026 03:24:47 م: Fetching package folder for company: Snapchat
+14/10/2026 03:24:47 م: Sucsses: PackageFolder set to: 20261014152447973
+14/10/2026 03:24:47 م: Sucsses: Fetching resources folder for company: Snapchat
+14/10/2026 03:24:47 م: Sucsses: ResourcesFolder set to: 20261014152447973\6221117146915\resources
+14/10/2026 03:24:47 م: Sucsses: Fetching metadata file path for company: Snapchat
+14/10/2026 03:24:47 م: Sucsses: MetadataFile path set to: 20261014152447973\6221117146915\6221117146915.xml
+14/10/2026 03:24:47 م: Sucsses: Final PackageFolder path: 16671_mahmoud.wageeh\20261014152447973
+14/10/2026 03:24:47 م: Sucsses: Final ResourcesFolder path: 16671_mahmoud.wageeh\20261014152447973\6221117146915\resources
+14/10/2026 03:24:47 م: Sucsses: Retrieved folder paths for package: 16671
+14/10/2026 03:24:47 م: Starting GetCover...
+14/10/2026 03:24:48 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117146915.jpg
+14/10/2026 03:24:48 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117146915.jpg
+14/10/2026 03:24:48 م: Sucsses: Created directory: C:\Pkg_Output\snapchat\16671_mahmoud.wageeh\20261014152447973\6221117146915\resources
+14/10/2026 03:24:48 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117146915.jpg
+14/10/2026 03:24:48 م: Sucsses: Copied cover file to: C:\Pkg_Output\snapchat\16671_mahmoud.wageeh\20261014152447973\6221117146915\resources\6221117146915.jpg
+14/10/2026 03:24:48 م: Start Getting Media For package info: 16671
+14/10/2026 03:24:51 م: Media data generated successfully.
+14/10/2026 03:24:51 م: Error: generating XML for package: Conversion failed when converting date and/or time from character string.
+14/10/2026 03:24:51 م: No metadata written for any album, batch skipped.
+14/10/2026 03:24:51 م: There is Some errors in The PKG
+14/10/2026 03:29:54 م: Starting XML generation for package ID: 16681, Filename: SnapChat_XML_Template.xml, Company: Snapchat
+14/10/2026 03:29:54 م: Success: fetched package info for ID: 16681
+14/10/2026 03:29:54 م: Processing group with Album UPC: 6221117146915
+14/10/2026 03:29:54 م: Starting GetFolderPaths...
+14/10/2026 03:29:54 م: Fetching package folder for company: Snapchat
+14/10/2026 03:29:54 م: Sucsses: PackageFolder set to: 20261014152954828
+14/10/2026 03:29:54 م: Sucsses: Fetching resources folder for company: Snapchat
+14/10/2026 03:29:54 م: Sucsses: ResourcesFolder set to: 20261014152954828\6221117146915\resources
+14/10/2026 03:29:54 م: Sucsses: Fetching metadata file path for company: Snapchat
+14/10/2026 03:29:54 م: Sucsses: MetadataFile path set to: 20261014152954828\6221117146915\6221117146915.xml
+14/10/2026 03:29:54 م: Sucsses: Final PackageFolder path: 16681_mahmoud.wageeh\20261014152954828
+14/10/2026 03:29:54 م: Sucsses: Final ResourcesFolder path: 16681_mahmoud.wageeh\20261014152954828\6221117146915\resources
+14/10/2026 03:29:54 م: Sucsses: Retrieved folder paths for package: 16681
+14/10/2026 03:29:54 م: Starting GetCover...
+14/10/2026 03:29:55 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117146915.jpg
+14/10/2026 03:29:55 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117146915.jpg
+14/10/2026 03:29:55 م: Sucsses: Created directory: C:\Pkg_Output\snapchat\16681_mahmoud.wageeh\20261014152954828\6221117146915\resources
+14/10/2026 03:29:55 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117146915.jpg
+14/10/2026 03:29:55 م: Sucsses: Copied cover file to: C:\Pkg_Output\snapchat\16681_mahmoud.wageeh\20261014152954828\6221117146915\resources\6221117146915.jpg
+14/10/2026 03:29:55 م: Start Getting Media For package info: 16681
+14/10/2026 03:29:58 م: Media data generated successfully.
+14/10/2026 03:29:58 م: Error: generating XML for package: Conversion failed when converting date and/or time from character string.
+14/10/2026 03:29:58 م: No metadata written for any album, batch skipped.
+14/10/2026 03:29:58 م: There is Some errors in The PKG
+14/10/2026 03:31:16 م: Starting XML generation for package ID: 16691, Filename: SnapChat_XML_Template.xml, Company: Snapchat
+14/10/2026 03:31:16 م: Success: fetched package info for ID: 16691
+14/10/2026 03:31:16 م: Processing group with Album UPC: 6221117146915
+14/10/2026 03:31:16 م: Starting GetFolderPaths...
+14/10/2026 03:31:16 م: Fetching package folder for company: Snapchat
+14/10/2026 03:31:16 م: Sucsses: PackageFolder set to: 20261014153116841
+14/10/2026 03:31:16 م: Sucsses: Fetching resources folder for company: Snapchat
+14/10/2026 03:31:16 م: Sucsses: ResourcesFolder set to: 20261014153116841\6221117146915\resources
+14/10/2026 03:31:16 م: Sucsses: Fetching metadata file path for company: Snapchat
+14/10/2026 03:31:16 م: Sucsses: MetadataFile path set to: 20261014153116841\6221117146915\6221117146915.xml
+14/10/2026 03:31:16 م: Sucsses: Final PackageFolder path: 16691_mahmoud.wageeh\20261014153116841
+14/10/2026 03:31:16 م: Sucsses: Final ResourcesFolder path: 16691_mahmoud.wageeh\20261014153116841\6221117146915\resources
+14/10/2026 03:31:16 م: Sucsses: Retrieved folder paths for package: 16691
+14/10/2026 03:31:16 م: Starting GetCover...
+14/10/2026 03:31:17 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117146915.jpg
+14/10/2026 03:31:17 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117146915.jpg
+14/10/2026 03:31:17 م: Sucsses: Created directory: C:\Pkg_Output\snapchat\16691_mahmoud.wageeh\20261014153116841\6221117146915\resources
+14/10/2026 03:31:17 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117146915.jpg
+14/10/2026 03:31:17 م: Sucsses: Copied cover file to: C:\Pkg_Output\snapchat\16691_mahmoud.wageeh\20261014153116841\6221117146915\resources\6221117146915.jpg
+14/10/2026 03:31:17 م: Start Getting Media For package info: 16691
+14/10/2026 03:31:20 م: Media data generated successfully.
+14/10/2026 03:31:20 م: Success: generated XML for package ID: 16691
+14/10/2026 03:35:15 م: Starting XML generation for package ID: 16701, Filename: SnapChat_XML_Template.xml, Company: Snapchat
+14/10/2026 03:35:15 م: Success: fetched package info for ID: 16701
+14/10/2026 03:35:15 م: Processing group with Album UPC: 6221117146915
+14/10/2026 03:35:15 م: Starting GetFolderPaths...
+14/10/2026 03:35:15 م: Fetching package folder for company: Snapchat
+14/10/2026 03:35:15 م: Sucsses: PackageFolder set to: 20261014153515543
+14/10/2026 03:35:15 م: Sucsses: Fetching resources folder for company: Snapchat
+14/10/2026 03:35:15 م: Sucsses: ResourcesFolder set to: 20261014153515543\6221117146915\resources
+14/10/2026 03:35:15 م: Sucsses: Fetching metadata file path for company: Snapchat
+14/10/2026 03:35:15 م: Sucsses: MetadataFile path set to: 20261014153515543\6221117146915\6221117146915.xml
+14/10/2026 03:35:15 م: Sucsses: Final PackageFolder path: 16701_mahmoud.wageeh\20261014153515543
+14/10/2026 03:35:15 م: Sucsses: Final ResourcesFolder path: 16701_mahmoud.wageeh\20261014153515543\6221117146915\resources
+14/10/2026 03:35:15 م: Sucsses: Retrieved folder paths for package: 16701
+14/10/2026 03:35:15 م: Starting GetCover...
+14/10/2026 03:35:16 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117146915.jpg
+14/10/2026 03:35:16 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117146915.jpg
+14/10/2026 03:35:16 م: Sucsses: Created directory: C:\Pkg_Output\snapchat\16701_mahmoud.wageeh\20261014153515543\6221117146915\resources
+14/10/2026 03:35:16 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117146915.jpg
+14/10/2026 03:35:16 م: Sucsses: Copied cover file to: C:\Pkg_Output\snapchat\16701_mahmoud.wageeh\20261014153515543\6221117146915\resources\6221117146915.jpg
+14/10/2026 03:35:16 م: Start Getting Media For package info: 16701
+14/10/2026 03:35:19 م: Media data generated successfully.
+14/10/2026 03:35:19 م: Success: generated XML for package ID: 16701

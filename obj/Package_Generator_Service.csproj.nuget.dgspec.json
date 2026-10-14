@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj": {}
+    "C:\\Apps\\Pkg_service_Generator_inc\\Package_Generator_Service.csproj": {}
   },
   "projects": {
-    "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj": {
+    "C:\\Apps\\Pkg_service_Generator_inc\\Package_Generator_Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+        "projectUniqueName": "C:\\Apps\\Pkg_service_Generator_inc\\Package_Generator_Service.csproj",
         "projectName": "Package_Generator_Service",
-        "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
-        "packagesPath": "C:\\Users\\momen.mohsen\\.nuget\\packages\\",
-        "outputPath": "D:\\Apps\\Pkg_Generator_Service\\obj\\",
+        "projectPath": "C:\\Apps\\Pkg_service_Generator_inc\\Package_Generator_Service.csproj",
+        "packagesPath": "C:\\Users\\programmer\\.nuget\\packages\\",
+        "outputPath": "C:\\Apps\\Pkg_service_Generator_inc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\momen.mohsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\programmer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,7 +46,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.400"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0-windows": {
@@ -100,7 +101,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
