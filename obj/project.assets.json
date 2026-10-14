@@ -213,7 +213,7 @@
           }
         }
       },
-      "Microsoft.Identity.Client/4.90.1": {
+      "Microsoft.Identity.Client/4.91.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.IdentityModel.Abstractions": "8.14.0"
@@ -801,10 +801,10 @@
         "version.txt"
       ]
     },
-    "Microsoft.Identity.Client/4.90.1": {
-      "sha512": "GLsf4cfEfIZD4pBkmBc8kCjfE811PKsM29T9nMZQDS2px/buM/Ha8jVYiGPdiA7cqjYNIX+G5d0S12TtGZS6RA==",
+    "Microsoft.Identity.Client/4.91.0": {
+      "sha512": "u+j8hdM/Eez1j0rQVodY+4MRfsLgmsskjMgVkf74xkLWssbW4mqSgz0Tx4H0CJTtrDes00M5s4545rbLN61/uw==",
       "type": "package",
-      "path": "microsoft.identity.client/4.90.1",
+      "path": "microsoft.identity.client/4.91.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -822,7 +822,7 @@
         "lib/net8.0/Microsoft.Identity.Client.xml",
         "lib/netstandard2.0/Microsoft.Identity.Client.dll",
         "lib/netstandard2.0/Microsoft.Identity.Client.xml",
-        "microsoft.identity.client.4.90.1.nupkg.sha512",
+        "microsoft.identity.client.4.91.0.nupkg.sha512",
         "microsoft.identity.client.nuspec"
       ]
     },
@@ -1409,7 +1409,7 @@
   },
   "projectFileDependencyGroups": {
     "net10.0-windows": [
-      "Microsoft.Identity.Client >= 4.90.1",
+      "Microsoft.Identity.Client >= 4.91.0",
       "NPOI >= 2.6.2",
       "OfficeOpenXml.Extension.AspNetCore >= 1.0.0",
       "Scriban >= 5.12.0",
@@ -1472,7 +1472,7 @@
         "dependencies": {
           "Microsoft.Identity.Client": {
             "target": "Package",
-            "version": "[4.90.1, )"
+            "version": "[4.91.0, )"
           },
           "NPOI": {
             "target": "Package",
@@ -2037,6 +2037,46 @@
       "code": "NU1902",
       "level": "Warning",
       "warningLevel": 1,
+      "message": "Package 'SixLabors.ImageSharp' 2.1.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-gwg2-r3hj-4w44",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net10.0-windows"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SixLabors.ImageSharp' 2.1.4 has a known high severity vulnerability, https://github.com/advisories/GHSA-j3p4-wp97-rph4",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net10.0-windows"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SixLabors.ImageSharp' 2.1.4 has a known high severity vulnerability, https://github.com/advisories/GHSA-j9gm-c75j-xc9q",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net10.0-windows"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SixLabors.ImageSharp' 2.1.4 has a known high severity vulnerability, https://github.com/advisories/GHSA-jjfr-hcj7-qf5w",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net10.0-windows"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
       "message": "Package 'SixLabors.ImageSharp' 2.1.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-qxrv-gp6x-rc23",
       "libraryId": "SixLabors.ImageSharp",
       "targetGraphs": [
@@ -2048,6 +2088,16 @@
       "level": "Warning",
       "warningLevel": 1,
       "message": "Package 'SixLabors.ImageSharp' 2.1.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-rxmq-m78w-7wmc",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net10.0-windows"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SixLabors.ImageSharp' 2.1.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-wmxv-xphr-5c9g",
       "libraryId": "SixLabors.ImageSharp",
       "targetGraphs": [
         "net10.0-windows"

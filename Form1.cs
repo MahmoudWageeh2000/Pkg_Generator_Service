@@ -51,15 +51,15 @@ namespace Package_Generator_Service
         private bool CreateExl = true;
 
         private string Full_creatation_date, PackageFolder, ResourcesFolder, MetadataFile, FinalFolder, mediapath, temppackagefolder = "1", BatchFolder, packagesFolderwithoutID;
-        // ---- Update 5/10/2026 output_file_path : START ----
-        ///// <summary>
-        ///// Output folder name per pkg id - "11201_momen" instead of "11201".
-        ///// Filled in Getpkgs from the row the package came from, so no extra query, and keyed by
-        ///// id rather than held in a single field: Generate_xml is async void, so the loop can have
-        ///// a second package in flight before the first one is done.
-        ///// </summary>
-        //private readonly Dictionary<string, string> PkgFolderNames = new Dictionary<string, string>();
-        // ---- Update 5/10/2026 output_file_path : END ----
+
+        /// <summary>
+        /// Output folder name per pkg id - "11201_momen" instead of "11201".
+        /// Filled in Getpkgs from the row the package came from, so no extra query, and keyed by
+        /// id rather than held in a single field: Generate_xml is async void, so the loop can have
+        /// a second package in flight before the first one is done.
+        /// </summary>
+        private readonly Dictionary<string, string> PkgFolderNames = new Dictionary<string, string>();
+
         static string logFolderPath = Path.Combine("..\\..\\..\\", "Logs");
 
         string logFilePath = Path.Combine(logFolderPath, $"{DateTime.Now:yyyy-MM-dd}_log.txt");
@@ -273,12 +273,10 @@ namespace Package_Generator_Service
                 string Deactive_PKGS = "SELECT * FROM packages where status = 0";
                 string PkgId = row["pkg_id"].ToString();
 
-                // ---- Update 5/10/2026 output_file_path : START ----
-                //// packages.user_id is the portal login name, written when the package is saved.
-                //// The SELECT * above already brought it along, so no extra query here.
-                //string pkgUserId = dataTable.Columns.Contains("user_id") ? row["user_id"]?.ToString() : null;
-                //PkgFolderNames[PkgId] = BuildPkgFolderName(PkgId, pkgUserId);
-                // ---- Update 5/10/2026 output_file_path : END ----
+                // packages.user_id is the portal login name, written when the package is saved.
+                // The SELECT * above already brought it along, so no extra query here.
+                string pkgUserId = dataTable.Columns.Contains("user_id") ? row["user_id"]?.ToString() : null;
+                PkgFolderNames[PkgId] = BuildPkgFolderName(PkgId, pkgUserId);
 
                 string storeID = row["store_id"].ToString();
                 string querypkgfile = $"select output_metadata_file_template FROM stores where store_id = {storeID}";
@@ -286,14 +284,12 @@ namespace Package_Generator_Service
                 string companynamequery = $"select store_name from stores where store_id = {storeID}";
                 var Company_Name = db.ExecuteScalar(companynamequery)?.ToString();
 
-                // ---- Update 5/10/2026 output_file_path : START ----
-                //// The real path the package is written to. The portal wrote its expected value at
-                //// Generate time; this is the authoritative one, using the drive the service actually
-                //// runs on (dirction in config.xml).
-                //string outputFolderPath = Path.Combine($"{DirctionFolder}:\\Pkg_Output", Company_Name, PkgFolderName(PkgId));
-                //db.ExecuteNonQuery(
-                //    $"UPDATE packages SET output_file_path = '{outputFolderPath.Replace("'", "''")}' WHERE pkg_id = {PkgId}");
-                // ---- Update 5/10/2026 output_file_path : END ----
+                // The real path the package is written to. The portal wrote its expected value at
+                // Generate time; this is the authoritative one, using the drive the service actually
+                // runs on (dirction in config.xml).
+                string outputFolderPath = Path.Combine($"{DirctionFolder}:\\Pkg_Output", Company_Name, PkgFolderName(PkgId));
+                db.ExecuteNonQuery(
+                    $"UPDATE packages SET output_file_path = '{outputFolderPath.Replace("'", "''")}' WHERE pkg_id = {PkgId}");
 
                 if (pkgfile != null)
                 {
@@ -504,10 +500,7 @@ namespace Package_Generator_Service
         {
             string extensionquery = $"select output_metadata_file_codec from stores where store_name = '{Company_Name}'";
             string extension = db.ExecuteScalar(extensionquery)?.ToString().ToLower();
-            // ---- Update 5/10/2026 output_file_path : START ----
-            //string companyFolderPath = Path.Combine($"{DirctionFolder}://Pkg_Output", Company_Name, PkgFolderName(PkgId));
-            // ---- Update 5/10/2026 output_file_path : END ----
-            string companyFolderPath = Path.Combine($"{DirctionFolder}://Pkg_Output", Company_Name, PkgId);
+            string companyFolderPath = Path.Combine($"{DirctionFolder}://Pkg_Output", Company_Name, PkgFolderName(PkgId));
             if (!Directory.Exists(companyFolderPath))
             {
                 Directory.CreateDirectory(companyFolderPath);
@@ -1111,10 +1104,7 @@ namespace Package_Generator_Service
                     throw new Exception("No rows returned from the query.");
 
                 // Create company folder
-                // ---- Update 5/10/2026 output_file_path : START ----
-                //string companyFolderPath = Path.Combine($"{DirctionFolder}:\\Pkg_Output", Company_Name, PkgFolderName(ID));
-                // ---- Update 5/10/2026 output_file_path : END ----
-                string companyFolderPath = Path.Combine($"{DirctionFolder}:\\Pkg_Output", Company_Name, ID);
+                string companyFolderPath = Path.Combine($"{DirctionFolder}:\\Pkg_Output", Company_Name, PkgFolderName(ID));
                 try
                 {
                     if (!Directory.Exists(companyFolderPath))
@@ -1257,6 +1247,7 @@ namespace Package_Generator_Service
                         // XML generation
                         try
                         {
+                            //YouTube-Sound Rec (Track)-DS
                             if (store_id.ToString() == "40")
                             {
                                 foreach (var item in group)
@@ -1270,6 +1261,27 @@ namespace Package_Generator_Service
                                     // After GetFolderPaths, which is what rewrites MetadataFile per ISRC.
                                     EnsureMetadataFolder(companyFolderPath);
                                     xmlGenerator.Generate($"..\\..\\..\\Templates\\{PkgType_Name}\\" + filename, $"{companyFolderPath}\\" + $"{MetadataFile}", assetHashes, coverHashImage, album_num, ID, tracksize, item.Field<string>("asset_isrc"));
+                                    ComputeMD5($"{companyFolderPath}\\" + $"{MetadataFile}", item.Field<string>("asset_isrc"), 3);
+                                    AppendLog($"Success: Generating in ISRC {item.Field<string>("asset_isrc")}", Color.Green);
+
+                                }
+
+                            }
+                            // YouTube-Sound Rec (Track)-ST
+                            else if (store_id.ToString() == "45")
+                            {
+                                foreach (var item in group)
+                                {
+
+                                    GetFolderPaths(Company_Name, albumUPC, album_artist, album_Title, group, ID, item.Field<string>("asset_isrc"));
+                                    var xmlGenerator = new XMLGenerator(connectionString);
+                                    AppendLog($"Start Generating in ISRC {item.Field<string>("asset_isrc")}", Color.Green);
+                                    SetProgress(90);
+
+                                    // After GetFolderPaths, which is what rewrites MetadataFile per ISRC.
+                                    EnsureMetadataFolder(companyFolderPath);
+                                    xmlGenerator.Generate($"..\\..\\..\\Templates\\{PkgType_Name}\\" + filename, $"{companyFolderPath}\\" + $"{MetadataFile}", assetHashes, coverHashImage, album_num, ID, tracksize, item.Field<string>("asset_isrc"));
+                                    ComputeMD5($"{companyFolderPath}\\" + $"{MetadataFile}", item.Field<string>("asset_isrc"), 3);
                                     AppendLog($"Success: Generating in ISRC {item.Field<string>("asset_isrc")}", Color.Green);
 
                                 }
@@ -1326,6 +1338,7 @@ namespace Package_Generator_Service
                 // already marked failed by then, so there is nothing to ship anyway.
                 if (XMLHASHES.Count == 0)
                 {
+                    LogErrorToDatabase("No metadata written for any album, batch skipped.", ID);
                     LogMessage(logFilePath, "No metadata written for any album, batch skipped.");
                     AppendLog("No metadata written for any album, batch skipped.", Color.Red);
                     return;
@@ -1388,6 +1401,12 @@ namespace Package_Generator_Service
                 string PkgType_Name_query = $"select pkg_type_name from pkg_types_info where pkg_type_id = {PkgType_ID}";
                 object PkgType_Name = db.ExecuteScalar(PkgType_Name_query);
 
+                // Musixmatch (57) is the only .jsonl store that takes the whole package in a single
+                // file, with every track in it. Any other .jsonl vendor keeps the per-album file it
+                // gets today, so the shape is decided by store id and not by the extension.
+                string jsonlStoreIdQuery = $"select store_id from packages where pkg_id = {ID}";
+                bool isMusixmatch = db.ExecuteScalar(jsonlStoreIdQuery)?.ToString() == "57";
+
                 LogMessage(logFilePath, $"Starting JSONL generation for package ID: {ID}, Filename: {filename}, Company: {Company_Name}");
                 AppendLog($"Starting JSONL generation for package ID: {ID}, Filename: {filename}, Company: {Company_Name}", Color.Green);
                 WriteColoredLine($"Starting JSONL generation for package ID: {ID}, Filename: {filename}, Company: {Company_Name}", ConsoleColor.White);
@@ -1419,6 +1438,25 @@ namespace Package_Generator_Service
                     LogMessage(logFilePath, $"Error: fetching package info: {cleanedMessage}");
                 }
 
+                // A lyrics-only vendor has nothing to ship for a track with no lyrics. Report the ISRC and
+                // carry on with the next one instead of failing the package or writing an empty record.
+                // Musixmatch only: no other .jsonl vendor has asked for a track to be dropped.
+                var skippedIsrcs = new List<string>();
+                if (isMusixmatch)
+                {
+                    foreach (DataRow r in dataTable.Rows)
+                    {
+                        if (string.IsNullOrWhiteSpace(r["asset_lyrics"]?.ToString()))
+                        {
+                            string isrc = r["asset_isrc"]?.ToString();
+                            skippedIsrcs.Add(isrc);
+                            AppendLog($"Skipped: ISRC {isrc} has no lyrics", Color.DarkOrange);
+                            LogMessage(logFilePath, $"Skipped: ISRC {isrc} has no lyrics - not written to the JSONL");
+                            WriteColoredLine($"Skipped: ISRC {isrc} has no lyrics", ConsoleColor.Yellow);
+                        }
+                    }
+                }
+
                 var groupedRows = dataTable.AsEnumerable()
                                            .GroupBy(row => row.Field<int>("album_num"))
                                            .ToList();
@@ -1427,10 +1465,7 @@ namespace Package_Generator_Service
                     throw new Exception("No rows returned from the query.");
 
                 // Create company folder
-                // ---- Update 5/10/2026 output_file_path : START ----
-                //string companyFolderPath = Path.Combine($"{DirctionFolder}:\\Pkg_Output", Company_Name, PkgFolderName(ID));
-                // ---- Update 5/10/2026 output_file_path : END ----
-                string companyFolderPath = Path.Combine($"{DirctionFolder}:\\Pkg_Output", Company_Name, ID);
+                string companyFolderPath = Path.Combine($"{DirctionFolder}:\\Pkg_Output", Company_Name, PkgFolderName(ID));
                 try
                 {
                     if (!Directory.Exists(companyFolderPath))
@@ -1518,6 +1553,11 @@ namespace Package_Generator_Service
 
                         SetProgress(80);
 
+                        // Musixmatch takes the whole package in one file, written once after this loop.
+                        // The loop still runs for it, to resolve the output folder and log the albums.
+                        if (isMusixmatch)
+                            continue;
+
                         try
                         {
                             // assetHashes and tracksize go in empty, and the cover hash as null, on
@@ -1549,6 +1589,40 @@ namespace Package_Generator_Service
                         AppendLog(cleanedMessage, Color.Red);
                         LogMessage(logFilePath, $"Error: processing group: {cleanedMessage}");
                         continue; // carry on with the next album if one fails
+                    }
+                }
+
+                // Musixmatch: one file for the whole package, written once now that the output folder
+                // is resolved. album_num 0 tells XMLGenerator to take every track in the package, in
+                // the order the assets were picked, minus the ISRCs reported above.
+                // MetadataFile holds the last album's value, which is the same one for all of them
+                // here - the Musixmatch path carries no ALBUM_UPC. Revisit if that pattern changes.
+                if (isMusixmatch)
+                {
+                    string outputFile = $"{companyFolderPath}\\{MetadataFile}";
+                    try
+                    {
+                        // assetHashes and tracksize go in empty, and the cover hash as null, on
+                        // purpose: this vendor ships no media, and the template asks for no
+                        // checksums, file sizes or artwork.
+                        var jsonlGenerator = new XMLGenerator(connectionString);
+                        jsonlGenerator.excludeIsrcs = skippedIsrcs;
+                        jsonlGenerator.Generate($"..\\..\\..\\Templates\\{PkgType_Name}\\" + filename, outputFile,
+                                                assetHashes, null, 0, ID, tracksize, null);
+                        ComputeMD5(outputFile, groupedRows.First().First().Field<string>("album_ubc"), 3);
+
+                        LogMessage(logFilePath, $"Success: generated JSONL for package ID: {ID}");
+                        AppendLog($"Success: generated JSONL for package ID: {ID}", Color.Green);
+                        WriteColoredLine($"Success: generated JSONL for package ID: {ID}", ConsoleColor.Green);
+                        SetProgress(90);
+                    }
+                    catch (Exception ex)
+                    {
+                        string cleanedMessage = ex.Message.Replace("'", "");
+                        LogErrorToDatabase(cleanedMessage, ID);
+                        LogMessage(logFilePath, $"Error: generating JSONL for package: {cleanedMessage}");
+                        AppendLog(cleanedMessage, Color.Red);
+                        Console.WriteLine($"Error: generating JSONL for package: {cleanedMessage}");
                     }
                 }
 
@@ -1660,10 +1734,7 @@ namespace Package_Generator_Service
                 }
 
                 // Create company folder
-                // ---- Update 5/10/2026 output_file_path : START ----
-                //string companyFolderPath = Path.Combine($"{DirctionFolder}:\\Pkg_Output", Company_Name, PkgFolderName(ID));
-                // ---- Update 5/10/2026 output_file_path : END ----
-                string companyFolderPath = Path.Combine($"{DirctionFolder}:\\Pkg_Output", Company_Name, ID);
+                string companyFolderPath = Path.Combine($"{DirctionFolder}:\\Pkg_Output", Company_Name, PkgFolderName(ID));
                 try
                 {
                     if (!Directory.Exists(companyFolderPath))
@@ -1925,8 +1996,13 @@ namespace Package_Generator_Service
         { "PackageFolder", PackageFolder },
         { "ALBUM_UPC", group.First().Field<string>("album_ubc") },
         { "DATE", DateTimeHelper.formattedDate },
-        { "ISRC", group.First().Field<string>("asset_isrc") },
-         { "ALBUM_ARTIST", group.First().Field<string>("album_artist") },
+        //{ "ISRC", group.First().Field<string>("asset_isrc") },
+        // The isrc parameter was accepted and then thrown away, so {ISRC} always resolved to
+        // the album's first track. Store 40 writes one file per ISRC, so all five rendered to
+        // the same path and the last one won. Falls back to the first row when the caller
+        // passes nothing, which every other store does, so their paths are unchanged.
+        { "ISRC", string.IsNullOrWhiteSpace(isrc) ? group.First().Field<string>("asset_isrc") : isrc },
+        { "ALBUM_ARTIST", group.First().Field<string>("album_artist") },
         { "ALBUM_TITLE",  group.First().Field<string>("album_name") },
         { "ResourcesFolder", ResourcesFolder },
     };
@@ -1960,12 +2036,8 @@ namespace Package_Generator_Service
 
                 //MetadataFile = MetadataFile.Replace("\\", "//");
 
-                // ---- Update 5/10/2026 output_file_path : START ----
-                //PackageFolder = Path.Combine(PkgFolderName(ID), PackageFolder);
-                //ResourcesFolder = Path.Combine(PkgFolderName(ID), ResourcesFolder);
-                // ---- Update 5/10/2026 output_file_path : END ----
-                PackageFolder = Path.Combine(ID, PackageFolder);
-                ResourcesFolder = Path.Combine(ID, ResourcesFolder);
+                PackageFolder = Path.Combine(PkgFolderName(ID), PackageFolder);
+                ResourcesFolder = Path.Combine(PkgFolderName(ID), ResourcesFolder);
 
                 LogMessage(logFilePath, $"Sucsses: Final PackageFolder path: {PackageFolder}");
                 LogMessage(logFilePath, $"Sucsses: Final ResourcesFolder path: {ResourcesFolder}");
@@ -1992,37 +2064,36 @@ namespace Package_Generator_Service
 
 
         }
-        // ---- Update 5/10/2026 output_file_path : START ----
-        ///// <summary>
-        ///// Folder name for a package: the pkg id, plus the user who generated it when
-        ///// packages.user_id carries one.
-        ///// The id stays the first segment so the existing path trimming (GetFolderPaths,
-        ///// packagesFolderwithoutID) keeps working and the folders still sort by id.
-        ///// Must stay identical to PackageOutput.FolderName in DPackagingNEW.
-        ///// </summary>
-        //private string BuildPkgFolderName(string pkgId, string userId)
-        //{
-        //    if (string.IsNullOrWhiteSpace(userId))
-        //        return pkgId;
-        //
-        //    string cleaned = userId.Trim();
-        //    foreach (char invalid in Path.GetInvalidFileNameChars())
-        //        cleaned = cleaned.Replace(invalid, '_');
-        //    cleaned = cleaned.Replace(' ', '_');
-        //
-        //    return string.IsNullOrWhiteSpace(cleaned) ? pkgId : $"{pkgId}_{cleaned}";
-        //}
-        //
-        ///// <summary>
-        ///// The package folder name. With no user recorded it returns the bare id, exactly as before.
-        ///// </summary>
-        //private string PkgFolderName(string pkgId)
-        //{
-        //    return PkgFolderNames.TryGetValue(pkgId, out string folderName) && !string.IsNullOrWhiteSpace(folderName)
-        //        ? folderName
-        //        : pkgId;
-        //}
-        // ---- Update 5/10/2026 output_file_path : END ----
+        /// <summary>
+        /// Folder name for a package: the pkg id, plus the user who generated it when
+        /// packages.user_id carries one.
+        /// The id stays the first segment so the existing path trimming (GetFolderPaths,
+        /// packagesFolderwithoutID) keeps working and the folders still sort by id.
+        /// Must stay identical to PackageOutput.FolderName in DPackagingNEW.
+        /// </summary>
+        private string BuildPkgFolderName(string pkgId, string userId)
+        {
+            if (string.IsNullOrWhiteSpace(userId))
+                return pkgId;
+
+            string cleaned = userId.Trim();
+            foreach (char invalid in Path.GetInvalidFileNameChars())
+                cleaned = cleaned.Replace(invalid, '_');
+            cleaned = cleaned.Replace(' ', '_');
+
+            return string.IsNullOrWhiteSpace(cleaned) ? pkgId : $"{pkgId}_{cleaned}";
+        }
+
+        /// <summary>
+        /// The package folder name. With no user recorded it returns the bare id, exactly as before.
+        /// </summary>
+        private string PkgFolderName(string pkgId)
+        {
+            return PkgFolderNames.TryGetValue(pkgId, out string folderName) && !string.IsNullOrWhiteSpace(folderName)
+                ? folderName
+                : pkgId;
+        }
+
         string ReplacePlaceholders(string input, Dictionary<string, string> values)
         {
             foreach (var key in values.Keys)

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Cd/pk0mEu2U=",
+  "dgSpecHash": "NQwUJdMpCWY=",
   "success": true,
   "projectFilePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
   "expectedPackageFiles": [
@@ -18,7 +18,7 @@
     "C:\\Users\\momen.mohsen\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\5.0.0\\microsoft.extensions.fileproviders.physical.5.0.0.nupkg.sha512",
     "C:\\Users\\momen.mohsen\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\5.0.0\\microsoft.extensions.filesystemglobbing.5.0.0.nupkg.sha512",
     "C:\\Users\\momen.mohsen\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
-    "C:\\Users\\momen.mohsen\\.nuget\\packages\\microsoft.identity.client\\4.90.1\\microsoft.identity.client.4.90.1.nupkg.sha512",
+    "C:\\Users\\momen.mohsen\\.nuget\\packages\\microsoft.identity.client\\4.91.0\\microsoft.identity.client.4.91.0.nupkg.sha512",
     "C:\\Users\\momen.mohsen\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.14.0\\microsoft.identitymodel.abstractions.8.14.0.nupkg.sha512",
     "C:\\Users\\momen.mohsen\\.nuget\\packages\\microsoft.io.recyclablememorystream\\2.3.2\\microsoft.io.recyclablememorystream.2.3.2.nupkg.sha512",
     "C:\\Users\\momen.mohsen\\.nuget\\packages\\microsoft.win32.systemevents\\11.0.0-rc.1.26425.128\\microsoft.win32.systemevents.11.0.0-rc.1.26425.128.nupkg.sha512",
@@ -304,6 +304,54 @@
     {
       "code": "NU1902",
       "level": "Warning",
+      "message": "Package 'SixLabors.ImageSharp' 2.1.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-gwg2-r3hj-4w44",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net10.0-windows"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'SixLabors.ImageSharp' 2.1.4 has a known high severity vulnerability, https://github.com/advisories/GHSA-j3p4-wp97-rph4",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net10.0-windows"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'SixLabors.ImageSharp' 2.1.4 has a known high severity vulnerability, https://github.com/advisories/GHSA-j9gm-c75j-xc9q",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net10.0-windows"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'SixLabors.ImageSharp' 2.1.4 has a known high severity vulnerability, https://github.com/advisories/GHSA-jjfr-hcj7-qf5w",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net10.0-windows"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
       "message": "Package 'SixLabors.ImageSharp' 2.1.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-qxrv-gp6x-rc23",
       "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
       "warningLevel": 1,
@@ -317,6 +365,18 @@
       "code": "NU1902",
       "level": "Warning",
       "message": "Package 'SixLabors.ImageSharp' 2.1.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-rxmq-m78w-7wmc",
+      "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net10.0-windows"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'SixLabors.ImageSharp' 2.1.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-wmxv-xphr-5c9g",
       "projectPath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",
       "warningLevel": 1,
       "filePath": "D:\\Apps\\Pkg_Generator_Service\\Package_Generator_Service.csproj",

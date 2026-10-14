@@ -5,7 +5,7 @@
 		<MessageSender>
 			<PartyId>PADPIDA20131118019</PartyId>
 			<PartyName>
-				<FullName>Mazzika Group</FullName>
+				<FullName>Global</FullName>
 			</PartyName>
 		</MessageSender>
 		<MessageRecipient>
@@ -22,14 +22,14 @@
 			<SoundRecordingType>MusicalWorkSoundRecording</SoundRecordingType>
 			<SoundRecordingId>
 				<ISRC>{{ album.asset_isrc }}</ISRC>
-				<ProprietaryId Namespace="YOUTUBE:SR_ASSET_LABEL">{{ album.label_name }}</ProprietaryId>
+				<ProprietaryId Namespace="YOUTUBE:SR_ASSET_LABEL">{{ album.sr_asset_label }}</ProprietaryId>
 				<ProprietaryId Namespace="YOUTUBE:SR_CUSTOM_ID">{{ album.asset_isrc }}</ProprietaryId>
 			</SoundRecordingId>
-			<ResourceReference>A{{ album.track_num }}</ResourceReference>
+			<ResourceReference>A1</ResourceReference>
 			<ReferenceTitle>
 				<TitleText>{{ album.track_name }}</TitleText>
 			</ReferenceTitle>
-			<Duration>{{ album.youtube_track_duration }}</Duration>
+			<Duration>{{ album.youtube_sr_track_duration }}</Duration>
 			<SoundRecordingDetailsByTerritory>
 				{{~ for country_code in album.country_iso_code_list_string ~}}
 				<TerritoryCode>{{ country_code }}</TerritoryCode>
@@ -37,15 +37,13 @@
 				<Title TitleType="DisplayTitle">
 					<TitleText>{{ album.track_name }}</TitleText>
 				</Title>
-				{{~ seq = 1  ~}}
 				{{~ for track_main_artist in album.track_artist_list_string ~}}
-				<DisplayArtist SequenceNumber="{{seq}}">
+				<DisplayArtist>
 					<PartyName>
 						<FullName>{{ track_main_artist.name }}</FullName>
 					</PartyName>
 					<ArtistRole>MainArtist</ArtistRole>
 				</DisplayArtist>
-				{{~ seq = seq + 1 ~}}
 				{{~ end ~}}
 				{{~ for track_featured_artist in album.track_featured_artist_list_string ~}}
 				<DisplayArtist>
@@ -74,7 +72,7 @@
 				</Genre>
 				<ParentalWarningType>NotExplicit</ParentalWarningType>
 				<TechnicalSoundRecordingDetails>
-					<TechnicalResourceDetailsReference>T{{ album.track_num }}</TechnicalResourceDetailsReference>
+					<TechnicalResourceDetailsReference>T1</TechnicalResourceDetailsReference>
 					<File>
 						<FileName>{{ album.asset_isrc }}.flac</FileName>
 					</File>
@@ -104,20 +102,18 @@
 				<Title TitleType="DisplayTitle">
 					<TitleText>{{album.track_name}}</TitleText>
 				</Title>
-				{{~ seq = 1  ~}}
-				{{~ for album_main_artist in album.album_artist_list_string ~}}
-				<DisplayArtist SequenceNumber="{{seq}}">
+				{{~ for track_main_artist in album.track_artist_list_string ~}}
+				<DisplayArtist>
 					<PartyName>
-						<FullName>{{ album_main_artist.name }}</FullName>
+						<FullName>{{ track_main_artist.name }}</FullName>
 					</PartyName>
 					<ArtistRole>MainArtist</ArtistRole>
 				</DisplayArtist>
-				{{~ seq = seq + 1  ~}}
 				{{~ end ~}}
-				{{~ for album_featured_artist in album.album_featured_artist_list_string ~}}
+				{{~ for track_featured_artist in album.track_featured_artist_list_string ~}}
 				<DisplayArtist>
 					<PartyName>
-						<FullName>{{ album_featured_artist.name }}</FullName>
+						<FullName>{{ track_featured_artist.name }}</FullName>
 					</PartyName>
 					<ArtistRole>FeaturedArtist</ArtistRole>
 				</DisplayArtist>

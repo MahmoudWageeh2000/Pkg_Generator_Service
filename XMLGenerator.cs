@@ -26,7 +26,10 @@ namespace ConsoleApp1
         public TimeSpan album_duration = new TimeSpan(0);
         public bool batch = false;
         public object store_id = "";
-        
+        // Set by the Musixmatch path before Generate: the ISRCs with no lyrics, dropped inside the
+        // 57 branch so the template never sees them. Null for every other store.
+        public List<string> excludeIsrcs = null;
+
         public XMLGenerator(string connectionString)
         {
             db = new DatabaseHelper(connectionString);
@@ -89,7 +92,10 @@ namespace ConsoleApp1
             object album_count = default!;int image_num = 0;
             string store_id_query2 = $"select store_id from packages where pkg_id = {ID}";
             store_id = db.ExecuteScalar(store_id_query2);
-        
+            // Musixmatch (57) is the one store that takes the whole package in a single file, so its
+            // branch has to come before the general one below: that one matches on "not 40" and would
+            // otherwise swallow 57 before it is ever reached.
+            bool isMusixmatch = !batch && store_id.ToString() == "57";
 
 
             if (batch)
@@ -99,7 +105,29 @@ namespace ConsoleApp1
                 string album_count_query = $"select MAX(album_num) from t_packages_info where pkg_id={ID}";
                 album_count = db.ExecuteScalar(album_count_query);
             }
-            else if (!batch && store_id.ToString() != "40") 
+            else if (isMusixmatch)
+            {
+                // album_num 0 means "the whole package": a .jsonl vendor ships one file per package with
+                // every track in it, so there is no per-album slice to take. Ordered by album_num then
+                // track_num - the same order the assets were picked in.
+                string queryAlbum = album_num == 0
+                    ? $"SELECT * FROM t_packages_info WHERE pkg_id = {ID} order by album_num, track_num"
+                    : $"SELECT * FROM t_packages_info WHERE pkg_id = {ID} AND album_num={album_num}  order by album_num";
+                albumTable = db.ExecuteQuery(queryAlbum);
+                // A lyrics-only vendor has nothing to ship for a track with no lyrics; the caller already
+                // reported each ISRC. Removing the rows here also keeps the template's line separator right.
+                if (excludeIsrcs != null && excludeIsrcs.Count > 0)
+                {
+                    foreach (DataRow skipped in albumTable.AsEnumerable()
+                             .Where(r => excludeIsrcs.Contains(r["asset_isrc"]?.ToString())).ToList())
+                        albumTable.Rows.Remove(skipped);
+                }
+
+                if (albumTable.Rows.Count == 0)
+                    throw new Exception("No track in this package has lyrics - nothing to write.");
+            }
+            //else if (!batch && store_id.ToString() != "40") 
+            else if (!batch && store_id.ToString() != "40" && store_id.ToString() != "45")
             {
                 string queryAlbum = $"SELECT * FROM t_packages_info WHERE pkg_id = {ID} AND album_num={album_num}  order by album_num";
                 albumTable = db.ExecuteQuery(queryAlbum);
@@ -110,7 +138,8 @@ namespace ConsoleApp1
                 store_id = db.ExecuteScalar(store_id_query);
 
             }
-            else if (store_id.ToString() =="40")
+            //else if (store_id.ToString() =="40")
+            else if (store_id.ToString() == "40" || store_id.ToString() == "45")
             {
                 string queryAlbum = $"SELECT * FROM t_packages_info WHERE pkg_id = {ID} AND album_num={album_num} AND asset_isrc ='{isrc}'  order by album_num";
                 albumTable = db.ExecuteQuery(queryAlbum);
@@ -142,11 +171,23 @@ namespace ConsoleApp1
                 foreach (var variable in variablesData)
                 {
                     // A missing takedown date must stay empty instead of falling back to today
-                    if (variable == "takedown_date" && string.IsNullOrWhiteSpace(albumTable.Rows[0][variable].ToString()))
+                    if (variable == "takedown_date")
                     {
-                        dataDict[variable] = "";
+                        string takedownDate = albumTable.Rows[0][variable].ToString();
+                        if (string.IsNullOrWhiteSpace(takedownDate))
+                        {
+                            dataDict[variable] = "";
+                        }
+                        else
+                        {
+                            DateTime takedown = new DateTime(
+                                int.Parse(takedownDate.Substring(0, 4)),
+                                int.Parse(takedownDate.Substring(4, 2)),
+                                int.Parse(takedownDate.Substring(6, 2)));
+                            dataDict[variable] = takedown.ToString("yyyy-MM-dd");
+                        }
                     }
-                    if (variable=="release"||variable=="release_year"||variable=="release_date"|| variable == "start_date" || variable == "end_date" || variable == "spotify_release" || variable == "spotify_release_year")
+                    else if (variable=="release"||variable=="release_year"||variable=="release_date"|| variable == "start_date" || variable == "end_date" || variable == "spotify_release" || variable == "spotify_release_year")
                     {
                         string dateString = null;
 
@@ -170,7 +211,7 @@ namespace ConsoleApp1
                         DateTime date = new DateTime(year, month, day);
                         if (variable == "release")
                             dataDict[variable] = date.ToString("ddMMyyyy");
-                        else if (variable == "release_date" || variable == "start_date" || variable == "end_date" || variable == "takedown_date")
+                        else if (variable == "release_date" || variable == "start_date" || variable == "end_date")
                             dataDict[variable] = date.ToString("yyyy-MM-dd");
                         else if (variable == "release_year")
                             dataDict[variable] = date.ToString("yyyy");
@@ -187,6 +228,13 @@ namespace ConsoleApp1
                         TimeSpan time = TrackDurationFormat(duration);
                         album_duration += time;
                         dataDict[variable] = $"PT{time.Hours.ToString("D1")}H{time.Minutes.ToString("D2")}M{time.Seconds.ToString("D2")}S";
+                    }
+                    else if (variable.Contains("youtube_sr_track_duration"))
+                    {
+                        string[] duration = albumTable.Rows[0]["track_duration"].ToString().Split(":");
+                        TimeSpan time = TrackDurationFormat(duration);
+                        album_duration += time;
+                        dataDict[variable] = $"PT{time.Hours.ToString("D2")}H{time.Minutes.ToString("D2")}M{time.Seconds.ToString("D2")}S";
                     }
                     else if (albumTable.Columns.Contains(variable) && !variable.Contains("_list"))
                     {
@@ -411,11 +459,23 @@ namespace ConsoleApp1
                         listDictDict[variable] = cover_hash_sum;
                     }
                     // A missing takedown date must stay empty instead of falling back to today
-                    if (variable == "takedown_date" && string.IsNullOrWhiteSpace(row[variable].ToString()))
+                    if (variable == "takedown_date")
                     {
-                        listDictDict[variable] = "";
+                        string takedownDate = row[variable].ToString();
+                        if (string.IsNullOrWhiteSpace(takedownDate))
+                        {
+                            listDictDict[variable] = "";
+                        }
+                        else
+                        {
+                            DateTime takedown = new DateTime(
+                                int.Parse(takedownDate.Substring(0, 4)),
+                                int.Parse(takedownDate.Substring(4, 2)),
+                                int.Parse(takedownDate.Substring(6, 2)));
+                            listDictDict[variable] = takedown.ToString("yyyy-MM-dd");
+                        }
                     }
-                    if (variable == "release" || variable == "release_year" || variable == "release_date" || variable == "start_date" || variable == "end_date" || variable == "spotify_release_year" || variable == "spotify_release")
+                    else if (variable == "release" || variable == "release_year" || variable == "release_date" || variable == "start_date" || variable == "end_date" || variable == "spotify_release_year" || variable == "spotify_release")
                     {
                         string dateString = null;
 
@@ -441,7 +501,7 @@ namespace ConsoleApp1
                         DateTime date = new DateTime(year, month, day);
                         if (variable == "release")
                             listDictDict[variable] = date.ToString("ddMMyyyy");
-                        else if (variable == "release_date" || variable == "start_date" || variable == "end_date" || variable == "takedown_date")
+                        else if (variable == "release_date" || variable == "start_date" || variable == "end_date")
                             listDictDict[variable] = date.ToString("yyyy-MM-dd");
                         else if (variable == "release_year")
                             listDictDict[variable] = date.ToString("yyyy");
@@ -472,6 +532,13 @@ namespace ConsoleApp1
                         TimeSpan time = TrackDurationFormat(duration);
                         album_duration += time;
                         listDictDict[variable] = $"PT{time.Hours.ToString("D1")}H{time.Minutes.ToString("D2")}M{time.Seconds.ToString("D2")}S";
+                    }
+                    else if (variable.Contains("youtube_sr_track_duration"))
+                    {
+                        string[] duration = row["track_duration"].ToString().Split(":");
+                        TimeSpan time = TrackDurationFormat(duration);
+                        album_duration += time;
+                        listDictDict[variable] = $"PT{time.Hours.ToString("D2")}H{time.Minutes.ToString("D2")}M{time.Seconds.ToString("D2")}S";
                     }
                     else if (dataTable.Columns.Contains(variable) && !variable.Contains("_list"))
                     {

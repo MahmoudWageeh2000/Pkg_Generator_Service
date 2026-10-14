@@ -54,7 +54,7 @@
           "dependencies": {
             "Microsoft.Identity.Client": {
               "target": "Package",
-              "version": "[4.90.1, )"
+              "version": "[4.91.0, )"
             },
             "NPOI": {
               "target": "Package",

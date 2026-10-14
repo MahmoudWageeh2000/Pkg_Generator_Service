@@ -28,7 +28,7 @@
 			</SoundRecordingId>
 			<ResourceReference>A{{ asset.track_num }}</ResourceReference>
 			<ReferenceTitle>
-				<TitleText>{{ asset.track_name }}{{ if (asset.track_name_a | string.strip) != "" }} - {{ asset.track_name_a }}{{ end }}</TitleText>
+				<TitleText>{{ asset.track_name }}{{ if (asset.track_name_a | string.strip) != "" }}{{ if (asset.track_name_a | string.strip | string.downcase) != (asset.track_name | string.strip | string.downcase) }} - {{ asset.track_name_a }}{{ end }}{{ end }}</TitleText>
 			</ReferenceTitle>
 			<IsInstrumental>false</IsInstrumental>
 			<LanguageOfPerformance>en</LanguageOfPerformance>
@@ -38,10 +38,10 @@
 				<TerritoryCode>{{ country_code }}</TerritoryCode>
 				{{~ end ~}}
 				<Title TitleType="FormalTitle">
-					<TitleText>{{ asset.track_name }}{{ if (asset.track_name_a | string.strip) != "" }} - {{ asset.track_name_a }}{{ end }}</TitleText>
+					<TitleText>{{ asset.track_name }}{{ if (asset.track_name_a | string.strip) != "" }}{{ if (asset.track_name_a | string.strip | string.downcase) != (asset.track_name | string.strip | string.downcase) }} - {{ asset.track_name_a }}{{ end }}{{ end }}</TitleText>
 				</Title>
 				<Title TitleType="DisplayTitle">
-					<TitleText>{{ asset.track_name }}{{ if (asset.track_name_a | string.strip) != "" }} - {{ asset.track_name_a }}{{ end }}</TitleText>
+					<TitleText>{{ asset.track_name }}{{ if (asset.track_name_a | string.strip) != "" }}{{ if (asset.track_name_a | string.strip | string.downcase) != (asset.track_name | string.strip | string.downcase) }} - {{ asset.track_name_a }}{{ end }}{{ end }}</TitleText>
 					<SubTitle/>
 				</Title>
 				{{~ for track_artist in asset.track_artist_list_string ~}}
@@ -139,7 +139,7 @@
 			</ReleaseId>
 			<ReleaseReference>R0</ReleaseReference>
 			<ReferenceTitle>
-				<TitleText>{{ album.album_name }}{{ if (album.album_name_a | string.strip) != "" }} - {{ album.album_name_a }}{{ end }}</TitleText>
+				<TitleText>{{ album.album_name }}{{ if (album.album_name_a | string.strip) != "" }}{{ if (album.album_name_a | string.strip | string.downcase) != (album.album_name | string.strip | string.downcase) }} - {{ album.album_name_a }}{{ end }}{{ end }}</TitleText>
 			</ReferenceTitle>
 			<ReleaseResourceReferenceList>
 				{{~ for asset in album.asset_list ~}}
@@ -155,10 +155,10 @@
 				<DisplayArtistName>{{album.album_artist}}</DisplayArtistName>
 				<LabelName>{{ album.label_name }}</LabelName>
 				<Title TitleType="FormalTitle">
-					<TitleText>{{ album.album_name }}{{ if (album.album_name_a | string.strip) != "" }} - {{ album.album_name_a }}{{ end }}</TitleText>
+					<TitleText>{{ album.album_name }}{{ if (album.album_name_a | string.strip) != "" }}{{ if (album.album_name_a | string.strip | string.downcase) != (album.album_name | string.strip | string.downcase) }} - {{ album.album_name_a }}{{ end }}{{ end }}</TitleText>
 				</Title>
 				<Title TitleType="DisplayTitle">
-					<TitleText>{{ album.album_name }}{{ if (album.album_name_a | string.strip) != "" }} - {{ album.album_name_a }}{{ end }}</TitleText>
+					<TitleText>{{ album.album_name }}{{ if (album.album_name_a | string.strip) != "" }}{{ if (album.album_name_a | string.strip | string.downcase) != (album.album_name | string.strip | string.downcase) }} - {{ album.album_name_a }}{{ end }}{{ end }}</TitleText>
 				</Title>
 				{{~ for album_artist in album.album_artist_list_string ~}}
 				<DisplayArtist>
@@ -193,7 +193,7 @@
 					<GenreText>{{ album.track_genre }}</GenreText>
 				</Genre>
 				<OriginalReleaseDate>{{ album.release_date }}</OriginalReleaseDate>
-				<Keywords>{{ album.track_genre }},{{ album.album_name }}{{ if (album.album_name_a | string.strip) != "" }},{{ album.album_name_a }}{{ end }},{{ album.album_artist }}</Keywords>
+				<Keywords>{{ album.track_genre }},{{ album.album_name }}{{ if (album.album_name_a | string.strip) != "" }}{{ if (album.album_name_a | string.strip | string.downcase) != (album.album_name | string.strip | string.downcase) }},{{ album.album_name_a }}{{ end }}{{ end }},{{ album.album_artist }}</Keywords>
 			</ReleaseDetailsByTerritory>
 			<PLine>
 				<Year>{{ album.release_year }}</Year>
@@ -211,7 +211,7 @@
 			</ReleaseId>
 			<ReleaseReference>R{{ asset.track_num }}</ReleaseReference>
 			<ReferenceTitle>
-				<TitleText>{{ asset.track_name }}{{ if (asset.track_name_a | string.strip) != "" }} - {{ asset.track_name_a }}{{ end }}</TitleText>
+				<TitleText>{{ asset.track_name }}{{ if (asset.track_name_a | string.strip) != "" }}{{ if (asset.track_name_a | string.strip | string.downcase) != (asset.track_name | string.strip | string.downcase) }} - {{ asset.track_name_a }}{{ end }}{{ end }}</TitleText>
 			</ReferenceTitle>
 			<ReleaseResourceReferenceList>
 				<ReleaseResourceReference ReleaseResourceType="PrimaryResource">A{{asset.track_num}}</ReleaseResourceReference>
@@ -224,10 +224,10 @@
 				<DisplayArtistName>{{ asset.track_artist }}</DisplayArtistName>
 				<LabelName>{{ asset.label_name }}</LabelName>
 				<Title TitleType="FormalTitle">
-					<TitleText>{{ asset.track_name }}{{ if (asset.track_name_a | string.strip) != "" }} - {{ asset.track_name_a }}{{ end }}</TitleText>
+					<TitleText>{{ asset.track_name }}{{ if (asset.track_name_a | string.strip) != "" }}{{ if (asset.track_name_a | string.strip | string.downcase) != (asset.track_name | string.strip | string.downcase) }} - {{ asset.track_name_a }}{{ end }}{{ end }}</TitleText>
 				</Title>
 				<Title TitleType="DisplayTitle">
-					<TitleText>{{ asset.track_name }}{{ if (asset.track_name_a | string.strip) != "" }} - {{ asset.track_name_a }}{{ end }}</TitleText>
+					<TitleText>{{ asset.track_name }}{{ if (asset.track_name_a | string.strip) != "" }}{{ if (asset.track_name_a | string.strip | string.downcase) != (asset.track_name | string.strip | string.downcase) }} - {{ asset.track_name_a }}{{ end }}{{ end }}</TitleText>
 				</Title>
 				{{~ for track_artist in asset.track_artist_list_string ~}}
 				<DisplayArtist>
@@ -301,7 +301,7 @@
 					<GenreText>{{ asset.track_genre }}</GenreText>
 				</Genre>
 				<OriginalReleaseDate>{{ asset.release_date }}</OriginalReleaseDate>
-				<Keywords>{{ asset.track_genre }},{{ asset.track_name }}{{ if (asset.track_name_a | string.strip) != "" }},{{ asset.track_name_a }}{{ end }},{{ asset.track_artist }}</Keywords>
+				<Keywords>{{ asset.track_genre }},{{ asset.track_name }}{{ if (asset.track_name_a | string.strip) != "" }}{{ if (asset.track_name_a | string.strip | string.downcase) != (asset.track_name | string.strip | string.downcase) }},{{ asset.track_name_a }}{{ end }}{{ end }},{{ asset.track_artist }}</Keywords>
 			</ReleaseDetailsByTerritory>
 			<LanguageOfPerformance>en</LanguageOfPerformance>
 			<PLine>

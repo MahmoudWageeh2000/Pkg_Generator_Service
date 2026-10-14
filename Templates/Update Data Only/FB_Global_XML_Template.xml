@@ -139,6 +139,11 @@
 				<RightSharePercentage>100.00</RightSharePercentage>
 				<DelegatedUsageRights>
 					<UseType>UserMakeAvailableUserProvided</UseType>
+					{{ if album.country_iso_code_list_string != empty && (album.country_iso_code_list_string | array.size) > 1 }}
+					{{~ for country_code in album.country_iso_code_list_string ~}}
+					<TerritoryOfRightsDelegation>{{ country_code }}</TerritoryOfRightsDelegation>
+					{{~ end ~}}
+					{{ end }}
 				</DelegatedUsageRights>
 			</ResourceRightsController>
 

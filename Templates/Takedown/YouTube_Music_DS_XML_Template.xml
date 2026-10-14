@@ -9,7 +9,7 @@
         <MessageSender>
             <PartyId>PADPIDA20131118019</PartyId>
             <PartyName>
-                <FullName>Global Sound</FullName>
+                <FullName>Global</FullName>
             </PartyName>
         </MessageSender>
         <MessageRecipient>
@@ -34,7 +34,7 @@
             <ReferenceTitle LanguageAndScriptCode="en">
                 <TitleText>{{ asset.track_name }}</TitleText>
             </ReferenceTitle>
-            <Duration>{{ asset.youtube_track_duration }}</Duration>
+            <Duration>{{ asset.youtube_sr_track_duration }}</Duration>
             <SoundRecordingDetailsByTerritory>
               {{~ for country_code in asset.country_iso_code_list_string ~}}
               <TerritoryCode>{{ country_code }}</TerritoryCode>
@@ -45,13 +45,15 @@
                 <Title LanguageAndScriptCode="en" TitleType="DisplayTitle">
                     <TitleText>{{ asset.track_name }}</TitleText>
                 </Title>
-              {{~ for track_main_artist in asset.track_artist_list_string ~}}
-              <DisplayArtist SequenceNumber="1">
-                <PartyName>
+			  {{~ seq = 1 ~}}
+			  {{~ for track_main_artist in asset.track_artist_list_string ~}}
+      	      <DisplayArtist SequenceNumber="{{ seq }}">
+              <PartyName>
                   <FullName>{{ track_main_artist.name }}</FullName>
-                </PartyName>
-                <ArtistRole>MainArtist</ArtistRole>
+              </PartyName>
+              <ArtistRole>MainArtist</ArtistRole>
               </DisplayArtist>
+			  {{~ seq = seq + 1 ~}}
               {{~ end ~}}
               {{~ for track_featured_artist in asset.track_featured_artist_list_string ~}}
               <DisplayArtist>
@@ -98,8 +100,8 @@
             </ReferenceTitle>
             <ReleaseResourceReferenceList>
               {{~ for asset in album.asset_list ~}}
-              <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A{{ asset.asset_num}}</ReleaseResourceReference>
-              {{~end~}}
+              <ReleaseResourceReference ReleaseResourceType="PrimaryResource">A{{ asset.track_num }}</ReleaseResourceReference>
+              {{~ end ~}}
               <ReleaseResourceReference ReleaseResourceType="SecondaryResource">A{{ album.image_num }}</ReleaseResourceReference>
             </ReleaseResourceReferenceList>
             <ReleaseType>{{album.release_type}}</ReleaseType>
@@ -159,7 +161,7 @@
                 </Genre>
                 <ReleaseDate>{{ album.release_date }}</ReleaseDate>
               </ReleaseDetailsByTerritory>
-              <Duration>{{ album.youtube_track_duration }}</Duration>
+              <Duration>{{ album.album_duration }}</Duration>
           <PLine>
             <Year>{{ album.release_year }}</Year>
             <PLineText>(P) {{ album.release_year }} {{ album.label_name }}</PLineText>
@@ -184,23 +186,25 @@
               <TerritoryCode>{{ country_code }}</TerritoryCode>
               {{~ end ~}}
               <DisplayArtistName>{{asset.track_artist}}</DisplayArtistName>
-              <LabelName LabelNameType="DisplayLabelName">{{asset.label_anme}}</LabelName>
+              <LabelName LabelNameType="DisplayLabelName">{{ asset.label_name }}</LabelName>
               <Title LanguageAndScriptCode="en" TitleType="FormalTitle">
                 <TitleText>{{asset.track_name}}</TitleText>
               </Title>
               <Title LanguageAndScriptCode="en" TitleType="DisplayTitle">
                 <TitleText>{{asset.track_name}}</TitleText>
               </Title>
-              {{~ for track_main_artist in asset.track_artist_list_string ~}}
-              <DisplayArtist SequenceNumber="1">
+				{{~ seq = 1 ~}}
+				{{~ for track_main_artist in asset.track_artist_list_string ~}}
+				<DisplayArtist SequenceNumber="{{ seq }}">
                 <PartyName>
                   <FullName>{{ track_main_artist.name }}</FullName>
                 </PartyName>
                 <ArtistRole>MainArtist</ArtistRole>
               </DisplayArtist>
-              {{~ end ~}}
-              {{~ for track_featured_artist in asset.track_featured_artist_list_string ~}}
-              <DisplayArtist>
+				{{~ seq = seq + 1 ~}}
+				{{~ end ~}}
+				{{~ for track_featured_artist in asset.track_featured_artist_list_string ~}}
+				<DisplayArtist>
                 <PartyName>
                   <FullName>{{ track_featured_artist.name }}</FullName>
                 </PartyName>
@@ -212,7 +216,7 @@
                   <GenreText>{{asset.track_genre}}</GenreText>
                 </Genre>
               </ReleaseDetailsByTerritory>
-              <Duration>{{ asset.youtube_track_duration }}</Duration>
+              <Duration>{{ asset.youtube_sr_track_duration }}</Duration>
               <PLine>
                 <Year>{{ asset.release_year }}</Year>
                 <PLineText>(P) {{ asset.release_year }} {{ asset.label_name }}</PLineText>
@@ -234,7 +238,7 @@
                     </Usage>
                     <TerritoryCode>{{ country_code }}</TerritoryCode>
                     <ValidityPeriod>
-                        <EndDate>{{asset.takedown_date}}</EndDate>
+                        <EndDate>{{ asset.takedown_date }}</EndDate>
                     </ValidityPeriod>
                 </DealTerms>
             </Deal>

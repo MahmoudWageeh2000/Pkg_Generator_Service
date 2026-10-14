@@ -1,0 +1,980 @@
+14/10/2026 10:47:42 ص: Starting XML generation for package ID: 12761, Filename: Spotify_DDEX_XML_Template.xml, Company: Spotify
+14/10/2026 10:47:42 ص: Success: fetched package info for ID: 12761
+14/10/2026 10:47:42 ص: Processing group with Album UPC: 6221117203441
+14/10/2026 10:47:42 ص: Starting GetFolderPaths...
+14/10/2026 10:47:42 ص: Fetching package folder for company: Spotify
+14/10/2026 10:47:42 ص: Sucsses: PackageFolder set to: 20261014104742594
+14/10/2026 10:47:42 ص: Sucsses: Fetching resources folder for company: Spotify
+14/10/2026 10:47:42 ص: Sucsses: ResourcesFolder set to: 20261014104742594\6221117203441\resources
+14/10/2026 10:47:42 ص: Sucsses: Fetching metadata file path for company: Spotify
+14/10/2026 10:47:42 ص: Sucsses: MetadataFile path set to: 20261014104742594\6221117203441\6221117203441.xml
+14/10/2026 10:47:42 ص: Sucsses: Final PackageFolder path: 12761\20261014104742594
+14/10/2026 10:47:42 ص: Sucsses: Final ResourcesFolder path: 12761\20261014104742594\6221117203441\resources
+14/10/2026 10:47:42 ص: Sucsses: Retrieved folder paths for package: 12761
+14/10/2026 10:47:42 ص: Starting GetCover...
+14/10/2026 10:47:42 ص: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 10:47:42 ص: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 10:47:42 ص: Sucsses: Created directory: C:\Pkg_Output\spotify\12761\20261014104742594\6221117203441\resources
+14/10/2026 10:47:42 ص: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 10:47:42 ص: Package type 5: cover hash computed, copy skipped: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 10:47:42 ص: Start Getting Media For package info: 12761
+14/10/2026 10:47:44 ص: Media verified: hashes computed, no files shipped for this package type.
+14/10/2026 10:47:44 ص: Success: generated XML for package ID: 12761
+14/10/2026 10:48:48 ص: Starting XML generation for package ID: 12771, Filename: TikTok_DDEX_XML_Template.xml, Company: TikTok
+14/10/2026 10:48:48 ص: Success: fetched package info for ID: 12771
+14/10/2026 10:48:48 ص: Processing group with Album UPC: 6221117203441
+14/10/2026 10:48:48 ص: Starting GetFolderPaths...
+14/10/2026 10:48:48 ص: Fetching package folder for company: TikTok
+14/10/2026 10:48:48 ص: Sucsses: PackageFolder set to: batch_20261014104744
+14/10/2026 10:48:48 ص: Sucsses: Fetching resources folder for company: TikTok
+14/10/2026 10:48:48 ص: Sucsses: ResourcesFolder set to: batch_20261014104744\6221117203441\resources
+14/10/2026 10:48:48 ص: Sucsses: Fetching metadata file path for company: TikTok
+14/10/2026 10:48:48 ص: Sucsses: MetadataFile path set to: batch_20261014104744\6221117203441\6221117203441.xml
+14/10/2026 10:48:48 ص: Sucsses: Final PackageFolder path: 12771\batch_20261014104744
+14/10/2026 10:48:48 ص: Sucsses: Final ResourcesFolder path: 12771\batch_20261014104744\6221117203441\resources
+14/10/2026 10:48:48 ص: Sucsses: Retrieved folder paths for package: 12771
+14/10/2026 10:48:48 ص: Starting GetCover...
+14/10/2026 10:48:48 ص: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 10:48:48 ص: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 10:48:48 ص: Sucsses: Created directory: C:\Pkg_Output\tiktok\12771\batch_20261014104744\6221117203441\resources
+14/10/2026 10:48:48 ص: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 10:48:48 ص: Package type 5: cover hash computed, copy skipped: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 10:48:48 ص: Start Getting Media For package info: 12771
+14/10/2026 10:48:50 ص: Media verified: hashes computed, no files shipped for this package type.
+14/10/2026 10:48:51 ص: Success: generated XML for package ID: 12771
+14/10/2026 11:28:33 ص: Starting XML generation for package ID: 12781, Filename: YouTube_Music_DS_XML_Template.xml, Company: YouTube-Music-DS
+14/10/2026 11:28:33 ص: Success: fetched package info for ID: 12781
+14/10/2026 11:28:33 ص: Processing group with Album UPC: 6221117203441
+14/10/2026 11:28:33 ص: Starting GetFolderPaths...
+14/10/2026 11:28:33 ص: Fetching package folder for company: YouTube-Music-DS
+14/10/2026 11:28:33 ص: Sucsses: PackageFolder set to: 20261014104851529
+14/10/2026 11:28:33 ص: Sucsses: Fetching resources folder for company: YouTube-Music-DS
+14/10/2026 11:28:33 ص: Sucsses: ResourcesFolder set to: 20261014104851529\6221117203441\resources
+14/10/2026 11:28:33 ص: Sucsses: Fetching metadata file path for company: YouTube-Music-DS
+14/10/2026 11:28:33 ص: Sucsses: MetadataFile path set to: 20261014104851529\6221117203441\6221117203441.xml
+14/10/2026 11:28:33 ص: Sucsses: Final PackageFolder path: 12781\20261014104851529
+14/10/2026 11:28:33 ص: Sucsses: Final ResourcesFolder path: 12781\20261014104851529\6221117203441\resources
+14/10/2026 11:28:33 ص: Sucsses: Retrieved folder paths for package: 12781
+14/10/2026 11:28:33 ص: Starting GetCover...
+14/10/2026 11:28:33 ص: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:28:33 ص: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:28:33 ص: Sucsses: Created directory: C:\Pkg_Output\youtube-music-ds\12781\20261014104851529\6221117203441\resources
+14/10/2026 11:28:34 ص: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:28:34 ص: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-ds\12781\20261014104851529\6221117203441\resources\6221117203441.jpg
+14/10/2026 11:28:34 ص: Start Getting Media For package info: 12781
+14/10/2026 11:28:37 ص: Starting GetCover...
+14/10/2026 11:28:37 ص: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:28:37 ص: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:28:37 ص: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:28:37 ص: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-ds\12781\20261014104851529\6221117203441\resources\6221117203441.jpg
+14/10/2026 11:28:37 ص: Start Getting Media For package info: 12781
+14/10/2026 11:28:41 ص: Starting GetCover...
+14/10/2026 11:28:41 ص: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:28:41 ص: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:28:41 ص: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:28:41 ص: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-ds\12781\20261014104851529\6221117203441\resources\6221117203441.jpg
+14/10/2026 11:28:41 ص: Start Getting Media For package info: 12781
+14/10/2026 11:28:45 ص: Starting GetCover...
+14/10/2026 11:28:45 ص: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:28:45 ص: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:28:45 ص: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:28:45 ص: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-ds\12781\20261014104851529\6221117203441\resources\6221117203441.jpg
+14/10/2026 11:28:45 ص: Start Getting Media For package info: 12781
+14/10/2026 11:28:48 ص: Starting GetCover...
+14/10/2026 11:28:49 ص: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:28:49 ص: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:28:49 ص: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:28:49 ص: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-ds\12781\20261014104851529\6221117203441\resources\6221117203441.jpg
+14/10/2026 11:28:49 ص: Start Getting Media For package info: 12781
+14/10/2026 11:28:52 ص: Media data generated successfully.
+14/10/2026 11:28:52 ص: Success: generated XML for package ID: 12781
+14/10/2026 11:28:52 ص: Starting XML generation for package ID: 12791, Filename: YouTube_Music_ST_XML_Template.xml, Company: YouTube-Music-ST
+14/10/2026 11:28:52 ص: Success: fetched package info for ID: 12791
+14/10/2026 11:28:52 ص: Processing group with Album UPC: 6221117203441
+14/10/2026 11:28:52 ص: Starting GetFolderPaths...
+14/10/2026 11:28:52 ص: Fetching package folder for company: YouTube-Music-ST
+14/10/2026 11:28:52 ص: Sucsses: PackageFolder set to: 20261014112852251
+14/10/2026 11:28:52 ص: Sucsses: Fetching resources folder for company: YouTube-Music-ST
+14/10/2026 11:28:52 ص: Sucsses: ResourcesFolder set to: 20261014112852251\6221117203441\resources
+14/10/2026 11:28:52 ص: Sucsses: Fetching metadata file path for company: YouTube-Music-ST
+14/10/2026 11:28:52 ص: Sucsses: MetadataFile path set to: 20261014112852251\6221117203441\6221117203441.xml
+14/10/2026 11:28:52 ص: Sucsses: Final PackageFolder path: 12791\20261014112852251
+14/10/2026 11:28:52 ص: Sucsses: Final ResourcesFolder path: 12791\20261014112852251\6221117203441\resources
+14/10/2026 11:28:52 ص: Sucsses: Retrieved folder paths for package: 12791
+14/10/2026 11:28:52 ص: Starting GetCover...
+14/10/2026 11:28:52 ص: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:28:52 ص: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:28:52 ص: Sucsses: Created directory: C:\Pkg_Output\youtube-music-st\12791\20261014112852251\6221117203441\resources
+14/10/2026 11:28:52 ص: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:28:52 ص: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-st\12791\20261014112852251\6221117203441\resources\6221117203441.jpg
+14/10/2026 11:28:52 ص: Start Getting Media For package info: 12791
+14/10/2026 11:28:56 ص: Starting GetCover...
+14/10/2026 11:28:56 ص: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:28:56 ص: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:28:56 ص: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:28:56 ص: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-st\12791\20261014112852251\6221117203441\resources\6221117203441.jpg
+14/10/2026 11:28:56 ص: Start Getting Media For package info: 12791
+14/10/2026 11:29:00 ص: Starting GetCover...
+14/10/2026 11:29:00 ص: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:29:00 ص: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:29:00 ص: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:29:00 ص: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-st\12791\20261014112852251\6221117203441\resources\6221117203441.jpg
+14/10/2026 11:29:00 ص: Start Getting Media For package info: 12791
+14/10/2026 11:29:04 ص: Starting GetCover...
+14/10/2026 11:29:04 ص: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:29:04 ص: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:29:04 ص: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:29:04 ص: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-st\12791\20261014112852251\6221117203441\resources\6221117203441.jpg
+14/10/2026 11:29:04 ص: Start Getting Media For package info: 12791
+14/10/2026 11:29:07 ص: Starting GetCover...
+14/10/2026 11:29:07 ص: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:29:07 ص: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:29:07 ص: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 11:29:07 ص: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-st\12791\20261014112852251\6221117203441\resources\6221117203441.jpg
+14/10/2026 11:29:07 ص: Start Getting Media For package info: 12791
+14/10/2026 11:29:10 ص: Media data generated successfully.
+14/10/2026 11:29:10 ص: Success: generated XML for package ID: 12791
+14/10/2026 11:29:10 ص: Starting XML generation for package ID: 12801, Filename: YouTube_SndRec_ST_Track_XML_Template.xml, Company: YouTube-Sound Rec (Track)-ST
+14/10/2026 11:29:10 ص: Success: fetched package info for ID: 12801
+14/10/2026 11:29:10 ص: Processing group with Album UPC: 6221117203441
+14/10/2026 11:29:10 ص: Starting GetFolderPaths...
+14/10/2026 11:29:10 ص: Fetching package folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 11:29:10 ص: Sucsses: PackageFolder set to: 20261014112910581
+14/10/2026 11:29:10 ص: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 11:29:10 ص: Sucsses: ResourcesFolder set to: 20261014112910581\@[ISRC]@\resources
+14/10/2026 11:29:10 ص: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 11:29:10 ص: Sucsses: MetadataFile path set to: 20261014112910581\EGA012502323\EGA012502323.xml
+14/10/2026 11:29:10 ص: Sucsses: Final PackageFolder path: 12801\20261014112910581
+14/10/2026 11:29:10 ص: Sucsses: Final ResourcesFolder path: 12801\20261014112910581\@[ISRC]@\resources
+14/10/2026 11:29:10 ص: Sucsses: Retrieved folder paths for package: 12801
+14/10/2026 11:29:10 ص: Starting GetCover...
+14/10/2026 11:29:10 ص: Error: Provided path is empty. Exiting GetCover.
+14/10/2026 11:29:10 ص: Start Getting Media For package info: 12801
+14/10/2026 11:29:13 ص: Starting GetCover...
+14/10/2026 11:29:13 ص: Error: Provided path is empty. Exiting GetCover.
+14/10/2026 11:29:13 ص: Start Getting Media For package info: 12801
+14/10/2026 11:29:17 ص: Starting GetCover...
+14/10/2026 11:29:17 ص: Error: Provided path is empty. Exiting GetCover.
+14/10/2026 11:29:17 ص: Start Getting Media For package info: 12801
+14/10/2026 11:29:21 ص: Starting GetCover...
+14/10/2026 11:29:21 ص: Error: Provided path is empty. Exiting GetCover.
+14/10/2026 11:29:21 ص: Start Getting Media For package info: 12801
+14/10/2026 11:29:24 ص: Starting GetCover...
+14/10/2026 11:29:24 ص: Error: Provided path is empty. Exiting GetCover.
+14/10/2026 11:29:24 ص: Start Getting Media For package info: 12801
+14/10/2026 11:29:27 ص: Media data generated successfully.
+14/10/2026 11:29:27 ص: Starting GetFolderPaths...
+14/10/2026 11:29:27 ص: Fetching package folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 11:29:27 ص: Sucsses: PackageFolder set to: 20261014112910581
+14/10/2026 11:29:27 ص: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 11:29:27 ص: Sucsses: ResourcesFolder set to: 20261014112910581\@[ISRC]@\resources
+14/10/2026 11:29:27 ص: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 11:29:27 ص: Sucsses: MetadataFile path set to: 20261014112910581\EGA012502323\EGA012502323.xml
+14/10/2026 11:29:27 ص: Sucsses: Final PackageFolder path: 12801\20261014112910581
+14/10/2026 11:29:27 ص: Sucsses: Final ResourcesFolder path: 12801\20261014112910581\@[ISRC]@\resources
+14/10/2026 11:29:27 ص: Starting GetFolderPaths...
+14/10/2026 11:29:27 ص: Fetching package folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 11:29:27 ص: Sucsses: PackageFolder set to: 20261014112910581
+14/10/2026 11:29:27 ص: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 11:29:27 ص: Sucsses: ResourcesFolder set to: 20261014112910581\@[ISRC]@\resources
+14/10/2026 11:29:27 ص: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 11:29:27 ص: Sucsses: MetadataFile path set to: 20261014112910581\EGA012502324\EGA012502324.xml
+14/10/2026 11:29:27 ص: Sucsses: Final PackageFolder path: 12801\20261014112910581
+14/10/2026 11:29:27 ص: Sucsses: Final ResourcesFolder path: 12801\20261014112910581\@[ISRC]@\resources
+14/10/2026 11:29:27 ص: Starting GetFolderPaths...
+14/10/2026 11:29:27 ص: Fetching package folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 11:29:27 ص: Sucsses: PackageFolder set to: 20261014112910581
+14/10/2026 11:29:27 ص: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 11:29:27 ص: Sucsses: ResourcesFolder set to: 20261014112910581\@[ISRC]@\resources
+14/10/2026 11:29:27 ص: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 11:29:27 ص: Sucsses: MetadataFile path set to: 20261014112910581\EGA012502327\EGA012502327.xml
+14/10/2026 11:29:27 ص: Sucsses: Final PackageFolder path: 12801\20261014112910581
+14/10/2026 11:29:27 ص: Sucsses: Final ResourcesFolder path: 12801\20261014112910581\@[ISRC]@\resources
+14/10/2026 11:29:27 ص: Starting GetFolderPaths...
+14/10/2026 11:29:27 ص: Fetching package folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 11:29:27 ص: Sucsses: PackageFolder set to: 20261014112910581
+14/10/2026 11:29:27 ص: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 11:29:27 ص: Sucsses: ResourcesFolder set to: 20261014112910581\@[ISRC]@\resources
+14/10/2026 11:29:27 ص: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 11:29:27 ص: Sucsses: MetadataFile path set to: 20261014112910581\EGA012502326\EGA012502326.xml
+14/10/2026 11:29:27 ص: Sucsses: Final PackageFolder path: 12801\20261014112910581
+14/10/2026 11:29:27 ص: Sucsses: Final ResourcesFolder path: 12801\20261014112910581\@[ISRC]@\resources
+14/10/2026 11:29:27 ص: Starting GetFolderPaths...
+14/10/2026 11:29:27 ص: Fetching package folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 11:29:27 ص: Sucsses: PackageFolder set to: 20261014112910581
+14/10/2026 11:29:27 ص: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 11:29:27 ص: Sucsses: ResourcesFolder set to: 20261014112910581\@[ISRC]@\resources
+14/10/2026 11:29:27 ص: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 11:29:27 ص: Sucsses: MetadataFile path set to: 20261014112910581\EGA012502325\EGA012502325.xml
+14/10/2026 11:29:27 ص: Sucsses: Final PackageFolder path: 12801\20261014112910581
+14/10/2026 11:29:27 ص: Sucsses: Final ResourcesFolder path: 12801\20261014112910581\@[ISRC]@\resources
+14/10/2026 11:29:27 ص: Starting XML generation for package ID: 12811, Filename: YouTube_SndRec_DS_Track_XML_Template.xml, Company: YouTube-Sound Rec (Track)-DS
+14/10/2026 11:29:27 ص: Success: fetched package info for ID: 12811
+14/10/2026 11:29:27 ص: Processing group with Album UPC: 6221117203441
+14/10/2026 11:29:27 ص: Starting GetFolderPaths...
+14/10/2026 11:29:27 ص: Fetching package folder for company: YouTube-Sound Rec (Track)-DS
+14/10/2026 11:29:27 ص: Sucsses: PackageFolder set to: 20261014112927580
+14/10/2026 11:29:27 ص: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-DS
+14/10/2026 11:29:27 ص: Sucsses: ResourcesFolder set to: 20261014112927580\@[ISRC]@\resources
+14/10/2026 11:29:27 ص: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-DS
+14/10/2026 11:29:27 ص: Sucsses: MetadataFile path set to: 20261014112927580\EGA012502323\EGA012502323.xml
+14/10/2026 11:29:27 ص: Sucsses: Final PackageFolder path: 12811\20261014112927580
+14/10/2026 11:29:27 ص: Sucsses: Final ResourcesFolder path: 12811\20261014112927580\@[ISRC]@\resources
+14/10/2026 11:29:27 ص: Sucsses: Retrieved folder paths for package: 12811
+14/10/2026 11:29:27 ص: Starting GetCover...
+14/10/2026 11:29:27 ص: Error: Provided path is empty. Exiting GetCover.
+14/10/2026 11:29:27 ص: Start Getting Media For package info: 12811
+14/10/2026 11:29:30 ص: Starting GetCover...
+14/10/2026 11:29:30 ص: Error: Provided path is empty. Exiting GetCover.
+14/10/2026 11:29:30 ص: Start Getting Media For package info: 12811
+14/10/2026 11:29:34 ص: Starting GetCover...
+14/10/2026 11:29:34 ص: Error: Provided path is empty. Exiting GetCover.
+14/10/2026 11:29:34 ص: Start Getting Media For package info: 12811
+14/10/2026 11:29:38 ص: Starting GetCover...
+14/10/2026 11:29:38 ص: Error: Provided path is empty. Exiting GetCover.
+14/10/2026 11:29:38 ص: Start Getting Media For package info: 12811
+14/10/2026 11:29:41 ص: Starting GetCover...
+14/10/2026 11:29:41 ص: Error: Provided path is empty. Exiting GetCover.
+14/10/2026 11:29:41 ص: Start Getting Media For package info: 12811
+14/10/2026 11:29:44 ص: Media data generated successfully.
+14/10/2026 11:29:44 ص: Starting GetFolderPaths...
+14/10/2026 11:29:44 ص: Fetching package folder for company: YouTube-Sound Rec (Track)-DS
+14/10/2026 11:29:44 ص: Sucsses: PackageFolder set to: 20261014112927580
+14/10/2026 11:29:44 ص: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-DS
+14/10/2026 11:29:44 ص: Sucsses: ResourcesFolder set to: 20261014112927580\@[ISRC]@\resources
+14/10/2026 11:29:44 ص: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-DS
+14/10/2026 11:29:44 ص: Sucsses: MetadataFile path set to: 20261014112927580\EGA012502323\EGA012502323.xml
+14/10/2026 11:29:44 ص: Sucsses: Final PackageFolder path: 12811\20261014112927580
+14/10/2026 11:29:44 ص: Sucsses: Final ResourcesFolder path: 12811\20261014112927580\@[ISRC]@\resources
+14/10/2026 11:29:44 ص: Starting GetFolderPaths...
+14/10/2026 11:29:44 ص: Fetching package folder for company: YouTube-Sound Rec (Track)-DS
+14/10/2026 11:29:44 ص: Sucsses: PackageFolder set to: 20261014112927580
+14/10/2026 11:29:44 ص: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-DS
+14/10/2026 11:29:44 ص: Sucsses: ResourcesFolder set to: 20261014112927580\@[ISRC]@\resources
+14/10/2026 11:29:44 ص: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-DS
+14/10/2026 11:29:44 ص: Sucsses: MetadataFile path set to: 20261014112927580\EGA012502324\EGA012502324.xml
+14/10/2026 11:29:44 ص: Sucsses: Final PackageFolder path: 12811\20261014112927580
+14/10/2026 11:29:44 ص: Sucsses: Final ResourcesFolder path: 12811\20261014112927580\@[ISRC]@\resources
+14/10/2026 11:29:44 ص: Starting GetFolderPaths...
+14/10/2026 11:29:44 ص: Fetching package folder for company: YouTube-Sound Rec (Track)-DS
+14/10/2026 11:29:44 ص: Sucsses: PackageFolder set to: 20261014112927580
+14/10/2026 11:29:44 ص: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-DS
+14/10/2026 11:29:44 ص: Sucsses: ResourcesFolder set to: 20261014112927580\@[ISRC]@\resources
+14/10/2026 11:29:44 ص: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-DS
+14/10/2026 11:29:44 ص: Sucsses: MetadataFile path set to: 20261014112927580\EGA012502327\EGA012502327.xml
+14/10/2026 11:29:44 ص: Sucsses: Final PackageFolder path: 12811\20261014112927580
+14/10/2026 11:29:44 ص: Sucsses: Final ResourcesFolder path: 12811\20261014112927580\@[ISRC]@\resources
+14/10/2026 11:29:44 ص: Starting GetFolderPaths...
+14/10/2026 11:29:44 ص: Fetching package folder for company: YouTube-Sound Rec (Track)-DS
+14/10/2026 11:29:44 ص: Sucsses: PackageFolder set to: 20261014112927580
+14/10/2026 11:29:44 ص: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-DS
+14/10/2026 11:29:44 ص: Sucsses: ResourcesFolder set to: 20261014112927580\@[ISRC]@\resources
+14/10/2026 11:29:44 ص: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-DS
+14/10/2026 11:29:44 ص: Sucsses: MetadataFile path set to: 20261014112927580\EGA012502326\EGA012502326.xml
+14/10/2026 11:29:44 ص: Sucsses: Final PackageFolder path: 12811\20261014112927580
+14/10/2026 11:29:44 ص: Sucsses: Final ResourcesFolder path: 12811\20261014112927580\@[ISRC]@\resources
+14/10/2026 11:29:44 ص: Starting GetFolderPaths...
+14/10/2026 11:29:44 ص: Fetching package folder for company: YouTube-Sound Rec (Track)-DS
+14/10/2026 11:29:44 ص: Sucsses: PackageFolder set to: 20261014112927580
+14/10/2026 11:29:44 ص: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-DS
+14/10/2026 11:29:44 ص: Sucsses: ResourcesFolder set to: 20261014112927580\@[ISRC]@\resources
+14/10/2026 11:29:44 ص: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-DS
+14/10/2026 11:29:44 ص: Sucsses: MetadataFile path set to: 20261014112927580\EGA012502325\EGA012502325.xml
+14/10/2026 11:29:44 ص: Sucsses: Final PackageFolder path: 12811\20261014112927580
+14/10/2026 11:29:44 ص: Sucsses: Final ResourcesFolder path: 12811\20261014112927580\@[ISRC]@\resources
+14/10/2026 12:41:33 م: Starting XML generation for package ID: 12821, Filename: FB_Global_XML_Template.xml, Company: Facebook-Audio
+14/10/2026 12:41:34 م: Success: fetched package info for ID: 12821
+14/10/2026 12:41:34 م: Processing group with Album UPC: 6221117203441
+14/10/2026 12:41:34 م: Starting GetFolderPaths...
+14/10/2026 12:41:34 م: Fetching package folder for company: Facebook-Audio
+14/10/2026 12:41:34 م: Sucsses: PackageFolder set to: 20261014112944710
+14/10/2026 12:41:34 م: Sucsses: Fetching resources folder for company: Facebook-Audio
+14/10/2026 12:41:34 م: Sucsses: ResourcesFolder set to: 20261014112944710\6221117203441\resources
+14/10/2026 12:41:34 م: Sucsses: Fetching metadata file path for company: Facebook-Audio
+14/10/2026 12:41:34 م: Sucsses: MetadataFile path set to: 20261014112944710\6221117203441\6221117203441.xml
+14/10/2026 12:41:34 م: Sucsses: Final PackageFolder path: 12821\20261014112944710
+14/10/2026 12:41:34 م: Sucsses: Final ResourcesFolder path: 12821\20261014112944710\6221117203441\resources
+14/10/2026 12:41:34 م: Sucsses: Retrieved folder paths for package: 12821
+14/10/2026 12:41:34 م: Starting GetCover...
+14/10/2026 12:41:34 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 12:41:34 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 12:41:34 م: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\12821\20261014112944710\6221117203441\resources
+14/10/2026 12:41:34 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 12:41:35 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\12821\20261014112944710\6221117203441\resources\6221117203441.jpg
+14/10/2026 12:41:35 م: Start Getting Media For package info: 12821
+14/10/2026 12:41:41 م: Starting GetCover...
+14/10/2026 12:41:41 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 12:41:41 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 12:41:41 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 12:41:41 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\12821\20261014112944710\6221117203441\resources\6221117203441.jpg
+14/10/2026 12:41:41 م: Start Getting Media For package info: 12821
+14/10/2026 12:41:47 م: Starting GetCover...
+14/10/2026 12:41:47 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 12:41:47 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 12:41:48 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 12:41:48 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\12821\20261014112944710\6221117203441\resources\6221117203441.jpg
+14/10/2026 12:41:48 م: Start Getting Media For package info: 12821
+14/10/2026 12:41:56 م: Starting GetCover...
+14/10/2026 12:41:56 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 12:41:56 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 12:41:56 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 12:41:57 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\12821\20261014112944710\6221117203441\resources\6221117203441.jpg
+14/10/2026 12:41:57 م: Start Getting Media For package info: 12821
+14/10/2026 12:42:04 م: Starting GetCover...
+14/10/2026 12:42:04 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 12:42:04 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 12:42:04 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117203441.jpg
+14/10/2026 12:42:04 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\12821\20261014112944710\6221117203441\resources\6221117203441.jpg
+14/10/2026 12:42:04 م: Start Getting Media For package info: 12821
+14/10/2026 12:42:10 م: Media data generated successfully.
+14/10/2026 12:42:10 م: Success: generated XML for package ID: 12821
+14/10/2026 01:22:41 م: Starting XML generation for package ID: 12831, Filename: YouTube_Music_DS_XML_Template.xml, Company: YouTube-Music-DS
+14/10/2026 01:22:41 م: Success: fetched package info for ID: 12831
+14/10/2026 01:22:41 م: Processing group with Album UPC: 6221117136152
+14/10/2026 01:22:41 م: Starting GetFolderPaths...
+14/10/2026 01:22:41 م: Fetching package folder for company: YouTube-Music-DS
+14/10/2026 01:22:41 م: Sucsses: PackageFolder set to: 20261014132241601
+14/10/2026 01:22:41 م: Sucsses: Fetching resources folder for company: YouTube-Music-DS
+14/10/2026 01:22:41 م: Sucsses: ResourcesFolder set to: 20261014132241601\6221117136152\resources
+14/10/2026 01:22:41 م: Sucsses: Fetching metadata file path for company: YouTube-Music-DS
+14/10/2026 01:22:41 م: Sucsses: MetadataFile path set to: 20261014132241601\6221117136152\6221117136152.xml
+14/10/2026 01:22:41 م: Sucsses: Final PackageFolder path: 12831_Admin\20261014132241601
+14/10/2026 01:22:41 م: Sucsses: Final ResourcesFolder path: 12831_Admin\20261014132241601\6221117136152\resources
+14/10/2026 01:22:41 م: Sucsses: Retrieved folder paths for package: 12831
+14/10/2026 01:22:41 م: Starting GetCover...
+14/10/2026 01:22:41 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117136152.jpg
+14/10/2026 01:22:41 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117136152.jpg
+14/10/2026 01:22:41 م: Sucsses: Created directory: C:\Pkg_Output\youtube-music-ds\12831_Admin\20261014132241601\6221117136152\resources
+14/10/2026 01:22:42 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117136152.jpg
+14/10/2026 01:22:42 م: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-ds\12831_Admin\20261014132241601\6221117136152\resources\6221117136152.jpg
+14/10/2026 01:22:42 م: Start Getting Media For package info: 12831
+14/10/2026 01:22:47 م: Media data generated successfully.
+14/10/2026 01:22:47 م: Success: generated XML for package ID: 12831
+14/10/2026 01:23:44 م: Starting XML generation for package ID: 12841, Filename: YouTube_Music_DS_XML_Template.xml, Company: YouTube-Music-DS
+14/10/2026 01:23:44 م: Success: fetched package info for ID: 12841
+14/10/2026 01:23:44 م: Processing group with Album UPC: 6221117136152
+14/10/2026 01:23:44 م: Starting GetFolderPaths...
+14/10/2026 01:23:44 م: Fetching package folder for company: YouTube-Music-DS
+14/10/2026 01:23:44 م: Sucsses: PackageFolder set to: 20261014132247498
+14/10/2026 01:23:44 م: Sucsses: Fetching resources folder for company: YouTube-Music-DS
+14/10/2026 01:23:44 م: Sucsses: ResourcesFolder set to: 20261014132247498\6221117136152\resources
+14/10/2026 01:23:44 م: Sucsses: Fetching metadata file path for company: YouTube-Music-DS
+14/10/2026 01:23:44 م: Sucsses: MetadataFile path set to: 20261014132247498\6221117136152\6221117136152.xml
+14/10/2026 01:23:44 م: Sucsses: Final PackageFolder path: 12841_Admin\20261014132247498
+14/10/2026 01:23:44 م: Sucsses: Final ResourcesFolder path: 12841_Admin\20261014132247498\6221117136152\resources
+14/10/2026 01:23:44 م: Sucsses: Retrieved folder paths for package: 12841
+14/10/2026 01:23:44 م: Starting GetCover...
+14/10/2026 01:23:44 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117136152.jpg
+14/10/2026 01:23:44 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117136152.jpg
+14/10/2026 01:23:44 م: Sucsses: Created directory: C:\Pkg_Output\youtube-music-ds\12841_Admin\20261014132247498\6221117136152\resources
+14/10/2026 01:23:44 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117136152.jpg
+14/10/2026 01:23:45 م: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-ds\12841_Admin\20261014132247498\6221117136152\resources\6221117136152.jpg
+14/10/2026 01:23:45 م: Start Getting Media For package info: 12841
+14/10/2026 01:23:52 م: Media data generated successfully.
+14/10/2026 01:23:52 م: Success: generated XML for package ID: 12841
+14/10/2026 01:23:52 م: Starting XML generation for package ID: 12851, Filename: YouTube_Music_ST_XML_Template.xml, Company: YouTube-Music-ST
+14/10/2026 01:23:52 م: Success: fetched package info for ID: 12851
+14/10/2026 01:23:52 م: Processing group with Album UPC: 6221117136152
+14/10/2026 01:23:52 م: Starting GetFolderPaths...
+14/10/2026 01:23:52 م: Fetching package folder for company: YouTube-Music-ST
+14/10/2026 01:23:52 م: Sucsses: PackageFolder set to: 20261014132352414
+14/10/2026 01:23:52 م: Sucsses: Fetching resources folder for company: YouTube-Music-ST
+14/10/2026 01:23:52 م: Sucsses: ResourcesFolder set to: 20261014132352414\6221117136152\resources
+14/10/2026 01:23:52 م: Sucsses: Fetching metadata file path for company: YouTube-Music-ST
+14/10/2026 01:23:52 م: Sucsses: MetadataFile path set to: 20261014132352414\6221117136152\6221117136152.xml
+14/10/2026 01:23:52 م: Sucsses: Final PackageFolder path: 12851_Admin\20261014132352414
+14/10/2026 01:23:52 م: Sucsses: Final ResourcesFolder path: 12851_Admin\20261014132352414\6221117136152\resources
+14/10/2026 01:23:52 م: Sucsses: Retrieved folder paths for package: 12851
+14/10/2026 01:23:52 م: Starting GetCover...
+14/10/2026 01:23:52 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117136152.jpg
+14/10/2026 01:23:52 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117136152.jpg
+14/10/2026 01:23:52 م: Sucsses: Created directory: C:\Pkg_Output\youtube-music-st\12851_Admin\20261014132352414\6221117136152\resources
+14/10/2026 01:23:53 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117136152.jpg
+14/10/2026 01:23:53 م: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-st\12851_Admin\20261014132352414\6221117136152\resources\6221117136152.jpg
+14/10/2026 01:23:53 م: Start Getting Media For package info: 12851
+14/10/2026 01:23:58 م: Media data generated successfully.
+14/10/2026 01:23:58 م: Success: generated XML for package ID: 12851
+14/10/2026 01:48:18 م: Starting XML generation for package ID: 12861, Filename: YouTube_Music_DS_XML_Template.xml, Company: YouTube-Music-DS
+14/10/2026 01:48:18 م: Success: fetched package info for ID: 12861
+14/10/2026 01:48:18 م: Processing group with Album UPC: 6221117136152
+14/10/2026 01:48:18 م: Starting GetFolderPaths...
+14/10/2026 01:48:18 م: Fetching package folder for company: YouTube-Music-DS
+14/10/2026 01:48:18 م: Sucsses: PackageFolder set to: 20261014132358559
+14/10/2026 01:48:18 م: Sucsses: Fetching resources folder for company: YouTube-Music-DS
+14/10/2026 01:48:18 م: Sucsses: ResourcesFolder set to: 20261014132358559\6221117136152\resources
+14/10/2026 01:48:18 م: Sucsses: Fetching metadata file path for company: YouTube-Music-DS
+14/10/2026 01:48:18 م: Sucsses: MetadataFile path set to: 20261014132358559\6221117136152\6221117136152.xml
+14/10/2026 01:48:18 م: Sucsses: Final PackageFolder path: 12861_Admin\20261014132358559
+14/10/2026 01:48:18 م: Sucsses: Final ResourcesFolder path: 12861_Admin\20261014132358559\6221117136152\resources
+14/10/2026 01:48:18 م: Sucsses: Retrieved folder paths for package: 12861
+14/10/2026 01:48:18 م: Starting GetCover...
+14/10/2026 01:48:18 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117136152.jpg
+14/10/2026 01:48:18 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117136152.jpg
+14/10/2026 01:48:18 م: Sucsses: Created directory: C:\Pkg_Output\youtube-music-ds\12861_Admin\20261014132358559\6221117136152\resources
+14/10/2026 01:48:19 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117136152.jpg
+14/10/2026 01:48:19 م: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-ds\12861_Admin\20261014132358559\6221117136152\resources\6221117136152.jpg
+14/10/2026 01:48:20 م: Start Getting Media For package info: 12861
+14/10/2026 01:48:24 م: Media data generated successfully.
+14/10/2026 01:48:24 م: Success: generated XML for package ID: 12861
+14/10/2026 01:48:24 م: Starting XML generation for package ID: 12871, Filename: YouTube_Music_DS_XML_Template.xml, Company: YouTube-Music-DS
+14/10/2026 01:48:24 م: Success: fetched package info for ID: 12871
+14/10/2026 01:48:24 م: Processing group with Album UPC: 6221117136152
+14/10/2026 01:48:24 م: Starting GetFolderPaths...
+14/10/2026 01:48:24 م: Fetching package folder for company: YouTube-Music-DS
+14/10/2026 01:48:24 م: Sucsses: PackageFolder set to: 20261014134824730
+14/10/2026 01:48:24 م: Sucsses: Fetching resources folder for company: YouTube-Music-DS
+14/10/2026 01:48:24 م: Sucsses: ResourcesFolder set to: 20261014134824730\6221117136152\resources
+14/10/2026 01:48:24 م: Sucsses: Fetching metadata file path for company: YouTube-Music-DS
+14/10/2026 01:48:24 م: Sucsses: MetadataFile path set to: 20261014134824730\6221117136152\6221117136152.xml
+14/10/2026 01:48:24 م: Sucsses: Final PackageFolder path: 12871_Admin\20261014134824730
+14/10/2026 01:48:24 م: Sucsses: Final ResourcesFolder path: 12871_Admin\20261014134824730\6221117136152\resources
+14/10/2026 01:48:24 م: Sucsses: Retrieved folder paths for package: 12871
+14/10/2026 01:48:24 م: Starting GetCover...
+14/10/2026 01:48:24 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117136152.jpg
+14/10/2026 01:48:24 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117136152.jpg
+14/10/2026 01:48:24 م: Sucsses: Created directory: C:\Pkg_Output\youtube-music-ds\12871_Admin\20261014134824730\6221117136152\resources
+14/10/2026 01:48:24 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117136152.jpg
+14/10/2026 01:48:25 م: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-ds\12871_Admin\20261014134824730\6221117136152\resources\6221117136152.jpg
+14/10/2026 01:48:25 م: Start Getting Media For package info: 12871
+14/10/2026 01:48:27 م: Media data generated successfully.
+14/10/2026 01:48:28 م: Success: generated XML for package ID: 12871
+14/10/2026 01:48:28 م: Starting XML generation for package ID: 12881, Filename: YouTube_Music_ST_XML_Template.xml, Company: YouTube-Music-ST
+14/10/2026 01:48:28 م: Success: fetched package info for ID: 12881
+14/10/2026 01:48:28 م: Processing group with Album UPC: 6221117136152
+14/10/2026 01:48:28 م: Starting GetFolderPaths...
+14/10/2026 01:48:28 م: Fetching package folder for company: YouTube-Music-ST
+14/10/2026 01:48:28 م: Sucsses: PackageFolder set to: 20261014134828021
+14/10/2026 01:48:28 م: Sucsses: Fetching resources folder for company: YouTube-Music-ST
+14/10/2026 01:48:28 م: Sucsses: ResourcesFolder set to: 20261014134828021\6221117136152\resources
+14/10/2026 01:48:28 م: Sucsses: Fetching metadata file path for company: YouTube-Music-ST
+14/10/2026 01:48:28 م: Sucsses: MetadataFile path set to: 20261014134828021\6221117136152\6221117136152.xml
+14/10/2026 01:48:28 م: Sucsses: Final PackageFolder path: 12881_Admin\20261014134828021
+14/10/2026 01:48:28 م: Sucsses: Final ResourcesFolder path: 12881_Admin\20261014134828021\6221117136152\resources
+14/10/2026 01:48:28 م: Sucsses: Retrieved folder paths for package: 12881
+14/10/2026 01:48:28 م: Starting GetCover...
+14/10/2026 01:48:28 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117136152.jpg
+14/10/2026 01:48:28 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117136152.jpg
+14/10/2026 01:48:28 م: Sucsses: Created directory: C:\Pkg_Output\youtube-music-st\12881_Admin\20261014134828021\6221117136152\resources
+14/10/2026 01:48:28 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117136152.jpg
+14/10/2026 01:48:28 م: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-st\12881_Admin\20261014134828021\6221117136152\resources\6221117136152.jpg
+14/10/2026 01:48:28 م: Start Getting Media For package info: 12881
+14/10/2026 01:48:31 م: Media data generated successfully.
+14/10/2026 01:48:31 م: Success: generated XML for package ID: 12881
+14/10/2026 01:48:31 م: Starting XML generation for package ID: 12891, Filename: YouTube_Music_DS_XML_Template.xml, Company: YouTube-Music-DS
+14/10/2026 01:48:31 م: Success: fetched package info for ID: 12891
+14/10/2026 01:48:31 م: Processing group with Album UPC: 6221117136152
+14/10/2026 01:48:31 م: Starting GetFolderPaths...
+14/10/2026 01:48:31 م: Fetching package folder for company: YouTube-Music-DS
+14/10/2026 01:48:31 م: Sucsses: PackageFolder set to: 20261014134831462
+14/10/2026 01:48:31 م: Sucsses: Fetching resources folder for company: YouTube-Music-DS
+14/10/2026 01:48:31 م: Sucsses: ResourcesFolder set to: 20261014134831462\6221117136152\resources
+14/10/2026 01:48:31 م: Sucsses: Fetching metadata file path for company: YouTube-Music-DS
+14/10/2026 01:48:31 م: Sucsses: MetadataFile path set to: 20261014134831462\6221117136152\6221117136152.xml
+14/10/2026 01:48:31 م: Sucsses: Final PackageFolder path: 12891_Admin\20261014134831462
+14/10/2026 01:48:31 م: Sucsses: Final ResourcesFolder path: 12891_Admin\20261014134831462\6221117136152\resources
+14/10/2026 01:48:31 م: Sucsses: Retrieved folder paths for package: 12891
+14/10/2026 01:48:31 م: Starting GetCover...
+14/10/2026 01:48:31 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117136152.jpg
+14/10/2026 01:48:31 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117136152.jpg
+14/10/2026 01:48:31 م: Sucsses: Created directory: C:\Pkg_Output\youtube-music-ds\12891_Admin\20261014134831462\6221117136152\resources
+14/10/2026 01:48:31 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117136152.jpg
+14/10/2026 01:48:31 م: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-ds\12891_Admin\20261014134831462\6221117136152\resources\6221117136152.jpg
+14/10/2026 01:48:31 م: Start Getting Media For package info: 12891
+14/10/2026 01:48:35 م: Media data generated successfully.
+14/10/2026 01:48:35 م: Success: generated XML for package ID: 12891
+14/10/2026 01:48:35 م: Starting XML generation for package ID: 12901, Filename: YouTube_Music_ST_XML_Template.xml, Company: YouTube-Music-ST
+14/10/2026 01:48:35 م: Success: fetched package info for ID: 12901
+14/10/2026 01:48:35 م: Processing group with Album UPC: 6221117136152
+14/10/2026 01:48:35 م: Starting GetFolderPaths...
+14/10/2026 01:48:35 م: Fetching package folder for company: YouTube-Music-ST
+14/10/2026 01:48:35 م: Sucsses: PackageFolder set to: 20261014134835880
+14/10/2026 01:48:35 م: Sucsses: Fetching resources folder for company: YouTube-Music-ST
+14/10/2026 01:48:35 م: Sucsses: ResourcesFolder set to: 20261014134835880\6221117136152\resources
+14/10/2026 01:48:35 م: Sucsses: Fetching metadata file path for company: YouTube-Music-ST
+14/10/2026 01:48:35 م: Sucsses: MetadataFile path set to: 20261014134835880\6221117136152\6221117136152.xml
+14/10/2026 01:48:35 م: Sucsses: Final PackageFolder path: 12901_Admin\20261014134835880
+14/10/2026 01:48:35 م: Sucsses: Final ResourcesFolder path: 12901_Admin\20261014134835880\6221117136152\resources
+14/10/2026 01:48:35 م: Sucsses: Retrieved folder paths for package: 12901
+14/10/2026 01:48:35 م: Starting GetCover...
+14/10/2026 01:48:35 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117136152.jpg
+14/10/2026 01:48:35 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117136152.jpg
+14/10/2026 01:48:35 م: Sucsses: Created directory: C:\Pkg_Output\youtube-music-st\12901_Admin\20261014134835880\6221117136152\resources
+14/10/2026 01:48:36 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117136152.jpg
+14/10/2026 01:48:36 م: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-st\12901_Admin\20261014134835880\6221117136152\resources\6221117136152.jpg
+14/10/2026 01:48:36 م: Start Getting Media For package info: 12901
+14/10/2026 01:48:39 م: Media data generated successfully.
+14/10/2026 01:48:39 م: Success: generated XML for package ID: 12901
+14/10/2026 01:57:56 م: Starting XML generation for package ID: 16521, Filename: YouTube_Music_ST_XML_Template.xml, Company: YouTube-Music-ST
+14/10/2026 01:57:56 م: Success: fetched package info for ID: 16521
+14/10/2026 01:57:56 م: Processing group with Album UPC: 6221117234742
+14/10/2026 01:57:57 م: Starting GetFolderPaths...
+14/10/2026 01:57:57 م: Fetching package folder for company: YouTube-Music-ST
+14/10/2026 01:57:57 م: Sucsses: PackageFolder set to: 20261014135757010
+14/10/2026 01:57:57 م: Sucsses: Fetching resources folder for company: YouTube-Music-ST
+14/10/2026 01:57:57 م: Sucsses: ResourcesFolder set to: 20261014135757010\6221117234742\resources
+14/10/2026 01:57:57 م: Sucsses: Fetching metadata file path for company: YouTube-Music-ST
+14/10/2026 01:57:57 م: Sucsses: MetadataFile path set to: 20261014135757010\6221117234742\6221117234742.xml
+14/10/2026 01:57:57 م: Sucsses: Final PackageFolder path: 16521_Admin\20261014135757010
+14/10/2026 01:57:57 م: Sucsses: Final ResourcesFolder path: 16521_Admin\20261014135757010\6221117234742\resources
+14/10/2026 01:57:57 م: Sucsses: Retrieved folder paths for package: 16521
+14/10/2026 01:57:57 م: Starting GetCover...
+14/10/2026 01:57:57 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234742.jpg
+14/10/2026 01:57:57 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234742.jpg
+14/10/2026 01:57:57 م: Sucsses: Created directory: C:\Pkg_Output\youtube-music-st\16521_Admin\20261014135757010\6221117234742\resources
+14/10/2026 01:57:57 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234742.jpg
+14/10/2026 01:57:57 م: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-st\16521_Admin\20261014135757010\6221117234742\resources\6221117234742.jpg
+14/10/2026 01:57:57 م: Start Getting Media For package info: 16521
+14/10/2026 01:57:59 م: Media data generated successfully.
+14/10/2026 01:58:00 م: Success: generated XML for package ID: 16521
+14/10/2026 01:58:00 م: Processing group with Album UPC: 6221117234759
+14/10/2026 01:58:00 م: Starting GetFolderPaths...
+14/10/2026 01:58:00 م: Sucsses: PackageFolder trimmed to: 20261014135757010
+14/10/2026 01:58:00 م: Sucsses: Fetching resources folder for company: YouTube-Music-ST
+14/10/2026 01:58:00 م: Sucsses: ResourcesFolder set to: 20261014135757010\6221117234759\resources
+14/10/2026 01:58:00 م: Sucsses: Fetching metadata file path for company: YouTube-Music-ST
+14/10/2026 01:58:00 م: Sucsses: MetadataFile path set to: 20261014135757010\6221117234759\6221117234759.xml
+14/10/2026 01:58:00 م: Sucsses: Final PackageFolder path: 16521_Admin\20261014135757010
+14/10/2026 01:58:00 م: Sucsses: Final ResourcesFolder path: 16521_Admin\20261014135757010\6221117234759\resources
+14/10/2026 01:58:00 م: Sucsses: Retrieved folder paths for package: 16521
+14/10/2026 01:58:00 م: Starting GetCover...
+14/10/2026 01:58:00 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234759.jpg
+14/10/2026 01:58:00 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234759.jpg
+14/10/2026 01:58:00 م: Sucsses: Created directory: C:\Pkg_Output\youtube-music-st\16521_Admin\20261014135757010\6221117234759\resources
+14/10/2026 01:58:00 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234759.jpg
+14/10/2026 01:58:00 م: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-st\16521_Admin\20261014135757010\6221117234759\resources\6221117234759.jpg
+14/10/2026 01:58:00 م: Start Getting Media For package info: 16521
+14/10/2026 01:58:02 م: Media data generated successfully.
+14/10/2026 01:58:02 م: Success: generated XML for package ID: 16521
+14/10/2026 01:58:02 م: Processing group with Album UPC: 6221117234766
+14/10/2026 01:58:02 م: Starting GetFolderPaths...
+14/10/2026 01:58:02 م: Sucsses: PackageFolder trimmed to: 20261014135757010
+14/10/2026 01:58:02 م: Sucsses: Fetching resources folder for company: YouTube-Music-ST
+14/10/2026 01:58:02 م: Sucsses: ResourcesFolder set to: 20261014135757010\6221117234766\resources
+14/10/2026 01:58:02 م: Sucsses: Fetching metadata file path for company: YouTube-Music-ST
+14/10/2026 01:58:02 م: Sucsses: MetadataFile path set to: 20261014135757010\6221117234766\6221117234766.xml
+14/10/2026 01:58:02 م: Sucsses: Final PackageFolder path: 16521_Admin\20261014135757010
+14/10/2026 01:58:02 م: Sucsses: Final ResourcesFolder path: 16521_Admin\20261014135757010\6221117234766\resources
+14/10/2026 01:58:02 م: Sucsses: Retrieved folder paths for package: 16521
+14/10/2026 01:58:02 م: Starting GetCover...
+14/10/2026 01:58:02 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234766.jpg
+14/10/2026 01:58:02 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234766.jpg
+14/10/2026 01:58:02 م: Sucsses: Created directory: C:\Pkg_Output\youtube-music-st\16521_Admin\20261014135757010\6221117234766\resources
+14/10/2026 01:58:02 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234766.jpg
+14/10/2026 01:58:02 م: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-st\16521_Admin\20261014135757010\6221117234766\resources\6221117234766.jpg
+14/10/2026 01:58:02 م: Start Getting Media For package info: 16521
+14/10/2026 01:58:06 م: Media data generated successfully.
+14/10/2026 01:58:06 م: Success: generated XML for package ID: 16521
+14/10/2026 01:58:06 م: Processing group with Album UPC: 6221117234773
+14/10/2026 01:58:06 م: Starting GetFolderPaths...
+14/10/2026 01:58:06 م: Sucsses: PackageFolder trimmed to: 20261014135757010
+14/10/2026 01:58:06 م: Sucsses: Fetching resources folder for company: YouTube-Music-ST
+14/10/2026 01:58:06 م: Sucsses: ResourcesFolder set to: 20261014135757010\6221117234773\resources
+14/10/2026 01:58:06 م: Sucsses: Fetching metadata file path for company: YouTube-Music-ST
+14/10/2026 01:58:06 م: Sucsses: MetadataFile path set to: 20261014135757010\6221117234773\6221117234773.xml
+14/10/2026 01:58:06 م: Sucsses: Final PackageFolder path: 16521_Admin\20261014135757010
+14/10/2026 01:58:06 م: Sucsses: Final ResourcesFolder path: 16521_Admin\20261014135757010\6221117234773\resources
+14/10/2026 01:58:06 م: Sucsses: Retrieved folder paths for package: 16521
+14/10/2026 01:58:06 م: Starting GetCover...
+14/10/2026 01:58:06 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234773.jpg
+14/10/2026 01:58:06 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234773.jpg
+14/10/2026 01:58:06 م: Sucsses: Created directory: C:\Pkg_Output\youtube-music-st\16521_Admin\20261014135757010\6221117234773\resources
+14/10/2026 01:58:06 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234773.jpg
+14/10/2026 01:58:06 م: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-st\16521_Admin\20261014135757010\6221117234773\resources\6221117234773.jpg
+14/10/2026 01:58:06 م: Start Getting Media For package info: 16521
+14/10/2026 01:58:10 م: Media data generated successfully.
+14/10/2026 01:58:10 م: Success: generated XML for package ID: 16521
+14/10/2026 01:58:10 م: Processing group with Album UPC: 6221117234780
+14/10/2026 01:58:10 م: Starting GetFolderPaths...
+14/10/2026 01:58:10 م: Sucsses: PackageFolder trimmed to: 20261014135757010
+14/10/2026 01:58:10 م: Sucsses: Fetching resources folder for company: YouTube-Music-ST
+14/10/2026 01:58:10 م: Sucsses: ResourcesFolder set to: 20261014135757010\6221117234780\resources
+14/10/2026 01:58:10 م: Sucsses: Fetching metadata file path for company: YouTube-Music-ST
+14/10/2026 01:58:10 م: Sucsses: MetadataFile path set to: 20261014135757010\6221117234780\6221117234780.xml
+14/10/2026 01:58:10 م: Sucsses: Final PackageFolder path: 16521_Admin\20261014135757010
+14/10/2026 01:58:10 م: Sucsses: Final ResourcesFolder path: 16521_Admin\20261014135757010\6221117234780\resources
+14/10/2026 01:58:10 م: Sucsses: Retrieved folder paths for package: 16521
+14/10/2026 01:58:10 م: Starting GetCover...
+14/10/2026 01:58:10 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234780.jpg
+14/10/2026 01:58:10 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234780.jpg
+14/10/2026 01:58:10 م: Sucsses: Created directory: C:\Pkg_Output\youtube-music-st\16521_Admin\20261014135757010\6221117234780\resources
+14/10/2026 01:58:10 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234780.jpg
+14/10/2026 01:58:10 م: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-st\16521_Admin\20261014135757010\6221117234780\resources\6221117234780.jpg
+14/10/2026 01:58:10 م: Start Getting Media For package info: 16521
+14/10/2026 01:58:15 م: Media data generated successfully.
+14/10/2026 01:58:15 م: Success: generated XML for package ID: 16521
+14/10/2026 01:58:15 م: Processing group with Album UPC: 6221117234797
+14/10/2026 01:58:15 م: Starting GetFolderPaths...
+14/10/2026 01:58:15 م: Sucsses: PackageFolder trimmed to: 20261014135757010
+14/10/2026 01:58:15 م: Sucsses: Fetching resources folder for company: YouTube-Music-ST
+14/10/2026 01:58:15 م: Sucsses: ResourcesFolder set to: 20261014135757010\6221117234797\resources
+14/10/2026 01:58:15 م: Sucsses: Fetching metadata file path for company: YouTube-Music-ST
+14/10/2026 01:58:15 م: Sucsses: MetadataFile path set to: 20261014135757010\6221117234797\6221117234797.xml
+14/10/2026 01:58:15 م: Sucsses: Final PackageFolder path: 16521_Admin\20261014135757010
+14/10/2026 01:58:15 م: Sucsses: Final ResourcesFolder path: 16521_Admin\20261014135757010\6221117234797\resources
+14/10/2026 01:58:15 م: Sucsses: Retrieved folder paths for package: 16521
+14/10/2026 01:58:15 م: Starting GetCover...
+14/10/2026 01:58:15 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234797.jpg
+14/10/2026 01:58:15 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234797.jpg
+14/10/2026 01:58:15 م: Sucsses: Created directory: C:\Pkg_Output\youtube-music-st\16521_Admin\20261014135757010\6221117234797\resources
+14/10/2026 01:58:15 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234797.jpg
+14/10/2026 01:58:15 م: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-st\16521_Admin\20261014135757010\6221117234797\resources\6221117234797.jpg
+14/10/2026 01:58:15 م: Start Getting Media For package info: 16521
+14/10/2026 01:58:19 م: Media data generated successfully.
+14/10/2026 01:58:19 م: Success: generated XML for package ID: 16521
+14/10/2026 01:58:19 م: Processing group with Album UPC: 6221117234803
+14/10/2026 01:58:19 م: Starting GetFolderPaths...
+14/10/2026 01:58:19 م: Sucsses: PackageFolder trimmed to: 20261014135757010
+14/10/2026 01:58:19 م: Sucsses: Fetching resources folder for company: YouTube-Music-ST
+14/10/2026 01:58:19 م: Sucsses: ResourcesFolder set to: 20261014135757010\6221117234803\resources
+14/10/2026 01:58:19 م: Sucsses: Fetching metadata file path for company: YouTube-Music-ST
+14/10/2026 01:58:19 م: Sucsses: MetadataFile path set to: 20261014135757010\6221117234803\6221117234803.xml
+14/10/2026 01:58:19 م: Sucsses: Final PackageFolder path: 16521_Admin\20261014135757010
+14/10/2026 01:58:19 م: Sucsses: Final ResourcesFolder path: 16521_Admin\20261014135757010\6221117234803\resources
+14/10/2026 01:58:19 م: Sucsses: Retrieved folder paths for package: 16521
+14/10/2026 01:58:19 م: Starting GetCover...
+14/10/2026 01:58:19 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234803.jpg
+14/10/2026 01:58:19 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234803.jpg
+14/10/2026 01:58:19 م: Sucsses: Created directory: C:\Pkg_Output\youtube-music-st\16521_Admin\20261014135757010\6221117234803\resources
+14/10/2026 01:58:19 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234803.jpg
+14/10/2026 01:58:19 م: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-st\16521_Admin\20261014135757010\6221117234803\resources\6221117234803.jpg
+14/10/2026 01:58:19 م: Start Getting Media For package info: 16521
+14/10/2026 01:58:23 م: Media data generated successfully.
+14/10/2026 01:58:23 م: Success: generated XML for package ID: 16521
+14/10/2026 01:58:23 م: Processing group with Album UPC: 6221117234810
+14/10/2026 01:58:23 م: Starting GetFolderPaths...
+14/10/2026 01:58:23 م: Sucsses: PackageFolder trimmed to: 20261014135757010
+14/10/2026 01:58:23 م: Sucsses: Fetching resources folder for company: YouTube-Music-ST
+14/10/2026 01:58:23 م: Sucsses: ResourcesFolder set to: 20261014135757010\6221117234810\resources
+14/10/2026 01:58:23 م: Sucsses: Fetching metadata file path for company: YouTube-Music-ST
+14/10/2026 01:58:24 م: Sucsses: MetadataFile path set to: 20261014135757010\6221117234810\6221117234810.xml
+14/10/2026 01:58:24 م: Sucsses: Final PackageFolder path: 16521_Admin\20261014135757010
+14/10/2026 01:58:24 م: Sucsses: Final ResourcesFolder path: 16521_Admin\20261014135757010\6221117234810\resources
+14/10/2026 01:58:24 م: Sucsses: Retrieved folder paths for package: 16521
+14/10/2026 01:58:24 م: Starting GetCover...
+14/10/2026 01:58:24 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234810.jpg
+14/10/2026 01:58:24 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234810.jpg
+14/10/2026 01:58:24 م: Sucsses: Created directory: C:\Pkg_Output\youtube-music-st\16521_Admin\20261014135757010\6221117234810\resources
+14/10/2026 01:58:24 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234810.jpg
+14/10/2026 01:58:24 م: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-st\16521_Admin\20261014135757010\6221117234810\resources\6221117234810.jpg
+14/10/2026 01:58:24 م: Start Getting Media For package info: 16521
+14/10/2026 01:58:37 م: Media data generated successfully.
+14/10/2026 01:58:37 م: Success: generated XML for package ID: 16521
+14/10/2026 01:58:37 م: Processing group with Album UPC: 6221117234827
+14/10/2026 01:58:37 م: Starting GetFolderPaths...
+14/10/2026 01:58:37 م: Sucsses: PackageFolder trimmed to: 20261014135757010
+14/10/2026 01:58:37 م: Sucsses: Fetching resources folder for company: YouTube-Music-ST
+14/10/2026 01:58:37 م: Sucsses: ResourcesFolder set to: 20261014135757010\6221117234827\resources
+14/10/2026 01:58:37 م: Sucsses: Fetching metadata file path for company: YouTube-Music-ST
+14/10/2026 01:58:37 م: Sucsses: MetadataFile path set to: 20261014135757010\6221117234827\6221117234827.xml
+14/10/2026 01:58:37 م: Sucsses: Final PackageFolder path: 16521_Admin\20261014135757010
+14/10/2026 01:58:37 م: Sucsses: Final ResourcesFolder path: 16521_Admin\20261014135757010\6221117234827\resources
+14/10/2026 01:58:37 م: Sucsses: Retrieved folder paths for package: 16521
+14/10/2026 01:58:37 م: Starting GetCover...
+14/10/2026 01:58:37 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234827.jpg
+14/10/2026 01:58:37 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234827.jpg
+14/10/2026 01:58:37 م: Sucsses: Created directory: C:\Pkg_Output\youtube-music-st\16521_Admin\20261014135757010\6221117234827\resources
+14/10/2026 01:58:37 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234827.jpg
+14/10/2026 01:58:38 م: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-st\16521_Admin\20261014135757010\6221117234827\resources\6221117234827.jpg
+14/10/2026 01:58:38 م: Start Getting Media For package info: 16521
+14/10/2026 01:58:43 م: Media data generated successfully.
+14/10/2026 01:58:43 م: Success: generated XML for package ID: 16521
+14/10/2026 01:58:43 م: Processing group with Album UPC: 6221117234834
+14/10/2026 01:58:43 م: Starting GetFolderPaths...
+14/10/2026 01:58:43 م: Sucsses: PackageFolder trimmed to: 20261014135757010
+14/10/2026 01:58:43 م: Sucsses: Fetching resources folder for company: YouTube-Music-ST
+14/10/2026 01:58:43 م: Sucsses: ResourcesFolder set to: 20261014135757010\6221117234834\resources
+14/10/2026 01:58:43 م: Sucsses: Fetching metadata file path for company: YouTube-Music-ST
+14/10/2026 01:58:43 م: Sucsses: MetadataFile path set to: 20261014135757010\6221117234834\6221117234834.xml
+14/10/2026 01:58:43 م: Sucsses: Final PackageFolder path: 16521_Admin\20261014135757010
+14/10/2026 01:58:43 م: Sucsses: Final ResourcesFolder path: 16521_Admin\20261014135757010\6221117234834\resources
+14/10/2026 01:58:43 م: Sucsses: Retrieved folder paths for package: 16521
+14/10/2026 01:58:43 م: Starting GetCover...
+14/10/2026 01:58:43 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234834.jpg
+14/10/2026 01:58:43 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234834.jpg
+14/10/2026 01:58:43 م: Sucsses: Created directory: C:\Pkg_Output\youtube-music-st\16521_Admin\20261014135757010\6221117234834\resources
+14/10/2026 01:58:43 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117234834.jpg
+14/10/2026 01:58:43 م: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-st\16521_Admin\20261014135757010\6221117234834\resources\6221117234834.jpg
+14/10/2026 01:58:43 م: Start Getting Media For package info: 16521
+14/10/2026 01:58:47 م: Media data generated successfully.
+14/10/2026 01:58:47 م: Success: generated XML for package ID: 16521
+14/10/2026 01:58:47 م: Starting XML generation for package ID: 16531, Filename: YouTube_SndRec_ST_Track_XML_Template.xml, Company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:58:47 م: Success: fetched package info for ID: 16531
+14/10/2026 01:58:47 م: Processing group with Album UPC: 6221117234742
+14/10/2026 01:58:47 م: Starting GetFolderPaths...
+14/10/2026 01:58:47 م: Fetching package folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:58:47 م: Sucsses: PackageFolder set to: 20261014135847570
+14/10/2026 01:58:47 م: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:58:47 م: Sucsses: ResourcesFolder set to: 20261014135847570\@[ISRC]@\resources
+14/10/2026 01:58:47 م: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:58:47 م: Sucsses: MetadataFile path set to: 20261014135847570\EGA012604601\EGA012604601.xml
+14/10/2026 01:58:47 م: Sucsses: Final PackageFolder path: 16531_Admin\20261014135847570
+14/10/2026 01:58:47 م: Sucsses: Final ResourcesFolder path: 16531_Admin\20261014135847570\@[ISRC]@\resources
+14/10/2026 01:58:47 م: Sucsses: Retrieved folder paths for package: 16531
+14/10/2026 01:58:47 م: Starting GetCover...
+14/10/2026 01:58:47 م: Error: Provided path is empty. Exiting GetCover.
+14/10/2026 01:58:47 م: Start Getting Media For package info: 16531
+14/10/2026 01:58:50 م: Media data generated successfully.
+14/10/2026 01:58:50 م: Starting GetFolderPaths...
+14/10/2026 01:58:50 م: Fetching package folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:58:50 م: Sucsses: PackageFolder set to: 20261014135847570
+14/10/2026 01:58:50 م: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:58:50 م: Sucsses: ResourcesFolder set to: 20261014135847570\@[ISRC]@\resources
+14/10/2026 01:58:50 م: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:58:50 م: Sucsses: MetadataFile path set to: 20261014135847570\EGA012604601\EGA012604601.xml
+14/10/2026 01:58:50 م: Sucsses: Final PackageFolder path: 16531_Admin\20261014135847570
+14/10/2026 01:58:50 م: Sucsses: Final ResourcesFolder path: 16531_Admin\20261014135847570\@[ISRC]@\resources
+14/10/2026 01:58:50 م: Processing group with Album UPC: 6221117234759
+14/10/2026 01:58:50 م: Starting GetFolderPaths...
+14/10/2026 01:58:50 م: Sucsses: PackageFolder trimmed to: 20261014135847570
+14/10/2026 01:58:50 م: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:58:50 م: Sucsses: ResourcesFolder set to: 20261014135847570\@[ISRC]@\resources
+14/10/2026 01:58:50 م: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:58:50 م: Sucsses: MetadataFile path set to: 20261014135847570\EGA012604602\EGA012604602.xml
+14/10/2026 01:58:50 م: Sucsses: Final PackageFolder path: 16531_Admin\20261014135847570
+14/10/2026 01:58:50 م: Sucsses: Final ResourcesFolder path: 16531_Admin\20261014135847570\@[ISRC]@\resources
+14/10/2026 01:58:50 م: Sucsses: Retrieved folder paths for package: 16531
+14/10/2026 01:58:50 م: Starting GetCover...
+14/10/2026 01:58:50 م: Error: Provided path is empty. Exiting GetCover.
+14/10/2026 01:58:50 م: Start Getting Media For package info: 16531
+14/10/2026 01:58:52 م: Media data generated successfully.
+14/10/2026 01:58:52 م: Starting GetFolderPaths...
+14/10/2026 01:58:52 م: Fetching package folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:58:52 م: Sucsses: PackageFolder set to: 20261014135847570
+14/10/2026 01:58:52 م: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:58:52 م: Sucsses: ResourcesFolder set to: 20261014135847570\@[ISRC]@\resources
+14/10/2026 01:58:52 م: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:58:52 م: Sucsses: MetadataFile path set to: 20261014135847570\EGA012604602\EGA012604602.xml
+14/10/2026 01:58:52 م: Sucsses: Final PackageFolder path: 16531_Admin\20261014135847570
+14/10/2026 01:58:52 م: Sucsses: Final ResourcesFolder path: 16531_Admin\20261014135847570\@[ISRC]@\resources
+14/10/2026 01:58:52 م: Processing group with Album UPC: 6221117234766
+14/10/2026 01:58:52 م: Starting GetFolderPaths...
+14/10/2026 01:58:52 م: Sucsses: PackageFolder trimmed to: 20261014135847570
+14/10/2026 01:58:52 م: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:58:52 م: Sucsses: ResourcesFolder set to: 20261014135847570\@[ISRC]@\resources
+14/10/2026 01:58:52 م: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:58:52 م: Sucsses: MetadataFile path set to: 20261014135847570\EGA012604603\EGA012604603.xml
+14/10/2026 01:58:52 م: Sucsses: Final PackageFolder path: 16531_Admin\20261014135847570
+14/10/2026 01:58:52 م: Sucsses: Final ResourcesFolder path: 16531_Admin\20261014135847570\@[ISRC]@\resources
+14/10/2026 01:58:52 م: Sucsses: Retrieved folder paths for package: 16531
+14/10/2026 01:58:52 م: Starting GetCover...
+14/10/2026 01:58:52 م: Error: Provided path is empty. Exiting GetCover.
+14/10/2026 01:58:52 م: Start Getting Media For package info: 16531
+14/10/2026 01:58:55 م: Media data generated successfully.
+14/10/2026 01:58:55 م: Starting GetFolderPaths...
+14/10/2026 01:58:55 م: Fetching package folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:58:55 م: Sucsses: PackageFolder set to: 20261014135847570
+14/10/2026 01:58:55 م: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:58:55 م: Sucsses: ResourcesFolder set to: 20261014135847570\@[ISRC]@\resources
+14/10/2026 01:58:55 م: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:58:55 م: Sucsses: MetadataFile path set to: 20261014135847570\EGA012604603\EGA012604603.xml
+14/10/2026 01:58:55 م: Sucsses: Final PackageFolder path: 16531_Admin\20261014135847570
+14/10/2026 01:58:55 م: Sucsses: Final ResourcesFolder path: 16531_Admin\20261014135847570\@[ISRC]@\resources
+14/10/2026 01:58:55 م: Processing group with Album UPC: 6221117234773
+14/10/2026 01:58:55 م: Starting GetFolderPaths...
+14/10/2026 01:58:55 م: Sucsses: PackageFolder trimmed to: 20261014135847570
+14/10/2026 01:58:55 م: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:58:55 م: Sucsses: ResourcesFolder set to: 20261014135847570\@[ISRC]@\resources
+14/10/2026 01:58:55 م: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:58:55 م: Sucsses: MetadataFile path set to: 20261014135847570\EGA012604604\EGA012604604.xml
+14/10/2026 01:58:55 م: Sucsses: Final PackageFolder path: 16531_Admin\20261014135847570
+14/10/2026 01:58:55 م: Sucsses: Final ResourcesFolder path: 16531_Admin\20261014135847570\@[ISRC]@\resources
+14/10/2026 01:58:55 م: Sucsses: Retrieved folder paths for package: 16531
+14/10/2026 01:58:55 م: Starting GetCover...
+14/10/2026 01:58:55 م: Error: Provided path is empty. Exiting GetCover.
+14/10/2026 01:58:55 م: Start Getting Media For package info: 16531
+14/10/2026 01:58:59 م: Media data generated successfully.
+14/10/2026 01:58:59 م: Starting GetFolderPaths...
+14/10/2026 01:58:59 م: Fetching package folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:58:59 م: Sucsses: PackageFolder set to: 20261014135847570
+14/10/2026 01:58:59 م: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:58:59 م: Sucsses: ResourcesFolder set to: 20261014135847570\@[ISRC]@\resources
+14/10/2026 01:58:59 م: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:58:59 م: Sucsses: MetadataFile path set to: 20261014135847570\EGA012604604\EGA012604604.xml
+14/10/2026 01:58:59 م: Sucsses: Final PackageFolder path: 16531_Admin\20261014135847570
+14/10/2026 01:58:59 م: Sucsses: Final ResourcesFolder path: 16531_Admin\20261014135847570\@[ISRC]@\resources
+14/10/2026 01:58:59 م: Processing group with Album UPC: 6221117234780
+14/10/2026 01:58:59 م: Starting GetFolderPaths...
+14/10/2026 01:58:59 م: Sucsses: PackageFolder trimmed to: 20261014135847570
+14/10/2026 01:58:59 م: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:58:59 م: Sucsses: ResourcesFolder set to: 20261014135847570\@[ISRC]@\resources
+14/10/2026 01:58:59 م: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:58:59 م: Sucsses: MetadataFile path set to: 20261014135847570\EGA012604605\EGA012604605.xml
+14/10/2026 01:58:59 م: Sucsses: Final PackageFolder path: 16531_Admin\20261014135847570
+14/10/2026 01:58:59 م: Sucsses: Final ResourcesFolder path: 16531_Admin\20261014135847570\@[ISRC]@\resources
+14/10/2026 01:58:59 م: Sucsses: Retrieved folder paths for package: 16531
+14/10/2026 01:58:59 م: Starting GetCover...
+14/10/2026 01:58:59 م: Error: Provided path is empty. Exiting GetCover.
+14/10/2026 01:58:59 م: Start Getting Media For package info: 16531
+14/10/2026 01:59:05 م: Media data generated successfully.
+14/10/2026 01:59:05 م: Starting GetFolderPaths...
+14/10/2026 01:59:05 م: Fetching package folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:59:05 م: Sucsses: PackageFolder set to: 20261014135847570
+14/10/2026 01:59:05 م: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:59:05 م: Sucsses: ResourcesFolder set to: 20261014135847570\@[ISRC]@\resources
+14/10/2026 01:59:05 م: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:59:05 م: Sucsses: MetadataFile path set to: 20261014135847570\EGA012604605\EGA012604605.xml
+14/10/2026 01:59:05 م: Sucsses: Final PackageFolder path: 16531_Admin\20261014135847570
+14/10/2026 01:59:05 م: Sucsses: Final ResourcesFolder path: 16531_Admin\20261014135847570\@[ISRC]@\resources
+14/10/2026 01:59:05 م: Processing group with Album UPC: 6221117234797
+14/10/2026 01:59:05 م: Starting GetFolderPaths...
+14/10/2026 01:59:05 م: Sucsses: PackageFolder trimmed to: 20261014135847570
+14/10/2026 01:59:05 م: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:59:05 م: Sucsses: ResourcesFolder set to: 20261014135847570\@[ISRC]@\resources
+14/10/2026 01:59:05 م: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:59:05 م: Sucsses: MetadataFile path set to: 20261014135847570\EGA012604606\EGA012604606.xml
+14/10/2026 01:59:05 م: Sucsses: Final PackageFolder path: 16531_Admin\20261014135847570
+14/10/2026 01:59:05 م: Sucsses: Final ResourcesFolder path: 16531_Admin\20261014135847570\@[ISRC]@\resources
+14/10/2026 01:59:05 م: Sucsses: Retrieved folder paths for package: 16531
+14/10/2026 01:59:05 م: Starting GetCover...
+14/10/2026 01:59:05 م: Error: Provided path is empty. Exiting GetCover.
+14/10/2026 01:59:05 م: Start Getting Media For package info: 16531
+14/10/2026 01:59:10 م: Media data generated successfully.
+14/10/2026 01:59:10 م: Starting GetFolderPaths...
+14/10/2026 01:59:10 م: Fetching package folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:59:10 م: Sucsses: PackageFolder set to: 20261014135847570
+14/10/2026 01:59:10 م: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:59:10 م: Sucsses: ResourcesFolder set to: 20261014135847570\@[ISRC]@\resources
+14/10/2026 01:59:10 م: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:59:10 م: Sucsses: MetadataFile path set to: 20261014135847570\EGA012604606\EGA012604606.xml
+14/10/2026 01:59:10 م: Sucsses: Final PackageFolder path: 16531_Admin\20261014135847570
+14/10/2026 01:59:10 م: Sucsses: Final ResourcesFolder path: 16531_Admin\20261014135847570\@[ISRC]@\resources
+14/10/2026 01:59:10 م: Processing group with Album UPC: 6221117234803
+14/10/2026 01:59:10 م: Starting GetFolderPaths...
+14/10/2026 01:59:10 م: Sucsses: PackageFolder trimmed to: 20261014135847570
+14/10/2026 01:59:10 م: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:59:10 م: Sucsses: ResourcesFolder set to: 20261014135847570\@[ISRC]@\resources
+14/10/2026 01:59:10 م: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:59:10 م: Sucsses: MetadataFile path set to: 20261014135847570\EGA012604607\EGA012604607.xml
+14/10/2026 01:59:10 م: Sucsses: Final PackageFolder path: 16531_Admin\20261014135847570
+14/10/2026 01:59:10 م: Sucsses: Final ResourcesFolder path: 16531_Admin\20261014135847570\@[ISRC]@\resources
+14/10/2026 01:59:10 م: Sucsses: Retrieved folder paths for package: 16531
+14/10/2026 01:59:10 م: Starting GetCover...
+14/10/2026 01:59:10 م: Error: Provided path is empty. Exiting GetCover.
+14/10/2026 01:59:10 م: Start Getting Media For package info: 16531
+14/10/2026 01:59:16 م: Media data generated successfully.
+14/10/2026 01:59:16 م: Starting GetFolderPaths...
+14/10/2026 01:59:16 م: Fetching package folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:59:16 م: Sucsses: PackageFolder set to: 20261014135847570
+14/10/2026 01:59:16 م: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:59:16 م: Sucsses: ResourcesFolder set to: 20261014135847570\@[ISRC]@\resources
+14/10/2026 01:59:16 م: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:59:16 م: Sucsses: MetadataFile path set to: 20261014135847570\EGA012604607\EGA012604607.xml
+14/10/2026 01:59:16 م: Sucsses: Final PackageFolder path: 16531_Admin\20261014135847570
+14/10/2026 01:59:16 م: Sucsses: Final ResourcesFolder path: 16531_Admin\20261014135847570\@[ISRC]@\resources
+14/10/2026 01:59:16 م: Processing group with Album UPC: 6221117234810
+14/10/2026 01:59:16 م: Starting GetFolderPaths...
+14/10/2026 01:59:16 م: Sucsses: PackageFolder trimmed to: 20261014135847570
+14/10/2026 01:59:16 م: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:59:16 م: Sucsses: ResourcesFolder set to: 20261014135847570\@[ISRC]@\resources
+14/10/2026 01:59:16 م: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:59:16 م: Sucsses: MetadataFile path set to: 20261014135847570\EGA012604608\EGA012604608.xml
+14/10/2026 01:59:16 م: Sucsses: Final PackageFolder path: 16531_Admin\20261014135847570
+14/10/2026 01:59:16 م: Sucsses: Final ResourcesFolder path: 16531_Admin\20261014135847570\@[ISRC]@\resources
+14/10/2026 01:59:16 م: Sucsses: Retrieved folder paths for package: 16531
+14/10/2026 01:59:16 م: Starting GetCover...
+14/10/2026 01:59:16 م: Error: Provided path is empty. Exiting GetCover.
+14/10/2026 01:59:16 م: Start Getting Media For package info: 16531
+14/10/2026 01:59:22 م: Media data generated successfully.
+14/10/2026 01:59:22 م: Starting GetFolderPaths...
+14/10/2026 01:59:22 م: Fetching package folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:59:22 م: Sucsses: PackageFolder set to: 20261014135847570
+14/10/2026 01:59:22 م: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:59:22 م: Sucsses: ResourcesFolder set to: 20261014135847570\@[ISRC]@\resources
+14/10/2026 01:59:22 م: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:59:22 م: Sucsses: MetadataFile path set to: 20261014135847570\EGA012604608\EGA012604608.xml
+14/10/2026 01:59:22 م: Sucsses: Final PackageFolder path: 16531_Admin\20261014135847570
+14/10/2026 01:59:22 م: Sucsses: Final ResourcesFolder path: 16531_Admin\20261014135847570\@[ISRC]@\resources
+14/10/2026 01:59:22 م: Processing group with Album UPC: 6221117234827
+14/10/2026 01:59:22 م: Starting GetFolderPaths...
+14/10/2026 01:59:22 م: Sucsses: PackageFolder trimmed to: 20261014135847570
+14/10/2026 01:59:22 م: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:59:22 م: Sucsses: ResourcesFolder set to: 20261014135847570\@[ISRC]@\resources
+14/10/2026 01:59:22 م: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:59:22 م: Sucsses: MetadataFile path set to: 20261014135847570\EGA012604609\EGA012604609.xml
+14/10/2026 01:59:22 م: Sucsses: Final PackageFolder path: 16531_Admin\20261014135847570
+14/10/2026 01:59:22 م: Sucsses: Final ResourcesFolder path: 16531_Admin\20261014135847570\@[ISRC]@\resources
+14/10/2026 01:59:22 م: Sucsses: Retrieved folder paths for package: 16531
+14/10/2026 01:59:22 م: Starting GetCover...
+14/10/2026 01:59:22 م: Error: Provided path is empty. Exiting GetCover.
+14/10/2026 01:59:22 م: Start Getting Media For package info: 16531
+14/10/2026 01:59:27 م: Media data generated successfully.
+14/10/2026 01:59:27 م: Starting GetFolderPaths...
+14/10/2026 01:59:27 م: Fetching package folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:59:27 م: Sucsses: PackageFolder set to: 20261014135847570
+14/10/2026 01:59:27 م: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:59:27 م: Sucsses: ResourcesFolder set to: 20261014135847570\@[ISRC]@\resources
+14/10/2026 01:59:27 م: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:59:27 م: Sucsses: MetadataFile path set to: 20261014135847570\EGA012604609\EGA012604609.xml
+14/10/2026 01:59:27 م: Sucsses: Final PackageFolder path: 16531_Admin\20261014135847570
+14/10/2026 01:59:27 م: Sucsses: Final ResourcesFolder path: 16531_Admin\20261014135847570\@[ISRC]@\resources
+14/10/2026 01:59:28 م: Processing group with Album UPC: 6221117234834
+14/10/2026 01:59:28 م: Starting GetFolderPaths...
+14/10/2026 01:59:28 م: Sucsses: PackageFolder trimmed to: 20261014135847570
+14/10/2026 01:59:28 م: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:59:28 م: Sucsses: ResourcesFolder set to: 20261014135847570\@[ISRC]@\resources
+14/10/2026 01:59:28 م: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:59:28 م: Sucsses: MetadataFile path set to: 20261014135847570\EGA012604610\EGA012604610.xml
+14/10/2026 01:59:28 م: Sucsses: Final PackageFolder path: 16531_Admin\20261014135847570
+14/10/2026 01:59:28 م: Sucsses: Final ResourcesFolder path: 16531_Admin\20261014135847570\@[ISRC]@\resources
+14/10/2026 01:59:28 م: Sucsses: Retrieved folder paths for package: 16531
+14/10/2026 01:59:28 م: Starting GetCover...
+14/10/2026 01:59:28 م: Error: Provided path is empty. Exiting GetCover.
+14/10/2026 01:59:28 م: Start Getting Media For package info: 16531
+14/10/2026 01:59:39 م: Media data generated successfully.
+14/10/2026 01:59:39 م: Starting GetFolderPaths...
+14/10/2026 01:59:39 م: Fetching package folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:59:39 م: Sucsses: PackageFolder set to: 20261014135847570
+14/10/2026 01:59:39 م: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:59:39 م: Sucsses: ResourcesFolder set to: 20261014135847570\@[ISRC]@\resources
+14/10/2026 01:59:39 م: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-ST
+14/10/2026 01:59:39 م: Sucsses: MetadataFile path set to: 20261014135847570\EGA012604610\EGA012604610.xml
+14/10/2026 01:59:39 م: Sucsses: Final PackageFolder path: 16531_Admin\20261014135847570
+14/10/2026 01:59:39 م: Sucsses: Final ResourcesFolder path: 16531_Admin\20261014135847570\@[ISRC]@\resources
+14/10/2026 02:24:55 م: Starting XML generation for package ID: 12911, Filename: YouTube_SndRec_DS_Track_XML_Template.xml, Company: YouTube-Sound Rec (Track)-DS
+14/10/2026 02:24:57 م: Success: fetched package info for ID: 12911
+14/10/2026 02:24:57 م: Processing group with Album UPC: 6221117136152
+14/10/2026 02:24:57 م: Starting GetFolderPaths...
+14/10/2026 02:24:57 م: Fetching package folder for company: YouTube-Sound Rec (Track)-DS
+14/10/2026 02:24:57 م: Sucsses: PackageFolder set to: 20261014142457448
+14/10/2026 02:24:57 م: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-DS
+14/10/2026 02:24:57 م: Sucsses: ResourcesFolder set to: 20261014142457448\@[ISRC]@\resources
+14/10/2026 02:24:57 م: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-DS
+14/10/2026 02:24:57 م: Sucsses: MetadataFile path set to: 20261014142457448\EGA010557131\EGA010557131.xml
+14/10/2026 02:24:57 م: Sucsses: Final PackageFolder path: 12911_Admin\20261014142457448
+14/10/2026 02:24:57 م: Sucsses: Final ResourcesFolder path: 12911_Admin\20261014142457448\@[ISRC]@\resources
+14/10/2026 02:24:57 م: Sucsses: Retrieved folder paths for package: 12911
+14/10/2026 02:24:57 م: Starting GetCover...
+14/10/2026 02:24:57 م: Error: Provided path is empty. Exiting GetCover.
+14/10/2026 02:24:57 م: Start Getting Media For package info: 12911
+14/10/2026 02:25:00 م: Media data generated successfully.
+14/10/2026 02:25:00 م: Starting GetFolderPaths...
+14/10/2026 02:25:00 م: Fetching package folder for company: YouTube-Sound Rec (Track)-DS
+14/10/2026 02:25:00 م: Sucsses: PackageFolder set to: 20261014142457448
+14/10/2026 02:25:00 م: Sucsses: Fetching resources folder for company: YouTube-Sound Rec (Track)-DS
+14/10/2026 02:25:00 م: Sucsses: ResourcesFolder set to: 20261014142457448\@[ISRC]@\resources
+14/10/2026 02:25:00 م: Sucsses: Fetching metadata file path for company: YouTube-Sound Rec (Track)-DS
+14/10/2026 02:25:00 م: Sucsses: MetadataFile path set to: 20261014142457448\EGA010557131\EGA010557131.xml
+14/10/2026 02:25:00 م: Sucsses: Final PackageFolder path: 12911_Admin\20261014142457448
+14/10/2026 02:25:00 م: Sucsses: Final ResourcesFolder path: 12911_Admin\20261014142457448\@[ISRC]@\resources
+14/10/2026 02:25:00 م: Starting XML generation for package ID: 12921, Filename: YouTube_Music_DS_XML_Template.xml, Company: YouTube-Music-DS
+14/10/2026 02:25:00 م: Success: fetched package info for ID: 12921
+14/10/2026 02:25:00 م: Processing group with Album UPC: 6221117136152
+14/10/2026 02:25:00 م: Starting GetFolderPaths...
+14/10/2026 02:25:00 م: Fetching package folder for company: YouTube-Music-DS
+14/10/2026 02:25:00 م: Sucsses: PackageFolder set to: 20261014142500228
+14/10/2026 02:25:00 م: Sucsses: Fetching resources folder for company: YouTube-Music-DS
+14/10/2026 02:25:00 م: Sucsses: ResourcesFolder set to: 20261014142500228\6221117136152\resources
+14/10/2026 02:25:00 م: Sucsses: Fetching metadata file path for company: YouTube-Music-DS
+14/10/2026 02:25:00 م: Sucsses: MetadataFile path set to: 20261014142500228\6221117136152\6221117136152.xml
+14/10/2026 02:25:00 م: Sucsses: Final PackageFolder path: 12921_Admin\20261014142500228
+14/10/2026 02:25:00 م: Sucsses: Final ResourcesFolder path: 12921_Admin\20261014142500228\6221117136152\resources
+14/10/2026 02:25:00 م: Sucsses: Retrieved folder paths for package: 12921
+14/10/2026 02:25:00 م: Starting GetCover...
+14/10/2026 02:25:00 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117136152.jpg
+14/10/2026 02:25:00 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117136152.jpg
+14/10/2026 02:25:00 م: Sucsses: Created directory: C:\Pkg_Output\youtube-music-ds\12921_Admin\20261014142500228\6221117136152\resources
+14/10/2026 02:25:00 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\6221117136152.jpg
+14/10/2026 02:25:00 م: Sucsses: Copied cover file to: C:\Pkg_Output\youtube-music-ds\12921_Admin\20261014142500228\6221117136152\resources\6221117136152.jpg
+14/10/2026 02:25:00 م: Start Getting Media For package info: 12921
+14/10/2026 02:25:02 م: Media data generated successfully.
+14/10/2026 02:25:02 م: Success: generated XML for package ID: 12921

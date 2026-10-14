@@ -1,0 +1,643 @@
+11/10/2026 12:50:51 م: Starting XML generation for package ID: 15681, Filename: FB_Global_XML_Template.xml, Company: Facebook-Audio
+11/10/2026 12:50:51 م: Success: fetched package info for ID: 15681
+11/10/2026 12:50:51 م: Processing group with Album UPC: 703589772084
+11/10/2026 12:50:51 م: Starting GetFolderPaths...
+11/10/2026 12:50:51 م: Fetching package folder for company: Facebook-Audio
+11/10/2026 12:50:51 م: Sucsses: PackageFolder set to: 20261011125051899
+11/10/2026 12:50:51 م: Sucsses: Fetching resources folder for company: Facebook-Audio
+11/10/2026 12:50:51 م: Sucsses: ResourcesFolder set to: 20261011125051899\703589772084\resources
+11/10/2026 12:50:51 م: Sucsses: Fetching metadata file path for company: Facebook-Audio
+11/10/2026 12:50:51 م: Sucsses: MetadataFile path set to: 20261011125051899\703589772084\703589772084.xml
+11/10/2026 12:50:51 م: Sucsses: Final PackageFolder path: 15681\20261011125051899
+11/10/2026 12:50:51 م: Sucsses: Final ResourcesFolder path: 15681\20261011125051899\703589772084\resources
+11/10/2026 12:50:51 م: Sucsses: Retrieved folder paths for package: 15681
+11/10/2026 12:50:52 م: Starting GetCover...
+11/10/2026 12:50:52 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\703589772084.jpg
+11/10/2026 12:50:52 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\703589772084.jpg
+11/10/2026 12:50:52 م: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\15681\20261011125051899\703589772084\resources
+11/10/2026 12:50:52 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\703589772084.jpg
+11/10/2026 12:50:52 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\15681\20261011125051899\703589772084\resources\703589772084.jpg
+11/10/2026 12:50:52 م: Start Getting Media For package info: 15681
+11/10/2026 12:50:59 م: Media data generated successfully.
+11/10/2026 12:51:00 م: Success: generated XML for package ID: 15681
+11/10/2026 12:51:00 م: Processing group with Album UPC: 747971655104
+11/10/2026 12:51:00 م: Starting GetFolderPaths...
+11/10/2026 12:51:00 م: Sucsses: PackageFolder trimmed to: 20261011125051899
+11/10/2026 12:51:00 م: Sucsses: Fetching resources folder for company: Facebook-Audio
+11/10/2026 12:51:00 م: Sucsses: ResourcesFolder set to: 20261011125051899\747971655104\resources
+11/10/2026 12:51:00 م: Sucsses: Fetching metadata file path for company: Facebook-Audio
+11/10/2026 12:51:00 م: Sucsses: MetadataFile path set to: 20261011125051899\747971655104\747971655104.xml
+11/10/2026 12:51:00 م: Sucsses: Final PackageFolder path: 15681\20261011125051899
+11/10/2026 12:51:00 م: Sucsses: Final ResourcesFolder path: 15681\20261011125051899\747971655104\resources
+11/10/2026 12:51:00 م: Sucsses: Retrieved folder paths for package: 15681
+11/10/2026 12:51:00 م: Starting GetCover...
+11/10/2026 12:51:00 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\747971655104.jpg
+11/10/2026 12:51:00 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\747971655104.jpg
+11/10/2026 12:51:00 م: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\15681\20261011125051899\747971655104\resources
+11/10/2026 12:51:00 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\747971655104.jpg
+11/10/2026 12:51:00 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\15681\20261011125051899\747971655104\resources\747971655104.jpg
+11/10/2026 12:51:00 م: Start Getting Media For package info: 15681
+11/10/2026 12:51:04 م: Media data generated successfully.
+11/10/2026 12:51:04 م: Success: generated XML for package ID: 15681
+11/10/2026 12:51:04 م: Processing group with Album UPC: 724523251380
+11/10/2026 12:51:05 م: Starting GetFolderPaths...
+11/10/2026 12:51:05 م: Sucsses: PackageFolder trimmed to: 20261011125051899
+11/10/2026 12:51:05 م: Sucsses: Fetching resources folder for company: Facebook-Audio
+11/10/2026 12:51:05 م: Sucsses: ResourcesFolder set to: 20261011125051899\724523251380\resources
+11/10/2026 12:51:05 م: Sucsses: Fetching metadata file path for company: Facebook-Audio
+11/10/2026 12:51:05 م: Sucsses: MetadataFile path set to: 20261011125051899\724523251380\724523251380.xml
+11/10/2026 12:51:05 م: Sucsses: Final PackageFolder path: 15681\20261011125051899
+11/10/2026 12:51:05 م: Sucsses: Final ResourcesFolder path: 15681\20261011125051899\724523251380\resources
+11/10/2026 12:51:05 م: Sucsses: Retrieved folder paths for package: 15681
+11/10/2026 12:51:05 م: Starting GetCover...
+11/10/2026 12:51:05 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\724523251380.jpg
+11/10/2026 12:51:05 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\724523251380.jpg
+11/10/2026 12:51:05 م: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\15681\20261011125051899\724523251380\resources
+11/10/2026 12:51:05 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\724523251380.jpg
+11/10/2026 12:51:05 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\15681\20261011125051899\724523251380\resources\724523251380.jpg
+11/10/2026 12:51:05 م: Start Getting Media For package info: 15681
+11/10/2026 12:51:09 م: Media data generated successfully.
+11/10/2026 12:51:09 م: Success: generated XML for package ID: 15681
+11/10/2026 12:51:09 م: Processing group with Album UPC: 52599194035
+11/10/2026 12:51:09 م: Starting GetFolderPaths...
+11/10/2026 12:51:09 م: Sucsses: PackageFolder trimmed to: 20261011125051899
+11/10/2026 12:51:09 م: Sucsses: Fetching resources folder for company: Facebook-Audio
+11/10/2026 12:51:09 م: Sucsses: ResourcesFolder set to: 20261011125051899\52599194035\resources
+11/10/2026 12:51:09 م: Sucsses: Fetching metadata file path for company: Facebook-Audio
+11/10/2026 12:51:09 م: Sucsses: MetadataFile path set to: 20261011125051899\52599194035\52599194035.xml
+11/10/2026 12:51:09 م: Sucsses: Final PackageFolder path: 15681\20261011125051899
+11/10/2026 12:51:09 م: Sucsses: Final ResourcesFolder path: 15681\20261011125051899\52599194035\resources
+11/10/2026 12:51:09 م: Sucsses: Retrieved folder paths for package: 15681
+11/10/2026 12:51:10 م: Starting GetCover...
+11/10/2026 12:51:10 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\52599194035.jpg
+11/10/2026 12:51:10 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\52599194035.jpg
+11/10/2026 12:51:10 م: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\15681\20261011125051899\52599194035\resources
+11/10/2026 12:51:10 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\52599194035.jpg
+11/10/2026 12:51:10 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\15681\20261011125051899\52599194035\resources\52599194035.jpg
+11/10/2026 12:51:10 م: Start Getting Media For package info: 15681
+11/10/2026 12:51:14 م: Media data generated successfully.
+11/10/2026 12:51:14 م: Success: generated XML for package ID: 15681
+11/10/2026 12:51:14 م: Processing group with Album UPC: 739915075390
+11/10/2026 12:51:14 م: Starting GetFolderPaths...
+11/10/2026 12:51:14 م: Sucsses: PackageFolder trimmed to: 20261011125051899
+11/10/2026 12:51:14 م: Sucsses: Fetching resources folder for company: Facebook-Audio
+11/10/2026 12:51:14 م: Sucsses: ResourcesFolder set to: 20261011125051899\739915075390\resources
+11/10/2026 12:51:14 م: Sucsses: Fetching metadata file path for company: Facebook-Audio
+11/10/2026 12:51:14 م: Sucsses: MetadataFile path set to: 20261011125051899\739915075390\739915075390.xml
+11/10/2026 12:51:14 م: Sucsses: Final PackageFolder path: 15681\20261011125051899
+11/10/2026 12:51:14 م: Sucsses: Final ResourcesFolder path: 15681\20261011125051899\739915075390\resources
+11/10/2026 12:51:14 م: Sucsses: Retrieved folder paths for package: 15681
+11/10/2026 12:51:14 م: Starting GetCover...
+11/10/2026 12:51:14 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915075390.jpg
+11/10/2026 12:51:14 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915075390.jpg
+11/10/2026 12:51:14 م: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\15681\20261011125051899\739915075390\resources
+11/10/2026 12:51:14 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915075390.jpg
+11/10/2026 12:51:14 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\15681\20261011125051899\739915075390\resources\739915075390.jpg
+11/10/2026 12:51:14 م: Start Getting Media For package info: 15681
+11/10/2026 12:51:19 م: Media data generated successfully.
+11/10/2026 12:51:19 م: Success: generated XML for package ID: 15681
+11/10/2026 12:51:19 م: Processing group with Album UPC: 739915406095
+11/10/2026 12:51:19 م: Starting GetFolderPaths...
+11/10/2026 12:51:19 م: Sucsses: PackageFolder trimmed to: 20261011125051899
+11/10/2026 12:51:19 م: Sucsses: Fetching resources folder for company: Facebook-Audio
+11/10/2026 12:51:19 م: Sucsses: ResourcesFolder set to: 20261011125051899\739915406095\resources
+11/10/2026 12:51:19 م: Sucsses: Fetching metadata file path for company: Facebook-Audio
+11/10/2026 12:51:19 م: Sucsses: MetadataFile path set to: 20261011125051899\739915406095\739915406095.xml
+11/10/2026 12:51:19 م: Sucsses: Final PackageFolder path: 15681\20261011125051899
+11/10/2026 12:51:19 م: Sucsses: Final ResourcesFolder path: 15681\20261011125051899\739915406095\resources
+11/10/2026 12:51:19 م: Sucsses: Retrieved folder paths for package: 15681
+11/10/2026 12:51:19 م: Starting GetCover...
+11/10/2026 12:51:19 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915406095.jpg
+11/10/2026 12:51:19 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915406095.jpg
+11/10/2026 12:51:19 م: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\15681\20261011125051899\739915406095\resources
+11/10/2026 12:51:19 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915406095.jpg
+11/10/2026 12:51:19 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\15681\20261011125051899\739915406095\resources\739915406095.jpg
+11/10/2026 12:51:19 م: Start Getting Media For package info: 15681
+11/10/2026 12:51:24 م: Media data generated successfully.
+11/10/2026 12:51:24 م: Success: generated XML for package ID: 15681
+11/10/2026 12:51:24 م: Processing group with Album UPC: 739915654496
+11/10/2026 12:51:24 م: Starting GetFolderPaths...
+11/10/2026 12:51:24 م: Sucsses: PackageFolder trimmed to: 20261011125051899
+11/10/2026 12:51:24 م: Sucsses: Fetching resources folder for company: Facebook-Audio
+11/10/2026 12:51:24 م: Sucsses: ResourcesFolder set to: 20261011125051899\739915654496\resources
+11/10/2026 12:51:24 م: Sucsses: Fetching metadata file path for company: Facebook-Audio
+11/10/2026 12:51:24 م: Sucsses: MetadataFile path set to: 20261011125051899\739915654496\739915654496.xml
+11/10/2026 12:51:24 م: Sucsses: Final PackageFolder path: 15681\20261011125051899
+11/10/2026 12:51:24 م: Sucsses: Final ResourcesFolder path: 15681\20261011125051899\739915654496\resources
+11/10/2026 12:51:24 م: Sucsses: Retrieved folder paths for package: 15681
+11/10/2026 12:51:24 م: Starting GetCover...
+11/10/2026 12:51:24 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915654496.jpg
+11/10/2026 12:51:24 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915654496.jpg
+11/10/2026 12:51:24 م: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\15681\20261011125051899\739915654496\resources
+11/10/2026 12:51:24 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915654496.jpg
+11/10/2026 12:51:24 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\15681\20261011125051899\739915654496\resources\739915654496.jpg
+11/10/2026 12:51:24 م: Start Getting Media For package info: 15681
+11/10/2026 12:51:31 م: Media data generated successfully.
+11/10/2026 12:51:31 م: Success: generated XML for package ID: 15681
+11/10/2026 12:51:31 م: Processing group with Album UPC: 742121334007
+11/10/2026 12:51:31 م: Starting GetFolderPaths...
+11/10/2026 12:51:31 م: Sucsses: PackageFolder trimmed to: 20261011125051899
+11/10/2026 12:51:31 م: Sucsses: Fetching resources folder for company: Facebook-Audio
+11/10/2026 12:51:31 م: Sucsses: ResourcesFolder set to: 20261011125051899\742121334007\resources
+11/10/2026 12:51:31 م: Sucsses: Fetching metadata file path for company: Facebook-Audio
+11/10/2026 12:51:31 م: Sucsses: MetadataFile path set to: 20261011125051899\742121334007\742121334007.xml
+11/10/2026 12:51:31 م: Sucsses: Final PackageFolder path: 15681\20261011125051899
+11/10/2026 12:51:31 م: Sucsses: Final ResourcesFolder path: 15681\20261011125051899\742121334007\resources
+11/10/2026 12:51:31 م: Sucsses: Retrieved folder paths for package: 15681
+11/10/2026 12:51:31 م: Starting GetCover...
+11/10/2026 12:51:31 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\742121334007.jpg
+11/10/2026 12:51:31 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\742121334007.jpg
+11/10/2026 12:51:31 م: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\15681\20261011125051899\742121334007\resources
+11/10/2026 12:51:31 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\742121334007.jpg
+11/10/2026 12:51:32 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\15681\20261011125051899\742121334007\resources\742121334007.jpg
+11/10/2026 12:51:32 م: Start Getting Media For package info: 15681
+11/10/2026 12:51:37 م: Media data generated successfully.
+11/10/2026 12:51:37 م: Success: generated XML for package ID: 15681
+11/10/2026 12:51:37 م: Processing group with Album UPC: 742121684638
+11/10/2026 12:51:37 م: Starting GetFolderPaths...
+11/10/2026 12:51:37 م: Sucsses: PackageFolder trimmed to: 20261011125051899
+11/10/2026 12:51:37 م: Sucsses: Fetching resources folder for company: Facebook-Audio
+11/10/2026 12:51:37 م: Sucsses: ResourcesFolder set to: 20261011125051899\742121684638\resources
+11/10/2026 12:51:37 م: Sucsses: Fetching metadata file path for company: Facebook-Audio
+11/10/2026 12:51:37 م: Sucsses: MetadataFile path set to: 20261011125051899\742121684638\742121684638.xml
+11/10/2026 12:51:37 م: Sucsses: Final PackageFolder path: 15681\20261011125051899
+11/10/2026 12:51:37 م: Sucsses: Final ResourcesFolder path: 15681\20261011125051899\742121684638\resources
+11/10/2026 12:51:37 م: Sucsses: Retrieved folder paths for package: 15681
+11/10/2026 12:51:37 م: Starting GetCover...
+11/10/2026 12:51:37 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\742121684638.jpg
+11/10/2026 12:51:37 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\742121684638.jpg
+11/10/2026 12:51:37 م: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\15681\20261011125051899\742121684638\resources
+11/10/2026 12:51:37 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\742121684638.jpg
+11/10/2026 12:51:37 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\15681\20261011125051899\742121684638\resources\742121684638.jpg
+11/10/2026 12:51:37 م: Start Getting Media For package info: 15681
+11/10/2026 12:51:43 م: Media data generated successfully.
+11/10/2026 12:51:43 م: Success: generated XML for package ID: 15681
+11/10/2026 12:51:43 م: Processing group with Album UPC: 736084390965
+11/10/2026 12:51:43 م: Starting GetFolderPaths...
+11/10/2026 12:51:43 م: Sucsses: PackageFolder trimmed to: 20261011125051899
+11/10/2026 12:51:43 م: Sucsses: Fetching resources folder for company: Facebook-Audio
+11/10/2026 12:51:43 م: Sucsses: ResourcesFolder set to: 20261011125051899\736084390965\resources
+11/10/2026 12:51:43 م: Sucsses: Fetching metadata file path for company: Facebook-Audio
+11/10/2026 12:51:43 م: Sucsses: MetadataFile path set to: 20261011125051899\736084390965\736084390965.xml
+11/10/2026 12:51:43 م: Sucsses: Final PackageFolder path: 15681\20261011125051899
+11/10/2026 12:51:43 م: Sucsses: Final ResourcesFolder path: 15681\20261011125051899\736084390965\resources
+11/10/2026 12:51:43 م: Sucsses: Retrieved folder paths for package: 15681
+11/10/2026 12:51:43 م: Starting GetCover...
+11/10/2026 12:51:43 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\736084390965.jpg
+11/10/2026 12:51:43 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\736084390965.jpg
+11/10/2026 12:51:43 م: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\15681\20261011125051899\736084390965\resources
+11/10/2026 12:51:43 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\736084390965.jpg
+11/10/2026 12:51:44 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\15681\20261011125051899\736084390965\resources\736084390965.jpg
+11/10/2026 12:51:44 م: Start Getting Media For package info: 15681
+11/10/2026 12:51:51 م: Media data generated successfully.
+11/10/2026 12:51:51 م: Success: generated XML for package ID: 15681
+11/10/2026 12:51:51 م: Processing group with Album UPC: 745583203669
+11/10/2026 12:51:51 م: Starting GetFolderPaths...
+11/10/2026 12:51:51 م: Sucsses: PackageFolder trimmed to: 20261011125051899
+11/10/2026 12:51:51 م: Sucsses: Fetching resources folder for company: Facebook-Audio
+11/10/2026 12:51:51 م: Sucsses: ResourcesFolder set to: 20261011125051899\745583203669\resources
+11/10/2026 12:51:51 م: Sucsses: Fetching metadata file path for company: Facebook-Audio
+11/10/2026 12:51:51 م: Sucsses: MetadataFile path set to: 20261011125051899\745583203669\745583203669.xml
+11/10/2026 12:51:51 م: Sucsses: Final PackageFolder path: 15681\20261011125051899
+11/10/2026 12:51:51 م: Sucsses: Final ResourcesFolder path: 15681\20261011125051899\745583203669\resources
+11/10/2026 12:51:51 م: Sucsses: Retrieved folder paths for package: 15681
+11/10/2026 12:51:51 م: Starting GetCover...
+11/10/2026 12:51:51 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\745583203669.jpg
+11/10/2026 12:51:51 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\745583203669.jpg
+11/10/2026 12:51:51 م: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\15681\20261011125051899\745583203669\resources
+11/10/2026 12:51:51 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\745583203669.jpg
+11/10/2026 12:51:51 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\15681\20261011125051899\745583203669\resources\745583203669.jpg
+11/10/2026 12:51:51 م: Start Getting Media For package info: 15681
+11/10/2026 12:51:58 م: Media data generated successfully.
+11/10/2026 12:51:58 م: Success: generated XML for package ID: 15681
+11/10/2026 12:51:58 م: Processing group with Album UPC: 787960522314
+11/10/2026 12:51:58 م: Starting GetFolderPaths...
+11/10/2026 12:51:58 م: Sucsses: PackageFolder trimmed to: 20261011125051899
+11/10/2026 12:51:58 م: Sucsses: Fetching resources folder for company: Facebook-Audio
+11/10/2026 12:51:58 م: Sucsses: ResourcesFolder set to: 20261011125051899\787960522314\resources
+11/10/2026 12:51:58 م: Sucsses: Fetching metadata file path for company: Facebook-Audio
+11/10/2026 12:51:58 م: Sucsses: MetadataFile path set to: 20261011125051899\787960522314\787960522314.xml
+11/10/2026 12:51:58 م: Sucsses: Final PackageFolder path: 15681\20261011125051899
+11/10/2026 12:51:58 م: Sucsses: Final ResourcesFolder path: 15681\20261011125051899\787960522314\resources
+11/10/2026 12:51:58 م: Sucsses: Retrieved folder paths for package: 15681
+11/10/2026 12:51:58 م: Starting GetCover...
+11/10/2026 12:51:58 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\787960522314.jpg
+11/10/2026 12:51:58 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\787960522314.jpg
+11/10/2026 12:51:58 م: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\15681\20261011125051899\787960522314\resources
+11/10/2026 12:51:58 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\787960522314.jpg
+11/10/2026 12:51:58 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\15681\20261011125051899\787960522314\resources\787960522314.jpg
+11/10/2026 12:51:58 م: Start Getting Media For package info: 15681
+11/10/2026 12:52:06 م: Starting GetCover...
+11/10/2026 12:52:06 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\787960522314.jpg
+11/10/2026 12:52:06 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\787960522314.jpg
+11/10/2026 12:52:06 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\787960522314.jpg
+11/10/2026 12:52:06 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\15681\20261011125051899\787960522314\resources\787960522314.jpg
+11/10/2026 12:52:06 م: Start Getting Media For package info: 15681
+11/10/2026 12:52:11 م: Starting GetCover...
+11/10/2026 12:52:11 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\787960522314.jpg
+11/10/2026 12:52:11 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\787960522314.jpg
+11/10/2026 12:52:11 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\787960522314.jpg
+11/10/2026 12:52:11 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\15681\20261011125051899\787960522314\resources\787960522314.jpg
+11/10/2026 12:52:11 م: Start Getting Media For package info: 15681
+11/10/2026 12:52:18 م: Media data generated successfully.
+11/10/2026 12:52:18 م: Success: generated XML for package ID: 15681
+11/10/2026 12:52:18 م: Processing group with Album UPC: 739915521613
+11/10/2026 12:52:18 م: Starting GetFolderPaths...
+11/10/2026 12:52:18 م: Sucsses: PackageFolder trimmed to: 20261011125051899
+11/10/2026 12:52:18 م: Sucsses: Fetching resources folder for company: Facebook-Audio
+11/10/2026 12:52:18 م: Sucsses: ResourcesFolder set to: 20261011125051899\739915521613\resources
+11/10/2026 12:52:18 م: Sucsses: Fetching metadata file path for company: Facebook-Audio
+11/10/2026 12:52:18 م: Sucsses: MetadataFile path set to: 20261011125051899\739915521613\739915521613.xml
+11/10/2026 12:52:18 م: Sucsses: Final PackageFolder path: 15681\20261011125051899
+11/10/2026 12:52:18 م: Sucsses: Final ResourcesFolder path: 15681\20261011125051899\739915521613\resources
+11/10/2026 12:52:18 م: Sucsses: Retrieved folder paths for package: 15681
+11/10/2026 12:52:18 م: Starting GetCover...
+11/10/2026 12:52:18 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915521613.jpg
+11/10/2026 12:52:18 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915521613.jpg
+11/10/2026 12:52:18 م: Sucsses: Created directory: C:\Pkg_Output\facebook-audio\15681\20261011125051899\739915521613\resources
+11/10/2026 12:52:18 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915521613.jpg
+11/10/2026 12:52:18 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\15681\20261011125051899\739915521613\resources\739915521613.jpg
+11/10/2026 12:52:18 م: Start Getting Media For package info: 15681
+11/10/2026 12:52:26 م: Starting GetCover...
+11/10/2026 12:52:26 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915521613.jpg
+11/10/2026 12:52:26 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915521613.jpg
+11/10/2026 12:52:26 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915521613.jpg
+11/10/2026 12:52:27 م: Sucsses: Copied cover file to: C:\Pkg_Output\facebook-audio\15681\20261011125051899\739915521613\resources\739915521613.jpg
+11/10/2026 12:52:27 م: Start Getting Media For package info: 15681
+11/10/2026 12:52:35 م: Media data generated successfully.
+11/10/2026 12:52:35 م: Success: generated XML for package ID: 15681
+11/10/2026 01:43:55 م: Starting JSONL generation for package ID: 15711, Filename: Musixmatch_Template.jsonl, Company: Musixmatch
+11/10/2026 01:43:56 م: Success: fetched package info for ID: 15711
+11/10/2026 01:43:56 م: Processing group with Album UPC: 6221117230270
+11/10/2026 01:43:56 م: Starting GetFolderPaths...
+11/10/2026 01:43:56 م: Fetching package folder for company: Musixmatch
+11/10/2026 01:43:56 م: Sucsses: PackageFolder set to: batch_20261011134356
+11/10/2026 01:43:56 م: Sucsses: Fetching resources folder for company: Musixmatch
+11/10/2026 01:43:56 م: Sucsses: ResourcesFolder set to: batch_20261011134356
+11/10/2026 01:43:56 م: Sucsses: Fetching metadata file path for company: Musixmatch
+11/10/2026 01:43:56 م: Sucsses: MetadataFile path set to: batch_20261011134356\MAZZIKA_20261011134356.jsonl
+11/10/2026 01:43:56 م: Sucsses: Final PackageFolder path: 15711\batch_20261011134356
+11/10/2026 01:43:56 م: Sucsses: Final ResourcesFolder path: 15711\batch_20261011134356
+11/10/2026 01:43:56 م: Sucsses: Retrieved folder paths for package: 15711
+11/10/2026 01:43:56 م: Sucsses: Created output directory: C:\Pkg_Output\Musixmatch\15711\batch_20261011134356
+11/10/2026 01:43:56 م: Success: generated JSONL for package ID: 15711
+11/10/2026 01:43:56 م: Processing group with Album UPC: 6221117234421
+11/10/2026 01:43:56 م: Starting GetFolderPaths...
+11/10/2026 01:43:56 م: Sucsses: PackageFolder trimmed to: batch_20261011134356
+11/10/2026 01:43:56 م: Sucsses: Fetching resources folder for company: Musixmatch
+11/10/2026 01:43:56 م: Sucsses: ResourcesFolder set to: batch_20261011134356
+11/10/2026 01:43:56 م: Sucsses: Fetching metadata file path for company: Musixmatch
+11/10/2026 01:43:56 م: Sucsses: MetadataFile path set to: batch_20261011134356\MAZZIKA_20261011134356.jsonl
+11/10/2026 01:43:56 م: Sucsses: Final PackageFolder path: 15711\batch_20261011134356
+11/10/2026 01:43:56 م: Sucsses: Final ResourcesFolder path: 15711\batch_20261011134356
+11/10/2026 01:43:56 م: Sucsses: Retrieved folder paths for package: 15711
+11/10/2026 01:43:56 م: Success: generated JSONL for package ID: 15711
+11/10/2026 01:43:56 م: Processing group with Album UPC: 6221117234469
+11/10/2026 01:43:56 م: Starting GetFolderPaths...
+11/10/2026 01:43:56 م: Sucsses: PackageFolder trimmed to: batch_20261011134356
+11/10/2026 01:43:56 م: Sucsses: Fetching resources folder for company: Musixmatch
+11/10/2026 01:43:56 م: Sucsses: ResourcesFolder set to: batch_20261011134356
+11/10/2026 01:43:56 م: Sucsses: Fetching metadata file path for company: Musixmatch
+11/10/2026 01:43:56 م: Sucsses: MetadataFile path set to: batch_20261011134356\MAZZIKA_20261011134356.jsonl
+11/10/2026 01:43:56 م: Sucsses: Final PackageFolder path: 15711\batch_20261011134356
+11/10/2026 01:43:56 م: Sucsses: Final ResourcesFolder path: 15711\batch_20261011134356
+11/10/2026 01:43:56 م: Sucsses: Retrieved folder paths for package: 15711
+11/10/2026 01:43:56 م: Success: generated JSONL for package ID: 15711
+11/10/2026 03:48:10 م: Starting JSONL generation for package ID: 15911, Filename: Musixmatch_Template.jsonl, Company: Musixmatch
+11/10/2026 03:48:10 م: Success: fetched package info for ID: 15911
+11/10/2026 03:48:10 م: Processing group with Album UPC: 6221117230270
+11/10/2026 03:48:10 م: Starting GetFolderPaths...
+11/10/2026 03:48:10 م: Fetching package folder for company: Musixmatch
+11/10/2026 03:48:10 م: Sucsses: PackageFolder set to: batch_20261011154810
+11/10/2026 03:48:10 م: Sucsses: Fetching resources folder for company: Musixmatch
+11/10/2026 03:48:10 م: Sucsses: ResourcesFolder set to: batch_20261011154810
+11/10/2026 03:48:10 م: Sucsses: Fetching metadata file path for company: Musixmatch
+11/10/2026 03:48:10 م: Sucsses: MetadataFile path set to: batch_20261011154810\MAZZIKA_20261011154810.jsonl
+11/10/2026 03:48:10 م: Sucsses: Final PackageFolder path: 15911\batch_20261011154810
+11/10/2026 03:48:10 م: Sucsses: Final ResourcesFolder path: 15911\batch_20261011154810
+11/10/2026 03:48:10 م: Sucsses: Retrieved folder paths for package: 15911
+11/10/2026 03:48:10 م: Sucsses: Created output directory: C:\Pkg_Output\Musixmatch\15911\batch_20261011154810
+11/10/2026 03:48:10 م: Processing group with Album UPC: 6221117234421
+11/10/2026 03:48:10 م: Starting GetFolderPaths...
+11/10/2026 03:48:10 م: Sucsses: PackageFolder trimmed to: batch_20261011154810
+11/10/2026 03:48:10 م: Sucsses: Fetching resources folder for company: Musixmatch
+11/10/2026 03:48:10 م: Sucsses: ResourcesFolder set to: batch_20261011154810
+11/10/2026 03:48:10 م: Sucsses: Fetching metadata file path for company: Musixmatch
+11/10/2026 03:48:10 م: Sucsses: MetadataFile path set to: batch_20261011154810\MAZZIKA_20261011154810.jsonl
+11/10/2026 03:48:11 م: Sucsses: Final PackageFolder path: 15911\batch_20261011154810
+11/10/2026 03:48:11 م: Sucsses: Final ResourcesFolder path: 15911\batch_20261011154810
+11/10/2026 03:48:11 م: Sucsses: Retrieved folder paths for package: 15911
+11/10/2026 03:48:11 م: Processing group with Album UPC: 6221117234469
+11/10/2026 03:48:11 م: Starting GetFolderPaths...
+11/10/2026 03:48:11 م: Sucsses: PackageFolder trimmed to: batch_20261011154810
+11/10/2026 03:48:11 م: Sucsses: Fetching resources folder for company: Musixmatch
+11/10/2026 03:48:11 م: Sucsses: ResourcesFolder set to: batch_20261011154810
+11/10/2026 03:48:11 م: Sucsses: Fetching metadata file path for company: Musixmatch
+11/10/2026 03:48:11 م: Sucsses: MetadataFile path set to: batch_20261011154810\MAZZIKA_20261011154810.jsonl
+11/10/2026 03:48:11 م: Sucsses: Final PackageFolder path: 15911\batch_20261011154810
+11/10/2026 03:48:11 م: Sucsses: Final ResourcesFolder path: 15911\batch_20261011154810
+11/10/2026 03:48:11 م: Sucsses: Retrieved folder paths for package: 15911
+11/10/2026 03:48:11 م: Success: generated JSONL for package ID: 15911
+11/10/2026 03:58:15 م: Starting JSONL generation for package ID: 15921, Filename: Musixmatch_Template.jsonl, Company: Musixmatch
+11/10/2026 03:58:15 م: Success: fetched package info for ID: 15921
+11/10/2026 03:58:15 م: Processing group with Album UPC: 6221117230270
+11/10/2026 03:58:15 م: Starting GetFolderPaths...
+11/10/2026 03:58:15 م: Fetching package folder for company: Musixmatch
+11/10/2026 03:58:15 م: Sucsses: PackageFolder set to: batch_20261011154811
+11/10/2026 03:58:15 م: Sucsses: Fetching resources folder for company: Musixmatch
+11/10/2026 03:58:15 م: Sucsses: ResourcesFolder set to: batch_20261011154811
+11/10/2026 03:58:15 م: Sucsses: Fetching metadata file path for company: Musixmatch
+11/10/2026 03:58:15 م: Sucsses: MetadataFile path set to: batch_20261011154811\MAZZIKA_20261011154811.jsonl
+11/10/2026 03:58:15 م: Sucsses: Final PackageFolder path: 15921\batch_20261011154811
+11/10/2026 03:58:15 م: Sucsses: Final ResourcesFolder path: 15921\batch_20261011154811
+11/10/2026 03:58:15 م: Sucsses: Retrieved folder paths for package: 15921
+11/10/2026 03:58:15 م: Sucsses: Created output directory: C:\Pkg_Output\Musixmatch\15921\batch_20261011154811
+11/10/2026 03:58:15 م: Processing group with Album UPC: 6221117234421
+11/10/2026 03:58:15 م: Starting GetFolderPaths...
+11/10/2026 03:58:15 م: Sucsses: PackageFolder trimmed to: batch_20261011154811
+11/10/2026 03:58:15 م: Sucsses: Fetching resources folder for company: Musixmatch
+11/10/2026 03:58:15 م: Sucsses: ResourcesFolder set to: batch_20261011154811
+11/10/2026 03:58:15 م: Sucsses: Fetching metadata file path for company: Musixmatch
+11/10/2026 03:58:15 م: Sucsses: MetadataFile path set to: batch_20261011154811\MAZZIKA_20261011154811.jsonl
+11/10/2026 03:58:15 م: Sucsses: Final PackageFolder path: 15921\batch_20261011154811
+11/10/2026 03:58:15 م: Sucsses: Final ResourcesFolder path: 15921\batch_20261011154811
+11/10/2026 03:58:15 م: Sucsses: Retrieved folder paths for package: 15921
+11/10/2026 03:58:15 م: Processing group with Album UPC: 6221117234469
+11/10/2026 03:58:15 م: Starting GetFolderPaths...
+11/10/2026 03:58:15 م: Sucsses: PackageFolder trimmed to: batch_20261011154811
+11/10/2026 03:58:15 م: Sucsses: Fetching resources folder for company: Musixmatch
+11/10/2026 03:58:15 م: Sucsses: ResourcesFolder set to: batch_20261011154811
+11/10/2026 03:58:15 م: Sucsses: Fetching metadata file path for company: Musixmatch
+11/10/2026 03:58:15 م: Sucsses: MetadataFile path set to: batch_20261011154811\MAZZIKA_20261011154811.jsonl
+11/10/2026 03:58:15 م: Sucsses: Final PackageFolder path: 15921\batch_20261011154811
+11/10/2026 03:58:15 م: Sucsses: Final ResourcesFolder path: 15921\batch_20261011154811
+11/10/2026 03:58:15 م: Sucsses: Retrieved folder paths for package: 15921
+11/10/2026 03:58:15 م: Success: generated JSONL for package ID: 15921
+11/10/2026 05:35:27 م: Starting XML generation for package ID: 15961, Filename: TikTok_DDEX_XML_Template.xml, Company: TikTok
+11/10/2026 05:35:27 م: Success: fetched package info for ID: 15961
+11/10/2026 05:35:27 م: Processing group with Album UPC: 703589772084
+11/10/2026 05:35:27 م: Starting GetFolderPaths...
+11/10/2026 05:35:27 م: Fetching package folder for company: TikTok
+11/10/2026 05:35:27 م: Sucsses: PackageFolder set to: batch_20261011155815
+11/10/2026 05:35:27 م: Sucsses: Fetching resources folder for company: TikTok
+11/10/2026 05:35:27 م: Sucsses: ResourcesFolder set to: batch_20261011155815\703589772084\resources
+11/10/2026 05:35:27 م: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2026 05:35:27 م: Sucsses: MetadataFile path set to: batch_20261011155815\703589772084\703589772084.xml
+11/10/2026 05:35:27 م: Sucsses: Final PackageFolder path: 15961\batch_20261011155815
+11/10/2026 05:35:27 م: Sucsses: Final ResourcesFolder path: 15961\batch_20261011155815\703589772084\resources
+11/10/2026 05:35:27 م: Sucsses: Retrieved folder paths for package: 15961
+11/10/2026 05:35:27 م: Starting GetCover...
+11/10/2026 05:35:28 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\703589772084.jpg
+11/10/2026 05:35:28 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\703589772084.jpg
+11/10/2026 05:35:28 م: Sucsses: Created directory: C:\Pkg_Output\tiktok\15961\batch_20261011155815\703589772084\resources
+11/10/2026 05:35:28 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\703589772084.jpg
+11/10/2026 05:35:28 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\15961\batch_20261011155815\703589772084\resources\703589772084.jpg
+11/10/2026 05:35:28 م: Start Getting Media For package info: 15961
+11/10/2026 05:35:35 م: Media data generated successfully.
+11/10/2026 05:35:35 م: Success: generated XML for package ID: 15961
+11/10/2026 05:35:35 م: Processing group with Album UPC: 747971655104
+11/10/2026 05:35:35 م: Starting GetFolderPaths...
+11/10/2026 05:35:35 م: Sucsses: PackageFolder trimmed to: batch_20261011155815
+11/10/2026 05:35:35 م: Sucsses: Fetching resources folder for company: TikTok
+11/10/2026 05:35:35 م: Sucsses: ResourcesFolder set to: batch_20261011155815\747971655104\resources
+11/10/2026 05:35:35 م: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2026 05:35:35 م: Sucsses: MetadataFile path set to: batch_20261011155815\747971655104\747971655104.xml
+11/10/2026 05:35:35 م: Sucsses: Final PackageFolder path: 15961\batch_20261011155815
+11/10/2026 05:35:35 م: Sucsses: Final ResourcesFolder path: 15961\batch_20261011155815\747971655104\resources
+11/10/2026 05:35:35 م: Sucsses: Retrieved folder paths for package: 15961
+11/10/2026 05:35:35 م: Starting GetCover...
+11/10/2026 05:35:35 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\747971655104.jpg
+11/10/2026 05:35:35 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\747971655104.jpg
+11/10/2026 05:35:35 م: Sucsses: Created directory: C:\Pkg_Output\tiktok\15961\batch_20261011155815\747971655104\resources
+11/10/2026 05:35:35 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\747971655104.jpg
+11/10/2026 05:35:35 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\15961\batch_20261011155815\747971655104\resources\747971655104.jpg
+11/10/2026 05:35:35 م: Start Getting Media For package info: 15961
+11/10/2026 05:35:41 م: Media data generated successfully.
+11/10/2026 05:35:41 م: Success: generated XML for package ID: 15961
+11/10/2026 05:35:41 م: Processing group with Album UPC: 724523251380
+11/10/2026 05:35:41 م: Starting GetFolderPaths...
+11/10/2026 05:35:41 م: Sucsses: PackageFolder trimmed to: batch_20261011155815
+11/10/2026 05:35:41 م: Sucsses: Fetching resources folder for company: TikTok
+11/10/2026 05:35:41 م: Sucsses: ResourcesFolder set to: batch_20261011155815\724523251380\resources
+11/10/2026 05:35:41 م: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2026 05:35:41 م: Sucsses: MetadataFile path set to: batch_20261011155815\724523251380\724523251380.xml
+11/10/2026 05:35:41 م: Sucsses: Final PackageFolder path: 15961\batch_20261011155815
+11/10/2026 05:35:41 م: Sucsses: Final ResourcesFolder path: 15961\batch_20261011155815\724523251380\resources
+11/10/2026 05:35:41 م: Sucsses: Retrieved folder paths for package: 15961
+11/10/2026 05:35:41 م: Starting GetCover...
+11/10/2026 05:35:41 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\724523251380.jpg
+11/10/2026 05:35:41 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\724523251380.jpg
+11/10/2026 05:35:41 م: Sucsses: Created directory: C:\Pkg_Output\tiktok\15961\batch_20261011155815\724523251380\resources
+11/10/2026 05:35:41 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\724523251380.jpg
+11/10/2026 05:35:41 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\15961\batch_20261011155815\724523251380\resources\724523251380.jpg
+11/10/2026 05:35:41 م: Start Getting Media For package info: 15961
+11/10/2026 05:35:45 م: Media data generated successfully.
+11/10/2026 05:35:45 م: Success: generated XML for package ID: 15961
+11/10/2026 05:35:45 م: Processing group with Album UPC: 52599194035
+11/10/2026 05:35:45 م: Starting GetFolderPaths...
+11/10/2026 05:35:45 م: Sucsses: PackageFolder trimmed to: batch_20261011155815
+11/10/2026 05:35:45 م: Sucsses: Fetching resources folder for company: TikTok
+11/10/2026 05:35:45 م: Sucsses: ResourcesFolder set to: batch_20261011155815\52599194035\resources
+11/10/2026 05:35:45 م: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2026 05:35:45 م: Sucsses: MetadataFile path set to: batch_20261011155815\52599194035\52599194035.xml
+11/10/2026 05:35:45 م: Sucsses: Final PackageFolder path: 15961\batch_20261011155815
+11/10/2026 05:35:45 م: Sucsses: Final ResourcesFolder path: 15961\batch_20261011155815\52599194035\resources
+11/10/2026 05:35:45 م: Sucsses: Retrieved folder paths for package: 15961
+11/10/2026 05:35:45 م: Starting GetCover...
+11/10/2026 05:35:45 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\52599194035.jpg
+11/10/2026 05:35:45 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\52599194035.jpg
+11/10/2026 05:35:45 م: Sucsses: Created directory: C:\Pkg_Output\tiktok\15961\batch_20261011155815\52599194035\resources
+11/10/2026 05:35:45 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\52599194035.jpg
+11/10/2026 05:35:45 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\15961\batch_20261011155815\52599194035\resources\52599194035.jpg
+11/10/2026 05:35:45 م: Start Getting Media For package info: 15961
+11/10/2026 05:35:48 م: Media data generated successfully.
+11/10/2026 05:35:48 م: Success: generated XML for package ID: 15961
+11/10/2026 05:35:48 م: Processing group with Album UPC: 739915075390
+11/10/2026 05:35:48 م: Starting GetFolderPaths...
+11/10/2026 05:35:48 م: Sucsses: PackageFolder trimmed to: batch_20261011155815
+11/10/2026 05:35:48 م: Sucsses: Fetching resources folder for company: TikTok
+11/10/2026 05:35:48 م: Sucsses: ResourcesFolder set to: batch_20261011155815\739915075390\resources
+11/10/2026 05:35:48 م: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2026 05:35:48 م: Sucsses: MetadataFile path set to: batch_20261011155815\739915075390\739915075390.xml
+11/10/2026 05:35:48 م: Sucsses: Final PackageFolder path: 15961\batch_20261011155815
+11/10/2026 05:35:48 م: Sucsses: Final ResourcesFolder path: 15961\batch_20261011155815\739915075390\resources
+11/10/2026 05:35:48 م: Sucsses: Retrieved folder paths for package: 15961
+11/10/2026 05:35:48 م: Starting GetCover...
+11/10/2026 05:35:48 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915075390.jpg
+11/10/2026 05:35:48 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915075390.jpg
+11/10/2026 05:35:48 م: Sucsses: Created directory: C:\Pkg_Output\tiktok\15961\batch_20261011155815\739915075390\resources
+11/10/2026 05:35:48 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915075390.jpg
+11/10/2026 05:35:49 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\15961\batch_20261011155815\739915075390\resources\739915075390.jpg
+11/10/2026 05:35:49 م: Start Getting Media For package info: 15961
+11/10/2026 05:35:52 م: Media data generated successfully.
+11/10/2026 05:35:52 م: Success: generated XML for package ID: 15961
+11/10/2026 05:35:52 م: Processing group with Album UPC: 739915406095
+11/10/2026 05:35:52 م: Starting GetFolderPaths...
+11/10/2026 05:35:52 م: Sucsses: PackageFolder trimmed to: batch_20261011155815
+11/10/2026 05:35:52 م: Sucsses: Fetching resources folder for company: TikTok
+11/10/2026 05:35:52 م: Sucsses: ResourcesFolder set to: batch_20261011155815\739915406095\resources
+11/10/2026 05:35:52 م: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2026 05:35:52 م: Sucsses: MetadataFile path set to: batch_20261011155815\739915406095\739915406095.xml
+11/10/2026 05:35:52 م: Sucsses: Final PackageFolder path: 15961\batch_20261011155815
+11/10/2026 05:35:52 م: Sucsses: Final ResourcesFolder path: 15961\batch_20261011155815\739915406095\resources
+11/10/2026 05:35:52 م: Sucsses: Retrieved folder paths for package: 15961
+11/10/2026 05:35:52 م: Starting GetCover...
+11/10/2026 05:35:52 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915406095.jpg
+11/10/2026 05:35:52 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915406095.jpg
+11/10/2026 05:35:52 م: Sucsses: Created directory: C:\Pkg_Output\tiktok\15961\batch_20261011155815\739915406095\resources
+11/10/2026 05:35:53 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915406095.jpg
+11/10/2026 05:35:53 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\15961\batch_20261011155815\739915406095\resources\739915406095.jpg
+11/10/2026 05:35:53 م: Start Getting Media For package info: 15961
+11/10/2026 05:35:56 م: Media data generated successfully.
+11/10/2026 05:35:56 م: Success: generated XML for package ID: 15961
+11/10/2026 05:35:56 م: Processing group with Album UPC: 739915654496
+11/10/2026 05:35:56 م: Starting GetFolderPaths...
+11/10/2026 05:35:56 م: Sucsses: PackageFolder trimmed to: batch_20261011155815
+11/10/2026 05:35:56 م: Sucsses: Fetching resources folder for company: TikTok
+11/10/2026 05:35:56 م: Sucsses: ResourcesFolder set to: batch_20261011155815\739915654496\resources
+11/10/2026 05:35:56 م: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2026 05:35:56 م: Sucsses: MetadataFile path set to: batch_20261011155815\739915654496\739915654496.xml
+11/10/2026 05:35:56 م: Sucsses: Final PackageFolder path: 15961\batch_20261011155815
+11/10/2026 05:35:56 م: Sucsses: Final ResourcesFolder path: 15961\batch_20261011155815\739915654496\resources
+11/10/2026 05:35:56 م: Sucsses: Retrieved folder paths for package: 15961
+11/10/2026 05:35:56 م: Starting GetCover...
+11/10/2026 05:35:56 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915654496.jpg
+11/10/2026 05:35:56 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915654496.jpg
+11/10/2026 05:35:56 م: Sucsses: Created directory: C:\Pkg_Output\tiktok\15961\batch_20261011155815\739915654496\resources
+11/10/2026 05:35:56 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915654496.jpg
+11/10/2026 05:35:56 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\15961\batch_20261011155815\739915654496\resources\739915654496.jpg
+11/10/2026 05:35:56 م: Start Getting Media For package info: 15961
+11/10/2026 05:36:04 م: Media data generated successfully.
+11/10/2026 05:36:04 م: Success: generated XML for package ID: 15961
+11/10/2026 05:36:04 م: Processing group with Album UPC: 742121334007
+11/10/2026 05:36:04 م: Starting GetFolderPaths...
+11/10/2026 05:36:04 م: Sucsses: PackageFolder trimmed to: batch_20261011155815
+11/10/2026 05:36:04 م: Sucsses: Fetching resources folder for company: TikTok
+11/10/2026 05:36:04 م: Sucsses: ResourcesFolder set to: batch_20261011155815\742121334007\resources
+11/10/2026 05:36:04 م: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2026 05:36:04 م: Sucsses: MetadataFile path set to: batch_20261011155815\742121334007\742121334007.xml
+11/10/2026 05:36:04 م: Sucsses: Final PackageFolder path: 15961\batch_20261011155815
+11/10/2026 05:36:04 م: Sucsses: Final ResourcesFolder path: 15961\batch_20261011155815\742121334007\resources
+11/10/2026 05:36:04 م: Sucsses: Retrieved folder paths for package: 15961
+11/10/2026 05:36:04 م: Starting GetCover...
+11/10/2026 05:36:04 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\742121334007.jpg
+11/10/2026 05:36:04 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\742121334007.jpg
+11/10/2026 05:36:04 م: Sucsses: Created directory: C:\Pkg_Output\tiktok\15961\batch_20261011155815\742121334007\resources
+11/10/2026 05:36:04 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\742121334007.jpg
+11/10/2026 05:36:04 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\15961\batch_20261011155815\742121334007\resources\742121334007.jpg
+11/10/2026 05:36:04 م: Start Getting Media For package info: 15961
+11/10/2026 05:36:15 م: Media data generated successfully.
+11/10/2026 05:36:15 م: Success: generated XML for package ID: 15961
+11/10/2026 05:36:15 م: Processing group with Album UPC: 742121684638
+11/10/2026 05:36:15 م: Starting GetFolderPaths...
+11/10/2026 05:36:15 م: Sucsses: PackageFolder trimmed to: batch_20261011155815
+11/10/2026 05:36:15 م: Sucsses: Fetching resources folder for company: TikTok
+11/10/2026 05:36:15 م: Sucsses: ResourcesFolder set to: batch_20261011155815\742121684638\resources
+11/10/2026 05:36:15 م: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2026 05:36:15 م: Sucsses: MetadataFile path set to: batch_20261011155815\742121684638\742121684638.xml
+11/10/2026 05:36:15 م: Sucsses: Final PackageFolder path: 15961\batch_20261011155815
+11/10/2026 05:36:15 م: Sucsses: Final ResourcesFolder path: 15961\batch_20261011155815\742121684638\resources
+11/10/2026 05:36:15 م: Sucsses: Retrieved folder paths for package: 15961
+11/10/2026 05:36:15 م: Starting GetCover...
+11/10/2026 05:36:15 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\742121684638.jpg
+11/10/2026 05:36:15 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\742121684638.jpg
+11/10/2026 05:36:15 م: Sucsses: Created directory: C:\Pkg_Output\tiktok\15961\batch_20261011155815\742121684638\resources
+11/10/2026 05:36:15 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\742121684638.jpg
+11/10/2026 05:36:15 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\15961\batch_20261011155815\742121684638\resources\742121684638.jpg
+11/10/2026 05:36:15 م: Start Getting Media For package info: 15961
+11/10/2026 05:36:23 م: Media data generated successfully.
+11/10/2026 05:36:23 م: Success: generated XML for package ID: 15961
+11/10/2026 05:36:23 م: Processing group with Album UPC: 736084390965
+11/10/2026 05:36:23 م: Starting GetFolderPaths...
+11/10/2026 05:36:23 م: Sucsses: PackageFolder trimmed to: batch_20261011155815
+11/10/2026 05:36:23 م: Sucsses: Fetching resources folder for company: TikTok
+11/10/2026 05:36:23 م: Sucsses: ResourcesFolder set to: batch_20261011155815\736084390965\resources
+11/10/2026 05:36:23 م: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2026 05:36:23 م: Sucsses: MetadataFile path set to: batch_20261011155815\736084390965\736084390965.xml
+11/10/2026 05:36:23 م: Sucsses: Final PackageFolder path: 15961\batch_20261011155815
+11/10/2026 05:36:23 م: Sucsses: Final ResourcesFolder path: 15961\batch_20261011155815\736084390965\resources
+11/10/2026 05:36:23 م: Sucsses: Retrieved folder paths for package: 15961
+11/10/2026 05:36:23 م: Starting GetCover...
+11/10/2026 05:36:23 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\736084390965.jpg
+11/10/2026 05:36:23 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\736084390965.jpg
+11/10/2026 05:36:23 م: Sucsses: Created directory: C:\Pkg_Output\tiktok\15961\batch_20261011155815\736084390965\resources
+11/10/2026 05:36:23 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\736084390965.jpg
+11/10/2026 05:36:23 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\15961\batch_20261011155815\736084390965\resources\736084390965.jpg
+11/10/2026 05:36:23 م: Start Getting Media For package info: 15961
+11/10/2026 05:36:30 م: Media data generated successfully.
+11/10/2026 05:36:30 م: Success: generated XML for package ID: 15961
+11/10/2026 05:36:30 م: Processing group with Album UPC: 745583203669
+11/10/2026 05:36:30 م: Starting GetFolderPaths...
+11/10/2026 05:36:30 م: Sucsses: PackageFolder trimmed to: batch_20261011155815
+11/10/2026 05:36:30 م: Sucsses: Fetching resources folder for company: TikTok
+11/10/2026 05:36:30 م: Sucsses: ResourcesFolder set to: batch_20261011155815\745583203669\resources
+11/10/2026 05:36:30 م: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2026 05:36:30 م: Sucsses: MetadataFile path set to: batch_20261011155815\745583203669\745583203669.xml
+11/10/2026 05:36:30 م: Sucsses: Final PackageFolder path: 15961\batch_20261011155815
+11/10/2026 05:36:30 م: Sucsses: Final ResourcesFolder path: 15961\batch_20261011155815\745583203669\resources
+11/10/2026 05:36:30 م: Sucsses: Retrieved folder paths for package: 15961
+11/10/2026 05:36:30 م: Starting GetCover...
+11/10/2026 05:36:30 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\745583203669.jpg
+11/10/2026 05:36:30 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\745583203669.jpg
+11/10/2026 05:36:30 م: Sucsses: Created directory: C:\Pkg_Output\tiktok\15961\batch_20261011155815\745583203669\resources
+11/10/2026 05:36:31 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\745583203669.jpg
+11/10/2026 05:36:31 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\15961\batch_20261011155815\745583203669\resources\745583203669.jpg
+11/10/2026 05:36:31 م: Start Getting Media For package info: 15961
+11/10/2026 05:36:42 م: Media data generated successfully.
+11/10/2026 05:36:42 م: Success: generated XML for package ID: 15961
+11/10/2026 05:36:42 م: Processing group with Album UPC: 787960522314
+11/10/2026 05:36:42 م: Starting GetFolderPaths...
+11/10/2026 05:36:42 م: Sucsses: PackageFolder trimmed to: batch_20261011155815
+11/10/2026 05:36:42 م: Sucsses: Fetching resources folder for company: TikTok
+11/10/2026 05:36:42 م: Sucsses: ResourcesFolder set to: batch_20261011155815\787960522314\resources
+11/10/2026 05:36:42 م: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2026 05:36:42 م: Sucsses: MetadataFile path set to: batch_20261011155815\787960522314\787960522314.xml
+11/10/2026 05:36:42 م: Sucsses: Final PackageFolder path: 15961\batch_20261011155815
+11/10/2026 05:36:42 م: Sucsses: Final ResourcesFolder path: 15961\batch_20261011155815\787960522314\resources
+11/10/2026 05:36:42 م: Sucsses: Retrieved folder paths for package: 15961
+11/10/2026 05:36:43 م: Starting GetCover...
+11/10/2026 05:36:43 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\787960522314.jpg
+11/10/2026 05:36:43 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\787960522314.jpg
+11/10/2026 05:36:43 م: Sucsses: Created directory: C:\Pkg_Output\tiktok\15961\batch_20261011155815\787960522314\resources
+11/10/2026 05:36:43 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\787960522314.jpg
+11/10/2026 05:36:43 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\15961\batch_20261011155815\787960522314\resources\787960522314.jpg
+11/10/2026 05:36:43 م: Start Getting Media For package info: 15961
+11/10/2026 05:36:49 م: Starting GetCover...
+11/10/2026 05:36:49 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\787960522314.jpg
+11/10/2026 05:36:49 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\787960522314.jpg
+11/10/2026 05:36:49 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\787960522314.jpg
+11/10/2026 05:36:49 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\15961\batch_20261011155815\787960522314\resources\787960522314.jpg
+11/10/2026 05:36:49 م: Start Getting Media For package info: 15961
+11/10/2026 05:36:53 م: Starting GetCover...
+11/10/2026 05:36:53 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\787960522314.jpg
+11/10/2026 05:36:53 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\787960522314.jpg
+11/10/2026 05:36:53 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\787960522314.jpg
+11/10/2026 05:36:53 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\15961\batch_20261011155815\787960522314\resources\787960522314.jpg
+11/10/2026 05:36:53 م: Start Getting Media For package info: 15961
+11/10/2026 05:36:58 م: Media data generated successfully.
+11/10/2026 05:36:58 م: Success: generated XML for package ID: 15961
+11/10/2026 05:36:58 م: Processing group with Album UPC: 739915521613
+11/10/2026 05:36:58 م: Starting GetFolderPaths...
+11/10/2026 05:36:58 م: Sucsses: PackageFolder trimmed to: batch_20261011155815
+11/10/2026 05:36:58 م: Sucsses: Fetching resources folder for company: TikTok
+11/10/2026 05:36:58 م: Sucsses: ResourcesFolder set to: batch_20261011155815\739915521613\resources
+11/10/2026 05:36:58 م: Sucsses: Fetching metadata file path for company: TikTok
+11/10/2026 05:36:58 م: Sucsses: MetadataFile path set to: batch_20261011155815\739915521613\739915521613.xml
+11/10/2026 05:36:58 م: Sucsses: Final PackageFolder path: 15961\batch_20261011155815
+11/10/2026 05:36:58 م: Sucsses: Final ResourcesFolder path: 15961\batch_20261011155815\739915521613\resources
+11/10/2026 05:36:58 م: Sucsses: Retrieved folder paths for package: 15961
+11/10/2026 05:36:58 م: Starting GetCover...
+11/10/2026 05:36:58 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915521613.jpg
+11/10/2026 05:36:58 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915521613.jpg
+11/10/2026 05:36:58 م: Sucsses: Created directory: C:\Pkg_Output\tiktok\15961\batch_20261011155815\739915521613\resources
+11/10/2026 05:36:58 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915521613.jpg
+11/10/2026 05:36:58 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\15961\batch_20261011155815\739915521613\resources\739915521613.jpg
+11/10/2026 05:36:58 م: Start Getting Media For package info: 15961
+11/10/2026 05:37:06 م: Starting GetCover...
+11/10/2026 05:37:06 م: Sucsses: Searching for cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915521613.jpg
+11/10/2026 05:37:06 م: Sucsses: Found cover file: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915521613.jpg
+11/10/2026 05:37:06 م: Sucsses: Computed MD5 hash for: \\10.1.1.26\Data\FTP_Data\CMSDocs\AlbumsCovers\739915521613.jpg
+11/10/2026 05:37:06 م: Sucsses: Copied cover file to: C:\Pkg_Output\tiktok\15961\batch_20261011155815\739915521613\resources\739915521613.jpg
+11/10/2026 05:37:06 م: Start Getting Media For package info: 15961
+11/10/2026 05:37:14 م: Media data generated successfully.
+11/10/2026 05:37:14 م: Success: generated XML for package ID: 15961

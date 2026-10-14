@@ -14,7 +14,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.Identity.Client" Version="4.90.1" />
+		<PackageReference Include="Microsoft.Identity.Client" Version="4.91.0" />
 		<!-- Writes real Excel 97-2003 .xls files. Pinned: 2.7+ pulls RecyclableMemoryStream 3.x, which breaks EPPlus 6.0.3. -->
 		<PackageReference Include="NPOI" Version="2.6.2" />
 		<PackageReference Include="OfficeOpenXml.Extension.AspNetCore" Version="1.0.0" />
