@@ -1294,15 +1294,17 @@ namespace Package_Generator_Service
                                 xmlGenerator.Generate($"..\\..\\..\\Templates\\{PkgType_Name}\\" + filename, $"{companyFolderPath}\\" + $"{MetadataFile}", assetHashes, coverHashImage, album_num, ID, tracksize, null);
                                 if (store_id.ToString() == "59")
                                 {
-                                    //string CatlogQuery = $"Select catalog_id from [Digital_CMS].[dbo].[t_albums_info] Where album_upc = '{albumUPC}'";
-                                    //object CatlogIDOBJ = db.ExecuteScalar(CatlogQuery);
-                                    //int CatlogID = Convert.ToInt32(CatlogIDOBJ);
+                                    string UserID_Query = $"Select user_id from [DPackaging].[dbo].[packages] Where pkg_id = '{ID}'";
+                                    object UserIDObj = db.ExecuteScalar(UserID_Query);
+                                    string UserID = UserIDObj.ToString();
+
+
 
                                     string PKGFolder = PackageFolder.Split('\\')[1];
                                     string query = $"INSERT INTO [Digital_CMS].[dbo].[t_pkg_delivery] " +
                "([pkg_key],[catalog_id],[pkg_desc],[album_upc],[pkg_type],[delivery_user_id],[delivery_action_date],[delivery_last_user_id],[delivery_last_action_date],[delivery_upload_user_id],[delivery_upload_action_date],[status],[response_msg]) " +
                "VALUES " +
-               $"('{PKGFolder}','{2}','{DateTime.Now.ToString("yyyy-MM-dd")}','{albumUPC}','{PkgType_ID}','{username}','{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}','{username}','{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}',NULL,NULL,0,NULL)";
+               $"('{PKGFolder}','{2}','{DateTime.Now.ToString("yyyy-MM-dd")}','{albumUPC}','{PkgType_ID}','{UserID}','{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}','{UserID}','{DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")}',NULL,NULL,0,NULL)";
 
                                     db.ExecuteNonQuery(query);
                                 }
